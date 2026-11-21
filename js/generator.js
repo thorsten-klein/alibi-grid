@@ -6,17 +6,20 @@
 
 import { blockingSet, TRADES, castNames } from './themes.js';
 import { solve, neighbors, factValue, groupOf, cellOk, unaryOk, areasOf, compareText } from './rules.js';
-import { isDeducible, trialCount, MAX_TRIES } from './hints.js';
+import { isDeducible, trialCount, caseScore, MAX_TRIES } from './hints.js';
 
 export const SIZES = [4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 // Difficulty levels: how many "what if" steps the hints may need.
+// min, max: "what if" steps. hard, hardest: the step budget, so a case
+// does not feel harder than its group (see caseScore in hints.js):
+// at most this many steps of weight 3 or more, and no step heavier than this.
 export const DIFFICULTY = [
-  { name: 'Beginner', min: 0, max: 0 },
-  { name: 'Medium', min: 1, max: 2 },
-  { name: 'Hard', min: 3, max: 5 },
-  { name: 'Expert', min: 6, max: 10 },
-  { name: 'Extreme', min: 11, max: Infinity },
+  { name: 'Beginner', min: 0, max: 0, hard: 3, hardest: 4 },
+  { name: 'Medium', min: 1, max: 2, hard: 5, hardest: 5 },
+  { name: 'Hard', min: 3, max: 5, hard: 7, hardest: 6 },
+  { name: 'Expert', min: 6, max: 10, hard: 9, hardest: 7 },
+  { name: 'Extreme', min: 11, max: Infinity, hard: Infinity, hardest: Infinity },
 ];
 // Name of campaign case i, e.g. "Medium case 3" (counted within its group).
 // Extra cases (older cases that fit no group) are "Extra case 2".
@@ -56,73 +59,91 @@ function rng(seed) {
   return next;
 }
 
-// Split the board into rectangles, then merge some for L-shapes.
-function makeRooms(n, count, R) {
+// Cuts of rectangle x near its middle that leave both parts MIN_ROOM cells or more.
+function cutsOf(x) {
+  const near = (k, len) => k >= len / 3 && k <= (2 * len) / 3;
+  const cuts = [];
+  for (let k = 1; k < x.h; k++) if (near(k, x.h) && k * x.w >= MIN_ROOM && (x.h - k) * x.w >= MIN_ROOM) cuts.push(['h', k]);
+  for (let k = 1; k < x.w; k++) if (near(k, x.w) && k * x.h >= MIN_ROOM && (x.w - k) * x.h >= MIN_ROOM) cuts.push(['w', k]);
+  return cuts;
+}
+
+// Split the board into k rectangles. Always split the biggest one, near its middle.
+function splitBoard(n, k, R) {
   let rects = [{ r: 0, c: 0, h: n, w: n }];
-  const extra = n >= 6 ? R.int(3) : 0;
-  while (rects.length < count + extra) {
-    // Always split the biggest room, near its middle.
+  while (rects.length < k) {
     const x = rects.slice(1).reduce((a, b) => (b.h * b.w > a.h * a.w || (b.h * b.w === a.h * a.w && R() < 0.5) ? b : a), rects[0]);
-    const near = (k, len) => k >= len / 3 && k <= (2 * len) / 3;
-    const cuts = [];
-    for (let k = 1; k < x.h; k++) if (near(k, x.h) && k * x.w >= MIN_ROOM && (x.h - k) * x.w >= MIN_ROOM) cuts.push(['h', k]);
-    for (let k = 1; k < x.w; k++) if (near(k, x.w) && k * x.h >= MIN_ROOM && (x.w - k) * x.h >= MIN_ROOM) cuts.push(['w', k]);
+    const cuts = cutsOf(x);
     // (The biggest room can always be cut: checked over 100 000 boards of every size.)
     // Cut across the long side more often.
     const long = cuts.filter(([d]) => (d === 'h') === (x.h >= x.w));
-    const [d, k] = R.pick(long.length && R() < 0.75 ? long : cuts);
+    const [d, at] = R.pick(long.length && R() < 0.75 ? long : cuts);
     rects = rects.filter(y => y !== x);
-    if (d === 'h') rects.push({ ...x, h: k }, { ...x, r: x.r + k, h: x.h - k });
-    else rects.push({ ...x, w: k }, { ...x, c: x.c + k, w: x.w - k });
+    if (d === 'h') rects.push({ ...x, h: at }, { ...x, r: x.r + at, h: x.h - at });
+    else rects.push({ ...x, w: at }, { ...x, c: x.c + at, w: x.w - at });
   }
+  return rects;
+}
+
+// Rooms (ids) next to the cells whose room is inside, and not inside themselves.
+function roomsAround(n, rooms, inside) {
+  const nb = new Set();
+  for (let i = 0; i < n * n; i++) if (inside(rooms[i])) for (const j of neighbors(i, n)) if (!inside(rooms[j])) nb.add(rooms[j]);
+  return nb;
+}
+
+// Cells per room id.
+function roomSizes(rooms) {
+  const size = new Map();
+  rooms.forEach(k => size.set(k, (size.get(k) || 0) + 1));
+  return size;
+}
+
+// Room ids 0, 1, 2, … in the order they first show up. Returns them and the map old -> new.
+function renumber(rooms) {
+  const map = new Map();
+  const out = rooms.map(k => {
+    if (!map.has(k)) map.set(k, map.size);
+    return map.get(k);
+  });
+  return { rooms: out, map };
+}
+
+// Split the board into rectangles, then merge some for L-shapes.
+function makeRooms(n, count, R) {
+  const extra = n >= 6 ? R.int(3) : 0;
+  const rects = splitBoard(n, count + extra, R);
   const rooms = new Array(n * n);
   rects.forEach((x, k) => {
     for (let r = x.r; r < x.r + x.h; r++) for (let c = x.c; c < x.c + x.w; c++) rooms[r * n + c] = k;
   });
   // Merge the smallest room into its smallest neighbor until we have `count`.
   // This makes L-shapes and keeps sizes even.
-  let total = rects.length;
-  while (total > count) {
-    const size = new Map();
-    rooms.forEach(k => size.set(k, (size.get(k) || 0) + 1));
+  for (let total = rects.length; total > count; total--) {
+    const size = roomSizes(rooms);
     const ids = R.shuffle([...size.keys()]).sort((a, b) => size.get(a) - size.get(b));
     const a = ids[0];
-    const nb = new Set();
-    for (let i = 0; i < n * n; i++) if (rooms[i] === a) for (const j of neighbors(i, n)) if (rooms[j] !== a) nb.add(rooms[j]);
-    const b = [...nb].sort((x, y) => size.get(x) - size.get(y))[0];
+    const b = [...roomsAround(n, rooms, k => k === a)].sort((x, y) => size.get(x) - size.get(y))[0];
     for (let i = 0; i < n * n; i++) if (rooms[i] === a) rooms[i] = b;
-    total--;
   }
-  // Renumber 0..count-1.
-  const map = new Map();
-  return rooms.map(k => {
-    if (!map.has(k)) map.set(k, map.size);
-    return map.get(k);
-  });
+  return renumber(rooms).rooms;
 }
 
 // Merge rooms into one sea until it covers about a third of the board.
 // At least 2 rooms stay dry. Returns the new rooms and the sea room id.
 function makeSea(n, rooms, R) {
-  const size = new Map();
-  rooms.forEach(k => size.set(k, (size.get(k) || 0) + 1));
+  const size = roomSizes(rooms);
   const ids = [...size.keys()];
   const first = ids.slice(1).reduce((a, b) => (size.get(b) > size.get(a) ? b : a), ids[0]);
   const sea = new Set([first]);
   let total = size.get(first);
   while (total < 0.35 * n * n && ids.length - sea.size > 2) {
-    const nb = new Set();
     // The board is connected and at least 3 rooms are dry: the sea always has a dry neighbor.
-    for (let i = 0; i < n * n; i++) if (sea.has(rooms[i])) for (const j of neighbors(i, n)) if (!sea.has(rooms[j])) nb.add(rooms[j]);
-    const k = R.pick([...nb]);
+    const k = R.pick([...roomsAround(n, rooms, x => sea.has(x))]);
     sea.add(k);
     total += size.get(k);
   }
-  const map = new Map();
-  const out = rooms.map(k => (sea.has(k) ? first : k)).map(k => {
-    if (!map.has(k)) map.set(k, map.size);
-    return map.get(k);
-  });
+  const { rooms: out, map } = renumber(rooms.map(k => (sea.has(k) ? first : k)));
   return { rooms: out, sea: map.get(first) };
 }
 
@@ -150,10 +171,9 @@ function makeObjects(n, rooms, theme, R) {
   return objects;
 }
 
-// One door for each pair of rooms that touch (not the sea), and some windows
-// in the outer wall (not at sea).
-function makeDoorsAndWindows(n, rooms, sea, R) {
-  const walls = new Map(); // "a-b" -> list of [i, j]
+// Walls between two rooms (not the sea): "a-b" -> list of [i, j] cell pairs.
+function wallsBetween(n, rooms, sea) {
+  const walls = new Map();
   for (let i = 0; i < n * n; i++) {
     for (const j of [i % n < n - 1 ? i + 1 : -1, i + n < n * n ? i + n : -1]) {
       if (j < 0 || rooms[i] === rooms[j] || rooms[i] === sea || rooms[j] === sea) continue;
@@ -162,14 +182,26 @@ function makeDoorsAndWindows(n, rooms, sea, R) {
       walls.get(key).push([i, j]);
     }
   }
-  const doors = [...walls.keys()].sort(compareText).map(k => R.pick(walls.get(k)));
+  return walls;
+}
+
+// Spots in the outer wall (not at sea): [cell, side t/b/l/r].
+function edgeSpots(n, rooms, sea) {
   const edge = [];
   for (let i = 0; i < n * n; i++) {
     if (rooms[i] === sea) continue;
     const r = Math.floor(i / n), c = i % n;
     for (const [side, ok] of [['t', r === 0], ['b', r === n - 1], ['l', c === 0], ['r', c === n - 1]]) if (ok) edge.push([i, side]);
   }
-  const windows = R.shuffle(edge).slice(0, Math.max(2, Math.round(n * 0.6))).sort((a, b) => a[0] - b[0]);
+  return edge;
+}
+
+// One door for each pair of rooms that touch (not the sea), and some windows
+// in the outer wall (not at sea).
+function makeDoorsAndWindows(n, rooms, sea, R) {
+  const walls = wallsBetween(n, rooms, sea);
+  const doors = [...walls.keys()].sort(compareText).map(k => R.pick(walls.get(k)));
+  const windows = R.shuffle(edgeSpots(n, rooms, sea)).slice(0, Math.max(2, Math.round(n * 0.6))).sort((a, b) => a[0] - b[0]);
   return { doors, windows };
 }
 
@@ -244,9 +276,8 @@ function candidateClues(level, pos, area, R) {
 // Kinds of case facts.
 export const FACT_KINDS = ['onCount', 'nextCount', 'roomCount', 'furniture', 'edge', 'corner', 'doorCount', 'windowCount', 'alone', 'emptyRooms', 'touch', 'apart'];
 
-// Case facts that hold for the solution. `kinds`: allowed kinds.
-// At least one of each kind in `must`, then more up to 3.
-function candidateFacts(level, pos, blocking, kinds, must, R) {
+// Every case fact of the allowed kinds that holds for the solution, with its count.
+function allFactsFor(level, pos, blocking, kinds) {
   const out = [];
   const add = f => { if (kinds.includes(f.t)) out.push({ ...f, k: f.t === 'apart' ? undefined : factValue(level, f, pos) }); };
   for (const id of new Set(level.objects.filter(Boolean))) {
@@ -262,7 +293,13 @@ function candidateFacts(level, pos, blocking, kinds, must, R) {
     const f = { t: 'apart', v: g };
     if (pos.some((_, p) => groupOf(level, f, p)) && factValue(level, f, pos)) add(f);
   }
-  R.shuffle(out);
+  return out;
+}
+
+// Case facts that hold for the solution. `kinds`: allowed kinds.
+// At least one of each kind in `must`, then more up to 3.
+function candidateFacts(level, pos, blocking, kinds, must, R) {
+  const out = R.shuffle(allFactsFor(level, pos, blocking, kinds));
   const picked = [];
   for (const kind of must) { const f = out.find(x => x.t === kind); if (f) picked.push(f); }
   for (const f of out) if (picked.length < Math.max(3, must.length) && !picked.includes(f)) picked.push(f);
@@ -273,101 +310,147 @@ function candidateFacts(level, pos, blocking, kinds, must, R) {
 // so the kept clues are the more interesting ones.
 const DROP_ORDER = { door: 3, window: 3, row: 0, col: 0, room: 1, notRoom: 2, notBandit: 2, noTask: 2, on: 3, next: 3, same: 3, alone: 3, bandit: 3, withBandit: 3, task: 3, taskEither: 3 };
 
+// A number by board size: v of the first [max, v] with n <= max, else last.
+function bySize(n, steps, last) {
+  for (const [max, v] of steps) if (n <= max) return v;
+  return last;
+}
+
+// The special rules below get a context: the level, the solution pos, its areas,
+// the random numbers R, the cell tags so far, and helpers. Each returns false
+// when the board does not fit the rule.
+
+// Ranks: some rooms with people are court rooms. Nobles stand in them, commoners never do.
+function addRanks({ level, pos, R, rooms, sea, roomCount, roomsWithPeople }) {
+  const count = Math.max(1, Math.floor((roomCount - (sea >= 0 ? 1 : 0)) / 3));
+  level.court = R.shuffle(roomsWithPeople.slice()).slice(0, count).sort((a, b) => a - b);
+  level.rank = pos.map(i => {
+    const court = level.court.includes(rooms[i]);
+    if (R() >= 0.65) return 'knight';
+    return court ? 'noble' : 'commoner';
+  });
+  return true;
+}
+
+// Trades: some people have a trade. Work spots of a trade, some with their worker.
+function addTrades({ level, pos, R, n, tags, plain, occupied }) {
+  const used = R.shuffle(TRADES.map(t => t.id)).slice(0, bySize(n, [[6, 3], [9, 4]], 5));
+  level.trade = pos.map(() => (R() < 0.5 ? R.pick(used) : null));
+  pos.forEach((i, p) => { if (level.trade[p] && plain(i) && R() < 0.6) tags[i] = `t:${level.trade[p]}`; });
+  for (let i = 0; i < n * n; i++) if (!occupied.has(i) && plain(i) && R() < 0.12) tags[i] = `t:${R.pick(used)}`;
+  return true;
+}
+
+// Seals: moon (alone in the room) and sun (shares the room), under people and on empty cells.
+function addGlyphs({ pos, area, R, n, tags, plain, occupied, perArea }) {
+  pos.forEach(i => { if (!tags[i] && plain(i) && R() < 0.4) tags[i] = perArea.get(area[i]) === 1 ? 'lone' : 'crowd'; });
+  for (let i = 0; i < n * n; i++) if (!occupied.has(i) && !tags[i] && plain(i) && R() < 0.08) tags[i] = R() < 0.5 ? 'lone' : 'crowd';
+  return true;
+}
+
+// Hidden tasks: some people stand on task spots, more spots stay empty.
+function addTasks({ level, pos, R, n, tags, plain, occupied }) {
+  const used = R.shuffle(TRADES.map(t => t.id)).slice(0, bySize(n, [[6, 2], [9, 3]], 4));
+  const counts = new Map(used.map(id => [id, 0]));
+  pos.forEach(i => {
+    if (!tags[i] && plain(i) && R() < 0.3) { const id = R.pick(used); tags[i] = `k:${id}`; counts.set(id, counts.get(id) + 1); }
+  });
+  for (const id of used) {
+    const spare = [...new Array(n * n).keys()].filter(i => !occupied.has(i) && !tags[i] && plain(i));
+    for (const i of R.shuffle(spare).slice(0, 1 + R.int(3))) tags[i] = `k:${id}`;
+  }
+  level.tasks = used.filter(id => counts.get(id) > 0).map(id => [id, counts.get(id)]);
+  if (!level.tasks.length) return false;
+  // Spots of a task nobody does: drop them.
+  tags.forEach((t, i) => { if (t?.startsWith('k:') && !counts.get(t.slice(2))) tags[i] = null; });
+  return true;
+}
+
+// Full house: every land room must hold someone in the solution.
+function checkFullHouse({ pos, rooms, sea }) {
+  const used = new Set(pos.map(i => rooms[i]));
+  return ![...new Set(rooms)].some(k => k !== sea && !used.has(k));
+}
+
+// Couples: pairs that already stand diagonally next to each other in one room.
+// Never the victim or the murderer: their room holds just the two of them,
+// so a partner of either would give the murderer away (or not fit).
+function addCouples({ level, pos, area, R, n }) {
+  const victim = level.people.findIndex(x => x.victim);
+  const killer = pos.findIndex((i, q) => q !== victim && area[i] === area[pos[victim]]);
+  const pairs = [];
+  pos.forEach((i, p) => pos.forEach((j, q) => {
+    if (q > p && ![p, q].some(x => x === victim || x === killer) && area[i] === area[j] &&
+      Math.abs(Math.floor(i / n) - Math.floor(j / n)) === 1 && Math.abs((i % n) - (j % n)) === 1) pairs.push([p, q]);
+  }));
+  const taken = new Set();
+  const most = bySize(n, [[5, 1], [8, 2]], 3);
+  level.couples = [];
+  for (const [p, q] of R.shuffle(pairs)) {
+    if (taken.has(p) || taken.has(q) || level.couples.length >= most) continue;
+    level.couples.push([p, q]); taken.add(p); taken.add(q);
+  }
+  return level.couples.length > 0;
+}
+
+// Even and odd: some land rooms are marked with the parity of their people.
+function addParity({ level, pos, R, n, rooms, sea }) {
+  const count = k => pos.filter(i => rooms[i] === k).length;
+  const land = [...new Set(rooms)].filter(k => k !== sea);
+  level.parity = R.shuffle(land).slice(0, Math.min(land.length, n >= 9 ? 3 : 2))
+    .sort((a, b) => a - b).map(k => [k, count(k) % 2 ? 'odd' : 'even']);
+  return true;
+}
+
+// A river that winds: it moves left or right by up to 2 cells per step.
+function addRiver({ level, pos, R, n }) {
+  const dir = R() < 0.5 ? 'v' : 'h';
+  // Keep it away from the edges, so both sides matter.
+  const lo = n >= 6 ? 2 : 1, hi = n >= 6 ? n - 2 : n - 1;
+  const cut = [lo + R.int(hi - lo + 1)];
+  for (let k = 1; k < n; k++) cut.push(Math.min(hi, Math.max(lo, cut[k - 1] + R.int(5) - 2)));
+  if (new Set(cut).size < 3) return false;
+  const firstSide = i => (dir === 'v' ? i % n < cut[Math.floor(i / n)] : Math.floor(i / n) < cut[i % n]);
+  level.river = { dir, cut, first: pos.filter(firstSide).length };
+  return true;
+}
+
+// Bandits: a few people (never the victim). Some rooms without one are lawful (star rooms).
+function addBandits({ level, pos, R, n, rooms, roomsWithPeople }) {
+  const K = bySize(n, [[5, 1], [8, 2]], 3);
+  const victim = level.people.findIndex(p => p.victim);
+  const bandits = R.shuffle(pos.map((_, p) => p).filter(p => p !== victim)).slice(0, K);
+  const clean = roomsWithPeople.filter(k => !bandits.some(b => rooms[pos[b]] === k));
+  level.bandits = K;
+  level.lawful = R.shuffle(clean).slice(0, n >= 9 ? 2 : 1).sort((a, b) => a - b);
+  level.banditSol = bandits;
+  return true;
+}
+
+// The rules in the order they use random numbers. Tags are set on the level after tasks.
+const RULE_STEPS = [
+  ['ranks', addRanks], ['trades', addTrades], ['glyphs', addGlyphs], ['tasks', addTasks],
+  ['tags', null], ['fullhouse', checkFullHouse], ['couples', addCouples], ['parity', addParity],
+  ['river', addRiver], ['bandits', addBandits],
+];
+
 // Add the data for special rules to a level. Uses the solution `pos`.
-function addRules(level, rules, pos, area, blocking, R) {
+function addRules(level, rules, pos, area, R) {
   const n = level.size, { rooms, objects, sea } = level;
-  const has = r => rules.includes(r);
-  const roomCount = Math.max(...rooms) + 1;
-  const occupied = new Set(pos);
   const perArea = new Map();
   pos.forEach(i => perArea.set(area[i], (perArea.get(area[i]) || 0) + 1));
-  const plain = i => !objects[i] && rooms[i] !== sea;
-  const tags = new Array(n * n).fill(null);
-  const roomsWithPeople = [...new Set(pos.map(i => rooms[i]))].filter(k => k !== sea);
-
-  if (has('ranks')) {
-    const count = Math.max(1, Math.floor((roomCount - (sea >= 0 ? 1 : 0)) / 3));
-    level.court = R.shuffle(roomsWithPeople.slice()).slice(0, count).sort((a, b) => a - b);
-    level.rank = pos.map(i => (level.court.includes(rooms[i])
-      ? (R() < 0.65 ? 'noble' : 'knight')
-      : (R() < 0.65 ? 'commoner' : 'knight')));
-  }
-  if (has('trades')) {
-    const used = R.shuffle(TRADES.map(t => t.id)).slice(0, n <= 6 ? 3 : n <= 9 ? 4 : 5);
-    level.trade = pos.map(() => (R() < 0.5 ? R.pick(used) : null));
-    pos.forEach((i, p) => { if (level.trade[p] && plain(i) && R() < 0.6) tags[i] = `t:${level.trade[p]}`; });
-    for (let i = 0; i < n * n; i++) if (!occupied.has(i) && plain(i) && R() < 0.12) tags[i] = `t:${R.pick(used)}`;
-  }
-  if (has('glyphs')) {
-    pos.forEach(i => { if (!tags[i] && plain(i) && R() < 0.4) tags[i] = perArea.get(area[i]) === 1 ? 'lone' : 'crowd'; });
-    for (let i = 0; i < n * n; i++) if (!occupied.has(i) && !tags[i] && plain(i) && R() < 0.08) tags[i] = R() < 0.5 ? 'lone' : 'crowd';
-  }
-  if (has('tasks')) {
-    // Hidden tasks: some people stand on task spots, more spots stay empty.
-    const used = R.shuffle(TRADES.map(t => t.id)).slice(0, n <= 6 ? 2 : n <= 9 ? 3 : 4);
-    const counts = new Map(used.map(id => [id, 0]));
-    pos.forEach(i => {
-      if (!tags[i] && plain(i) && R() < 0.3) { const id = R.pick(used); tags[i] = `k:${id}`; counts.set(id, counts.get(id) + 1); }
-    });
-    for (const id of used) {
-      const spare = [...new Array(n * n).keys()].filter(i => !occupied.has(i) && !tags[i] && plain(i));
-      for (const i of R.shuffle(spare).slice(0, 1 + R.int(3))) tags[i] = `k:${id}`;
-    }
-    level.tasks = used.filter(id => counts.get(id) > 0).map(id => [id, counts.get(id)]);
-    if (!level.tasks.length) return false;
-    // Spots of a task nobody does: drop them.
-    tags.forEach((t, i) => { if (t?.startsWith('k:') && !counts.get(t.slice(2))) tags[i] = null; });
-  }
-  if (has('trades') || has('glyphs') || has('tasks')) level.tags = tags;
-  if (has('fullhouse')) {
-    // Every land room must hold someone in the solution.
-    const used = new Set(pos.map(i => rooms[i]));
-    if ([...new Set(rooms)].some(k => k !== sea && !used.has(k))) return false;
-  }
-  if (has('couples')) {
-    // Pairs that already stand diagonally next to each other in one room.
-    // Never the victim or the murderer: their room holds just the two of them,
-    // so a partner of either would give the murderer away (or not fit).
-    const victim = level.people.findIndex(x => x.victim);
-    const killer = pos.findIndex((i, q) => q !== victim && area[i] === area[pos[victim]]);
-    const pairs = [];
-    pos.forEach((i, p) => pos.forEach((j, q) => {
-      if (q > p && ![p, q].some(x => x === victim || x === killer) && area[i] === area[j] &&
-        Math.abs(Math.floor(i / n) - Math.floor(j / n)) === 1 && Math.abs((i % n) - (j % n)) === 1) pairs.push([p, q]);
-    }));
-    const taken = new Set();
-    level.couples = [];
-    for (const [p, q] of R.shuffle(pairs)) {
-      if (taken.has(p) || taken.has(q) || level.couples.length >= (n >= 9 ? 3 : n >= 6 ? 2 : 1)) continue;
-      level.couples.push([p, q]); taken.add(p); taken.add(q);
-    }
-    if (!level.couples.length) return false;
-  }
-  if (has('parity')) {
-    const count = k => pos.filter(i => rooms[i] === k).length;
-    const land = [...new Set(rooms)].filter(k => k !== sea);
-    level.parity = R.shuffle(land).slice(0, Math.min(land.length, n >= 9 ? 3 : 2))
-      .sort((a, b) => a - b).map(k => [k, count(k) % 2 ? 'odd' : 'even']);
-  }
-  if (has('river')) {
-    // A river that winds: it moves left or right by up to 2 cells per step.
-    const dir = R() < 0.5 ? 'v' : 'h';
-    // Keep it away from the edges, so both sides matter.
-    const lo = n >= 6 ? 2 : 1, hi = n >= 6 ? n - 2 : n - 1;
-    const cut = [lo + R.int(hi - lo + 1)];
-    for (let k = 1; k < n; k++) cut.push(Math.min(hi, Math.max(lo, cut[k - 1] + R.int(5) - 2)));
-    if (new Set(cut).size < 3) return false;
-    const sideOf = i => (dir === 'v' ? (i % n < cut[Math.floor(i / n)] ? 0 : 1) : (Math.floor(i / n) < cut[i % n] ? 0 : 1));
-    level.river = { dir, cut, first: pos.filter(i => sideOf(i) === 0).length };
-  }
-  if (has('bandits')) {
-    const K = n <= 5 ? 1 : n <= 8 ? 2 : 3;
-    const victim = level.people.findIndex(p => p.victim);
-    const bandits = R.shuffle(pos.map((_, p) => p).filter(p => p !== victim)).slice(0, K);
-    const clean = roomsWithPeople.filter(k => !bandits.some(b => rooms[pos[b]] === k));
-    level.bandits = K;
-    level.lawful = R.shuffle(clean).slice(0, n >= 9 ? 2 : 1).sort((a, b) => a - b);
-    level.banditSol = bandits;
+  const ctx = {
+    level, pos, area, R, n, rooms, sea, perArea,
+    roomCount: Math.max(...rooms) + 1,
+    occupied: new Set(pos),
+    plain: i => !objects[i] && rooms[i] !== sea,
+    tags: new Array(n * n).fill(null),
+    roomsWithPeople: [...new Set(pos.map(i => rooms[i]))].filter(k => k !== sea),
+  };
+  for (const [rule, add] of RULE_STEPS) {
+    if (rule === 'tags') {
+      if (['trades', 'glyphs', 'tasks'].some(r => rules.includes(r))) level.tags = ctx.tags;
+    } else if (rules.includes(rule) && !add(ctx)) return false;
   }
   return true;
 }
@@ -393,33 +476,45 @@ function withoutRule(level, rule) {
   return out;
 }
 
+// A limit: the most "what if" steps (a number), or a group like DIFFICULTY[g]
+// with its most tries and its step budget (most hard steps, hardest step).
+export function fitsLimit(level, blocking, limit) {
+  if (typeof limit === 'number') return isDeducible(level, blocking, limit);
+  const r = caseScore(level, blocking);
+  return !!r && r.tries <= limit.max && r.hard <= (limit.hard ?? Infinity) && r.hardest <= (limit.hardest ?? Infinity);
+}
+
 // True if the case still works: one solution, the stored one, and deducible step by step
-// with at most maxTries "what if" steps.
-function works(level, blocking, maxTries) {
+// within the limit.
+function works(level, blocking, limit) {
   const res = solve(level, blocking, { limit: 2, maxNodes: 200000 });
-  return !res.aborted && res.count === 1 && res.first.join() === level.solution.join() && isDeducible(level, blocking, maxTries);
+  return !res.aborted && res.count === 1 && res.first.join() === level.solution.join() && fitsLimit(level, blocking, limit);
 }
 
 // True if the case needs this rule: without it, it does not work.
-function ruleNeeded(level, rule, blocking, maxTries) {
-  return !works(withoutRule(level, rule), blocking, maxTries);
+function ruleNeeded(level, rule, blocking, limit) {
+  return !works(withoutRule(level, rule), blocking, limit);
+}
+
+// Drop the parts of level[key] the case can do without. True if one went.
+function dropFrom(level, key, blocking, limit) {
+  let changed = false;
+  for (const item of level[key].slice()) {
+    const rest = level[key].filter(x => x !== item);
+    if ((key === 'couples' || key === 'parity') && !rest.length) continue; // the rule itself stays
+    if (key === 'clues' && lastClue(level, item, rest)) continue; // everyone keeps a clue
+    if (works({ ...level, [key]: rest }, blocking, limit)) { level[key] = rest; changed = true; }
+  }
+  return changed;
 }
 
 // Drop every clue, couple and even/odd mark the case can do without.
 // Afterwards each one left is needed. Fixed order, so it needs no random numbers.
-function dropUnneeded(level, blocking, maxTries) {
+function dropUnneeded(level, blocking, limit) {
   // Repeat until nothing more can go: dropping one part can make another one redundant.
   for (let changed = true; changed;) {
     changed = false;
-    for (const key of ['clues', 'facts', 'couples', 'parity']) {
-      if (!level[key]) continue;
-      for (const item of level[key].slice()) {
-        const rest = level[key].filter(x => x !== item);
-        if ((key === 'couples' || key === 'parity') && !rest.length) continue; // the rule itself stays
-        if (key === 'clues' && lastClue(level, item, rest)) continue; // everyone keeps a clue
-        if (works({ ...level, [key]: rest }, blocking, maxTries)) { level[key] = rest; changed = true; }
-      }
-    }
+    for (const key of ['clues', 'facts', 'couples', 'parity']) if (level[key] && dropFrom(level, key, blocking, limit)) changed = true;
   }
 }
 
@@ -455,117 +550,140 @@ export function peopleWithoutClue(level) {
   return level.people.map((x, p) => p).filter(p => !level.people[p].victim && !level.clues.some(cl => cl.p === p));
 }
 
-// Parts of a case that are not needed. Empty when every clue and rule counts.
-export function unneededParts(level, blocking, maxTries) {
+// Parts of a case that are not needed within the limit (see fitsLimit).
+// Empty when every clue and rule counts.
+export function unneededParts(level, blocking, limit) {
   const out = [];
   level.clues.forEach((cl, k) => {
-    if (works({ ...level, clues: level.clues.filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`clue ${cl.p}:${cl.t}`);
+    if (works({ ...level, clues: level.clues.filter((_, j) => j !== k) }, blocking, limit)) out.push(`clue ${cl.p}:${cl.t}`);
   });
   level.facts.forEach((f, k) => {
-    if (works({ ...level, facts: level.facts.filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`fact ${f.t}`);
+    if (works({ ...level, facts: level.facts.filter((_, j) => j !== k) }, blocking, limit)) out.push(`fact ${f.t}`);
   });
   for (const key of ['couples', 'parity']) {
     if (!level[key] || level[key].length < 2) continue;
     level[key].forEach((item, k) => {
-      if (works({ ...level, [key]: level[key].filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`${key} ${JSON.stringify(item)}`);
+      if (works({ ...level, [key]: level[key].filter((_, j) => j !== k) }, blocking, limit)) out.push(`${key} ${JSON.stringify(item)}`);
     });
   }
-  for (const r of level.rules || []) if (!ruleNeeded(level, r, blocking, maxTries)) out.push(`rule ${r}`);
+  for (const r of level.rules || []) if (!ruleNeeded(level, r, blocking, limit)) out.push(`rule ${r}`);
   return out;
+}
+
+// A random board with its solution, people, doors, windows and special rules
+// (attempt: the try number, for the names). Null if it does not fit.
+function makeBoard(theme, n, seed, attempt, rules, blocking, R) {
+  const hasSea = rules.includes('sea');
+  let rooms = makeRooms(n, ROOMS[n] + (hasSea ? 1 : 0), R);
+  let sea = -1;
+  if (hasSea) ({ rooms, sea } = makeSea(n, rooms, R));
+  // Rooms have 3+ cells (cuts keep that, merges only grow rooms), at most n of them,
+  // and none is much bigger than the others (checked over 100 000 boards).
+  const roomCount = Math.max(...rooms) + 1;
+  const objects = makeObjects(n, rooms, theme, R);
+  if (hasSea) rooms.forEach((k, i) => { if (k === sea) objects[i] = null; });
+  const pos = makePlacement(n, objects, blocking, R, rules.includes('distance'));
+  if (!pos) return null;
+
+  // Areas: rooms, but each sea cell is its own area.
+  const area = rooms.map((k, i) => (k === sea ? roomCount + i : k));
+
+  // The victim shares an area with exactly one other person.
+  const perArea = new Map();
+  pos.forEach(i => perArea.set(area[i], (perArea.get(area[i]) || 0) + 1));
+  const victims = pos.map((i, p) => p).filter(p => perArea.get(area[pos[p]]) === 2);
+  if (!victims.length) return null;
+  const victim = R.pick(victims);
+
+  // Names come from their own random numbers, so the board does not depend on them.
+  R.shuffle(new Array(12).fill(0)); // keeps the board numbers as they were
+  const NR = rng(seed * 7919 + attempt);
+  const names = castNames(theme, n, victim, NR.pick);
+  const roomNames = R.shuffle(theme.rooms.slice()).slice(0, roomCount);
+  if (hasSea) roomNames[sea] = theme.seaName; // the themes with a sea (reef, rift) name it
+  const { doors, windows } = makeDoorsAndWindows(n, rooms, sea, R);
+  const level = {
+    size: n, rooms, objects, roomNames, doors, windows,
+    people: names.map((name, p) => (p === victim ? { name, victim: true } : { name })),
+    clues: [], solution: pos,
+  };
+  if (rules.length) {
+    level.rules = rules;
+    level.sea = sea;
+    if (!addRules(level, rules, pos, area, R)) return null;
+  }
+  return { level, pos, area };
+}
+
+// Remove clues while the case keeps one solution (found within the search budget).
+// Plain clues go first. Everyone keeps a clue.
+function trimClues(level, clues, blocking, budget, R) {
+  const order = R.shuffle(clues.slice()).sort((a, b) => DROP_ORDER[a.t] - DROP_ORDER[b.t]);
+  let kept = clues;
+  for (const cl of order) {
+    const rest = kept.filter(x => x !== cl);
+    if (!rest.some(x => x.p === cl.p)) continue; // keep one clue per person
+    level.clues = rest;
+    const res = solve(level, blocking, { limit: 2, maxNodes: budget });
+    if (res.count === 1 && !res.aborted) kept = rest;
+  }
+  kept.sort((a, b) => a.p - b.p);
+  level.clues = kept;
+}
+
+// True if a finished case is good: every part needed, the facts the player asked
+// for there, the murderer not obvious, and solvable within the tries and the budget.
+function caseIsGood(level, rules, mustFacts, blocking, limit, minTries, maxTries) {
+  // A last clue that was kept but is not needed: try another board.
+  if (level.clues.some((cl, k) => {
+    const rest = level.clues.filter((_, j) => j !== k);
+    return lastClue(level, cl, rest) && works({ ...level, clues: rest }, blocking, limit);
+  })) return false;
+  // The facts the player asked for must still be there.
+  if (mustFacts.some(kind => !level.facts.some(f => f.t === kind))) return false;
+  // Every special rule must matter.
+  if (!rules.every(r => ruleNeeded(level, r, blocking, limit))) return false;
+  // (Every clue, fact and mark is needed now: dropUnneeded went on until none could go.)
+  // The murderer must not be obvious before the board is solved.
+  if (murdererTooEasy(level, blocking)) return false;
+  // A player must be able to solve it step by step, with the wished number of tries
+  // and within the step budget.
+  const k = trialCount(level, blocking);
+  if (k < minTries || k > maxTries || !fitsLimit(level, blocking, limit)) return false;
+  level.tries = k;
+  return true;
 }
 
 // facts: kinds of case facts the case must show (player-made cases).
 // Without it, a campaign case gets up to 3 facts of any kind, or none.
-// tries: { min, max } "what if" steps the hints may need. Default: the campaign limit.
+// tries: { min, max } "what if" steps the hints may need, and maybe a step budget
+// { hard, hardest } (a DIFFICULTY group has both). Default: the campaign limit.
 // timeLimit: give up after this many ms.
 export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = null, timeLimit = Infinity } = {}) {
   const minTries = tries ? tries.min : 0;
   const maxTries = tries ? tries.max : MAX_TRIES[n];
+  const limit = tries || maxTries;
   // Hard cases need fewer clues: let the clue removal search longer.
   const budget = BUDGET[n] * (minTries > 0 ? 20 : 1);
   const t0 = Date.now();
   const mustFacts = facts || [];
   const R = rng(seed);
   const blocking = blockingSet(theme);
-  const hasSea = rules.includes('sea');
   for (let attempt = 0; attempt < 3000; attempt++) {
     if (Date.now() - t0 > timeLimit) break;
-    let rooms = makeRooms(n, ROOMS[n] + (hasSea ? 1 : 0), R);
-    let sea = -1;
-    if (hasSea) ({ rooms, sea } = makeSea(n, rooms, R));
-    // Rooms have 3+ cells (cuts keep that, merges only grow rooms), at most n of them,
-    // and none is much bigger than the others (checked over 100 000 boards).
-    const roomCount = Math.max(...rooms) + 1;
-    const objects = makeObjects(n, rooms, theme, R);
-    if (hasSea) rooms.forEach((k, i) => { if (k === sea) objects[i] = null; });
-    const pos = makePlacement(n, objects, blocking, R, rules.includes('distance'));
-    if (!pos) continue;
-
-    // Areas: rooms, but each sea cell is its own area.
-    const area = rooms.map((k, i) => (k === sea ? roomCount + i : k));
-
-    // The victim shares an area with exactly one other person.
-    const perArea = new Map();
-    pos.forEach(i => perArea.set(area[i], (perArea.get(area[i]) || 0) + 1));
-    const victims = pos.map((i, p) => p).filter(p => perArea.get(area[pos[p]]) === 2);
-    if (!victims.length) continue;
-    const victim = R.pick(victims);
-
-    // Names come from their own random numbers, so the board does not depend on them.
-    R.shuffle(new Array(12).fill(0)); // keeps the board numbers as they were
-    const NR = rng(seed * 7919 + attempt);
-    const names = castNames(theme, n, victim, NR.pick);
-    const roomNames = R.shuffle(theme.rooms.slice()).slice(0, roomCount);
-    if (hasSea) roomNames[sea] = theme.seaName; // the themes with a sea (reef, rift) name it
-    const { doors, windows } = makeDoorsAndWindows(n, rooms, sea, R);
-    const level = {
-      size: n, rooms, objects, roomNames, doors, windows,
-      people: names.map((name, p) => (p === victim ? { name, victim: true } : { name })),
-      clues: [], solution: pos,
-    };
-    if (rules.length) {
-      level.rules = rules;
-      level.sea = sea;
-      if (!addRules(level, rules, pos, area, blocking, R)) continue;
-    }
-
+    const board = makeBoard(theme, n, seed, attempt, rules, blocking, R);
+    if (!board) continue;
+    const { level, pos, area } = board;
     level.facts = candidateFacts(level, pos, blocking, facts || FACT_KINDS, mustFacts, R);
     if (mustFacts.some(kind => !level.facts.some(f => f.t === kind))) continue;
     // All candidate clues give one solution: everyone has a row and a column clue.
-    let clues = candidateClues(level, pos, area, R);
+    const clues = candidateClues(level, pos, area, R);
     level.clues = clues;
-
-    // Remove clues while the puzzle stays unique and easy enough.
-    const order = R.shuffle(clues.slice()).sort((a, b) => DROP_ORDER[a.t] - DROP_ORDER[b.t]);
-    for (const cl of order) {
-      const rest = clues.filter(x => x !== cl);
-      if (!rest.some(x => x.p === cl.p)) continue; // keep one clue per person
-      level.clues = rest;
-      const res = solve(level, blocking, { limit: 2, maxNodes: budget });
-      if (res.count === 1 && !res.aborted) clues = rest;
-    }
-    clues.sort((a, b) => a.p - b.p);
-  level.clues = clues;
+    trimClues(level, clues, blocking, budget, R);
     // Every clue, couple and mark must be needed, and everyone keeps a clue.
     // (Everyone keeps a clue: dropUnneeded never takes a person's last one.)
-    dropUnneeded(level, blocking, maxTries);
-    // A last clue that was kept but is not needed: try another board.
-    if (level.clues.some((cl, k) => {
-      const rest = level.clues.filter((_, j) => j !== k);
-      return lastClue(level, cl, rest) && works({ ...level, clues: rest }, blocking, maxTries);
-    })) continue;
-    // The facts the player asked for must still be there.
-    if (mustFacts.some(kind => !level.facts.some(f => f.t === kind))) continue;
-    // Every special rule must matter.
-    if (!rules.every(r => ruleNeeded(level, r, blocking, maxTries))) continue;
-    // (Every clue, fact and mark is needed now: dropUnneeded went on until none could go.)
-    // The murderer must not be obvious before the board is solved.
-    if (murdererTooEasy(level, blocking)) continue;
-    // A player must be able to solve it step by step, with the wished number of tries.
-    const k = trialCount(level, blocking);
-    if (k < minTries || k > maxTries) continue;
-    level.tries = k;
-    return level; // one solution: the clue removal above only keeps cases with one
+    dropUnneeded(level, blocking, limit);
+    if (caseIsGood(level, rules, mustFacts, blocking, limit, minTries, maxTries)) return level;
   }
   throw new Error(`no level for ${theme.id} ${n}`);
 }

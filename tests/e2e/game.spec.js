@@ -5,7 +5,7 @@
 // Solution: A F1, B A2, V C3, C B4, D D5, E E6. Blocked cells: D1 (plant), E1 (shelf), C2 (plant).
 
 import { test, expect } from './fixtures.js';
-import { caseLink, seedStorage } from './helpers.js';
+import { caseLink, seedStorage, caseKey } from './helpers.js';
 
 const FILE = '../fixtures/manor-medium-3.json';
 const SOLUTION = [5, 6, 14, 19, 27, 34];
@@ -466,7 +466,7 @@ test.describe('submit', () => {
 
   test('a solved campaign case goes on to the next case', async ({ page }) => {
     const { CAMPAIGNS } = await import('../../js/levels.js');
-    await seedStorage(page, { levels: { 'manor:v2:0': { pos: CAMPAIGNS[0].levels[0].solution } } });
+    await seedStorage(page, { levels: { [caseKey(0)]: { pos: CAMPAIGNS[0].levels[0].solution } } });
     await page.goto('/index.html#/c/manor/0');
     await page.getByRole('button', { name: 'Submit' }).click();
     await dialog(page).getByRole('button', { name: 'Submit answer' }).click();
@@ -490,5 +490,8 @@ test.describe('share and help', () => {
     await open(page);
     await page.getByRole('button', { name: 'Help: how to play' }).click();
     await expect(dialog(page).locator('h2')).toHaveText('How to play');
+    // The × in the corner closes it.
+    await dialog(page).locator('.dialog-x').click();
+    await expect(dialog(page)).toBeHidden();
   });
 });

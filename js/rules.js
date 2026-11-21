@@ -88,7 +88,8 @@ export function riverSides(level) {
   const n = level.size;
   return [...new Array(n * n).keys()].map(i => {
     const r = Math.floor(i / n), c = i % n;
-    return rv.dir === 'v' ? (c < rv.cut[r] ? 0 : 1) : (r < rv.cut[c] ? 0 : 1);
+    const first = rv.dir === 'v' ? c < rv.cut[r] : r < rv.cut[c];
+    return first ? 0 : 1;
   });
 }
 
@@ -171,36 +172,62 @@ export function groupOf(level, f, p) {
   return f.v === 'rank' ? level.rank?.[p] ?? null : level.trade?.[p] ?? null;
 }
 
-// Problems with the rules that need a full board. Returns a list of texts.
-export function boardRuleProblems(level, pos, name = p => level.people[p].name, roomName = k => level.roomNames[k]) {
-  const n = level.size, out = [];
-  if (hasRule(level, 'distance')) {
-    for (let p = 0; p < pos.length; p++) for (let q = p + 1; q < pos.length; q++) {
-      if (pos[p] >= 0 && pos[q] >= 0 && touching(level, pos[p], pos[q])) out.push(`${name(p)} and ${name(q)} touch`);
-    }
+// Distance rule: people who touch at a corner.
+function distanceProblems(level, pos, name) {
+  const out = [];
+  for (let p = 0; p < pos.length; p++) for (let q = p + 1; q < pos.length; q++) {
+    if (pos[p] >= 0 && pos[q] >= 0 && touching(level, pos[p], pos[q])) out.push(`${name(p)} and ${name(q)} touch`);
   }
-  if (hasRule(level, 'couples')) {
-    const area = areasOf(level);
-    for (const [p, q] of level.couples) {
-      if (!diagonal(pos[p], pos[q], n)) out.push(`${name(p)} and ${name(q)} are not diagonally next to each other`);
-      else if (area[pos[p]] !== area[pos[q]]) out.push(`${name(p)} and ${name(q)} are not in the same room`);
-    }
+  return out;
+}
+
+// Couples rule: each couple diagonally next to each other, in one room.
+function coupleProblems(level, pos, name) {
+  const area = areasOf(level), out = [];
+  for (const [p, q] of level.couples) {
+    if (!diagonal(pos[p], pos[q], level.size)) out.push(`${name(p)} and ${name(q)} are not diagonally next to each other`);
+    else if (area[pos[p]] !== area[pos[q]]) out.push(`${name(p)} and ${name(q)} are not in the same room`);
   }
+  return out;
+}
+
+// Full house and even/odd rules: how many people each room holds.
+function roomCountProblems(level, pos, roomName) {
+  const out = [];
   const count = k => pos.filter(i => level.rooms[i] === k).length;
   if (hasRule(level, 'fullhouse')) for (const k of landRooms(level)) if (!count(k)) out.push(`nobody is in the ${roomName(k)}`);
   if (hasRule(level, 'parity')) {
     for (const [k, kind] of level.parity) if ((count(k) % 2 === 0) !== (kind === 'even')) out.push(`the ${roomName(k)} does not hold an ${kind} number of people`);
   }
-  for (const f of allFacts(level)) {
-    if (factHolds(level, f, pos)) continue;
-    out.push(f.t === 'apart' ? `two people with the same ${f.v} would share a room` : `a case fact would not hold (${factValue(level, f, pos)} instead of ${f.k})`);
-  }
-  const side = riverSides(level);
-  if (side) {
-    const first = pos.filter(i => side[i] === 0).length;
-    if (first !== level.river.first) out.push(`${first} people would stand ${level.river.dir === 'v' ? 'west' : 'north'} of the river, not ${level.river.first}`);
-  }
   return out;
+}
+
+// Case facts that do not hold.
+function factProblems(level, pos) {
+  return allFacts(level).filter(f => !factHolds(level, f, pos)).map(f => (f.t === 'apart'
+    ? `two people with the same ${f.v} would share a room`
+    : `a case fact would not hold (${factValue(level, f, pos)} instead of ${f.k})`));
+}
+
+// River rule: how many people stand on the first side.
+function riverProblems(level, pos) {
+  const side = riverSides(level);
+  if (!side) return [];
+  const first = pos.filter(i => side[i] === 0).length;
+  if (first === level.river.first) return [];
+  const where = level.river.dir === 'v' ? 'west' : 'north';
+  return [`${first} people would stand ${where} of the river, not ${level.river.first}`];
+}
+
+// Problems with the rules that need a full board. Returns a list of texts.
+export function boardRuleProblems(level, pos, name = p => level.people[p].name, roomName = k => level.roomNames[k]) {
+  return [
+    ...(hasRule(level, 'distance') ? distanceProblems(level, pos, name) : []),
+    ...(hasRule(level, 'couples') ? coupleProblems(level, pos, name) : []),
+    ...roomCountProblems(level, pos, roomName),
+    ...factProblems(level, pos),
+    ...riverProblems(level, pos),
+  ];
 }
 
 export const hasRule = (level, rule) => !!level.rules && level.rules.includes(rule);
@@ -308,20 +335,27 @@ export function murdererOf(level, pos) {
   return mates.length === 1 ? mates[0] : -1;
 }
 
-// A set of bandits that fits a full placement, or null if none fits.
-export function banditSet(level, pos) {
-  const K = level.bandits || 0;
-  if (!K) return [];
-  const area = areasOf(level);
+// Who must be a bandit, who can not be one (the victim, people in lawful rooms),
+// and who needs a bandit in their room.
+function banditRoles(level, pos) {
   const lawful = new Set(level.lawful || []);
-  const P = level.people.length;
   const must = new Set(), never = new Set([victimIndex(level)]), want = [];
   for (const cl of level.clues) {
     if (cl.t === 'bandit') must.add(cl.p);
     if (cl.t === 'notBandit') never.add(cl.p);
     if (cl.t === 'withBandit') want.push(cl.p);
   }
-  for (let p = 0; p < P; p++) if (lawful.has(level.rooms[pos[p]])) never.add(p);
+  pos.forEach((i, p) => { if (lawful.has(level.rooms[i])) never.add(p); });
+  return { must, never, want };
+}
+
+// A set of bandits that fits a full placement, or null if none fits.
+export function banditSet(level, pos) {
+  const K = level.bandits || 0;
+  if (!K) return [];
+  const area = areasOf(level);
+  const P = level.people.length;
+  const { must, never, want } = banditRoles(level, pos);
   for (const p of must) if (never.has(p)) return null;
   const chosen = [...must];
   if (chosen.length > K) return null;
@@ -337,6 +371,32 @@ export function banditSet(level, pos) {
     return false;
   }
   return pick(0) ? chosen.sort((a, b) => a - b) : null;
+}
+
+// Who must share a room with whom (same), and who stands alone.
+function clueLinks(level) {
+  const sameWith = level.people.map(() => []);
+  const alone = level.people.map(() => false);
+  for (const cl of level.clues) {
+    if (cl.t === 'same') { sameWith[cl.p].push(cl.v); sameWith[cl.v].push(cl.p); }
+    if (cl.t === 'alone') alone[cl.p] = true;
+  }
+  return { sameWith, alone };
+}
+
+// The cells each person may use by the board, special rules and single-person clues.
+// restrict[p] (optional): only these cells.
+function domainsOf(level, blocking, restrict) {
+  const N = level.size * level.size;
+  return level.people.map((_, p) => {
+    const mine = level.clues.filter(cl => cl.p === p);
+    const d = [];
+    for (let i = 0; i < N; i++) {
+      if (restrict && !restrict[p].has(i)) continue;
+      if (cellOk(level, blocking, p, i) && mine.every(cl => unaryOk(level, blocking, cl, i))) d.push(i);
+    }
+    return d;
+  });
 }
 
 // Count solutions, stop at `limit`. Returns { count, nodes, aborted, first }.
@@ -368,50 +428,51 @@ export function solve(level, blocking, { limit = 2, maxNodes = Infinity, restric
   const boardFacts = facts.filter(f => !CELL_FACTS.includes(f.t) && f.t !== 'apart');
   const apartGroups = facts.filter(f => f.t === 'apart').map(f => level.people.map((_, p) => groupOf(level, f, p)));
 
-  // Domains from the board, special rules and single-person clues.
-  const domain = [];
-  const sameWith = [];
-  const alone = new Array(P).fill(false);
-  for (let p = 0; p < P; p++) { sameWith.push([]); }
-  for (const cl of level.clues) {
-    if (cl.t === 'same') { sameWith[cl.p].push(cl.v); sameWith[cl.v].push(cl.p); }
-    if (cl.t === 'alone') alone[cl.p] = true;
-  }
-  for (let p = 0; p < P; p++) {
-    const mine = level.clues.filter(cl => cl.p === p);
-    const d = [];
-    for (let i = 0; i < n * n; i++) {
-      if (restrict && !restrict[p].has(i)) continue;
-      if (!cellOk(level, blocking, p, i)) continue;
-      if (mine.every(cl => unaryOk(level, blocking, cl, i))) d.push(i);
-    }
-    domain.push(d);
-  }
+  const domain = domainsOf(level, blocking, restrict);
+  const { sameWith, alone } = clueLinks(level);
 
   let count = 0, nodes = 0, aborted = false, first = null;
+
+  // Room rules for p on cell i in area a: alone, same room, the victim's room.
+  function roomOk(p, i, a) {
+    if (aloneIn[a]) return false;
+    if ((alone[p] || tags[i] === 'lone') && areaCount[a] > 0) return false;
+    for (const q of sameWith[p]) if (pos[q] >= 0 && area[pos[q]] !== a) return false;
+    if (p === victim) return areaCount[a] <= 1;
+    return !(pos[victim] >= 0 && area[pos[victim]] === a && areaCount[a] >= 2);
+  }
+
+  // Distance rule: nobody on a corner cell of (r, c) in the same area.
+  function cornersFree(r, c, a) {
+    for (const dr of [-1, 1]) for (const dc of [-1, 1]) {
+      const rr = r + dr, cc = c + dc;
+      if (rr >= 0 && rr < n && cc >= 0 && cc < n && occupied[rr * n + cc] && area[rr * n + cc] === a) return false;
+    }
+    return true;
+  }
+
+  // Apart fact (group g): nobody of p's group in area a yet.
+  function apartOk(g, p, a) {
+    if (!g[p]) return true;
+    for (let q = 0; q < P; q++) if (q !== p && pos[q] >= 0 && g[q] === g[p] && area[pos[q]] === a) return false;
+    return true;
+  }
+
+  // Couples, the river, count facts and apart facts.
+  function limitsOk(p, i, a) {
+    const q = partner[p];
+    if (q >= 0 && pos[q] >= 0 && (!diagonal(i, pos[q], n) || area[pos[q]] !== a)) return false;
+    if (side && sideCnt[side[i]] >= sideCap[side[i]]) return false;
+    for (const cf of countFacts) if (cf.cells[i] && cf.got >= cf.k) return false;
+    return apartGroups.every(g => apartOk(g, p, a));
+  }
 
   function canPlace(p, i) {
     const r = Math.floor(i / n), c = i % n, a = area[i];
     if (rowUsed[r] || colUsed[c]) return false;
-    if (aloneIn[a]) return false;
-    if ((alone[p] || tags[i] === 'lone') && areaCount[a] > 0) return false;
-    for (const q of sameWith[p]) if (pos[q] >= 0 && area[pos[q]] !== a) return false;
-    if (p === victim) { if (areaCount[a] > 1) return false; }
-    else if (pos[victim] >= 0 && area[pos[victim]] === a && areaCount[a] >= 2) return false;
-    if (noTouch) {
-      for (const dr of [-1, 1]) for (const dc of [-1, 1]) {
-        const rr = r + dr, cc = c + dc;
-        if (rr >= 0 && rr < n && cc >= 0 && cc < n && occupied[rr * n + cc] && area[rr * n + cc] === a) return false;
-      }
-    }
-    if (partner[p] >= 0 && pos[partner[p]] >= 0 && (!diagonal(i, pos[partner[p]], n) || area[pos[partner[p]]] !== a)) return false;
-    if (side && sideCnt[side[i]] >= sideCap[side[i]]) return false;
-    for (const cf of countFacts) if (cf.cells[i] && cf.got >= cf.k) return false;
-    for (const g of apartGroups) {
-      if (!g[p]) continue;
-      for (let q = 0; q < P; q++) if (q !== p && pos[q] >= 0 && g[q] === g[p] && area[pos[q]] === a) return false;
-    }
-    return true;
+    if (!roomOk(p, i, a)) return false;
+    if (noTouch && !cornersFree(r, c, a)) return false;
+    return limitsOk(p, i, a);
   }
 
   function leafOk() {
@@ -425,52 +486,62 @@ export function solve(level, blocking, { limit = 2, maxNodes = Infinity, restric
     return true;
   }
 
+  // The cells person p can take now. Marks the rows and columns they reach.
+  function optionsOf(p, rowHit, colHit) {
+    const opts = [];
+    for (const i of domain[p]) if (canPlace(p, i)) {
+      opts.push(i);
+      rowHit[Math.floor(i / n)] = true;
+      colHit[i % n] = true;
+    }
+    return opts;
+  }
+
+  // The person with the fewest options, and those options. Null when someone,
+  // or a free row or column, has no option left.
+  function pickPerson() {
+    let best = -1, bestOpts = null;
+    const rowHit = new Array(n).fill(false), colHit = new Array(n).fill(false);
+    for (let p = 0; p < P; p++) {
+      if (pos[p] >= 0) continue;
+      const opts = optionsOf(p, rowHit, colHit);
+      if (!opts.length) return null;
+      if (!bestOpts || opts.length < bestOpts.length) { best = p; bestOpts = opts; }
+    }
+    const reached = (used, hit) => used.every((u, k) => u || hit[k]);
+    if (!reached(rowUsed, rowHit) || !reached(colUsed, colHit)) return null;
+    return { best, bestOpts };
+  }
+
+  // Put person p on cell i (on = true), or take them off again.
+  function put(p, i, on) {
+    const r = Math.floor(i / n), c = i % n, a = area[i], d = on ? 1 : -1;
+    pos[p] = on ? i : -1; rowUsed[r] = colUsed[c] = on; areaCount[a] += d;
+    roomCnt[level.rooms[i]] += d; occupied[i] = on;
+    if (side) sideCnt[side[i]] += d;
+    for (const cf of countFacts) if (cf.cells[i]) cf.got += d;
+    if (alone[p] || tags[i] === 'lone') aloneIn[a] = on;
+  }
+
   function step(placed) {
     // (coverage: the loops stop at the limit before this call)
     /* v8 ignore next */
     if (count >= limit) return;
     if (++nodes > maxNodes) { aborted = true; return; } // and so on every later call
     if (placed === P) {
-      if (leafOk()) {
-        count++;
-        if (!first) first = pos.slice();
-      }
+      if (!leafOk()) return;
+      count++;
+      if (!first) first = pos.slice();
       return;
     }
-    // Pick the person with the fewest options. Also check every free row
-    // and column can still be reached.
-    let best = -1, bestOpts = null;
-    const rowHit = new Array(n).fill(false), colHit = new Array(n).fill(false);
-    for (let p = 0; p < P; p++) {
-      if (pos[p] >= 0) continue;
-      const opts = [];
-      for (const i of domain[p]) if (canPlace(p, i)) {
-        opts.push(i);
-        rowHit[Math.floor(i / n)] = true;
-        colHit[i % n] = true;
-      }
-      if (!opts.length) return;
-      if (!bestOpts || opts.length < bestOpts.length) { best = p; bestOpts = opts; }
-    }
-    for (let r = 0; r < n; r++) if (!rowUsed[r] && !rowHit[r]) return;
-    for (let c = 0; c < n; c++) if (!colUsed[c] && !colHit[c]) return;
+    const pick = pickPerson();
+    if (!pick) return;
     // Full house: enough people left for the empty rooms.
     if (full && land.filter(k => !roomCnt[k]).length > P - placed) return;
-
-    for (const i of bestOpts) {
-      const r = Math.floor(i / n), c = i % n, a = area[i];
-      const lone = alone[best] || tags[i] === 'lone';
-      pos[best] = i; rowUsed[r] = colUsed[c] = true; areaCount[a]++;
-      roomCnt[level.rooms[i]]++; occupied[i] = true;
-      if (side) sideCnt[side[i]]++;
-      for (const cf of countFacts) if (cf.cells[i]) cf.got++;
-      if (lone) aloneIn[a] = true;
+    for (const i of pick.bestOpts) {
+      put(pick.best, i, true);
       step(placed + 1);
-      if (lone) aloneIn[a] = false;
-      pos[best] = -1; rowUsed[r] = colUsed[c] = false; areaCount[a]--;
-      roomCnt[level.rooms[i]]--; occupied[i] = false;
-      if (side) sideCnt[side[i]]--;
-      for (const cf of countFacts) if (cf.cells[i]) cf.got--;
+      put(pick.best, i, false);
       if (aborted || count >= limit) return;
     }
   }

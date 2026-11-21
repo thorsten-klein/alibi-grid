@@ -13,42 +13,72 @@ import { themeById, blockingSet } from '../js/themes.js';
 import { decodeLevel } from '../js/levelCodec.js';
 import { solve, murdererOf } from '../js/rules.js';
 import { isDeducible, trialCount } from '../js/hints.js';
-import { unneededParts, peopleWithoutClue, murdererTooEasy, DIFFICULTY, campaignCaseName } from '../js/generator.js';
+import { unneededParts, peopleWithoutClue, murdererTooEasy, fitsLimit, DIFFICULTY, campaignCaseName } from '../js/generator.js';
 import { readFileSync } from 'node:fs';
 import { buildBundle, BUNDLE_PATH } from './bundle.mjs';
+
+// Rooms: at most n, each of 3 cells or more.
+function roomProblems(L) {
+  const sizes = {};
+  L.rooms.forEach(k => { sizes[k] = (sizes[k] || 0) + 1; });
+  const counts = Object.values(sizes);
+  const out = [];
+  if (counts.length > L.size) out.push(`${counts.length} rooms`);
+  if (Math.min(...counts) < 3) out.push('room under 3 cells');
+  return out;
+}
+
+// One solution, the stored one, with a murderer.
+function solutionProblems(L, blocking) {
+  const res = solve(L, blocking, { limit: 2 });
+  const out = [];
+  if (res.count !== 1) out.push(`${res.count} solutions`);
+  else if (res.first.join() !== L.solution.join()) out.push('stored solution differs');
+  if (murdererOf(L, L.solution) < 0) out.push('no murderer');
+  return { out, unique: res.count === 1 };
+}
+
+// Deducible step by step, with the stored tries, within its group (range).
+function deductionProblems(L, blocking, range) {
+  const out = [];
+  if (!isDeducible(L, blocking, Infinity)) out.push('not deducible step by step');
+  const tries = trialCount(L, blocking);
+  if (L.tries !== tries) out.push('stored tries differ');
+  if (tries < 0) return out;
+  if (tries < range.min || tries > range.max) out.push(`${tries} tries, not in its group`);
+  else if (!fitsLimit(L, blocking, range)) out.push('too hard for its group (step budget)');
+  return out;
+}
+
+// All problems of one case.
+function caseProblems(theme, raw) {
+  const L = decodeLevel(theme, raw);
+  const blocking = blockingSet(theme);
+  // The case's group sets how many "what if" steps it may need, and its step budget.
+  // Extra cases (older cases that fit no group) need not fit a range,
+  // and may have a part that is no longer needed.
+  const range = (!raw.extra && DIFFICULTY[raw.group]) || { min: 0, max: Infinity };
+  const solution = solutionProblems(L, blocking);
+  const problems = [...roomProblems(L), ...solution.out];
+  if (solution.unique) problems.push(...deductionProblems(L, blocking, range));
+  if (murdererTooEasy(L, blocking)) problems.push('the murderer is obvious without solving');
+  const bare = peopleWithoutClue(L);
+  if (bare.length) problems.push(`no clue for ${bare.map(p => L.people[p].name).join(', ')}`);
+  if (!problems.length && !raw.extra) {
+    const extra = unneededParts(L, blocking, range);
+    if (extra.length) problems.push(`not needed: ${extra.join(', ')}`);
+  }
+  return problems;
+}
 
 let failed = 0;
 for (const c of CAMPAIGNS) {
   const theme = themeById(c.theme);
   c.levels.forEach((raw, i) => {
-    const L = decodeLevel(theme, raw);
-    const n = L.size;
-    const sizes = {};
-    L.rooms.forEach(k => { sizes[k] = (sizes[k] || 0) + 1; });
-    const counts = Object.values(sizes);
-    const res = solve(L, blockingSet(theme), { limit: 2 });
-    // The case's group sets how many "what if" steps it may need.
-    // Extra cases (older cases that fit no group) need not fit a range,
-    // and may have a part that is no longer needed.
-    const range = (!raw.extra && DIFFICULTY[raw.group]) || { min: 0, max: Infinity };
-    const problems = [];
-    if (counts.length > n) problems.push(`${counts.length} rooms`);
-    if (Math.min(...counts) < 3) problems.push('room under 3 cells');
-    if (res.count !== 1) problems.push(`${res.count} solutions`);
-    else if (res.first.join() !== L.solution.join()) problems.push('stored solution differs');
-    if (murdererOf(L, L.solution) < 0) problems.push('no murderer');
-    if (res.count === 1 && !isDeducible(L, blockingSet(theme), Infinity)) problems.push('not deducible step by step');
-    const tries = res.count === 1 ? trialCount(L, blockingSet(theme)) : -1;
-    if (res.count === 1 && L.tries !== tries) problems.push('stored tries differ');
-    if (tries >= 0 && (tries < range.min || tries > range.max)) problems.push(`${tries} tries, not in its group`);
-    if (murdererTooEasy(L, blockingSet(theme))) problems.push('the murderer is obvious without solving');
-    const bare = peopleWithoutClue(L);
-    if (bare.length) problems.push(`no clue for ${bare.map(p => L.people[p].name).join(', ')}`);
-    if (!problems.length && !raw.extra) {
-      const extra = unneededParts(L, blockingSet(theme), range.max);
-      if (extra.length) problems.push(`not needed: ${extra.join(', ')}`);
-    }
-    if (problems.length) { failed++; console.log(`FAIL ${c.theme} ${campaignCaseName(c.levels, i)} (${n}x${n}): ${problems.join(', ')}`); }
+    const problems = caseProblems(theme, raw);
+    if (!problems.length) return;
+    failed++;
+    console.log(`FAIL ${c.theme} ${campaignCaseName(c.levels, i)} (${raw.size}x${raw.size}): ${problems.join(', ')}`);
   });
 }
 let stale = false;

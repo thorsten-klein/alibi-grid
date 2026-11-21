@@ -7,8 +7,8 @@ import { CAMPAIGNS } from '../../js/levels.js';
 import { themeById, blockingSet } from '../../js/themes.js';
 import { decodeLevel } from '../../js/levelCodec.js';
 import { solve, murdererOf, boardRuleProblems } from '../../js/rules.js';
-import { deduce, trialCount, isDeducible } from '../../js/hints.js';
-import { DIFFICULTY, difficultyIndex, campaignCaseName } from '../../js/generator.js';
+import { deduce, trialCount } from '../../js/hints.js';
+import { DIFFICULTY, difficultyIndex, campaignCaseName, fitsLimit } from '../../js/generator.js';
 import { plainT } from './helpers.js';
 
 for (const c of CAMPAIGNS) {
@@ -31,7 +31,7 @@ for (const c of CAMPAIGNS) {
       // Extra cases fit no group; the others fit theirs.
       if (!raw.extra) {
         assert.equal(difficultyIndex(tries), raw.group, `${name}: group fits`);
-        assert.ok(isDeducible(level, blocking, DIFFICULTY[raw.group].max));
+        assert.ok(fitsLimit(level, blocking, DIFFICULTY[raw.group]), `${name}: within the step budget`);
       }
     });
   });

@@ -2,22 +2,27 @@
 
 import { DIFFICULTY, difficultyIndex } from './generator.js';
 
+// Props and children that el() leaves out.
+const isEmpty = v => v === undefined || v === null || v === false;
+
+// Set one prop: an event (on…), a style object, a DOM property or an attribute.
+function setProp(node, k, v) {
+  if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
+  else if (k === 'style' && typeof v === 'object') {
+    // setProperty also works for custom properties like --n. Names are in CSS form (font-size).
+    for (const [name, val] of Object.entries(v)) node.style.setProperty(name, val);
+  }
+  else if (k in node && k !== 'list') node[k] = v;
+  else node.setAttribute(k, v);
+}
+
 // el('div.card', { onclick }, child, 'text', ...)
 export function el(spec, props = {}, ...children) {
   const [tag, ...classes] = spec.split('.');
   const node = document.createElement(tag);
   if (classes.length) node.className = classes.join(' ');
-  for (const [k, v] of Object.entries(props)) {
-    if (v === undefined || v === null || v === false) continue;
-    if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
-    else if (k === 'style' && typeof v === 'object') {
-      // setProperty also works for custom properties like --n.
-      for (const [name, val] of Object.entries(v)) node.style.setProperty(name.replace(/[A-Z]/g, m => `-${m.toLowerCase()}`), val);
-    }
-    else if (k in node && k !== 'list') node[k] = v;
-    else node.setAttribute(k, v);
-  }
-  for (const c of children.flat()) if (c !== null && c !== undefined && c !== false) node.append(c);
+  for (const [k, v] of Object.entries(props)) if (!isEmpty(v)) setProp(node, k, v);
+  for (const c of children.flat()) if (!isEmpty(c)) node.append(c);
   return node;
 }
 
@@ -97,15 +102,36 @@ export function icon(name) {
 }
 
 // Copy text. Resolves true on success.
+// The line of a window on side t, b, l or r of cell (r, c) on an n×n board, d from the edge.
+export function windowLine(side, r, c, n, d) {
+  if (side === 't') return [c + 0.2, d, c + 0.8, d];
+  if (side === 'b') return [c + 0.2, n - d, c + 0.8, n - d];
+  if (side === 'l') return [d, r + 0.2, d, r + 0.8];
+  return [n - d, r + 0.2, n - d, r + 0.8];
+}
+
+// Two sofa (or bed) cells side by side in one room are drawn as one wide piece.
+// Drawing only: for the rules each cell is still a sofa (or bed) cell.
+// Returns cell -> 'h' or 'v' for the first cell of a piece, 'skip' for the second.
+export function sofaPairs(theme, level, blocking) {
+  const n = level.size;
+  const pairable = id => ['🛋️', '🛏️'].includes(theme.objects[id]?.icon) && !blocking.has(id);
+  const pairOf = new Map();
+  for (const [dir, step] of [['h', 1], ['v', n]]) {
+    for (let i = 0; i < n * n; i++) {
+      const j = i + step;
+      if (dir === 'h' && i % n === n - 1) continue;
+      if (j >= n * n || pairOf.has(i) || pairOf.has(j)) continue;
+      const o = level.objects[i];
+      if (o && o === level.objects[j] && pairable(o) && level.rooms[i] === level.rooms[j]) { pairOf.set(i, dir); pairOf.set(j, 'skip'); }
+    }
+  }
+  return pairOf;
+}
+
+// Copy text to the clipboard. False if the browser does not allow it.
 export async function copyText(text) {
-  try { await navigator.clipboard.writeText(text); return true; } catch { /* try the old way */ }
-  const ta = el('textarea', { value: text, style: { position: 'fixed', opacity: '0' } });
-  document.body.append(ta);
-  ta.select();
-  let ok = false;
-  try { ok = document.execCommand('copy'); } catch { ok = false; }
-  ta.remove();
-  return ok;
+  try { await navigator.clipboard.writeText(text); return true; } catch { return false; }
 }
 
 // JSON <-> URL-safe base64.

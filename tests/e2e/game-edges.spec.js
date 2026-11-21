@@ -2,7 +2,7 @@
 // the undo limit, odd names, boards without doors, and cases the hints can not solve.
 
 import { test, expect } from './fixtures.js';
-import { caseLink, levelLink, seedStorage, RULE_CASES } from './helpers.js';
+import { caseLink, levelLink, seedStorage, RULE_CASES, caseKey } from './helpers.js';
 import { readFileSync } from 'node:fs';
 
 const FILE = '../fixtures/manor-medium-3.json';
@@ -212,7 +212,7 @@ test.describe('odd cases', () => {
   test('the last case of a campaign goes back to the campaign', async ({ page }) => {
     const { CAMPAIGNS } = await import('../../js/levels.js');
     const levels = CAMPAIGNS[0].levels, last = levels.length - 1;
-    await seedStorage(page, { levels: { [`manor:v2:${last}`]: { pos: levels[last].solution } } });
+    await seedStorage(page, { levels: { [caseKey(last)]: { pos: levels[last].solution } } });
     await page.goto(`/index.html#/c/manor/${last}`);
     await page.locator('button.submit').click();
     await dialog(page).getByRole('button', { name: 'Submit answer' }).click();
@@ -260,16 +260,17 @@ test.describe('dialogs and sharing', () => {
     await expect(dialog(page).locator('.person-board .pmark')).toHaveCount(1);
   });
 
-  test('copy falls back to the old way when the clipboard is not allowed', async ({ page }) => {
+  test('copy without clipboard access selects the text to copy by hand', async ({ page }) => {
     await open(page);
     await page.evaluate(() => { Object.defineProperty(navigator, 'clipboard', { value: { writeText: () => Promise.reject(new Error('no')) } }); });
     await page.getByRole('button', { name: 'Share this case' }).click();
-    await page.evaluate(() => { document.execCommand = () => true; });
     await dialog(page).getByRole('button', { name: 'Copy: Empty board' }).click();
-    await expect(dialog(page).locator('.status')).toHaveText('Copied to clipboard.');
-    await page.evaluate(() => { document.execCommand = () => { throw new Error('no'); }; });
-    await dialog(page).getByRole('button', { name: 'Copy: Empty board' }).click();
-    await expect(dialog(page).locator('.status')).toHaveText('Copy failed. Select the text and copy it.');
+    await expect(dialog(page).locator('.status')).toHaveText('Copy failed. The text is selected: copy it by hand.');
+    const selected = await page.evaluate(() => {
+      const box = document.activeElement;
+      return box.value.slice(box.selectionStart, box.selectionEnd) === box.value && box.value.length > 0;
+    });
+    expect(selected).toBe(true);
   });
 
   test('fullscreen on and off', async ({ page }) => {

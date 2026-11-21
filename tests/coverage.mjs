@@ -39,7 +39,8 @@ async function merge() {
   const results = await new CoverageReport({ ...coverageOptions, inputDir: parts }).generate();
   const kinds = ['statements', 'branches', 'functions', 'lines'];
   const low = kinds.filter(k => results.summary[k].pct !== '' && results.summary[k].pct < 100);
-  if (low.length) console.log(`\nCoverage below 100%: ${low.map(k => `${k} ${results.summary[k].pct}%`).join(', ')}`);
+  const list = low.map(k => `${k} ${results.summary[k].pct}%`).join(', ');
+  if (low.length) console.log(`\nCoverage below 100%: ${list}`);
   return low.length ? 1 : 0;
 }
 

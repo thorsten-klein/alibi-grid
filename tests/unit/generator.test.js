@@ -8,10 +8,10 @@ import { solve, RULES } from '../../js/rules.js';
 import { trialCount, MAX_TRIES } from '../../js/hints.js';
 import {
   makeLevel, FACT_KINDS, DIFFICULTY, SIZES, difficultyIndex, campaignCaseName,
-  unneededParts, peopleWithoutClue, murdererTooEasy,
+  unneededParts, peopleWithoutClue, murdererTooEasy, fitsLimit,
 } from '../../js/generator.js';
 
-import { themeFor } from './helpers.js';
+import { themeFor, sampleLevels } from './helpers.js';
 
 // A generated case must work: one solution, the stored one, every part needed,
 // everyone (but the victim) has a clue, and the murderer is not obvious.
@@ -118,6 +118,10 @@ test('unneeded parts: an extra clue, fact, couple or mark is found', () => {
   const couples = makeLevel(themeFor(['couples']), 6, 4242, ['couples'], null, { tries: { min: 0, max: Infinity } });
   // The same couple twice: one of them is not needed.
   assert.ok(unneededParts({ ...couples, couples: [couples.couples[0], ...couples.couples] }, blocking, Infinity).some(x => x.startsWith('couples')));
+  // A second couple that does not fit the solution: the first one stays needed.
+  const [a, b] = couples.couples[0];
+  const other = couples.people.map((_, p) => p).filter(p => p !== a && p !== b).slice(0, 2);
+  assert.ok(!unneededParts({ ...couples, couples: [couples.couples[0], other] }, blocking, Infinity).includes(`couples ${JSON.stringify(couples.couples[0])}`));
   // A clue twice, and a fact twice.
   const theme = themeById('manor');
   const level = makeLevel(theme, 6, 99, [], ['edge'], { tries: { min: 0, max: Infinity } });
@@ -127,4 +131,14 @@ test('unneeded parts: an extra clue, fact, couple or mark is found', () => {
   const parity = makeLevel(themeFor(['parity']), 6, 4242, ['parity'], null, { tries: { min: 0, max: Infinity } });
   assert.ok(unneededParts({ ...parity, rules: ['parity', 'distance'] }, blockingSet(themeFor(['parity'])), Infinity).includes('rule distance') ||
     unneededParts({ ...parity, parity: [...parity.parity, parity.parity[0]] }, blockingSet(themeFor(['parity'])), Infinity).length > 0);
+});
+
+test('fitsLimit: a number of tries, or a group with its step budget', () => {
+  const { level, blocking } = sampleLevels()[0];
+  assert.equal(fitsLimit(level, blocking, Infinity), true);
+  assert.equal(fitsLimit(level, blocking, { max: Infinity }), true);
+  assert.equal(fitsLimit(level, blocking, DIFFICULTY[4]), true);
+  // Too many hard steps, or a step too heavy.
+  assert.equal(fitsLimit(level, blocking, { max: Infinity, hard: -1 }), false);
+  assert.equal(fitsLimit(level, blocking, { max: Infinity, hardest: 0 }), false);
 });

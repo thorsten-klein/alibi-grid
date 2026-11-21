@@ -3,7 +3,7 @@
 import { CAMPAIGNS } from './levels.js';
 import { THEMES, themeById, themeRules, ruleText, blockingSet, tradeById, GLYPHS } from './themes.js';
 import { loadLevel, saveLevel, levelKey, isClosed, getSetting, setSetting } from './storage.js';
-import { el, decodeData, encodeData, showDialog, icon, logo, difficultyBadge, roomHue } from './ui.js';
+import { el, decodeData, encodeData, showDialog, icon, logo, difficultyBadge, roomHue, windowLine, sofaPairs } from './ui.js';
 import { makeLevel, SIZES, FACT_KINDS, DIFFICULTY, difficultyIndex } from './generator.js';
 import { encodeLevel, decodeLevel } from './levelCodec.js';
 import { RULES } from './rules.js';
@@ -91,24 +91,39 @@ function caseThumb(theme, lv) {
   const level = decodeLevel(theme, lv);
   const n = level.size;
   const blocking = blockingSet(theme);
-  const NS = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(NS, 'svg');
+  const svg = document.createElementNS(SVG_NS, 'svg');
   svg.setAttribute('viewBox', `0 0 ${n} ${n}`);
   svg.setAttribute('class', 'case-thumb');
   svg.setAttribute('aria-hidden', 'true');
-  const add = (tag, attrs, text) => {
-    const node = document.createElementNS(NS, tag);
-    for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
-    if (text) node.textContent = text;
-    (attrs.parent || svg).append(node);
-    return node;
-  };
+  const add = svgAdder(svg);
   // Stripes for blocked cells, as on the board.
   const stripes = `thumb-stripes-${thumbIds++}`;
   const defs = add('defs', {});
   const pat = add('pattern', { id: stripes, width: 0.16, height: 0.16, patternUnits: 'userSpaceOnUse', patternTransform: 'rotate(45)', parent: defs });
   add('rect', { x: 0.11, y: 0, width: 0.05, height: 0.16, class: 'thumb-stripe', parent: pat });
-  // Floor, walls.
+  thumbFloor(add, theme, level, blocking, stripes);
+  thumbDoorsAndWindows(add, level);
+  thumbObjects(add, theme, level, sofaPairs(theme, level, blocking));
+  thumbTags(add, level);
+  return svg;
+}
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+// add(tag, attrs, text): a new SVG node in attrs.parent (else in svg).
+function svgAdder(svg) {
+  return (tag, attrs, text) => {
+    const node = document.createElementNS(SVG_NS, tag);
+    for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
+    if (text) node.textContent = text;
+    (attrs.parent || svg).append(node);
+    return node;
+  };
+}
+
+// Floor of each cell (striped when blocked), then the walls between rooms.
+function thumbFloor(add, theme, level, blocking, stripes) {
+  const n = level.size;
   let walls = '';
   for (let i = 0; i < n * n; i++) {
     const r = Math.floor(i / n), c = i % n, k = level.rooms[i];
@@ -119,7 +134,11 @@ function caseThumb(theme, lv) {
   }
   add('path', { d: walls, class: 'thumb-wall' });
   add('rect', { x: 0, y: 0, width: n, height: n, class: 'thumb-frame' });
-  // Doors in the walls between rooms, windows in the outer wall.
+}
+
+// Doors in the walls between rooms, windows in the outer wall.
+function thumbDoorsAndWindows(add, level) {
+  const n = level.size;
   for (const [i, j] of level.doors) {
     const r = Math.floor(i / n), c = i % n;
     const [x1, y1, x2, y2] = j === i + 1 ? [c + 1, r + 0.22, c + 1, r + 0.78] : [c + 0.22, r + 1, c + 0.78, r + 1];
@@ -127,25 +146,15 @@ function caseThumb(theme, lv) {
     add('line', { x1, y1, x2, y2, class: 'thumb-door' });
   }
   for (const [i, side] of level.windows) {
-    const r = Math.floor(i / n), c = i % n, d = 0.08;
-    const [x1, y1, x2, y2] = side === 't' ? [c + 0.2, d, c + 0.8, d] : side === 'b' ? [c + 0.2, n - d, c + 0.8, n - d]
-      : side === 'l' ? [d, r + 0.2, d, r + 0.8] : [n - d, r + 0.2, n - d, r + 0.8];
+    const [x1, y1, x2, y2] = windowLine(side, Math.floor(i / n), i % n, n, 0.08);
     add('line', { x1, y1, x2, y2, class: 'thumb-window' });
     add('line', { x1, y1, x2, y2, class: 'thumb-window-glass' });
   }
-  // Two sofa (or bed) cells side by side in one room are one wide piece, as on the board.
-  const pairable = id => ['🛋️', '🛏️'].includes(theme.objects[id]?.icon) && !blocking.has(id);
-  const pairOf = new Map();
-  for (const [dir, step] of [['h', 1], ['v', n]]) {
-    for (let i = 0; i < n * n; i++) {
-      const j = i + step;
-      if (dir === 'h' && i % n === n - 1) continue;
-      if (j >= n * n || pairOf.has(i) || pairOf.has(j)) continue;
-      const o = level.objects[i];
-      if (o && o === level.objects[j] && pairable(o) && level.rooms[i] === level.rooms[j]) { pairOf.set(i, dir); pairOf.set(j, 'skip'); }
-    }
-  }
-  // Objects on raised white tiles.
+}
+
+// Objects on raised white tiles.
+function thumbObjects(add, theme, level, pairOf) {
+  const n = level.size;
   for (let i = 0; i < n * n; i++) {
     const o = level.objects[i];
     if (!o || pairOf.get(i) === 'skip') continue;
@@ -155,16 +164,19 @@ function caseThumb(theme, lv) {
     add('rect', { x: c + 0.13, y: r + 0.13, width: w, height: h, rx: 0.16, class: 'thumb-tile' });
     add('text', { x: c + 0.13 + w / 2, y: r + 0.15 + h / 2, class: 'thumb-obj' }, theme.objects[o].icon);
   }
-  // Marks of the special rules: seals, work spots and task spots.
+}
+
+// Marks of the special rules: seals, work spots and task spots.
+function thumbTags(add, level) {
+  const n = level.size;
   (level.tags || []).forEach((tag, i) => {
     if (!tag) return;
     const r = Math.floor(i / n), c = i % n;
-    const info = tag.startsWith('t:') || tag.startsWith('k:') ? tradeById(tag.slice(2)) : GLYPHS[tag];
-    if (tag.startsWith('t:') || tag.startsWith('k:')) add('rect', { x: c + 0.16, y: r + 0.16, width: 0.68, height: 0.68, rx: 0.14, class: 'thumb-work' });
+    const work = tag.startsWith('t:') || tag.startsWith('k:');
+    if (work) add('rect', { x: c + 0.16, y: r + 0.16, width: 0.68, height: 0.68, rx: 0.14, class: 'thumb-work' });
     else add('circle', { cx: c + 0.5, cy: r + 0.5, r: 0.34, class: 'thumb-seal' });
-    add('text', { x: c + 0.5, y: r + 0.53, class: 'thumb-obj small' }, info.icon);
+    add('text', { x: c + 0.5, y: r + 0.53, class: 'thumb-obj small' }, (work ? tradeById(tag.slice(2)) : GLYPHS[tag]).icon);
   });
-  return svg;
 }
 
 // A big green tick that covers a whole case card.
@@ -348,7 +360,8 @@ function drawMaker() {
       setTimeout(() => {
         try {
           const seed = Math.floor(Math.random() * 2 ** 31);
-          const tries = { min: DIFFICULTY[range[0]].min, max: DIFFICULTY[range[1]].max };
+          // Tries from the easiest group, the most tries and the step budget from the hardest.
+          const tries = { ...DIFFICULTY[range[1]], min: DIFFICULTY[range[0]].min };
           const level = makeLevel(theme, size, seed, rules, facts, { tries, timeLimit: timeout * 1000 });
           const data = encodeData({ t: theme.id, l: encodeLevel(theme, level) });
           location.hash = `#/x/${data}`;
@@ -397,7 +410,7 @@ function renderHome() {
             themeRules(theme).length ? el('span.rule-tags', {}, themeRules(theme).map(r => el('span.badge', {}, RULE_LABEL[r]))) : null),
           // One progress bar per difficulty group.
           el('span.progress-groups', {}, groupsOf(levels).map(({ g, items }) => {
-            const done = items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length;
+            const done = items.filter(([lv]) => isClosed(loadLevel(levelKey(theme.id, lv)))).length;
             return el(`span.progress.d${g}`, {},
               el('small.progress-name', {}, groupLabel(g)),
               el('span.progress-bar', {}, el('span', { style: { width: `${(100 * done) / items.length}%` } })),
@@ -448,6 +461,22 @@ function extraFilter(items) {
     DIFFICULTY.map((d, k) => button(k, `${d.name} (${count(k)})`)));
 }
 
+// The special rules of a campaign as a list. '' without rules
+// (not null: replaceChildren would show it as the text "null").
+function ruleList(theme) {
+  const rules = themeRules(theme);
+  if (!rules.length) return '';
+  const items = rules.map(r => el('li', {}, ruleText(r)));
+  if (theme.mix) items.unshift(el('li', {}, 'Each case mixes two or three of these special rules:'));
+  return el('ul.rule-list', {}, items);
+}
+
+// A campaign case: 'solved' (closed), 'started' (someone placed) or 'new'.
+function caseStatus(state) {
+  if (isClosed(state)) return 'solved';
+  return state?.pos?.some(x => x >= 0) ? 'started' : 'new';
+}
+
 function renderCampaign(theme) {
   const campaign = CAMPAIGNS.find(c => c.theme === theme.id);
   document.title = `${theme.title} · Alibi Grid`;
@@ -458,11 +487,7 @@ function renderCampaign(theme) {
     el('header.campaign-head', { style: { '--h': theme.hue } },
       el('span.campaign-icon.big', { 'aria-hidden': 'true' }, theme.icon),
       el('div', {}, el('h1', {}, theme.title), el('p.lede', {}, theme.tagline))),
-    themeRules(theme).length
-      ? el('ul.rule-list', {}, theme.mix
-        ? [el('li', {}, 'Each case mixes two or three of these special rules:'), ...themeRules(theme).map(r => el('li', {}, ruleText(r)))]
-        : themeRules(theme).map(r => el('li', {}, ruleText(r))))
-      : '', // not null: replaceChildren would show it as the text "null"
+    ruleList(theme),
     // Cases grouped by difficulty: Beginner, Medium, Hard, Expert.
     // Each group folds open and shut. Folded groups are remembered per campaign.
     el('div.case-groups', {}, groupsOf(campaign.levels).map(({ g, items }) => el('details.case-group', {
@@ -477,12 +502,12 @@ function renderCampaign(theme) {
       el('summary.case-group-head', {},
         el('h2', {}, groupTitle(g)),
         el('span.case-group-info', {},
-          `${items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length} / ${items.length} solved`)),
+          `${items.filter(([lv]) => isClosed(loadLevel(levelKey(theme.id, lv)))).length} / ${items.length} solved`)),
       // Extra cases have every difficulty: buttons show only one.
       g === 'extra' ? extraFilter(items) : '',
       el('ol.cases', {}, items.filter(([lv]) => g !== 'extra' || shownExtra(lv)).map(([lv, i]) => {
-        const state = loadLevel(levelKey(theme.id, i));
-        const status = isClosed(state) ? 'solved' : state?.pos?.some(x => x >= 0) ? 'started' : 'new';
+        const state = loadLevel(levelKey(theme.id, lv));
+        const status = caseStatus(state);
         // A box in the corner closes (or opens) a case by hand. It sits next to the
         // card's link, not in it, so a tick does not open the case.
         const closeBox = el('input.case-close', {
@@ -491,8 +516,8 @@ function renderCampaign(theme) {
           'aria-label': `Case ${items.findIndex(([, j]) => j === i) + 1} closed`,
           onchange: e => {
             // Tick: closed. Untick: open again, and the board is no longer locked.
-            const old = loadLevel(levelKey(theme.id, i)) || {};
-            saveLevel(levelKey(theme.id, i), { ...old, closed: e.target.checked, solved: e.target.checked && !!old.solved });
+            const old = loadLevel(levelKey(theme.id, lv)) || {};
+            saveLevel(levelKey(theme.id, lv), { ...old, closed: e.target.checked, solved: e.target.checked && !!old.solved });
             const y = window.scrollY;
             renderCampaign(theme);
             window.scrollTo(0, y);
@@ -547,7 +572,7 @@ async function route() {
     if (theme && campaign) {
       const i = Number(parts[2]);
       if (parts.length > 2 && campaign.levels[i]) {
-        const use = await sharedBoard(query, levelKey(theme.id, i), `#/c/${theme.id}/${i}`);
+        const use = await sharedBoard(query, levelKey(theme.id, campaign.levels[i]), `#/c/${theme.id}/${i}`);
         return renderGame(app, theme, campaign, i, use);
       }
       return renderCampaign(theme);
@@ -558,4 +583,4 @@ async function route() {
 }
 
 window.addEventListener('hashchange', route);
-void route();
+await route();

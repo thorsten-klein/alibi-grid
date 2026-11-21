@@ -469,9 +469,16 @@ export function clueText(theme, level, clue) {
   return '';
 }
 
+// One of three texts by a count: for 0, for 1, or for more.
+function byCount(k, zero, one, many) {
+  if (k === 0) return zero;
+  if (k === 1) return one;
+  return many;
+}
+
 // A case fact as plain text.
 export function factText(theme, level, f) {
-  const qty = (k, one, many) => (k === 0 ? `Nobody ${one}` : k === 1 ? `Only one person ${one}` : `Exactly ${k} people ${many}`);
+  const qty = (k, one, many) => byCount(k, `Nobody ${one}`, `Only one person ${one}`, `Exactly ${k} people ${many}`);
   const plural = text => text.replace(/^was /, 'were ');
   switch (f.t) {
     case 'onCount': { const on = theme.objects[f.v].on; return `${qty(f.k, on, plural(on))}.`; }
@@ -483,8 +490,9 @@ export function factText(theme, level, f) {
     case 'doorCount': return `${qty(f.k, 'was in front of a door', 'were in front of a door')}.`;
     case 'windowCount': return `${qty(f.k, 'was in front of a window', 'were in front of a window')}.`;
     case 'alone': return `${qty(f.k, 'was alone in a room', 'were alone in a room')}.`;
-    case 'emptyRooms': return f.k === 0 ? 'No room was empty.' : f.k === 1 ? 'Exactly one room was empty.' : `Exactly ${f.k} rooms were empty.`;
-    case 'touch': return f.k === 0 ? 'No two people in one room touched at a corner.' : f.k === 1 ? 'Exactly one pair of people in one room touched at a corner.' : `Exactly ${f.k} pairs of people in one room touched at a corner.`;
+    case 'emptyRooms': return byCount(f.k, 'No room was empty.', 'Exactly one room was empty.', `Exactly ${f.k} rooms were empty.`);
+    case 'touch': return byCount(f.k, 'No two people in one room touched at a corner.', 'Exactly one pair of people in one room touched at a corner.',
+      `Exactly ${f.k} pairs of people in one room touched at a corner.`);
     case 'task': {
       const t = tradeById(f.v);
       return f.k === 1 ? `There was exactly one ${t.name.toLowerCase()}.` : `There were exactly ${f.k} ${t.name.toLowerCase()}s.`;
@@ -510,28 +518,46 @@ export function ruleText(rule, level) {
     case 'glyphs': return `Seals: on a ${GLYPHS.lone.icon} moon seal the person is alone in their room. ` +
       `On a ${GLYPHS.crowd.icon} sun seal they share their room with someone.`;
     case 'sea': return `${SEA.icon} Sea: the sea is not a room. Anyone in the sea is alone. Each ship is its own room.`;
-    case 'tasks': {
-      const list = level?.tasks?.map(([id, k]) => `${k} ${tradeById(id).icon} ${tradeById(id).name.toLowerCase()}${k === 1 ? '' : 's'}`);
-      return `🧰 Tasks: ${list ? `there were ${list.join(', ')}. ` : ''}Tasks are hidden. Whoever stands on a task spot does that task. People without a task never stand on one.`;
-    }
+    case 'tasks': return tasksText(level);
     case 'distance': return '↔️ Keep distance: no two people in one room touch, not even at a corner.';
     case 'fullhouse': return '🏠 Full house: every room holds at least one person. The sea does not count.';
-    case 'couples': {
-      const pairs = level?.couples?.map(([p, q]) => `${level.people[p].name} and ${level.people[q].name}`);
-      return `💞 Couples: ${pairs ? `${pairs.join('; ')} stand` : 'each couple stands'} diagonally next to each other, in the same room.`;
-    }
-    case 'river': {
-      const rv = level?.river;
-      if (!rv) return '🏞️ River: a river winds across the board. The case tells you how many people stand on each side.';
-      const [a, b] = rv.dir === 'v' ? ['west (left)', 'east (right)'] : ['north (above)', 'south (below)'];
-      return `🏞️ River: ${rv.first} ${rv.first === 1 ? 'person stands' : 'people stand'} ${a} of the river, ${level.people.length - rv.first} ${b}.`;
-    }
+    case 'couples': return couplesText(level);
+    case 'river': return riverText(level);
     case 'parity': return '⚖️ Even & odd: a room marked "even" holds an even number of people (0 counts as even). A room marked "odd" holds an odd number.';
-    case 'bandits': {
-      const k = level?.bandits;
-      return `${LAWFUL.icon} Bandits: ${k ? `exactly ${k} ${k === 1 ? 'person was a bandit' : 'people were bandits'}` : 'some people were bandits'}. ` +
-        'Nobody tells you who. No bandit was in a star room. The victim was not a bandit. The murderer may be one.';
-    }
+    case 'bandits': return banditsText(level);
   }
   return '';
+}
+
+// Rule texts with case details (level may be missing).
+function tasksText(level) {
+  const list = level?.tasks?.map(([id, k]) => {
+    const t = tradeById(id);
+    const s = k === 1 ? '' : 's';
+    return `${k} ${t.icon} ${t.name.toLowerCase()}${s}`;
+  });
+  const counts = list ? `there were ${list.join(', ')}. ` : '';
+  return `🧰 Tasks: ${counts}Tasks are hidden. Whoever stands on a task spot does that task. People without a task never stand on one.`;
+}
+
+function couplesText(level) {
+  const pairs = level?.couples?.map(([p, q]) => `${level.people[p].name} and ${level.people[q].name}`);
+  const who = pairs ? `${pairs.join('; ')} stand` : 'each couple stands';
+  return `💞 Couples: ${who} diagonally next to each other, in the same room.`;
+}
+
+function riverText(level) {
+  const rv = level?.river;
+  if (!rv) return '🏞️ River: a river winds across the board. The case tells you how many people stand on each side.';
+  const [a, b] = rv.dir === 'v' ? ['west (left)', 'east (right)'] : ['north (above)', 'south (below)'];
+  const stand = rv.first === 1 ? 'person stands' : 'people stand';
+  return `🏞️ River: ${rv.first} ${stand} ${a} of the river, ${level.people.length - rv.first} ${b}.`;
+}
+
+function banditsText(level) {
+  const k = level?.bandits;
+  const many = k === 1 ? 'person was a bandit' : 'people were bandits';
+  const who = k ? `exactly ${k} ${many}` : 'some people were bandits';
+  return `${LAWFUL.icon} Bandits: ${who}. ` +
+    'Nobody tells you who. No bandit was in a star room. The victim was not a bandit. The murderer may be one.';
 }

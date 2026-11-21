@@ -27,7 +27,7 @@ import { cpus } from 'node:os';
 import { Worker, isMainThread, parentPort } from 'node:worker_threads';
 import { THEMES, blockingSet } from '../js/themes.js';
 import { encodeLevel, decodeLevel } from '../js/levelCodec.js';
-import { makeLevel, SIZES, DIFFICULTY, difficultyIndex, unneededParts } from '../js/generator.js';
+import { makeLevel, SIZES, DIFFICULTY, difficultyIndex, unneededParts, fitsLimit } from '../js/generator.js';
 import { trialCount } from '../js/hints.js';
 import { CAMPAIGNS as OLD } from '../js/levels.js';
 
@@ -89,7 +89,9 @@ if (!isMainThread) {
         const { group, extra, ...plain } = raw;
         const asExtra = { ...plain, tries, extra: true };
         const g = difficultyIndex(tries);
-        if (extra || !GROUPS.includes(g) || !sizesOf(g).includes(raw.size) || unneededParts(level, blocking, DIFFICULTY[g].max).length) {
+        // Too hard for its group (step budget): an extra case, a new case takes its place.
+        if (extra || !GROUPS.includes(g) || !sizesOf(g).includes(raw.size) || !fitsLimit(level, blocking, DIFFICULTY[g]) ||
+          unneededParts(level, blocking, DIFFICULTY[g]).length) {
           extras[ti].push(asExtra);
           continue;
         }
@@ -160,7 +162,8 @@ if (!isMainThread) {
           if (!seen.has(id(raw))) { seen.add(id(raw)); extras[ti].push(raw); extras[ti].sort((a, b) => a.size - b.size || a.tries - b.tries); save(); }
         } else if (raw) { results.set(key(ti, g, li), raw); save(); } else missing++;
         const name = `${THEMES[ti].id} ${g === 'extra' ? 'Extra' : DIFFICULTY[g].name} ${SIZES[li]}x${SIZES[li]}`;
-        console.log(`[${done}/${total}] ${name}: ${raw ? `${raw.tries} tries, ${raw.clues.length} clues` : 'NONE'}, ${ms} ms`);
+        const info = raw ? `${raw.tries} tries, ${raw.clues.length} clues` : 'NONE';
+        console.log(`[${done}/${total}] ${name}: ${info}, ${ms} ms`);
         next();
       });
       running++;

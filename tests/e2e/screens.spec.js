@@ -1,7 +1,7 @@
 // Home, campaign and case maker screens, and the routes between them.
 
 import { test, expect } from './fixtures.js';
-import { seedStorage, caseLink } from './helpers.js';
+import { seedStorage, caseLink, caseKey } from './helpers.js';
 
 // A rule or fact card on the case maker (its checkbox is hidden: click the card).
 const card = (page, text) => page.locator('label.rule-card', { hasText: text });
@@ -18,10 +18,23 @@ test.describe('home', () => {
   });
 
   test('progress bars count closed cases', async ({ page }) => {
-    await seedStorage(page, { levels: { 'manor:v2:0': { closed: true }, 'manor:v2:1': { solved: true } } });
+    await seedStorage(page, { levels: { [caseKey(0)]: { closed: true }, [caseKey(1)]: { solved: true } } });
     await page.goto('/index.html');
     const bar = page.locator('a.campaign-card', { hasText: 'Blackwood Manor' }).locator('.progress').first();
     await expect(bar).toContainText('2 /');
+  });
+
+  test('old saves keyed by place move to the case fingerprint, once', async ({ page }) => {
+    const { OLD_IDS } = await import('../../js/oldIds.js');
+    await seedStorage(page, { levels: {
+      'manor:v2:0': { closed: true }, // moves
+      'manor:v2:99999': { closed: true }, 'nowhere:v2:0': { closed: true }, // no such case: dropped
+      'x:abc': { pos: [1] }, // a player-made case: stays
+    } });
+    await page.goto('/index.html');
+    const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('alibi-grid-v1')));
+    expect(saved.keys).toBe(3);
+    expect(Object.keys(saved.levels).sort()).toEqual([`manor:${OLD_IDS.manor[0]}`, 'x:abc'].sort());
   });
 
   test('"How to play" opens the help', async ({ page }) => {
@@ -67,7 +80,7 @@ test.describe('campaign', () => {
   });
 
   test('a started case says so', async ({ page }) => {
-    await seedStorage(page, { levels: { 'manor:v2:0': { pos: [0, -1, -1, -1] } } });
+    await seedStorage(page, { levels: { [caseKey(0)]: { pos: [0, -1, -1, -1] } } });
     await page.goto('/index.html#/c/manor');
     await expect(page.locator('.case-card').first().locator('.case-status')).toHaveText('In progress');
   });
@@ -100,7 +113,7 @@ test.describe('routes', () => {
   });
 
   test('a shared board asks before it replaces progress: keep mine', async ({ page }) => {
-    await seedStorage(page, { levels: { 'manor:v2:0': { pos: [0, -1, -1, -1] } } });
+    await seedStorage(page, { levels: { [caseKey(0)]: { pos: [0, -1, -1, -1] } } });
     const board = Buffer.from(JSON.stringify({ pos: [-1, -1, -1, -1], marks: [1], notes: {} })).toString('base64url');
     await page.goto(`/index.html#/c/manor/0?b=${board}`);
     await expect(page.locator('#dialog h2')).toHaveText('Open shared board?');
@@ -110,7 +123,7 @@ test.describe('routes', () => {
   });
 
   test('a shared board asks before it replaces progress: use the shared one', async ({ page }) => {
-    await seedStorage(page, { levels: { 'manor:v2:0': { pos: [0, -1, -1, -1] } } });
+    await seedStorage(page, { levels: { [caseKey(0)]: { pos: [0, -1, -1, -1] } } });
     const board = Buffer.from(JSON.stringify({ pos: [-1, -1, -1, -1], marks: [1], notes: {} })).toString('base64url');
     await page.goto(`/index.html#/c/manor/0?b=${board}`);
     await page.locator('#dialog button', { hasText: 'Use shared board' }).click();
@@ -269,7 +282,7 @@ test.describe('more maker and route paths', () => {
   test('a shared board asks when there are only crosses, or only notes', async ({ page }) => {
     const board = Buffer.from(JSON.stringify({ pos: [-1, -1, -1, -1] })).toString('base64url');
     for (const mine of [{ pos: [-1, -1, -1, -1], marks: [3] }, { pos: [-1, -1, -1, -1], notes: { 0: [1] } }]) {
-      await seedStorage(page, { levels: { 'manor:v2:0': mine } });
+      await seedStorage(page, { levels: { [caseKey(0)]: mine } });
       await page.goto('/index.html#/c/manor');
       await page.goto(`/index.html#/c/manor/0?b=${board}`);
       await expect(page.locator('#dialog h2')).toHaveText('Open shared board?');
@@ -316,7 +329,7 @@ test.describe('last maker and route paths', () => {
   });
 
   test('saved progress with only a "closed" mark does not count as a board', async ({ page }) => {
-    await seedStorage(page, { levels: { 'manor:v2:0': { closed: true } } });
+    await seedStorage(page, { levels: { [caseKey(0)]: { closed: true } } });
     const board = Buffer.from(JSON.stringify({ pos: [-1, -1, -1, -1] })).toString('base64url');
     await page.goto(`/index.html#/c/manor/0?b=${board}`);
     await expect(page.locator('#dialog')).not.toBeVisible();

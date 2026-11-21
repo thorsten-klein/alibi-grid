@@ -61,10 +61,9 @@
   }
 }
 
-* { box-sizing: border-box; }
-
-/* Computed per element, so each theme's --h takes effect. */
+/* Custom colors are computed per element, so each theme's --h takes effect. */
 * {
+  box-sizing: border-box;
   --accent: hsl(var(--h, 30) var(--acc-s) var(--acc-l));
   --accent-soft: hsl(var(--h, 30) var(--soft-s) var(--soft-l));
 }
@@ -308,6 +307,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .labels.rows { grid-template-rows: repeat(var(--n), 1fr); }
 
 .board {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(var(--n), 1fr);
   grid-template-rows: repeat(var(--n), 1fr);
@@ -469,7 +469,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   display: flex;
   align-items: flex-start;
   pointer-events: none;
-  z-index: 1;
+  z-index: 2; /* label above objects; people and notes above the label */
 }
 .room-label span {
   max-width: 100%;
@@ -483,9 +483,7 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   font: 600 max(8px, calc(var(--cell) * 0.16))/1.1 var(--sans);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
 }
-/* All objects keep one size. The room label may cover part of one:
-   label above objects, people and notes above the label. */
-.room-label { z-index: 2; }
+/* All objects keep one size. The room label may cover part of one. */
 .cell .obj { z-index: 1; }
 
 /* ---------- objects ---------- */
@@ -530,12 +528,16 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 
 /* ---------- notes ---------- */
 
+/* Note dots sit in the cell's corners, in this order: top left, top right,
+   bottom left, bottom right. The object in the middle stays visible. */
 .notes {
   position: absolute;
-  inset: 12%;
+  inset: 4%;
   display: grid;
-  gap: 6%;
-  place-items: center;
+  gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: start;
   z-index: 2;
   pointer-events: none;
 }
@@ -554,8 +556,15 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 }
 .notes.n1 .mini { width: 52%; font-size: max(8px, calc(var(--cell) * 0.24)); }
 .notes.n2 .mini { width: 92%; }
+/* More than 4: the color wheel goes into the top left corner. */
 .notes.wheel {
-  inset: 16%;
+  inset: auto;
+  top: 4%;
+  left: 4%;
+  width: calc(var(--cell) * 0.44);
+  height: calc(var(--cell) * 0.44);
+  display: grid;
+  place-items: center;
   border-radius: 50%;
   background: var(--wheel);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -628,7 +637,6 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .key-icon.seal { border-radius: 50%; box-shadow: inset 0 0 0 2px var(--grain2); }
 .key-icon.work { border: 2px dashed var(--grain2); }
 .chip.sea { background: var(--sea); }
-.chip { display: inline-flex; align-items: center; gap: 6px; padding-left: 4px; }
 .swatch {
   --cell: 22px;
   width: 22px;
@@ -637,8 +645,9 @@ button:focus-visible, a:focus-visible, input:focus-visible {
   border-radius: 6px;
   border: 1px solid var(--thin);
   background-color: hsl(var(--rh) var(--room-s) var(--room-l));
+  position: relative;
+  overflow: hidden;
 }
-.swatch { position: relative; overflow: hidden; }
 .swatch.sea { background-color: var(--sea); }
 .swatch .floor { filter: blur(0.6px); }
 
@@ -797,6 +806,9 @@ dialog.xwide { width: min(1040px, calc(100vw - 24px)); }
 
 .legend { display: flex; flex-wrap: wrap; gap: 6px; max-width: calc(var(--board) + 1.6rem); }
 .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 4px 10px;
   border: 1px solid transparent;
   border-radius: 999px;
@@ -830,6 +842,13 @@ dialog.xwide { width: min(1040px, calc(100vw - 24px)); }
   border-radius: var(--radius);
   background: var(--surface);
   overflow: hidden;
+  position: relative;
+  /* Person cards are buttons: no text selection on click. */
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: pan-y;
 }
 .person.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 /* People already placed on the board: greyed out (still clickable). */
@@ -842,7 +861,7 @@ dialog.xwide { width: min(1040px, calc(100vw - 24px)); }
   align-items: center;
   gap: 10px;
   width: 100%;
-  padding: 8px 12px;
+  padding: 8px 48px 8px 12px; /* room on the right for the magnifier */
   border: 0;
   background: none;
   color: inherit;
@@ -919,7 +938,7 @@ dialog {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
 dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
-.dialog-body { padding: 22px; }
+.dialog-body { position: relative; padding: 22px; }
 .dialog-body h2 { margin-bottom: 10px; }
 .dialog-body p { margin: 0 0 12px; }
 .dialog-buttons { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; margin-top: 16px; }
@@ -975,7 +994,8 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 /* ---------- make your own case ---------- */
 
 .maker {
-  margin-top: 28px;
+  margin-top: 8px;
+  margin-bottom: 96px; /* room below the cards, so the button never hides the last ones */
   padding: 18px 20px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -1015,7 +1035,7 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 .rule-card:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 .rule-card-title { font-weight: 700; }
 .rule-card-text { color: var(--muted); font-size: 0.86rem; line-height: 1.35; }
-.maker-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.maker-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; }
 .maker-size { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.92rem; }
 .maker-size select, .maker-size input {
   padding: 8px 10px;
@@ -1059,8 +1079,8 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
   overflow: visible;
   isolation: isolate;
   background: color-mix(in srgb, var(--pc) 25%, #9a9a9a);
-  color: #fff;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  color: #111;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
   opacity: 1;
 }
 .mini.not::after, .note-pick.not[aria-pressed="true"] .token::after {
@@ -1182,7 +1202,7 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 /* ---------- submit ---------- */
 
 .btn.success { background: var(--good); border-color: var(--good); color: #fff; font-weight: 600; }
-.btn.warning { background: hsl(38 85% 48%); border-color: hsl(38 85% 48%); color: #fff; }
+.btn.warning { background: hsl(38 85% 48%); border-color: hsl(38 85% 48%); color: #1d1600; }
 .btn.success:hover:not(:disabled), .btn.warning:hover { filter: brightness(1.08); }
 .btn.success:disabled { background: var(--line); border-color: var(--line); color: var(--muted); opacity: 1; }
 .btn.submit { min-width: 96px; justify-content: center; }
@@ -1232,7 +1252,6 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
   .topbar .btn.submit { padding-inline: 9px; font-size: 0.88rem; }
 }
 
-.dialog-body { position: relative; }
 .dialog-body > h2 { padding-right: 36px; }
 .dialog-x {
   position: absolute;
@@ -1257,14 +1276,12 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 /* The skull takes the place of the bullet, so the text lines up with the other clues. */
 .clues li.victim-rule::before { content: "💀"; left: 0; top: 2px; font-size: 0.85em; }
 
-/* Person cards are buttons: no text selection on click. */
-.person { cursor: grab; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; touch-action: pan-y; }
 
 /* "Could be here" dots are greyed out, so they never look like placed people. */
 .board-frame .mini:not(.not) {
   background: color-mix(in srgb, var(--pc) 45%, #b9b9b9);
-  color: #fff;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+  color: #111;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
   box-shadow: none;
   opacity: 0.7;
 }
@@ -1285,13 +1302,11 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 .board-title { margin: 0 0 4px; }
 
 .custom-card { border-style: dashed; }
-.maker { margin-top: 8px; }
 
 .maker-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-bottom: 4px; }
 .maker-head h1 { margin: 0; }
 
 /* River: a winding blue line along the cell edges. */
-.board { position: relative; }
 .river { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; overflow: visible; }
 .river polyline { fill: none; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
 .river-bank { stroke: rgba(255, 255, 255, 0.85); stroke-width: 9px; }
@@ -1299,7 +1314,6 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 
 .maker-section { margin: 20px 0 8px; font-size: 1.2rem; }
 .maker .hint { margin: -2px 0 10px; }
-.maker-row { margin-top: 18px; }
 .facts-box { border-style: dashed; }
 
 /* Hidden task spots: a dotted ring, unlike work spots (dashed square) and seals. */
@@ -1345,14 +1359,12 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
   color: var(--ink);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
-/* Room below the cards, so the button never hides the last ones. */
-.maker { margin-bottom: 96px; }
 
 /* Hint board: what earlier steps found, faded like the player's notes. */
 .notes.cand .mini {
   background: color-mix(in srgb, var(--pc) 45%, #b9b9b9);
-  color: #fff;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+  color: #111;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
   box-shadow: none;
 }
 .notes.cand { opacity: 0.75; }
@@ -1365,8 +1377,8 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
   border-radius: 5px;
   pointer-events: none;
   z-index: 3;
+  box-shadow: 0 0 0 3px var(--good), inset 0 0 0 999px color-mix(in srgb, var(--good) 18%, transparent);
 }
-.cell.drop-mark::before { box-shadow: 0 0 0 3px var(--good), inset 0 0 0 999px color-mix(in srgb, var(--good) 18%, transparent); }
 
 /* Auto ✕ for cells in the row or column of a placed person. */
 .mark.auto { color: var(--muted); opacity: 0.75; }
@@ -1425,8 +1437,6 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 
 /* Magnifier in the top right corner of each person card. */
 .person-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-.person { position: relative; }
-.person-head { padding-right: 48px; }
 .person-zoom {
   position: absolute;
   top: 7px;
@@ -1488,8 +1498,6 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 .options-head { display: flex; align-items: center; gap: 10px; }
 .options-head h3 { margin: 4px 0 0; font-size: 0.95rem; }
 
-.person-ref { white-space: nowrap; }
-.person-ref .token.inline { margin-left: 4px; }
 
 .obj-inline { margin-left: 3px; font-size: 1.05em; }
 
@@ -1497,8 +1505,8 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 .ref .obj-inline, .ref .token.inline { text-decoration: none; display: inline-grid; }
 .person-link strong { color: inherit; }
 /* Name and dot share one center line; the name keeps the text baseline. */
-.person-ref { display: inline-flex; align-items: center; }
-.person-ref .token.inline { vertical-align: 0; }
+.person-ref { display: inline-flex; align-items: center; white-space: nowrap; }
+.person-ref .token.inline { margin-left: 4px; vertical-align: 0; }
 
 /* What the current tool does, next to the tool switch. */
 .tool-help { list-style: none; margin: 0; padding: 0; flex: 1 1 260px; display: grid; gap: 2px; color: var(--muted); font-size: 0.85rem; line-height: 1.35; }
@@ -1509,15 +1517,6 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 .legend-yes { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--good); color: #fff; font-weight: 800; }
 .legend-no { color: var(--bad); font-weight: 900; font-size: 1.1rem; }
 
-/* Note dots sit in the cell's corners, in this order: top left, top right,
-   bottom left, bottom right. The object in the middle stays visible. */
-.notes {
-  inset: 4%;
-  gap: 0;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  place-items: start;
-}
 .notes .mini,
 .notes.n1 .mini,
 .notes.n2 .mini {
@@ -1527,16 +1526,6 @@ dialog::backdrop { background: rgba(20, 16, 12, 0.5); }
 .notes .mini:nth-child(2) { justify-self: end; }
 .notes .mini:nth-child(3) { align-self: end; }
 .notes .mini:nth-child(4) { justify-self: end; align-self: end; }
-/* More than 4: the color wheel goes into the top left corner. */
-.notes.wheel {
-  inset: auto;
-  top: 4%;
-  left: 4%;
-  width: calc(var(--cell) * 0.44);
-  height: calc(var(--cell) * 0.44);
-  display: grid;
-  place-items: center;
-}
 
 /* A sofa or bed across two cells: one wide tile, drawn from the first cell. */
 .cell .obj.pair-h, .cell .obj.pair-v,
@@ -1633,10 +1622,6 @@ h1 .difficulty { font-size: 0.8rem; margin-left: 4px; }
 /* ---------- case thumbnails ---------- */
 
 .case-thumb { width: 100%; aspect-ratio: 1; margin-bottom: 10px; display: block; border-radius: 4px; }
-.thumb-obj { font-size: 0.68px; text-anchor: middle; dominant-baseline: middle; }
-.thumb-door { stroke: hsl(28 60% 38%); stroke-width: 0.2; }
-.thumb-window { stroke: hsl(198 85% 55%); stroke-width: 0.14; }
-.thumb-room { fill: hsl(var(--rh) var(--room-s) var(--room-l)); }
 .thumb-sea { fill: var(--sea); }
 .thumb-stripe { fill: var(--shade); }
 .thumb-wall, .thumb-frame { fill: none; stroke: var(--wall); stroke-linecap: square; }
@@ -1654,9 +1639,6 @@ h1 .difficulty { font-size: 0.8rem; margin-left: 4px; }
 .thumb-window-glass { stroke: hsl(198 85% 55%); stroke-width: 0.11; }
 .thumb-room { fill: hsl(var(--rh) var(--room-s) var(--room-l)); }
 .thumb-blocked { fill: var(--blocked-bg); }
-.thumb-wall, .thumb-frame { fill: none; stroke: var(--wall); stroke-linecap: square; }
-.thumb-wall { stroke-width: 0.12; }
-.thumb-frame { stroke-width: 0.25; }
 .case-tick {
   position: absolute; inset: 0;
   width: 100%; height: 100%;

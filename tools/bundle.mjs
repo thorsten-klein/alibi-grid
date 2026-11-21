@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 // Order matters: a file comes after the files it imports.
-const FILES = ['levels', 'themes', 'rules', 'levelCodec', 'hints', 'generator', 'storage', 'ui', 'game', 'main'];
+const FILES = ['levels', 'oldIds', 'themes', 'rules', 'levelCodec', 'hints', 'generator', 'storage', 'ui', 'game', 'main'];
 
 export function buildBundle() {
   const parts = FILES.map(name => {
@@ -14,7 +14,7 @@ export function buildBundle() {
       .replace(/^export (?=(const|function|async|let|class) )/gm, '');
     return `// ---- js/${name}.js ----\n${src}`;
   });
-  return `// Made by tools/bundle.mjs from the files in js/. Do not edit by hand.\n(() => {\n'use strict';\n${parts.join('\n')}\n})();\n`;
+  return `// Made by tools/bundle.mjs from the files in js/. Do not edit by hand.\n// async: main.js waits for its first route (top-level await).\n(async () => {\n'use strict';\n${parts.join('\n')}\n})();\n`;
 }
 
 export const BUNDLE_PATH = new URL('../js/bundle.js', import.meta.url);

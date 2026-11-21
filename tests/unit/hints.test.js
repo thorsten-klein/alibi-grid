@@ -8,9 +8,9 @@ import { CAMPAIGNS } from '../../js/levels.js';
 import { themeById, blockingSet } from '../../js/themes.js';
 import { decodeLevel } from '../../js/levelCodec.js';
 import { solve } from '../../js/rules.js';
-import { deduce, trialCount, isDeducible, MAX_TRIES } from '../../js/hints.js';
+import { deduce, trialCount, isDeducible, MAX_TRIES, caseScore, stepWeight } from '../../js/hints.js';
 import { plainT, sampleLevels, rng, themeFor } from './helpers.js';
-import { makeLevel } from '../../js/generator.js';
+import { makeLevel, fitsLimit, DIFFICULTY } from '../../js/generator.js';
 
 // The player's board as deduce() takes it (like nextSteps() in game.js):
 // placed people, crossed cells and "cannot be here" cells per person.
@@ -97,6 +97,8 @@ test('hard boards: tries and the long-chain fallback', () => {
         const story = deduce(less, blocking, plainT(less, theme));
         assert.ok(story.some(s => /long chain/.test(s.text)), 'the fallback explains itself');
         assert.equal(trialCount(less, blocking), -1);
+        assert.equal(caseScore(less, blocking), null);
+        assert.equal(fitsLimit(less, blocking, DIFFICULTY[4]), false);
         found++;
       }
     }
@@ -153,4 +155,18 @@ test('next steps on a board that needs the full search', () => {
     }
   }
   assert.fail('no board needs the full search');
+});
+
+test('case score: step weights add up, tries and hard steps count', () => {
+  const blocking = blockingSet(manor);
+  const r = caseScore(case10, blocking);
+  assert.equal(r.tries, trialCount(case10, blocking));
+  assert.ok(r.score >= r.steps - 1 && r.hardest >= 1 && r.hard >= 0);
+  // Known kinds by their weight, the rest weigh 1, the end 0.
+  assert.equal(stepWeight({ tech: 'single' }), 1);
+  assert.equal(stepWeight({ tech: 'tryCells' }), 6);
+  assert.equal(stepWeight({ text: 'a clue' }), 1);
+  assert.equal(stepWeight({ done: true }), 0);
+  // Each person beyond three adds 1.
+  assert.equal(stepWeight({ tech: 'hiddenGroups', people: 5 }), 6);
 });

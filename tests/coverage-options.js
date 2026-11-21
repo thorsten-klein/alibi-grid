@@ -1,8 +1,8 @@
 // Coverage settings shared by the browser tests and tests/coverage.mjs.
 // Source files: js/*.js. Not counted: js/bundle.js (a copy of the others)
-// and js/levels.js (generated data).
+// and js/levels.js, js/oldIds.js (generated data).
 
-const SKIP = ['bundle.js', 'levels.js'];
+const SKIP = ['bundle.js', 'levels.js', 'oldIds.js'];
 const ours = path => /(^|\/)js\/[^/]+\.js$/.test(path) && !SKIP.some(f => path.endsWith(`js/${f}`));
 
 export const coverageOptions = {
