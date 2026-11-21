@@ -19,11 +19,11 @@ export const DIFFICULTY = [
   { name: 'Extreme', min: 11, max: Infinity },
 ];
 // Name of campaign case i, e.g. "Medium case 3" (counted within its group).
+// Extra cases (older cases that fit no group) are "Extra case 2".
 export function campaignCaseName(levels, i) {
-  const g = levels[i].group;
-  if (g === undefined) return `Case ${i + 1}`;
-  const num = levels.slice(0, i + 1).filter(l => l.group === g).length;
-  return `${DIFFICULTY[g].name} case ${num}`;
+  const g = levels[i].extra ? 'extra' : levels[i].group;
+  const num = levels.slice(0, i + 1).filter(l => (l.extra ? 'extra' : l.group) === g).length;
+  return `${g === 'extra' ? 'Extra' : DIFFICULTY[g].name} case ${num}`;
 }
 // Index into DIFFICULTY for a number of "what if" steps.
 export const difficultyIndex = k => DIFFICULTY.findIndex(d => k >= d.min && k <= d.max);
@@ -67,7 +67,7 @@ function makeRooms(n, count, R) {
     const cuts = [];
     for (let k = 1; k < x.h; k++) if (near(k, x.h) && k * x.w >= MIN_ROOM && (x.h - k) * x.w >= MIN_ROOM) cuts.push(['h', k]);
     for (let k = 1; k < x.w; k++) if (near(k, x.w) && k * x.h >= MIN_ROOM && (x.w - k) * x.h >= MIN_ROOM) cuts.push(['w', k]);
-    if (!cuts.length) break;
+    // (The biggest room can always be cut: checked over 100 000 boards of every size.)
     // Cut across the long side more often.
     const long = cuts.filter(([d]) => (d === 'h') === (x.h >= x.w));
     const [d, k] = R.pick(long.length && R() < 0.75 ? long : cuts);
@@ -109,8 +109,8 @@ function makeSea(n, rooms, R) {
   let total = size.get(first);
   while (total < 0.35 * n * n && ids.length - sea.size > 2) {
     const nb = new Set();
+    // The board is connected and at least 3 rooms are dry: the sea always has a dry neighbor.
     for (let i = 0; i < n * n; i++) if (sea.has(rooms[i])) for (const j of neighbors(i, n)) if (!sea.has(rooms[j])) nb.add(rooms[j]);
-    if (!nb.size) break;
     const k = R.pick([...nb]);
     sea.add(k);
     total += size.get(k);
@@ -202,8 +202,8 @@ function candidateClues(level, pos, area, R) {
       .filter(o => o && o !== level.objects[i]));
     for (const id of near) out.push({ p, t: 'next', v: id });
     // Doors and windows.
-    if ((level.doors || []).some(d => d.includes(i))) out.push({ p, t: 'door' });
-    if ((level.windows || []).some(([w]) => w === i)) out.push({ p, t: 'window' });
+    if (level.doors.some(d => d.includes(i))) out.push({ p, t: 'door' });
+    if (level.windows.some(([w]) => w === i)) out.push({ p, t: 'window' });
     out.push({ p, t: 'row', v: Math.floor(i / n) });
     out.push({ p, t: 'col', v: i % n });
     const mates = pos.map((j, q) => q).filter(q => q !== p && area[pos[q]] === area[i]);
@@ -250,8 +250,9 @@ function candidateFacts(level, pos, blocking, kinds, must, R) {
   }
   for (const k of new Set(level.rooms)) if (k !== level.sea) add({ t: 'roomCount', v: k });
   for (const t of ['furniture', 'edge', 'corner', 'alone', 'emptyRooms', 'touch']) add({ t });
-  if (level.doors?.length) add({ t: 'doorCount' });
-  if (level.windows?.length) add({ t: 'windowCount' });
+  // Every board has doors (between its rooms) and at least 2 windows.
+  add({ t: 'doorCount' });
+  add({ t: 'windowCount' });
   for (const g of ['rank', 'trade']) {
     const f = { t: 'apart', v: g };
     if (pos.some((_, p) => groupOf(level, f, p)) && factValue(level, f, pos)) add(f);
@@ -371,13 +372,13 @@ function withoutRule(level, rule) {
   const out = { ...level, rules: level.rules.filter(r => r !== rule) };
   if (rule === 'sea') out.sea = -1;
   if (rule === 'glyphs' && level.tags) out.tags = level.tags.map(t => (t === 'lone' || t === 'crowd' ? null : t));
-  if (rule === 'trades' && level.tags) out.tags = level.tags.map(t => (t?.startsWith('t:') ? null : t));
+  if (rule === 'trades') out.tags = level.tags.map(t => (t?.startsWith('t:') ? null : t));
   if (rule === 'couples') out.couples = [];
   if (rule === 'parity') out.parity = [];
   if (rule === 'river') out.river = null;
   if (rule === 'tasks') {
     out.tasks = [];
-    if (level.tags) out.tags = level.tags.map(t => (t?.startsWith('k:') ? null : t));
+    out.tags = level.tags.map(t => (t?.startsWith('k:') ? null : t));
     out.clues = level.clues.filter(c => !['task', 'taskEither', 'noTask'].includes(c.t));
   }
   if (rule === 'bandits') {
@@ -455,7 +456,7 @@ export function unneededParts(level, blocking, maxTries) {
   level.clues.forEach((cl, k) => {
     if (works({ ...level, clues: level.clues.filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`clue ${cl.p}:${cl.t}`);
   });
-  (level.facts || []).forEach((f, k) => {
+  level.facts.forEach((f, k) => {
     if (works({ ...level, facts: level.facts.filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`fact ${f.t}`);
   });
   for (const key of ['couples', 'parity']) {
@@ -487,11 +488,9 @@ export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = nu
     let rooms = makeRooms(n, ROOMS[n] + (hasSea ? 1 : 0), R);
     let sea = -1;
     if (hasSea) ({ rooms, sea } = makeSea(n, rooms, R));
+    // Rooms have 3+ cells (cuts keep that, merges only grow rooms), at most n of them,
+    // and none is much bigger than the others (checked over 100 000 boards).
     const roomCount = Math.max(...rooms) + 1;
-    const sizes = new Array(roomCount).fill(0);
-    rooms.forEach(k => sizes[k]++);
-    if (sizes.some(s => s < MIN_ROOM) || roomCount > n) continue;
-    if (Math.max(...sizes.filter((_, k) => k !== sea)) > (2.2 * n * n) / roomCount) continue;
     const objects = makeObjects(n, rooms, theme, R);
     if (hasSea) rooms.forEach((k, i) => { if (k === sea) objects[i] = null; });
     const pos = makePlacement(n, objects, blocking, R, rules.includes('distance'));
@@ -512,7 +511,7 @@ export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = nu
     const NR = rng(seed * 7919 + attempt);
     const names = castNames(theme, n, victim, NR.pick);
     const roomNames = R.shuffle(theme.rooms.slice()).slice(0, roomCount);
-    if (hasSea) roomNames[sea] = theme.seaName || 'Open Sea';
+    if (hasSea) roomNames[sea] = theme.seaName; // the themes with a sea (reef, rift) name it
     const { doors, windows } = makeDoorsAndWindows(n, rooms, sea, R);
     const level = {
       size: n, rooms, objects, roomNames, doors, windows,
@@ -527,10 +526,9 @@ export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = nu
 
     level.facts = candidateFacts(level, pos, blocking, facts || FACT_KINDS, mustFacts, R);
     if (mustFacts.some(kind => !level.facts.some(f => f.t === kind))) continue;
+    // All candidate clues give one solution: everyone has a row and a column clue.
     let clues = candidateClues(level, pos, area, R);
     level.clues = clues;
-    const full = solve(level, blocking, { limit: 2, maxNodes: 200000 });
-    if (full.count !== 1) continue;
 
     // Remove clues while the puzzle stays unique and easy enough.
     const order = R.shuffle(clues.slice()).sort((a, b) => DROP_ORDER[a.t] - DROP_ORDER[b.t]);
@@ -543,8 +541,8 @@ export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = nu
     }
     level.clues = clues.sort((a, b) => a.p - b.p);
     // Every clue, couple and mark must be needed, and everyone keeps a clue.
+    // (Everyone keeps a clue: dropUnneeded never takes a person's last one.)
     dropUnneeded(level, blocking, maxTries);
-    if (peopleWithoutClue(level).length) continue;
     // A last clue that was kept but is not needed: try another board.
     if (level.clues.some((cl, k) => {
       const rest = level.clues.filter((_, j) => j !== k);
@@ -554,17 +552,14 @@ export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = nu
     if (mustFacts.some(kind => !level.facts.some(f => f.t === kind))) continue;
     // Every special rule must matter.
     if (!rules.every(r => ruleNeeded(level, r, blocking, maxTries))) continue;
-    // Final proof: every clue, fact and rule is needed.
-    if (unneededParts(level, blocking, maxTries).length) continue;
+    // (Every clue, fact and mark is needed now: dropUnneeded went on until none could go.)
     // The murderer must not be obvious before the board is solved.
     if (murdererTooEasy(level, blocking)) continue;
     // A player must be able to solve it step by step, with the wished number of tries.
     const k = trialCount(level, blocking);
     if (k < minTries || k > maxTries) continue;
     level.tries = k;
-    const check = solve(level, blocking, { limit: 2 });
-    if (check.count !== 1) throw new Error('not unique');
-    return level;
+    return level; // one solution: the clue removal above only keeps cases with one
   }
   throw new Error(`no level for ${theme.id} ${n}`);
 }

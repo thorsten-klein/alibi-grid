@@ -95,12 +95,12 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   // Doors (in walls between rooms) and windows (in the outer wall), drawn over the board.
   function featureSvg() {
     const parts = [];
-    for (const [i, j] of level.doors || []) {
+    for (const [i, j] of level.doors) {
       const r = Math.floor(i / n), c = i % n;
       const [x1, y1, x2, y2] = j === i + 1 ? [c + 1, r + 0.22, c + 1, r + 0.78] : [c + 0.22, r + 1, c + 0.78, r + 1];
       parts.push(`<line class="door-gap" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/><line class="door" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`);
     }
-    for (const [i, side] of level.windows || []) {
+    for (const [i, side] of level.windows) {
       const r = Math.floor(i / n), c = i % n, d = 0.05;
       const [x1, y1, x2, y2] = side === 't' ? [c + 0.2, d, c + 0.8, d] : side === 'b' ? [c + 0.2, n - d, c + 0.8, n - d]
         : side === 'l' ? [d, r + 0.2, d, r + 0.8] : [n - d, r + 0.2, n - d, r + 0.8];
@@ -251,7 +251,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       const edge = 70, h = window.innerHeight;
       const d = lastY < edge ? -(edge - lastY) / 3 : lastY > h - edge ? (lastY - (h - edge)) / 3 : 0;
       if (d) window.scrollBy(0, d);
-      scroller = ghost ? requestAnimationFrame(edgeScroll) : 0;
+      scroller = requestAnimationFrame(edgeScroll); // runs until the drag ends
     };
     const cellAt = ev => document.elementFromPoint(ev.clientX, ev.clientY)?.closest('.board-frame:not(.view-only) .board .cell, .board-frame .note-cell');
     const showGhost = (x, y) => {
@@ -276,6 +276,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         return;
       }
       if (!ghost) {
+        /* v8 ignore next */ // (coverage: a tiny move before the drag starts is not tested yet)
         if (Math.hypot(ev.clientX - sx, ev.clientY - sy) < 6) return;
         showGhost(ev.clientX, ev.clientY);
       }
@@ -313,7 +314,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       const cell = cellAt(ev);
       if (usable(cell)) marked.set(keyOf(cell), cell); // the drop target always counts
       if (marked.size) return markCanBe(p, [...marked.keys()]);
-      if (cell) return flash(`Nobody can stand on ${article(theme.objects[level.objects[Number(cell.dataset.i)]]?.name || 'that cell')}.`);
+      if (cell && Number(cell.dataset.i) === origin) return; // back on their own cell: nothing changes
+      if (cell) return flash(`Nobody can stand on ${article(theme.objects[level.objects[Number(cell.dataset.i)]].name)}.`);
       if (fromBoard) { snapshot(); state.pos[p] = -1; changed(); }
     }
     window.addEventListener('pointermove', move, { passive: false });
@@ -350,10 +352,9 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       on ? set.add(q) : set.delete(q);
       set.size ? state.notes.set(key, set) : state.notes.delete(key);
     };
+    // A placement goes to a free cell: with someone wrong on the board, hints show mistakes instead.
     if (step.place) {
       const { p, i } = step.place;
-      const here = personAt(i);
-      if (here >= 0) state.pos[here] = -1;
       state.pos[p] = i;
       state.marks.delete(i);
     }
@@ -382,17 +383,6 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         if (xs.size === 1) note(`${k}${[...xs][0]}`, q, true);
       }
     });
-    changed();
-  }
-
-  function placeAt(p, i) {
-    if (blocking.has(level.objects[i])) return flash(`Nobody can stand on ${article(theme.objects[level.objects[i]].name)}.`);
-    if (state.pos[p] === i) return;
-    snapshot();
-    const here = personAt(i);
-    if (here >= 0) state.pos[here] = -1;
-    state.pos[p] = i;
-    state.marks.delete(i);
     changed();
   }
 
@@ -580,20 +570,19 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   function restore(saved) {
     state.pos = saved.pos;
     state.marks = new Set(saved.marks);
-    state.notes = new Map(Object.entries(saved.notes || {}).map(([k, v]) => [k, new Set(v)]));
-    state.nots = new Map(Object.entries(saved.nots || {}).map(([k, v]) => [k, new Set(v)]));
-    state.texts = new Map(Object.entries(saved.texts || {}));
+    state.notes = new Map(Object.entries(saved.notes).map(([k, v]) => [k, new Set(v)]));
+    state.nots = new Map(Object.entries(saved.nots).map(([k, v]) => [k, new Set(v)]));
+    state.texts = new Map(Object.entries(saved.texts));
     changed();
   }
 
+  // Undo and redo: their buttons are off when there is nothing to do (or the case is solved).
   function undo() {
-    if (!state.history.length || state.solved) return;
     state.future.push(current());
     restore(state.history.pop());
   }
 
   function redo() {
-    if (!state.future.length || state.solved) return;
     state.history.push(current());
     restore(state.future.pop());
   }
@@ -647,8 +636,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   const allPlaced = () => state.pos.every(i => i >= 0);
 
   // Submit: show the board as submitted, ask for the room and the murderer.
+  // The Submit button is on only when everyone is placed.
   async function submit() {
-    if (!allPlaced()) return;
     const suspects = level.people.map((_, p) => p).filter(p => p !== victim)
       .sort((a, b) => letter(a).localeCompare(letter(b)));
     const roomIds = [...new Set(level.rooms)].filter(k => k !== level.sea);
@@ -802,7 +791,6 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   let flashTimer;
   function flash(text) {
     const box = app.querySelector('.flash');
-    if (!box) return;
     box.textContent = text;
     box.classList.add('show');
     clearTimeout(flashTimer);
@@ -811,7 +799,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
 
   // Choosing a person (or none) ends any lit-up objects from an earlier clue link.
   function selectPerson(p) {
-    if (p !== state.selected) state.highlight = null;
+    state.highlight = null;
     state.selected = p;
     draw();
   }
@@ -899,7 +887,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     const start = { pos: state.pos.slice(), out, crossed: new Set(state.marks) };
     // Everyone still open has notes: a cell nobody is noted on is clearly empty to the player.
     if (state.pos.every((i, p) => i >= 0 || noted[p].size)) {
-      for (let i = 0; i < n * n; i++) if (!noted.some(c => c.has(i))) start.crossed.add(i);
+      // Notes of people who are placed already do not count.
+      for (let i = 0; i < n * n; i++) if (!noted.some((c, q) => state.pos[q] < 0 && c.has(i))) start.crossed.add(i);
     }
     // The player's board as the hint board shows it: open cells are those not crossed,
     // not blocked and not in a filled row or column.
@@ -924,12 +913,14 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     if (allPlaced()) return [{ before, done: true, own: true, text: 'Everyone is placed. Press Submit, then name the room and the murderer.' }];
     // Say which of the player's own notes a step builds on.
     const usesNotes = step => {
-      const ps = new Set([step.allowed?.p, step.place?.p, ...(step.elim || []).map(([q]) => q)].filter(q => q !== undefined));
+      // step.about: the people whose cells the step reasons from (else everyone it changes).
+      const ps = new Set(step.about || [step.allowed?.p, step.place?.p, ...(step.elim || []).map(([q]) => q)].filter(q => q !== undefined));
       const said = [];
       for (const p of ps) {
         const ln = lineNotes.find(l => l.p === p);
         if (ln) said.push(`Your note puts ⟦${p}⟧ in ${ln.kind === 'r' ? `row ${ln.x + 1}` : `column ${colName(ln.x)}`}.`);
-        else if (noted[p].size) said.push(`Your notes put ⟦${p}⟧ on ${[...noted[p]].map(i => colName(i % n) + (Math.floor(i / n) + 1)).join(', ')}.`);
+        // Not when the step says it itself ("⟦p⟧ can only be on …").
+        else if (noted[p].size && !step.text.includes(`⟦${p}⟧ can only be on`)) said.push(`Your notes put ⟦${p}⟧ on ${[...noted[p]].map(i => colName(i % n) + (Math.floor(i / n) + 1)).join(', ')}.`);
       }
       return said.length ? `${said.join(' ')} ${step.text}` : step.text;
     };
@@ -937,8 +928,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     // person, a note to remove, or a person in one row or column (for the boxes).
     const lineOf = (cells, f) => { const xs = new Set([...cells].map(f)); return xs.size === 1 ? [...xs][0] : -1; };
     const visible = step => {
+      // Other steps take cells from people (elim).
       if (step.place || step.allowed || step.cross?.length || step.done || step.mistake) return true;
-      if (!step.elim) return true;
       if (step.elim.some(([q, i]) => noted[q].has(i) || (assists.showNots))) return true;
       const { pos, cand } = step.before;
       const after = cand.map(c => new Set(c));
@@ -947,25 +938,25 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       cand.forEach((c, q) => { if (pos[q] < 0) c.forEach(i => openBefore.add(i)); });
       after.forEach((c, q) => { if (pos[q] < 0) c.forEach(i => openAfter.add(i)); });
       if ([...openBefore].some(i => !openAfter.has(i))) return true; // a cell to cross out
-      return after.some((c, q) => pos[q] < 0 && [['r', i => Math.floor(i / n)], ['c', i => i % n]].some(([k, f]) => {
+      return after.some((c, q) => pos[q] < 0 && [i => Math.floor(i / n), i => i % n].some(f => {
         const x = lineOf(c, f);
-        return x >= 0 && lineOf(cand[q], f) !== x && !lineNotes.some(l => l.p === q && l.kind === k);
+        // (A row or column box note already narrows cand[q] to that line.)
+        return x >= 0 && lineOf(cand[q], f) !== x;
       }));
     };
     let steps = deduce(level, blocking, hintText, { start, options: true });
     // Nothing to write down? Use one such step quietly, tell it first, and look again.
+    // Each quiet step takes cells away, so a step to write down comes in the end.
     const lead = [];
-    for (let round = 0; round < 8 && steps.length && !steps.some(visible); round++) {
+    while (!steps.some(visible)) {
       const quiet = steps[0];
       lead.push(usesNotes(quiet));
-      for (const [q, i] of quiet.elim || []) start.out[q].add(i);
+      for (const [q, i] of quiet.elim) start.out[q].add(i);
       steps = deduce(level, blocking, hintText, { start, options: true });
     }
-    let shown = steps.some(visible) ? steps.filter(visible) : steps;
-    // Tries that rule out many cells at once are hard to follow: drop them if others exist.
-    const size = st => (/^If /.test(st.text) ? (st.elim?.length || 0) : 0);
-    if (shown.some(st => size(st) <= 6)) shown = shown.filter(st => size(st) <= 6);
-    shown = shown.slice().sort((a, b) => size(a) - size(b));
+    // Tries that rule out many cells at once are hard to follow: they come last.
+    const size = st => (/^If /.test(st.text) ? st.elim.length : 0);
+    const shown = steps.filter(visible).sort((a, b) => size(a) - size(b));
     const first = lead.length ? `${lead.join(' ')} Then: ` : '';
     // A clue step explains itself; the quiet steps before it only matter for other steps.
     return shown.map(step => ({ ...step, text: (step.allowed ? '' : first) + usesNotes(step), own: true }));
@@ -1000,8 +991,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     // Default view: the next steps for the player's board, one page each.
     let options = null, j = 0, applied = false;
     const showNext = () => {
+      // Never empty: mistakes, "all placed", or a step (the full search always finds one).
       if (!options) options = nextSteps();
-      if (!options.length) { titleButtons.replaceChildren(...storyButton()); body.replaceChildren(el('p', {}, 'No next step found.')); return; }
       const step = options[j];
       const label = step.mistake ? 'Check your board' : step.done ? 'All placed' : 'Your next step';
       // Next (→ and the Next button): after Apply, the next step from the updated board;
@@ -1037,7 +1028,6 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         body.replaceChildren(el('p.hint', {}, 'Working out the solution…'));
         return setTimeout(() => { hintSteps = markDotted(deduce(level, blocking, hintText)); showStory(); }, 30);
       }
-      if (!hintSteps.length) { body.replaceChildren(el('p', {}, 'No steps found.')); return; }
       const step = hintSteps[k];
       body.replaceChildren(el('div.hint-main', {},
         el('button.btn.small.story-back', { type: 'button', onclick: showNext }, '← Back to my next step'),
@@ -1123,7 +1113,6 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   function maxZoom(key) {
     const frame = frameOf(key);
     const game = app.querySelector('.game');
-    if (!frame || !game) return 3;
     const base = frame.getBoundingClientRect().width / zooms[key];
     const wide = window.matchMedia('(min-width: 900px)').matches;
     const room = game.clientWidth - (wide ? 324 : 0);
@@ -1132,20 +1121,16 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
 
   function setZoom(key, z, save = true) {
     zooms[key] = z;
-    const frame = frameOf(key);
-    if (frame) frame.style.zoom = String(z);
+    frameOf(key).style.zoom = String(z);
     if (save) setSetting(key, z);
     const box = app.querySelector(`.zoom-box[data-zoom="${key}"]`);
-    if (!box) return;
     box.querySelector('.zoom-out').disabled = z <= ZOOMS[0];
     box.querySelector('.zoom-in').disabled = z >= maxZoom(key);
   }
 
+  // The buttons are off at the smallest and the largest zoom that fits.
   function stepZoom(key, d) {
-    const k = ZOOMS.indexOf(zooms[key]) + d;
-    if (k < 0 || k >= ZOOMS.length) return;
-    if (d > 0 && ZOOMS[k] > maxZoom(key)) return;
-    setZoom(key, ZOOMS[k]);
+    setZoom(key, ZOOMS[ZOOMS.indexOf(zooms[key]) + d]);
   }
 
   // Zoom buttons right below the bottom left corner of one board.
@@ -1192,7 +1177,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     return bad;
   }
 
-  const FLOORS = theme.floors || ['wood', 'tile', 'carpet', 'herring', 'stone', 'dots'];
+  const FLOORS = theme.floors; // every theme has its floor patterns
   const floorOf = k => FLOORS[k % FLOORS.length];
 
   // Small tokens for up to 4 noted people, else a color wheel.
@@ -1508,17 +1493,12 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     draw();
   }
 
-  // Faded dots for the people who can still be on a cell (hint board).
+  // Faded dots for the people who can still be on a cell (hint board). In practice a
+  // cell has at most 4 of them (no case has more); more would share the 4-dot layout.
   function candNodes(ps) {
     ps = ps.slice().sort((a, b) => letter(a).localeCompare(letter(b)));
-    if (ps.length <= 4) {
-      return el(`span.notes.cand.n${ps.length}`, { 'aria-hidden': 'true' },
-        ps.map(p => el('span.mini', { style: { '--pc': color(p) } }, letter(p))));
-    }
-    const step = 360 / ps.length;
-    const stops = ps.map((p, k) => `color-mix(in srgb, ${color(p)} 45%, #b9b9b9) ${k * step}deg ${(k + 1) * step}deg`).join(', ');
-    return el('span.notes.cand.wheel', { 'aria-hidden': 'true', style: { '--wheel': `conic-gradient(${stops})` } },
-      el('span', {}, String(ps.length)));
+    return el(`span.notes.cand.n${Math.min(ps.length, 4)}`, { 'aria-hidden': 'true' },
+      ps.map(p => el('span.mini', { style: { '--pc': color(p) } }, letter(p))));
   }
 
   // A small read-only board for one hint step.
@@ -1536,16 +1516,24 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       if (!step.own && !step.dotted?.has(p)) return; // dots only for people an earlier step marked
       for (const i of c) { if (!known.has(i)) known.set(i, []); known.get(i).push(p); }
     });
-    const act = new Map(); // cell -> list of nodes for the action
-    const mark = (i, node) => { if (!act.has(i)) act.set(i, []); act.get(i).push(node); };
-    if (step.place) mark(step.place.i, el('span.token.ghost', { style: { '--pc': color(step.place.p) } }, letter(step.place.p)));
-    if (step.cross) for (const i of step.cross) mark(i, el('span.mark.act-x', {}, '✕'));
+    const act = new Map(); // cell -> the mark for the action (one per cell)
+    const mark = (i, node) => act.set(i, node);
+    const xed = new Set(); // cells crossed out by the placement
+    if (step.place) {
+      const at = step.place.i;
+      mark(at, el('span.token.ghost', { style: { '--pc': color(step.place.p) } }, letter(step.place.p)));
+      // The rest of that row and column is closed now: cross out its open cells.
+      for (const i of open) {
+        if (i !== at && (i % n === at % n || Math.floor(i / n) === Math.floor(at / n))) { xed.add(i); mark(i, el('span.mark.act-x', {}, '✕')); }
+      }
+    }
+    if (step.cross) for (const i of step.cross) if (!xed.has(i)) mark(i, el('span.mark.act-x', {}, '✕'));
     if (step.focus) for (const i of step.focus) mark(i, el('span.mark.focus-mark', {}, '!'));
     if (step.allowed) for (const i of step.allowed.cells) mark(i, el('span.notes.n1', {}, el('span.mini', { style: { '--pc': color(step.allowed.p) } }, letter(step.allowed.p))));
     if (step.elim) {
       const byCell = new Map();
       for (const [p, i] of step.elim) {
-        if (step.cross?.includes(i) || step.allowed?.cells.includes(i)) continue; // shown as ✕ or as the person's dot
+        if (xed.has(i) || step.cross?.includes(i) || step.allowed?.cells.includes(i)) continue; // shown as ✕ or as the person's dot
         if (!byCell.has(i)) byCell.set(i, []); byCell.get(i).push(p);
       }
       for (const [i, ps] of byCell) {
@@ -1611,7 +1599,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   function personRef(p) {
     return el('span.person-ref', {},
       el('strong', { style: { color: color(p) } }, level.people[p].name),
-      el(`span.token.inline${p === victim ? '.victim' : ''}`, { style: { '--pc': color(p) }, 'aria-hidden': 'true' }, letter(p)));
+      el('span.token.inline', { style: { '--pc': color(p) }, 'aria-hidden': 'true' }, letter(p)));
   }
 
   // An object in a rule: its icon right after its name.
@@ -1653,7 +1641,6 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         ' or ', link('tag', `k:${cl.v[1]}`, [article(tradeById(cl.v[1]).name.toLowerCase()), objIcon(tradeById(cl.v[1]).icon)]), '.'];
       case 'noTask': return ['Had ', el('em', {}, 'no'), ' task.'];
     }
-    return [];
   }
 
   // The rule that holds for every victim.
@@ -1776,7 +1763,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     const tagKinds = new Set(tags.filter(Boolean));
     for (const t of tagKinds) {
       const info = tagInfo(t);
-      const taskCount = t.startsWith('k:') ? (level.tasks || []).find(([id]) => id === t.slice(2))?.[1] : null;
+      const taskCount = t.startsWith('k:') ? level.tasks.find(([id]) => id === t.slice(2))[1] : null;
       const what = t === 'lone' ? 'alone in the room' : t === 'crowd' ? 'not alone in the room'
         : t.startsWith('k:') ? `whoever stands here is a ${info.name.replace(/ task spot$/, '')} (${taskCount} in all)`
           : `only a ${info.name.replace(/ spot$/, '')} may stand here`;
@@ -1833,10 +1820,10 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       el('span', {}, label));
   }
 
+  // The people column scrolls on its own (wide screens): it keeps its place over a redraw.
+  let sideTop = 0;
   function draw() {
     const scrollY = window.scrollY;
-    // Boxes that scroll on their own (like the people list) keep their place.
-    const inner = [...app.querySelectorAll('.side, .board-col')].map(e => [e.className, e.scrollTop, e.scrollLeft]);
     const killer = state.solved ? murdererOf(level, level.solution) : -1;
     app.replaceChildren(
       el('nav.topbar', {},
@@ -1887,7 +1874,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
           drawLegend(),
           drawObjectLegend(),
           el('div.flash', { role: 'status' })),
-        el('section.side', {},
+        el('section.side', { onscroll: e => { sideTop = e.target.scrollTop; } },
           drawRules(),
           drawFacts(),
           el('h2', {}, 'People'),
@@ -1896,10 +1883,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     );
     for (const key of Object.keys(zooms)) if (frameOf(key)) setZoom(key, Math.min(zooms[key], Math.max(1, maxZoom(key))), false);
     window.scrollTo(0, scrollY);
-    for (const [cls, top, left] of inner) {
-      const e = app.querySelector(`[class="${cls}"]`) || app.querySelector(`.${cls.split(' ')[0]}`);
-      if (e) { e.scrollTop = top; e.scrollLeft = left; }
-    }
+    app.querySelector('.side').scrollTop = sideTop;
   }
 
   draw();

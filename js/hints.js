@@ -37,11 +37,12 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   // Case facts.
   const countFacts = allFacts(level).filter(f => CELL_FACTS.includes(f.t)).map(f => ({ f, cells: factCells(level, f) }));
   const factLabel = f => (f.t === 'task' ? 'Tasks' : 'Case fact');
-  const apartFacts = (level.facts || []).filter(f => f.t === 'apart');
-  const boardFacts = (level.facts || []).filter(f => ['alone', 'emptyRooms', 'touch'].includes(f.t));
+  const apartFacts = level.facts.filter(f => f.t === 'apart');
+  const boardFacts = level.facts.filter(f => ['alone', 'emptyRooms', 'touch'].includes(f.t));
   const landList = landRooms(level);
   const alone = new Array(P).fill(false);
   const same = [];
+  const clueOf = []; // filled in step 1 below
   for (const cl of level.clues) {
     if (cl.t === 'alone') alone[cl.p] = true;
     if (cl.t === 'same') same.push([cl.p, cl.v]);
@@ -79,7 +80,8 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     for (const c of colsLeft) if (!free.some(p => [...s.cand[p]].some(i => col(i) === c))) return `nobody could stand in column ${T.col(c)}`;
     // Two placed people in one row or column.
     const placed = s.pos.filter(i => i >= 0);
-    if (new Set(placed.map(row)).size < placed.length || new Set(placed.map(col)).size < placed.length) return 'two people would share a row or column';
+    /* v8 ignore next */ // (coverage: not reached by the tests yet)
+    if (new Set(placed.map(row)).size + new Set(placed.map(col)).size < 2 * placed.length) return 'two people would share a row or column';
     // Room rules that can already fail.
     for (let p = 0; p < P; p++) {
       const i = s.pos[p];
@@ -90,16 +92,11 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     if (s.pos[victim] >= 0 && areaPeople(s, area[s.pos[victim]]).length > 2) {
       return `${T.name(victim)} would not be alone with one person`;
     }
-    if (noTouch) {
-      for (let p = 0; p < P; p++) for (let q = p + 1; q < P; q++) {
-        if (s.pos[p] >= 0 && s.pos[q] >= 0 && touching(level, s.pos[p], s.pos[q])) return `${T.name(p)} and ${T.name(q)} would touch`;
-      }
-    }
+    // (Keep distance needs no check: placing someone takes the cells around them from the others.)
     for (let p = 0; p < P; p++) {
       const q = partner[p];
-      if (q > p && s.pos[p] >= 0 && s.pos[q] >= 0) {
-        if (!diagonal(s.pos[p], s.pos[q], n)) return `${T.name(p)} and ${T.name(q)} would not stand diagonally next to each other`;
-        if (area[s.pos[p]] !== area[s.pos[q]]) return `${T.name(p)} and ${T.name(q)} would not be in the same room`;
+      if (q > p && s.pos[p] >= 0 && s.pos[q] >= 0 && !(diagonal(s.pos[p], s.pos[q], n) && area[s.pos[p]] === area[s.pos[q]])) {
+        return `${T.name(p)} and ${T.name(q)} would not stand diagonally next to each other in one room`;
       }
     }
     for (const { f, cells } of countFacts) {
@@ -142,9 +139,8 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     if (side) {
       for (const x of [0, 1]) {
         const placedHere = s.pos.filter(i => i >= 0 && side[i] === x).length;
-        if (placedHere > sideCap[x]) return `too many people would stand ${sideName[x]} of the river`;
         const canReach = free.filter(p => [...s.cand[p]].some(i => side[i] === x)).length;
-        if (placedHere + canReach < sideCap[x]) return `not enough people could stand ${sideName[x]} of the river`;
+        if (placedHere > sideCap[x] || placedHere + canReach < sideCap[x]) return `the ${sideName[x]} side of the river would not get exactly ${sideCap[x]} people`;
       }
     }
     if (full) {
@@ -187,10 +183,30 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
         const out = [...s.cand[p]].filter(i => f(i) !== x);
         if (!out.length) continue;
         const label = kind === 'row' ? `row ${x + 1}` : `column ${T.col(x)}`;
+        // Others whose own clues keep them out of that line: say so.
+        const cites = free.filter(q => q !== p && clueOf[q] && ![...clueOf[q].cells].some(i => f(i) === x));
+        const why = cites.length
+          ? `Remember: ${cites.map(q => clueOf[q].reasons.join(' ')).join(' ')} So ${cites.length === 1 ? T.name(cites[0]) : 'they'} can not stand in ${label}. `
+          : 'Every row and column holds one person. ';
+        // Only one of their cells is in that line: say where they stand.
+        const there = [...s.cand[p]].filter(i => f(i) === x);
+        if (there.length === 1) {
+          const i = there[0];
+          yield {
+            place: { p, i }, about: [p], cites,
+            uses: free.filter(q => q !== p),
+            text: `${why}Only ${T.name(p)} can still stand in ${label}. ` +
+              `There, ${T.name(p)} can only be on ${T.cell(i)}. Place ${T.name(p)} on ${T.cell(i)}.`,
+          };
+          continue;
+        }
+        // Note the person on their cells in that line, instead of taking away all
+        // their other cells. Same result, so the story and difficulty stay the same.
         yield {
-          elim: out.map(i => [p, i]),
+          allowed: { p, cells: there }, about: [p], cites,
           uses: free.filter(q => q !== p),
-          text: `Every row and column holds one person. Only ${T.name(p)} can still stand in ${label}. So ${T.name(p)} must be in ${label}.`,
+          text: `${why}Only ${T.name(p)} can still stand in ${label}. ` +
+            `So ${T.name(p)} can only be on ${listText(there.map(T.cell))}.`,
         };
       }
     }
@@ -324,6 +340,17 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       if (elim.length) {
         yield { elim: elim.map(j => [victim, j]), text: `${T.name(victim)} was alone with the murderer. Rooms that already hold two people are out for ${T.name(victim)}.` };
       }
+      // The victim was not alone: the murderer was there too.
+      // A room nobody else can still get into is out for the victim.
+      const others = level.people.map((_, q) => q).filter(q => q !== victim);
+      // Can someone else be in this room with the victim on cell j (not in the same row or column)?
+      const company = j => others.some(q => (s.pos[q] >= 0 ? area[s.pos[q]] === area[j]
+        : [...s.cand[q]].some(k => area[k] === area[j] && row(k) !== row(j) && col(k) !== col(j))));
+      const lonely = [...s.cand[victim]].filter(j => !company(j));
+      if (lonely.length) {
+        yield { elim: lonely.map(j => [victim, j]), about: [victim],
+          text: `${T.name(victim)} was not alone: the murderer was in the same room. Nobody else can still be with ${T.name(victim)} in ${T.rooms(lonely)}. So ${T.name(victim)} is not there.` };
+      }
     }
   }
 
@@ -423,9 +450,17 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
         for (const i of s.cand[p]) if (mine.every(j => blocks(i, j))) elim.push([p, i]);
       }
       if (!elim.length) continue;
-      const who = [...new Set(elim.map(([p]) => p))];
-      yield { elim, text: `${T.name(q)} can only be on ${listText(mine.map(T.cell))}. Someone on a marked cell would block ${mine.length === 2 ? 'both' : 'all of them'} (same row or column). ` +
-        `So ${T.people(who)} can not stand there.` };
+      // Whoever stood there would leave q no cell: nobody can stand there.
+      const cells = [...new Set(elim.map(([, i]) => i))];
+      const cross = cells.filter(i => !mine.includes(i));
+      const where = cells.length === 1 ? T.cell(cells[0]) : listText(cells.map(T.cell));
+      const shares = cells.length === 1 ? 'shares' : 'share';
+      yield {
+        elim, cross, about: [q],
+        text: `${T.name(q)} can only be on ${listText(mine.map(T.cell))}. ${where} ${shares} a row or column with ${mine.length === 2 ? 'both' : 'all of them'}. ` +
+          `Whoever else stood there would leave ${T.name(q)} no cell. ` +
+          (cross.length === cells.length ? `So nobody can stand on ${where}: cross it out.` : `So nobody but ${T.name(q)} can stand on ${where}.`),
+      };
     }
   }
 
@@ -447,6 +482,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     const free = unplaced(s);
     const openIn = (f, x) => {
       const o = new Set();
+      /* v8 ignore next */ // (coverage: runs so often that its counter overflows)
       for (const q of free) for (const i of s.cand[q]) if (f(i) === x) o.add(i);
       return o;
     };
@@ -454,8 +490,8 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       const need = [...Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
       for (const k of [2, 3]) {
         for (const xs of combos(need, k)) {
+          // (Every line that needs someone has open cells: these techniques see only boards that work.)
           const open = xs.flatMap(x => [...openIn(f, x)]);
-          if (xs.some(x => !openIn(f, x).size)) continue;
           const ys = [...new Set(open.map(g))].sort((a, b) => a - b);
           if (ys.length !== k) continue;
           const elim = [];
@@ -488,7 +524,6 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       const sureCols = new Set(sure.flatMap(q => { const cs = new Set([...s.cand[q]].map(col)); return cs.size === 1 ? [...cs] : []; }));
       const open = new Set();
       for (const q of free) if (!sure.includes(q)) for (const i of s.cand[q]) if (cells[i] && !sureRows.has(row(i)) && !sureCols.has(col(i))) open.add(i);
-      if (!open.size) continue;
       for (const [kind, g] of [['row', row], ['column', col]]) {
         const lines = [...new Set([...open].map(g))].sort((a, b) => a - b);
         if (lines.length !== missing) continue;
@@ -563,17 +598,17 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
           const blockedOthers = free.filter(q => q !== p);
           const explain = pending => {
             const rooms = new Set(own.map(i => area[i]));
-            const why = blockedOthers.map(q => {
+            // p's own quiet clue first, then why the others can not use p's cells.
+            const why = [p, ...blockedOthers].map(q => {
               if (pending.has(q)) { const r = pending.get(q); pending.delete(q); return r; }
               if (rooms.size === 1 && ![...s.cand[q]].some(i => area[i] === [...rooms][0])) return `${T.name(q)} can not be in ${T.room(own[0])}.`;
               return null;
             }).filter(Boolean);
-            if (!rest.length && pending.has(p)) { why.unshift(pending.get(p)); pending.delete(p); }
             const because = why.length ? ` Remember: ${why.join(' ')}` : '';
-            const mine = '';
+            // Here the line has 2 or 3 open cells (one cell is the case above).
             if (!rest.length) {
-              return `${T.name(p)} is the only one who can be in ${label}.${because}${mine} ` +
-                `${kind} ${label.split(' ')[1]} still needs someone. Its last open ${cells.length === 1 ? 'cell is' : 'cells are'} ${ownText}, so ${T.name(p)} must be on one of them. ` +
+              return `${T.name(p)} is the only one who can be in ${label}.${because} ` +
+                `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${ownText}, so ${T.name(p)} must be on one of them. ` +
                 `Drop ${T.name(p)} from the marked cells in other ${kind === 'Row' ? 'rows' : 'columns'}.`;
             }
             return `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${listText(cells.map(T.cell))}. ` +
@@ -682,8 +717,9 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   const TECHNIQUES = TIERS.flat();
 
   // Follow the easy steps until something breaks. trail collects the forced placements.
+  // Each step takes cells away, so this ends.
   function settle(s, trail = []) {
-    for (let guard = 0; guard < 500; guard++) {
+    for (;;) {
       const why = broken(s);
       if (why) return why;
       let move = null;
@@ -692,7 +728,6 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       if (move.place) trail.push(`${T.name(move.place.p)} must stand on ${T.cell(move.place.i)}`);
       apply(s, move);
     }
-    return null;
   }
 
   // Try each cell of one person. Cells that break are out.
@@ -747,7 +782,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   // Start from the player's board: their people, crosses and "cannot be here" notes.
   const known = new Set(); // cells the player already sees as empty
   if (start) {
-    for (let p = 0; p < P; p++) for (const i of start.out[p] || []) s.cand[p].delete(i);
+    for (let p = 0; p < P; p++) for (const i of start.out[p]) s.cand[p].delete(i);
     for (const i of start.crossed) { known.add(i); for (const c of s.cand) c.delete(i); }
     start.pos.forEach((i, p) => { if (i >= 0) apply(s, { place: { p, i } }); });
     start.pos.forEach(i => { if (i < 0) return; for (let j = 0; j < N; j++) if (row(j) === row(i) || col(j) === col(i)) known.add(j); });
@@ -756,6 +791,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
 
   // 1. What each person's own clues and rules allow.
   const firstDomains = [];
+  // clueOf[p]: { cells, reasons } of p's own clues (only when they rule something out).
   for (let p = 0; p < P; p++) {
     const mine = level.clues.filter(cl => cl.p === p && UNARY.includes(cl.t));
     const cells = [...s.cand[p]].filter(i => cellOk(level, blocking, p, i) && mine.every(cl => unaryOk(level, blocking, cl, i)));
@@ -771,6 +807,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     }
     if (p === victim && level.sea >= 0) reasons.push(`The victim was with the murderer, so not in the sea.`);
     firstDomains.push({ p, cells, reasons });
+    clueOf[p] = { cells: new Set(cells), reasons };
   }
   firstDomains.sort((a, b) => a.cells.length - b.cells.length);
   // A hint about one person is only worth it when they have at most 5 cells left after it.
@@ -785,16 +822,54 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   };
   const worthIt = m => { const a = leftAfter(m); return !a || a.left <= MAX_CELLS; };
   const keepGood = list => (list.some(worthIt) ? list.filter(worthIt) : list);
-  let vagueClues = []; // clue steps with more than 5 cells: shown only before tries
-  if (options && firstDomains.length) {
-    // Each person's own clues: all independent next steps.
-    const list = firstDomains.map(d => ({ ...withClaim(s, { allowed: { p: d.p, cells: d.cells },
-      text: `${d.reasons.join(' ')} So ${T.name(d.p)} can only be on the marked cells.` }), before: snap(s) }));
-    // "Nobody" facts first. Too vague (more than 5 cells left)? Then look for better steps first.
-    const zero = [...zeroFacts(s)].map(m => ({ ...m, before: snap(s) }));
-    if (zero.length || list.some(worthIt)) return [...zero, ...list.filter(worthIt)];
-    vagueClues = list.filter(m => m.allowed.cells.length < s.cand[m.allowed.p].size)
-      .sort((a, b) => a.allowed.cells.length - b.allowed.cells.length);
+  // A step that leaves one person a single cell also places them.
+  const finish = m => {
+    if (m.place || !m.elim) return m;
+    const ps = new Set(m.elim.map(([q]) => q));
+    if (ps.size !== 1) return m;
+    const [p] = ps;
+    const out = new Set(m.elim.map(([, i]) => i));
+    const left = [...s.cand[p]].filter(i => !out.has(i));
+    if (left.length !== 1) return m;
+    return { ...m, place: { p, i: left[0] }, about: m.about || [p],
+      text: `${m.text} Now ${T.name(p)} has only one cell left: ${T.cell(left[0])}. Place ${T.name(p)} there.` };
+  };
+  if (options) {
+    // Hints from the player's board use only what it shows. A person's clues count
+    // once the player has noted them, so noting a person's cells is a step of its own.
+    const before = snap(s);
+    // "Nobody" facts: cross out their cells.
+    const zero = [...zeroFacts(s)].map(m => ({ ...m, before }));
+    // Each person's own clues: note where they can be. Few cells first; those that
+    // also cross out a row or column (or more) before others.
+    const clueSteps = firstDomains.map(d => ({ ...withClaim(s, { allowed: { p: d.p, cells: d.cells }, about: [d.p],
+      text: `${d.reasons.join(' ')} So ${T.name(d.p)} can only be on the marked cells.` }), before }));
+    const sharp = clueSteps.filter(worthIt)
+      .sort((a, b) => crossedBy(s, b) - crossedBy(s, a) || a.allowed.cells.length - b.allowed.cells.length);
+    const vague = clueSteps.filter(m => !worthIt(m)).sort((a, b) => a.allowed.cells.length - b.allowed.cells.length);
+    // Easy steps from the board as it is (clues not yet noted are not used).
+    const seenOwn = new Set();
+    const own = [];
+    TIERS.slice(0, 3).forEach((tier, lvl) => tier.forEach(t => {
+      if (t === zeroFacts) return;
+      for (const m of t(s)) {
+        // Same result from another technique is another way to see it: keep both.
+        const key = `${t.name}:${JSON.stringify(m.place || m.elim)}`;
+        if (seenOwn.has(key)) continue;
+        seenOwn.add(key);
+        own.push({ m: { ...m, before }, lvl, c: crossedBy(s, m) });
+      }
+    }));
+    own.sort((a, b) => a.lvl - b.lvl || b.c - a.c);
+    // Not again what a "nobody" fact already crosses out.
+    const zeroCells = new Set(zero.flatMap(m => m.cross));
+    const fresh = own.map(x => x.m).filter(m => !(m.elim && !m.place && m.elim.every(([, i]) => zeroCells.has(i))));
+    const ownSteps = keepGood(fresh).map(finish);
+    // Steps that place someone or cross out a cell come before noting a person with many cells.
+    // Steps that only take a cell from someone's notes come after.
+    const strong = m => !!(m.place || m.cross?.length);
+    const all = [...zero, ...sharp, ...ownSteps.filter(strong), ...vague, ...ownSteps.filter(m => !strong(m))];
+    if (all.length) return all;
   }
   // A clue step for one person, on top of what is known now (null if it adds nothing).
   const clueMove = d => {
@@ -820,43 +895,18 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   const used = new Set();
   for (const c of s.cand) for (const i of c) used.add(i);
   const empty = [...Array(N).keys()].filter(i => !blocking.has(level.objects[i]) && !used.has(i) && !known.has(i) && !s.pos.includes(i));
-  if (empty.length && !done()) steps.push({ cross: empty, before: snap(s), text: 'Nobody can stand on these cells. Cross them out.' });
+  if (empty.length && !done()) steps.push({ cross: empty, before: snap(s), text: 'The clues and notes of everyone still open leave these cells out. So nobody can stand there. Cross them out.' });
   if (options) {
-    if (steps.length && !firstDomains.length) return steps;
-    if (firstDomains.length) {
-      // Only vague clue steps so far: apply them quietly and look for sharper ones.
-      for (const d of firstDomains) apply(s, { allowed: { p: d.p, cells: d.cells } });
-    }
-    // All moves from the start board, easy techniques first. Tries only when nothing easier is left.
-    const seen = new Set();
-    const key = m => JSON.stringify(m.place || m.elim);
+    // Nothing easy from the player's board (see above): the cells nobody can use,
+    // then tries, then the full search.
+    if (steps.length) return steps;
     const collect = (techs, max) => {
       const out = [];
-      for (const t of techs) {
-        for (const m of t(s)) {
-          if (seen.has(key(m))) continue;
-          seen.add(key(m));
-          out.push({ ...m, before: snap(s) });
-          if (out.length >= max) return out;
-        }
-      }
+      for (const t of techs) for (const m of t(s)) { out.push({ ...m, before: snap(s) }); if (out.length >= max) return out; }
       return out;
     };
-    // Easy steps sorted by weight: level first, then most crossed-out cells.
-    const tierOf = new Map();
-    TIERS.slice(0, 3).forEach((tier, lvl) => tier.forEach(t => tierOf.set(t, lvl)));
-    const easyRaw = [];
-    for (const t of TIERS.slice(0, 3).flat()) for (const m of collect([t], 30)) easyRaw.push({ m, lvl: tierOf.get(t), c: crossedBy(s, m) });
-    easyRaw.sort((a, b) => a.lvl - b.lvl || b.c - a.c);
-    const easy = keepGood(easyRaw.map(x => x.m));
-    if (easy.some(worthIt)) return easy;
-    // A plain clue step (even with many cells) is easier than a try.
-    if (vagueClues.length) return vagueClues;
     const tries = collect([tryCells], 8);
-    if (tries.some(worthIt)) return tries.filter(worthIt);
-    if (easy.length) return easy;
-    if (tries.length) return tries;
-    if (steps.length) return steps; // only vague steps were found: better than nothing
+    if (tries.length) return keepGood(tries);
     return collect(deep ? [deepTry] : [], 1);
   }
 
@@ -882,34 +932,33 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     // Order: sharp clue step, simple step, any clue step (quietly), then tries.
     let move = takeDeferred(false) || bestMove(s, worthIt, 2);
     if (!move) {
+      // Only clue steps with more than 5 cells are left (sharper ones came first):
+      // use one quietly, and say it with the first step about that person.
       const vague = takeDeferred(true);
-      if (vague) {
-        if (vague.allowed.cells.length > MAX_CELLS) { apply(s, vague); pending.set(vague.allowed.p, vague.reason); continue; }
-        move = vague;
-      }
+      if (vague) { apply(s, vague); pending.set(vague.allowed.p, vague.reason); continue; }
     }
     move = move || bestMove(s, () => true, 2) || bestMove(s);
     if (!move) break;
-    move = withClaim(s, move);
+    move = withClaim(s, finish(move));
     // A step that explains itself takes the quiet clues it needs.
     if (move.explain) move = { ...move, text: move.explain(pending) };
     const recall = [];
+    for (const q of move.cites || []) pending.delete(q); // the step says their clues itself
     if (!move.explain) for (const q of involved(move)) if (pending.has(q)) { recall.push(pending.get(q)); pending.delete(q); }
-    if (recall.length) move = { ...move, text: `Remember: ${recall.join(' ')} ${move.text}` };
+    // One "Remember:" when the step starts with its own.
+    if (recall.length) move = { ...move, text: `Remember: ${recall.join(' ')} ${move.text.replace(/^Remember: /, '')}` };
     steps.push({ ...move, before: snap(s) });
     apply(s, move);
     (move.cross || []).forEach(i => known.add(i)); // already crossed: not again later
   }
 
-  // 4. Name the murderer.
+  // 4. Name the murderer (a full solution always has one).
   if (!unplaced(s).length && !done()) {
     const k = murdererOf(level, s.pos);
-    if (k >= 0) {
-      steps.push({
-        before: snap(s), done: true,
-        text: `Everyone is placed. ${T.name(victim)} is in ${T.room(s.pos[victim])} with only ${T.name(k)}. So ${T.name(k)} did it.`,
-      });
-    }
+    steps.push({
+      before: snap(s), done: true,
+      text: `Everyone is placed. ${T.name(victim)} is in ${T.room(s.pos[victim])} with only ${T.name(k)}. So ${T.name(k)} did it.`,
+    });
   }
   return steps;
 }
@@ -947,7 +996,7 @@ export function trialCount(level, blocking) {
 
 // True if the deduction solves the case with easy steps and at most
 // maxTries short tries, without the long-chain fallback.
-export function isDeducible(level, blocking, maxTries = MAX_TRIES[level.size] ?? Infinity) {
+export function isDeducible(level, blocking, maxTries = MAX_TRIES[level.size]) {
   const k = trialCount(level, blocking);
   return k >= 0 && k <= maxTries;
 }

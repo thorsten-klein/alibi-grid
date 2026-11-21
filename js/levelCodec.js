@@ -35,8 +35,8 @@ export function encodeLevel(theme, level) {
     clues: level.clues.map(c => (c.v === undefined ? [c.p, c.t] : [c.p, c.t, c.v])),
     solution: level.solution,
   };
-  if (level.doors?.length) out.doors = level.doors;
-  if (level.windows?.length) out.windows = level.windows;
+  if (level.doors.length) out.doors = level.doors;
+  if (level.windows.length) out.windows = level.windows;
   if (level.tries >= 0) out.tries = level.tries;
   if (level.facts?.length) out.facts = level.facts.map(f => (f.k === undefined ? [f.t, f.v] : [f.t, f.v, f.k]));
   const rules = level.rules || [];
@@ -83,7 +83,7 @@ export function decodeLevel(theme, raw) {
     level.tags = [...raw.tags].map(ch => (ch === '.' ? null : ch === 'L' ? 'lone' : ch === 'C' ? 'crowd'
       : /[a-e]/.test(ch) ? `k:${TRADES[ch.charCodeAt(0) - 97].id}` : `t:${TRADES[+ch].id}`));
   }
-  if (raw.bandits) { level.bandits = raw.bandits; level.lawful = raw.lawful || []; }
+  if (raw.bandits) { level.bandits = raw.bandits; level.lawful = raw.lawful; }
   if (raw.couples) level.couples = raw.couples;
   if (raw.parity) level.parity = raw.parity.map(([k, c]) => [k, c === 'e' ? 'even' : 'odd']);
   if (raw.tasks) level.tasks = raw.tasks.map(([k, c]) => [TRADES[k].id, c]);

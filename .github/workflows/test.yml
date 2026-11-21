@@ -1,0 +1,90 @@
+# Run all tests on every push to the main branch.
+# Unit tests and browser tests (in 4 shards) run in parallel, each with coverage.
+# The last job merges the coverage and fails below 100%.
+name: Tests
+
+on:
+  push:
+    branches: [master, main]
+
+jobs:
+  levels:
+    name: Levels and bundle are valid
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node tools/check.mjs
+
+  unit:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: node tests/coverage.mjs unit
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coverage-unit
+          path: coverage/parts/
+
+  e2e:
+    name: Browser tests ${{ matrix.shard }}/4
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node tests/coverage.mjs e2e ${{ matrix.shard }}/4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coverage-e2e-${{ matrix.shard }}
+          path: coverage/parts/
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: test-results-${{ matrix.shard }}
+          path: test-results/
+          retention-days: 7
+
+  coverage:
+    name: Coverage is 100%
+    needs: [unit, e2e]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: coverage-*
+          path: coverage/parts/
+          merge-multiple: true
+      - run: node tests/coverage.mjs merge
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coverage-report
+          path: coverage/report/
+          retention-days: 14

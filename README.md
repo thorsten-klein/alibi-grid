@@ -132,19 +132,45 @@ A "what if" step tries a cell and follows it until something breaks.
 
 Each case shows its difficulty as a badge. Its tooltip gives the exact number.
 
+Below the four groups, "Additional Extra Levels" holds more cases of any difficulty:
+older cases that fit no group any more, and cases made with `--extra`.
+
 A script makes the levels and writes them to `js/levels.js`.
 It makes the cases in parallel. A case it can not make in time is left out:
 
 ```sh
-node tools/generate.mjs   # make levels (also rebuilds the bundle)
-node tools/bundle.mjs     # rebuild js/bundle.js after editing js/
-node tools/check.mjs      # check all levels and that the bundle is fresh
+node tools/generate.mjs           # fill missing cases (also rebuilds the bundle)
+node tools/generate.mjs --extra   # make more extra cases (20 on 4×4 down to 3 on 12×12, per campaign)
+node tools/bundle.mjs             # rebuild js/bundle.js after editing js/
+node tools/check.mjs              # check all levels and that the bundle is fresh
 ```
+
+The generator keeps the cases in `js/levels.js` and checks each one again.
+See the top of `tools/generate.mjs` for its options (sizes, time limit, seeds).
 
 Each level has exactly one solution. The step-by-step deduction (`js/hints.js`) must solve it
 without a long search, so every case can be solved by reasoning. Rooms have at least 3 cells, and an n×n board has at most n rooms.
 The generator drops clues while the solution stays unique and the case stays in its difficulty range.
 A search budget per size (`BUDGET` in `js/generator.js`) keeps puzzles solvable by logic.
+
+## Tests
+
+```sh
+npm install
+npx playwright install chromium
+npm test                  # unit tests (Node) and browser tests (Playwright)
+npm run coverage          # the same with coverage: fails below 100%
+```
+
+- `tests/unit/`: the engine: rules, solver, hints, generator, level codec and texts.
+- `tests/e2e/`: the screens in Chromium. `hints-scenario.spec.js` replays a player's own
+  way of solving a case and checks that the hints follow it.
+- `tests/fixtures/`: saved cases, so new levels do not change the tests.
+- Coverage counts `js/*.js` (not the bundle and the level data). A line the tests can not
+  reach yet is marked `/* v8 ignore next */` with the reason.
+
+GitHub Actions runs it all on every push to `master`: unit tests and 4 shards of browser
+tests in parallel, then one job that merges the coverage.
 
 ## Files
 
@@ -163,6 +189,8 @@ A search budget per size (`BUDGET` in `js/generator.js`) keeps puzzles solvable 
 | `js/levels.js` | Generated levels |
 | `js/bundle.js` | All of `js/` in one file, for `file://` |
 | `tools/` | Generator and checker (Node) |
+| `tests/` | Unit and browser tests, coverage |
+| `.github/workflows/test.yml` | Runs the tests on every push |
 
 ## Add a campaign
 

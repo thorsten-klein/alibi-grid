@@ -5,9 +5,9 @@ import { DIFFICULTY, difficultyIndex } from './generator.js';
 // el('div.card', { onclick }, child, 'text', ...)
 export function el(spec, props = {}, ...children) {
   const [tag, ...classes] = spec.split('.');
-  const node = document.createElement(tag || 'div');
+  const node = document.createElement(tag);
   if (classes.length) node.className = classes.join(' ');
-  for (const [k, v] of Object.entries(props || {})) {
+  for (const [k, v] of Object.entries(props)) {
     if (v === undefined || v === null || v === false) continue;
     if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
     else if (k === 'style' && typeof v === 'object') {
@@ -15,7 +15,7 @@ export function el(spec, props = {}, ...children) {
       for (const [name, val] of Object.entries(v)) node.style.setProperty(name.replace(/[A-Z]/g, m => `-${m.toLowerCase()}`), val);
     }
     else if (k in node && k !== 'list') node[k] = v;
-    else node.setAttribute(k, v === true ? '' : v);
+    else node.setAttribute(k, v);
   }
   for (const c of children.flat()) if (c !== null && c !== undefined && c !== false) node.append(c);
   return node;
@@ -141,8 +141,8 @@ const SPARKLES = [[51.5, 9.9, 6, 0], [18.3, 33.2, 4.5, 0.5], [45.2, 45.7, 3.8, 1
 const star = ([x, y, r, d]) => `<path class="lg-spark" style="animation-delay:${d}s" d="M${x} ${y - r}Q${x} ${y} ${x + r} ${y}Q${x} ${y} ${x} ${y + r}Q${x} ${y} ${x - r} ${y}Q${x} ${y} ${x} ${y - r}Z"/>`;
 
 // `roomy` adds space and sparkles around it, so the moving glass is never cut off.
-export function logo(cls = '', roomy = false) {
-  const span = el(`span.logo${cls}`, { 'aria-hidden': cls ? 'true' : null });
+export function logo(cls, roomy = false) {
+  const span = el(`span.logo${cls}`, { 'aria-hidden': 'true' });
   span.innerHTML = roomy
     ? LOGO.replace('viewBox="0 0 64 64"', 'viewBox="-12 -12 88 88"')
       .replace('</svg>', `<g class="lg-glass lg-sparks">${SPARKLES.map(star).join('')}</g></svg>`)
@@ -151,8 +151,9 @@ export function logo(cls = '', roomy = false) {
 }
 
 // A colored badge for how hard a case is. The tooltip gives the exact number of tries.
+// None when the hints can not solve the case step by step (tries -1).
 export function difficultyBadge(tries) {
-  if (tries === null || tries === undefined || tries < 0) return null;
+  if (tries < 0) return null;
   const d = difficultyIndex(tries);
   const tip = `${tries} "what if" ${tries === 1 ? 'step' : 'steps'} in the hints`;
   return el(`span.difficulty.d${d}`, { title: tip, 'aria-label': `${DIFFICULTY[d].name}: ${tip}` }, DIFFICULTY[d].name);

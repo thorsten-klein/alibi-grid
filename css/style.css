@@ -210,6 +210,8 @@ button:focus-visible, a:focus-visible, input:focus-visible {
 .progress-groups .progress { display: grid; grid-template-columns: 4.6rem 1fr 3.2rem; gap: 8px; }
 .progress-groups small:last-child { text-align: right; font-variant-numeric: tabular-nums; }
 .progress[class*=" d"] .progress-bar span { background: hsl(var(--dh) var(--acc-s) var(--acc-l)); }
+/* Extra cases: mixed difficulty, a neutral bar. */
+.progress.dextra .progress-bar span { background: var(--muted); }
 
 .foot { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 32px; }
 
@@ -1756,3 +1758,7 @@ a.topbar-title:focus-visible { outline: 2px solid var(--accent); outline-offset:
   background: var(--surface);
   border-top: 1px solid var(--line);
 }
+
+/* Extra cases: buttons to show one difficulty. */
+.extra-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.chip.filter { padding: 4px 12px; }

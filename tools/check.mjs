@@ -3,6 +3,8 @@
 // special rule needed, at least one clue per person (not the victim),
 // murderer not obvious without solving,
 // rooms of 3+ cells, at most n rooms.
+// Extra cases (older cases that fit no group) need not fit a range or have
+// every part needed.
 // Also check that js/bundle.js is up to date.
 // Run: node tools/check.mjs
 
@@ -26,7 +28,9 @@ for (const c of CAMPAIGNS) {
     const counts = Object.values(sizes);
     const res = solve(L, blockingSet(theme), { limit: 2 });
     // The case's group sets how many "what if" steps it may need.
-    const range = DIFFICULTY[raw.group] || { min: 0, max: Infinity };
+    // Extra cases (older cases that fit no group) need not fit a range,
+    // and may have a part that is no longer needed.
+    const range = (!raw.extra && DIFFICULTY[raw.group]) || { min: 0, max: Infinity };
     const problems = [];
     if (counts.length > n) problems.push(`${counts.length} rooms`);
     if (Math.min(...counts) < 3) problems.push('room under 3 cells');
@@ -40,7 +44,7 @@ for (const c of CAMPAIGNS) {
     if (murdererTooEasy(L, blockingSet(theme))) problems.push('the murderer is obvious without solving');
     const bare = peopleWithoutClue(L);
     if (bare.length) problems.push(`no clue for ${bare.map(p => L.people[p].name).join(', ')}`);
-    if (!problems.length) {
+    if (!problems.length && !raw.extra) {
       const extra = unneededParts(L, blockingSet(theme), range.max);
       if (extra.length) problems.push(`not needed: ${extra.join(', ')}`);
     }

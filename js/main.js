@@ -4,7 +4,7 @@ import { CAMPAIGNS } from './levels.js';
 import { THEMES, themeById, themeRules, ruleText, blockingSet, tradeById, GLYPHS } from './themes.js';
 import { loadLevel, saveLevel, levelKey, isClosed, getSetting, setSetting } from './storage.js';
 import { el, decodeData, encodeData, showDialog, icon, logo, difficultyBadge, roomHue } from './ui.js';
-import { makeLevel, SIZES, FACT_KINDS, DIFFICULTY, campaignCaseName } from './generator.js';
+import { makeLevel, SIZES, FACT_KINDS, DIFFICULTY, difficultyIndex } from './generator.js';
 import { encodeLevel, decodeLevel } from './levelCodec.js';
 import { RULES } from './rules.js';
 import { renderGame, showHelp } from './game.js';
@@ -18,11 +18,15 @@ const RULE_LABEL = {
 };
 
 // Campaign cases by group, in order: [{ g, items: [[level, index], ...] }].
-// Old files without groups give one group with g = -1.
+// g: index into DIFFICULTY, or 'extra' for extra cases (older cases that fit no group).
+// Heading of a group on the campaign screen, and its label on the home screen.
+const groupTitle = g => (g === 'extra' ? 'Additional Extra Levels' : DIFFICULTY[g].name);
+const groupLabel = g => (g === 'extra' ? 'Additional' : DIFFICULTY[g].name);
+
 function groupsOf(levels) {
   const out = [];
   levels.forEach((lv, i) => {
-    const g = lv.group ?? -1;
+    const g = lv.extra ? 'extra' : lv.group;
     if (!out.length || out[out.length - 1].g !== g) out.push({ g, items: [] });
     out[out.length - 1].items.push([lv, i]);
   });
@@ -156,7 +160,6 @@ function caseThumb(theme, lv) {
     if (!tag) return;
     const r = Math.floor(i / n), c = i % n;
     const info = tag.startsWith('t:') || tag.startsWith('k:') ? tradeById(tag.slice(2)) : GLYPHS[tag];
-    if (!info) return;
     if (tag.startsWith('t:') || tag.startsWith('k:')) add('rect', { x: c + 0.16, y: r + 0.16, width: 0.68, height: 0.68, rx: 0.14, class: 'thumb-work' });
     else add('circle', { cx: c + 0.5, cy: r + 0.5, r: 0.34, class: 'thumb-seal' });
     add('text', { x: c + 0.5, y: r + 0.53, class: 'thumb-obj small' }, info.icon);
@@ -306,24 +309,23 @@ function drawMaker() {
     status.textContent = `Copied ${parts.join('; ')}.`;
   }
 
-  // Pick 1 or 2 random cards in one section. Skips pairs that can not work.
+  // Pick 1 or 2 random cards in one section (half the time each), only from picks that can work.
   function randomPick(set, ids, key, ok) {
-    for (let tries = 0; tries < 50; tries++) {
-      const pick = ids.slice().sort(() => Math.random() - 0.5).slice(0, 1 + Math.floor(Math.random() * 2));
-      if (!ok(pick)) continue;
-      set.clear();
-      pick.forEach(id => set.add(id));
-      setSetting(key, [...set]);
-      sync();
-      return;
-    }
+    const size = 1 + Math.floor(Math.random() * 2);
+    const picks = size === 1 ? ids.map(a => [a]) : ids.flatMap((a, k) => ids.slice(k + 1).map(b => [a, b]));
+    const good = picks.filter(ok);
+    const pick = good[Math.floor(Math.random() * good.length)];
+    set.clear();
+    pick.forEach(id => set.add(id));
+    setSetting(key, [...set]);
+    sync();
   }
   const randomRules = () => randomPick(chosen, RULES, 'makerRules', pick => !(pick.includes('distance') && pick.includes('couples')));
   const randomFacts = () => randomPick(chosenFacts, FACT_KINDS, 'makerFacts',
     pick => !pick.includes('apart') || chosen.has('ranks') || chosen.has('trades'));
   const sectionHead = (title, onRandom) => el('div.section-head', {},
     el('h2.maker-section', {}, title),
-    onRandom ? el('button.btn.small', { type: 'button', onclick: onRandom, title: `Pick 1 or 2 random ${title.toLowerCase()}` }, '🎲 Random') : null);
+    el('button.btn.small', { type: 'button', onclick: onRandom, title: `Pick 1 or 2 random ${title.toLowerCase()}` }, '🎲 Random'));
 
   // Stays in the bottom right corner while the page scrolls.
   const go = el('button.btn.success.generate', {
@@ -396,8 +398,8 @@ function renderHome() {
           // One progress bar per difficulty group.
           el('span.progress-groups', {}, groupsOf(levels).map(({ g, items }) => {
             const done = items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length;
-            return el(`span.progress${g >= 0 ? `.d${g}` : ''}`, {},
-              el('small.progress-name', {}, g >= 0 ? DIFFICULTY[g].name : 'Cases'),
+            return el(`span.progress.d${g}`, {},
+              el('small.progress-name', {}, groupLabel(g)),
               el('span.progress-bar', {}, el('span', { style: { width: `${(100 * done) / items.length}%` } })),
               el('small', {}, `${done} / ${items.length}`));
           })));
@@ -427,6 +429,25 @@ function renderMaker(fromCase = false) {
   }
 }
 
+// Difficulty filter for the extra cases: -1 shows all, else an index into DIFFICULTY.
+const extraPick = () => getSetting('extraFilter', -1);
+const shownExtra = lv => extraPick() < 0 || difficultyIndex(lv.tries) === extraPick();
+function extraFilter(items) {
+  const count = d => items.filter(([lv]) => difficultyIndex(lv.tries) === d).length;
+  const button = (d, label) => el(`button.chip.filter${extraPick() === d ? '.on' : ''}`, {
+    type: 'button', 'aria-pressed': String(extraPick() === d),
+    onclick: () => {
+      setSetting('extraFilter', d);
+      const y = window.scrollY;
+      route();
+      window.scrollTo(0, y);
+    },
+  }, label);
+  return el('div.extra-filter', { role: 'group', 'aria-label': 'Show extra cases of one difficulty' },
+    button(-1, `All (${items.length})`),
+    DIFFICULTY.map((d, k) => button(k, `${d.name} (${count(k)})`)));
+}
+
 function renderCampaign(theme) {
   const campaign = CAMPAIGNS.find(c => c.theme === theme.id);
   document.title = `${theme.title} · Alibi Grid`;
@@ -444,7 +465,7 @@ function renderCampaign(theme) {
       : '', // not null: replaceChildren would show it as the text "null"
     // Cases grouped by difficulty: Beginner, Medium, Hard, Expert.
     // Each group folds open and shut. Folded groups are remembered per campaign.
-    el('div.case-groups', {}, groupsOf(campaign.levels).map(({ g, items }) => el(g >= 0 ? 'details.case-group' : 'section.case-group', g < 0 ? {} : {
+    el('div.case-groups', {}, groupsOf(campaign.levels).map(({ g, items }) => el('details.case-group', {
       open: !getSetting('foldedGroups', {})[theme.id]?.includes(g),
       ontoggle: e => {
         const all = getSetting('foldedGroups', {});
@@ -453,11 +474,13 @@ function renderCampaign(theme) {
         setSetting('foldedGroups', { ...all, [theme.id]: [...mine] });
       },
     },
-      g >= 0 ? el('summary.case-group-head', {},
-        el('h2', {}, DIFFICULTY[g].name),
+      el('summary.case-group-head', {},
+        el('h2', {}, groupTitle(g)),
         el('span.case-group-info', {},
-          `${items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length} / ${items.length} solved`)) : '',
-      el('ol.cases', {}, items.map(([lv, i]) => {
+          `${items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length} / ${items.length} solved`)),
+      // Extra cases have every difficulty: buttons show only one.
+      g === 'extra' ? extraFilter(items) : '',
+      el('ol.cases', {}, items.filter(([lv]) => g !== 'extra' || shownExtra(lv)).map(([lv, i]) => {
         const state = loadLevel(levelKey(theme.id, i));
         const status = isClosed(state) ? 'solved' : state?.pos?.some(x => x >= 0) ? 'started' : 'new';
         // A box in the corner closes (or opens) a case by hand. It sits next to the
@@ -477,7 +500,7 @@ function renderCampaign(theme) {
         });
         return el('li.case-item', { style: { '--h': theme.hue } }, closeBox, el(`a.case-card.${status}`, { href: `#/c/${theme.id}/${i}`, style: { '--h': theme.hue } },
           caseThumb(theme, lv),
-          el('span.case-num', {}, g >= 0 ? `Case ${items.findIndex(([, j]) => j === i) + 1}` : campaignCaseName(campaign.levels, i)),
+          el('span.case-num', {}, `Case ${items.findIndex(([, j]) => j === i) + 1}`),
           el('span.case-size', {}, `${lv.size} × ${lv.size} `, difficultyBadge(lv.tries)),
           el('span.case-victim', {}, `Victim: ${lv.people[lv.victim]}`),
           theme.mix ? el('span.case-victim', {}, lv.rules.map(r => RULE_LABEL[r]).join(' · ')) : null,
@@ -486,6 +509,23 @@ function renderCampaign(theme) {
           status === 'solved' ? caseTick() : null));
       }))))),
   );
+}
+
+// A shared board comes as ?b=<data>. Ask before it replaces the player's progress
+// (key: where that progress is saved). Then drop ?b= from the address (hash).
+// Returns the board to use, or null.
+async function sharedBoard(query, key, hash) {
+  const shared = decodeData(new URLSearchParams(query).get('b') || '');
+  if (!shared || !Array.isArray(shared.pos)) return null;
+  const mine = loadLevel(key);
+  const busy = mine && (mine.pos?.some(x => x >= 0) || mine.marks?.length || Object.keys(mine.notes || {}).length);
+  const use = !busy || await showDialog({
+    title: 'Open shared board?',
+    body: el('p', {}, 'This link holds a board for this case. It replaces your board here.'),
+    buttons: [{ label: 'Keep mine', value: false }, { label: 'Use shared board', value: true, primary: true }],
+  });
+  history.replaceState(null, '', hash);
+  return use ? { ...shared, solved: false } : null;
 }
 
 async function route() {
@@ -497,18 +537,7 @@ async function route() {
     const theme = data && themeById(data.t);
     if (theme && data.l) {
       const id = hashText(parts[1]);
-      const shared = decodeData(new URLSearchParams(query).get('b') || '');
-      let use = null;
-      if (shared && Array.isArray(shared.pos)) {
-        const mine = loadLevel(`x:${id}`);
-        const busy = mine && (mine.pos?.some(x => x >= 0) || mine.marks?.length || Object.keys(mine.notes || {}).length);
-        use = !busy || await showDialog({
-          title: 'Open shared board?',
-          body: el('p', {}, 'This link holds a board for this case. It replaces your board here.'),
-          buttons: [{ label: 'Keep mine', value: false }, { label: 'Use shared board', value: true, primary: true }],
-        }) ? { ...shared, solved: false } : null;
-        history.replaceState(null, '', `#/x/${parts[1]}`);
-      }
+      const use = await sharedBoard(query, `x:${id}`, `#/x/${parts[1]}`);
       return renderGame(app, theme, { theme: theme.id, levels: [data.l] }, 0, use, { id, data: parts[1] });
     }
   }
@@ -518,19 +547,7 @@ async function route() {
     if (theme && campaign) {
       const i = Number(parts[2]);
       if (parts.length > 2 && campaign.levels[i]) {
-        // A shared board comes as ?b=<data>. Ask before it replaces progress.
-        const shared = decodeData(new URLSearchParams(query).get('b') || '');
-        let use = null;
-        if (shared && Array.isArray(shared.pos)) {
-          const mine = loadLevel(levelKey(theme.id, i));
-          const busy = mine && (mine.pos?.some(x => x >= 0) || mine.marks?.length || Object.keys(mine.notes || {}).length);
-          use = !busy || await showDialog({
-            title: 'Open shared board?',
-            body: el('p', {}, 'This link holds a board for this case. It replaces your board here.'),
-            buttons: [{ label: 'Keep mine', value: false }, { label: 'Use shared board', value: true, primary: true }],
-          }) ? { ...shared, solved: false } : null;
-          history.replaceState(null, '', `#/c/${theme.id}/${i}`);
-        }
+        const use = await sharedBoard(query, levelKey(theme.id, i), `#/c/${theme.id}/${i}`);
         return renderGame(app, theme, campaign, i, use);
       }
       return renderCampaign(theme);
