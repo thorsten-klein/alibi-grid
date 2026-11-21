@@ -276,7 +276,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         return;
       }
       if (!ghost) {
-        /* v8 ignore next */ // (coverage: a tiny move before the drag starts is not tested yet)
+        // (coverage: a tiny move before the drag starts is not tested yet)
+        /* v8 ignore next */
         if (Math.hypot(ev.clientX - sx, ev.clientY - sy) < 6) return;
         showGhost(ev.clientX, ev.clientY);
       }

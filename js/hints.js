@@ -80,7 +80,8 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     for (const c of colsLeft) if (!free.some(p => [...s.cand[p]].some(i => col(i) === c))) return `nobody could stand in column ${T.col(c)}`;
     // Two placed people in one row or column.
     const placed = s.pos.filter(i => i >= 0);
-    /* v8 ignore next */ // (coverage: not reached by the tests yet)
+    // (coverage: not reached by the tests yet)
+    /* v8 ignore next */
     if (new Set(placed.map(row)).size + new Set(placed.map(col)).size < 2 * placed.length) return 'two people would share a row or column';
     // Room rules that can already fail.
     for (let p = 0; p < P; p++) {
@@ -482,7 +483,8 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     const free = unplaced(s);
     const openIn = (f, x) => {
       const o = new Set();
-      /* v8 ignore next */ // (coverage: runs so often that its counter overflows)
+      // (coverage: runs so often that its counter overflows)
+      /* v8 ignore next */
       for (const q of free) for (const i of s.cand[q]) if (f(i) === x) o.add(i);
       return o;
     };

@@ -420,7 +420,8 @@ export function solve(level, blocking, { limit = 2, maxNodes = Infinity, restric
   }
 
   function step(placed) {
-    /* v8 ignore next */ // (coverage: the loops stop at the limit before this call)
+    // (coverage: the loops stop at the limit before this call)
+    /* v8 ignore next */
     if (count >= limit) return;
     if (++nodes > maxNodes) { aborted = true; return; } // and so on every later call
     if (placed === P) {

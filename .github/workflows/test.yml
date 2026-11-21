@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - run: node tests/coverage.mjs unit
       - uses: actions/upload-artifact@v4
         with:
@@ -50,8 +50,8 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: npm ci --ignore-scripts
+      - run: ./node_modules/.bin/playwright install --with-deps chromium
       - run: node tests/coverage.mjs e2e ${{ matrix.shard }}/4
       - uses: actions/upload-artifact@v4
         with:
@@ -75,7 +75,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - uses: actions/download-artifact@v4
         with:
           pattern: coverage-*
