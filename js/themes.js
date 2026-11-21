@@ -426,7 +426,7 @@ export const SUSPECT_LETTERS = 'ABCDEFGHIJK';
 // pick(list) chooses one item. Returns one name per person.
 export function castNames(theme, count, victim, pick) {
   let k = 0;
-  return [...Array(count).keys()].map(p => {
+  return [...new Array(count).keys()].map(p => {
     const L = p === victim ? 'V' : SUSPECT_LETTERS[k++];
     return `${pick(FIRST_NAMES[L])} the ${pick(theme.roles[L])}`;
   });

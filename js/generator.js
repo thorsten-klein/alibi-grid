@@ -5,7 +5,7 @@
 // js/hints.js must solve it without a long search.
 
 import { blockingSet, TRADES, castNames } from './themes.js';
-import { solve, neighbors, factValue, groupOf, cellOk, unaryOk, areasOf } from './rules.js';
+import { solve, neighbors, factValue, groupOf, cellOk, unaryOk, areasOf, compareText } from './rules.js';
 import { isDeducible, trialCount, MAX_TRIES } from './hints.js';
 
 export const SIZES = [4, 5, 6, 7, 8, 9, 10, 11, 12];
@@ -62,7 +62,7 @@ function makeRooms(n, count, R) {
   const extra = n >= 6 ? R.int(3) : 0;
   while (rects.length < count + extra) {
     // Always split the biggest room, near its middle.
-    const x = rects.reduce((a, b) => (b.h * b.w > a.h * a.w || (b.h * b.w === a.h * a.w && R() < 0.5) ? b : a));
+    const x = rects.slice(1).reduce((a, b) => (b.h * b.w > a.h * a.w || (b.h * b.w === a.h * a.w && R() < 0.5) ? b : a), rects[0]);
     const near = (k, len) => k >= len / 3 && k <= (2 * len) / 3;
     const cuts = [];
     for (let k = 1; k < x.h; k++) if (near(k, x.h) && k * x.w >= MIN_ROOM && (x.h - k) * x.w >= MIN_ROOM) cuts.push(['h', k]);
@@ -95,7 +95,10 @@ function makeRooms(n, count, R) {
   }
   // Renumber 0..count-1.
   const map = new Map();
-  return rooms.map(k => { if (!map.has(k)) map.set(k, map.size); return map.get(k); });
+  return rooms.map(k => {
+    if (!map.has(k)) map.set(k, map.size);
+    return map.get(k);
+  });
 }
 
 // Merge rooms into one sea until it covers about a third of the board.
@@ -104,7 +107,7 @@ function makeSea(n, rooms, R) {
   const size = new Map();
   rooms.forEach(k => size.set(k, (size.get(k) || 0) + 1));
   const ids = [...size.keys()];
-  const first = ids.reduce((a, b) => (size.get(b) > size.get(a) ? b : a));
+  const first = ids.slice(1).reduce((a, b) => (size.get(b) > size.get(a) ? b : a), ids[0]);
   const sea = new Set([first]);
   let total = size.get(first);
   while (total < 0.35 * n * n && ids.length - sea.size > 2) {
@@ -116,7 +119,10 @@ function makeSea(n, rooms, R) {
     total += size.get(k);
   }
   const map = new Map();
-  const out = rooms.map(k => (sea.has(k) ? first : k)).map(k => { if (!map.has(k)) map.set(k, map.size); return map.get(k); });
+  const out = rooms.map(k => (sea.has(k) ? first : k)).map(k => {
+    if (!map.has(k)) map.set(k, map.size);
+    return map.get(k);
+  });
   return { rooms: out, sea: map.get(first) };
 }
 
@@ -156,7 +162,7 @@ function makeDoorsAndWindows(n, rooms, sea, R) {
       walls.get(key).push([i, j]);
     }
   }
-  const doors = [...walls.keys()].sort().map(k => R.pick(walls.get(k)));
+  const doors = [...walls.keys()].sort(compareText).map(k => R.pick(walls.get(k)));
   const edge = [];
   for (let i = 0; i < n * n; i++) {
     if (rooms[i] === sea) continue;
@@ -174,7 +180,7 @@ function makePlacement(n, objects, blocking, R, noTouch = false) {
   const used = new Array(n).fill(false);
   function go(r) {
     if (r === n) return true;
-    for (const c of R.shuffle([...Array(n).keys()])) {
+    for (const c of R.shuffle([...new Array(n).keys()])) {
       if (used[c] || blocking.has(objects[r * n + c])) continue;
       if (noTouch && r > 0 && Math.abs(cols[r - 1] - c) === 1) continue;
       used[c] = true; cols[r] = c;
@@ -193,7 +199,7 @@ function candidateClues(level, pos, area, R) {
   pos.forEach((i, p) => {
     const k = level.rooms[i];
     out.push({ p, t: 'room', v: k });
-    const others = [...Array(roomCount).keys()].filter(x => x !== k);
+    const others = [...new Array(roomCount).keys()].filter(x => x !== k);
     for (const x of R.shuffle(others).slice(0, 2)) out.push({ p, t: 'notRoom', v: x });
     const obj = level.objects[i];
     if (obj) out.push({ p, t: 'on', v: obj });
@@ -204,8 +210,7 @@ function candidateClues(level, pos, area, R) {
     // Doors and windows.
     if (level.doors.some(d => d.includes(i))) out.push({ p, t: 'door' });
     if (level.windows.some(([w]) => w === i)) out.push({ p, t: 'window' });
-    out.push({ p, t: 'row', v: Math.floor(i / n) });
-    out.push({ p, t: 'col', v: i % n });
+    out.push({ p, t: 'row', v: Math.floor(i / n) }, { p, t: 'col', v: i % n });
     const mates = pos.map((j, q) => q).filter(q => q !== p && area[pos[q]] === area[i]);
     if (!mates.length) out.push({ p, t: 'alone' });
     // No "same room" clue with the victim: it would name the murderer.
@@ -221,7 +226,7 @@ function candidateClues(level, pos, area, R) {
         const id = tag.slice(2);
         out.push({ p, t: 'task', v: id });
         const other = ids.filter(x => x !== id);
-        if (other.length) out.push({ p, t: 'taskEither', v: [id, R.pick(other)].sort() });
+        if (other.length) out.push({ p, t: 'taskEither', v: [id, R.pick(other)].sort(compareText) });
       } else out.push({ p, t: 'noTask' });
     });
   }
@@ -305,7 +310,7 @@ function addRules(level, rules, pos, area, blocking, R) {
       if (!tags[i] && plain(i) && R() < 0.3) { const id = R.pick(used); tags[i] = `k:${id}`; counts.set(id, counts.get(id) + 1); }
     });
     for (const id of used) {
-      const spare = [...Array(n * n).keys()].filter(i => !occupied.has(i) && !tags[i] && plain(i));
+      const spare = [...new Array(n * n).keys()].filter(i => !occupied.has(i) && !tags[i] && plain(i));
       for (const i of R.shuffle(spare).slice(0, 1 + R.int(3))) tags[i] = `k:${id}`;
     }
     level.tasks = used.filter(id => counts.get(id) > 0).map(id => [id, counts.get(id)]);
@@ -426,9 +431,9 @@ export function murdererTooEasy(level, blocking) {
   const victim = level.people.findIndex(x => x.victim);
   if (level.clues.some(cl => cl.t === 'same' && (cl.p === victim || cl.v === victim))) return true;
   const area = areasOf(level), n = level.size;
-  const UNARY = ['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window'];
+  const UNARY = new Set(['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window']);
   const roomsOf = p => {
-    const mine = level.clues.filter(cl => cl.p === p && UNARY.includes(cl.t));
+    const mine = level.clues.filter(cl => cl.p === p && UNARY.has(cl.t));
     const out = new Set();
     for (let i = 0; i < n * n; i++) if (cellOk(level, blocking, p, i) && mine.every(cl => unaryOk(level, blocking, cl, i))) out.add(area[i]);
     return out;
@@ -539,7 +544,8 @@ export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = nu
       const res = solve(level, blocking, { limit: 2, maxNodes: budget });
       if (res.count === 1 && !res.aborted) clues = rest;
     }
-    level.clues = clues.sort((a, b) => a.p - b.p);
+    clues.sort((a, b) => a.p - b.p);
+  level.clues = clues;
     // Every clue, couple and mark must be needed, and everyone keeps a clue.
     // (Everyone keeps a clue: dropUnneeded never takes a person's last one.)
     dropUnneeded(level, blocking, maxTries);

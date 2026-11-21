@@ -28,7 +28,7 @@ export function encodeLevel(theme, level) {
   const out = {
     size: level.size,
     rooms: level.rooms.map(k => k.toString(36)).join(''),
-    objects: level.objects.map(o => (o ? String.fromCharCode(97 + ids.indexOf(o)) : '.')).join(''),
+    objects: level.objects.map(o => (o ? String.fromCodePoint(97 + ids.indexOf(o)) : '.')).join(''),
     roomNames: level.roomNames,
     people: level.people.map(p => p.name),
     victim: level.people.findIndex(p => p.victim),
@@ -49,7 +49,7 @@ export function encodeLevel(theme, level) {
   if (rules.includes('trades')) out.trade = level.trade.map(t => (t ? String(tradeIndex(t)) : '.')).join('');
   if (level.tags?.some(Boolean)) {
     out.tags = level.tags.map(t => (!t ? '.' : t === 'lone' ? 'L' : t === 'crowd' ? 'C'
-      : t.startsWith('k:') ? String.fromCharCode(97 + tradeIndex(t.slice(2))) : String(tradeIndex(t.slice(2))))).join('');
+      : t.startsWith('k:') ? String.fromCodePoint(97 + tradeIndex(t.slice(2))) : String(tradeIndex(t.slice(2))))).join('');
   }
   if (rules.includes('sea')) out.sea = level.sea;
   if (rules.includes('bandits')) { out.bandits = level.bandits; out.lawful = level.lawful; }
@@ -64,8 +64,8 @@ export function decodeLevel(theme, raw) {
   const ids = Object.keys(theme.objects);
   const level = {
     size: raw.size,
-    rooms: [...raw.rooms].map(ch => parseInt(ch, 36)),
-    objects: [...raw.objects].map(ch => (ch === '.' ? null : ids[ch.charCodeAt(0) - 97])),
+    rooms: [...raw.rooms].map(ch => Number.parseInt(ch, 36)),
+    objects: [...raw.objects].map(ch => (ch === '.' ? null : ids[ch.codePointAt(0) - 97])),
     roomNames: raw.roomNames,
     people: raw.people.map((name, p) => (p === raw.victim ? { name, victim: true } : { name })),
     clues: raw.clues.map(([p, t, v]) => ({ p, t, v })),
@@ -81,12 +81,12 @@ export function decodeLevel(theme, raw) {
   if (raw.trade) level.trade = [...raw.trade].map(ch => (ch === '.' ? null : TRADES[+ch].id));
   if (raw.tags) {
     level.tags = [...raw.tags].map(ch => (ch === '.' ? null : ch === 'L' ? 'lone' : ch === 'C' ? 'crowd'
-      : /[a-e]/.test(ch) ? `k:${TRADES[ch.charCodeAt(0) - 97].id}` : `t:${TRADES[+ch].id}`));
+      : /[a-e]/.test(ch) ? `k:${TRADES[ch.codePointAt(0) - 97].id}` : `t:${TRADES[+ch].id}`));
   }
   if (raw.bandits) { level.bandits = raw.bandits; level.lawful = raw.lawful; }
   if (raw.couples) level.couples = raw.couples;
   if (raw.parity) level.parity = raw.parity.map(([k, c]) => [k, c === 'e' ? 'even' : 'odd']);
   if (raw.tasks) level.tasks = raw.tasks.map(([k, c]) => [TRADES[k].id, c]);
-  if (raw.river) level.river = { dir: raw.river[0], cut: [...raw.river[1]].map(ch => parseInt(ch, 36)), first: raw.river[2] };
+  if (raw.river) level.river = { dir: raw.river[0], cut: [...raw.river[1]].map(ch => Number.parseInt(ch, 36)), first: raw.river[2] };
   return level;
 }

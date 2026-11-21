@@ -145,7 +145,12 @@ if (!isMainThread) {
       const worker = new Worker(new URL(import.meta.url));
       const next = () => {
         const job = jobs.shift();
-        if (!job) { worker.terminate(); if (--running === 0) resolve(); return; }
+        if (!job) {
+          worker.terminate();
+          running--;
+          if (running === 0) resolve();
+          return;
+        }
         worker.postMessage({ ...job, timeLimit, seed: 1000000 * (Number(arg('--seed')) || 0) });
       };
       worker.on('message', ({ ti, li, g, raw, ms }) => {

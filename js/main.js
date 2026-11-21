@@ -27,8 +27,8 @@ function groupsOf(levels) {
   const out = [];
   levels.forEach((lv, i) => {
     const g = lv.extra ? 'extra' : lv.group;
-    if (!out.length || out[out.length - 1].g !== g) out.push({ g, items: [] });
-    out[out.length - 1].items.push([lv, i]);
+    if (!out.length || out.at(-1).g !== g) out.push({ g, items: [] });
+    out.at(-1).items.push([lv, i]);
   });
   return out;
 }
@@ -188,7 +188,7 @@ function caseTick() {
 // Short hash, so each player-made case keeps its own progress.
 function hashText(text) {
   let h = 5381;
-  for (let i = 0; i < text.length; i++) h = (h * 33 + text.charCodeAt(i)) >>> 0;
+  for (let i = 0; i < text.length; i++) h = (h * 33 + text.codePointAt(i)) >>> 0;
   return h.toString(36);
 }
 
@@ -439,7 +439,7 @@ function extraFilter(items) {
     onclick: () => {
       setSetting('extraFilter', d);
       const y = window.scrollY;
-      route();
+      void route();
       window.scrollTo(0, y);
     },
   }, label);
@@ -558,4 +558,4 @@ async function route() {
 }
 
 window.addEventListener('hashchange', route);
-route();
+void route();

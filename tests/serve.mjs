@@ -11,7 +11,7 @@ const port = Number(process.argv[2]) || 8123;
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml' };
 
 createServer(async (req, res) => {
-  const path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname)).replace(/^([/\\])+/, '');
+  const path = normalize(decodeURIComponent(new URL(req.url, 'https://localhost').pathname)).replace(/^([/\\])+/, '');
   const file = join(root, path || 'index.html');
   if (!file.startsWith(root)) { res.writeHead(403).end(); return; }
   try {

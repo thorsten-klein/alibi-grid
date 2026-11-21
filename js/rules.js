@@ -63,6 +63,12 @@
 //   - Every clue is true.
 //   - The murderer is the only person in the victim's room.
 
+// Sort compare for strings, by code unit. Same order as a plain .sort().
+export function compareText(a, b) {
+  if (a < b) return -1;
+  return a > b ? 1 : 0;
+}
+
 export const CLUE_TYPES = ['room', 'notRoom', 'on', 'next', 'row', 'col', 'same', 'alone', 'door', 'window',
   'bandit', 'notBandit', 'withBandit', 'task', 'taskEither', 'noTask'];
 
@@ -80,7 +86,7 @@ export function riverSides(level) {
   const rv = level.river;
   if (!rv || !hasRule(level, 'river')) return null;
   const n = level.size;
-  return [...Array(n * n).keys()].map(i => {
+  return [...new Array(n * n).keys()].map(i => {
     const r = Math.floor(i / n), c = i % n;
     return rv.dir === 'v' ? (c < rv.cut[r] ? 0 : 1) : (r < rv.cut[c] ? 0 : 1);
   });
@@ -143,7 +149,7 @@ export function factCells(level, f) {
 
 // The value of a fact for a full placement: a count, or true/false for 'apart'.
 export function factValue(level, f, pos) {
-  const area = areasOf(level), n = level.size;
+  const area = areasOf(level);
   if (CELL_FACTS.includes(f.t)) { const cells = factCells(level, f); return pos.filter(i => cells[i]).length; }
   if (f.t === 'alone') return pos.filter((i, p) => !pos.some((j, q) => q !== p && area[j] === area[i])).length;
   if (f.t === 'emptyRooms') return landRooms(level).filter(k => !pos.some(i => level.rooms[i] === k)).length;
@@ -245,7 +251,7 @@ export function cellOk(level, blocking, p, i) {
     if (rank === 'commoner' && court) return false;
   }
   const tag = level.tags?.[i];
-  if (tag && tag.startsWith('t:') && level.trade?.[p] !== tag.slice(2)) return false;
+  if (tag?.startsWith('t:') && level.trade?.[p] !== tag.slice(2)) return false;
   return true;
 }
 
@@ -319,7 +325,7 @@ export function banditSet(level, pos) {
   for (const p of must) if (never.has(p)) return null;
   const chosen = [...must];
   if (chosen.length > K) return null;
-  const free = [...Array(P).keys()].filter(p => !must.has(p) && !never.has(p));
+  const free = [...new Array(P).keys()].filter(p => !must.has(p) && !never.has(p));
   const ok = () => want.every(w => chosen.some(b => b !== w && area[pos[b]] === area[pos[w]]));
   function pick(start) {
     if (chosen.length === K) return ok();

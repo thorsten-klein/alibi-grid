@@ -3,7 +3,7 @@
 import { decodeLevel, encodeLevel } from './levelCodec.js';
 import { makeLevel, DIFFICULTY, difficultyIndex, campaignCaseName } from './generator.js';
 import { blockingSet, colName, RANKS, COURT, GLYPHS, SEA, LAWFUL, tradeById, ruleText, clueText, article, factText } from './themes.js';
-import { clueState, murdererOf, victimIndex, factCells, CELL_FACTS, featureCells } from './rules.js';
+import { clueState, murdererOf, victimIndex, factCells, CELL_FACTS, featureCells, compareText } from './rules.js';
 import { deduce, trialCount } from './hints.js';
 import { loadLevel, saveLevel, levelKey, isClosed, getSetting, setSetting } from './storage.js';
 import { el, showDialog, personColor, roomHue, icon, copyText, encodeData, logo, difficultyBadge } from './ui.js';
@@ -380,7 +380,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     after.forEach((c, q) => {
       if (apos[q] >= 0 || !c.size) return;
       for (const [k, f] of [['r', i => Math.floor(i / n)], ['c', i => i % n]]) {
-        const xs = new Set([...c].map(f));
+        const xs = new Set([...c].map(i => f(i)));
         if (xs.size === 1) note(`${k}${[...xs][0]}`, q, true);
       }
     });
@@ -565,7 +565,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     if (JSON.stringify([now.notes, now.nots, now.texts]) !== JSON.stringify([prev.notes, prev.nots, prev.texts])) snapshot(prev);
     persist();
     draw();
-    if (toPlace) openPlacePicker(cell);
+    if (toPlace) void openPlacePicker(cell);
   }
 
   function restore(saved) {
@@ -767,9 +767,9 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   function withLabels(board, lanes = null) {
     return el(`div.label-frame${lanes ? '.with-lanes' : ''}`, {},
       el('span'),
-      el('div.labels.cols', { style: { '--n': n } }, [...Array(n).keys()].map(c => el('span', {}, colName(c)))),
+      el('div.labels.cols', { style: { '--n': n } }, [...new Array(n).keys()].map(c => el('span', {}, colName(c)))),
       lanes ? el('span') : null,
-      el('div.labels.rows', { style: { '--n': n } }, [...Array(n).keys()].map(r => el('span', {}, String(r + 1)))),
+      el('div.labels.rows', { style: { '--n': n } }, [...new Array(n).keys()].map(r => el('span', {}, String(r + 1)))),
       board,
       lanes ? [lanes[0], el('span'), lanes[1], el('span')] : null);
   }
@@ -875,7 +875,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     for (const [kind, f] of [['r', i => Math.floor(i / n)], ['c', i => i % n]]) {
       level.people.forEach((_, p) => {
         if (state.pos[p] >= 0) return;
-        const xs = [...state.notes].filter(([k, set]) => k[0] === kind && set.has(p)).map(([k]) => Number(k.slice(1)));
+        const xs = [...state.notes].filter(([k, set]) => k.startsWith(kind) && set.has(p)).map(([k]) => Number(k.slice(1)));
         if (xs.length !== 1) return;
         const x = xs[0];
         lineNotes.push({ p, kind, x, f });
@@ -895,7 +895,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     // not blocked and not in a filled row or column.
     const rowsUsed = new Set(state.pos.filter(i => i >= 0).map(i => Math.floor(i / n)));
     const colsUsed = new Set(state.pos.filter(i => i >= 0).map(i => i % n));
-    const openCells = [...Array(n * n).keys()].filter(i => !blocking.has(level.objects[i]) && !state.marks.has(i) &&
+    const openCells = [...new Array(n * n).keys()].filter(i => !blocking.has(level.objects[i]) && !state.marks.has(i) &&
       !rowsUsed.has(Math.floor(i / n)) && !colsUsed.has(i % n));
     const before = { pos: state.pos.slice(), cand: level.people.map((_, p) => (state.pos[p] >= 0 ? [state.pos[p]] : openCells)) };
     // Notes that leave out where a person really stands are a mistake too.
@@ -927,7 +927,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     };
     // Steps the player can write down come first: a placement, a cross, new cells for a
     // person, a note to remove, or a person in one row or column (for the boxes).
-    const lineOf = (cells, f) => { const xs = new Set([...cells].map(f)); return xs.size === 1 ? [...xs][0] : -1; };
+    const lineOf = (cells, f) => { const xs = new Set([...cells].map(i => f(i))); return xs.size === 1 ? [...xs][0] : -1; };
     const visible = step => {
       // Other steps take cells from people (elim).
       if (step.place || step.allowed || step.cross?.length || step.done || step.mistake) return true;
@@ -956,7 +956,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       steps = deduce(level, blocking, hintText, { start, options: true });
     }
     // Tries that rule out many cells at once are hard to follow: they come last.
-    const size = st => (/^If /.test(st.text) ? st.elim.length : 0);
+    const size = st => (st.text.startsWith('If ') ? st.elim.length : 0);
     const shown = steps.filter(visible).sort((a, b) => size(a) - size(b));
     const first = lead.length ? `${lead.join(' ')} Then: ` : '';
     // A clue step explains itself; the quiet steps before it only matter for other steps.
@@ -999,7 +999,10 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       // Next (→ and the Next button): after Apply, the next step from the updated board;
       // before it, the next option for this board.
       const noNext = !applied && j >= options.length - 1;
-      const goNext = () => { if (applied) { options = null; j = 0; applied = false; } else j++; showNext(); };
+      const goNext = () => {
+        if (applied) { options = null; j = 0; applied = false; } else j++;
+        showNext();
+      };
       body.replaceChildren(el('div.hint-main', {},
         el('div.hint-nav', {},
           el('button.btn', { type: 'button', disabled: applied || j === 0, onclick: () => { j--; showNext(); } }, '←'),
@@ -1076,7 +1079,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
 
   function openShare() {
     const status = el('p.status', { role: 'status' });
-    showDialog({
+    void showDialog({
       title: 'Share this case',
       body: [
         el('p', {}, 'Anyone who opens a link plays this case.'),
@@ -1117,7 +1120,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     const base = frame.getBoundingClientRect().width / zooms[key];
     const wide = window.matchMedia('(min-width: 900px)').matches;
     const room = game.clientWidth - (wide ? 324 : 0);
-    return ZOOMS.filter(z => z * base <= room + 1).pop() || ZOOMS[0];
+    return ZOOMS.findLast(z => z * base <= room + 1) || ZOOMS[0];
   }
 
   function setZoom(key, z, save = true) {
@@ -1208,8 +1211,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
 
   const noteLabel = noteKey => {
     const yes = state.notes.get(noteKey), no = state.nots.get(noteKey);
-    return (yes?.size ? `, could be: ${[...yes].map(letter).sort().join(' ')}` : '') +
-      (no?.size ? `, not: ${[...no].map(letter).sort().join(' ')}` : '');
+    return (yes?.size ? `, could be: ${[...yes].map(letter).sort(compareText).join(' ')}` : '') +
+      (no?.size ? `, not: ${[...no].map(letter).sort(compareText).join(' ')}` : '');
   };
 
   // The selected person's cell and every note that names them pulse.
@@ -1234,7 +1237,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   }
 
   function noteLane(kind) {
-    return el(`div.note-lane.${kind}`, {}, [...Array(n).keys()].map(x => {
+    return el(`div.note-lane.${kind}`, {}, [...new Array(n).keys()].map(x => {
       const noteKey = `${kind === 'rows' ? 'r' : 'c'}${x}`;
       const name = kind === 'rows' ? `Row ${x + 1}` : `Column ${colName(x)}`;
       // The person placed in this row or column covers the notes.
@@ -1257,7 +1260,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   const firstCell = new Map();
   level.rooms.forEach((k, i) => { if (!firstCell.has(k)) firstCell.set(k, i); });
   const labeled = new Set();
-  const baseCells = [...Array(n * n).keys()].map(i => {
+  const baseCells = [...new Array(n * n).keys()].map(i => {
     const r = Math.floor(i / n), c = i % n, k = level.rooms[i];
     const edge = (rr, cc) => rr < 0 || cc < 0 || rr >= n || cc >= n || level.rooms[rr * n + cc] !== k;
     const obj = level.objects[i];
@@ -1355,7 +1358,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         type: 'button', 'aria-label': label, title: label, 'data-i': i,
         style: { '--rh': roomHue(theme, b.k) },
         onclick: () => tapCell(i),
-        oncontextmenu: e => { e.preventDefault(); if (!pressed) tapCell(i, true); },
+        oncontextmenu: e => { e.preventDefault(); if (!pressed) void tapCell(i, true); },
         // Long press on a cell: open the dialog to place someone here (not on the notes board).
         onpointerdown: e => {
           if (state.solved || e.button > 0 || e.target.closest('.token')) return;
@@ -1369,7 +1372,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
           const t = setTimeout(() => {
             ring.remove();
             pressed = true; justDragged = true; navigator.vibrate?.(20);
-            openPlacePicker(i);
+            void openPlacePicker(i);
             setTimeout(() => { justDragged = false; pressed = false; }, 400);
           }, CELL_PRESS);
           const stop = ev => {
@@ -1394,9 +1397,9 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         : who < 0 && state.marks.has(i) ? el('span.mark', { 'aria-hidden': 'true' }, '✕') : null));
     }
     const colLabels = el('div.labels.cols', { style: { '--n': n } },
-      [...Array(n).keys()].map(c => el('span', {}, colName(c))));
+      [...new Array(n).keys()].map(c => el('span', {}, colName(c))));
     const rowLabels = el('div.labels.rows', { style: { '--n': n } },
-      [...Array(n).keys()].map(r => el('span', {}, String(r + 1))));
+      [...new Array(n).keys()].map(r => el('span', {}, String(r + 1))));
     if (view) {
       // Same size and place as the working board, but without the note boxes.
       return el('div.board-frame.view-only', { 'data-zoom': 'zoom' }, el('span'), colLabels, el('span'), rowLabels, board, el('span'),
@@ -1515,7 +1518,10 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     cand.forEach((c, p) => {
       if (step.own || pos[p] >= 0 || c.length >= freeCells) return; // the player's own board: no dots
       if (!step.own && !step.dotted?.has(p)) return; // dots only for people an earlier step marked
-      for (const i of c) { if (!known.has(i)) known.set(i, []); known.get(i).push(p); }
+      for (const i of c) {
+        if (!known.has(i)) known.set(i, []);
+        known.get(i).push(p);
+      }
     });
     const act = new Map(); // cell -> the mark for the action (one per cell)
     const mark = (i, node) => act.set(i, node);
@@ -1535,7 +1541,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       const byCell = new Map();
       for (const [p, i] of step.elim) {
         if (xed.has(i) || step.cross?.includes(i) || step.allowed?.cells.includes(i)) continue; // shown as ✕ or as the person's dot
-        if (!byCell.has(i)) byCell.set(i, []); byCell.get(i).push(p);
+        if (!byCell.has(i)) byCell.set(i, []);
+        byCell.get(i).push(p);
       }
       for (const [i, ps] of byCell) {
         const rest = cand.some((c, q) => pos[q] < 0 && !ps.includes(q) && c.includes(i));
@@ -1577,8 +1584,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     }
     for (const [p, i] of step.elim || []) after[p].delete(i);
     if (step.allowed) after[step.allowed.p] = new Set(step.allowed.cells);
-    const lineOf = (set, f) => { const xs = new Set([...set].map(f)); return xs.size === 1 ? [...xs][0] : -1; };
-    const lane = (kind, f) => el(`div.note-lane.${kind}`, {}, [...Array(n).keys()].map(x => {
+    const lineOf = (set, f) => { const xs = new Set([...set].map(i => f(i))); return xs.size === 1 ? [...xs][0] : -1; };
+    const lane = (kind, f) => el(`div.note-lane.${kind}`, {}, [...new Array(n).keys()].map(x => {
       const placed = apos.findIndex(i => i >= 0 && f(i) === x);
       if (placed >= 0) {
         const fresh = pos[placed] < 0;
@@ -1706,7 +1713,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
           // Anywhere else on the card: select, or unselect if already selected.
           selectPerson(state.selected === p ? null : p);
         },
-        ondblclick: e => { e.preventDefault(); state.selected = p; openPersonBoard(p); },
+        ondblclick: e => { e.preventDefault(); state.selected = p; void openPersonBoard(p); },
         // Drag the whole card. The token starts at once, the rest needs a long press on touch.
         onpointerdown: e => startDrag(e, p, { hold: !e.target.closest('.token') }),
         oncontextmenu: e => { if (e.pointerType !== 'mouse') e.preventDefault(); },
@@ -1716,7 +1723,10 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
           role: 'button', tabindex: 0,
           'aria-pressed': String(state.selected === p),
           title: 'Click to see their cells. Double-click to mark where they can be.',
-          onclick: () => { if (justDragged) return; selectPerson(state.selected === p ? null : p); },
+          onclick: () => {
+            if (justDragged) return;
+            selectPerson(state.selected === p ? null : p);
+          },
           onkeydown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); state.selected = state.selected === p ? null : p; draw(); } },
         },
         el(`span.token.draggable${p === victim ? '.victim' : ''}`, {
@@ -1728,7 +1738,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         // Magnifier in the top right corner: opens "Where can … be?" (same as a double-click).
         el('button.person-zoom', {
           type: 'button', title: `Where can ${person.name} be?`, 'aria-label': `Where can ${person.name} be?`,
-          onclick: e => { e.stopPropagation(); state.selected = p; openPersonBoard(p); },
+          onclick: e => { e.stopPropagation(); state.selected = p; void openPersonBoard(p); },
           ondblclick: e => e.stopPropagation(),
           onpointerdown: e => e.stopPropagation(),
           onkeydown: e => e.stopPropagation(),

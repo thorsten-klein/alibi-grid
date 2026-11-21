@@ -22,7 +22,7 @@ export function el(spec, props = {}, ...children) {
 }
 
 // Show a modal. buttons: [{ label, value, primary }]. Resolves with the value.
-export function showDialog({ title, body, buttons = [{ label: 'OK', value: true, primary: true }], wide = false, stack = false }) {
+export function showDialog({ title, body, buttons = [{ label: 'OK', value: true, primary: true }], wide, stack = false }) {
   const dlg = document.getElementById('dialog');
   // wide: true for a wide dialog, 'x' for an extra wide one.
   dlg.classList.toggle('wide', !!wide);
@@ -112,15 +112,15 @@ export async function copyText(text) {
 export function encodeData(obj) {
   const bytes = new TextEncoder().encode(JSON.stringify(obj));
   let bin = '';
-  bytes.forEach(b => { bin += String.fromCharCode(b); });
-  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  bytes.forEach(b => { bin += String.fromCodePoint(b); });
+  return btoa(bin).replaceAll('+', '-').replaceAll('/', '_').replace(/={1,2}$/, '');
 }
 export function decodeData(text) {
   try {
-    let b64 = text.replace(/-/g, '+').replace(/_/g, '/');
+    let b64 = text.replaceAll('-', '+').replaceAll('_', '/');
     while (b64.length % 4) b64 += '=';
     const bin = atob(b64);
-    return JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, ch => ch.charCodeAt(0))));
+    return JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, ch => ch.codePointAt(0))));
   } catch { return null; }
 }
 

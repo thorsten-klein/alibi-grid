@@ -1,6 +1,6 @@
 // Shared helpers for the unit tests.
 
-import { colName, clueText, factText, themeById } from '../../js/themes.js';
+import { colName, clueText, factText, themeById, THEMES, themeRules, blockingSet } from '../../js/themes.js';
 
 // Text helpers for deduce(), like the game's (people as their names).
 export function plainT(level, theme = null) {
@@ -18,7 +18,6 @@ export function plainT(level, theme = null) {
   };
 }
 
-import { THEMES, themeRules, blockingSet } from '../../js/themes.js';
 import { RULES } from '../../js/rules.js';
 import { makeLevel, FACT_KINDS } from '../../js/generator.js';
 

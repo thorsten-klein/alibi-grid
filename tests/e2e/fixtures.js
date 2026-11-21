@@ -1,7 +1,7 @@
 // The `test` for all browser tests. With COVERAGE_PART set (see tests/coverage.mjs)
 // it records which code each page ran and adds it to that coverage part.
 
-import { test as base, expect } from '@playwright/test';
+import { test as base } from '@playwright/test';
 import { CoverageReport } from 'monocart-coverage-reports';
 import { coverageOptions } from '../coverage-options.js';
 
@@ -18,4 +18,4 @@ export const test = base.extend({
   },
 });
 
-export { expect };
+export { expect } from '@playwright/test';

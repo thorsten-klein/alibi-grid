@@ -4,7 +4,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   solve, boardRuleProblems, clueState, unaryOk, murdererOf, banditSet, factValue, factHolds,
-  allFacts, taskFacts, victimIndex, CELL_FACTS, factCells, hasRule,
+  allFacts, taskFacts, victimIndex, CELL_FACTS, factCells, hasRule, compareText,
 } from '../../js/rules.js';
 import { encodeLevel, decodeLevel } from '../../js/levelCodec.js';
 import { sampleLevels, rng } from './helpers.js';
@@ -110,4 +110,10 @@ test('rule problems name people and rooms by default', () => {
   const couples = sampleLevels().find(x => x.label === 'couples').level;
   const apart = couples.solution.map((i, p) => (couples.couples[0].includes(p) ? couples.solution[couples.couples[0][0]] : i));
   assert.ok(boardRuleProblems(couples, apart).some(t => t.includes(couples.people[couples.couples[0][0]].name)));
+});
+
+test('compareText sorts like a plain sort', () => {
+  const words = ['b', '10-2', 'a', '1-10', 'B', 'a'];
+  assert.deepEqual([...words].sort(compareText), [...words].sort());
+  assert.equal(compareText('a', 'a'), 0);
 });

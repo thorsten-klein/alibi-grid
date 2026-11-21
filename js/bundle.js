@@ -215180,7 +215180,7 @@ const SUSPECT_LETTERS = 'ABCDEFGHIJK';
 // pick(list) chooses one item. Returns one name per person.
 function castNames(theme, count, victim, pick) {
   let k = 0;
-  return [...Array(count).keys()].map(p => {
+  return [...new Array(count).keys()].map(p => {
     const L = p === victim ? 'V' : SUSPECT_LETTERS[k++];
     return `${pick(FIRST_NAMES[L])} the ${pick(theme.roles[L])}`;
   });
@@ -215356,6 +215356,12 @@ function ruleText(rule, level) {
 //   - Every clue is true.
 //   - The murderer is the only person in the victim's room.
 
+// Sort compare for strings, by code unit. Same order as a plain .sort().
+function compareText(a, b) {
+  if (a < b) return -1;
+  return a > b ? 1 : 0;
+}
+
 const CLUE_TYPES = ['room', 'notRoom', 'on', 'next', 'row', 'col', 'same', 'alone', 'door', 'window',
   'bandit', 'notBandit', 'withBandit', 'task', 'taskEither', 'noTask'];
 
@@ -215373,7 +215379,7 @@ function riverSides(level) {
   const rv = level.river;
   if (!rv || !hasRule(level, 'river')) return null;
   const n = level.size;
-  return [...Array(n * n).keys()].map(i => {
+  return [...new Array(n * n).keys()].map(i => {
     const r = Math.floor(i / n), c = i % n;
     return rv.dir === 'v' ? (c < rv.cut[r] ? 0 : 1) : (r < rv.cut[c] ? 0 : 1);
   });
@@ -215436,7 +215442,7 @@ function factCells(level, f) {
 
 // The value of a fact for a full placement: a count, or true/false for 'apart'.
 function factValue(level, f, pos) {
-  const area = areasOf(level), n = level.size;
+  const area = areasOf(level);
   if (CELL_FACTS.includes(f.t)) { const cells = factCells(level, f); return pos.filter(i => cells[i]).length; }
   if (f.t === 'alone') return pos.filter((i, p) => !pos.some((j, q) => q !== p && area[j] === area[i])).length;
   if (f.t === 'emptyRooms') return landRooms(level).filter(k => !pos.some(i => level.rooms[i] === k)).length;
@@ -215538,7 +215544,7 @@ function cellOk(level, blocking, p, i) {
     if (rank === 'commoner' && court) return false;
   }
   const tag = level.tags?.[i];
-  if (tag && tag.startsWith('t:') && level.trade?.[p] !== tag.slice(2)) return false;
+  if (tag?.startsWith('t:') && level.trade?.[p] !== tag.slice(2)) return false;
   return true;
 }
 
@@ -215612,7 +215618,7 @@ function banditSet(level, pos) {
   for (const p of must) if (never.has(p)) return null;
   const chosen = [...must];
   if (chosen.length > K) return null;
-  const free = [...Array(P).keys()].filter(p => !must.has(p) && !never.has(p));
+  const free = [...new Array(P).keys()].filter(p => !must.has(p) && !never.has(p));
   const ok = () => want.every(w => chosen.some(b => b !== w && area[pos[b]] === area[pos[w]]));
   function pick(start) {
     if (chosen.length === K) return ok();
@@ -215796,7 +215802,7 @@ function encodeLevel(theme, level) {
   const out = {
     size: level.size,
     rooms: level.rooms.map(k => k.toString(36)).join(''),
-    objects: level.objects.map(o => (o ? String.fromCharCode(97 + ids.indexOf(o)) : '.')).join(''),
+    objects: level.objects.map(o => (o ? String.fromCodePoint(97 + ids.indexOf(o)) : '.')).join(''),
     roomNames: level.roomNames,
     people: level.people.map(p => p.name),
     victim: level.people.findIndex(p => p.victim),
@@ -215817,7 +215823,7 @@ function encodeLevel(theme, level) {
   if (rules.includes('trades')) out.trade = level.trade.map(t => (t ? String(tradeIndex(t)) : '.')).join('');
   if (level.tags?.some(Boolean)) {
     out.tags = level.tags.map(t => (!t ? '.' : t === 'lone' ? 'L' : t === 'crowd' ? 'C'
-      : t.startsWith('k:') ? String.fromCharCode(97 + tradeIndex(t.slice(2))) : String(tradeIndex(t.slice(2))))).join('');
+      : t.startsWith('k:') ? String.fromCodePoint(97 + tradeIndex(t.slice(2))) : String(tradeIndex(t.slice(2))))).join('');
   }
   if (rules.includes('sea')) out.sea = level.sea;
   if (rules.includes('bandits')) { out.bandits = level.bandits; out.lawful = level.lawful; }
@@ -215832,8 +215838,8 @@ function decodeLevel(theme, raw) {
   const ids = Object.keys(theme.objects);
   const level = {
     size: raw.size,
-    rooms: [...raw.rooms].map(ch => parseInt(ch, 36)),
-    objects: [...raw.objects].map(ch => (ch === '.' ? null : ids[ch.charCodeAt(0) - 97])),
+    rooms: [...raw.rooms].map(ch => Number.parseInt(ch, 36)),
+    objects: [...raw.objects].map(ch => (ch === '.' ? null : ids[ch.codePointAt(0) - 97])),
     roomNames: raw.roomNames,
     people: raw.people.map((name, p) => (p === raw.victim ? { name, victim: true } : { name })),
     clues: raw.clues.map(([p, t, v]) => ({ p, t, v })),
@@ -215849,13 +215855,13 @@ function decodeLevel(theme, raw) {
   if (raw.trade) level.trade = [...raw.trade].map(ch => (ch === '.' ? null : TRADES[+ch].id));
   if (raw.tags) {
     level.tags = [...raw.tags].map(ch => (ch === '.' ? null : ch === 'L' ? 'lone' : ch === 'C' ? 'crowd'
-      : /[a-e]/.test(ch) ? `k:${TRADES[ch.charCodeAt(0) - 97].id}` : `t:${TRADES[+ch].id}`));
+      : /[a-e]/.test(ch) ? `k:${TRADES[ch.codePointAt(0) - 97].id}` : `t:${TRADES[+ch].id}`));
   }
   if (raw.bandits) { level.bandits = raw.bandits; level.lawful = raw.lawful; }
   if (raw.couples) level.couples = raw.couples;
   if (raw.parity) level.parity = raw.parity.map(([k, c]) => [k, c === 'e' ? 'even' : 'odd']);
   if (raw.tasks) level.tasks = raw.tasks.map(([k, c]) => [TRADES[k].id, c]);
-  if (raw.river) level.river = { dir: raw.river[0], cut: [...raw.river[1]].map(ch => parseInt(ch, 36)), first: raw.river[2] };
+  if (raw.river) level.river = { dir: raw.river[0], cut: [...raw.river[1]].map(ch => Number.parseInt(ch, 36)), first: raw.river[2] };
   return level;
 }
 
@@ -215875,7 +215881,7 @@ function decodeLevel(theme, raw) {
 // follow the easy techniques until something breaks.
 
 
-const UNARY = ['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window'];
+const UNARY = new Set(['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window']);
 
 // start: begin from the player's board instead of an empty one:
 //   { pos, out: [Set of cells per person they can not be on], crossed: Set }
@@ -215913,8 +215919,8 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
 
   const clone = s => ({ pos: s.pos.slice(), cand: s.cand.map(c => new Set(c)) });
   const snap = s => ({ pos: s.pos.slice(), cand: s.cand.map(c => [...c]) });
-  const unplaced = s => [...Array(P).keys()].filter(p => s.pos[p] < 0);
-  const areaPeople = (s, a) => [...Array(P).keys()].filter(p => s.pos[p] >= 0 && area[s.pos[p]] === a);
+  const unplaced = s => [...new Array(P).keys()].filter(p => s.pos[p] < 0);
+  const areaPeople = (s, a) => [...new Array(P).keys()].filter(p => s.pos[p] >= 0 && area[s.pos[p]] === a);
 
   function apply(s, move) {
     if (move.place) {
@@ -215923,7 +215929,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       s.cand[p] = new Set([i]);
       for (let q = 0; q < P; q++) {
         if (q === p || s.pos[q] >= 0) continue;
-        for (const j of [...s.cand[q]]) if (j === i || row(j) === row(i) || col(j) === col(i) || (noTouch && touching(level, i, j))) s.cand[q].delete(j);
+        for (const j of s.cand[q]) if (j === i || row(j) === row(i) || col(j) === col(i) || (noTouch && touching(level, i, j))) s.cand[q].delete(j);
       }
     }
     if (move.elim) for (const [p, i] of move.elim) s.cand[p].delete(i);
@@ -216068,7 +216074,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
           allowed: { p, cells: there }, about: [p], cites,
           uses: free.filter(q => q !== p),
           text: `${why}Only ${T.name(p)} can still stand in ${label}. ` +
-            `So ${T.name(p)} can only be on ${listText(there.map(T.cell))}.`,
+            `So ${T.name(p)} can only be on ${listText(there.map(i => T.cell(i)))}.`,
         };
       }
     }
@@ -216222,7 +216228,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
     const free = unplaced(s);
     for (const p of only === null ? free : [only]) {
       for (const [kind, f] of [['row', row], ['column', col]]) {
-        const lines = new Set([...s.cand[p]].map(f));
+        const lines = new Set([...s.cand[p]].map(i => f(i)));
         if (lines.size !== 1) continue;
         const [x] = lines;
         const elim = [];
@@ -216276,7 +216282,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
   function* lineGroups(s) {
     const free = unplaced(s);
     for (const k of [1, 2, 3]) for (const [kind, f] of [['rows', row], ['columns', col]]) {
-      const lines = p => new Set([...s.cand[p]].map(f));
+      const lines = p => new Set([...s.cand[p]].map(i => f(i)));
       {
         const groups = combos(free, k);
         for (const g of groups) {
@@ -216315,11 +216321,11 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       // Whoever stood there would leave q no cell: nobody can stand there.
       const cells = [...new Set(elim.map(([, i]) => i))];
       const cross = cells.filter(i => !mine.includes(i));
-      const where = cells.length === 1 ? T.cell(cells[0]) : listText(cells.map(T.cell));
+      const where = cells.length === 1 ? T.cell(cells[0]) : listText(cells.map(i => T.cell(i)));
       const shares = cells.length === 1 ? 'shares' : 'share';
       yield {
         elim, cross, about: [q],
-        text: `${T.name(q)} can only be on ${listText(mine.map(T.cell))}. ${where} ${shares} a row or column with ${mine.length === 2 ? 'both' : 'all of them'}. ` +
+        text: `${T.name(q)} can only be on ${listText(mine.map(i => T.cell(i)))}. ${where} ${shares} a row or column with ${mine.length === 2 ? 'both' : 'all of them'}. ` +
           `Whoever else stood there would leave ${T.name(q)} no cell. ` +
           (cross.length === cells.length ? `So nobody can stand on ${where}: cross it out.` : `So nobody but ${T.name(q)} can stand on ${where}.`),
       };
@@ -216350,7 +216356,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       return o;
     };
     for (const [kind, f, g, otherKind] of [['Rows', row, col, 'columns'], ['Columns', col, row, 'rows']]) {
-      const need = [...Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
+      const need = [...new Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
       for (const k of [2, 3]) {
         for (const xs of combos(need, k)) {
           // (Every line that needs someone has open cells: these techniques see only boards that work.)
@@ -216388,7 +216394,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       const open = new Set();
       for (const q of free) if (!sure.includes(q)) for (const i of s.cand[q]) if (cells[i] && !sureRows.has(row(i)) && !sureCols.has(col(i))) open.add(i);
       for (const [kind, g] of [['row', row], ['column', col]]) {
-        const lines = [...new Set([...open].map(g))].sort((a, b) => a - b);
+        const lines = [...new Set([...open].map(i => g(i)))].sort((a, b) => a - b);
         if (lines.length !== missing) continue;
         const elim = [];
         for (const q of free) for (const i of s.cand[q]) if (lines.includes(g(i)) && !cells[i]) elim.push([q, i]);
@@ -216420,7 +216426,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       for (const q of free) if (q !== p) for (const i of corners) if (s.cand[q].has(i)) elim.push([q, i]);
       if (!elim.length) continue;
       const cells = [...new Set(elim.map(([, i]) => i))];
-      yield { elim, text: `${T.name(p)} is on ${T.cell(a)} or ${T.cell(b)}. ${listText(cells.map(T.cell))} ${cells.length === 1 ? 'shares' : 'share'} a row or column with both. ` +
+      yield { elim, text: `${T.name(p)} is on ${T.cell(a)} or ${T.cell(b)}. ${listText(cells.map(i => T.cell(i)))} ${cells.length === 1 ? 'shares' : 'share'} a row or column with both. ` +
         `So whoever stood there would block ${T.name(p)}. Cross ${cells.length === 1 ? 'it' : 'them'} out.` };
     }
   }
@@ -216456,7 +216462,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
           if (!bad.length) continue;
           const own = cells.filter(j => open.every(([q, k]) => k !== j || q === p));
           const rest = cells.filter(j => !own.includes(j)); // at most one cell
-          const ownText = listText(own.map(T.cell));
+          const ownText = listText(own.map(i => T.cell(i)));
           // Why nobody else can use p's cells. pending: quiet clues the story still has to tell.
           const blockedOthers = free.filter(q => q !== p);
           const explain = pending => {
@@ -216474,7 +216480,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
                 `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${ownText}, so ${T.name(p)} must be on one of them. ` +
                 `Drop ${T.name(p)} from the marked cells in other ${kind === 'Row' ? 'rows' : 'columns'}.`;
             }
-            return `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${listText(cells.map(T.cell))}. ` +
+            return `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${listText(cells.map(i => T.cell(i)))}. ` +
               `Only ${T.name(p)} can use ${ownText}, so ${T.cell(rest[0])} must not be blocked by ${T.name(p)}. Therefore ${T.name(p)} can not stand on the marked cells. ` +
               `${T.name(p)} on a marked cell would block ${T.cell(rest[0])} (same ${other}), and ${ownText} would stay empty.${because}`;
           };
@@ -216489,7 +216495,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
   function* hiddenGroups(s) {
     const free = unplaced(s);
     for (const [kind, f] of [['rows', row], ['columns', col]]) {
-      const open = [...Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
+      const open = [...new Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
       for (const k of [2, 3]) {
         for (const g of combos(open, k)) {
           const who = free.filter(p => [...s.cand[p]].some(i => g.includes(f(i))));
@@ -216569,7 +216575,14 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       if (lvl > maxTier) break;
       const moves = [];
       const cap = lvl >= 3 ? 1 : 40; // tries are slow: take the first
-      for (const t of tier) { for (const m of t(st)) { if (!ok(m)) continue; moves.push(m); if (moves.length >= cap) break; } if (moves.length >= cap) break; }
+      for (const t of tier) {
+        for (const m of t(st)) {
+          if (!ok(m)) continue;
+          moves.push(m);
+          if (moves.length >= cap) break;
+        }
+        if (moves.length >= cap) break;
+      }
       if (!moves.length) continue;
       let best = moves[0], score = -1;
       for (const m of moves) { const c = crossedBy(st, m); if (c > score) { best = m; score = c; } }
@@ -216577,7 +216590,6 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
     }
     return null;
   };
-  const TECHNIQUES = TIERS.flat();
 
   // Follow the easy steps until something breaks. trail collects the forced placements.
   // Each step takes cells away, so this ends.
@@ -216586,7 +216598,10 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
       const why = broken(s);
       if (why) return why;
       let move = null;
-      for (const t of EASY) if ((move = first(t(s)))) break;
+      for (const t of EASY) {
+        move = first(t(s));
+        if (move) break;
+      }
       if (!move) return null;
       if (move.place) trail.push(`${T.name(move.place.p)} must stand on ${T.cell(move.place.i)}`);
       apply(s, move);
@@ -216608,7 +216623,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
         if (why) { bad.push(i); if (!example || trail.length < example.trail.length) example = { i, why, trail }; }
       }
       if (bad.length) {
-        const cells = bad.map(T.cell);
+        const cells = bad.map(i => T.cell(i));
         // Tell the chain forward: what would follow, and what breaks.
         const chain = [...example.trail.slice(0, 3), example.why].join(', then ');
         const head = `If ${T.name(p)} stood on ${T.cell(example.i)}, then ${chain}.`;
@@ -216648,7 +216663,10 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
     for (let p = 0; p < P; p++) for (const i of start.out[p]) s.cand[p].delete(i);
     for (const i of start.crossed) { known.add(i); for (const c of s.cand) c.delete(i); }
     start.pos.forEach((i, p) => { if (i >= 0) apply(s, { place: { p, i } }); });
-    start.pos.forEach(i => { if (i < 0) return; for (let j = 0; j < N; j++) if (row(j) === row(i) || col(j) === col(i)) known.add(j); });
+    start.pos.forEach(i => {
+      if (i < 0) return;
+      for (let j = 0; j < N; j++) if (row(j) === row(i) || col(j) === col(i)) known.add(j);
+    });
   }
   const done = () => steps.length >= limit;
 
@@ -216656,7 +216674,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
   const firstDomains = [];
   // clueOf[p]: { cells, reasons } of p's own clues (only when they rule something out).
   for (let p = 0; p < P; p++) {
-    const mine = level.clues.filter(cl => cl.p === p && UNARY.includes(cl.t));
+    const mine = level.clues.filter(cl => cl.p === p && UNARY.has(cl.t));
     const cells = [...s.cand[p]].filter(i => cellOk(level, blocking, p, i) && mine.every(cl => unaryOk(level, blocking, cl, i)));
     if (cells.length === s.cand[p].size) continue;
     const reasons = mine.map(T.clue);
@@ -216757,7 +216775,7 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
   // 2. Cells nobody can use.
   const used = new Set();
   for (const c of s.cand) for (const i of c) used.add(i);
-  const empty = [...Array(N).keys()].filter(i => !blocking.has(level.objects[i]) && !used.has(i) && !known.has(i) && !s.pos.includes(i));
+  const empty = [...new Array(N).keys()].filter(i => !blocking.has(level.objects[i]) && !used.has(i) && !known.has(i) && !s.pos.includes(i));
   if (empty.length && !done()) steps.push({ cross: empty, before: snap(s), text: 'The clues and notes of everyone still open leave these cells out. So nobody can stand there. Cross them out.' });
   if (options) {
     // Nothing easy from the player's board (see above): the cells nobody can use,
@@ -216838,9 +216856,8 @@ function listText(items) {
 
 // Plain text helpers, for checks where nobody reads the text.
 function plainText(level) {
-  const n = level.size;
   return {
-    name: p => level.people[p].name, cell: i => String(i), col: c => String(c),
+    name: p => level.people[p].name, cell: String, col: String,
     room: i => String(level.rooms[i]), rooms: () => '', clue: () => '', people: () => '', fact: () => '',
   };
 }
@@ -216926,7 +216943,7 @@ function makeRooms(n, count, R) {
   const extra = n >= 6 ? R.int(3) : 0;
   while (rects.length < count + extra) {
     // Always split the biggest room, near its middle.
-    const x = rects.reduce((a, b) => (b.h * b.w > a.h * a.w || (b.h * b.w === a.h * a.w && R() < 0.5) ? b : a));
+    const x = rects.slice(1).reduce((a, b) => (b.h * b.w > a.h * a.w || (b.h * b.w === a.h * a.w && R() < 0.5) ? b : a), rects[0]);
     const near = (k, len) => k >= len / 3 && k <= (2 * len) / 3;
     const cuts = [];
     for (let k = 1; k < x.h; k++) if (near(k, x.h) && k * x.w >= MIN_ROOM && (x.h - k) * x.w >= MIN_ROOM) cuts.push(['h', k]);
@@ -216959,7 +216976,10 @@ function makeRooms(n, count, R) {
   }
   // Renumber 0..count-1.
   const map = new Map();
-  return rooms.map(k => { if (!map.has(k)) map.set(k, map.size); return map.get(k); });
+  return rooms.map(k => {
+    if (!map.has(k)) map.set(k, map.size);
+    return map.get(k);
+  });
 }
 
 // Merge rooms into one sea until it covers about a third of the board.
@@ -216968,7 +216988,7 @@ function makeSea(n, rooms, R) {
   const size = new Map();
   rooms.forEach(k => size.set(k, (size.get(k) || 0) + 1));
   const ids = [...size.keys()];
-  const first = ids.reduce((a, b) => (size.get(b) > size.get(a) ? b : a));
+  const first = ids.slice(1).reduce((a, b) => (size.get(b) > size.get(a) ? b : a), ids[0]);
   const sea = new Set([first]);
   let total = size.get(first);
   while (total < 0.35 * n * n && ids.length - sea.size > 2) {
@@ -216980,7 +217000,10 @@ function makeSea(n, rooms, R) {
     total += size.get(k);
   }
   const map = new Map();
-  const out = rooms.map(k => (sea.has(k) ? first : k)).map(k => { if (!map.has(k)) map.set(k, map.size); return map.get(k); });
+  const out = rooms.map(k => (sea.has(k) ? first : k)).map(k => {
+    if (!map.has(k)) map.set(k, map.size);
+    return map.get(k);
+  });
   return { rooms: out, sea: map.get(first) };
 }
 
@@ -217020,7 +217043,7 @@ function makeDoorsAndWindows(n, rooms, sea, R) {
       walls.get(key).push([i, j]);
     }
   }
-  const doors = [...walls.keys()].sort().map(k => R.pick(walls.get(k)));
+  const doors = [...walls.keys()].sort(compareText).map(k => R.pick(walls.get(k)));
   const edge = [];
   for (let i = 0; i < n * n; i++) {
     if (rooms[i] === sea) continue;
@@ -217038,7 +217061,7 @@ function makePlacement(n, objects, blocking, R, noTouch = false) {
   const used = new Array(n).fill(false);
   function go(r) {
     if (r === n) return true;
-    for (const c of R.shuffle([...Array(n).keys()])) {
+    for (const c of R.shuffle([...new Array(n).keys()])) {
       if (used[c] || blocking.has(objects[r * n + c])) continue;
       if (noTouch && r > 0 && Math.abs(cols[r - 1] - c) === 1) continue;
       used[c] = true; cols[r] = c;
@@ -217057,7 +217080,7 @@ function candidateClues(level, pos, area, R) {
   pos.forEach((i, p) => {
     const k = level.rooms[i];
     out.push({ p, t: 'room', v: k });
-    const others = [...Array(roomCount).keys()].filter(x => x !== k);
+    const others = [...new Array(roomCount).keys()].filter(x => x !== k);
     for (const x of R.shuffle(others).slice(0, 2)) out.push({ p, t: 'notRoom', v: x });
     const obj = level.objects[i];
     if (obj) out.push({ p, t: 'on', v: obj });
@@ -217068,8 +217091,7 @@ function candidateClues(level, pos, area, R) {
     // Doors and windows.
     if (level.doors.some(d => d.includes(i))) out.push({ p, t: 'door' });
     if (level.windows.some(([w]) => w === i)) out.push({ p, t: 'window' });
-    out.push({ p, t: 'row', v: Math.floor(i / n) });
-    out.push({ p, t: 'col', v: i % n });
+    out.push({ p, t: 'row', v: Math.floor(i / n) }, { p, t: 'col', v: i % n });
     const mates = pos.map((j, q) => q).filter(q => q !== p && area[pos[q]] === area[i]);
     if (!mates.length) out.push({ p, t: 'alone' });
     // No "same room" clue with the victim: it would name the murderer.
@@ -217085,7 +217107,7 @@ function candidateClues(level, pos, area, R) {
         const id = tag.slice(2);
         out.push({ p, t: 'task', v: id });
         const other = ids.filter(x => x !== id);
-        if (other.length) out.push({ p, t: 'taskEither', v: [id, R.pick(other)].sort() });
+        if (other.length) out.push({ p, t: 'taskEither', v: [id, R.pick(other)].sort(compareText) });
       } else out.push({ p, t: 'noTask' });
     });
   }
@@ -217169,7 +217191,7 @@ function addRules(level, rules, pos, area, blocking, R) {
       if (!tags[i] && plain(i) && R() < 0.3) { const id = R.pick(used); tags[i] = `k:${id}`; counts.set(id, counts.get(id) + 1); }
     });
     for (const id of used) {
-      const spare = [...Array(n * n).keys()].filter(i => !occupied.has(i) && !tags[i] && plain(i));
+      const spare = [...new Array(n * n).keys()].filter(i => !occupied.has(i) && !tags[i] && plain(i));
       for (const i of R.shuffle(spare).slice(0, 1 + R.int(3))) tags[i] = `k:${id}`;
     }
     level.tasks = used.filter(id => counts.get(id) > 0).map(id => [id, counts.get(id)]);
@@ -217290,9 +217312,9 @@ function murdererTooEasy(level, blocking) {
   const victim = level.people.findIndex(x => x.victim);
   if (level.clues.some(cl => cl.t === 'same' && (cl.p === victim || cl.v === victim))) return true;
   const area = areasOf(level), n = level.size;
-  const UNARY = ['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window'];
+  const UNARY = new Set(['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window']);
   const roomsOf = p => {
-    const mine = level.clues.filter(cl => cl.p === p && UNARY.includes(cl.t));
+    const mine = level.clues.filter(cl => cl.p === p && UNARY.has(cl.t));
     const out = new Set();
     for (let i = 0; i < n * n; i++) if (cellOk(level, blocking, p, i) && mine.every(cl => unaryOk(level, blocking, cl, i))) out.add(area[i]);
     return out;
@@ -217403,7 +217425,8 @@ function makeLevel(theme, n, seed, rules = [], facts = null, { tries = null, tim
       const res = solve(level, blocking, { limit: 2, maxNodes: budget });
       if (res.count === 1 && !res.aborted) clues = rest;
     }
-    level.clues = clues.sort((a, b) => a.p - b.p);
+    clues.sort((a, b) => a.p - b.p);
+  level.clues = clues;
     // Every clue, couple and mark must be needed, and everyone keeps a clue.
     // (Everyone keeps a clue: dropUnneeded never takes a person's last one.)
     dropUnneeded(level, blocking, maxTries);
@@ -217494,7 +217517,7 @@ function el(spec, props = {}, ...children) {
 }
 
 // Show a modal. buttons: [{ label, value, primary }]. Resolves with the value.
-function showDialog({ title, body, buttons = [{ label: 'OK', value: true, primary: true }], wide = false, stack = false }) {
+function showDialog({ title, body, buttons = [{ label: 'OK', value: true, primary: true }], wide, stack = false }) {
   const dlg = document.getElementById('dialog');
   // wide: true for a wide dialog, 'x' for an extra wide one.
   dlg.classList.toggle('wide', !!wide);
@@ -217584,15 +217607,15 @@ async function copyText(text) {
 function encodeData(obj) {
   const bytes = new TextEncoder().encode(JSON.stringify(obj));
   let bin = '';
-  bytes.forEach(b => { bin += String.fromCharCode(b); });
-  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  bytes.forEach(b => { bin += String.fromCodePoint(b); });
+  return btoa(bin).replaceAll('+', '-').replaceAll('/', '_').replace(/={1,2}$/, '');
 }
 function decodeData(text) {
   try {
-    let b64 = text.replace(/-/g, '+').replace(/_/g, '/');
+    let b64 = text.replaceAll('-', '+').replaceAll('_', '/');
     while (b64.length % 4) b64 += '=';
     const bin = atob(b64);
-    return JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, ch => ch.charCodeAt(0))));
+    return JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, ch => ch.codePointAt(0))));
   } catch { return null; }
 }
 
@@ -218007,7 +218030,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     after.forEach((c, q) => {
       if (apos[q] >= 0 || !c.size) return;
       for (const [k, f] of [['r', i => Math.floor(i / n)], ['c', i => i % n]]) {
-        const xs = new Set([...c].map(f));
+        const xs = new Set([...c].map(i => f(i)));
         if (xs.size === 1) note(`${k}${[...xs][0]}`, q, true);
       }
     });
@@ -218192,7 +218215,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     if (JSON.stringify([now.notes, now.nots, now.texts]) !== JSON.stringify([prev.notes, prev.nots, prev.texts])) snapshot(prev);
     persist();
     draw();
-    if (toPlace) openPlacePicker(cell);
+    if (toPlace) void openPlacePicker(cell);
   }
 
   function restore(saved) {
@@ -218394,9 +218417,9 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
   function withLabels(board, lanes = null) {
     return el(`div.label-frame${lanes ? '.with-lanes' : ''}`, {},
       el('span'),
-      el('div.labels.cols', { style: { '--n': n } }, [...Array(n).keys()].map(c => el('span', {}, colName(c)))),
+      el('div.labels.cols', { style: { '--n': n } }, [...new Array(n).keys()].map(c => el('span', {}, colName(c)))),
       lanes ? el('span') : null,
-      el('div.labels.rows', { style: { '--n': n } }, [...Array(n).keys()].map(r => el('span', {}, String(r + 1)))),
+      el('div.labels.rows', { style: { '--n': n } }, [...new Array(n).keys()].map(r => el('span', {}, String(r + 1)))),
       board,
       lanes ? [lanes[0], el('span'), lanes[1], el('span')] : null);
   }
@@ -218502,7 +218525,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     for (const [kind, f] of [['r', i => Math.floor(i / n)], ['c', i => i % n]]) {
       level.people.forEach((_, p) => {
         if (state.pos[p] >= 0) return;
-        const xs = [...state.notes].filter(([k, set]) => k[0] === kind && set.has(p)).map(([k]) => Number(k.slice(1)));
+        const xs = [...state.notes].filter(([k, set]) => k.startsWith(kind) && set.has(p)).map(([k]) => Number(k.slice(1)));
         if (xs.length !== 1) return;
         const x = xs[0];
         lineNotes.push({ p, kind, x, f });
@@ -218522,7 +218545,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     // not blocked and not in a filled row or column.
     const rowsUsed = new Set(state.pos.filter(i => i >= 0).map(i => Math.floor(i / n)));
     const colsUsed = new Set(state.pos.filter(i => i >= 0).map(i => i % n));
-    const openCells = [...Array(n * n).keys()].filter(i => !blocking.has(level.objects[i]) && !state.marks.has(i) &&
+    const openCells = [...new Array(n * n).keys()].filter(i => !blocking.has(level.objects[i]) && !state.marks.has(i) &&
       !rowsUsed.has(Math.floor(i / n)) && !colsUsed.has(i % n));
     const before = { pos: state.pos.slice(), cand: level.people.map((_, p) => (state.pos[p] >= 0 ? [state.pos[p]] : openCells)) };
     // Notes that leave out where a person really stands are a mistake too.
@@ -218554,7 +218577,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     };
     // Steps the player can write down come first: a placement, a cross, new cells for a
     // person, a note to remove, or a person in one row or column (for the boxes).
-    const lineOf = (cells, f) => { const xs = new Set([...cells].map(f)); return xs.size === 1 ? [...xs][0] : -1; };
+    const lineOf = (cells, f) => { const xs = new Set([...cells].map(i => f(i))); return xs.size === 1 ? [...xs][0] : -1; };
     const visible = step => {
       // Other steps take cells from people (elim).
       if (step.place || step.allowed || step.cross?.length || step.done || step.mistake) return true;
@@ -218583,7 +218606,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
       steps = deduce(level, blocking, hintText, { start, options: true });
     }
     // Tries that rule out many cells at once are hard to follow: they come last.
-    const size = st => (/^If /.test(st.text) ? st.elim.length : 0);
+    const size = st => (st.text.startsWith('If ') ? st.elim.length : 0);
     const shown = steps.filter(visible).sort((a, b) => size(a) - size(b));
     const first = lead.length ? `${lead.join(' ')} Then: ` : '';
     // A clue step explains itself; the quiet steps before it only matter for other steps.
@@ -218626,7 +218649,10 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
       // Next (→ and the Next button): after Apply, the next step from the updated board;
       // before it, the next option for this board.
       const noNext = !applied && j >= options.length - 1;
-      const goNext = () => { if (applied) { options = null; j = 0; applied = false; } else j++; showNext(); };
+      const goNext = () => {
+        if (applied) { options = null; j = 0; applied = false; } else j++;
+        showNext();
+      };
       body.replaceChildren(el('div.hint-main', {},
         el('div.hint-nav', {},
           el('button.btn', { type: 'button', disabled: applied || j === 0, onclick: () => { j--; showNext(); } }, '←'),
@@ -218703,7 +218729,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
 
   function openShare() {
     const status = el('p.status', { role: 'status' });
-    showDialog({
+    void showDialog({
       title: 'Share this case',
       body: [
         el('p', {}, 'Anyone who opens a link plays this case.'),
@@ -218744,7 +218770,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     const base = frame.getBoundingClientRect().width / zooms[key];
     const wide = window.matchMedia('(min-width: 900px)').matches;
     const room = game.clientWidth - (wide ? 324 : 0);
-    return ZOOMS.filter(z => z * base <= room + 1).pop() || ZOOMS[0];
+    return ZOOMS.findLast(z => z * base <= room + 1) || ZOOMS[0];
   }
 
   function setZoom(key, z, save = true) {
@@ -218835,8 +218861,8 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
 
   const noteLabel = noteKey => {
     const yes = state.notes.get(noteKey), no = state.nots.get(noteKey);
-    return (yes?.size ? `, could be: ${[...yes].map(letter).sort().join(' ')}` : '') +
-      (no?.size ? `, not: ${[...no].map(letter).sort().join(' ')}` : '');
+    return (yes?.size ? `, could be: ${[...yes].map(letter).sort(compareText).join(' ')}` : '') +
+      (no?.size ? `, not: ${[...no].map(letter).sort(compareText).join(' ')}` : '');
   };
 
   // The selected person's cell and every note that names them pulse.
@@ -218861,7 +218887,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
   }
 
   function noteLane(kind) {
-    return el(`div.note-lane.${kind}`, {}, [...Array(n).keys()].map(x => {
+    return el(`div.note-lane.${kind}`, {}, [...new Array(n).keys()].map(x => {
       const noteKey = `${kind === 'rows' ? 'r' : 'c'}${x}`;
       const name = kind === 'rows' ? `Row ${x + 1}` : `Column ${colName(x)}`;
       // The person placed in this row or column covers the notes.
@@ -218884,7 +218910,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
   const firstCell = new Map();
   level.rooms.forEach((k, i) => { if (!firstCell.has(k)) firstCell.set(k, i); });
   const labeled = new Set();
-  const baseCells = [...Array(n * n).keys()].map(i => {
+  const baseCells = [...new Array(n * n).keys()].map(i => {
     const r = Math.floor(i / n), c = i % n, k = level.rooms[i];
     const edge = (rr, cc) => rr < 0 || cc < 0 || rr >= n || cc >= n || level.rooms[rr * n + cc] !== k;
     const obj = level.objects[i];
@@ -218982,7 +219008,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
         type: 'button', 'aria-label': label, title: label, 'data-i': i,
         style: { '--rh': roomHue(theme, b.k) },
         onclick: () => tapCell(i),
-        oncontextmenu: e => { e.preventDefault(); if (!pressed) tapCell(i, true); },
+        oncontextmenu: e => { e.preventDefault(); if (!pressed) void tapCell(i, true); },
         // Long press on a cell: open the dialog to place someone here (not on the notes board).
         onpointerdown: e => {
           if (state.solved || e.button > 0 || e.target.closest('.token')) return;
@@ -218996,7 +219022,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
           const t = setTimeout(() => {
             ring.remove();
             pressed = true; justDragged = true; navigator.vibrate?.(20);
-            openPlacePicker(i);
+            void openPlacePicker(i);
             setTimeout(() => { justDragged = false; pressed = false; }, 400);
           }, CELL_PRESS);
           const stop = ev => {
@@ -219021,9 +219047,9 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
         : who < 0 && state.marks.has(i) ? el('span.mark', { 'aria-hidden': 'true' }, '✕') : null));
     }
     const colLabels = el('div.labels.cols', { style: { '--n': n } },
-      [...Array(n).keys()].map(c => el('span', {}, colName(c))));
+      [...new Array(n).keys()].map(c => el('span', {}, colName(c))));
     const rowLabels = el('div.labels.rows', { style: { '--n': n } },
-      [...Array(n).keys()].map(r => el('span', {}, String(r + 1))));
+      [...new Array(n).keys()].map(r => el('span', {}, String(r + 1))));
     if (view) {
       // Same size and place as the working board, but without the note boxes.
       return el('div.board-frame.view-only', { 'data-zoom': 'zoom' }, el('span'), colLabels, el('span'), rowLabels, board, el('span'),
@@ -219142,7 +219168,10 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     cand.forEach((c, p) => {
       if (step.own || pos[p] >= 0 || c.length >= freeCells) return; // the player's own board: no dots
       if (!step.own && !step.dotted?.has(p)) return; // dots only for people an earlier step marked
-      for (const i of c) { if (!known.has(i)) known.set(i, []); known.get(i).push(p); }
+      for (const i of c) {
+        if (!known.has(i)) known.set(i, []);
+        known.get(i).push(p);
+      }
     });
     const act = new Map(); // cell -> the mark for the action (one per cell)
     const mark = (i, node) => act.set(i, node);
@@ -219162,7 +219191,8 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
       const byCell = new Map();
       for (const [p, i] of step.elim) {
         if (xed.has(i) || step.cross?.includes(i) || step.allowed?.cells.includes(i)) continue; // shown as ✕ or as the person's dot
-        if (!byCell.has(i)) byCell.set(i, []); byCell.get(i).push(p);
+        if (!byCell.has(i)) byCell.set(i, []);
+        byCell.get(i).push(p);
       }
       for (const [i, ps] of byCell) {
         const rest = cand.some((c, q) => pos[q] < 0 && !ps.includes(q) && c.includes(i));
@@ -219204,8 +219234,8 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     }
     for (const [p, i] of step.elim || []) after[p].delete(i);
     if (step.allowed) after[step.allowed.p] = new Set(step.allowed.cells);
-    const lineOf = (set, f) => { const xs = new Set([...set].map(f)); return xs.size === 1 ? [...xs][0] : -1; };
-    const lane = (kind, f) => el(`div.note-lane.${kind}`, {}, [...Array(n).keys()].map(x => {
+    const lineOf = (set, f) => { const xs = new Set([...set].map(i => f(i))); return xs.size === 1 ? [...xs][0] : -1; };
+    const lane = (kind, f) => el(`div.note-lane.${kind}`, {}, [...new Array(n).keys()].map(x => {
       const placed = apos.findIndex(i => i >= 0 && f(i) === x);
       if (placed >= 0) {
         const fresh = pos[placed] < 0;
@@ -219333,7 +219363,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
           // Anywhere else on the card: select, or unselect if already selected.
           selectPerson(state.selected === p ? null : p);
         },
-        ondblclick: e => { e.preventDefault(); state.selected = p; openPersonBoard(p); },
+        ondblclick: e => { e.preventDefault(); state.selected = p; void openPersonBoard(p); },
         // Drag the whole card. The token starts at once, the rest needs a long press on touch.
         onpointerdown: e => startDrag(e, p, { hold: !e.target.closest('.token') }),
         oncontextmenu: e => { if (e.pointerType !== 'mouse') e.preventDefault(); },
@@ -219343,7 +219373,10 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
           role: 'button', tabindex: 0,
           'aria-pressed': String(state.selected === p),
           title: 'Click to see their cells. Double-click to mark where they can be.',
-          onclick: () => { if (justDragged) return; selectPerson(state.selected === p ? null : p); },
+          onclick: () => {
+            if (justDragged) return;
+            selectPerson(state.selected === p ? null : p);
+          },
           onkeydown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); state.selected = state.selected === p ? null : p; draw(); } },
         },
         el(`span.token.draggable${p === victim ? '.victim' : ''}`, {
@@ -219355,7 +219388,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
         // Magnifier in the top right corner: opens "Where can … be?" (same as a double-click).
         el('button.person-zoom', {
           type: 'button', title: `Where can ${person.name} be?`, 'aria-label': `Where can ${person.name} be?`,
-          onclick: e => { e.stopPropagation(); state.selected = p; openPersonBoard(p); },
+          onclick: e => { e.stopPropagation(); state.selected = p; void openPersonBoard(p); },
           ondblclick: e => e.stopPropagation(),
           onpointerdown: e => e.stopPropagation(),
           onkeydown: e => e.stopPropagation(),
@@ -219539,8 +219572,8 @@ function groupsOf(levels) {
   const out = [];
   levels.forEach((lv, i) => {
     const g = lv.extra ? 'extra' : lv.group;
-    if (!out.length || out[out.length - 1].g !== g) out.push({ g, items: [] });
-    out[out.length - 1].items.push([lv, i]);
+    if (!out.length || out.at(-1).g !== g) out.push({ g, items: [] });
+    out.at(-1).items.push([lv, i]);
   });
   return out;
 }
@@ -219700,7 +219733,7 @@ function caseTick() {
 // Short hash, so each player-made case keeps its own progress.
 function hashText(text) {
   let h = 5381;
-  for (let i = 0; i < text.length; i++) h = (h * 33 + text.charCodeAt(i)) >>> 0;
+  for (let i = 0; i < text.length; i++) h = (h * 33 + text.codePointAt(i)) >>> 0;
   return h.toString(36);
 }
 
@@ -219951,7 +219984,7 @@ function extraFilter(items) {
     onclick: () => {
       setSetting('extraFilter', d);
       const y = window.scrollY;
-      route();
+      void route();
       window.scrollTo(0, y);
     },
   }, label);
@@ -220070,6 +220103,6 @@ async function route() {
 }
 
 window.addEventListener('hashchange', route);
-route();
+void route();
 
 })();

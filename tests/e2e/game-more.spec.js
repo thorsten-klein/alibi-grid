@@ -163,7 +163,7 @@ test('a new case for a case the hints can not solve uses the default difficulty'
   const before = page.url();
   await page.getByRole('button', { name: 'Reset', exact: true }).click();
   await page.evaluate(() => document.getElementById('dialog').close('new'));
-  await expect.poll(() => page.url(), { timeout: 60000 }).not.toBe(before);
+  await expect(page).not.toHaveURL(before, { timeout: 60000 });
 });
 
 test('small things: undo brings notes back, flashes fade, refused fullscreen, magnifier keys', async ({ page }) => {

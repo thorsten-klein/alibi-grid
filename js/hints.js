@@ -14,7 +14,7 @@
 
 import { areasOf, cellOk, unaryOk, solve, victimIndex, murdererOf, banditSet, hasRule, diagonal, partners, landRooms, boardRuleProblems, riverSides, factCells, groupOf, CELL_FACTS, allFacts, touching } from './rules.js';
 
-const UNARY = ['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window'];
+const UNARY = new Set(['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 'task', 'taskEither', 'noTask', 'door', 'window']);
 
 // start: begin from the player's board instead of an empty one:
 //   { pos, out: [Set of cells per person they can not be on], crossed: Set }
@@ -52,8 +52,8 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
 
   const clone = s => ({ pos: s.pos.slice(), cand: s.cand.map(c => new Set(c)) });
   const snap = s => ({ pos: s.pos.slice(), cand: s.cand.map(c => [...c]) });
-  const unplaced = s => [...Array(P).keys()].filter(p => s.pos[p] < 0);
-  const areaPeople = (s, a) => [...Array(P).keys()].filter(p => s.pos[p] >= 0 && area[s.pos[p]] === a);
+  const unplaced = s => [...new Array(P).keys()].filter(p => s.pos[p] < 0);
+  const areaPeople = (s, a) => [...new Array(P).keys()].filter(p => s.pos[p] >= 0 && area[s.pos[p]] === a);
 
   function apply(s, move) {
     if (move.place) {
@@ -62,7 +62,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       s.cand[p] = new Set([i]);
       for (let q = 0; q < P; q++) {
         if (q === p || s.pos[q] >= 0) continue;
-        for (const j of [...s.cand[q]]) if (j === i || row(j) === row(i) || col(j) === col(i) || (noTouch && touching(level, i, j))) s.cand[q].delete(j);
+        for (const j of s.cand[q]) if (j === i || row(j) === row(i) || col(j) === col(i) || (noTouch && touching(level, i, j))) s.cand[q].delete(j);
       }
     }
     if (move.elim) for (const [p, i] of move.elim) s.cand[p].delete(i);
@@ -207,7 +207,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
           allowed: { p, cells: there }, about: [p], cites,
           uses: free.filter(q => q !== p),
           text: `${why}Only ${T.name(p)} can still stand in ${label}. ` +
-            `So ${T.name(p)} can only be on ${listText(there.map(T.cell))}.`,
+            `So ${T.name(p)} can only be on ${listText(there.map(i => T.cell(i)))}.`,
         };
       }
     }
@@ -361,7 +361,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     const free = unplaced(s);
     for (const p of only === null ? free : [only]) {
       for (const [kind, f] of [['row', row], ['column', col]]) {
-        const lines = new Set([...s.cand[p]].map(f));
+        const lines = new Set([...s.cand[p]].map(i => f(i)));
         if (lines.size !== 1) continue;
         const [x] = lines;
         const elim = [];
@@ -415,7 +415,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   function* lineGroups(s) {
     const free = unplaced(s);
     for (const k of [1, 2, 3]) for (const [kind, f] of [['rows', row], ['columns', col]]) {
-      const lines = p => new Set([...s.cand[p]].map(f));
+      const lines = p => new Set([...s.cand[p]].map(i => f(i)));
       {
         const groups = combos(free, k);
         for (const g of groups) {
@@ -454,11 +454,11 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       // Whoever stood there would leave q no cell: nobody can stand there.
       const cells = [...new Set(elim.map(([, i]) => i))];
       const cross = cells.filter(i => !mine.includes(i));
-      const where = cells.length === 1 ? T.cell(cells[0]) : listText(cells.map(T.cell));
+      const where = cells.length === 1 ? T.cell(cells[0]) : listText(cells.map(i => T.cell(i)));
       const shares = cells.length === 1 ? 'shares' : 'share';
       yield {
         elim, cross, about: [q],
-        text: `${T.name(q)} can only be on ${listText(mine.map(T.cell))}. ${where} ${shares} a row or column with ${mine.length === 2 ? 'both' : 'all of them'}. ` +
+        text: `${T.name(q)} can only be on ${listText(mine.map(i => T.cell(i)))}. ${where} ${shares} a row or column with ${mine.length === 2 ? 'both' : 'all of them'}. ` +
           `Whoever else stood there would leave ${T.name(q)} no cell. ` +
           (cross.length === cells.length ? `So nobody can stand on ${where}: cross it out.` : `So nobody but ${T.name(q)} can stand on ${where}.`),
       };
@@ -489,7 +489,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       return o;
     };
     for (const [kind, f, g, otherKind] of [['Rows', row, col, 'columns'], ['Columns', col, row, 'rows']]) {
-      const need = [...Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
+      const need = [...new Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
       for (const k of [2, 3]) {
         for (const xs of combos(need, k)) {
           // (Every line that needs someone has open cells: these techniques see only boards that work.)
@@ -527,7 +527,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       const open = new Set();
       for (const q of free) if (!sure.includes(q)) for (const i of s.cand[q]) if (cells[i] && !sureRows.has(row(i)) && !sureCols.has(col(i))) open.add(i);
       for (const [kind, g] of [['row', row], ['column', col]]) {
-        const lines = [...new Set([...open].map(g))].sort((a, b) => a - b);
+        const lines = [...new Set([...open].map(i => g(i)))].sort((a, b) => a - b);
         if (lines.length !== missing) continue;
         const elim = [];
         for (const q of free) for (const i of s.cand[q]) if (lines.includes(g(i)) && !cells[i]) elim.push([q, i]);
@@ -559,7 +559,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       for (const q of free) if (q !== p) for (const i of corners) if (s.cand[q].has(i)) elim.push([q, i]);
       if (!elim.length) continue;
       const cells = [...new Set(elim.map(([, i]) => i))];
-      yield { elim, text: `${T.name(p)} is on ${T.cell(a)} or ${T.cell(b)}. ${listText(cells.map(T.cell))} ${cells.length === 1 ? 'shares' : 'share'} a row or column with both. ` +
+      yield { elim, text: `${T.name(p)} is on ${T.cell(a)} or ${T.cell(b)}. ${listText(cells.map(i => T.cell(i)))} ${cells.length === 1 ? 'shares' : 'share'} a row or column with both. ` +
         `So whoever stood there would block ${T.name(p)}. Cross ${cells.length === 1 ? 'it' : 'them'} out.` };
     }
   }
@@ -595,7 +595,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
           if (!bad.length) continue;
           const own = cells.filter(j => open.every(([q, k]) => k !== j || q === p));
           const rest = cells.filter(j => !own.includes(j)); // at most one cell
-          const ownText = listText(own.map(T.cell));
+          const ownText = listText(own.map(i => T.cell(i)));
           // Why nobody else can use p's cells. pending: quiet clues the story still has to tell.
           const blockedOthers = free.filter(q => q !== p);
           const explain = pending => {
@@ -613,7 +613,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
                 `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${ownText}, so ${T.name(p)} must be on one of them. ` +
                 `Drop ${T.name(p)} from the marked cells in other ${kind === 'Row' ? 'rows' : 'columns'}.`;
             }
-            return `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${listText(cells.map(T.cell))}. ` +
+            return `${kind} ${label.split(' ')[1]} still needs someone. Its last open cells are ${listText(cells.map(i => T.cell(i)))}. ` +
               `Only ${T.name(p)} can use ${ownText}, so ${T.cell(rest[0])} must not be blocked by ${T.name(p)}. Therefore ${T.name(p)} can not stand on the marked cells. ` +
               `${T.name(p)} on a marked cell would block ${T.cell(rest[0])} (same ${other}), and ${ownText} would stay empty.${because}`;
           };
@@ -628,7 +628,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   function* hiddenGroups(s) {
     const free = unplaced(s);
     for (const [kind, f] of [['rows', row], ['columns', col]]) {
-      const open = [...Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
+      const open = [...new Array(n).keys()].filter(x => !s.pos.some(i => i >= 0 && f(i) === x));
       for (const k of [2, 3]) {
         for (const g of combos(open, k)) {
           const who = free.filter(p => [...s.cand[p]].some(i => g.includes(f(i))));
@@ -708,7 +708,14 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       if (lvl > maxTier) break;
       const moves = [];
       const cap = lvl >= 3 ? 1 : 40; // tries are slow: take the first
-      for (const t of tier) { for (const m of t(st)) { if (!ok(m)) continue; moves.push(m); if (moves.length >= cap) break; } if (moves.length >= cap) break; }
+      for (const t of tier) {
+        for (const m of t(st)) {
+          if (!ok(m)) continue;
+          moves.push(m);
+          if (moves.length >= cap) break;
+        }
+        if (moves.length >= cap) break;
+      }
       if (!moves.length) continue;
       let best = moves[0], score = -1;
       for (const m of moves) { const c = crossedBy(st, m); if (c > score) { best = m; score = c; } }
@@ -716,7 +723,6 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     }
     return null;
   };
-  const TECHNIQUES = TIERS.flat();
 
   // Follow the easy steps until something breaks. trail collects the forced placements.
   // Each step takes cells away, so this ends.
@@ -725,7 +731,10 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
       const why = broken(s);
       if (why) return why;
       let move = null;
-      for (const t of EASY) if ((move = first(t(s)))) break;
+      for (const t of EASY) {
+        move = first(t(s));
+        if (move) break;
+      }
       if (!move) return null;
       if (move.place) trail.push(`${T.name(move.place.p)} must stand on ${T.cell(move.place.i)}`);
       apply(s, move);
@@ -747,7 +756,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
         if (why) { bad.push(i); if (!example || trail.length < example.trail.length) example = { i, why, trail }; }
       }
       if (bad.length) {
-        const cells = bad.map(T.cell);
+        const cells = bad.map(i => T.cell(i));
         // Tell the chain forward: what would follow, and what breaks.
         const chain = [...example.trail.slice(0, 3), example.why].join(', then ');
         const head = `If ${T.name(p)} stood on ${T.cell(example.i)}, then ${chain}.`;
@@ -787,7 +796,10 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     for (let p = 0; p < P; p++) for (const i of start.out[p]) s.cand[p].delete(i);
     for (const i of start.crossed) { known.add(i); for (const c of s.cand) c.delete(i); }
     start.pos.forEach((i, p) => { if (i >= 0) apply(s, { place: { p, i } }); });
-    start.pos.forEach(i => { if (i < 0) return; for (let j = 0; j < N; j++) if (row(j) === row(i) || col(j) === col(i)) known.add(j); });
+    start.pos.forEach(i => {
+      if (i < 0) return;
+      for (let j = 0; j < N; j++) if (row(j) === row(i) || col(j) === col(i)) known.add(j);
+    });
   }
   const done = () => steps.length >= limit;
 
@@ -795,7 +807,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   const firstDomains = [];
   // clueOf[p]: { cells, reasons } of p's own clues (only when they rule something out).
   for (let p = 0; p < P; p++) {
-    const mine = level.clues.filter(cl => cl.p === p && UNARY.includes(cl.t));
+    const mine = level.clues.filter(cl => cl.p === p && UNARY.has(cl.t));
     const cells = [...s.cand[p]].filter(i => cellOk(level, blocking, p, i) && mine.every(cl => unaryOk(level, blocking, cl, i)));
     if (cells.length === s.cand[p].size) continue;
     const reasons = mine.map(T.clue);
@@ -896,7 +908,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
   // 2. Cells nobody can use.
   const used = new Set();
   for (const c of s.cand) for (const i of c) used.add(i);
-  const empty = [...Array(N).keys()].filter(i => !blocking.has(level.objects[i]) && !used.has(i) && !known.has(i) && !s.pos.includes(i));
+  const empty = [...new Array(N).keys()].filter(i => !blocking.has(level.objects[i]) && !used.has(i) && !known.has(i) && !s.pos.includes(i));
   if (empty.length && !done()) steps.push({ cross: empty, before: snap(s), text: 'The clues and notes of everyone still open leave these cells out. So nobody can stand there. Cross them out.' });
   if (options) {
     // Nothing easy from the player's board (see above): the cells nobody can use,
@@ -977,9 +989,8 @@ function listText(items) {
 
 // Plain text helpers, for checks where nobody reads the text.
 function plainText(level) {
-  const n = level.size;
   return {
-    name: p => level.people[p].name, cell: i => String(i), col: c => String(c),
+    name: p => level.people[p].name, cell: String, col: String,
     room: i => String(level.rooms[i]), rooms: () => '', clue: () => '', people: () => '', fact: () => '',
   };
 }
