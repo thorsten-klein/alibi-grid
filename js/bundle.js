@@ -58050,6 +58050,8 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     const here = personAt(i);
     const order = level.people.map((_, p) => p).sort((a, b) => letter(a).localeCompare(letter(b)));
     const noted = state.notes.get(String(i));
+    // The person selected on the board is chosen already: one tap on Place (or Enter) puts them here.
+    const chosen = state.selected !== null && state.selected !== undefined && state.selected !== here ? state.selected : -1;
     const pick = p => {
       snapshot();
       if (here >= 0) state.pos[here] = -1;
@@ -58060,13 +58062,13 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     const buttons = order.map(p => {
       const where = state.pos[p] >= 0 ? `${colName(state.pos[p] % n)}${Math.floor(state.pos[p] / n) + 1}` : '';
       return el('button.note-pick', {
-        type: 'button', 'aria-pressed': String(p === here), onclick: () => pick(p),
+        type: 'button', 'aria-pressed': String(chosen >= 0 ? p === chosen : p === here), onclick: () => pick(p),
       },
       el(`span.token${p === victim ? '.victim' : ''}`, { style: { '--pc': color(p) } }, letter(p)),
       el('span.note-name', {}, level.people[p].name),
       p === here ? el('small', {}, 'here') : where ? el('small', {}, `at ${where}`) : noted?.has(p) ? el('small', {}, 'noted') : null);
     });
-    await showDialog({
+    const shown = showDialog({
       title: `Who stands on ${colName(i % n)}${Math.floor(i / n) + 1}?`,
       body: [
         el('p.hint', {}, 'Tap a person to place them here. Someone placed elsewhere moves here.'),
@@ -58075,9 +58077,16 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
           type: 'button',
           onclick: () => { snapshot(); state.pos[here] = -1; document.getElementById('dialog').close(''); },
         }, `Remove ${level.people[here].name}`)) : null,
+        // Cancel and Place in one row.
+        chosen >= 0 ? el('div.dialog-buttons', {},
+          el('button.btn', { type: 'button', onclick: () => document.getElementById('dialog').close('') }, 'Cancel'),
+          el('button.btn.primary.place-chosen', { type: 'button', onclick: () => pick(chosen) }, `Place ${level.people[chosen].name}`)) : null,
       ],
-      buttons: [{ label: 'Cancel', value: false }],
+      buttons: chosen >= 0 ? [] : [{ label: 'Cancel', value: false }],
     });
+    // Focus Place, so Enter places the chosen person.
+    document.querySelector('#dialog .place-chosen')?.focus();
+    await shown;
     changed();
   }
 
@@ -58279,7 +58288,8 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
             el('h3', {}, `In which room was ${level.people[victim].name} killed?`),
             el('div.note-picker', {}, roomBtns))),
         // Cancel and Submit in one row (Submit can be disabled, so it is not a dialog button).
-        el('div.dialog-buttons', {},
+        // Stays at the bottom of the dialog while the rest scrolls.
+        el('div.dialog-buttons.submit-footer', {},
           el('button.btn', { type: 'button', onclick: () => document.getElementById('dialog').close('') }, 'Cancel'),
           send),
       ],
