@@ -1715,8 +1715,13 @@ h1 .difficulty { font-size: 0.8rem; margin-left: 4px; }
 .maker-time { margin-top: 14px; }
 .hint-title { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
 .hint-buttons { display: flex; flex-wrap: wrap; gap: 8px; font-family: var(--sans); font-size: 1rem; font-weight: normal; }
-/* Submit dialog: 80% of the window width, with a bigger board. */
-dialog.wide:has(.submit-view) { width: max(80vw, min(640px, calc(100vw - 24px))); max-width: calc(100vw - 24px); }
+/* Submit dialog: as wide as its content needs, at most the window.
+   On wide screens the questions and lists keep their text on one line. */
+dialog.wide:has(.submit-view) { width: fit-content; max-width: calc(100vw - 24px); }
+@media (min-width: 720px) {
+  .submit-view { grid-template-columns: auto max-content; }
+  .submit-questions h3, .submit-questions .note-name { white-space: nowrap; }
+}
 @media (min-width: 720px) { .submit-view .result-board { --board: min(520px, 40vw); } }
 .dialog-buttons:empty { display: none; }
 
