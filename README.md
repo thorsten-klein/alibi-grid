@@ -95,7 +95,7 @@ Same words everywhere (on a touch screen, tap instead of click):
 - **Get hints:** your next step from your own board. "Show full deduction story" shows the whole solution.
 - **Share:** links to the empty board or to your board with notes.
 - Each board has its own zoom buttons next to its heading. Fullscreen is top right.
-- **Custom level…** (card on the home screen): pick the board size, special rules and case facts, then Generate.
+- **Custom level…** (card on the home screen): pick the board size, difficulty, special rules and case facts, then Generate.
   "Import from other game" copies the rules from another case link.
   The case lives in its link, so you can share it.
 
@@ -114,8 +114,26 @@ Then open http://localhost:8000. GitHub Pages can serve the folder as is.
 
 ## Levels
 
-There are 11 campaigns. Each has 9 cases, from 4×4 up to 12×12.
-A script makes the levels and writes them to `js/levels.js`:
+There are 11 campaigns. Each has four groups: Beginner, Medium, Hard and Expert.
+Each group has one case per board size, from 4×4 up to 12×12.
+Beginner stops at 10×10. A size the generator can not make is left out, but only at the ends:
+a group has no gaps between its sizes.
+
+The difficulty is the number of "what if" steps the hints need.
+A "what if" step tries a cell and follows it until something breaks.
+
+| Difficulty | "What if" steps |
+| --- | --- |
+| Beginner | 0 |
+| Medium | 1–2 |
+| Hard | 3–5 |
+| Expert | 6–10 |
+| Extreme | 11 or more (Custom level only) |
+
+Each case shows its difficulty as a badge. Its tooltip gives the exact number.
+
+A script makes the levels and writes them to `js/levels.js`.
+It makes the cases in parallel. A case it can not make in time is left out:
 
 ```sh
 node tools/generate.mjs   # make levels (also rebuilds the bundle)
@@ -125,9 +143,8 @@ node tools/check.mjs      # check all levels and that the bundle is fresh
 
 Each level has exactly one solution. The step-by-step deduction (`js/hints.js`) must solve it
 without a long search, so every case can be solved by reasoning. Rooms have at least 3 cells, and an n×n board has at most n rooms.
-The generator drops clues while the solution stays unique.
-A search budget per size (`BUDGET` in `tools/generate.mjs`) keeps puzzles solvable by logic.
-A lower budget gives easier puzzles.
+The generator drops clues while the solution stays unique and the case stays in its difficulty range.
+A search budget per size (`BUDGET` in `js/generator.js`) keeps puzzles solvable by logic.
 
 ## Files
 

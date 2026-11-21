@@ -1,12 +1,12 @@
 // The game screen.
 
 import { decodeLevel, encodeLevel } from './levelCodec.js';
-import { makeLevel } from './generator.js';
+import { makeLevel, DIFFICULTY, difficultyIndex, campaignCaseName } from './generator.js';
 import { blockingSet, colName, RANKS, COURT, GLYPHS, SEA, LAWFUL, tradeById, ruleText, clueText, article, factText } from './themes.js';
 import { clueState, murdererOf, victimIndex, factCells, CELL_FACTS, featureCells } from './rules.js';
-import { deduce } from './hints.js';
-import { loadLevel, saveLevel, levelKey, getSetting, setSetting } from './storage.js';
-import { el, showDialog, personColor, roomHue, icon, copyText, encodeData, logo } from './ui.js';
+import { deduce, trialCount } from './hints.js';
+import { loadLevel, saveLevel, levelKey, isClosed, getSetting, setSetting } from './storage.js';
+import { el, showDialog, personColor, roomHue, icon, copyText, encodeData, logo, difficultyBadge } from './ui.js';
 
 export function showHelp() {
   return showDialog({
@@ -47,11 +47,13 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   const level = decodeLevel(theme, campaign.levels[index]);
   const home = custom ? '#/' : `#/c/${theme.id}`;
   const homeName = custom ? 'Menu' : theme.title;
-  const caseName = custom ? 'Your case' : `Case ${index + 1}`;
+  const caseName = custom ? 'Your case' : campaignCaseName(campaign.levels, index);
   const n = level.size;
   const P = level.people.length;
   const blocking = blockingSet(theme);
   const victim = victimIndex(level);
+  // "What if" steps the hints need. Old links do not store it: work it out once.
+  const tries = level.tries ?? trialCount(level, blocking);
   const key = custom ? `x:${custom.id}` : levelKey(theme.id, index);
   // Letter: A, B, C, … for suspects, V for the victim (the first letter of the name).
   // Old links may have other names: then the letter follows the list order.
@@ -152,7 +154,9 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     nots: new Map(Object.entries(saved?.nots || {}).map(([k, v]) => [k, new Set(v)])),
     // Free text per note key.
     texts: new Map(Object.entries(saved?.texts || {})),
-    solved: !!saved?.solved,
+    solved: !!saved?.solved, // this board is solved: it is locked
+    // The case counts as closed in the campaign. A reset keeps it, and a shared board does not change it.
+    closed: isClosed(loadLevel(key)),
     selected: null,
     mode: 'note',
     highlight: null,
@@ -203,7 +207,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   }
 
   function persist() {
-    saveLevel(key, { ...current(), solved: state.solved });
+    saveLevel(key, { ...current(), solved: state.solved, closed: state.closed });
   }
 
   function personAt(i) {
@@ -605,6 +609,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
       setSetting('makerRules', level.rules);
       setSetting('makerFacts', [...new Set(level.facts.map(f => f.t))]);
       setSetting('makerSize', n);
+      if (tries >= 0) setSetting('makerDifficulty', [difficultyIndex(tries), difficultyIndex(tries)]);
       location.hash = '#/make?from=case';
     }
     if (go === 'exit') location.hash = home;
@@ -616,7 +621,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     setTimeout(() => {
       try {
         const kinds = [...new Set(level.facts.map(f => f.t))];
-        const fresh = makeLevel(theme, n, Math.floor(Math.random() * 2 ** 31), level.rules, kinds);
+        const same = tries >= 0 ? { tries: DIFFICULTY[difficultyIndex(tries)], timeLimit: 30000 } : {};
+        const fresh = makeLevel(theme, n, Math.floor(Math.random() * 2 ** 31), level.rules, kinds, same);
         location.hash = `#/x/${encodeData({ t: theme.id, l: encodeLevel(theme, fresh) })}`;
       } catch {
         flash('No new case found. Try again.');
@@ -637,15 +643,21 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     const suspects = level.people.map((_, p) => p).filter(p => p !== victim)
       .sort((a, b) => letter(a).localeCompare(letter(b)));
     const roomIds = [...new Set(level.rooms)].filter(k => k !== level.sea);
-    let room = -1, who = -1;
-    const send = el('button.btn.success', { type: 'button', disabled: true }, 'Submit answer');
+    // Preselect what follows from the player's board: the victim's room,
+    // and the one person alone with the victim there (if there is one).
+    let room = level.rooms[state.pos[victim]];
+    if (!roomIds.includes(room)) room = -1;
+    let who = murdererOf(level, state.pos);
+    if (!suspects.includes(who)) who = -1;
+    const send = el('button.btn.success', { type: 'button', disabled: room < 0 || who < 0 }, 'Submit answer');
     const ready = () => { send.disabled = room < 0 || who < 0; };
-    const roomBtns = roomIds.map(k => el('button.chip', {
-      type: 'button', style: { '--rh': roomHue(theme, k) },
-      onclick: e => { room = k; roomBtns.forEach(x => x.classList.toggle('on', x === e.currentTarget)); ready(); },
-    }, el('span.swatch', { 'aria-hidden': 'true' }, el(`span.floor.floor-${floorOf(k)}`)), level.roomNames[k]));
+    // Rooms as a list, like the people: a color swatch and the name.
+    const roomBtns = roomIds.map(k => el('button.note-pick.room-pick', {
+      type: 'button', 'aria-pressed': String(k === room), style: { '--rh': roomHue(theme, k) },
+      onclick: e => { room = k; roomBtns.forEach(x => x.setAttribute('aria-pressed', String(x === e.currentTarget))); ready(); },
+    }, el('span.swatch', { 'aria-hidden': 'true' }, el(`span.floor.floor-${floorOf(k)}`)), el('span.note-name', {}, level.roomNames[k])));
     const whoBtns = suspects.map(p => el('button.note-pick', {
-      type: 'button', 'aria-pressed': 'false',
+      type: 'button', 'aria-pressed': String(p === who),
       onclick: e => { who = p; whoBtns.forEach(x => x.setAttribute('aria-pressed', String(x === e.currentTarget))); ready(); },
     }, el('span.token', { style: { '--pc': color(p) } }, letter(p)), el('span.note-name', {}, level.people[p].name)));
     let answer = null;
@@ -657,19 +669,22 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         el('div.submit-view', {},
           el('figure', {}, el('figcaption', {}, 'Your board'), resultBoard('plain')),
           el('div.submit-questions', {},
-            el('h3', {}, `In which room was ${level.people[victim].name} killed?`),
-            el('div.legend', {}, roomBtns),
             el('h3', {}, 'Who is the murderer?'),
-            el('div.note-picker', {}, whoBtns))),
-        el('div.dialog-buttons', {}, send),
+            el('div.note-picker', {}, whoBtns),
+            el('h3', {}, `In which room was ${level.people[victim].name} killed?`),
+            el('div.note-picker', {}, roomBtns))),
+        // Cancel and Submit in one row (Submit can be disabled, so it is not a dialog button).
+        el('div.dialog-buttons', {},
+          el('button.btn', { type: 'button', onclick: () => document.getElementById('dialog').close('') }, 'Cancel'),
+          send),
       ],
-      buttons: [{ label: 'Cancel', value: false }],
+      buttons: [],
     });
     if (!answer) return;
     const boardOk = state.pos.every((i, p) => i === level.solution[p]);
     const roomOk = answer.room === level.rooms[level.solution[victim]];
     const whoOk = answer.who === murdererOf(level, level.solution);
-    if (boardOk && roomOk && whoOk && !state.solved) { state.solved = true; persist(); draw(); }
+    if (boardOk && roomOk && whoOk && !state.solved) { state.solved = true; state.closed = true; persist(); draw(); }
     return result(boardOk && roomOk && whoOk, { boardOk, roomOk, whoOk, answer });
   }
 
@@ -685,8 +700,8 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         el('figure', {}, el('figcaption', {}, 'Your board'), resultBoard('plain'))]
       : [el('ul.result-list', {},
         line(boardOk, boardOk ? 'Your board is right.' : `${wrong === 1 ? 'One person is' : `${wrong} people are`} in the wrong place.`),
-        line(roomOk, `Room: the ${level.roomNames[answer.room]} ${roomOk ? 'is right.' : 'is wrong.'}`),
-        line(whoOk, `Murderer: ${level.people[answer.who].name} ${whoOk ? 'is right.' : 'has an alibi.'}`)),
+        line(whoOk, `Murderer: ${level.people[answer.who].name} ${whoOk ? 'is right.' : 'has an alibi.'}`),
+        line(roomOk, `Room: the ${level.roomNames[answer.room]} ${roomOk ? 'is right.' : 'is wrong.'}`)),
       el('figure', {}, el('figcaption', {}, 'Your board as submitted'), resultBoard(boardOk ? 'plain' : 'marked')),
       el('details.result-solution', {},
         el('summary', {}, 'Show the solution'),
@@ -707,6 +722,26 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     if (go === 'continue' && ok) location.hash = next ? `#/c/${theme.id}/${index + 1}` : home;
     if (go === 'restart') restart();
     if (go === 'exit') location.hash = home;
+  }
+
+  // The final solution in its own modal, on top of the hints dialog.
+  // Closing it goes back to the hints.
+  function showSolution() {
+    const k = murdererOf(level, level.solution);
+    const room = level.roomNames[level.rooms[level.solution[victim]]];
+    const dlg = el('dialog.wide.solution-dialog');
+    const close = () => dlg.close();
+    dlg.append(el('div.dialog-body', {},
+      el('button.dialog-x', { type: 'button', title: 'Close', 'aria-label': 'Close', onclick: close }, '×'),
+      el('h2', {}, '🔑 Final solution'),
+      el('p', {}, richText(`⟦${k}⟧ was alone with ⟦${victim}⟧ in the ${room}. So ⟦${k}⟧ did it.`)),
+      resultBoard('solution'),
+      el('div.dialog-buttons', {}, el('button.btn.primary', { type: 'button', onclick: close }, 'Close'))));
+    dlg.addEventListener('close', () => dlg.remove());
+    // A click on the backdrop closes it too.
+    dlg.addEventListener('click', e => { if (e.target === dlg) close(); });
+    document.body.append(dlg);
+    dlg.showModal();
   }
 
   // A read-only board with labels. mode: 'plain' (the player's board),
@@ -740,6 +775,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   }
 
   // Clear the board without asking (from the result dialog).
+  // The case stays closed in the campaign if it was.
   function restart() {
     state.pos.fill(-1);
     state.marks.clear();
@@ -927,12 +963,16 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
 
   async function openHints() {
     const body = el('div.hint-view', {}, el('p.hint', {}, 'Working out your next step…'));
-    const dialog = showDialog({ title: 'Hints', body, wide: 'x', buttons: [{ label: 'Close', value: true, primary: true }] });
+    // Buttons on the title line: story and final solution. Each view sets its own.
+    const titleButtons = el('span.hint-buttons');
+    const dialog = showDialog({ title: el('span.hint-title', {}, 'Hints', titleButtons), body, wide: 'x', buttons: [{ label: 'Close', value: true, primary: true }] });
     await new Promise(r => setTimeout(r, 30));
     const plain = (kind, v, text) => el('span.ref-plain', {}, text);
     const people = level.people.map((_, q) => q).sort((a, b) => letter(a).localeCompare(letter(b)));
-    const peopleColumn = step => {
+    // buttons: shown on the title line.
+    const peopleColumn = (step, buttons) => {
       const about = new Set([step.place?.p, step.allowed?.p, ...(step.elim || []).map(([q]) => q)].filter(q => q !== undefined));
+      titleButtons.replaceChildren(...[buttons].flat());
       return el('aside.hint-people', {}, drawFacts(false), el('h3', {}, 'People'),
         el('ul', {}, people.map(q => el(`li${about.has(q) ? '.about' : ''}`, {},
           el('div.hint-person', {},
@@ -951,27 +991,34 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     let options = null, j = 0, applied = false;
     const showNext = () => {
       if (!options) options = nextSteps();
-      if (!options.length) { body.replaceChildren(el('p', {}, 'No next step found.'), storyButton()); return; }
+      if (!options.length) { titleButtons.replaceChildren(...storyButton()); body.replaceChildren(el('p', {}, 'No next step found.')); return; }
       const step = options[j];
       const label = step.mistake ? 'Check your board' : step.done ? 'All placed' : 'Your next step';
+      // Next (→ and the Next button): after Apply, the next step from the updated board;
+      // before it, the next option for this board.
+      const noNext = !applied && j >= options.length - 1;
+      const goNext = () => { if (applied) { options = null; j = 0; applied = false; } else j++; showNext(); };
       body.replaceChildren(el('div.hint-main', {},
         el('div.hint-nav', {},
           el('button.btn', { type: 'button', disabled: applied || j === 0, onclick: () => { j--; showNext(); } }, '←'),
           el('span.hint-count', {}, options.length > 1 ? `${label} ${j + 1} of ${options.length}` : label),
           // After Apply, → works out the next step from the updated board.
-          el('button.btn', { type: 'button', disabled: !applied && j >= options.length - 1,
-            title: applied ? 'Next step from your updated board' : null,
-            onclick: () => { if (applied) { options = null; j = 0; applied = false; } else j++; showNext(); } }, '→'),
-          storyButton()),
+          el('button.btn', { type: 'button', disabled: noNext,
+            title: applied ? 'Next step from your updated board' : null, onclick: goNext }, '→')),
         hintBoard(step),
         el(`p.hint-text${step.done ? '.done' : ''}${step.mistake ? '.mistake' : ''}`, {}, richText(step.text)),
         step.mistake || step.done ? null : el('div.hint-apply', {},
           el('button.btn.primary', { type: 'button', disabled: applied, title: 'Write this step onto your board (Undo takes it back)',
-            onclick: () => { applyStep(step); applied = true; showNext(); } }, applied ? '✓ Applied' : '✓ Apply'))),
-      peopleColumn(step));
+            onclick: () => { applyStep(step); applied = true; showNext(); } }, applied ? '✓ Applied' : '✓ Apply'),
+          el('button.btn', { type: 'button', disabled: noNext,
+            title: applied ? 'Next step from your updated board' : 'Show another step for this board', onclick: goNext }, 'Next →'))),
+      peopleColumn(step, storyButton()));
       scrollToPerson();
     };
-    const storyButton = () => el('button.btn', { type: 'button', onclick: showStory }, '📖 Show full deduction story');
+    const solutionButton = () => el('button.btn', { type: 'button', onclick: showSolution }, '🔑 Show final solution');
+    const storyButton = () => [
+      el('button.btn', { type: 'button', onclick: showStory }, '📖 Show full deduction story'),
+      solutionButton()];
 
     // The full story from an empty board.
     let k = 0;
@@ -990,7 +1037,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
           el('button.btn.primary', { type: 'button', disabled: k === hintSteps.length - 1, onclick: () => { k++; showStory(); } }, 'Next →')),
         hintBoard(step),
         el(`p.hint-text${step.done ? '.done' : ''}`, {}, richText(step.text))),
-      peopleColumn(step));
+      peopleColumn(step, solutionButton()));
       scrollToPerson();
     }
 
@@ -1784,7 +1831,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     app.replaceChildren(
       el('nav.topbar', {},
         el('a.btn.icon.back', { href: home, title: `Back to ${homeName}`, 'aria-label': `Back to ${homeName}` }, icon('back')),
-        el('span.topbar-title', {}, logo('.bar-logo'), 'Alibi Grid'),
+        el('a.topbar-title', { href: '#/', title: 'Main page' }, logo('.bar-logo'), 'Alibi Grid'),
 
         el('button.btn.icon', { type: 'button', onclick: openShare, title: 'Share this case', 'aria-label': 'Share this case' }, icon('share')),
         el('button.btn', { type: 'button', onclick: openHints, title: 'Step-by-step solution', 'aria-label': 'Get hints' }, '💡', el('span.wide-only', {}, ' Get hints')),
@@ -1799,7 +1846,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         fullscreenButton()),
       el('header.case-head', { style: { '--h': theme.hue } },
         el('p.case-campaign', {}, custom ? `${theme.title} · made by you` : theme.title),
-        el('h1', {}, `${theme.icon} ${caseName}`, el('small', {}, ` · ${n} × ${n}`)),
+        el('h1', {}, `${theme.icon} ${caseName}`, el('small', {}, ` · ${n} × ${n} `), difficultyBadge(tries)),
         state.solved
           ? el('p.story.closed', {}, `Case closed. ${level.people[killer].name} did it.`)
           : el('p.story', {}, `${level.people[victim].name} was found dead. Place everyone, then name the person who was alone with the victim.`)),

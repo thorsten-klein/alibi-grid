@@ -10,7 +10,12 @@ function writeAll(data) {
   try { localStorage.setItem(KEY, JSON.stringify(data)); } catch { /* ignore */ }
 }
 
-export const levelKey = (themeId, index) => `${themeId}:${index}`;
+// v2: the grouped campaigns. Progress on the old cases does not fit the new ones.
+export const levelKey = (themeId, index) => `${themeId}:v2:${index}`;
+
+// Is the case closed in the campaign? Stays true when the board is reset.
+// Old saves only have `solved`.
+export const isClosed = state => !!(state?.closed ?? state?.solved);
 
 export function loadLevel(key) {
   return readAll().levels?.[key] || null;

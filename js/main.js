@@ -1,11 +1,11 @@
 // App start and screens: home, campaign, game.
 
 import { CAMPAIGNS } from './levels.js';
-import { THEMES, themeById, themeRules, ruleText } from './themes.js';
-import { loadLevel, levelKey, getSetting, setSetting } from './storage.js';
-import { el, decodeData, encodeData, showDialog, icon, logo } from './ui.js';
-import { makeLevel, SIZES, FACT_KINDS } from './generator.js';
-import { encodeLevel } from './levelCodec.js';
+import { THEMES, themeById, themeRules, ruleText, blockingSet, tradeById, GLYPHS } from './themes.js';
+import { loadLevel, saveLevel, levelKey, isClosed, getSetting, setSetting } from './storage.js';
+import { el, decodeData, encodeData, showDialog, icon, logo, difficultyBadge, roomHue } from './ui.js';
+import { makeLevel, SIZES, FACT_KINDS, DIFFICULTY, campaignCaseName } from './generator.js';
+import { encodeLevel, decodeLevel } from './levelCodec.js';
 import { RULES } from './rules.js';
 import { renderGame, showHelp } from './game.js';
 
@@ -17,10 +17,18 @@ const RULE_LABEL = {
   river: '🏞️ River', tasks: '🧰 Tasks',
 };
 
-function solvedCount(themeId) {
-  const c = CAMPAIGNS.find(x => x.theme === themeId);
-  return c.levels.filter((_, i) => loadLevel(levelKey(themeId, i))?.solved).length;
+// Campaign cases by group, in order: [{ g, items: [[level, index], ...] }].
+// Old files without groups give one group with g = -1.
+function groupsOf(levels) {
+  const out = [];
+  levels.forEach((lv, i) => {
+    const g = lv.group ?? -1;
+    if (!out.length || out[out.length - 1].g !== g) out.push({ g, items: [] });
+    out[out.length - 1].items.push([lv, i]);
+  });
+  return out;
 }
+
 
 // ---- player-made cases ----
 
@@ -72,6 +80,108 @@ function rulesFromLink(text) {
   return null;
 }
 
+// A small picture of a case, drawn like the board: rooms, walls, striped blocked
+// cells, objects on white tiles, marks, doors and windows.
+let thumbIds = 0;
+function caseThumb(theme, lv) {
+  const level = decodeLevel(theme, lv);
+  const n = level.size;
+  const blocking = blockingSet(theme);
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('viewBox', `0 0 ${n} ${n}`);
+  svg.setAttribute('class', 'case-thumb');
+  svg.setAttribute('aria-hidden', 'true');
+  const add = (tag, attrs, text) => {
+    const node = document.createElementNS(NS, tag);
+    for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
+    if (text) node.textContent = text;
+    (attrs.parent || svg).append(node);
+    return node;
+  };
+  // Stripes for blocked cells, as on the board.
+  const stripes = `thumb-stripes-${thumbIds++}`;
+  const defs = add('defs', {});
+  const pat = add('pattern', { id: stripes, width: 0.16, height: 0.16, patternUnits: 'userSpaceOnUse', patternTransform: 'rotate(45)', parent: defs });
+  add('rect', { x: 0.11, y: 0, width: 0.05, height: 0.16, class: 'thumb-stripe', parent: pat });
+  // Floor, walls.
+  let walls = '';
+  for (let i = 0; i < n * n; i++) {
+    const r = Math.floor(i / n), c = i % n, k = level.rooms[i];
+    add('rect', { x: c, y: r, width: 1, height: 1, class: k === level.sea ? 'thumb-sea' : 'thumb-room', style: `--rh: ${roomHue(theme, k)}` });
+    if (level.objects[i] && blocking.has(level.objects[i])) add('rect', { x: c, y: r, width: 1, height: 1, fill: `url(#${stripes})` });
+    if (c < n - 1 && k !== level.rooms[i + 1]) walls += `M${c + 1} ${r}v1`;
+    if (r < n - 1 && k !== level.rooms[i + n]) walls += `M${c} ${r + 1}h1`;
+  }
+  add('path', { d: walls, class: 'thumb-wall' });
+  add('rect', { x: 0, y: 0, width: n, height: n, class: 'thumb-frame' });
+  // Doors in the walls between rooms, windows in the outer wall.
+  for (const [i, j] of level.doors) {
+    const r = Math.floor(i / n), c = i % n;
+    const [x1, y1, x2, y2] = j === i + 1 ? [c + 1, r + 0.22, c + 1, r + 0.78] : [c + 0.22, r + 1, c + 0.78, r + 1];
+    add('line', { x1, y1, x2, y2, class: 'thumb-door-gap' });
+    add('line', { x1, y1, x2, y2, class: 'thumb-door' });
+  }
+  for (const [i, side] of level.windows) {
+    const r = Math.floor(i / n), c = i % n, d = 0.08;
+    const [x1, y1, x2, y2] = side === 't' ? [c + 0.2, d, c + 0.8, d] : side === 'b' ? [c + 0.2, n - d, c + 0.8, n - d]
+      : side === 'l' ? [d, r + 0.2, d, r + 0.8] : [n - d, r + 0.2, n - d, r + 0.8];
+    add('line', { x1, y1, x2, y2, class: 'thumb-window' });
+    add('line', { x1, y1, x2, y2, class: 'thumb-window-glass' });
+  }
+  // Two sofa (or bed) cells side by side in one room are one wide piece, as on the board.
+  const pairable = id => ['🛋️', '🛏️'].includes(theme.objects[id]?.icon) && !blocking.has(id);
+  const pairOf = new Map();
+  for (const [dir, step] of [['h', 1], ['v', n]]) {
+    for (let i = 0; i < n * n; i++) {
+      const j = i + step;
+      if (dir === 'h' && i % n === n - 1) continue;
+      if (j >= n * n || pairOf.has(i) || pairOf.has(j)) continue;
+      const o = level.objects[i];
+      if (o && o === level.objects[j] && pairable(o) && level.rooms[i] === level.rooms[j]) { pairOf.set(i, dir); pairOf.set(j, 'skip'); }
+    }
+  }
+  // Objects on raised white tiles.
+  for (let i = 0; i < n * n; i++) {
+    const o = level.objects[i];
+    if (!o || pairOf.get(i) === 'skip') continue;
+    const r = Math.floor(i / n), c = i % n, pair = pairOf.get(i);
+    const w = pair === 'h' ? 1.74 : 0.74, h = pair === 'v' ? 1.74 : 0.74;
+    add('rect', { x: c + 0.13, y: r + 0.18, width: w, height: h, rx: 0.16, class: 'thumb-tile-shadow' });
+    add('rect', { x: c + 0.13, y: r + 0.13, width: w, height: h, rx: 0.16, class: 'thumb-tile' });
+    add('text', { x: c + 0.13 + w / 2, y: r + 0.15 + h / 2, class: 'thumb-obj' }, theme.objects[o].icon);
+  }
+  // Marks of the special rules: seals, work spots and task spots.
+  (level.tags || []).forEach((tag, i) => {
+    if (!tag) return;
+    const r = Math.floor(i / n), c = i % n;
+    const info = tag.startsWith('t:') || tag.startsWith('k:') ? tradeById(tag.slice(2)) : GLYPHS[tag];
+    if (!info) return;
+    if (tag.startsWith('t:') || tag.startsWith('k:')) add('rect', { x: c + 0.16, y: r + 0.16, width: 0.68, height: 0.68, rx: 0.14, class: 'thumb-work' });
+    else add('circle', { cx: c + 0.5, cy: r + 0.5, r: 0.34, class: 'thumb-seal' });
+    add('text', { x: c + 0.5, y: r + 0.53, class: 'thumb-obj small' }, info.icon);
+  });
+  return svg;
+}
+
+// A big green tick that covers a whole case card.
+function caseTick() {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 100 100');
+  svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+  svg.setAttribute('class', 'case-tick');
+  svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', 'Solved');
+  for (const cls of ['tick-halo', 'tick-line']) {
+    const line = document.createElementNS(NS, 'polyline');
+    line.setAttribute('points', '24,54 42,72 78,30');
+    line.setAttribute('class', cls);
+    svg.append(line);
+  }
+  return svg;
+}
+
 // Short hash, so each player-made case keeps its own progress.
 function hashText(text) {
   let h = 5381;
@@ -108,6 +218,16 @@ function drawMaker() {
   const chosen = new Set(getSetting('makerRules', []).filter(r => RULES.includes(r)));
   const chosenFacts = new Set(getSetting('makerFacts', []).filter(f => FACT_KINDS.includes(f)));
   let size = getSetting('makerSize', 8);
+  // Seconds the generator may search before it gives up.
+  let timeout = Number(getSetting('makerTimeout', 30)) || 30;
+  const timeoutInput = el('input', {
+    type: 'number', min: 5, max: 600, step: 5, value: timeout, 'aria-label': 'Time limit in seconds',
+    onchange: e => {
+      timeout = Math.min(600, Math.max(5, Math.round(Number(e.target.value)) || 30));
+      e.target.value = timeout;
+      setSetting('makerTimeout', timeout);
+    },
+  });
   const status = el('p.maker-status', { role: 'status' });
   const boxes = RULES.map(r => choiceCard(r, RULE_LABEL[r], RULE_SHORT[r], chosen, 'makerRules'));
   const factBoxes = FACT_KINDS.map(f => choiceCard(f, FACT_CARDS[f][0], FACT_CARDS[f][1], chosenFacts, 'makerFacts'));
@@ -115,7 +235,37 @@ function drawMaker() {
     'aria-label': 'Board size',
     onchange: e => { size = Number(e.target.value); setSetting('makerSize', size); },
   }, SIZES.map(n => el('option', { value: n, selected: n === size }, `${n} × ${n}`)));
+  // Difficulty: a range of levels, picked with two handles on one slider.
+  const top = DIFFICULTY.length - 1;
+  const saved = getSetting('makerDifficulty', [0, 1]);
+  let range = [0, 1].map(k => Math.min(top, Math.max(0, Number(saved[k]) || 0))).sort((a, b) => a - b);
+  const handles = [0, 1].map(k => el('input', {
+    type: 'range', min: 0, max: top, step: 1, value: range[k],
+    'aria-label': k ? 'Hardest level' : 'Easiest level',
+    oninput: e => {
+      const v = Number(e.target.value);
+      // The handles can not pass each other.
+      range[k] = k ? Math.max(v, range[0]) : Math.min(v, range[1]);
+      e.target.value = range[k];
+      setSetting('makerDifficulty', range);
+      drawRange();
+    },
+  }));
+  const fill = el('span.range-fill');
+  function drawRange() {
+    const [a, b] = range;
+    fill.style.left = `${(a / top) * 100}%`;
+    fill.style.width = `${((b - a) / top) * 100}%`;
+    // Screen readers say the level name, not the number.
+    handles.forEach((h, k) => { h.value = range[k]; h.setAttribute('aria-valuetext', DIFFICULTY[range[k]].name); });
+  }
+  drawRange();
+  const difficultyBox = el('div.maker-difficulty', {},
+    el('span.maker-label', {}, 'Difficulty'),
+    el('div.range', {}, el('span.range-track', {}, fill), ...handles),
+    el('div.range-ticks', { 'aria-hidden': 'true' }, DIFFICULTY.map(d => el('span', {}, d.name))));
   const sync = () => {
+    drawRange();
     boxes.forEach(b => { b.input.checked = chosen.has(b.id); });
     factBoxes.forEach(b => { b.input.checked = chosenFacts.has(b.id); });
     sizeSelect.value = String(size);
@@ -191,16 +341,17 @@ function drawMaker() {
       }
       const theme = themeFor(rules);
       go.disabled = true;
-      status.textContent = 'Building your case…';
+      status.textContent = `Building your case… This can take up to ${timeout} seconds.`;
       // Let the page paint before the work starts.
       setTimeout(() => {
         try {
           const seed = Math.floor(Math.random() * 2 ** 31);
-          const level = makeLevel(theme, size, seed, rules, facts);
+          const tries = { min: DIFFICULTY[range[0]].min, max: DIFFICULTY[range[1]].max };
+          const level = makeLevel(theme, size, seed, rules, facts, { tries, timeLimit: timeout * 1000 });
           const data = encodeData({ t: theme.id, l: encodeLevel(theme, level) });
           location.hash = `#/x/${data}`;
         } catch {
-          status.textContent = 'No case found with these settings. Try a bigger board, fewer rules or fewer facts.';
+          status.textContent = `No case found in ${timeout} seconds. Try a longer time limit, another difficulty, a bigger board, fewer rules or fewer facts.`;
           go.disabled = false;
         }
       }, 30);
@@ -214,6 +365,8 @@ function drawMaker() {
     el('p.lede', {}, 'Every case has exactly one solution and can be solved step by step. Each rule and fact you pick is needed to solve it.'),
     el('h2.maker-section', {}, 'Board settings'),
     el('label.maker-size', {}, el('span', {}, 'Board size'), sizeSelect),
+    difficultyBox,
+    el('label.maker-size.maker-time', {}, el('span', {}, 'Time limit for board generation:'), timeoutInput, el('span', {}, 'seconds')),
     sectionHead('Special rules', randomRules),
     el('div.maker-rules', { role: 'group', 'aria-label': 'Special rules' }, boxes.map(b => b.node)),
     sectionHead('Case facts', randomFacts),
@@ -233,17 +386,21 @@ function renderHome() {
       el('button.btn', { onclick: showHelp }, 'How to play')),
     el('section.campaigns', {},
       THEMES.map(theme => {
-        const total = CAMPAIGNS.find(c => c.theme === theme.id).levels.length;
-        const done = solvedCount(theme.id);
+        const levels = CAMPAIGNS.find(c => c.theme === theme.id).levels;
         return el('a.campaign-card', { href: `#/c/${theme.id}`, style: { '--h': theme.hue } },
           el('span.campaign-icon', { 'aria-hidden': 'true' }, theme.icon),
           el('span.campaign-text', {},
             el('strong', {}, theme.title),
             el('span', {}, theme.tagline),
             themeRules(theme).length ? el('span.rule-tags', {}, themeRules(theme).map(r => el('span.badge', {}, RULE_LABEL[r]))) : null),
-          el('span.progress', {},
-            el('span.progress-bar', {}, el('span', { style: { width: `${(100 * done) / total}%` } })),
-            el('small', {}, `${done} / ${total} solved`)));
+          // One progress bar per difficulty group.
+          el('span.progress-groups', {}, groupsOf(levels).map(({ g, items }) => {
+            const done = items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length;
+            return el(`span.progress${g >= 0 ? `.d${g}` : ''}`, {},
+              el('small.progress-name', {}, g >= 0 ? DIFFICULTY[g].name : 'Cases'),
+              el('span.progress-bar', {}, el('span', { style: { width: `${(100 * done) / items.length}%` } })),
+              el('small', {}, `${done} / ${items.length}`));
+          })));
       }),
       // Opens the screen for player-made cases.
       el('a.campaign-card.custom-card', { href: '#/make', style: { '--h': 35 } },
@@ -262,7 +419,7 @@ function renderMaker(fromCase = false) {
   app.replaceChildren(
     el('nav.topbar', {},
       el('a.btn.icon.back', { href: '#/', title: 'Back to all campaigns', 'aria-label': 'Back to all campaigns' }, icon('back')),
-      el('span.topbar-title', {}, logo('.bar-logo'), 'Alibi Grid')),
+      el('a.topbar-title', { href: '#/', title: 'Main page' }, logo('.bar-logo'), 'Alibi Grid')),
     maker);
   if (fromCase) {
     maker.classList.add('flash-in');
@@ -276,7 +433,7 @@ function renderCampaign(theme) {
   app.replaceChildren(
     el('nav.topbar', {},
       el('a.btn.icon.back', { href: '#/', title: 'Back to all campaigns', 'aria-label': 'Back to all campaigns' }, icon('back')),
-      el('span.topbar-title', {}, logo('.bar-logo'), 'Alibi Grid')),
+      el('a.topbar-title', { href: '#/', title: 'Main page' }, logo('.bar-logo'), 'Alibi Grid')),
     el('header.campaign-head', { style: { '--h': theme.hue } },
       el('span.campaign-icon.big', { 'aria-hidden': 'true' }, theme.icon),
       el('div', {}, el('h1', {}, theme.title), el('p.lede', {}, theme.tagline))),
@@ -284,18 +441,50 @@ function renderCampaign(theme) {
       ? el('ul.rule-list', {}, theme.mix
         ? [el('li', {}, 'Each case mixes two or three of these special rules:'), ...themeRules(theme).map(r => el('li', {}, ruleText(r)))]
         : themeRules(theme).map(r => el('li', {}, ruleText(r))))
-      : null,
-    el('ol.cases', {},
-      campaign.levels.map((lv, i) => {
+      : '', // not null: replaceChildren would show it as the text "null"
+    // Cases grouped by difficulty: Beginner, Medium, Hard, Expert.
+    // Each group folds open and shut. Folded groups are remembered per campaign.
+    el('div.case-groups', {}, groupsOf(campaign.levels).map(({ g, items }) => el(g >= 0 ? 'details.case-group' : 'section.case-group', g < 0 ? {} : {
+      open: !getSetting('foldedGroups', {})[theme.id]?.includes(g),
+      ontoggle: e => {
+        const all = getSetting('foldedGroups', {});
+        const mine = new Set(all[theme.id] || []);
+        e.target.open ? mine.delete(g) : mine.add(g);
+        setSetting('foldedGroups', { ...all, [theme.id]: [...mine] });
+      },
+    },
+      g >= 0 ? el('summary.case-group-head', {},
+        el('h2', {}, DIFFICULTY[g].name),
+        el('span.case-group-info', {},
+          `${items.filter(([, i]) => isClosed(loadLevel(levelKey(theme.id, i)))).length} / ${items.length} solved`)) : '',
+      el('ol.cases', {}, items.map(([lv, i]) => {
         const state = loadLevel(levelKey(theme.id, i));
-        const status = state?.solved ? 'solved' : state?.pos?.some(x => x >= 0) ? 'started' : 'new';
-        return el('li', {}, el(`a.case-card.${status}`, { href: `#/c/${theme.id}/${i}`, style: { '--h': theme.hue } },
-          el('span.case-num', {}, `Case ${i + 1}`),
-          el('span.case-size', {}, `${lv.size} × ${lv.size}`),
+        const status = isClosed(state) ? 'solved' : state?.pos?.some(x => x >= 0) ? 'started' : 'new';
+        // A box in the corner closes (or opens) a case by hand. It sits next to the
+        // card's link, not in it, so a tick does not open the case.
+        const closeBox = el('input.case-close', {
+          type: 'checkbox', checked: status === 'solved',
+          title: status === 'solved' ? 'Closed. Untick to open it again.' : 'Tick to close this case',
+          'aria-label': `Case ${items.findIndex(([, j]) => j === i) + 1} closed`,
+          onchange: e => {
+            // Tick: closed. Untick: open again, and the board is no longer locked.
+            const old = loadLevel(levelKey(theme.id, i)) || {};
+            saveLevel(levelKey(theme.id, i), { ...old, closed: e.target.checked, solved: e.target.checked && !!old.solved });
+            const y = window.scrollY;
+            renderCampaign(theme);
+            window.scrollTo(0, y);
+          },
+        });
+        return el('li.case-item', { style: { '--h': theme.hue } }, closeBox, el(`a.case-card.${status}`, { href: `#/c/${theme.id}/${i}`, style: { '--h': theme.hue } },
+          caseThumb(theme, lv),
+          el('span.case-num', {}, g >= 0 ? `Case ${items.findIndex(([, j]) => j === i) + 1}` : campaignCaseName(campaign.levels, i)),
+          el('span.case-size', {}, `${lv.size} × ${lv.size} `, difficultyBadge(lv.tries)),
           el('span.case-victim', {}, `Victim: ${lv.people[lv.victim]}`),
           theme.mix ? el('span.case-victim', {}, lv.rules.map(r => RULE_LABEL[r]).join(' · ')) : null,
-          el('span.case-status', {}, status === 'solved' ? '✓ Closed' : status === 'started' ? 'In progress' : 'Open')));
-      })),
+          status === 'started' ? el('span.case-status', {}, 'In progress') : null,
+          // Solved cases get a big green tick over the whole card.
+          status === 'solved' ? caseTick() : null));
+      }))))),
   );
 }
 

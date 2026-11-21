@@ -717,7 +717,7 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
         const text = bad.length === 1
           ? `${head} So ${T.name(p)} is not on ${cells[0]}.`
           : `${head} The same happens on ${listText(cells.filter(c => c !== T.cell(example.i)))}. So ${T.name(p)} is not on ${listText(cells)}.`;
-        yield { elim: bad.map(i => [p, i]), text };
+        yield { elim: bad.map(i => [p, i]), text, trial: true };
       }
     }
   }
@@ -933,10 +933,21 @@ function plainText(level) {
   };
 }
 
-// True if the deduction solves the case with easy steps and short tries,
-// without the long-chain fallback.
-export function isDeducible(level, blocking) {
+// "What if" steps a case may need, per board size. Fewer means easier hints.
+export const MAX_TRIES = { 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 2, 10: 2, 11: 3, 12: 3 };
+
+// How many short tries ("what if" steps) the deduction needs to solve the case.
+// -1 if it can not solve it without the long-chain fallback.
+export function trialCount(level, blocking) {
   const steps = deduce(level, blocking, plainText(level), { deep: false });
   const last = steps[steps.length - 1];
-  return !!last?.done && last.before.pos.every((i, p) => i === level.solution[p]);
+  if (!last?.done || !last.before.pos.every((i, p) => i === level.solution[p])) return -1;
+  return steps.filter(st => st.trial).length;
+}
+
+// True if the deduction solves the case with easy steps and at most
+// maxTries short tries, without the long-chain fallback.
+export function isDeducible(level, blocking, maxTries = MAX_TRIES[level.size] ?? Infinity) {
+  const k = trialCount(level, blocking);
+  return k >= 0 && k <= maxTries;
 }

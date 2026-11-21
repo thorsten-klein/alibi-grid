@@ -1,5 +1,7 @@
 // Small DOM helpers.
 
+import { DIFFICULTY, difficultyIndex } from './generator.js';
+
 // el('div.card', { onclick }, child, 'text', ...)
 export function el(spec, props = {}, ...children) {
   const [tag, ...classes] = spec.split('.');
@@ -146,4 +148,12 @@ export function logo(cls = '', roomy = false) {
       .replace('</svg>', `<g class="lg-glass lg-sparks">${SPARKLES.map(star).join('')}</g></svg>`)
     : LOGO;
   return span;
+}
+
+// A colored badge for how hard a case is. The tooltip gives the exact number of tries.
+export function difficultyBadge(tries) {
+  if (tries === null || tries === undefined || tries < 0) return null;
+  const d = difficultyIndex(tries);
+  const tip = `${tries} "what if" ${tries === 1 ? 'step' : 'steps'} in the hints`;
+  return el(`span.difficulty.d${d}`, { title: tip, 'aria-label': `${DIFFICULTY[d].name}: ${tip}` }, DIFFICULTY[d].name);
 }

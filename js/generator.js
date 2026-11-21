@@ -6,9 +6,27 @@
 
 import { blockingSet, TRADES, castNames } from './themes.js';
 import { solve, neighbors, factValue, groupOf, cellOk, unaryOk, areasOf } from './rules.js';
-import { isDeducible } from './hints.js';
+import { isDeducible, trialCount, MAX_TRIES } from './hints.js';
 
 export const SIZES = [4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+// Difficulty levels: how many "what if" steps the hints may need.
+export const DIFFICULTY = [
+  { name: 'Beginner', min: 0, max: 0 },
+  { name: 'Medium', min: 1, max: 2 },
+  { name: 'Hard', min: 3, max: 5 },
+  { name: 'Expert', min: 6, max: 10 },
+  { name: 'Extreme', min: 11, max: Infinity },
+];
+// Name of campaign case i, e.g. "Medium case 3" (counted within its group).
+export function campaignCaseName(levels, i) {
+  const g = levels[i].group;
+  if (g === undefined) return `Case ${i + 1}`;
+  const num = levels.slice(0, i + 1).filter(l => l.group === g).length;
+  return `${DIFFICULTY[g].name} case ${num}`;
+}
+// Index into DIFFICULTY for a number of "what if" steps.
+export const difficultyIndex = k => DIFFICULTY.findIndex(d => k >= d.min && k <= d.max);
 
 // Rooms per board size. Never more than n.
 const ROOMS = { 4: 3, 5: 4, 6: 5, 7: 5, 8: 6, 9: 7, 10: 8, 11: 8, 12: 9 };
@@ -369,20 +387,21 @@ function withoutRule(level, rule) {
   return out;
 }
 
-// True if the case still works: one solution, the stored one, and deducible step by step.
-function works(level, blocking) {
+// True if the case still works: one solution, the stored one, and deducible step by step
+// with at most maxTries "what if" steps.
+function works(level, blocking, maxTries) {
   const res = solve(level, blocking, { limit: 2, maxNodes: 200000 });
-  return !res.aborted && res.count === 1 && res.first.join() === level.solution.join() && isDeducible(level, blocking);
+  return !res.aborted && res.count === 1 && res.first.join() === level.solution.join() && isDeducible(level, blocking, maxTries);
 }
 
 // True if the case needs this rule: without it, it does not work.
-function ruleNeeded(level, rule, blocking) {
-  return !works(withoutRule(level, rule), blocking);
+function ruleNeeded(level, rule, blocking, maxTries) {
+  return !works(withoutRule(level, rule), blocking, maxTries);
 }
 
 // Drop every clue, couple and even/odd mark the case can do without.
 // Afterwards each one left is needed. Fixed order, so it needs no random numbers.
-function dropUnneeded(level, blocking) {
+function dropUnneeded(level, blocking, maxTries) {
   // Repeat until nothing more can go: dropping one part can make another one redundant.
   for (let changed = true; changed;) {
     changed = false;
@@ -392,7 +411,7 @@ function dropUnneeded(level, blocking) {
         const rest = level[key].filter(x => x !== item);
         if ((key === 'couples' || key === 'parity') && !rest.length) continue; // the rule itself stays
         if (key === 'clues' && lastClue(level, item, rest)) continue; // everyone keeps a clue
-        if (works({ ...level, [key]: rest }, blocking)) { level[key] = rest; changed = true; }
+        if (works({ ...level, [key]: rest }, blocking, maxTries)) { level[key] = rest; changed = true; }
       }
     }
   }
@@ -431,32 +450,40 @@ export function peopleWithoutClue(level) {
 }
 
 // Parts of a case that are not needed. Empty when every clue and rule counts.
-export function unneededParts(level, blocking) {
+export function unneededParts(level, blocking, maxTries) {
   const out = [];
   level.clues.forEach((cl, k) => {
-    if (works({ ...level, clues: level.clues.filter((_, j) => j !== k) }, blocking)) out.push(`clue ${cl.p}:${cl.t}`);
+    if (works({ ...level, clues: level.clues.filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`clue ${cl.p}:${cl.t}`);
   });
   (level.facts || []).forEach((f, k) => {
-    if (works({ ...level, facts: level.facts.filter((_, j) => j !== k) }, blocking)) out.push(`fact ${f.t}`);
+    if (works({ ...level, facts: level.facts.filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`fact ${f.t}`);
   });
   for (const key of ['couples', 'parity']) {
     if (!level[key] || level[key].length < 2) continue;
     level[key].forEach((item, k) => {
-      if (works({ ...level, [key]: level[key].filter((_, j) => j !== k) }, blocking)) out.push(`${key} ${JSON.stringify(item)}`);
+      if (works({ ...level, [key]: level[key].filter((_, j) => j !== k) }, blocking, maxTries)) out.push(`${key} ${JSON.stringify(item)}`);
     });
   }
-  for (const r of level.rules || []) if (!ruleNeeded(level, r, blocking)) out.push(`rule ${r}`);
+  for (const r of level.rules || []) if (!ruleNeeded(level, r, blocking, maxTries)) out.push(`rule ${r}`);
   return out;
 }
 
 // facts: kinds of case facts the case must show (player-made cases).
 // Without it, a campaign case gets up to 3 facts of any kind, or none.
-export function makeLevel(theme, n, seed, rules = [], facts = null) {
+// tries: { min, max } "what if" steps the hints may need. Default: the campaign limit.
+// timeLimit: give up after this many ms.
+export function makeLevel(theme, n, seed, rules = [], facts = null, { tries = null, timeLimit = Infinity } = {}) {
+  const minTries = tries ? tries.min : 0;
+  const maxTries = tries ? tries.max : MAX_TRIES[n];
+  // Hard cases need fewer clues: let the clue removal search longer.
+  const budget = BUDGET[n] * (minTries > 0 ? 20 : 1);
+  const t0 = Date.now();
   const mustFacts = facts || [];
   const R = rng(seed);
   const blocking = blockingSet(theme);
   const hasSea = rules.includes('sea');
   for (let attempt = 0; attempt < 3000; attempt++) {
+    if (Date.now() - t0 > timeLimit) break;
     let rooms = makeRooms(n, ROOMS[n] + (hasSea ? 1 : 0), R);
     let sea = -1;
     if (hasSea) ({ rooms, sea } = makeSea(n, rooms, R));
@@ -511,28 +538,30 @@ export function makeLevel(theme, n, seed, rules = [], facts = null) {
       const rest = clues.filter(x => x !== cl);
       if (!rest.some(x => x.p === cl.p)) continue; // keep one clue per person
       level.clues = rest;
-      const res = solve(level, blocking, { limit: 2, maxNodes: BUDGET[n] });
+      const res = solve(level, blocking, { limit: 2, maxNodes: budget });
       if (res.count === 1 && !res.aborted) clues = rest;
     }
     level.clues = clues.sort((a, b) => a.p - b.p);
     // Every clue, couple and mark must be needed, and everyone keeps a clue.
-    dropUnneeded(level, blocking);
+    dropUnneeded(level, blocking, maxTries);
     if (peopleWithoutClue(level).length) continue;
     // A last clue that was kept but is not needed: try another board.
     if (level.clues.some((cl, k) => {
       const rest = level.clues.filter((_, j) => j !== k);
-      return lastClue(level, cl, rest) && works({ ...level, clues: rest }, blocking);
+      return lastClue(level, cl, rest) && works({ ...level, clues: rest }, blocking, maxTries);
     })) continue;
     // The facts the player asked for must still be there.
     if (mustFacts.some(kind => !level.facts.some(f => f.t === kind))) continue;
     // Every special rule must matter.
-    if (!rules.every(r => ruleNeeded(level, r, blocking))) continue;
+    if (!rules.every(r => ruleNeeded(level, r, blocking, maxTries))) continue;
     // Final proof: every clue, fact and rule is needed.
-    if (unneededParts(level, blocking).length) continue;
+    if (unneededParts(level, blocking, maxTries).length) continue;
     // The murderer must not be obvious before the board is solved.
     if (murdererTooEasy(level, blocking)) continue;
-    // A player must be able to solve it step by step.
-    if (!isDeducible(level, blocking)) continue;
+    // A player must be able to solve it step by step, with the wished number of tries.
+    const k = trialCount(level, blocking);
+    if (k < minTries || k > maxTries) continue;
+    level.tries = k;
     const check = solve(level, blocking, { limit: 2 });
     if (check.count !== 1) throw new Error('not unique');
     return level;

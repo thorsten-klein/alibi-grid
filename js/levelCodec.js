@@ -15,6 +15,7 @@
 // river:   [dir, cuts as base-36 chars, people on the west/north side]
 // facts:   case facts [t, v, k] (only when there are some)
 // doors:   cell pairs [i, j]        windows: [[cell, side], ...]
+// tries:   "what if" steps the hints need (the difficulty)
 
 import { TRADES } from './themes.js';
 
@@ -36,6 +37,7 @@ export function encodeLevel(theme, level) {
   };
   if (level.doors?.length) out.doors = level.doors;
   if (level.windows?.length) out.windows = level.windows;
+  if (level.tries >= 0) out.tries = level.tries;
   if (level.facts?.length) out.facts = level.facts.map(f => (f.k === undefined ? [f.t, f.v] : [f.t, f.v, f.k]));
   const rules = level.rules || [];
   if (!rules.length) return out;
@@ -73,6 +75,7 @@ export function decodeLevel(theme, raw) {
     windows: raw.windows || [],
     facts: (raw.facts || []).map(([t, v, k]) => ({ t, v, k })),
     sea: raw.sea ?? -1,
+    tries: raw.tries ?? null,
   };
   if (raw.rank) { level.court = raw.court; level.rank = [...raw.rank].map(ch => RANK_NAME[ch]); }
   if (raw.trade) level.trade = [...raw.trade].map(ch => (ch === '.' ? null : TRADES[+ch].id));
