@@ -7,7 +7,7 @@ import { CAMPAIGNS } from '../../js/levels.js';
 import { themeById, blockingSet } from '../../js/themes.js';
 import { decodeLevel } from '../../js/levelCodec.js';
 import { solve, murdererOf, boardRuleProblems } from '../../js/rules.js';
-import { deduce, trialCount } from '../../js/hints.js';
+import { deduce, trialCount, caseScore } from '../../js/hints.js';
 import { DIFFICULTY, difficultyIndex, campaignCaseName, fitsLimit } from '../../js/generator.js';
 import { plainT } from './helpers.js';
 
@@ -28,6 +28,8 @@ for (const c of CAMPAIGNS) {
       assert.ok(steps.at(-1).done, `${name}: story ends`);
       const tries = trialCount(level, blocking);
       assert.equal(tries, raw.tries, `${name}: stored tries`);
+      const score = caseScore(level, blocking);
+      assert.deepEqual(level.score, { hard: score.hard, hardest: score.hardest, steps: score.steps }, `${name}: stored step score`);
       // Extra cases fit no group; the others fit theirs.
       if (!raw.extra) {
         assert.equal(difficultyIndex(tries), raw.group, `${name}: group fits`);

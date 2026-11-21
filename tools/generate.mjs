@@ -28,7 +28,7 @@ import { Worker, isMainThread, parentPort } from 'node:worker_threads';
 import { THEMES, blockingSet } from '../js/themes.js';
 import { encodeLevel, decodeLevel } from '../js/levelCodec.js';
 import { makeLevel, SIZES, DIFFICULTY, difficultyIndex, unneededParts, fitsLimit } from '../js/generator.js';
-import { trialCount } from '../js/hints.js';
+import { caseScore } from '../js/hints.js';
 import { CAMPAIGNS as OLD } from '../js/levels.js';
 
 // The campaign groups: indexes into DIFFICULTY.
@@ -67,7 +67,7 @@ if (!isMainThread) {
   const extras = THEMES.map(() => []); // per theme: extra cases (raw)
   // The same case twice (from two files, or made again) counts once.
   const seen = new Set();
-  const id = ({ group, extra, tries, ...rest }) => JSON.stringify(rest);
+  const id = ({ group, extra, tries, hard, hardest, steps, ...rest }) => JSON.stringify(rest);
   if (!process.argv.includes('--fresh')) {
     const fits = [];
     let moved = 0, dropped = 0;
@@ -84,9 +84,12 @@ if (!isMainThread) {
         const rules = theme.mix ? theme.mix[li] : theme.rules || [];
         if (li < 0 || JSON.stringify(raw.rules || []) !== JSON.stringify(rules)) { dropped++; continue; }
         const level = decodeLevel(theme, raw);
-        const tries = trialCount(level, blocking);
-        if (tries < 0) { dropped++; continue; } // can not be solved step by step: gone
-        const { group, extra, ...plain } = raw;
+        const score = caseScore(level, blocking);
+        if (!score) { dropped++; continue; } // can not be solved step by step: gone
+        // Store the tries and the step score again: the hints may have changed.
+        const { tries } = score;
+        const { group, extra, ...rest } = raw;
+        const plain = { ...rest, hard: score.hard, hardest: score.hardest, steps: score.steps };
         const asExtra = { ...plain, tries, extra: true };
         const g = difficultyIndex(tries);
         // Too hard for its group (step budget): an extra case, a new case takes its place.

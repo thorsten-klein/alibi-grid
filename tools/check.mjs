@@ -12,7 +12,7 @@ import { CAMPAIGNS } from '../js/levels.js';
 import { themeById, blockingSet } from '../js/themes.js';
 import { decodeLevel } from '../js/levelCodec.js';
 import { solve, murdererOf } from '../js/rules.js';
-import { isDeducible, trialCount } from '../js/hints.js';
+import { isDeducible, trialCount, caseScore } from '../js/hints.js';
 import { unneededParts, peopleWithoutClue, murdererTooEasy, fitsLimit, DIFFICULTY, campaignCaseName } from '../js/generator.js';
 import { readFileSync } from 'node:fs';
 import { buildBundle, BUNDLE_PATH } from './bundle.mjs';
@@ -44,6 +44,8 @@ function deductionProblems(L, blocking, range) {
   if (!isDeducible(L, blocking, Infinity)) out.push('not deducible step by step');
   const tries = trialCount(L, blocking);
   if (L.tries !== tries) out.push('stored tries differ');
+  const score = caseScore(L, blocking);
+  if (score && JSON.stringify(L.score) !== JSON.stringify({ hard: score.hard, hardest: score.hardest, steps: score.steps })) out.push('stored step score differs');
   if (tries < 0) return out;
   if (tries < range.min || tries > range.max) out.push(`${tries} tries, not in its group`);
   else if (!fitsLimit(L, blocking, range)) out.push('too hard for its group (step budget)');

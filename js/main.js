@@ -526,7 +526,7 @@ function renderCampaign(theme) {
         return el('li.case-item', { style: { '--h': theme.hue } }, closeBox, el(`a.case-card.${status}`, { href: `#/c/${theme.id}/${i}`, style: { '--h': theme.hue } },
           caseThumb(theme, lv),
           el('span.case-num', {}, `Case ${items.findIndex(([, j]) => j === i) + 1}`),
-          el('span.case-size', {}, `${lv.size} × ${lv.size} `, difficultyBadge(lv.tries)),
+          el('span.case-size', {}, `${lv.size} × ${lv.size} `, difficultyBadge(lv.tries, { hard: lv.hard, hardest: lv.hardest, steps: lv.steps })),
           el('span.case-victim', {}, `Victim: ${lv.people[lv.victim]}`),
           theme.mix ? el('span.case-victim', {}, lv.rules.map(r => RULE_LABEL[r]).join(' · ')) : null,
           status === 'started' ? el('span.case-status', {}, 'In progress') : null,

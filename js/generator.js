@@ -651,6 +651,7 @@ function caseIsGood(level, rules, mustFacts, blocking, limit, minTries, maxTries
   const k = trialCount(level, blocking);
   if (k < minTries || k > maxTries || !fitsLimit(level, blocking, limit)) return false;
   level.tries = k;
+  level.score = caseScore(level, blocking);
   return true;
 }
 

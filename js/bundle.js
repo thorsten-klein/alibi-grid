@@ -83,6 +83,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "group": 0
    },
    {
@@ -169,6 +172,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "group": 0
    },
    {
@@ -284,6 +290,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "group": 0
    },
    {
@@ -402,6 +411,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "group": 0
    },
    {
@@ -558,6 +570,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 24,
     "group": 0
    },
    {
@@ -739,6 +754,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "group": 0
    },
    {
@@ -923,6 +941,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 28,
     "group": 0
    },
    {
@@ -1000,6 +1021,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "group": 1
    },
    {
@@ -1093,6 +1117,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "group": 1
    },
    {
@@ -1213,6 +1240,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "group": 1
    },
    {
@@ -1341,6 +1371,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 21,
     "group": 1
    },
    {
@@ -1484,6 +1517,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "group": 1
    },
    {
@@ -1658,6 +1694,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 28,
     "group": 1
    },
    {
@@ -1854,6 +1893,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 23,
     "group": 1
    },
    {
@@ -2060,6 +2102,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 29,
     "group": 1
    },
    {
@@ -2299,6 +2344,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 30,
     "group": 1
    },
    {
@@ -2370,6 +2418,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "group": 2
    },
    {
@@ -2460,6 +2511,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "group": 2
    },
    {
@@ -2577,6 +2631,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 19,
     "group": 2
    },
    {
@@ -2711,6 +2768,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 22,
     "group": 2
    },
    {
@@ -2865,6 +2925,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 26,
     "group": 2
    },
    {
@@ -3036,6 +3099,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 24,
     "group": 2
    },
    {
@@ -3219,6 +3285,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 29,
     "group": 2
    },
    {
@@ -3440,6 +3509,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 30,
     "group": 2
    },
    {
@@ -3686,6 +3758,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 6,
+    "steps": 27,
     "group": 2
    },
    {
@@ -3762,6 +3837,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 22,
     "group": 3
    },
    {
@@ -3859,6 +3937,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "group": 3
    },
    {
@@ -3975,6 +4056,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 3,
+    "steps": 21,
     "group": 3
    },
    {
@@ -4108,6 +4192,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 28,
     "group": 3
    },
    {
@@ -4246,6 +4333,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 27,
     "group": 3
    },
    {
@@ -4417,6 +4507,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 25,
     "group": 3
    },
    {
@@ -4612,6 +4705,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 38,
     "group": 3
    },
    {
@@ -4807,6 +4903,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 8,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 38,
     "group": 3
    },
    {
@@ -5032,6 +5131,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 38,
     "group": 3
    },
    {
@@ -5099,6 +5201,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -5169,6 +5274,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -5235,6 +5343,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -5305,6 +5416,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -5374,6 +5488,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -5443,6 +5560,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -5523,6 +5643,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -5596,6 +5719,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -5665,6 +5791,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -5733,6 +5862,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -5805,6 +5937,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -5887,6 +6022,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -5966,6 +6104,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -6027,6 +6168,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -6093,6 +6237,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -6166,6 +6313,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -6236,6 +6386,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -6312,6 +6465,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -6384,6 +6540,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -6459,6 +6618,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -6527,6 +6689,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -6596,6 +6761,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -6693,6 +6861,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -6782,6 +6953,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -6877,6 +7051,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -6969,6 +7146,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -7056,6 +7236,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 14,
     "extra": true
    },
    {
@@ -7153,6 +7336,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -7238,6 +7424,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 15,
     "extra": true
    },
    {
@@ -7330,6 +7519,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -7418,6 +7610,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -7503,6 +7698,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -7590,6 +7788,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -7679,6 +7880,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -7776,6 +7980,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -7878,6 +8085,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -7969,6 +8179,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -8059,6 +8272,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -8155,6 +8371,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -8256,6 +8475,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -8351,6 +8573,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -8449,6 +8674,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -8564,6 +8792,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -8675,6 +8906,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 18,
     "extra": true
    },
    {
@@ -8795,6 +9029,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -8905,6 +9142,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -9014,6 +9254,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -9126,6 +9369,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -9231,6 +9477,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -9336,6 +9585,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -9443,6 +9695,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -9555,6 +9810,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -9661,6 +9919,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -9769,6 +10030,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -9895,6 +10159,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -9999,6 +10266,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 4,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -10115,6 +10385,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -10232,6 +10505,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -10342,6 +10618,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -10461,6 +10740,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -10581,6 +10863,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 23,
     "extra": true
    },
    {
@@ -10699,6 +10984,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -10821,6 +11109,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -10952,6 +11243,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -11066,6 +11360,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 7,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -11180,6 +11477,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -11316,6 +11616,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -11442,6 +11745,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -11554,6 +11860,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -11683,6 +11992,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -11813,6 +12125,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -11940,6 +12255,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -12069,6 +12387,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -12200,6 +12521,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -12323,6 +12647,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -12449,6 +12776,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 36,
     "extra": true
    },
    {
@@ -12599,6 +12929,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -12745,6 +13078,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -12885,6 +13221,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -13031,6 +13370,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -13180,6 +13522,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 17,
     "extra": true
    },
    {
@@ -13336,6 +13681,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -13499,6 +13847,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -13650,6 +14001,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 8,
+    "steps": 18,
     "extra": true
    },
    {
@@ -13805,6 +14159,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 9,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -13952,6 +14309,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -14086,6 +14446,9 @@ const CAMPAIGNS = [
       5
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -14236,6 +14599,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -14388,6 +14754,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 29,
     "extra": true
    },
    {
@@ -14535,6 +14904,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -14683,6 +15055,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -14835,6 +15210,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 35,
     "extra": true
    },
    {
@@ -14992,6 +15370,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 35,
     "extra": true
    },
    {
@@ -15146,6 +15527,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -15327,6 +15711,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 7,
+    "steps": 23,
     "extra": true
    },
    {
@@ -15500,6 +15887,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 8,
+    "steps": 23,
     "extra": true
    },
    {
@@ -15672,6 +16062,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 34,
     "extra": true
    },
    {
@@ -15836,6 +16229,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 7,
+    "steps": 26,
     "extra": true
    },
    {
@@ -16000,6 +16396,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -16164,6 +16563,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -16342,6 +16744,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 38,
     "extra": true
    },
    {
@@ -16516,6 +16921,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 7,
+    "steps": 32,
     "extra": true
    },
    {
@@ -16684,6 +17092,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 37,
     "extra": true
    },
    {
@@ -16844,6 +17255,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 41,
     "extra": true
    },
    {
@@ -17014,6 +17428,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 9,
+    "hardest": 5,
+    "steps": 45,
     "extra": true
    },
    {
@@ -17203,6 +17620,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -17392,6 +17812,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 8,
+    "hardest": 9,
+    "steps": 31,
     "extra": true
    },
    {
@@ -17582,6 +18005,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -17784,6 +18210,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -17979,6 +18408,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 30,
     "extra": true
    },
    {
@@ -18168,6 +18600,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 11,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -18343,6 +18778,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 7,
+    "hardest": 8,
+    "steps": 26,
     "extra": true
    },
    {
@@ -18533,6 +18971,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 34,
     "extra": true
    },
    {
@@ -18722,6 +19163,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -18917,6 +19361,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 45,
     "extra": true
    },
    {
@@ -19120,6 +19567,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 8,
+    "steps": 43,
     "extra": true
    },
    {
@@ -19325,6 +19775,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 28,
     "extra": true
    },
    {
@@ -19526,6 +19979,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 6,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -19730,6 +20186,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 5,
+    "hardest": 7,
+    "steps": 32,
     "extra": true
    },
    {
@@ -19936,6 +20395,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 34,
     "extra": true
    },
    {
@@ -20141,6 +20603,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 34,
     "extra": true
    },
    {
@@ -20351,6 +20816,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 8,
+    "steps": 34,
     "extra": true
    },
    {
@@ -20569,6 +21037,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 47,
     "extra": true
    },
    {
@@ -20795,6 +21266,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 9,
+    "steps": 64,
     "extra": true
    },
    {
@@ -21022,6 +21496,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 35,
     "extra": true
    },
    {
@@ -21241,6 +21718,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 11,
+    "hardest": 10,
+    "steps": 42,
     "extra": true
    },
    {
@@ -21474,6 +21954,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 34,
     "extra": true
    },
    {
@@ -21709,6 +22192,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 9,
+    "hardest": 8,
+    "steps": 41,
     "extra": true
    },
    {
@@ -21934,6 +22420,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 9,
+    "steps": 33,
     "extra": true
    },
    {
@@ -22164,6 +22653,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 8,
+    "steps": 34,
     "extra": true
    },
    {
@@ -22399,6 +22891,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 9,
+    "steps": 49,
     "extra": true
    }
   ]
@@ -22474,6 +22969,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "group": 0
    },
    {
@@ -22565,6 +23063,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "group": 0
    },
    {
@@ -22680,6 +23181,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "group": 0
    },
    {
@@ -22814,6 +23318,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "group": 0
    },
    {
@@ -22967,6 +23474,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "group": 0
    },
    {
@@ -23136,6 +23646,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 26,
     "group": 0
    },
    {
@@ -23333,6 +23846,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
     "group": 0
    },
    {
@@ -23406,6 +23922,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "group": 1
    },
    {
@@ -23498,6 +24017,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "group": 1
    },
    {
@@ -23607,6 +24129,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "group": 1
    },
    {
@@ -23733,6 +24258,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 20,
     "group": 1
    },
    {
@@ -23867,6 +24395,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 21,
     "group": 1
    },
    {
@@ -24037,6 +24568,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 22,
     "group": 1
    },
    {
@@ -24235,6 +24769,9 @@ const CAMPAIGNS = [
       6
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 26,
     "group": 1
    },
    {
@@ -24446,6 +24983,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 30,
     "group": 1
    },
    {
@@ -24695,6 +25235,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 32,
     "group": 1
    },
    {
@@ -24772,6 +25315,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "group": 2
    },
    {
@@ -24868,6 +25414,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 3,
+    "steps": 21,
     "group": 2
    },
    {
@@ -24985,6 +25534,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "group": 2
    },
    {
@@ -25123,6 +25675,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 22,
     "group": 2
    },
    {
@@ -25260,6 +25815,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 7,
+    "hardest": 4,
+    "steps": 27,
     "group": 2
    },
    {
@@ -25416,6 +25974,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 26,
     "group": 2
    },
    {
@@ -25609,6 +26170,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 30,
     "group": 2
    },
    {
@@ -25813,6 +26377,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 34,
     "group": 2
    },
    {
@@ -26042,6 +26609,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 39,
     "group": 2
    },
    {
@@ -26123,6 +26693,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "group": 3
    },
    {
@@ -26215,6 +26788,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
     "group": 3
    },
    {
@@ -26330,6 +26906,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 23,
     "group": 3
    },
    {
@@ -26474,6 +27053,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 32,
     "group": 3
    },
    {
@@ -26626,6 +27208,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 7,
+    "hard": 6,
+    "hardest": 4,
+    "steps": 33,
     "group": 3
    },
    {
@@ -26794,6 +27379,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 35,
     "group": 3
    },
    {
@@ -26985,6 +27573,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 30,
     "group": 3
    },
    {
@@ -27208,6 +27799,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 36,
     "group": 3
    },
    {
@@ -27449,6 +28043,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 31,
     "group": 3
    },
    {
@@ -27510,6 +28107,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -27582,6 +28182,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -27650,6 +28253,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -27715,6 +28321,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -27784,6 +28393,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -27858,6 +28470,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -27928,6 +28543,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -28005,6 +28623,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -28070,6 +28691,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -28141,6 +28765,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -28206,6 +28833,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -28277,6 +28907,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -28348,6 +28981,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -28413,6 +29049,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -28484,6 +29123,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -28554,6 +29196,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "extra": true
    },
    {
@@ -28624,6 +29269,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -28702,6 +29350,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -28771,6 +29422,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -28843,6 +29497,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -28907,6 +29564,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -29000,6 +29660,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 13,
     "extra": true
    },
    {
@@ -29086,6 +29749,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -29173,6 +29839,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -29258,6 +29927,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -29353,6 +30025,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -29450,6 +30125,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -29546,6 +30224,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -29638,6 +30319,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -29735,6 +30419,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -29820,6 +30507,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -29905,6 +30595,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -30001,6 +30694,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -30098,6 +30794,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -30199,6 +30898,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -30291,6 +30993,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -30393,6 +31098,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -30497,6 +31205,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -30603,6 +31314,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -30707,6 +31421,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -30812,6 +31529,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -30924,6 +31644,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -31041,6 +31764,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -31155,6 +31881,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -31276,6 +32005,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -31391,6 +32123,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -31500,6 +32235,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -31620,6 +32358,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -31737,6 +32478,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -31853,6 +32597,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 16,
     "extra": true
    },
    {
@@ -31974,6 +32721,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -32091,6 +32841,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -32214,6 +32967,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 16,
     "extra": true
    },
    {
@@ -32335,6 +33091,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -32446,6 +33205,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -32554,6 +33316,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -32671,6 +33436,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -32776,6 +33544,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 7,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -32900,6 +33671,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -33020,6 +33794,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -33154,6 +33931,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -33280,6 +34060,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -33423,6 +34206,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -33541,6 +34327,9 @@ const CAMPAIGNS = [
       5
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 19,
     "extra": true
    },
    {
@@ -33664,6 +34453,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 5,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -33792,6 +34584,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -33914,6 +34709,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -34047,6 +34845,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -34169,6 +34970,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -34298,6 +35102,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -34426,6 +35233,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -34545,6 +35355,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -34673,6 +35486,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -34792,6 +35608,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -34919,6 +35738,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -35035,6 +35857,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -35169,6 +35994,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 21,
     "extra": true
    },
    {
@@ -35321,6 +36149,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -35464,6 +36295,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -35612,6 +36446,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -35751,6 +36588,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 22,
     "extra": true
    },
    {
@@ -35891,6 +36731,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -36042,6 +36885,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 30,
     "extra": true
    },
    {
@@ -36186,6 +37032,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -36339,6 +37188,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -36484,6 +37336,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -36625,6 +37480,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -36768,6 +37626,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -36918,6 +37779,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -37070,6 +37934,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -37219,6 +38086,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 29,
     "extra": true
    },
    {
@@ -37363,6 +38233,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 33,
     "extra": true
    },
    {
@@ -37516,6 +38389,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 7,
+    "hardest": 8,
+    "steps": 21,
     "extra": true
    },
    {
@@ -37682,6 +38558,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -37852,6 +38731,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -38017,6 +38899,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -38180,6 +39065,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -38348,6 +39236,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -38516,6 +39407,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -38684,6 +39578,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 29,
     "extra": true
    },
    {
@@ -38855,6 +39752,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 10,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -39026,6 +39926,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -39196,6 +40099,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 30,
     "extra": true
    },
    {
@@ -39385,6 +40291,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -39578,6 +40487,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 25,
     "extra": true
    },
    {
@@ -39767,6 +40679,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 9,
+    "steps": 27,
     "extra": true
    },
    {
@@ -39946,6 +40861,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 28,
     "extra": true
    },
    {
@@ -40134,6 +41052,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 6,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -40324,6 +41245,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 9,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -40517,6 +41441,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 10,
+    "hardest": 9,
+    "steps": 34,
     "extra": true
    },
    {
@@ -40720,6 +41647,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 37,
     "extra": true
    },
    {
@@ -40914,6 +41844,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -41103,6 +42036,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 8,
+    "steps": 38,
     "extra": true
    },
    {
@@ -41308,6 +42244,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 8,
+    "hardest": 8,
+    "steps": 34,
     "extra": true
    },
    {
@@ -41517,6 +42456,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 3,
+    "steps": 38,
     "extra": true
    },
    {
@@ -41723,6 +42665,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 34,
     "extra": true
    },
    {
@@ -41932,6 +42877,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 7,
+    "hardest": 8,
+    "steps": 32,
     "extra": true
    },
    {
@@ -42142,6 +43090,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 10,
+    "hardest": 8,
+    "steps": 39,
     "extra": true
    },
    {
@@ -42353,6 +43304,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -42567,6 +43521,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 7,
+    "steps": 38,
     "extra": true
    },
    {
@@ -42772,6 +43729,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 10,
+    "hardest": 9,
+    "steps": 44,
     "extra": true
    },
    {
@@ -43003,6 +43963,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 31,
     "extra": true
    },
    {
@@ -43242,6 +44205,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -43466,6 +44432,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 7,
+    "hardest": 7,
+    "steps": 31,
     "extra": true
    },
    {
@@ -43691,6 +44660,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 32,
     "extra": true
    },
    {
@@ -43928,6 +44900,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 12,
+    "hardest": 8,
+    "steps": 48,
     "extra": true
    },
    {
@@ -44171,6 +45146,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 36,
     "extra": true
    },
    {
@@ -44405,6 +45383,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 9,
+    "steps": 36,
     "extra": true
    },
    {
@@ -44648,6 +45629,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 10,
+    "steps": 42,
     "extra": true
    }
   ]
@@ -44726,6 +45710,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "group": 0
    },
    {
@@ -44819,6 +45806,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "group": 0
    },
    {
@@ -44940,6 +45930,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "group": 0
    },
    {
@@ -45063,6 +46056,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
     "group": 0
    },
    {
@@ -45218,6 +46214,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "group": 0
    },
    {
@@ -45372,6 +46371,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 19,
     "group": 0
    },
    {
@@ -45546,6 +46548,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 23,
     "group": 0
    },
    {
@@ -45612,6 +46617,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "group": 1
    },
    {
@@ -45700,6 +46708,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "group": 1
    },
    {
@@ -45816,6 +46827,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "group": 1
    },
    {
@@ -45934,6 +46948,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 16,
     "group": 1
    },
    {
@@ -46080,6 +47097,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
     "group": 1
    },
    {
@@ -46245,6 +47265,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 24,
     "group": 1
    },
    {
@@ -46437,6 +47460,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 24,
     "group": 1
    },
    {
@@ -46637,6 +47663,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 19,
     "group": 1
    },
    {
@@ -46714,6 +47743,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "group": 2
    },
    {
@@ -46803,6 +47835,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 16,
     "group": 2
    },
    {
@@ -46920,6 +47955,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 16,
     "group": 2
    },
    {
@@ -47049,6 +48087,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 18,
     "group": 2
    },
    {
@@ -47203,6 +48244,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 21,
     "group": 2
    },
    {
@@ -47372,6 +48416,9 @@ const CAMPAIGNS = [
       5
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "group": 2
    },
    {
@@ -47570,6 +48617,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 27,
     "group": 2
    },
    {
@@ -47776,6 +48826,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 33,
     "group": 2
    },
    {
@@ -48004,6 +49057,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 31,
     "group": 2
    },
    {
@@ -48081,6 +49137,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 13,
     "group": 3
    },
    {
@@ -48183,6 +49242,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
     "group": 3
    },
    {
@@ -48304,6 +49366,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "group": 3
    },
    {
@@ -48432,6 +49497,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 29,
     "group": 3
    },
    {
@@ -48579,6 +49647,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 25,
     "group": 3
    },
    {
@@ -48748,6 +49819,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 34,
     "group": 3
    },
    {
@@ -48941,6 +50015,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 28,
     "group": 3
    },
    {
@@ -49137,6 +50214,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 37,
     "group": 3
    },
    {
@@ -49371,6 +50451,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 35,
     "group": 3
    },
    {
@@ -49439,6 +50522,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -49507,6 +50593,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 7,
     "extra": true
    },
    {
@@ -49577,6 +50666,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -49652,6 +50744,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -49724,6 +50819,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -49789,6 +50887,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -49861,6 +50962,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "extra": true
    },
    {
@@ -49933,6 +51037,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -50005,6 +51112,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -50075,6 +51185,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -50144,6 +51257,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -50214,6 +51330,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -50291,6 +51410,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -50361,6 +51483,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -50425,6 +51550,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -50494,6 +51622,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -50565,6 +51696,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -50634,6 +51768,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -50711,6 +51848,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -50786,6 +51926,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "extra": true
    },
    {
@@ -50861,6 +52004,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -50932,6 +52078,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -51017,6 +52166,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -51105,6 +52257,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -51194,6 +52349,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -51296,6 +52454,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -51393,6 +52554,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -51485,6 +52649,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -51577,6 +52744,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -51668,6 +52838,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -51761,6 +52934,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -51845,6 +53021,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -51925,6 +53104,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -52013,6 +53195,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -52110,6 +53295,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -52191,6 +53379,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -52287,6 +53478,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -52379,6 +53573,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -52475,6 +53672,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -52561,6 +53761,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -52656,6 +53859,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -52761,6 +53967,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -52888,6 +54097,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -52993,6 +54205,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -53105,6 +54320,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -53222,6 +54440,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -53334,6 +54555,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -53446,6 +54670,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -53565,6 +54792,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -53676,6 +54906,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -53802,6 +55035,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -53924,6 +55160,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -54031,6 +55270,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -54156,6 +55398,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -54272,6 +55517,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -54384,6 +55632,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -54499,6 +55750,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -54620,6 +55874,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 9,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -54740,6 +55997,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -54855,6 +56115,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 9,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -54993,6 +56256,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -55116,6 +56382,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -55235,6 +56504,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 17,
     "extra": true
    },
    {
@@ -55367,6 +56639,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -55479,6 +56754,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -55596,6 +56874,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 6,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -55725,6 +57006,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -55844,6 +57128,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -55966,6 +57253,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -56090,6 +57380,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -56214,6 +57507,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -56344,6 +57640,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 22,
     "extra": true
    },
    {
@@ -56471,6 +57770,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 30,
     "extra": true
    },
    {
@@ -56598,6 +57900,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 25,
     "extra": true
    },
    {
@@ -56733,6 +58038,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -56852,6 +58160,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -56986,6 +58297,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 34,
     "extra": true
    },
    {
@@ -57140,6 +58454,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 11,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -57281,6 +58598,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 16,
     "extra": true
    },
    {
@@ -57432,6 +58752,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 6,
+    "hardest": 6,
+    "steps": 20,
     "extra": true
    },
    {
@@ -57580,6 +58903,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -57718,6 +59044,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -57868,6 +59197,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -58009,6 +59341,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -58150,6 +59485,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 5,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -58283,6 +59621,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -58428,6 +59769,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -58577,6 +59921,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 25,
     "extra": true
    },
    {
@@ -58724,6 +60071,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -58863,6 +60213,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -59004,6 +60357,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -59153,6 +60509,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 35,
     "extra": true
    },
    {
@@ -59326,6 +60685,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -59496,6 +60858,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 17,
     "extra": true
    },
    {
@@ -59672,6 +61037,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -59839,6 +61207,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -60010,6 +61381,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -60180,6 +61554,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -60348,6 +61725,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 28,
     "extra": true
    },
    {
@@ -60521,6 +61901,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -60691,6 +62074,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 21,
     "extra": true
    },
    {
@@ -60865,6 +62251,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -61025,6 +62414,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 29,
     "extra": true
    },
    {
@@ -61211,6 +62603,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 35,
     "extra": true
    },
    {
@@ -61412,6 +62807,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -61604,6 +63002,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -61790,6 +63191,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 5,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -61990,6 +63394,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -62183,6 +63590,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 33,
     "extra": true
    },
    {
@@ -62370,6 +63780,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 37,
     "extra": true
    },
    {
@@ -62562,6 +63975,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 4,
+    "steps": 48,
     "extra": true
    },
    {
@@ -62761,6 +64177,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 9,
+    "hardest": 8,
+    "steps": 47,
     "extra": true
    },
    {
@@ -62963,6 +64382,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 10,
+    "hardest": 8,
+    "steps": 55,
     "extra": true
    },
    {
@@ -63173,6 +64595,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 7,
+    "steps": 31,
     "extra": true
    },
    {
@@ -63393,6 +64818,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 31,
     "extra": true
    },
    {
@@ -63606,6 +65034,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -63812,6 +65243,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 9,
+    "steps": 49,
     "extra": true
    },
    {
@@ -64025,6 +65459,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 8,
+    "steps": 48,
     "extra": true
    },
    {
@@ -64227,6 +65664,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 50,
     "extra": true
    },
    {
@@ -64453,6 +65893,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 11,
+    "hardest": 10,
+    "steps": 35,
     "extra": true
    },
    {
@@ -64676,6 +66119,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 35,
     "extra": true
    },
    {
@@ -64907,6 +66353,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 11,
+    "hardest": 8,
+    "steps": 34,
     "extra": true
    },
    {
@@ -65151,6 +66600,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 28,
     "extra": true
    },
    {
@@ -65388,6 +66840,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 35,
     "extra": true
    },
    {
@@ -65611,6 +67066,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 8,
+    "hard": 10,
+    "hardest": 10,
+    "steps": 35,
     "extra": true
    },
    {
@@ -65854,6 +67312,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 9,
+    "steps": 52,
     "extra": true
    }
   ]
@@ -65931,6 +67392,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "group": 0
    },
    {
@@ -66018,6 +67482,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "group": 0
    },
    {
@@ -66127,6 +67594,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "group": 0
    },
    {
@@ -66255,6 +67725,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 17,
     "group": 0
    },
    {
@@ -66394,6 +67867,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "group": 0
    },
    {
@@ -66568,6 +68044,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "group": 0
    },
    {
@@ -66631,6 +68110,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "group": 1
    },
    {
@@ -66732,6 +68214,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "group": 1
    },
    {
@@ -66847,6 +68332,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "group": 1
    },
    {
@@ -66970,6 +68458,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 18,
     "group": 1
    },
    {
@@ -67111,6 +68602,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "group": 1
    },
    {
@@ -67290,6 +68784,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 23,
     "group": 1
    },
    {
@@ -67480,6 +68977,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 29,
     "group": 1
    },
    {
@@ -67549,6 +69049,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "group": 2
    },
    {
@@ -67641,6 +69144,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 20,
     "group": 2
    },
    {
@@ -67767,6 +69273,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "group": 2
    },
    {
@@ -67893,6 +69402,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 25,
     "group": 2
    },
    {
@@ -68039,6 +69551,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 24,
     "group": 2
    },
    {
@@ -68208,6 +69723,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 28,
     "group": 2
    },
    {
@@ -68393,6 +69911,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "group": 2
    },
    {
@@ -68602,6 +70123,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 31,
     "group": 2
    },
    {
@@ -68827,6 +70351,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 28,
     "group": 2
    },
    {
@@ -68899,6 +70426,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "group": 3
    },
    {
@@ -68990,6 +70520,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "group": 3
    },
    {
@@ -69098,6 +70631,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 7,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 22,
     "group": 3
    },
    {
@@ -69218,6 +70754,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "group": 3
    },
    {
@@ -69366,6 +70905,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 24,
     "group": 3
    },
    {
@@ -69541,6 +71083,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 27,
     "group": 3
    },
    {
@@ -69735,6 +71280,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 3,
+    "steps": 32,
     "group": 3
    },
    {
@@ -69949,6 +71497,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 30,
     "group": 3
    },
    {
@@ -70185,6 +71736,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 37,
     "group": 3
    },
    {
@@ -70253,6 +71807,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -70318,6 +71875,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -70389,6 +71949,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -70465,6 +72028,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -70534,6 +72100,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -70598,6 +72167,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -70667,6 +72239,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -70744,6 +72319,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -70808,6 +72386,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -70880,6 +72461,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -70953,6 +72537,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -71029,6 +72616,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -71099,6 +72689,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -71168,6 +72761,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -71234,6 +72830,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -71298,6 +72897,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -71371,6 +72973,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -71436,6 +73041,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -71508,6 +73116,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -71578,6 +73189,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -71655,6 +73269,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -71731,6 +73348,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -71823,6 +73443,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -71918,6 +73541,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -72009,6 +73635,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -72098,6 +73727,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -72193,6 +73825,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -72290,6 +73925,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -72382,6 +74020,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -72466,6 +74107,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -72557,6 +74201,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -72643,6 +74290,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -72729,6 +74379,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -72830,6 +74483,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 14,
     "extra": true
    },
    {
@@ -72930,6 +74586,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -73019,6 +74678,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -73112,6 +74774,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -73197,6 +74862,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -73289,6 +74957,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -73380,6 +75051,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -73473,6 +75147,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -73564,6 +75241,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -73675,6 +75355,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -73787,6 +75470,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -73894,6 +75580,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -74006,6 +75695,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -74115,6 +75807,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -74230,6 +75925,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -74341,6 +76039,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -74459,6 +76160,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -74572,6 +76276,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -74673,6 +76380,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -74789,6 +76499,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -74914,6 +76627,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -75035,6 +76751,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -75159,6 +76878,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 22,
     "extra": true
    },
    {
@@ -75284,6 +77006,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -75401,6 +77126,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -75515,6 +77243,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -75632,6 +77363,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -75759,6 +77493,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -75882,6 +77619,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -75995,6 +77735,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 16,
     "extra": true
    },
    {
@@ -76117,6 +77860,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -76233,6 +77979,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -76357,6 +78106,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -76490,6 +78242,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -76610,6 +78365,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -76730,6 +78488,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -76854,6 +78615,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 3,
+    "steps": 23,
     "extra": true
    },
    {
@@ -76978,6 +78742,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -77107,6 +78874,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -77234,6 +79004,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -77365,6 +79138,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 27,
     "extra": true
    },
    {
@@ -77484,6 +79260,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -77608,6 +79387,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 32,
     "extra": true
    },
    {
@@ -77750,6 +79532,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -77904,6 +79689,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -78053,6 +79841,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 22,
     "extra": true
    },
    {
@@ -78207,6 +79998,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -78349,6 +80143,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -78503,6 +80300,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -78659,6 +80459,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 32,
     "extra": true
    },
    {
@@ -78801,6 +80604,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 7,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 28,
     "extra": true
    },
    {
@@ -78933,6 +80739,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 7,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -79091,6 +80900,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 11,
+    "hard": 8,
+    "hardest": 6,
+    "steps": 30,
     "extra": true
    },
    {
@@ -79229,6 +81041,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 30,
     "extra": true
    },
    {
@@ -79376,6 +81191,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 3,
+    "hardest": 7,
+    "steps": 30,
     "extra": true
    },
    {
@@ -79520,6 +81338,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 31,
     "extra": true
    },
    {
@@ -79673,6 +81494,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -79828,6 +81652,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 33,
     "extra": true
    },
    {
@@ -79967,6 +81794,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 35,
     "extra": true
    },
    {
@@ -80141,6 +81971,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 22,
     "extra": true
    },
    {
@@ -80329,6 +82162,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -80493,6 +82329,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 5,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -80665,6 +82504,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 7,
+    "steps": 27,
     "extra": true
    },
    {
@@ -80839,6 +82681,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 10,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -81014,6 +82859,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -81188,6 +83036,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 7,
+    "steps": 21,
     "extra": true
    },
    {
@@ -81358,6 +83209,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -81527,6 +83381,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 11,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -81694,6 +83551,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 32,
     "extra": true
    },
    {
@@ -81859,6 +83719,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 9,
+    "hard": 4,
+    "hardest": 7,
+    "steps": 30,
     "extra": true
    },
    {
@@ -82039,6 +83902,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 36,
     "extra": true
    },
    {
@@ -82221,6 +84087,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 44,
     "extra": true
    },
    {
@@ -82419,6 +84288,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 7,
+    "steps": 22,
     "extra": true
    },
    {
@@ -82623,6 +84495,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -82818,6 +84693,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 32,
     "extra": true
    },
    {
@@ -83011,6 +84889,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 32,
     "extra": true
    },
    {
@@ -83201,6 +85082,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -83395,6 +85279,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 12,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -83594,6 +85481,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -83798,6 +85688,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 32,
     "extra": true
    },
    {
@@ -84000,6 +85893,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 32,
     "extra": true
    },
    {
@@ -84197,6 +86093,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 44,
     "extra": true
    },
    {
@@ -84406,6 +86305,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 58,
     "extra": true
    },
    {
@@ -84610,6 +86512,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 30,
     "extra": true
    },
    {
@@ -84822,6 +86727,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 8,
+    "steps": 26,
     "extra": true
    },
    {
@@ -85027,6 +86935,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 11,
+    "hardest": 7,
+    "steps": 36,
     "extra": true
    },
    {
@@ -85237,6 +87148,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 9,
+    "hardest": 10,
+    "steps": 27,
     "extra": true
    },
    {
@@ -85451,6 +87365,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 8,
+    "steps": 29,
     "extra": true
    },
    {
@@ -85665,6 +87582,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 10,
+    "steps": 34,
     "extra": true
    },
    {
@@ -85893,6 +87813,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 38,
     "extra": true
    },
    {
@@ -86098,6 +88021,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 36,
     "extra": true
    },
    {
@@ -86348,6 +88274,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 26,
     "extra": true
    },
    {
@@ -86582,6 +88511,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 34,
     "extra": true
    },
    {
@@ -86812,6 +88744,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 9,
+    "steps": 29,
     "extra": true
    },
    {
@@ -87046,6 +88981,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 9,
+    "steps": 38,
     "extra": true
    },
    {
@@ -87279,6 +89217,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 9,
+    "steps": 42,
     "extra": true
    },
    {
@@ -87506,6 +89447,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 12,
+    "hardest": 10,
+    "steps": 51,
     "extra": true
    },
    {
@@ -87741,6 +89685,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 40,
     "extra": true
    }
   ]
@@ -87812,6 +89759,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 7,
     "group": 0
    },
    {
@@ -87905,6 +89855,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "group": 0
    },
    {
@@ -88015,6 +89968,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "group": 0
    },
    {
@@ -88144,6 +90100,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 19,
     "group": 0
    },
    {
@@ -88295,6 +90254,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "group": 0
    },
    {
@@ -88463,6 +90425,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
     "group": 0
    },
    {
@@ -88646,6 +90611,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "group": 0
    },
    {
@@ -88711,6 +90679,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "group": 1
    },
    {
@@ -88808,6 +90779,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "group": 1
    },
    {
@@ -88926,6 +90900,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 21,
     "group": 1
    },
    {
@@ -89056,6 +91033,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "group": 1
    },
    {
@@ -89197,6 +91177,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 25,
     "group": 1
    },
    {
@@ -89367,6 +91350,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 25,
     "group": 1
    },
    {
@@ -89565,6 +91551,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 24,
     "group": 1
    },
    {
@@ -89769,6 +91758,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "group": 1
    },
    {
@@ -89846,6 +91838,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 16,
     "group": 2
    },
    {
@@ -89937,6 +91932,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "group": 2
    },
    {
@@ -90053,6 +92051,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 21,
     "group": 2
    },
    {
@@ -90172,6 +92173,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 3,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 19,
     "group": 2
    },
    {
@@ -90320,6 +92324,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 22,
     "group": 2
    },
    {
@@ -90496,6 +92503,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 29,
     "group": 2
    },
    {
@@ -90693,6 +92703,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 28,
     "group": 2
    },
    {
@@ -90915,6 +92928,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 34,
     "group": 2
    },
    {
@@ -91142,6 +93158,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 41,
     "group": 2
    },
    {
@@ -91218,6 +93237,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "group": 3
    },
    {
@@ -91319,6 +93341,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "group": 3
    },
    {
@@ -91436,6 +93461,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 22,
     "group": 3
    },
    {
@@ -91564,6 +93592,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 23,
     "group": 3
    },
    {
@@ -91703,6 +93734,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 9,
+    "hard": 5,
+    "hardest": 3,
+    "steps": 33,
     "group": 3
    },
    {
@@ -91870,6 +93904,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 27,
     "group": 3
    },
    {
@@ -92068,6 +94105,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 31,
     "group": 3
    },
    {
@@ -92266,6 +94306,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 10,
+    "hard": 9,
+    "hardest": 7,
+    "steps": 39,
     "group": 3
    },
    {
@@ -92498,6 +94541,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 26,
     "group": 3
    },
    {
@@ -92563,6 +94609,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -92633,6 +94682,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -92694,6 +94746,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "extra": true
    },
    {
@@ -92770,6 +94825,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -92843,6 +94901,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -92911,6 +94972,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -92981,6 +95045,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 6,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -93052,6 +95119,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "extra": true
    },
    {
@@ -93124,6 +95194,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -93195,6 +95268,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -93265,6 +95341,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -93340,6 +95419,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -93404,6 +95486,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "extra": true
    },
    {
@@ -93473,6 +95558,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -93544,6 +95632,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 12,
     "extra": true
    },
    {
@@ -93615,6 +95706,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -93691,6 +95785,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -93765,6 +95862,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -93842,6 +95942,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -93912,6 +96015,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -93988,6 +96094,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -94079,6 +96188,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -94166,6 +96278,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -94246,6 +96361,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -94342,6 +96460,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -94439,6 +96560,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 15,
     "extra": true
    },
    {
@@ -94529,6 +96653,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -94622,6 +96749,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -94712,6 +96842,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -94803,6 +96936,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -94890,6 +97026,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -94978,6 +97117,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -95070,6 +97212,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -95170,6 +97315,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -95267,6 +97415,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -95364,6 +97515,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 6,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -95452,6 +97606,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -95554,6 +97711,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -95651,6 +97811,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -95746,6 +97909,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -95834,6 +98000,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -95946,6 +98115,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -96057,6 +98229,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -96175,6 +98350,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 16,
     "extra": true
    },
    {
@@ -96290,6 +98468,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -96395,6 +98576,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -96509,6 +98693,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -96620,6 +98807,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -96727,6 +98917,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -96844,6 +99037,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -96965,6 +99161,9 @@ const CAMPAIGNS = [
       5
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -97084,6 +99283,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -97199,6 +99401,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -97311,6 +99516,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 14,
     "extra": true
    },
    {
@@ -97417,6 +99625,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -97533,6 +99744,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -97649,6 +99863,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -97762,6 +99979,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -97873,6 +100093,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -97988,6 +100211,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 32,
     "extra": true
    },
    {
@@ -98111,6 +100337,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -98245,6 +100474,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -98365,6 +100597,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -98493,6 +100728,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -98611,6 +100849,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -98750,6 +100991,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -98883,6 +101127,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -98999,6 +101246,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 5,
+    "hardest": 6,
+    "steps": 20,
     "extra": true
    },
    {
@@ -99116,6 +101366,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -99241,6 +101494,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -99364,6 +101620,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -99493,6 +101752,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -99618,6 +101880,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -99745,6 +102010,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -99865,6 +102133,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -100019,6 +102290,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 12,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -100160,6 +102434,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 3,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -100310,6 +102587,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -100462,6 +102742,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 17,
     "extra": true
    },
    {
@@ -100602,6 +102885,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -100752,6 +103038,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -100900,6 +103189,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -101052,6 +103344,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 22,
     "extra": true
    },
    {
@@ -101196,6 +103491,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 20,
     "extra": true
    },
    {
@@ -101340,6 +103638,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -101487,6 +103788,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -101632,6 +103936,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 3,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -101781,6 +104088,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 29,
     "extra": true
    },
    {
@@ -101929,6 +104239,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 28,
     "extra": true
    },
    {
@@ -102067,6 +104380,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 11,
+    "hardest": 5,
+    "steps": 44,
     "extra": true
    },
    {
@@ -102236,6 +104552,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -102410,6 +104729,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -102569,6 +104891,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -102747,6 +105072,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -102923,6 +105251,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -103100,6 +105431,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 10,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -103265,6 +105599,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 26,
     "extra": true
    },
    {
@@ -103430,6 +105767,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -103603,6 +105943,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 31,
     "extra": true
    },
    {
@@ -103793,6 +106136,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 10,
+    "hardest": 6,
+    "steps": 32,
     "extra": true
    },
    {
@@ -103959,6 +106305,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 36,
     "extra": true
    },
    {
@@ -104136,6 +106485,9 @@ const CAMPAIGNS = [
       5
      ]
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 45,
     "extra": true
    },
    {
@@ -104327,6 +106679,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 0,
+    "hard": 9,
+    "hardest": 8,
+    "steps": 28,
     "extra": true
    },
    {
@@ -104510,6 +106865,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 1,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -104717,6 +107075,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 10,
+    "hardest": 8,
+    "steps": 28,
     "extra": true
    },
    {
@@ -104902,6 +107263,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 30,
     "extra": true
    },
    {
@@ -105111,6 +107475,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 9,
+    "hardest": 8,
+    "steps": 31,
     "extra": true
    },
    {
@@ -105313,6 +107680,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -105498,6 +107868,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 4,
+    "hard": 8,
+    "hardest": 7,
+    "steps": 33,
     "extra": true
    },
    {
@@ -105677,6 +108050,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 6,
+    "hard": 7,
+    "hardest": 9,
+    "steps": 30,
     "extra": true
    },
    {
@@ -105866,6 +108242,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 4,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -106074,6 +108453,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -106261,6 +108643,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 8,
+    "steps": 28,
     "extra": true
    },
    {
@@ -106458,6 +108843,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 36,
     "extra": true
    },
    {
@@ -106652,6 +109040,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 2,
+    "hard": 6,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -106867,6 +109258,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 10,
+    "hardest": 8,
+    "steps": 35,
     "extra": true
    },
    {
@@ -107066,6 +109460,9 @@ const CAMPAIGNS = [
      ]
     ],
     "tries": 5,
+    "hard": 5,
+    "hardest": 8,
+    "steps": 32,
     "extra": true
    },
    {
@@ -107284,6 +109681,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 10,
+    "hardest": 9,
+    "steps": 35,
     "extra": true
    },
    {
@@ -107498,6 +109898,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 7,
+    "hardest": 8,
+    "steps": 33,
     "extra": true
    },
    {
@@ -107700,6 +110103,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 9,
+    "hardest": 8,
+    "steps": 33,
     "extra": true
    },
    {
@@ -107915,6 +110321,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 37,
     "extra": true
    },
    {
@@ -108122,6 +110531,9 @@ const CAMPAIGNS = [
       2
      ]
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 55,
     "extra": true
    },
    {
@@ -108349,6 +110761,9 @@ const CAMPAIGNS = [
       4
      ]
     ],
+    "hard": 4,
+    "hardest": 8,
+    "steps": 27,
     "extra": true
    },
    {
@@ -108576,6 +110991,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 9,
+    "hardest": 9,
+    "steps": 36,
     "extra": true
    },
    {
@@ -108811,6 +111229,9 @@ const CAMPAIGNS = [
       0
      ]
     ],
+    "hard": 3,
+    "hardest": 8,
+    "steps": 29,
     "extra": true
    },
    {
@@ -109038,6 +111459,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 12,
+    "hardest": 9,
+    "steps": 44,
     "extra": true
    },
    {
@@ -109280,6 +111704,9 @@ const CAMPAIGNS = [
       3
      ]
     ],
+    "hard": 5,
+    "hardest": 9,
+    "steps": 45,
     "extra": true
    },
    {
@@ -109499,6 +111926,9 @@ const CAMPAIGNS = [
       1
      ]
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 37,
     "extra": true
    }
   ]
@@ -109575,6 +112005,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ccnc",
     "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "group": 0
    },
    {
@@ -109662,6 +112095,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kccnn",
     "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "group": 0
    },
    {
@@ -109776,6 +112212,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "cknccc",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "group": 0
    },
    {
@@ -109901,6 +112340,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "kckknkc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "group": 0
    },
    {
@@ -110053,6 +112495,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kcnnnckc",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 19,
     "group": 0
    },
    {
@@ -110231,6 +112676,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "cncccnckc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 23,
     "group": 0
    },
    {
@@ -110413,6 +112861,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "ccknccknkn",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 26,
     "group": 0
    },
    {
@@ -110491,6 +112942,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cckk",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "group": 1
    },
    {
@@ -110595,6 +113049,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ckkcc",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
     "group": 1
    },
    {
@@ -110717,6 +113174,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ckcncc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "group": 1
    },
    {
@@ -110848,6 +113308,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "knccckk",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "group": 1
    },
    {
@@ -110996,6 +113459,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "kcknkckc",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 20,
     "group": 1
    },
    {
@@ -111171,6 +113637,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "knkkkkncc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 27,
     "group": 1
    },
    {
@@ -111366,6 +113835,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "ccccckcnkn",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 25,
     "group": 1
    },
    {
@@ -111579,6 +114051,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "cnkckkckknc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 25,
     "group": 1
    },
    {
@@ -111817,6 +114292,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "nnckkckckckk",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 33,
     "group": 1
    },
    {
@@ -111901,6 +114379,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nkck",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 13,
     "group": 2
    },
    {
@@ -112012,6 +114493,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "cckkk",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "group": 2
    },
    {
@@ -112137,6 +114621,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ckknkc",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "group": 2
    },
    {
@@ -112261,6 +114748,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cknkkck",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 22,
     "group": 2
    },
    {
@@ -112406,6 +114896,9 @@ const CAMPAIGNS = [
     ],
     "rank": "knknckcc",
     "tries": 5,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 24,
     "group": 2
    },
    {
@@ -112567,6 +115060,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kcnckkckk",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 23,
     "group": 2
    },
    {
@@ -112763,6 +115259,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "kkkcccnkkn",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 28,
     "group": 2
    },
    {
@@ -112968,6 +115467,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kknncckccnk",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 28,
     "group": 2
    },
    {
@@ -113189,6 +115691,9 @@ const CAMPAIGNS = [
      8
     ],
     "rank": "cknnkknccckc",
+    "hard": 6,
+    "hardest": 6,
+    "steps": 31,
     "group": 2
    },
    {
@@ -113291,6 +115796,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ccnck",
+    "hard": 5,
+    "hardest": 3,
+    "steps": 21,
     "group": 3
    },
    {
@@ -113409,6 +115917,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kcnccc",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "group": 3
    },
    {
@@ -113542,6 +116053,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "cnkkkkk",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "group": 3
    },
    {
@@ -113701,6 +116215,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kkckcckk",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 24,
     "group": 3
    },
    {
@@ -113869,6 +116386,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kknckcncc",
+    "hard": 4,
+    "hardest": 7,
+    "steps": 21,
     "group": 3
    },
    {
@@ -114066,6 +116586,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "ckkckcckcn",
+    "hard": 9,
+    "hardest": 6,
+    "steps": 35,
     "group": 3
    },
    {
@@ -114271,6 +116794,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "nckkkccccck",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 31,
     "group": 3
    },
    {
@@ -114500,6 +117026,9 @@ const CAMPAIGNS = [
      8
     ],
     "rank": "ckcckkkknnnc",
+    "hard": 8,
+    "hardest": 6,
+    "steps": 30,
     "group": 3
    },
    {
@@ -114573,6 +117102,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kkck",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -114652,6 +117184,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nkkk",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -114724,6 +117259,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "kncc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -114795,6 +117333,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kncc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -114872,6 +117413,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "cncc",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -114951,6 +117495,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "kkck",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -115018,6 +117565,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cnck",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -115096,6 +117646,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "cncc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -115167,6 +117720,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nkck",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -115237,6 +117793,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ccnk",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -115309,6 +117868,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "kknn",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -115380,6 +117942,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kknk",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -115458,6 +118023,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kkck",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -115534,6 +118102,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "nnkc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -115606,6 +118177,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kknk",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -115691,6 +118265,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cknc",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -115763,6 +118340,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "cckn",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -115842,6 +118422,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cckk",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -115920,6 +118503,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kckk",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -115997,6 +118583,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "cckn",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -116068,6 +118657,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kkkc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -116146,6 +118738,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ccck",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -116241,6 +118836,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "cccnk",
+    "hard": 1,
+    "hardest": 5,
+    "steps": 13,
     "extra": true
    },
    {
@@ -116334,6 +118932,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ccknc",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -116426,6 +119027,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "cckkn",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -116518,6 +119122,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "knkcc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -116611,6 +119218,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "cckkn",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -116714,6 +119324,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "ncckc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -116820,6 +119433,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cnkcc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -116912,6 +119528,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nkccc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -117014,6 +119633,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "ckckc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -117105,6 +119727,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "knnkc",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -117212,6 +119837,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ccckn",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -117306,6 +119934,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "knkcc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -117405,6 +120036,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cnkkc",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -117497,6 +120131,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kkkcc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -117596,6 +120233,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "nkccc",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -117693,6 +120333,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "ccckk",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 15,
     "extra": true
    },
    {
@@ -117783,6 +120426,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "nkkkk",
+    "hard": 1,
+    "hardest": 5,
+    "steps": 14,
     "extra": true
    },
    {
@@ -117876,6 +120522,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ccckk",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -117982,6 +120631,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "kckkk",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -118090,6 +120742,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "cckcc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -118207,6 +120862,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "kkcnkc",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -118318,6 +120976,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "cckknk",
+    "hard": 2,
+    "hardest": 5,
+    "steps": 12,
     "extra": true
    },
    {
@@ -118434,6 +121095,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "cckkcc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 15,
     "extra": true
    },
    {
@@ -118562,6 +121226,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nnckkk",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -118688,6 +121355,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nknccc",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -118804,6 +121474,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckccnc",
     "tries": 1,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -118928,6 +121601,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cnkkcc",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -119041,6 +121717,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "cccncc",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -119170,6 +121849,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "kcckcn",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -119282,6 +121964,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ckcnkc",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -119405,6 +122090,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "knkccc",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -119518,6 +122206,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nckckk",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -119643,6 +122334,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ccckkc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 16,
     "extra": true
    },
    {
@@ -119761,6 +122455,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cncccc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -119884,6 +122581,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "ckkckk",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -120007,6 +122707,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "cnkcck",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -120131,6 +122834,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kncccc",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -120249,6 +122955,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "ckcccc",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -120374,6 +123083,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cnccckc",
     "tries": 0,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -120513,6 +123225,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "kkkknkk",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -120624,6 +123339,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ckkkncc",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -120741,6 +123459,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kkccccc",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -120865,6 +123586,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "knncccc",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -120998,6 +123722,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "ccckkck",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -121134,6 +123861,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nknkcck",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -121269,6 +123999,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "cncckcc",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -121400,6 +124133,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kkkkccc",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -121536,6 +124272,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "cknkccc",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -121663,6 +124402,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nccnkck",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -121794,6 +124536,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "ckckcck",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -121922,6 +124667,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kknckcc",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -122053,6 +124801,9 @@ const CAMPAIGNS = [
      0
     ],
     "rank": "kckccck",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -122176,6 +124927,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nnckkcc",
+    "hard": 7,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -122308,6 +125062,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "cckcckc",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -122469,6 +125226,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "cckkknck",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -122614,6 +125374,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "kkknnccc",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -122753,6 +125516,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "ckckkknk",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -122893,6 +125659,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "nnkkcckc",
+    "hard": 8,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -123032,6 +125801,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "nnkcknkk",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -123180,6 +125952,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "cckccckk",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -123326,6 +126101,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "nncckkkc",
+    "hard": 6,
+    "hardest": 7,
+    "steps": 22,
     "extra": true
    },
    {
@@ -123479,6 +126257,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kcnnccck",
+    "hard": 7,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -123635,6 +126416,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ccknckkc",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 28,
     "extra": true
    },
    {
@@ -123783,6 +126567,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "ccnknckk",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 27,
     "extra": true
    },
    {
@@ -123933,6 +126720,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nnnckckc",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 30,
     "extra": true
    },
    {
@@ -124092,6 +126882,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "cckkcknk",
+    "hard": 6,
+    "hardest": 3,
+    "steps": 32,
     "extra": true
    },
    {
@@ -124243,6 +127036,9 @@ const CAMPAIGNS = [
      1
     ],
     "rank": "nnkckkcc",
+    "hard": 11,
+    "hardest": 6,
+    "steps": 37,
     "extra": true
    },
    {
@@ -124399,6 +127195,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "cckkkcck",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 39,
     "extra": true
    },
    {
@@ -124577,6 +127376,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "ckkckkknk",
+    "hard": 9,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -124740,6 +127542,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kccccckkk",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -124901,6 +127706,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "ccckcnckn",
+    "hard": 4,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -125073,6 +127881,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kcccknknn",
+    "hard": 10,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -125250,6 +128061,9 @@ const CAMPAIGNS = [
      2
     ],
     "rank": "kkckkccck",
+    "hard": 4,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -125422,6 +128236,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "cccnkcnnk",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 24,
     "extra": true
    },
    {
@@ -125598,6 +128415,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kkckckcck",
     "tries": 5,
+    "hard": 8,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -125780,6 +128600,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kccnkckkc",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 30,
     "extra": true
    },
    {
@@ -125951,6 +128774,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "cknnnckkc",
+    "hard": 8,
+    "hardest": 7,
+    "steps": 30,
     "extra": true
    },
    {
@@ -126133,6 +128959,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "ccnknkccc",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -126322,6 +129151,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kkkkckckc",
+    "hard": 7,
+    "hardest": 4,
+    "steps": 37,
     "extra": true
    },
    {
@@ -126473,6 +129305,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kkncnccnn",
+    "hard": 9,
+    "hardest": 4,
+    "steps": 38,
     "extra": true
    },
    {
@@ -126650,6 +129485,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kckkcnncn",
+    "hard": 3,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -126835,6 +129673,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kcncnccckn",
+    "hard": 6,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -127022,6 +129863,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kcncnccckn",
     "tries": 0,
+    "hard": 4,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -127226,6 +130070,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "cnkccckkck",
+    "hard": 8,
+    "hardest": 7,
+    "steps": 28,
     "extra": true
    },
    {
@@ -127415,6 +130262,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "kckkckknkc",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 30,
     "extra": true
    },
    {
@@ -127611,6 +130461,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "knckccckkn",
+    "hard": 7,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -127818,6 +130671,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "cnkckckkkk",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -128013,6 +130869,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "kncncckccc",
+    "hard": 4,
+    "hardest": 8,
+    "steps": 31,
     "extra": true
    },
    {
@@ -128209,6 +131068,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "kkncckkckc",
+    "hard": 4,
+    "hardest": 7,
+    "steps": 28,
     "extra": true
    },
    {
@@ -128415,6 +131277,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "kckcncckck",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 38,
     "extra": true
    },
    {
@@ -128613,6 +131478,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "cckcknccck",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 39,
     "extra": true
    },
    {
@@ -128818,6 +131686,9 @@ const CAMPAIGNS = [
      4
     ],
     "rank": "kkkcckcnkk",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 39,
     "extra": true
    },
    {
@@ -129028,6 +131899,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kknncckccnk",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -129238,6 +132112,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "kcccknkkknn",
+    "hard": 6,
+    "hardest": 9,
+    "steps": 39,
     "extra": true
    },
    {
@@ -129445,6 +132322,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "ckcckcnkckk",
+    "hard": 7,
+    "hardest": 8,
+    "steps": 25,
     "extra": true
    },
    {
@@ -129655,6 +132535,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kcknnckkccc",
+    "hard": 11,
+    "hardest": 8,
+    "steps": 30,
     "extra": true
    },
    {
@@ -129861,6 +132744,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "ckccckkcnnk",
+    "hard": 11,
+    "hardest": 7,
+    "steps": 38,
     "extra": true
    },
    {
@@ -130074,6 +132960,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "cckcnnknkkc",
+    "hard": 7,
+    "hardest": 7,
+    "steps": 33,
     "extra": true
    },
    {
@@ -130286,6 +133175,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ncnckcckccc",
     "tries": 11,
+    "hard": 6,
+    "hardest": 8,
+    "steps": 36,
     "extra": true
    },
    {
@@ -130493,6 +133385,9 @@ const CAMPAIGNS = [
      6
     ],
     "rank": "nnccckckckn",
+    "hard": 6,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -130696,6 +133591,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "kkccnncknck",
+    "hard": 8,
+    "hardest": 8,
+    "steps": 45,
     "extra": true
    },
    {
@@ -130921,6 +133819,9 @@ const CAMPAIGNS = [
      7
     ],
     "rank": "cnnnnccknnnk",
+    "hard": 14,
+    "hardest": 9,
+    "steps": 34,
     "extra": true
    },
    {
@@ -131154,6 +134055,9 @@ const CAMPAIGNS = [
     ],
     "rank": "nkkkckknknkn",
     "tries": 5,
+    "hard": 10,
+    "hardest": 9,
+    "steps": 39,
     "extra": true
    },
    {
@@ -131382,6 +134286,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "nnnnnkcnkckc",
+    "hard": 10,
+    "hardest": 10,
+    "steps": 35,
     "extra": true
    },
    {
@@ -131606,6 +134513,9 @@ const CAMPAIGNS = [
      3
     ],
     "rank": "nncnkkkckckk",
+    "hard": 9,
+    "hardest": 9,
+    "steps": 37,
     "extra": true
    },
    {
@@ -131840,6 +134750,9 @@ const CAMPAIGNS = [
      5
     ],
     "rank": "nknccnkkckck",
+    "hard": 12,
+    "hardest": 9,
+    "steps": 50,
     "extra": true
    },
    {
@@ -132075,6 +134988,9 @@ const CAMPAIGNS = [
      8
     ],
     "rank": "kkknncknnnkk",
+    "hard": 7,
+    "hardest": 8,
+    "steps": 39,
     "extra": true
    }
   ]
@@ -132149,6 +135065,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....C..L........",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "group": 0
    },
    {
@@ -132246,6 +135165,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".....L.L....C.......C....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "group": 0
    },
    {
@@ -132363,6 +135285,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...........L..C.......C...CL...L....",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 16,
     "group": 0
    },
    {
@@ -132488,6 +135413,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".................L.L...C....CC.....C.............",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "group": 0
    },
    {
@@ -132645,6 +135573,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..CC............C.....C.C..L.C..................................",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 24,
     "group": 0
    },
    {
@@ -132713,6 +135644,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C.........L.....",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "group": 1
    },
    {
@@ -132808,6 +135742,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "......C....L...L.......C.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "group": 1
    },
    {
@@ -132923,6 +135860,9 @@ const CAMPAIGNS = [
     ],
     "tags": "....C..........C.......C..L.L..CC...",
     "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "group": 1
    },
    {
@@ -133050,6 +135990,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L........C......C.CC...................C.........",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "group": 1
    },
    {
@@ -133203,6 +136146,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".L...........L......L............C.C...............L....C.......",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "group": 1
    },
    {
@@ -133376,6 +136322,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..........................L.......CLC..............C..CC..............C....C.....",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 23,
     "group": 1
    },
    {
@@ -133577,6 +136526,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C..L.L....C.C........C..C.......................L...............C..........C.......C...L............",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 32,
     "group": 1
    },
    {
@@ -133785,6 +136737,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...C.................L................................C.....C.........L..................................................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 29,
     "group": 1
    },
    {
@@ -133860,6 +136815,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C..C....LC.C....",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "group": 2
    },
    {
@@ -133960,6 +136918,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......L........C...C....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "group": 2
    },
    {
@@ -134067,6 +137028,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...........L....C...CC..............",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "group": 2
    },
    {
@@ -134190,6 +137154,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C......L....CLC.................................",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 25,
     "group": 2
    },
    {
@@ -134342,6 +137309,9 @@ const CAMPAIGNS = [
     ],
     "tags": ".........C.....L.................C........L............CL.LC..C.",
     "tries": 3,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 19,
     "group": 2
    },
    {
@@ -134524,6 +137494,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C.........................................L..C.......L....................",
+    "hard": 5,
+    "hardest": 3,
+    "steps": 31,
     "group": 2
    },
    {
@@ -134712,6 +137685,9 @@ const CAMPAIGNS = [
     ],
     "tags": "...L.......L..C...C.........L..L..L..........C.L.......L..............C.........C..C.....C..........",
     "tries": 4,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 33,
     "group": 2
    },
    {
@@ -134918,6 +137894,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".........C..L......C.......C..........................C.......L.L.......L...L...C..................................L..L..",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 31,
     "group": 2
    },
    {
@@ -134994,6 +137973,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...........C...L",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 15,
     "group": 3
    },
    {
@@ -135090,6 +138072,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C........L........L......",
+    "hard": 8,
+    "hardest": 4,
+    "steps": 21,
     "group": 3
    },
    {
@@ -135214,6 +138199,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".LL.....L...........C.......L.......",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "group": 3
    },
    {
@@ -135336,6 +138324,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...C........................C............L...L...",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 30,
     "group": 3
    },
    {
@@ -135475,6 +138466,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..CC.....................L................C.L...L..............C",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 30,
     "group": 3
    },
    {
@@ -135662,6 +138656,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "............................C........L....C....C..............L....L.C.......C...",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 31,
     "group": 3
    },
    {
@@ -135846,6 +138843,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L......L.....C...L......................................................C...........L.............L.",
+    "hard": 8,
+    "hardest": 5,
+    "steps": 42,
     "group": 3
    },
    {
@@ -136062,6 +139062,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....................C........C...C...L..C...C...........................CC...............................................",
+    "hard": 5,
+    "hardest": 7,
+    "steps": 30,
     "group": 3
    },
    {
@@ -136138,6 +139141,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....C..L........",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -136214,6 +139220,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...........CL...",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -136300,6 +139309,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L......L..C..C..",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -136369,6 +139381,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C..........L..C.",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -136439,6 +139454,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C............C..",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -136512,6 +139530,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..C.....C...LC..",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -136581,6 +139602,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...........C..C.",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 8,
     "extra": true
    },
    {
@@ -136658,6 +139682,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....C..L.......L",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -136735,6 +139762,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L...C.........",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -136805,6 +139835,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L........C..C.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -136879,6 +139912,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..C......C.CC...",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -136947,6 +139983,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C..L.C......L.L",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -137016,6 +140055,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..C.....C..L..L.",
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -137095,6 +140137,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".L.....C..L..L..",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -137171,6 +140216,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...L..C..L.....L",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -137245,6 +140293,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C...C.....C...L",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -137315,6 +140366,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...C..........L.",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -137384,6 +140438,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C.....C......L.",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -137453,6 +140510,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C......C.LL....",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -137524,6 +140584,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...LL..C..C.....",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -137592,6 +140655,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "......C.L...C.C.",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -137661,6 +140727,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....L..C........",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -137755,6 +140824,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..............CL.......L.",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -137850,6 +140922,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........L.C........L.....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -137945,6 +141020,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C.....L.........L.",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -138034,6 +141112,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........C.L.......CC.....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -138130,6 +141211,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "LL.....C....LC...........",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -138235,6 +141319,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..................L......",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -138320,6 +141407,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C....C.....L.C...C......",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -138407,6 +141497,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".....C..................C",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -138503,6 +141596,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C.................",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -138600,6 +141696,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....L....C..L.......C....",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -138693,6 +141792,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".........L...LL...C......",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -138782,6 +141884,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..........LC....L....C...",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -138878,6 +141983,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..........C......CL...L..",
+    "hard": 2,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -138974,6 +142082,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".L........L.......C.....C",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -139067,6 +142178,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..C...C..................",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -139170,6 +142284,9 @@ const CAMPAIGNS = [
     ],
     "tags": ".C.....L.CC.C.....C.....C",
     "tries": 4,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -139263,6 +142380,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".L.....C.......LC.LLL....",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -139357,6 +142477,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L.......C........C.....C.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -139454,6 +142577,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C.C...L...C.C.....",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -139541,6 +142667,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "................C...C....",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -139653,6 +142782,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "......L..............L...C..........",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -139770,6 +142902,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".............................L..LC..",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -139885,6 +143020,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "............L.........C.............",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -139994,6 +143132,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...C..........C..L....C..L....C....C",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -140109,6 +143250,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C.......L...C...C.....L.LL.....L.L..",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -140213,6 +143357,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L.......................C....C....",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -140318,6 +143465,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L...........L.L..........L.......L..",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -140437,6 +143587,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C............C..............C.......",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -140563,6 +143716,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".....C...L.C..............L.C....C..",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -140686,6 +143842,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...C..C.............................",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -140802,6 +143961,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...............L..................L.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -140923,6 +144085,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..............C....L.........L.L....",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -141038,6 +144203,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L........L....C...L............L....",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -141157,6 +144325,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".............................L.....C",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -141281,6 +144452,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C........................L..C....C..",
+    "hard": 9,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -141400,6 +144574,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........CL......................C...",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -141521,6 +144698,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".....C...C......C...................",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -141649,6 +144829,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C................C......CL...............C.......",
+    "hard": 7,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -141774,6 +144957,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C.............................L...........",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -141889,6 +145075,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "......L.C......................C...........L.....",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -142013,6 +145202,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..........C.....................C....L...........",
     "tries": 2,
+    "hard": 6,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -142129,6 +145321,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C........................L..............C........",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -142255,6 +145450,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........C.C...L.....................L............",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -142372,6 +145570,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".........LC...C...........C....C........CL.......",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -142497,6 +145698,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L......................C...CL..C........L..L...",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -142625,6 +145829,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "C.C............L..C................L.............",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -142753,6 +145960,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".........L...........LC........C................L",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -142884,6 +146094,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C........................L................",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -143021,6 +146234,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "............L.....L..C....C...........C.C.......L",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -143152,6 +146368,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".............C.............................L....C",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -143285,6 +146504,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C..L.........L...........................L......",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -143420,6 +146642,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..C............C.........C.......C...............",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -143542,6 +146767,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........L........................C.......C.....CC",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 28,
     "extra": true
    },
    {
@@ -143688,6 +146916,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "................................L.....................CC......C.",
+    "hard": 9,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -143835,6 +147066,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L......C....C......C..........L...........C..........C..L.....",
+    "hard": 3,
+    "hardest": 6,
+    "steps": 19,
     "extra": true
    },
    {
@@ -143977,6 +147211,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....L.....L...........L.C.......................................",
+    "hard": 3,
+    "hardest": 6,
+    "steps": 19,
     "extra": true
    },
    {
@@ -144133,6 +147370,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "............C.................L..LC.........C..L................",
+    "hard": 10,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -144295,6 +147535,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...C........C.........C......C......L....CL..L.CC...............",
+    "hard": 9,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -144456,6 +147699,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C..L....L......C......C..C............................C........",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 29,
     "extra": true
    },
    {
@@ -144603,6 +147849,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "............L......................L..........C..L.CC.C.........",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -144752,6 +148001,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........C.C.........L......C.L..................................",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -144909,6 +148161,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..................L......C........C.......L........C.L..........",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 28,
     "extra": true
    },
    {
@@ -145053,6 +148308,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......CC....L......C.....L.L........L...........L............C.",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -145213,6 +148471,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....L........C...........C.....C.......L..............L.CL..L..C",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 29,
     "extra": true
    },
    {
@@ -145371,6 +148632,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....C.....C............................C............C........C..",
+    "hard": 5,
+    "hardest": 3,
+    "steps": 28,
     "extra": true
    },
    {
@@ -145519,6 +148783,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L............L...........C............C...L..............L......",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 27,
     "extra": true
    },
    {
@@ -145662,6 +148929,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".............C........C....L......C....................L........",
+    "hard": 2,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -145818,6 +149088,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L....C....L.....LL....L.L.......C....C...................C....",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 34,
     "extra": true
    },
    {
@@ -145987,6 +149260,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...........L............C........L.........................L.............C.......",
+    "hard": 6,
+    "hardest": 6,
+    "steps": 20,
     "extra": true
    },
    {
@@ -146156,6 +149432,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....L..............L......C......L.......L.....L.............................L...",
+    "hard": 10,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -146326,6 +149605,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".........C.......L...C......CC........C........C.....................L...........",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 24,
     "extra": true
    },
    {
@@ -146489,6 +149771,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".................C....L........C.LC....CC........C....C.L........................",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -146670,6 +149955,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..............L..........L..................C.....................L...C.CL.......",
+    "hard": 10,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -146843,6 +150131,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L..C....C..........L.....C.....................................................L.",
+    "hard": 7,
+    "hardest": 8,
+    "steps": 29,
     "extra": true
    },
    {
@@ -147024,6 +150315,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........L.L..........C..........C................C................C.L............",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -147200,6 +150494,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....CC..............L.............................L.........L...C........L.......",
+    "hard": 4,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -147372,6 +150669,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...LL..................................L......C.L.....C........L.C......C.C......",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 27,
     "extra": true
    },
    {
@@ -147524,6 +150824,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "........C..C....CC.........L....................C......L......L..................",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 43,
     "extra": true
    },
    {
@@ -147702,6 +151005,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".........C...C....................C.........C.C.....C.......L.................L..",
+    "hard": 5,
+    "hardest": 7,
+    "steps": 34,
     "extra": true
    },
    {
@@ -147865,6 +151171,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "......................L..........L.........................L...L.....C.C.........",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 34,
     "extra": true
    },
    {
@@ -148058,6 +151367,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "......C..................C...............L....L.C.......................C...........................",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -148252,6 +151564,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..................C...........................C.....C.C....C.......L......C.......L.L.L.........C...",
+    "hard": 9,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -148439,6 +151754,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C..........................L....C......................................L........L..L...............",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -148638,6 +151956,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "............L....................C..............CL...C..........L..L................LL......L.......",
+    "hard": 10,
+    "hardest": 9,
+    "steps": 35,
     "extra": true
    },
    {
@@ -148829,6 +152150,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..C.........C.............C.........C..........................LL............................L.C...C",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -149022,6 +152346,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C...........C.............................L.....C................................L..L.............C",
+    "hard": 8,
+    "hardest": 7,
+    "steps": 37,
     "extra": true
    },
    {
@@ -149222,6 +152549,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...............L..............C..............C............................C....L.CL..........CC.....",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -149418,6 +152748,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".......C.....C.....C..............C.......L.........................L.L..C.........................C",
+    "hard": 6,
+    "hardest": 9,
+    "steps": 41,
     "extra": true
    },
    {
@@ -149611,6 +152944,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..C.....................L.C.............................L.............L..C..............C......C...L",
+    "hard": 3,
+    "hardest": 8,
+    "steps": 35,
     "extra": true
    },
    {
@@ -149819,6 +153155,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".C...L...............................................L..............................................",
+    "hard": 10,
+    "hardest": 7,
+    "steps": 46,
     "extra": true
    },
    {
@@ -150022,6 +153361,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "..L.................L..............................C.......C.....C..L........................C...........................",
+    "hard": 11,
+    "hardest": 9,
+    "steps": 34,
     "extra": true
    },
    {
@@ -150237,6 +153579,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".................C.L.......C...C.........C..............L............C............................C............C.........",
+    "hard": 11,
+    "hardest": 7,
+    "steps": 34,
     "extra": true
    },
    {
@@ -150448,6 +153793,9 @@ const CAMPAIGNS = [
     ],
     "tags": "....LC...................L..................C.................L........................L.....................LC.....C....",
     "tries": 6,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 31,
     "extra": true
    },
    {
@@ -150651,6 +153999,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...L................L.......C..L.....L...........C.L.L......L.L.....................CL....L..............................",
+    "hard": 5,
+    "hardest": 7,
+    "steps": 44,
     "extra": true
    },
    {
@@ -150864,6 +154215,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....C..L................C......C.................................................C.............C.......C.................",
+    "hard": 8,
+    "hardest": 6,
+    "steps": 49,
     "extra": true
    },
    {
@@ -151073,6 +154427,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".................C..C.CL..L...........................................L........C..............C.......C...........L.C....",
+    "hard": 11,
+    "hardest": 8,
+    "steps": 51,
     "extra": true
    },
    {
@@ -151291,6 +154648,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "...............L....C......................C...............C.....L..C.........C.........C.....................L..........",
+    "hard": 10,
+    "hardest": 6,
+    "steps": 54,
     "extra": true
    },
    {
@@ -151515,6 +154875,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L.................L....C...........................C.....................C.......C......................L.....C..........",
+    "hard": 9,
+    "hardest": 7,
+    "steps": 56,
     "extra": true
    },
    {
@@ -151739,6 +155102,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "................C..LL.............................C.....C................C........................C..L............C...............C.............",
+    "hard": 10,
+    "hardest": 8,
+    "steps": 27,
     "extra": true
    },
    {
@@ -151983,6 +155349,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "L......C..L....C.............L...................L........C....L................C.............L.........................L.........L............L",
+    "hard": 6,
+    "hardest": 8,
+    "steps": 30,
     "extra": true
    },
    {
@@ -152211,6 +155580,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".....C........................C............C....LL........L...CL.............................L...C.................C............................",
+    "hard": 11,
+    "hardest": 9,
+    "steps": 43,
     "extra": true
    },
    {
@@ -152452,6 +155824,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".................L.........L........L..............C..........C..................L...................C.....C.......L....L................C.....C",
+    "hard": 6,
+    "hardest": 8,
+    "steps": 43,
     "extra": true
    },
    {
@@ -152685,6 +156060,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": "....................................C...L...C................C....C............L...................................LC...L...C....C....C.........",
+    "hard": 5,
+    "hardest": 7,
+    "steps": 50,
     "extra": true
    },
    {
@@ -152920,6 +156298,9 @@ const CAMPAIGNS = [
      "glyphs"
     ],
     "tags": ".L.L...........................L.LL...........C............................L................C..............C.......C.C............C..C..L..C....",
+    "hard": 5,
+    "hardest": 10,
+    "steps": 65,
     "extra": true
    }
   ]
@@ -153000,6 +156381,9 @@ const CAMPAIGNS = [
     ],
     "trade": "....",
     "tags": "...0.1..........",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "group": 0
    },
    {
@@ -153102,6 +156486,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.10.",
     "tags": "0............1...........",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
     "group": 0
    },
    {
@@ -153221,6 +156608,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2..2.1",
     "tags": "...................2..........33...1",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "group": 0
    },
    {
@@ -153351,6 +156741,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.44...",
     "tags": ".........22.......4........4.....................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "group": 0
    },
    {
@@ -153493,6 +156886,9 @@ const CAMPAIGNS = [
     ],
     "trade": "04.02.20",
     "tags": "........41...............2.01.....2........0.........4........0.",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "group": 0
    },
    {
@@ -153677,6 +157073,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".......02",
     "tags": ".............................4.1..........................0......................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "group": 0
    },
    {
@@ -153750,6 +157149,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..4.",
     "tags": "...........4....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "group": 1
    },
    {
@@ -153846,6 +157248,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.000",
     "tags": "...0.......3.0..........0",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "group": 1
    },
    {
@@ -153956,6 +157361,9 @@ const CAMPAIGNS = [
     ],
     "trade": "0.033.",
     "tags": "...0...3........0.4....3.3..4.......",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 19,
     "group": 1
    },
    {
@@ -154089,6 +157497,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".3.2..1",
     "tags": ".......1...2.......3..2..2.1............1...2....",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "group": 1
    },
    {
@@ -154230,6 +157641,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3..4.1..",
     "tags": "...........33.........441.........3...0.....1.30................",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "group": 1
    },
    {
@@ -154399,6 +157813,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".01111.1.",
     "tags": ".......2....0......1..................4..............1.....0............1.......0",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 24,
     "group": 1
    },
    {
@@ -154599,6 +158016,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4.3..0.44.",
     "tags": ".3............0..3...3..............0.........3................3............4.1..............4...3..",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 23,
     "group": 1
    },
    {
@@ -154824,6 +158244,9 @@ const CAMPAIGNS = [
     ],
     "trade": "30..2..122.4",
     "tags": ".............2...4.4.0...0.................................24................................................2..3.......................4.......",
+    "hard": 3,
+    "hardest": 5,
+    "steps": 29,
     "group": 1
    },
    {
@@ -154905,6 +158328,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1..",
     "tags": "....1...........",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 14,
     "group": 2
    },
    {
@@ -155005,6 +158431,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".2022",
     "tags": "2......2...0.............",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "group": 2
    },
    {
@@ -155127,6 +158556,9 @@ const CAMPAIGNS = [
     "trade": "..40..",
     "tags": ".........1.........0....4...........",
     "tries": 4,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 15,
     "group": 2
    },
    {
@@ -155259,6 +158691,9 @@ const CAMPAIGNS = [
     "trade": "320203.",
     "tags": "............0.0...............0......0...........",
     "tries": 3,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 22,
     "group": 2
    },
    {
@@ -155404,6 +158839,9 @@ const CAMPAIGNS = [
     "trade": "3.0...23",
     "tags": "....0..3............................2................22.32.4....",
     "tries": 4,
+    "hard": 2,
+    "hardest": 5,
+    "steps": 22,
     "group": 2
    },
    {
@@ -155579,6 +159017,9 @@ const CAMPAIGNS = [
     ],
     "trade": "042.2....",
     "tags": "4...0......4........3...2......4.....4....2.2........2.......0........4......2...",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 23,
     "group": 2
    },
    {
@@ -155771,6 +159212,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4.40..03.4",
     "tags": "..0..4.........2..............0...............1...............0.......3.....3..............4........",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 27,
     "group": 2
    },
    {
@@ -155993,6 +159437,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".44..4..021",
     "tags": "...........42..3.....2...3...................................2......4.............................0..2.................1.",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 33,
     "group": 2
    },
    {
@@ -156070,6 +159517,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".31.",
     "tags": ".....3..1.......",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 16,
     "group": 3
    },
    {
@@ -156166,6 +159616,9 @@ const CAMPAIGNS = [
     ],
     "trade": "01...",
     "tags": "...0.1...................",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "group": 3
    },
    {
@@ -156281,6 +159734,9 @@ const CAMPAIGNS = [
     ],
     "trade": "0202.1",
     "tags": "0.........2.1........2....2.........",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 23,
     "group": 3
    },
    {
@@ -156413,6 +159869,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..1124.",
     "tags": ".4.......42......1....1..1...............4..4..2.",
+    "hard": 7,
+    "hardest": 5,
+    "steps": 24,
     "group": 3
    },
    {
@@ -156553,6 +160012,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.1.4.2.",
     "tags": "4....1..............11....................................3.....",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 23,
     "group": 3
    },
    {
@@ -156711,6 +160173,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".2.31.1..",
     "tags": "............2..................1..3............3.2..2.3.......1..................",
+    "hard": 3,
+    "hardest": 7,
+    "steps": 23,
     "group": 3
    },
    {
@@ -156908,6 +160373,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2241.2....",
     "tags": ".4....2.........2.......4.....40......4......1...............0..........0........2.................1",
+    "hard": 9,
+    "hardest": 5,
+    "steps": 36,
     "group": 3
    },
    {
@@ -157122,6 +160590,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".....01.2..",
     "tags": "...........................................................4.0.........1........3..........2.............13....3.........",
+    "hard": 8,
+    "hardest": 4,
+    "steps": 36,
     "group": 3
    },
    {
@@ -157352,6 +160823,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".012..0...4.",
     "tags": ".2...0......13.....4....2...................2..................14.........0...............3.......32..........4....0....1.....1...4...........0.",
+    "hard": 8,
+    "hardest": 7,
+    "steps": 44,
     "group": 3
    },
    {
@@ -157418,6 +160892,9 @@ const CAMPAIGNS = [
     ],
     "trade": "...4",
     "tags": "....2...1.....2.",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -157485,6 +160962,9 @@ const CAMPAIGNS = [
     ],
     "trade": "14.1",
     "tags": "....1...........",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -157554,6 +161034,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.4.",
     "tags": "........4......2",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -157631,6 +161114,9 @@ const CAMPAIGNS = [
     ],
     "trade": "...4",
     "tags": "............4...",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -157701,6 +161187,9 @@ const CAMPAIGNS = [
     ],
     "trade": "24.4",
     "tags": "..2.............",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -157771,6 +161260,9 @@ const CAMPAIGNS = [
     ],
     "trade": "....",
     "tags": ".......2........",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -157844,6 +161336,9 @@ const CAMPAIGNS = [
     ],
     "trade": "...4",
     "tags": ".....0........4.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -157921,6 +161416,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4.40",
     "tags": "....0....4....00",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -157995,6 +161493,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3..0",
     "tags": "...3............",
+    "hard": 2,
+    "hardest": 5,
+    "steps": 11,
     "extra": true
    },
    {
@@ -158071,6 +161572,9 @@ const CAMPAIGNS = [
     ],
     "trade": "003.",
     "tags": "0....0..2..3....",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -158144,6 +161648,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2...",
     "tags": ".23.....2....3..",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -158214,6 +161721,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".2..",
     "tags": "........2.......",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -158283,6 +161793,9 @@ const CAMPAIGNS = [
     ],
     "trade": "13..",
     "tags": ".....43.....4...",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -158358,6 +161871,9 @@ const CAMPAIGNS = [
     ],
     "trade": "....",
     "tags": "...2............",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -158432,6 +161948,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..3.",
     "tags": "...........1....",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -158508,6 +162027,9 @@ const CAMPAIGNS = [
     ],
     "trade": "101.",
     "tags": ".......01.......",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -158583,6 +162105,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3.1.",
     "tags": ".0......1.......",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -158659,6 +162184,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".2.4",
     "tags": "....4.2.4.4.....",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -158736,6 +162264,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1221",
     "tags": ".1........2..1..",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -158810,6 +162341,9 @@ const CAMPAIGNS = [
     ],
     "trade": "...0",
     "tags": "...............0",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -158888,6 +162422,9 @@ const CAMPAIGNS = [
     ],
     "trade": "324.",
     "tags": "...3............",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -158964,6 +162501,9 @@ const CAMPAIGNS = [
     "trade": "..3.",
     "tags": ".........3.4....",
     "tries": 3,
+    "hard": 2,
+    "hardest": 5,
+    "steps": 12,
     "extra": true
    },
    {
@@ -159045,6 +162585,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.0.",
     "tags": "..........0.....",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -159140,6 +162683,9 @@ const CAMPAIGNS = [
     "trade": "1.10.",
     "tags": "0............1...........",
     "tries": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -159230,6 +162776,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3..2.",
     "tags": "...................2.....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -159331,6 +162880,9 @@ const CAMPAIGNS = [
     ],
     "trade": "20..0",
     "tags": "2.....0..............1...",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -159418,6 +162970,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".3.30",
     "tags": "....1...3.............0..",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -159507,6 +163062,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1..3",
     "tags": "........3.....33....1..3.",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -159597,6 +163155,9 @@ const CAMPAIGNS = [
     ],
     "trade": "0.3.2",
     "tags": "......................3..",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -159683,6 +163244,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".4234",
     "tags": "...........2......3......",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -159773,6 +163337,9 @@ const CAMPAIGNS = [
     ],
     "trade": "34.0.",
     "tags": "...................0.....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -159860,6 +163427,9 @@ const CAMPAIGNS = [
     ],
     "trade": "04200",
     "tags": ".....44..2..2......00....",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -159958,6 +163528,9 @@ const CAMPAIGNS = [
     ],
     "trade": "01..4",
     "tags": ".........10......4...44..",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -160054,6 +163627,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2..23",
     "tags": ".......4...............2.",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -160146,6 +163722,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".3112",
     "tags": ".....3...1..1.....1.....2",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -160239,6 +163818,9 @@ const CAMPAIGNS = [
     ],
     "trade": "22.3.",
     "tags": "...............3.....3..3",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -160340,6 +163922,9 @@ const CAMPAIGNS = [
     ],
     "trade": "....2",
     "tags": "....................3...2",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -160437,6 +164022,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..101",
     "tags": ".....................1.0.",
+    "hard": 5,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -160533,6 +164121,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".0.20",
     "tags": "...0.........2.4.......0.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -160627,6 +164218,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.3.2",
     "tags": "..3...................2..",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -160727,6 +164321,9 @@ const CAMPAIGNS = [
     ],
     "trade": "22.02",
     "tags": "....2.......1.....0......",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -160820,6 +164417,9 @@ const CAMPAIGNS = [
     ],
     "trade": "40...",
     "tags": "..4..4...................",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -160911,6 +164511,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..012",
     "tags": ".........2.......1.2..1.2",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -161020,6 +164623,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".31.0.",
     "tags": "..........3....1..0......0..........",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -161130,6 +164736,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".4.03.",
     "tags": "...................4........3.......",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -161245,6 +164854,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1..40",
     "tags": "...4.........4..4..............0....",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -161357,6 +164969,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".40...",
     "tags": "........2.2..02...................2.",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -161479,6 +165094,9 @@ const CAMPAIGNS = [
     ],
     "trade": "....20",
     "tags": "........................2..02.1..0..",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -161605,6 +165223,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.0...",
     "tags": "....1..........0........4.....1.....",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -161722,6 +165343,9 @@ const CAMPAIGNS = [
     ],
     "trade": "143.3.",
     "tags": ".1...11...343.............3.........",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -161832,6 +165456,9 @@ const CAMPAIGNS = [
     ],
     "trade": "334..4",
     "tags": "2..2.3..3.......4............2....32",
+    "hard": 8,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -161955,6 +165582,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4.33.4",
     "tags": "............3..................4.4..",
+    "hard": 2,
+    "hardest": 5,
+    "steps": 15,
     "extra": true
    },
    {
@@ -162089,6 +165719,9 @@ const CAMPAIGNS = [
     ],
     "trade": "103000",
     "tags": "3........0.3.....3.1..0.......0...0.",
+    "hard": 2,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -162203,6 +165836,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3043.0",
     "tags": "...3........4..............3.....3..",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -162316,6 +165952,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".00011",
     "tags": "................0.........2.....1...",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -162439,6 +166078,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1..1.",
     "tags": ".......4................1........1..",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -162569,6 +166211,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3.34..",
     "tags": "....3............3..4.........0.....",
+    "hard": 8,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -162694,6 +166339,9 @@ const CAMPAIGNS = [
     ],
     "trade": "32..0.",
     "tags": "3........2...................0....2.",
+    "hard": 5,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -162811,6 +166459,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".0..31",
     "tags": "..10......1..0...............3......",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 28,
     "extra": true
    },
    {
@@ -162937,6 +166588,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".343110",
     "tags": ".....4..3.........34...4.3...3........1.4.0......",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -163067,6 +166721,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.44...",
     "tags": ".........22.......4........4.....................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -163191,6 +166848,9 @@ const CAMPAIGNS = [
     ],
     "trade": "40..20.",
     "tags": "...........02....................................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -163319,6 +166979,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4..0.43",
     "tags": "...4.........1........41..0..................13.3",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -163451,6 +167114,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3321...",
     "tags": ".3......0..................1.2.................33",
+    "hard": 8,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -163570,6 +167236,9 @@ const CAMPAIGNS = [
     ],
     "trade": "......1",
     "tags": ".....1...........3.........1....0................",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -163687,6 +167356,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.3.2..",
     "tags": "..............................................0..",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -163815,6 +167487,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1.2.2.",
     "tags": ".......1.....3........2........4......1........4.",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -163948,6 +167623,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".03..33",
     "tags": "...0.....03...3........0................3........",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -164061,6 +167739,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.14.4.",
     "tags": "...1.....0.3..1.........................1..4..3..",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -164187,6 +167868,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".0...2.",
     "tags": "...........0....0.....................2........10",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -164318,6 +168002,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1.....",
     "tags": "......................0.0...1........3.3....0....",
+    "hard": 2,
+    "hardest": 3,
+    "steps": 25,
     "extra": true
    },
    {
@@ -164435,6 +168122,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".3121.2",
     "tags": "........3....3...........2....1.3.........1......",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 23,
     "extra": true
    },
    {
@@ -164568,6 +168258,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1.0.1.",
     "tags": ".14.....1...............1........2....21.......2.",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -164702,6 +168395,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".4.0..4",
     "tags": "......................0........0.................",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 30,
     "extra": true
    },
    {
@@ -164829,6 +168525,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..00134",
     "tags": ".......3....4....0.0.0..30...3....13.....0...4...",
+    "hard": 4,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -164952,6 +168651,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..0034.",
     "tags": ".......04.....04.2......2..0....................0",
+    "hard": 6,
+    "hardest": 4,
+    "steps": 32,
     "extra": true
    },
    {
@@ -165108,6 +168810,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2..20..2",
     "tags": "..3......................2........0...............2.............",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -165242,6 +168947,9 @@ const CAMPAIGNS = [
     ],
     "trade": "0.14.22.",
     "tags": "..............0....4...1...0.4...................4.2........4...",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -165382,6 +169090,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4022.00.",
     "tags": "..44.......0.........22..2............4..4.........4.....4....4.",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -165540,6 +169251,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..1.3.3.",
     "tags": ".42..4..........4.........................3..........3.3........",
+    "hard": 7,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -165683,6 +169397,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".4.221.1",
     "tags": ".......................3.......2...........1....................",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -165835,6 +169552,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".00.0..0",
     "tags": "........12..0...1......................0.0....................0.",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -165989,6 +169709,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2...4.24",
     "tags": "2......4........2.................0.3........2...........4....4.",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -166134,6 +169857,9 @@ const CAMPAIGNS = [
     ],
     "trade": "...0333.",
     "tags": "......................4.....30.03..3..........32.3..............",
+    "hard": 8,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -166286,6 +170012,9 @@ const CAMPAIGNS = [
     ],
     "trade": "......4.",
     "tags": "...3...............2.............34.3...1.......4...............",
+    "hard": 2,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -166437,6 +170166,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".2.0...1",
     "tags": "...3.....2........1.........................0....0...........1..",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 31,
     "extra": true
    },
    {
@@ -166584,6 +170316,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".0..000.",
     "tags": "..........................3..........1.4.0....4....0............",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 33,
     "extra": true
    },
    {
@@ -166741,6 +170476,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".01..142",
     "tags": "..............4...................................04....0.....21",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 31,
     "extra": true
    },
    {
@@ -166901,6 +170639,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".41400.1",
     "tags": "......................1.4............0...0.......4...0..........",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 45,
     "extra": true
    },
    {
@@ -167058,6 +170799,9 @@ const CAMPAIGNS = [
     ],
     "trade": "0..00.2.",
     "tags": "...0...................3......0...............1..............0..",
+    "hard": 10,
+    "hardest": 4,
+    "steps": 44,
     "extra": true
    },
    {
@@ -167234,6 +170978,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".1.21.0..",
     "tags": "..........................1.2..........1......................0.4................",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -167395,6 +171142,9 @@ const CAMPAIGNS = [
     "trade": "1.441.323",
     "tags": "1...3......................4..1...4..4.1..............2.......3......21..........",
     "tries": 2,
+    "hard": 6,
+    "hardest": 8,
+    "steps": 21,
     "extra": true
    },
    {
@@ -167565,6 +171315,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.0.32.0.",
     "tags": "......2...3.............02...1...3............1..2.......3..............13...0...",
+    "hard": 7,
+    "hardest": 8,
+    "steps": 21,
     "extra": true
    },
    {
@@ -167733,6 +171486,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..22014..",
     "tags": ".......1.............4....2......0...0..................4........4......4.0......",
+    "hard": 4,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -167911,6 +171667,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..133.441",
     "tags": ".1.................23.....1...34.........1............4..........4...............",
+    "hard": 4,
+    "hardest": 7,
+    "steps": 18,
     "extra": true
    },
    {
@@ -168085,6 +171844,9 @@ const CAMPAIGNS = [
     ],
     "trade": "4..0..11.",
     "tags": "............34.0.......................0.............0....1...0......4...........",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -168268,6 +172030,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".24....1.",
     "tags": "....2...1.......204.....4................2...2.....2..1...4....4.....1.1.........",
+    "hard": 12,
+    "hardest": 5,
+    "steps": 29,
     "extra": true
    },
    {
@@ -168451,6 +172216,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.203.313",
     "tags": "....1..1.....2.........0...20...0.1.....................3.........2...1.3........",
+    "hard": 5,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -168616,6 +172384,9 @@ const CAMPAIGNS = [
     ],
     "trade": "....124..",
     "tags": "................3...44.......4......................2..................3.........",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -168795,6 +172566,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.344..3.",
     "tags": ".......24............23.....0...4.....2.4....2........4..........................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -168978,6 +172752,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3.20203.2",
     "tags": "...0.................4......4.....................0....3....4...0.4..4........0..",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -169155,6 +172932,9 @@ const CAMPAIGNS = [
     ],
     "trade": "1.3.2....",
     "tags": "...2..........4........3.3................4...........3..........................",
+    "hard": 13,
+    "hardest": 8,
+    "steps": 40,
     "extra": true
    },
    {
@@ -169345,6 +173125,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2.24.30304",
     "tags": ".........2.........................4.0............2.3.2......02.0.............31.0....0.....14....2.",
+    "hard": 8,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -169533,6 +173316,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".....4.2.4",
     "tags": "........................0...............3.........4.........1........3....2.....3...................",
+    "hard": 6,
+    "hardest": 8,
+    "steps": 31,
     "extra": true
    },
    {
@@ -169738,6 +173524,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..34......",
     "tags": "..............2..0......1.....4.....................3...........................4...................",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 23,
     "extra": true
    },
    {
@@ -169936,6 +173725,9 @@ const CAMPAIGNS = [
     ],
     "trade": "33..32....",
     "tags": ".0.......0...3.....01...............2............4...............................................43.",
+    "hard": 8,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -170131,6 +173923,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..1424230.",
     "tags": "..1..................................0............1.4.04....4...2..3.........1..1.........3....0....",
+    "hard": 6,
+    "hardest": 7,
+    "steps": 22,
     "extra": true
    },
    {
@@ -170315,6 +174110,9 @@ const CAMPAIGNS = [
     ],
     "trade": "34.3.2.4.3",
     "tags": "....2...3................2..........3......................2.......2.......4..0...........3.........",
+    "hard": 13,
+    "hardest": 7,
+    "steps": 33,
     "extra": true
    },
    {
@@ -170510,6 +174308,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3...2..2..",
     "tags": "1.3.....1..................................2..1.....4....4..............4....1.....13............1..",
+    "hard": 11,
+    "hardest": 9,
+    "steps": 33,
     "extra": true
    },
    {
@@ -170722,6 +174523,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".10.14.24.",
     "tags": "......4...........1..3.0..............3............3.2.......2..............1..1..4.................",
+    "hard": 10,
+    "hardest": 7,
+    "steps": 34,
     "extra": true
    },
    {
@@ -170921,6 +174725,9 @@ const CAMPAIGNS = [
     ],
     "trade": "22.0.1.4..",
     "tags": ".....3..........2..2.2......4....0.....0..........3.........31.........0......4..........2.......22.",
+    "hard": 10,
+    "hardest": 7,
+    "steps": 41,
     "extra": true
    },
    {
@@ -171107,6 +174914,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..2.202...",
     "tags": "...40...................................2...3......2...0.4...0......3...........3...................",
+    "hard": 5,
+    "hardest": 6,
+    "steps": 39,
     "extra": true
    },
    {
@@ -171299,6 +175109,9 @@ const CAMPAIGNS = [
     ],
     "trade": "32.124....",
     "tags": "..34............4.................30....342............1.....................................2......",
+    "hard": 6,
+    "hardest": 5,
+    "steps": 42,
     "extra": true
    },
    {
@@ -171488,6 +175301,9 @@ const CAMPAIGNS = [
     ],
     "trade": "2..0..2021",
     "tags": ".............3.........20...3.0...2.................1.1..................14.0...........2.4......12.",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 49,
     "extra": true
    },
    {
@@ -171684,6 +175500,9 @@ const CAMPAIGNS = [
     ],
     "trade": "...2..0.3.",
     "tags": "............................0.....12........................3...0....0......1.......................",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 41,
     "extra": true
    },
    {
@@ -171878,6 +175697,9 @@ const CAMPAIGNS = [
     ],
     "trade": "0.23.4010..",
     "tags": "240.................0..3.......2......32.............................0........1...4......0.....3........4..0......4......",
+    "hard": 12,
+    "hardest": 8,
+    "steps": 39,
     "extra": true
    },
    {
@@ -172084,6 +175906,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".3.1...4..3",
     "tags": "0..........................2................4...........4...........4......................1.............3.....43......33",
+    "hard": 8,
+    "hardest": 9,
+    "steps": 26,
     "extra": true
    },
    {
@@ -172289,6 +176114,9 @@ const CAMPAIGNS = [
     ],
     "trade": "33...44..21",
     "tags": "..........3..........2.1........0............0....1........4......1.2....................................2......1........",
+    "hard": 3,
+    "hardest": 3,
+    "steps": 33,
     "extra": true
    },
    {
@@ -172485,6 +176313,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3.4.......1",
     "tags": ".......3..10.............104..........4.............1..........................1...............3..4.......3....1.........",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 36,
     "extra": true
    },
    {
@@ -172706,6 +176537,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".01...32...",
     "tags": ".1...0.............0..21...............1..2.........................3...........2....................................4...",
+    "hard": 6,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -172914,6 +176748,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3.42..21.11",
     "tags": "...3............4..............4.2....4......1...............2.....4....2.........1..3...................3......1.....1..",
+    "hard": 5,
+    "hardest": 7,
+    "steps": 36,
     "extra": true
    },
    {
@@ -173126,6 +176963,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".3.4.14....",
     "tags": "................3.....3...........3.....0..................................4........0..................................1.",
+    "hard": 10,
+    "hardest": 6,
+    "steps": 48,
     "extra": true
    },
    {
@@ -173341,6 +177181,9 @@ const CAMPAIGNS = [
     ],
     "trade": "411..032.34",
     "tags": "............................1....2.....0......0..........0.........4.......3..2........2.0.............4..3.....2........",
+    "hard": 6,
+    "hardest": 6,
+    "steps": 45,
     "extra": true
    },
    {
@@ -173576,6 +177419,9 @@ const CAMPAIGNS = [
     ],
     "trade": "342..2.130.1",
     "tags": "..3..1.....4....1.........3..3..2....................3.....4.0........2..........................3.......4.....3.4....................0........1",
+    "hard": 9,
+    "hardest": 7,
+    "steps": 39,
     "extra": true
    },
    {
@@ -173821,6 +177667,9 @@ const CAMPAIGNS = [
     ],
     "trade": "3..023.2.21.",
     "tags": "4.........4..1.........................1.............2.........2.............3........4...2.........4........1........2........1.............4..",
+    "hard": 9,
+    "hardest": 8,
+    "steps": 38,
     "extra": true
    },
    {
@@ -174069,6 +177918,9 @@ const CAMPAIGNS = [
     ],
     "trade": "..0331.....1",
     "tags": "...............01....................02........3........3.........1...........................3.........1...14...........................11.....",
+    "hard": 3,
+    "hardest": 6,
+    "steps": 48,
     "extra": true
    },
    {
@@ -174308,6 +178160,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".4..4.0.1.1.",
     "tags": "........0.........14...............3..4..............3..42....3.....4....04............................1...1..1............1....................",
+    "hard": 6,
+    "hardest": 10,
+    "steps": 47,
     "extra": true
    },
    {
@@ -174551,6 +178406,9 @@ const CAMPAIGNS = [
     ],
     "trade": ".0.3.30.0..2",
     "tags": "............0......0.......2.............3...3.3............3............0........0................0..1............1...2........................",
+    "hard": 7,
+    "hardest": 4,
+    "steps": 79,
     "extra": true
    }
   ]
@@ -174635,6 +178493,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "group": 0
    },
    {
@@ -174745,6 +178606,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 13,
     "group": 0
    },
    {
@@ -174859,6 +178723,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "group": 0
    },
    {
@@ -174992,6 +178859,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "group": 0
    },
    {
@@ -175144,6 +179014,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "group": 0
    },
    {
@@ -175328,6 +179201,9 @@ const CAMPAIGNS = [
      1,
      3
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 23,
     "group": 0
    },
    {
@@ -175410,6 +179286,9 @@ const CAMPAIGNS = [
      0
     ],
     "tries": 2,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 9,
     "group": 1
    },
    {
@@ -175518,6 +179397,9 @@ const CAMPAIGNS = [
      2
     ],
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "group": 1
    },
    {
@@ -175637,6 +179519,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 16,
     "group": 1
    },
    {
@@ -175786,6 +179671,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "group": 1
    },
    {
@@ -175945,6 +179833,9 @@ const CAMPAIGNS = [
     "lawful": [
      5
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 19,
     "group": 1
    },
    {
@@ -176145,6 +180036,9 @@ const CAMPAIGNS = [
      3,
      4
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 28,
     "group": 1
    },
    {
@@ -176346,6 +180240,9 @@ const CAMPAIGNS = [
      1,
      4
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 26,
     "group": 1
    },
    {
@@ -176422,6 +180319,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "group": 2
    },
    {
@@ -176524,6 +180424,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
     "group": 2
    },
    {
@@ -176646,6 +180549,9 @@ const CAMPAIGNS = [
      2
     ],
     "tries": 3,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "group": 2
    },
    {
@@ -176786,6 +180692,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 22,
     "group": 2
    },
    {
@@ -176940,6 +180849,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
     "group": 2
    },
    {
@@ -177113,6 +181025,9 @@ const CAMPAIGNS = [
      0,
      1
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "group": 2
    },
    {
@@ -177316,6 +181231,9 @@ const CAMPAIGNS = [
      7
     ],
     "tries": 3,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 26,
     "group": 2
    },
    {
@@ -177542,6 +181460,9 @@ const CAMPAIGNS = [
      1,
      2
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 29,
     "group": 2
    },
    {
@@ -177619,6 +181540,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "group": 3
    },
    {
@@ -177725,6 +181649,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 19,
     "group": 3
    },
    {
@@ -177839,6 +181766,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 22,
     "group": 3
    },
    {
@@ -177974,6 +181904,9 @@ const CAMPAIGNS = [
      1
     ],
     "tries": 7,
+    "hard": 6,
+    "hardest": 4,
+    "steps": 25,
     "group": 3
    },
    {
@@ -178129,6 +182062,9 @@ const CAMPAIGNS = [
      0
     ],
     "tries": 6,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 23,
     "group": 3
    },
    {
@@ -178322,6 +182258,9 @@ const CAMPAIGNS = [
      1,
      4
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 30,
     "group": 3
    },
    {
@@ -178524,6 +182463,9 @@ const CAMPAIGNS = [
      2,
      7
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 30,
     "group": 3
    },
    {
@@ -178750,6 +182692,9 @@ const CAMPAIGNS = [
      1,
      4
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 38,
     "group": 3
    },
    {
@@ -178833,6 +182778,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -178909,6 +182857,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -178996,6 +182947,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -179079,6 +183033,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -179167,6 +183124,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -179243,6 +183203,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -179324,6 +183287,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -179403,6 +183369,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -179485,6 +183454,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -179562,6 +183534,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -179641,6 +183616,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -179720,6 +183698,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -179791,6 +183772,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -179876,6 +183860,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -179952,6 +183939,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -180034,6 +184024,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 9,
     "extra": true
    },
    {
@@ -180116,6 +184109,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -180200,6 +184196,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -180278,6 +184277,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -180360,6 +184362,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -180435,6 +184440,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -180517,6 +184525,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -180625,6 +184636,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -180722,6 +184736,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -180810,6 +184827,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -180907,6 +184927,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -180999,6 +185022,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -181097,6 +185123,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -181199,6 +185228,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -181294,6 +185326,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -181398,6 +185433,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -181489,6 +185527,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -181591,6 +185632,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -181683,6 +185727,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -181779,6 +185826,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -181879,6 +185929,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 3,
+    "hardest": 6,
+    "steps": 17,
     "extra": true
    },
    {
@@ -181982,6 +186035,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -182093,6 +186149,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -182208,6 +186267,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -182311,6 +186373,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -182414,6 +186479,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -182530,6 +186598,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -182656,6 +186727,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 15,
     "extra": true
    },
    {
@@ -182779,6 +186853,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -182904,6 +186981,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -183038,6 +187118,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -183154,6 +187237,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -183276,6 +187362,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -183400,6 +187489,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -183531,6 +187623,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -183658,6 +187753,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 4,
+    "hardest": 6,
+    "steps": 18,
     "extra": true
    },
    {
@@ -183780,6 +187878,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 3,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -183908,6 +188009,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -184025,6 +188129,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -184137,6 +188244,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -184264,6 +188374,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -184385,6 +188498,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -184516,6 +188632,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -184644,6 +188763,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -184776,6 +188898,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -184899,6 +189024,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -185035,6 +189163,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -185184,6 +189315,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 17,
     "extra": true
    },
    {
@@ -185322,6 +189456,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -185466,6 +189603,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -185598,6 +189738,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -185727,6 +189870,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -185858,6 +190004,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -185988,6 +190137,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -186126,6 +190278,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -186266,6 +190421,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -186400,6 +190558,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -186535,6 +190696,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 8,
+    "hardest": 7,
+    "steps": 22,
     "extra": true
    },
    {
@@ -186671,6 +190835,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -186814,6 +190981,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -186950,6 +191120,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -187071,6 +191244,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -187212,6 +191388,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 6,
+    "hardest": 3,
+    "steps": 28,
     "extra": true
    },
    {
@@ -187341,6 +191520,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 8,
+    "hardest": 4,
+    "steps": 38,
     "extra": true
    },
    {
@@ -187492,6 +191674,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -187646,6 +191831,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -187785,6 +191973,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -187940,6 +192131,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -188099,6 +192293,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -188269,6 +192466,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 25,
     "extra": true
    },
    {
@@ -188428,6 +192628,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -188594,6 +192797,9 @@ const CAMPAIGNS = [
     "lawful": [
      5
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -188745,6 +192951,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 29,
     "extra": true
    },
    {
@@ -188899,6 +193108,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 2,
+    "hardest": 6,
+    "steps": 32,
     "extra": true
    },
    {
@@ -189050,6 +193262,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 39,
     "extra": true
    },
    {
@@ -189208,6 +193423,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 33,
     "extra": true
    },
    {
@@ -189363,6 +193581,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 42,
     "extra": true
    },
    {
@@ -189548,6 +193769,9 @@ const CAMPAIGNS = [
      1,
      4
     ],
+    "hard": 7,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -189725,6 +193949,9 @@ const CAMPAIGNS = [
      2,
      5
     ],
+    "hard": 7,
+    "hardest": 8,
+    "steps": 21,
     "extra": true
    },
    {
@@ -189919,6 +194146,9 @@ const CAMPAIGNS = [
      3,
      6
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -190100,6 +194330,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 27,
     "extra": true
    },
    {
@@ -190274,6 +194507,9 @@ const CAMPAIGNS = [
      2,
      5
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 23,
     "extra": true
    },
    {
@@ -190450,6 +194686,9 @@ const CAMPAIGNS = [
      2,
      5
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 26,
     "extra": true
    },
    {
@@ -190625,6 +194864,9 @@ const CAMPAIGNS = [
      0,
      2
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -190804,6 +195046,9 @@ const CAMPAIGNS = [
      0,
      1
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -190989,6 +195234,9 @@ const CAMPAIGNS = [
      0,
      3
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 32,
     "extra": true
    },
    {
@@ -191176,6 +195424,9 @@ const CAMPAIGNS = [
      0,
      6
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 31,
     "extra": true
    },
    {
@@ -191361,6 +195612,9 @@ const CAMPAIGNS = [
      1,
      6
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -191545,6 +195799,9 @@ const CAMPAIGNS = [
      3,
      6
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 31,
     "extra": true
    },
    {
@@ -191751,6 +196008,9 @@ const CAMPAIGNS = [
      2,
      6
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -191948,6 +196208,9 @@ const CAMPAIGNS = [
      0,
      4
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -192138,6 +196401,9 @@ const CAMPAIGNS = [
      2,
      5
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 24,
     "extra": true
    },
    {
@@ -192334,6 +196600,9 @@ const CAMPAIGNS = [
      5,
      6
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 33,
     "extra": true
    },
    {
@@ -192536,6 +196805,9 @@ const CAMPAIGNS = [
      3,
      6
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 35,
     "extra": true
    },
    {
@@ -192744,6 +197016,9 @@ const CAMPAIGNS = [
      0,
      6
     ],
+    "hard": 4,
+    "hardest": 8,
+    "steps": 35,
     "extra": true
    },
    {
@@ -192954,6 +197229,9 @@ const CAMPAIGNS = [
      2,
      3
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 36,
     "extra": true
    },
    {
@@ -193161,6 +197439,9 @@ const CAMPAIGNS = [
      1,
      5
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 49,
     "extra": true
    },
    {
@@ -193353,6 +197634,9 @@ const CAMPAIGNS = [
      4,
      5
     ],
+    "hard": 9,
+    "hardest": 7,
+    "steps": 54,
     "extra": true
    },
    {
@@ -193574,6 +197858,9 @@ const CAMPAIGNS = [
      3,
      4
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 26,
     "extra": true
    },
    {
@@ -193797,6 +198084,9 @@ const CAMPAIGNS = [
      0,
      6
     ],
+    "hard": 9,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -193994,6 +198284,9 @@ const CAMPAIGNS = [
      1,
      4
     ],
+    "hard": 9,
+    "hardest": 8,
+    "steps": 35,
     "extra": true
    },
    {
@@ -194224,6 +198517,9 @@ const CAMPAIGNS = [
      5,
      6
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 39,
     "extra": true
    },
    {
@@ -194447,6 +198743,9 @@ const CAMPAIGNS = [
      1,
      7
     ],
+    "hard": 7,
+    "hardest": 5,
+    "steps": 51,
     "extra": true
    },
    {
@@ -194670,6 +198969,9 @@ const CAMPAIGNS = [
      6,
      7
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 48,
     "extra": true
    },
    {
@@ -194896,6 +199198,9 @@ const CAMPAIGNS = [
      2,
      7
     ],
+    "hard": 7,
+    "hardest": 8,
+    "steps": 48,
     "extra": true
    },
    {
@@ -195115,6 +199420,9 @@ const CAMPAIGNS = [
      1,
      3
     ],
+    "hard": 10,
+    "hardest": 5,
+    "steps": 53,
     "extra": true
    },
    {
@@ -195343,6 +199651,9 @@ const CAMPAIGNS = [
      6,
      8
     ],
+    "hard": 8,
+    "hardest": 10,
+    "steps": 32,
     "extra": true
    },
    {
@@ -195583,6 +199894,9 @@ const CAMPAIGNS = [
      0,
      1
     ],
+    "hard": 8,
+    "hardest": 10,
+    "steps": 33,
     "extra": true
    },
    {
@@ -195803,6 +200117,9 @@ const CAMPAIGNS = [
      5,
      6
     ],
+    "hard": 8,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -196040,6 +200357,9 @@ const CAMPAIGNS = [
      2,
      5
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 48,
     "extra": true
    },
    {
@@ -196287,6 +200607,9 @@ const CAMPAIGNS = [
      1,
      4
     ],
+    "hard": 14,
+    "hardest": 9,
+    "steps": 43,
     "extra": true
    },
    {
@@ -196541,6 +200864,9 @@ const CAMPAIGNS = [
      0,
      6
     ],
+    "hard": 10,
+    "hardest": 8,
+    "steps": 57,
     "extra": true
    }
   ]
@@ -196608,6 +200934,9 @@ const CAMPAIGNS = [
     ],
     "sea": 0,
     "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "group": 0
    },
    {
@@ -196690,6 +201019,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "group": 0
    },
    {
@@ -196798,6 +201130,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "group": 0
    },
    {
@@ -196894,6 +201229,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 16,
     "group": 0
    },
    {
@@ -197036,6 +201374,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 20,
     "group": 0
    },
    {
@@ -197181,6 +201522,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 25,
     "group": 0
    },
    {
@@ -197351,6 +201695,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 27,
     "group": 0
    },
    {
@@ -197424,6 +201771,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "group": 1
    },
    {
@@ -197508,6 +201858,9 @@ const CAMPAIGNS = [
     ],
     "sea": 0,
     "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "group": 1
    },
    {
@@ -197609,6 +201962,9 @@ const CAMPAIGNS = [
     ],
     "sea": 3,
     "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "group": 1
    },
    {
@@ -197730,6 +202086,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 20,
     "group": 1
    },
    {
@@ -197865,6 +202224,9 @@ const CAMPAIGNS = [
     ],
     "sea": 4,
     "tries": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 22,
     "group": 1
    },
    {
@@ -198014,6 +202376,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 25,
     "group": 1
    },
    {
@@ -198194,6 +202559,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 28,
     "group": 1
    },
    {
@@ -198372,6 +202740,9 @@ const CAMPAIGNS = [
     ],
     "sea": 2,
     "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 26,
     "group": 1
    },
    {
@@ -198567,6 +202938,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 33,
     "group": 1
    },
    {
@@ -198635,6 +203009,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "group": 2
    },
    {
@@ -198719,6 +203096,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 1,
+    "hardest": 5,
+    "steps": 12,
     "group": 2
    },
    {
@@ -198833,6 +203213,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "group": 2
    },
    {
@@ -198940,6 +203323,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 20,
     "group": 2
    },
    {
@@ -199084,6 +203470,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 7,
+    "hardest": 5,
+    "steps": 21,
     "group": 2
    },
    {
@@ -199252,6 +203641,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 6,
+    "hardest": 6,
+    "steps": 25,
     "group": 2
    },
    {
@@ -199423,6 +203815,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 28,
     "group": 2
    },
    {
@@ -199611,6 +204006,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 27,
     "group": 2
    },
    {
@@ -199819,6 +204217,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 5,
+    "steps": 30,
     "group": 2
    },
    {
@@ -199908,6 +204309,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "group": 3
    },
    {
@@ -200011,6 +204415,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 22,
     "group": 3
    },
    {
@@ -200138,6 +204545,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 4,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 23,
     "group": 3
    },
    {
@@ -200271,6 +204681,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 23,
     "group": 3
    },
    {
@@ -200416,6 +204829,9 @@ const CAMPAIGNS = [
     ],
     "sea": 0,
     "tries": 6,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 25,
     "group": 3
    },
    {
@@ -200568,6 +204984,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 4,
+    "hard": 5,
+    "hardest": 7,
+    "steps": 30,
     "group": 3
    },
    {
@@ -200735,6 +205154,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 7,
+    "hardest": 4,
+    "steps": 27,
     "group": 3
    },
    {
@@ -200929,6 +205351,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 32,
     "group": 3
    },
    {
@@ -200991,6 +205416,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201058,6 +205486,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -201120,6 +205551,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201182,6 +205616,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201249,6 +205686,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -201316,6 +205756,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201378,6 +205821,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201440,6 +205886,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -201501,6 +205950,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201569,6 +206021,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -201630,6 +206085,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201691,6 +206149,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201758,6 +206219,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201820,6 +206284,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "extra": true
    },
    {
@@ -201888,6 +206355,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -201958,6 +206428,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -202027,6 +206500,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -202088,6 +206564,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -202149,6 +206628,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -202210,6 +206692,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -202271,6 +206756,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -202340,6 +206828,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -202425,6 +206916,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -202510,6 +207004,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -202608,6 +207105,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -202685,6 +207185,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -202772,6 +207275,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -202860,6 +207366,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -202933,6 +207442,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -203014,6 +207526,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -203102,6 +207617,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -203190,6 +207708,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -203271,6 +207792,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -203357,6 +207881,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -203446,6 +207973,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -203523,6 +208053,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -203611,6 +208144,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -203696,6 +208232,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 12,
     "extra": true
    },
    {
@@ -203783,6 +208322,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -203863,6 +208405,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -203956,6 +208501,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -204049,6 +208597,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -204152,6 +208703,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 15,
     "extra": true
    },
    {
@@ -204250,6 +208804,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 13,
     "extra": true
    },
    {
@@ -204343,6 +208900,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -204458,6 +209018,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "extra": true
    },
    {
@@ -204546,6 +209109,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 13,
     "extra": true
    },
    {
@@ -204642,6 +209208,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -204769,6 +209338,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
     "extra": true
    },
    {
@@ -204878,6 +209450,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -204983,6 +209558,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -205083,6 +209661,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -205179,6 +209760,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 18,
     "extra": true
    },
    {
@@ -205285,6 +209869,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -205386,6 +209973,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -205494,6 +210084,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -205595,6 +210188,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -205696,6 +210292,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 4,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -205804,6 +210403,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -205917,6 +210519,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -206039,6 +210644,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -206156,6 +210764,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 18,
     "extra": true
    },
    {
@@ -206266,6 +210877,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -206385,6 +210999,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -206515,6 +211132,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -206632,6 +211252,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -206752,6 +211375,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -206873,6 +211499,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 4,
+    "hard": 2,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -206983,6 +211612,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -207095,6 +211727,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 19,
     "extra": true
    },
    {
@@ -207205,6 +211840,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -207331,6 +211969,9 @@ const CAMPAIGNS = [
     ],
     "sea": 1,
     "tries": 3,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -207454,6 +212095,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 5,
+    "steps": 16,
     "extra": true
    },
    {
@@ -207577,6 +212221,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -207724,6 +212371,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -207852,6 +212502,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -207983,6 +212636,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -208102,6 +212758,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -208233,6 +212892,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -208348,6 +213010,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 7,
+    "hardest": 6,
+    "steps": 20,
     "extra": true
    },
    {
@@ -208485,6 +213150,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 24,
     "extra": true
    },
    {
@@ -208630,6 +213298,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -208765,6 +213436,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 6,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -208894,6 +213568,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -209035,6 +213712,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -209187,6 +213867,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 5,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 19,
     "extra": true
    },
    {
@@ -209315,6 +213998,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -209468,6 +214154,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 20,
     "extra": true
    },
    {
@@ -209607,6 +214296,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 6,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -209745,6 +214437,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -209889,6 +214584,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 23,
     "extra": true
    },
    {
@@ -210028,6 +214726,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 7,
+    "hardest": 8,
+    "steps": 24,
     "extra": true
    },
    {
@@ -210163,6 +214864,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 6,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -210309,6 +215013,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -210456,6 +215163,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 25,
     "extra": true
    },
    {
@@ -210603,6 +215313,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 19,
     "extra": true
    },
    {
@@ -210758,6 +215471,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 22,
     "extra": true
    },
    {
@@ -210916,6 +215632,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -211072,6 +215791,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -211243,6 +215965,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 24,
     "extra": true
    },
    {
@@ -211411,6 +216136,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -211578,6 +216306,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -211738,6 +216469,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 7,
+    "hardest": 4,
+    "steps": 31,
     "extra": true
    },
    {
@@ -211899,6 +216633,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -212065,6 +216802,9 @@ const CAMPAIGNS = [
     ],
     "sea": 1,
     "tries": 1,
+    "hard": 4,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -212220,6 +216960,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 2,
+    "hard": 8,
+    "hardest": 7,
+    "steps": 26,
     "extra": true
    },
    {
@@ -212394,6 +217137,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -212575,6 +217321,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 4,
+    "hard": 4,
+    "hardest": 6,
+    "steps": 24,
     "extra": true
    },
    {
@@ -212729,6 +217478,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 3,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 28,
     "extra": true
    },
    {
@@ -212899,6 +217651,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 9,
+    "hardest": 6,
+    "steps": 37,
     "extra": true
    },
    {
@@ -213071,6 +217826,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -213260,6 +218018,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 4,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 31,
     "extra": true
    },
    {
@@ -213446,6 +218207,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -213635,6 +218399,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 32,
     "extra": true
    },
    {
@@ -213827,6 +218594,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 34,
     "extra": true
    },
    {
@@ -214025,6 +218795,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 11,
+    "hardest": 8,
+    "steps": 32,
     "extra": true
    },
    {
@@ -214188,6 +218961,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 2,
+    "hardest": 6,
+    "steps": 33,
     "extra": true
    },
    {
@@ -214385,6 +219161,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 9,
+    "hardest": 8,
+    "steps": 30,
     "extra": true
    },
    {
@@ -214585,6 +219364,9 @@ const CAMPAIGNS = [
     ],
     "sea": 0,
     "tries": 4,
+    "hard": 8,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -214796,6 +219578,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 30,
     "extra": true
    },
    {
@@ -215000,6 +219785,9 @@ const CAMPAIGNS = [
      "sea"
     ],
     "sea": 0,
+    "hard": 6,
+    "hardest": 7,
+    "steps": 35,
     "extra": true
    }
   ]
@@ -215077,6 +219865,9 @@ const CAMPAIGNS = [
     ],
     "rank": "knck",
     "tags": ".....CL...C....C",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "group": 0
    },
    {
@@ -215162,6 +219953,9 @@ const CAMPAIGNS = [
     "trade": ".0..4",
     "tags": "....4...0.....0..........",
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "group": 0
    },
    {
@@ -215281,6 +220075,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "group": 0
    },
    {
@@ -215406,6 +220203,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kcnckcc",
     "sea": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
     "group": 0
    },
    {
@@ -215562,6 +220362,9 @@ const CAMPAIGNS = [
     "lawful": [
      5
     ],
+    "hard": 0,
+    "hardest": 1,
+    "steps": 18,
     "group": 0
    },
    {
@@ -215705,6 +220508,9 @@ const CAMPAIGNS = [
     ],
     "tags": ".......L......C..L..............L...L..............L.............................",
     "sea": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 24,
     "group": 0
    },
    {
@@ -215905,6 +220711,9 @@ const CAMPAIGNS = [
     "rank": "cccccccknk",
     "trade": "412....4..",
     "tags": "34...4.42........2......2.22....................................0...........1..1.0..................",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 23,
     "group": 0
    },
    {
@@ -215987,6 +220796,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kknn",
     "tags": "..C...LC....C...",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 10,
     "group": 1
    },
    {
@@ -216063,6 +220875,9 @@ const CAMPAIGNS = [
     "trade": "10.10",
     "tags": ".........0.......1......1",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "group": 1
    },
    {
@@ -216194,6 +221009,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
     "group": 1
    },
    {
@@ -216331,6 +221149,9 @@ const CAMPAIGNS = [
     "rank": "cknkkck",
     "sea": 2,
     "tries": 2,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "group": 1
    },
    {
@@ -216487,6 +221308,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 3,
+    "steps": 20,
     "group": 1
    },
    {
@@ -216615,6 +221439,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..............................L........................C.........................",
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "group": 1
    },
    {
@@ -216810,6 +221637,9 @@ const CAMPAIGNS = [
     "rank": "nkkccccnck",
     "trade": "0..3....41",
     "tags": "....0......0...30................0....3....0.......24.1.........3...0..............4......1.........",
+    "hard": 5,
+    "hardest": 5,
+    "steps": 24,
     "group": 1
    },
    {
@@ -216995,6 +221825,9 @@ const CAMPAIGNS = [
      1,
      5
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 26,
     "group": 1
    },
    {
@@ -217068,6 +221901,9 @@ const CAMPAIGNS = [
     "rank": "ccnk",
     "tags": "...C..C...C.....",
     "tries": 3,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "group": 2
    },
    {
@@ -217167,6 +222003,9 @@ const CAMPAIGNS = [
     "tags": "..............1..2.......",
     "sea": 0,
     "tries": 3,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "group": 2
    },
    {
@@ -217290,6 +222129,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 23,
     "group": 2
    },
    {
@@ -217416,6 +222258,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckcccnc",
     "sea": 0,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 17,
     "group": 2
    },
    {
@@ -217586,6 +222431,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 3,
+    "hardest": 3,
+    "steps": 31,
     "group": 2
    },
    {
@@ -217740,6 +222588,9 @@ const CAMPAIGNS = [
     "tags": "...................CC.........C..........C.........C.......L.....................",
     "sea": 4,
     "tries": 4,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 30,
     "group": 2
    },
    {
@@ -217940,6 +222791,9 @@ const CAMPAIGNS = [
     "rank": "ckkkncncck",
     "trade": "012..3.1.2",
     "tags": ".....................2......................23.............3........4...1.1.........0.........4...2.",
+    "hard": 4,
+    "hardest": 4,
+    "steps": 37,
     "group": 2
    },
    {
@@ -218153,6 +223007,9 @@ const CAMPAIGNS = [
      3,
      6
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 31,
     "group": 2
    },
    {
@@ -218252,6 +223109,9 @@ const CAMPAIGNS = [
     "trade": "..100",
     "tags": "............1..........0.",
     "sea": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 16,
     "group": 3
    },
    {
@@ -218375,6 +223235,9 @@ const CAMPAIGNS = [
      0
     ],
     "tries": 6,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 17,
     "group": 3
    },
    {
@@ -218485,6 +223348,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckkcckk",
     "sea": 3,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 25,
     "group": 3
    },
    {
@@ -218647,6 +223513,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 26,
     "group": 3
    },
    {
@@ -218798,6 +223667,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..C....L..........C..................................C...........................",
     "sea": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 32,
     "group": 3
    },
    {
@@ -218993,6 +223865,9 @@ const CAMPAIGNS = [
     "rank": "cckcckcckc",
     "trade": "0...20.2..",
     "tags": ".............3...........................0...3..0..0...............0...........4......3............3",
+    "hard": 4,
+    "hardest": 3,
+    "steps": 28,
     "group": 3
    },
    {
@@ -219179,6 +224054,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 28,
     "group": 3
    },
    {
@@ -219393,6 +224271,9 @@ const CAMPAIGNS = [
     "trade": "1.0..4.....3",
     "tags": "10.......4.0.......L..............0.......1............C......4.C.........2...CL....C...0........................L...0L.0.............2.1..1....",
     "tries": 8,
+    "hard": 9,
+    "hardest": 7,
+    "steps": 38,
     "group": 3
    },
    {
@@ -219467,6 +224348,9 @@ const CAMPAIGNS = [
     ],
     "rank": "knck",
     "tags": "......C..L.....L",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -219542,6 +224426,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckn",
     "tags": "...L...........C",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -219616,6 +224503,9 @@ const CAMPAIGNS = [
     ],
     "rank": "knck",
     "tags": "........CL...C..",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -219690,6 +224580,9 @@ const CAMPAIGNS = [
     ],
     "rank": "nkcc",
     "tags": "LC..C.....C....C",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 9,
     "extra": true
    },
    {
@@ -219764,6 +224657,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ccnc",
     "tags": "........L.LC....",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -219837,6 +224733,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kcnk",
     "tags": "...L...CLC.....C",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 10,
     "extra": true
    },
    {
@@ -219917,6 +224816,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kckk",
     "tags": "..C.............",
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -219990,6 +224892,9 @@ const CAMPAIGNS = [
     ],
     "rank": "nkcc",
     "tags": "...............C",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 8,
     "extra": true
    },
    {
@@ -220064,6 +224969,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kkck",
     "tags": ".....LC...C...C.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220137,6 +225045,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckk",
     "tags": ".L...C...C......",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -220210,6 +225121,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckck",
     "tags": "C.L...C....L...L",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 10,
     "extra": true
    },
    {
@@ -220284,6 +225198,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckn",
     "tags": ".....C.........C",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 10,
     "extra": true
    },
    {
@@ -220358,6 +225275,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckn",
     "tags": "C.....C.C.....L.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220435,6 +225355,9 @@ const CAMPAIGNS = [
     ],
     "rank": "nkcc",
     "tags": ".C..C.........C.",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220509,6 +225432,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cncc",
     "tags": "..C....L..C.....",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220590,6 +225516,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ccnk",
     "tags": "C...............",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220670,6 +225599,9 @@ const CAMPAIGNS = [
     ],
     "rank": "nkkc",
     "tags": ".........CL.C...",
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220744,6 +225676,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ccnk",
     "tags": ".....CC.........",
+    "hard": 2,
+    "hardest": 4,
+    "steps": 11,
     "extra": true
    },
    {
@@ -220818,6 +225753,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kckc",
     "tags": "...C.....L.....L",
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -220891,6 +225829,9 @@ const CAMPAIGNS = [
     ],
     "rank": "knkk",
     "tags": "........CL......",
+    "hard": 0,
+    "hardest": 2,
+    "steps": 9,
     "extra": true
    },
    {
@@ -220971,6 +225912,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kkkc",
     "tags": "..L..C........L.",
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -221070,6 +226014,9 @@ const CAMPAIGNS = [
     "trade": "3.21.",
     "tags": ".................1.....1.",
     "sea": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
     "extra": true
    },
    {
@@ -221155,6 +226102,9 @@ const CAMPAIGNS = [
     "trade": "13000",
     "tags": ".............0.0.3.....0.",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -221244,6 +226194,9 @@ const CAMPAIGNS = [
     "trade": "2.20.",
     "tags": "............3..03..0.....",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -221324,6 +226277,9 @@ const CAMPAIGNS = [
     "trade": "20.00",
     "tags": "2.....0.............1.0..",
     "sea": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -221400,6 +226356,9 @@ const CAMPAIGNS = [
     "trade": "01.03",
     "tags": "..0..1......3............",
     "sea": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -221493,6 +226452,9 @@ const CAMPAIGNS = [
     "trade": ".1.11",
     "tags": ".......................1.",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -221577,6 +226539,9 @@ const CAMPAIGNS = [
     "trade": ".4.0.",
     "tags": ".........2...............",
     "sea": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 11,
     "extra": true
    },
    {
@@ -221662,6 +226627,9 @@ const CAMPAIGNS = [
     "trade": ".00.4",
     "tags": "..............2..4......4",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -221743,6 +226711,9 @@ const CAMPAIGNS = [
     "trade": ".4..4",
     "tags": "....................4....",
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
     "extra": true
    },
    {
@@ -221834,6 +226805,9 @@ const CAMPAIGNS = [
     "trade": "0.303",
     "tags": "..........3.....03.2.2..3",
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -221914,6 +226888,9 @@ const CAMPAIGNS = [
     "trade": ".2.22",
     "tags": "..............4....2..42.",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
     "extra": true
    },
    {
@@ -222005,6 +226982,9 @@ const CAMPAIGNS = [
     "trade": "14.41",
     "tags": "................24...1.1.",
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -222101,6 +227081,9 @@ const CAMPAIGNS = [
     "trade": ".1.1.",
     "tags": "...................12....",
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -222176,6 +227159,9 @@ const CAMPAIGNS = [
     "trade": "...12",
     "tags": ".......................2.",
     "sea": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
     "extra": true
    },
    {
@@ -222262,6 +227248,9 @@ const CAMPAIGNS = [
     "trade": "212.0",
     "tags": ".......................0.",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
     "extra": true
    },
    {
@@ -222342,6 +227331,9 @@ const CAMPAIGNS = [
     "trade": "..121",
     "tags": ".............1.....2..1.0",
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -222426,6 +227418,9 @@ const CAMPAIGNS = [
     "trade": ".23..",
     "tags": ".............3.........24",
     "sea": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
     "extra": true
    },
    {
@@ -222514,6 +227509,9 @@ const CAMPAIGNS = [
     "trade": "4.3.3",
     "tags": "........3...........3....",
     "sea": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 13,
     "extra": true
    },
    {
@@ -222609,6 +227607,9 @@ const CAMPAIGNS = [
     "trade": ".2...",
     "tags": ".............4......0...4",
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
     "extra": true
    },
    {
@@ -222697,6 +227698,9 @@ const CAMPAIGNS = [
     "trade": "2.24.",
     "tags": "...........4.............",
     "sea": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
     "extra": true
    },
    {
@@ -222831,6 +227835,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -222958,6 +227965,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 5,
+    "steps": 20,
     "extra": true
    },
    {
@@ -223082,6 +228092,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 5,
+    "hardest": 6,
+    "steps": 18,
     "extra": true
    },
    {
@@ -223208,6 +228221,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -223322,6 +228338,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
     "extra": true
    },
    {
@@ -223447,6 +228466,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -223577,6 +228599,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 0,
+    "hardest": 2,
+    "steps": 16,
     "extra": true
    },
    {
@@ -223711,6 +228736,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -223835,6 +228863,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -223957,6 +228988,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -224082,6 +229116,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -224204,6 +229241,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -224326,6 +229366,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 1,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -224449,6 +229492,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -224588,6 +229634,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -224705,6 +229754,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -224839,6 +229891,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 1,
+    "hardest": 3,
+    "steps": 23,
     "extra": true
    },
    {
@@ -224969,6 +230024,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 24,
     "extra": true
    },
    {
@@ -225095,6 +230153,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 5,
+    "hardest": 3,
+    "steps": 24,
     "extra": true
    },
    {
@@ -225220,6 +230281,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ccknkkc",
     "sea": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -225326,6 +230390,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kncckcc",
     "sea": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 16,
     "extra": true
    },
    {
@@ -225436,6 +230503,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckcckk",
     "sea": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -225553,6 +230623,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckckkcc",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
     "extra": true
    },
    {
@@ -225679,6 +230752,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kcccccn",
     "sea": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 16,
     "extra": true
    },
    {
@@ -225796,6 +230872,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cnckkkk",
     "sea": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 17,
     "extra": true
    },
    {
@@ -225910,6 +230989,9 @@ const CAMPAIGNS = [
     ],
     "rank": "nkckcck",
     "sea": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -226015,6 +231097,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kcckccc",
     "sea": 2,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 17,
     "extra": true
    },
    {
@@ -226120,6 +231205,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckccnn",
     "sea": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -226244,6 +231332,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckckkcc",
     "sea": 4,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -226361,6 +231452,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kcccccc",
     "sea": 3,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
     "extra": true
    },
    {
@@ -226474,6 +231568,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ckcckcn",
     "sea": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 23,
     "extra": true
    },
    {
@@ -226594,6 +231691,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kkcckkk",
     "sea": 0,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -226714,6 +231814,9 @@ const CAMPAIGNS = [
     ],
     "rank": "kkkkcnk",
     "sea": 0,
+    "hard": 4,
+    "hardest": 3,
+    "steps": 21,
     "extra": true
    },
    {
@@ -226839,6 +231942,9 @@ const CAMPAIGNS = [
     ],
     "rank": "ccknkkc",
     "sea": 0,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -226962,6 +232068,9 @@ const CAMPAIGNS = [
     ],
     "rank": "cckckkc",
     "sea": 0,
+    "hard": 5,
+    "hardest": 3,
+    "steps": 24,
     "extra": true
    },
    {
@@ -227120,6 +232229,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 6,
+    "hardest": 4,
+    "steps": 22,
     "extra": true
    },
    {
@@ -227275,6 +232387,9 @@ const CAMPAIGNS = [
      4
     ],
     "tries": 1,
+    "hard": 5,
+    "hardest": 6,
+    "steps": 21,
     "extra": true
    },
    {
@@ -227437,6 +232552,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 18,
     "extra": true
    },
    {
@@ -227587,6 +232705,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 6,
+    "hardest": 6,
+    "steps": 23,
     "extra": true
    },
    {
@@ -227752,6 +232873,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 6,
+    "steps": 20,
     "extra": true
    },
    {
@@ -227912,6 +233036,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
     "extra": true
    },
    {
@@ -228062,6 +233189,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
     "extra": true
    },
    {
@@ -228225,6 +233355,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 3,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -228387,6 +233520,9 @@ const CAMPAIGNS = [
     "lawful": [
      3
     ],
+    "hard": 6,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -228548,6 +233684,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 8,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -228702,6 +233841,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 5,
+    "steps": 21,
     "extra": true
    },
    {
@@ -228859,6 +234001,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -229018,6 +234163,9 @@ const CAMPAIGNS = [
     "lawful": [
      2
     ],
+    "hard": 4,
+    "hardest": 4,
+    "steps": 33,
     "extra": true
    },
    {
@@ -229174,6 +234322,9 @@ const CAMPAIGNS = [
     "lawful": [
      1
     ],
+    "hard": 2,
+    "hardest": 4,
+    "steps": 30,
     "extra": true
    },
    {
@@ -229327,6 +234478,9 @@ const CAMPAIGNS = [
     "lawful": [
      0
     ],
+    "hard": 7,
+    "hardest": 4,
+    "steps": 42,
     "extra": true
    },
    {
@@ -229465,6 +234619,9 @@ const CAMPAIGNS = [
     ],
     "tags": ".......L......C..L..............L...L..............L.............................",
     "sea": 1,
+    "hard": 5,
+    "hardest": 6,
+    "steps": 25,
     "extra": true
    },
    {
@@ -229619,6 +234776,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..........................................................L.........C.L..L.......",
     "sea": 1,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -229774,6 +234934,9 @@ const CAMPAIGNS = [
     ],
     "tags": "................................C........L.C.C.......L.....C............L.C..L...",
     "sea": 0,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 22,
     "extra": true
    },
    {
@@ -229923,6 +235086,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..........................................L....................C............L....",
     "sea": 0,
+    "hard": 6,
+    "hardest": 5,
+    "steps": 26,
     "extra": true
    },
    {
@@ -230060,6 +235226,9 @@ const CAMPAIGNS = [
     ],
     "tags": ".............................................C.........C.............L........L.L",
     "sea": 0,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 27,
     "extra": true
    },
    {
@@ -230212,6 +235381,9 @@ const CAMPAIGNS = [
     ],
     "tags": ".....................C..................C..........L.............................",
     "sea": 0,
+    "hard": 2,
+    "hardest": 6,
+    "steps": 22,
     "extra": true
    },
    {
@@ -230369,6 +235541,9 @@ const CAMPAIGNS = [
     ],
     "tags": "L..........................L..................L.......C...............C..........",
     "sea": 1,
+    "hard": 7,
+    "hardest": 6,
+    "steps": 28,
     "extra": true
    },
    {
@@ -230522,6 +235697,9 @@ const CAMPAIGNS = [
     ],
     "tags": "..............C...............C............C.......C....C....CC....L............L",
     "sea": 0,
+    "hard": 7,
+    "hardest": 7,
+    "steps": 28,
     "extra": true
    },
    {
@@ -230673,6 +235851,9 @@ const CAMPAIGNS = [
     ],
     "tags": "................C.........C.......C..................L...........................",
     "sea": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 28,
     "extra": true
    },
    {
@@ -230823,6 +236004,9 @@ const CAMPAIGNS = [
     ],
     "tags": "C........................................................L........L..............",
     "sea": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 23,
     "extra": true
    },
    {
@@ -230975,6 +236159,9 @@ const CAMPAIGNS = [
     ],
     "tags": "C........L.......................................................................",
     "sea": 3,
+    "hard": 2,
+    "hardest": 7,
+    "steps": 25,
     "extra": true
    },
    {
@@ -231168,6 +236355,9 @@ const CAMPAIGNS = [
     "rank": "knckckcckk",
     "trade": ".......2..",
     "tags": "........0............2..................2.1....2..................................1......1..........",
+    "hard": 7,
+    "hardest": 7,
+    "steps": 24,
     "extra": true
    },
    {
@@ -231360,6 +236550,9 @@ const CAMPAIGNS = [
     "rank": "kckcnknckc",
     "trade": "1..3.3...0",
     "tags": "..................2......4...............................3...3...1.......4......3.....3...0.........",
+    "hard": 6,
+    "hardest": 6,
+    "steps": 27,
     "extra": true
    },
    {
@@ -231562,6 +236755,9 @@ const CAMPAIGNS = [
     "rank": "cckncccnnc",
     "trade": ".4..1.433.",
     "tags": "................4......3.2.............................................3..2.........3...............",
+    "hard": 10,
+    "hardest": 7,
+    "steps": 31,
     "extra": true
    },
    {
@@ -231756,6 +236952,9 @@ const CAMPAIGNS = [
     "rank": "ckcnkccccc",
     "trade": ".42.3....3",
     "tags": ".............2.1.4..3.......42................2............2.................2....................3.",
+    "hard": 9,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -231955,6 +237154,9 @@ const CAMPAIGNS = [
     "rank": "ccknkkkkcc",
     "trade": "4......1.4",
     "tags": ".....4.........3..............................4.............3....1....1.................3......44...",
+    "hard": 9,
+    "hardest": 6,
+    "steps": 31,
     "extra": true
    },
    {
@@ -232145,6 +237347,9 @@ const CAMPAIGNS = [
     "rank": "cckkckccnc",
     "trade": "3033..1..4",
     "tags": "3........................................13...............0.........1...4......2...........4........",
+    "hard": 9,
+    "hardest": 8,
+    "steps": 24,
     "extra": true
    },
    {
@@ -232341,6 +237546,9 @@ const CAMPAIGNS = [
     "rank": "nncckkcccc",
     "trade": "34.0.24...",
     "tags": "....3....31.........3.1....2..04......0...............2...........4..............2............0.....",
+    "hard": 7,
+    "hardest": 8,
+    "steps": 24,
     "extra": true
    },
    {
@@ -232544,6 +237752,9 @@ const CAMPAIGNS = [
     "rank": "ccccnknnck",
     "trade": ".3.31.114.",
     "tags": "...............................3.4.............1.14...............14....4.....1.....................",
+    "hard": 4,
+    "hardest": 7,
+    "steps": 30,
     "extra": true
    },
    {
@@ -232747,6 +237958,9 @@ const CAMPAIGNS = [
     "rank": "cncckncncc",
     "trade": "114...3.13",
     "tags": ".........11.......4..............4...2.........4..............................1.......4...3....3....",
+    "hard": 9,
+    "hardest": 7,
+    "steps": 33,
     "extra": true
    },
    {
@@ -232955,6 +238169,9 @@ const CAMPAIGNS = [
     "rank": "ckcnncccck",
     "trade": "...0.34.41",
     "tags": ".....0..............................0...............3333....1.......4..........3.3.....0.4.1...3....",
+    "hard": 7,
+    "hardest": 6,
+    "steps": 41,
     "extra": true
    },
    {
@@ -233163,6 +238380,9 @@ const CAMPAIGNS = [
     "rank": "ckkckkckcc",
     "trade": "3.21.114.1",
     "tags": "..1...3.11.0...2......2.........41....................1.....4...24........4...4...........1...3...1.",
+    "hard": 6,
+    "hardest": 8,
+    "steps": 42,
     "extra": true
    },
    {
@@ -233346,6 +238566,9 @@ const CAMPAIGNS = [
      0,
      5
     ],
+    "hard": 2,
+    "hardest": 5,
+    "steps": 24,
     "extra": true
    },
    {
@@ -233544,6 +238767,9 @@ const CAMPAIGNS = [
      6
     ],
     "tries": 1,
+    "hard": 8,
+    "hardest": 6,
+    "steps": 29,
     "extra": true
    },
    {
@@ -233747,6 +238973,9 @@ const CAMPAIGNS = [
      0,
      5
     ],
+    "hard": 8,
+    "hardest": 6,
+    "steps": 29,
     "extra": true
    },
    {
@@ -233935,6 +239164,9 @@ const CAMPAIGNS = [
     "lawful": [
      4
     ],
+    "hard": 6,
+    "hardest": 7,
+    "steps": 29,
     "extra": true
    },
    {
@@ -234124,6 +239356,9 @@ const CAMPAIGNS = [
      0,
      3
     ],
+    "hard": 4,
+    "hardest": 8,
+    "steps": 27,
     "extra": true
    },
    {
@@ -234325,6 +239560,9 @@ const CAMPAIGNS = [
      0,
      3
     ],
+    "hard": 11,
+    "hardest": 5,
+    "steps": 34,
     "extra": true
    },
    {
@@ -234518,6 +239756,9 @@ const CAMPAIGNS = [
      4,
      5
     ],
+    "hard": 7,
+    "hardest": 7,
+    "steps": 36,
     "extra": true
    },
    {
@@ -234721,6 +239962,9 @@ const CAMPAIGNS = [
      3,
      5
     ],
+    "hard": 8,
+    "hardest": 9,
+    "steps": 33,
     "extra": true
    },
    {
@@ -234910,6 +240154,9 @@ const CAMPAIGNS = [
      3,
      5
     ],
+    "hard": 6,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -235138,6 +240385,9 @@ const CAMPAIGNS = [
     "rank": "knkkckkkckkc",
     "trade": "0...3.33..1.",
     "tags": "......2...03..L44...C..3..L.....2.1.............3............................3.......L.......3..1..L2...L0...C..0........1.30.4...0....2.1......",
+    "hard": 5,
+    "hardest": 8,
+    "steps": 29,
     "extra": true
    },
    {
@@ -235373,6 +240623,9 @@ const CAMPAIGNS = [
     "rank": "knccnnnkcckc",
     "trade": "..4.23....33",
     "tags": "...............3C.............C....C3............1...............0..2..34.......C..............0L........3.....2...............C........LL.3..4.",
+    "hard": 9,
+    "hardest": 8,
+    "steps": 37,
     "extra": true
    },
    {
@@ -235599,6 +240852,9 @@ const CAMPAIGNS = [
     "rank": "cncnccnckknc",
     "trade": "..034.42.101",
     "tags": ".C.....43........1......C....2.3...........3L.........3..2..3...L........L..1....43.......C....2.....0....L...31....1........0............L.....",
+    "hard": 7,
+    "hardest": 10,
+    "steps": 31,
     "extra": true
    },
    {
@@ -235819,6 +241075,9 @@ const CAMPAIGNS = [
     "rank": "cccccnnnckkc",
     "trade": "3.10..203..1",
     "tags": "...2.3........C3..3............1...............L.....L.......4.....L41..........L.2........L...0..03......3....0.....1.......L......C....4......",
+    "hard": 8,
+    "hardest": 10,
+    "steps": 35,
     "extra": true
    },
    {
@@ -236047,6 +241306,9 @@ const CAMPAIGNS = [
     "rank": "nncnkkkccccc",
     "trade": ".0..3...003.",
     "tags": ".....................4L.CC......C2C.3.L...........3................1......................C...4...........0.0......3...2.3...3....0....CLL......",
+    "hard": 10,
+    "hardest": 7,
+    "steps": 42,
     "extra": true
    },
    {
@@ -236277,6 +241539,9 @@ const CAMPAIGNS = [
     "rank": "cncncckncccc",
     "trade": "..3.1133.00.",
     "tags": ".............................L........................0.1...L1.1..........4.........4.........3...........C.1...0........C..C......0.......C....",
+    "hard": 8,
+    "hardest": 10,
+    "steps": 46,
     "extra": true
    }
   ]
@@ -237425,6 +242690,7 @@ function solve(level, blocking, { limit = 2, maxNodes = Infinity, restrict = nul
 // facts:   case facts [t, v, k] (only when there are some)
 // doors:   cell pairs [i, j]        windows: [[cell, side], ...]
 // tries:   "what if" steps the hints need (the difficulty)
+// hard, hardest, steps: the step score (see caseScore in hints.js)
 
 
 const RANK_CODE = { noble: 'n', knight: 'k', commoner: 'c' };
@@ -237434,7 +242700,7 @@ const tradeIndex = id => TRADES.findIndex(t => t.id === id);
 // Short fingerprint of a stored case: its board, people and clues, not its group.
 // Saved progress is keyed by it, so progress stays with its case when cases move.
 function caseId(raw) {
-  const { group, extra, tries, ...rest } = raw;
+  const { group, extra, tries, hard, hardest, steps, ...rest } = raw;
   const text = JSON.stringify(rest);
   let a = 5381, b = 0;
   for (let i = 0; i < text.length; i++) {
@@ -237478,6 +242744,7 @@ function encodeLevel(theme, level) {
   if (level.doors.length) out.doors = level.doors;
   if (level.windows.length) out.windows = level.windows;
   if (level.tries >= 0) out.tries = level.tries;
+  if (level.score) Object.assign(out, { hard: level.score.hard, hardest: level.score.hardest, steps: level.score.steps });
   if (level.facts?.length) out.facts = level.facts.map(f => (f.k === undefined ? [f.t, f.v] : [f.t, f.v, f.k]));
   const rules = level.rules || [];
   if (!rules.length) return out;
@@ -237515,6 +242782,7 @@ function decodeLevel(theme, raw) {
     facts: (raw.facts || []).map(([t, v, k]) => ({ t, v, k })),
     sea: raw.sea ?? -1,
     tries: raw.tries ?? null,
+    score: raw.hard >= 0 ? { hard: raw.hard, hardest: raw.hardest, steps: raw.steps } : null,
   };
   if (raw.rank) { level.court = raw.court; level.rank = [...raw.rank].map(ch => RANK_NAME[ch]); }
   if (raw.trade) level.trade = [...raw.trade].map(ch => (ch === '.' ? null : TRADES[+ch].id));
@@ -237549,6 +242817,20 @@ const UNARY = new Set(['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 
 
 // "is" for one person, "are" for more.
 const isAre = k => (k === 1 ? 'is' : 'are');
+
+// Moves of one tier of techniques on state st that pass ok, at most cap,
+// each with the name of its technique.
+function tierMoves(st, tier, ok, cap) {
+  const moves = [];
+  for (const t of tier) {
+    for (const m of t(st)) {
+      if (!ok(m)) continue;
+      moves.push({ ...m, tech: t.name });
+      if (moves.length >= cap) return moves;
+    }
+  }
+  return moves;
+}
 
 // alone[p]: p was alone in a room. same: pairs [p, q] in the same room.
 function sameAndAlone(level) {
@@ -238399,19 +243681,6 @@ function deduce(level, blocking, T, { deep = true, start = null, limit = Infinit
     for (const i of before) if (!after.has(i) && !t.pos.includes(i)) k++;
     return k;
   };
-
-  // Moves of one tier that pass ok, at most cap, each with the name of its technique.
-  function tierMoves(st, tier, ok, cap) {
-    const moves = [];
-    for (const t of tier) {
-      for (const m of t(st)) {
-        if (!ok(m)) continue;
-        moves.push({ ...m, tech: t.name });
-        if (moves.length >= cap) return moves;
-      }
-    }
-    return moves;
-  }
 
   // The move that crosses out the most cells (the first one on a tie).
   function widest(st, moves) {
@@ -239482,6 +244751,7 @@ function caseIsGood(level, rules, mustFacts, blocking, limit, minTries, maxTries
   const k = trialCount(level, blocking);
   if (k < minTries || k > maxTries || !fitsLimit(level, blocking, limit)) return false;
   level.tries = k;
+  level.score = caseScore(level, blocking);
   return true;
 }
 
@@ -239759,11 +245029,41 @@ function logo(cls, roomy = false) {
 
 // A colored badge for how hard a case is. The tooltip gives the exact number of tries.
 // None when the hints can not solve the case step by step (tries -1).
-function difficultyBadge(tries) {
+// "what if" steps of a group, as text: "0", "1 to 2", "11 or more".
+function triesRange(d) {
+  if (d.max === Infinity) return `${d.min} or more`;
+  return d.min === d.max ? String(d.min) : `${d.min} to ${d.max}`;
+}
+
+// A count with its word: "1 step", "2 steps".
+const count = (k, word) => `${k} ${word}${k === 1 ? '' : 's'}`;
+
+// The limit of a group's step budget, as text.
+const atMost = v => (v === Infinity ? 'no limit' : `at most ${v}`);
+
+// Everything that sets the difficulty of a case, one line each.
+// score: { hard, hardest, steps } (see caseScore in hints.js), or null when the
+// hints can not work it out (a case that does not fit the rules).
+function difficultyLines(tries, score) {
+  const d = DIFFICULTY[difficultyIndex(tries)];
+  const triesLine = `${count(tries, '"what if" step')} in the hints (${d.name}: ${triesRange(d)})`;
+  if (!score) return [triesLine, 'The hints can not work out the other steps of this case.'];
+  return [
+    triesLine,
+    `${count(score.hard, 'hard step')} (${d.name}: ${atMost(d.hard)})`,
+    `Hardest step: weight ${score.hardest} (${d.name}: ${atMost(d.hardest)})`,
+    `${count(score.steps, 'step')} in all`,
+    'Step weights: 1 simple, 2 room rules, 3 needs and counts, 4 line groups, 6 "what if"; ' +
+      '+1 for each person beyond three. Hard: weight 3 or more, not counting "what if" steps.',
+  ];
+}
+
+// Difficulty badge: the group name. The tooltip tells everything that sets it.
+function difficultyBadge(tries, score) {
   if (tries < 0) return null;
   const d = difficultyIndex(tries);
-  const tip = `${tries} "what if" ${tries === 1 ? 'step' : 'steps'} in the hints`;
-  return el(`span.difficulty.d${d}`, { title: tip, 'aria-label': `${DIFFICULTY[d].name}: ${tip}` }, DIFFICULTY[d].name);
+  const lines = difficultyLines(tries, score);
+  return el(`span.difficulty.d${d}`, { title: `${DIFFICULTY[d].name}\n${lines.join('\n')}`, 'aria-label': `${DIFFICULTY[d].name}: ${lines.join('. ')}` }, DIFFICULTY[d].name);
 }
 
 // ---- js/game.js ----
@@ -239852,6 +245152,12 @@ function checkClass(ok) {
   return ok === false ? '.no' : '';
 }
 
+// Title of a hint page.
+function stepLabel(step) {
+  if (step.mistake) return 'Check your board';
+  return step.done ? 'All placed' : 'Your next step';
+}
+
 // A text field with a copy button. status: where to say how the copy went.
 function copyField(label, value, status) {
   const box = el('textarea', { rows: 2, readOnly: true, value });
@@ -239878,7 +245184,9 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
   const blocking = blockingSet(theme);
   const victim = victimIndex(level);
   // "What if" steps the hints need. Old links do not store it: work it out once.
-  const tries = level.tries ?? trialCount(level, blocking);
+  // The step score: null if the hints can not solve it step by step (then tries is -1).
+  const score = level.score ?? caseScore(level, blocking);
+  const tries = level.tries ?? score?.tries ?? -1;
   const key = custom ? `x:${custom.id}` : levelKey(theme.id, campaign.levels[index]);
   // Letter: A, B, C, … for suspects, V for the victim (the first letter of the name).
   // Old links may have other names: then the letter follows the list order.
@@ -240816,12 +246124,6 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
     const first = lead.length ? `${lead.join(' ')} Then: ` : '';
     // A clue step explains itself; the quiet steps before it only matter for other steps.
     return shown.map(step => ({ ...step, text: (step.allowed ? '' : first) + usesNotes(step), own: true }));
-  }
-
-  // Title of a hint page.
-  function stepLabel(step) {
-    if (step.mistake) return 'Check your board';
-    return step.done ? 'All placed' : 'Your next step';
   }
 
   async function openHints() {
@@ -241787,7 +247089,7 @@ function renderGame(app, theme, campaign, index, shared = null, custom = null) {
         fullscreenButton()),
       el('header.case-head', { style: { '--h': theme.hue } },
         el('p.case-campaign', {}, custom ? `${theme.title} · made by you` : theme.title),
-        el('h1', {}, `${theme.icon} ${caseName}`, el('small', {}, ` · ${n} × ${n} `), difficultyBadge(tries)),
+        el('h1', {}, `${theme.icon} ${caseName}`, el('small', {}, ` · ${n} × ${n} `), difficultyBadge(tries, score)),
         state.solved
           ? el('p.story.closed', {}, `Case closed. ${level.people[killer].name} did it.`)
           : el('p.story', {}, `${level.people[victim].name} was found dead. Place everyone, then name the person who was alone with the victim.`)),
@@ -242354,7 +247656,7 @@ function renderCampaign(theme) {
         return el('li.case-item', { style: { '--h': theme.hue } }, closeBox, el(`a.case-card.${status}`, { href: `#/c/${theme.id}/${i}`, style: { '--h': theme.hue } },
           caseThumb(theme, lv),
           el('span.case-num', {}, `Case ${items.findIndex(([, j]) => j === i) + 1}`),
-          el('span.case-size', {}, `${lv.size} × ${lv.size} `, difficultyBadge(lv.tries)),
+          el('span.case-size', {}, `${lv.size} × ${lv.size} `, difficultyBadge(lv.tries, { hard: lv.hard, hardest: lv.hardest, steps: lv.steps })),
           el('span.case-victim', {}, `Victim: ${lv.people[lv.victim]}`),
           theme.mix ? el('span.case-victim', {}, lv.rules.map(r => RULE_LABEL[r]).join(' · ')) : null,
           status === 'started' ? el('span.case-status', {}, 'In progress') : null,

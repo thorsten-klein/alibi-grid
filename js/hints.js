@@ -19,6 +19,20 @@ const UNARY = new Set(['room', 'notRoom', 'on', 'next', 'row', 'col', 'bandit', 
 // "is" for one person, "are" for more.
 const isAre = k => (k === 1 ? 'is' : 'are');
 
+// Moves of one tier of techniques on state st that pass ok, at most cap,
+// each with the name of its technique.
+function tierMoves(st, tier, ok, cap) {
+  const moves = [];
+  for (const t of tier) {
+    for (const m of t(st)) {
+      if (!ok(m)) continue;
+      moves.push({ ...m, tech: t.name });
+      if (moves.length >= cap) return moves;
+    }
+  }
+  return moves;
+}
+
 // alone[p]: p was alone in a room. same: pairs [p, q] in the same room.
 function sameAndAlone(level) {
   const alone = new Array(level.people.length).fill(false);
@@ -868,19 +882,6 @@ export function deduce(level, blocking, T, { deep = true, start = null, limit = 
     for (const i of before) if (!after.has(i) && !t.pos.includes(i)) k++;
     return k;
   };
-
-  // Moves of one tier that pass ok, at most cap, each with the name of its technique.
-  function tierMoves(st, tier, ok, cap) {
-    const moves = [];
-    for (const t of tier) {
-      for (const m of t(st)) {
-        if (!ok(m)) continue;
-        moves.push({ ...m, tech: t.name });
-        if (moves.length >= cap) return moves;
-      }
-    }
-    return moves;
-  }
 
   // The move that crosses out the most cells (the first one on a tie).
   function widest(st, moves) {

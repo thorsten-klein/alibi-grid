@@ -53,7 +53,9 @@ test.describe('campaign', () => {
     await expect(page.locator('details.case-group').last().locator('.case-num').first()).toHaveText('Case 1');
     const cards = page.locator('.case-card');
     await expect(page.locator('.case-thumb')).toHaveCount(await cards.count());
-    await expect(cards.first().locator('.difficulty')).toHaveAttribute('title', /"what if" step/);
+    // The tooltip tells everything that sets the difficulty.
+    const badge = cards.first().locator('.difficulty');
+    for (const part of [/"what if" step/, /hard step/, /Hardest step: weight \d/, /steps in all/, /Step weights/]) await expect(badge).toHaveAttribute('title', part);
     // No stray "null" where a campaign has no rule list.
     await expect(page.locator('#app')).not.toContainText('null');
     // Fold the Medium group: it stays folded after a reload.

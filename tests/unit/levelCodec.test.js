@@ -25,6 +25,13 @@ test('a level without doors, windows or a stored difficulty, and even and odd ro
   assert.equal(bare.windows, undefined);
   assert.equal(bare.tries, undefined);
   assert.equal(encodeLevel(theme, { ...level, tries: -1 }).tries, undefined);
+  // The step score is stored next to the tries, and only when it is known.
+  const { hard, hardest, steps, ...plain } = raw;
+  assert.equal(decodeLevel(theme, plain).score, null);
+  assert.equal(encodeLevel(theme, { ...level, score: null }).hard, undefined);
+  const scored = encodeLevel(theme, { ...level, score: { hard: 2, hardest: 4, steps: 11 } });
+  assert.deepEqual([scored.hard, scored.hardest, scored.steps], [2, 4, 11]);
+  assert.deepEqual(decodeLevel(theme, scored).score, { hard: 2, hardest: 4, steps: 11 });
   const marked = decodeLevel(theme, { ...raw, rules: ['parity'], parity: [[0, 'e'], [1, 'o']] });
   assert.deepEqual(marked.parity, [[0, 'even'], [1, 'odd']]);
 });

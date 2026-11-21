@@ -222,9 +222,14 @@ test.describe('odd cases', () => {
   });
 
   test('a link to an old case without a stored difficulty works it out', async ({ page }) => {
-    const { tries, ...old } = LEVEL;
+    const { tries, hard, hardest, steps, ...old } = LEVEL;
     await page.goto(levelLink('manor', old));
     await expect(page.locator('.case-head .difficulty')).toHaveAttribute('title', /"what if" step/);
+    await expect(page.locator('.case-head .difficulty')).toHaveAttribute('title', /hard step/);
+    // An old link the hints can not solve step by step (one clue only): no badge.
+    await page.goto(levelLink('manor', { ...old, clues: old.clues.slice(0, 1) }));
+    await expect(page.locator('.case-head h1')).toBeVisible();
+    await expect(page.locator('.case-head .difficulty')).toHaveCount(0);
   });
 });
 

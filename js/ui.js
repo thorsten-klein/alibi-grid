@@ -178,9 +178,39 @@ export function logo(cls, roomy = false) {
 
 // A colored badge for how hard a case is. The tooltip gives the exact number of tries.
 // None when the hints can not solve the case step by step (tries -1).
-export function difficultyBadge(tries) {
+// "what if" steps of a group, as text: "0", "1 to 2", "11 or more".
+function triesRange(d) {
+  if (d.max === Infinity) return `${d.min} or more`;
+  return d.min === d.max ? String(d.min) : `${d.min} to ${d.max}`;
+}
+
+// A count with its word: "1 step", "2 steps".
+const count = (k, word) => `${k} ${word}${k === 1 ? '' : 's'}`;
+
+// The limit of a group's step budget, as text.
+const atMost = v => (v === Infinity ? 'no limit' : `at most ${v}`);
+
+// Everything that sets the difficulty of a case, one line each.
+// score: { hard, hardest, steps } (see caseScore in hints.js), or null when the
+// hints can not work it out (a case that does not fit the rules).
+export function difficultyLines(tries, score) {
+  const d = DIFFICULTY[difficultyIndex(tries)];
+  const triesLine = `${count(tries, '"what if" step')} in the hints (${d.name}: ${triesRange(d)})`;
+  if (!score) return [triesLine, 'The hints can not work out the other steps of this case.'];
+  return [
+    triesLine,
+    `${count(score.hard, 'hard step')} (${d.name}: ${atMost(d.hard)})`,
+    `Hardest step: weight ${score.hardest} (${d.name}: ${atMost(d.hardest)})`,
+    `${count(score.steps, 'step')} in all`,
+    'Step weights: 1 simple, 2 room rules, 3 needs and counts, 4 line groups, 6 "what if"; ' +
+      '+1 for each person beyond three. Hard: weight 3 or more, not counting "what if" steps.',
+  ];
+}
+
+// Difficulty badge: the group name. The tooltip tells everything that sets it.
+export function difficultyBadge(tries, score) {
   if (tries < 0) return null;
   const d = difficultyIndex(tries);
-  const tip = `${tries} "what if" ${tries === 1 ? 'step' : 'steps'} in the hints`;
-  return el(`span.difficulty.d${d}`, { title: tip, 'aria-label': `${DIFFICULTY[d].name}: ${tip}` }, DIFFICULTY[d].name);
+  const lines = difficultyLines(tries, score);
+  return el(`span.difficulty.d${d}`, { title: `${DIFFICULTY[d].name}\n${lines.join('\n')}`, 'aria-label': `${DIFFICULTY[d].name}: ${lines.join('. ')}` }, DIFFICULTY[d].name);
 }

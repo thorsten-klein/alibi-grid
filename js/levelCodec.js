@@ -16,6 +16,7 @@
 // facts:   case facts [t, v, k] (only when there are some)
 // doors:   cell pairs [i, j]        windows: [[cell, side], ...]
 // tries:   "what if" steps the hints need (the difficulty)
+// hard, hardest, steps: the step score (see caseScore in hints.js)
 
 import { TRADES } from './themes.js';
 
@@ -26,7 +27,7 @@ const tradeIndex = id => TRADES.findIndex(t => t.id === id);
 // Short fingerprint of a stored case: its board, people and clues, not its group.
 // Saved progress is keyed by it, so progress stays with its case when cases move.
 export function caseId(raw) {
-  const { group, extra, tries, ...rest } = raw;
+  const { group, extra, tries, hard, hardest, steps, ...rest } = raw;
   const text = JSON.stringify(rest);
   let a = 5381, b = 0;
   for (let i = 0; i < text.length; i++) {
@@ -70,6 +71,7 @@ export function encodeLevel(theme, level) {
   if (level.doors.length) out.doors = level.doors;
   if (level.windows.length) out.windows = level.windows;
   if (level.tries >= 0) out.tries = level.tries;
+  if (level.score) Object.assign(out, { hard: level.score.hard, hardest: level.score.hardest, steps: level.score.steps });
   if (level.facts?.length) out.facts = level.facts.map(f => (f.k === undefined ? [f.t, f.v] : [f.t, f.v, f.k]));
   const rules = level.rules || [];
   if (!rules.length) return out;
@@ -107,6 +109,7 @@ export function decodeLevel(theme, raw) {
     facts: (raw.facts || []).map(([t, v, k]) => ({ t, v, k })),
     sea: raw.sea ?? -1,
     tries: raw.tries ?? null,
+    score: raw.hard >= 0 ? { hard: raw.hard, hardest: raw.hardest, steps: raw.steps } : null,
   };
   if (raw.rank) { level.court = raw.court; level.rank = [...raw.rank].map(ch => RANK_NAME[ch]); }
   if (raw.trade) level.trade = [...raw.trade].map(ch => (ch === '.' ? null : TRADES[+ch].id));

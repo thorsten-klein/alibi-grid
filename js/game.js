@@ -4,7 +4,7 @@ import { decodeLevel, encodeLevel } from './levelCodec.js';
 import { makeLevel, DIFFICULTY, difficultyIndex, campaignCaseName } from './generator.js';
 import { blockingSet, colName, RANKS, COURT, GLYPHS, SEA, LAWFUL, tradeById, ruleText, clueText, article, factText } from './themes.js';
 import { clueState, murdererOf, victimIndex, factCells, CELL_FACTS, featureCells, compareText } from './rules.js';
-import { deduce, trialCount } from './hints.js';
+import { deduce, caseScore } from './hints.js';
 import { loadLevel, saveLevel, levelKey, isClosed, getSetting, setSetting } from './storage.js';
 import { el, showDialog, personColor, roomHue, icon, copyText, encodeData, logo, difficultyBadge, windowLine, sofaPairs } from './ui.js';
 
@@ -90,6 +90,12 @@ function checkClass(ok) {
   return ok === false ? '.no' : '';
 }
 
+// Title of a hint page.
+function stepLabel(step) {
+  if (step.mistake) return 'Check your board';
+  return step.done ? 'All placed' : 'Your next step';
+}
+
 // A text field with a copy button. status: where to say how the copy went.
 function copyField(label, value, status) {
   const box = el('textarea', { rows: 2, readOnly: true, value });
@@ -116,7 +122,9 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
   const blocking = blockingSet(theme);
   const victim = victimIndex(level);
   // "What if" steps the hints need. Old links do not store it: work it out once.
-  const tries = level.tries ?? trialCount(level, blocking);
+  // The step score: null if the hints can not solve it step by step (then tries is -1).
+  const score = level.score ?? caseScore(level, blocking);
+  const tries = level.tries ?? score?.tries ?? -1;
   const key = custom ? `x:${custom.id}` : levelKey(theme.id, campaign.levels[index]);
   // Letter: A, B, C, … for suspects, V for the victim (the first letter of the name).
   // Old links may have other names: then the letter follows the list order.
@@ -1054,12 +1062,6 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
     const first = lead.length ? `${lead.join(' ')} Then: ` : '';
     // A clue step explains itself; the quiet steps before it only matter for other steps.
     return shown.map(step => ({ ...step, text: (step.allowed ? '' : first) + usesNotes(step), own: true }));
-  }
-
-  // Title of a hint page.
-  function stepLabel(step) {
-    if (step.mistake) return 'Check your board';
-    return step.done ? 'All placed' : 'Your next step';
   }
 
   async function openHints() {
@@ -2025,7 +2027,7 @@ export function renderGame(app, theme, campaign, index, shared = null, custom = 
         fullscreenButton()),
       el('header.case-head', { style: { '--h': theme.hue } },
         el('p.case-campaign', {}, custom ? `${theme.title} · made by you` : theme.title),
-        el('h1', {}, `${theme.icon} ${caseName}`, el('small', {}, ` · ${n} × ${n} `), difficultyBadge(tries)),
+        el('h1', {}, `${theme.icon} ${caseName}`, el('small', {}, ` · ${n} × ${n} `), difficultyBadge(tries, score)),
         state.solved
           ? el('p.story.closed', {}, `Case closed. ${level.people[killer].name} did it.`)
           : el('p.story', {}, `${level.people[victim].name} was found dead. Place everyone, then name the person who was alone with the victim.`)),
