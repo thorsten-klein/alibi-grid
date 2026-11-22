@@ -5,10 +5,10 @@
 // rooms of 3+ cells, at most n rooms.
 // Extra cases (older cases that fit no group) need not fit a range or have
 // every part needed.
-// Also check that js/bundle.js is up to date.
+// The levels come from levels/. Also check that js/levels.js and js/bundle.js
+// are up to date. This check writes no files.
 // Run: node tools/check.mjs
 
-import { CAMPAIGNS } from '../js/levels.js';
 import { themeById, blockingSet } from '../js/themes.js';
 import { decodeLevel } from '../js/levelCodec.js';
 import { solve, murdererOf } from '../js/rules.js';
@@ -16,6 +16,9 @@ import { isDeducible, trialCount, caseScore } from '../js/hints.js';
 import { unneededParts, peopleWithoutClue, murdererTooEasy, fitsLimit, DIFFICULTY, campaignCaseName } from '../js/generator.js';
 import { readFileSync } from 'node:fs';
 import { buildBundle, BUNDLE_PATH } from './bundle.mjs';
+import { readCampaigns, compileLevels, LEVELS_PATH } from './compile-levels.mjs';
+
+const CAMPAIGNS = readCampaigns();
 
 // Rooms: at most n, each of 3 cells or more.
 function roomProblems(L) {
@@ -83,8 +86,13 @@ for (const c of CAMPAIGNS) {
     console.log(`FAIL ${c.theme} ${campaignCaseName(c.levels, i)} (${raw.size}x${raw.size}): ${problems.join(', ')}`);
   });
 }
-let stale = false;
-try { stale = readFileSync(BUNDLE_PATH, 'utf8') !== buildBundle(); } catch { stale = true; }
-if (stale) { failed++; console.log('FAIL js/bundle.js is out of date. Run: node tools/bundle.mjs'); }
+// A missing file counts as out of date.
+const isStale = (path, text) => { try { return readFileSync(path, 'utf8') !== text; } catch { return true; } };
+const levels = compileLevels(CAMPAIGNS);
+for (const [path, text] of [[LEVELS_PATH, levels], [BUNDLE_PATH, buildBundle(levels)]]) {
+  if (!isStale(path, text)) continue;
+  failed++;
+  console.log(`FAIL js/${path.pathname.split('/').pop()} is out of date. Run: node tools/bundle.mjs`);
+}
 console.log(failed ? `${failed} levels failed` : 'all levels ok');
 process.exit(failed ? 1 : 0);

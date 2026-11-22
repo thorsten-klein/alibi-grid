@@ -135,18 +135,19 @@ Each case shows its difficulty as a badge. Its tooltip gives the exact number.
 Below the four groups, "Additional Extra Levels" holds more cases of any difficulty:
 older cases that fit no group any more, and cases made with `--extra`.
 
-A script makes the levels and writes them to `js/levels.js`.
+A script makes the levels and writes one file per case to `levels/<theme>/`.
+`js/levels.js` and `js/bundle.js` are made from these files.
 It makes the cases in parallel. A case it can not make in time is left out:
 
 ```sh
 node tools/generate.mjs           # fill missing cases (also rebuilds the bundle)
 node tools/generate.mjs --extra   # make more extra cases (20 on 4×4 down to 3 on 12×12, per campaign)
 node tools/compile-levels.mjs      # compile individual levels/ into js/levels.js
-node tools/bundle.mjs             # rebuild js/bundle.js after editing js/ or levels/
-node tools/check.mjs              # check all levels and that the bundle is fresh
+node tools/bundle.mjs             # rebuild js/levels.js and js/bundle.js after editing js/ or levels/
+node tools/check.mjs              # check levels/, and that js/levels.js and the bundle are fresh
 ```
 
-The generator keeps the cases in `js/levels.js` and checks each one again.
+The generator keeps the cases in `levels/` and checks each one again.
 See the top of `tools/generate.mjs` for its options (sizes, time limit, seeds).
 
 Each level has exactly one solution. The step-by-step deduction (`js/hints.js`) must solve it

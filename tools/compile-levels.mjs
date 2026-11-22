@@ -1,32 +1,37 @@
-// Assemble levels/<theme>/*.json into js/levels.js
+// Assemble levels/<theme>/*.json into js/levels.js.
+// levels/ is the source. js/levels.js is made from it.
 // Run: node tools/compile-levels.mjs
 
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 import { THEMES } from '../js/themes.js';
 
-export function compileLevels() {
-  const campaigns = [];
+// The folder of a theme's level files.
+export const themeDir = id => new URL(`../levels/${id}/`, import.meta.url);
 
-  for (const theme of THEMES) {
-    const dir = new URL(`../levels/${theme.id}`, import.meta.url);
-    let files = [];
-    try {
-      files = readdirSync(dir).filter(f => f.endsWith('.json')).sort();
-    } catch {
-      continue;
-    }
+// Level files are named by their number: 000.json, 001.json, … 1000.json.
+const LEVEL_FILE = /^(\d+)\.json$/;
 
-    const levels = files.map(file => {
-      const content = readFileSync(new URL(`${dir.href}/${file}`), 'utf8');
-      return JSON.parse(content);
-    });
+// The level files of a theme, in number order. [] if the folder is missing.
+export function levelFiles(id) {
+  let names;
+  try { names = readdirSync(themeDir(id)); } catch { return []; }
+  const files = names.filter(f => f.endsWith('.json'));
+  const bad = files.filter(f => !LEVEL_FILE.test(f));
+  if (bad.length) throw new Error(`levels/${id}: bad file names: ${bad.join(', ')}`);
+  return files.sort((a, b) => Number.parseInt(a, 10) - Number.parseInt(b, 10));
+}
 
-    campaigns.push({
-      theme: theme.id,
-      levels,
-    });
-  }
+// All campaigns read from levels/. A theme with no files gets an empty list.
+export function readCampaigns() {
+  return THEMES.map(theme => ({
+    theme: theme.id,
+    levels: levelFiles(theme.id).map(f => JSON.parse(readFileSync(new URL(f, themeDir(theme.id)), 'utf8'))),
+  }));
+}
 
+// The text of js/levels.js.
+export function compileLevels(campaigns = readCampaigns()) {
   const lines = ['// Made from levels/. Do not edit by hand.', 'export const CAMPAIGNS = ['];
   for (const c of campaigns) {
     lines.push('  {');
@@ -40,13 +45,12 @@ export function compileLevels() {
     lines.push('  },');
   }
   lines.push('];\n');
-
   return lines.join('\n');
 }
 
 export const LEVELS_PATH = new URL('../js/levels.js', import.meta.url);
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   writeFileSync(LEVELS_PATH, compileLevels(), 'utf8');
   console.log('Compiled levels into js/levels.js');
 }
