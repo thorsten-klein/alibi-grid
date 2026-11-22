@@ -1,0 +1,186 @@
+{
+  "size": 9,
+  "rooms": "000000000111111000111111000222233444222233444555533444555533444555566666555566666",
+  "objects": ".e......fb.c..c..e...e..e.c..b.......b...e.......a.a..cf....f.e............e.....",
+  "roomNames": [
+    "Lookout Rock",
+    "Hide Tent",
+    "Cave",
+    "Berry Grove",
+    "Fire Pit",
+    "River Bank",
+    "Flint Pit"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Vera the valley guide",
+    "Bella the builder",
+    "Carl the carrier",
+    "Dexter the dancer",
+    "Elias the elk tamer",
+    "Frank the flute player",
+    "Gwen the grinder",
+    "Hana the hornblower"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "next",
+      "bones"
+    ],
+    [
+      7,
+      "room",
+      6
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    4,
+    15,
+    19,
+    32,
+    44,
+    48,
+    56,
+    70,
+    72
+  ],
+  "doors": [
+    [
+      0,
+      9
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "1.203.313",
+  "tags": "....1..1.....2.........0...20...0.1.....................3.........2...1.3........",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

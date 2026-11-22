@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222333444222333444222333444222333444555666666555666666",
+  "objects": "........be.......a.....eea.......f......c..cb..cbc..c......f.d....dfad...b.e.....",
+  "roomNames": [
+    "Kitchen",
+    "Stables",
+    "Tea Ceremony Room",
+    "Falconry Yard",
+    "Sentry Tower",
+    "Ninja Loft",
+    "Zen Garden"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the bushi warrior",
+    "Cedric the calligrapher",
+    "Dmitri the daimyo",
+    "Edgar the envoy",
+    "Vince the veteran general",
+    "Frank the falconer",
+    "Gideon the geisha",
+    "Henrik the hatamoto retainer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "tatami"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "on",
+      "tatami"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "armor"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "futon"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "futon"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    8,
+    13,
+    25,
+    32,
+    38,
+    48,
+    54,
+    64,
+    78
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "armor",
+      2
+    ],
+    [
+      "nextCount",
+      "shoji",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 37,
+  "extra": true
+}

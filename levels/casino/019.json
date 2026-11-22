@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "...e.....a..ec.......c..b.b...fbdb...d.c.....aa..",
+  "roomNames": [
+    "Main Casino Floor",
+    "High Roller Lounge",
+    "Parking Garage",
+    "Penthouse Suite",
+    "Cashier Cage"
+  ],
+  "people": [
+    "Vince the vip gambler",
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Cedric the croupier",
+    "Dmitri the dice inspector",
+    "Edgar the entertainer",
+    "Frank the floor manager"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "wheel"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "wheel"
+    ],
+    [
+      4,
+      "on",
+      "chaise"
+    ],
+    [
+      4,
+      "next",
+      "slots"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "next",
+      "slots"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    20,
+    22,
+    33,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "wheel",
+      2
+    ],
+    [
+      "nextCount",
+      "stool",
+      1
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 22,
+  "group": 2
+}

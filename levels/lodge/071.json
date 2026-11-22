@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".a..afe......ba.aed.e...a",
+  "roomNames": [
+    "Games Room",
+    "Dining Hall",
+    "Spa",
+    "Lobby"
+  ],
+  "people": [
+    "Alma the avalanche guard",
+    "Vince the vlogger",
+    "Birgit the bartender",
+    "Cora the cook",
+    "Dexter the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "tree"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....f.df.bf....a....ac...........bc....f.b..bc..",
+  "roomNames": [
+    "Ticket Booth",
+    "Carousel",
+    "Dressing Trailer",
+    "Ringmaster Wagon",
+    "Prop Tent"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the barker",
+    "Carl the clown",
+    "Victor the ventriloquist",
+    "Dexter the daredevil",
+    "Elias the escape artist",
+    "Felix the fire eater"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "crystal"
+    ],
+    [
+      2,
+      "next",
+      "cage"
+    ],
+    [
+      4,
+      "on",
+      "mat"
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    14,
+    25,
+    34,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 16,
+  "extra": true
+}

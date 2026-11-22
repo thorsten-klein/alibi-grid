@@ -1,0 +1,157 @@
+{
+  "size": 9,
+  "rooms": "000011122000011122333311122333311122444445555444445555444445555444444444444444444",
+  "objects": ".....bfa.cb......c....e.a....b..............................f....................",
+  "roomNames": [
+    "Burial Chamber",
+    "Great Hall",
+    "Fire Pit",
+    "Throne Room",
+    "Sea of Ages",
+    "Hide Tent"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Birgit the bard",
+    "Vince the visionary",
+    "Cora the clockmaker",
+    "Della the dreamer",
+    "Elsa the explorer",
+    "Frank the fortune teller",
+    "Gideon the guardian",
+    "Hilda the historian"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "col",
+      2
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      8,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    19,
+    30,
+    41,
+    51,
+    56,
+    70,
+    80
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      35,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      44,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "...................CC.........C..........C.........C.......L.....................",
+  "sea": 4,
+  "tries": 4,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

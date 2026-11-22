@@ -1,0 +1,89 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "..b.......b...decb.d.bf..",
+  "roomNames": [
+    "Decon Airlock",
+    "Generator Core",
+    "Cleanroom 2",
+    "Chemical Vault"
+  ],
+  "people": [
+    "Astrid the algorithm engineer",
+    "Birgit the bioethicist",
+    "Celia the cryo technician",
+    "Della the data architect",
+    "Vivian the venture backer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 15,
+  "extra": true
+}

@@ -1,0 +1,181 @@
+{
+  "size": 11,
+  "rooms": "0001111222200011112222000111122222222222222222222222222222222222222222222222233344445555333444455553334444555533344445555",
+  "objects": "..a.f.e.....aae.........a.........................................................b..bd.a.d..c.e.....bceb.bd......f......",
+  "roomNames": [
+    "Tavern",
+    "Fort",
+    "Open Sea",
+    "Cove",
+    "Sloop",
+    "Frigate"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Bella the boatswain",
+    "Clara the captain",
+    "Della the deckhand",
+    "Edith the engineer",
+    "Frank the fiddler",
+    "Grace the gunner",
+    "Hana the harbor pilot",
+    "Victor the voyager",
+    "Ines the island guide",
+    "Jonas the jeweller"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      8
+    ],
+    [
+      1,
+      "next",
+      "map"
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      9
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "notRoom",
+      0
+    ],
+    [
+      7,
+      "next",
+      "crate"
+    ],
+    [
+      8,
+      "next",
+      "map"
+    ],
+    [
+      9,
+      "room",
+      3
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ],
+    [
+      10,
+      "door"
+    ]
+  ],
+  "solution": [
+    8,
+    17,
+    29,
+    42,
+    49,
+    57,
+    67,
+    87,
+    92,
+    99,
+    113
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      115,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "alone",
+      null,
+      9
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 2,
+  "tries": 2,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 26,
+  "group": 1
+}

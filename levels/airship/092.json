@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000000000000122334122334122334122334",
+  "objects": "...b...ab...d.......a.ea....a.af.ba.",
+  "roomNames": [
+    "Port Engine Gondola",
+    "Stateroom Alpha",
+    "Cockpit Bridge",
+    "Gas Catwalk",
+    "Galley"
+  ],
+  "people": [
+    "Vera the vip diplomat",
+    "Ada the aristocrat",
+    "Bea the boatswain",
+    "Clara the chief rigger",
+    "Dora the doctor",
+    "Edith the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "armchair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "winch"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    17,
+    20,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "berth",
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

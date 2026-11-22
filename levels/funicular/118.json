@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222211112222333322223333444455554444555544445555",
+  "objects": "..bfefc.fa.ea..b.a...ef......c.ced...a.....e..bbc....c.f.cba....",
+  "roomNames": [
+    "Valley Terminal",
+    "Staff Bunkhouse",
+    "Glacier Overlook",
+    "Observation Terrace",
+    "Funicular Car B",
+    "Transformer Vault"
+  ],
+  "people": [
+    "Alma the alpine guide",
+    "Bella the billeter",
+    "Viola the visiting vip",
+    "Cora the cable splicer",
+    "Daisy the doctor",
+    "Elsa the excursionist",
+    "Fiona the first aider",
+    "Gwen the gearbox tech"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "winch"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    19,
+    25,
+    38,
+    47,
+    52,
+    56
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

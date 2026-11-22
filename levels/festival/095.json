@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "..c..f...........de...f.........de.f...a.......b.",
+  "roomNames": [
+    "Mixing Tower",
+    "Campers Field",
+    "Guitar Tech Tent",
+    "First Aid Tent",
+    "Main Stage"
+  ],
+  "people": [
+    "Victor the vip record exec",
+    "Albert the audio engineer",
+    "Bruno the bass player",
+    "Carl the crew chief",
+    "Dexter the drummer",
+    "Elias the electrician",
+    "Felix the frontman"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "room",
+      2
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "next",
+      "lighttower"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    16,
+    26,
+    29,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "roadcase",
+      0
+    ],
+    [
+      "nextCount",
+      "drums",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

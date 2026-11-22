@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222334444334444",
+  "objects": ".facfa..b..caf.a....bed......a..b...",
+  "roomNames": [
+    "Shrine",
+    "Hall of Pillars",
+    "Antechamber",
+    "Well Shaft",
+    "Granary"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Birgit the boat builder",
+    "Vivian the vizier",
+    "Clara the carpenter",
+    "Daisy the dancer",
+    "Elsa the envoy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "jar"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    14,
+    23,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "L........L....C...L............L....",
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

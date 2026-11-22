@@ -1,0 +1,113 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011111111222111122233334443333444",
+  "objects": ".ef.....c.......e...............a..cba.a.....f...",
+  "roomNames": [
+    "Market",
+    "Open Sea",
+    "Sloop",
+    "Longboat",
+    "Tavern"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Bruno the boatswain",
+    "Carl the cook",
+    "Dmitri the deckhand",
+    "Edith the explorer",
+    "Vince the voyager",
+    "Frank the first mate"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "anchor"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    6,
+    7,
+    18,
+    22,
+    33,
+    38,
+    44
+  ],
+  "doors": [
+    [
+      32,
+      39
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

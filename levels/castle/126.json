@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222333334455333334455333334455666664455666664455",
+  "objects": ".a.cb..ae........b..eb.....be.....f.fc.e..d...b.f....cb....f....d........d..c....",
+  "roomNames": [
+    "Stables",
+    "Tower",
+    "Chapel",
+    "Solar",
+    "Dungeon",
+    "Armory",
+    "Courtyard"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Basil the baker",
+    "Cora the cupbearer",
+    "Della the doorkeeper",
+    "Vivian the verger",
+    "Elias the envoy",
+    "Frank the farrier",
+    "Grace the groom",
+    "Hugo the herald"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "swords"
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    6,
+    16,
+    18,
+    32,
+    40,
+    46,
+    62,
+    66,
+    74
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      77,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3,
+    6
+  ],
+  "rank": "kcccknknn",
+  "hard": 10,
+  "hardest": 6,
+  "steps": 28,
+  "extra": true
+}

@@ -1,0 +1,85 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "af......e...f.f...cb...a.",
+  "roomNames": [
+    "Dishwashing Pit",
+    "Staff Locker",
+    "Saute Station",
+    "Pastry Kitchen"
+  ],
+  "people": [
+    "Arthur the apprentice chef",
+    "Basil the baker",
+    "Cedric the chef de cuisine",
+    "Vince the vip dining critic",
+    "Dmitri the dishwasher"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "espresso"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    13,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

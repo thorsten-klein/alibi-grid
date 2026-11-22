@@ -1,0 +1,107 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222222333344333344",
+  "objects": ".fa.......d....ad.a...c...b........f",
+  "roomNames": [
+    "Dining Room",
+    "Gallery",
+    "Library",
+    "Pantry",
+    "Ballroom"
+  ],
+  "people": [
+    "Ada the author",
+    "Bella the butler",
+    "Victor the vicar",
+    "Celia the cook",
+    "Daisy the dealer",
+    "Elsa the envoy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    15,
+    19,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 3,
+  "steps": 17,
+  "extra": true
+}

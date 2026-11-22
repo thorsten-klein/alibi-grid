@@ -1,0 +1,161 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223331144433311444333114443335555533355555",
+  "objects": "..c.c..b.b......a...b............e.a.........a....ffb.e..b...fdb",
+  "roomNames": [
+    "Bar",
+    "Dressing Room",
+    "Lighting Booth",
+    "Balcony",
+    "Box Office",
+    "Prop Store"
+  ],
+  "people": [
+    "Ada the agent",
+    "Basil the baritone",
+    "Celia the critic",
+    "Della the dancer",
+    "Vera the ventriloquist",
+    "Ena the extra",
+    "Flora the flautist",
+    "Greta the ghost writer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "room",
+      2
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    19,
+    26,
+    37,
+    46,
+    48,
+    60
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "light",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "tries": 11,
+  "hard": 8,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

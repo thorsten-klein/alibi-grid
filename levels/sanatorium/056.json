@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111222332223322233",
+  "objects": "d..bb.af...e..c...d...f..",
+  "roomNames": [
+    "Doctor Office",
+    "Boiler Room",
+    "Kitchen",
+    "Operating Theater"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Victor the visiting superintendent",
+    "Dexter the dentist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "bed"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "xray"
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "xray",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

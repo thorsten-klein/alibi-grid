@@ -1,0 +1,140 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222331112223333322233333333344333333443333334433",
+  "objects": ".......da.b..b........b..........d...........................f..",
+  "roomNames": [
+    "Longboat",
+    "Frigate",
+    "Galleon",
+    "Open Sea",
+    "Fort"
+  ],
+  "people": [
+    "Alma the armorer",
+    "Basil the barkeep",
+    "Celia the captain",
+    "Della the deckhand",
+    "Vivian the voyager",
+    "Ena the explorer",
+    "Felix the fiddler",
+    "Greta the gold digger"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "hammock"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "crate"
+    ],
+    [
+      5,
+      "notRoom",
+      3
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    19,
+    26,
+    32,
+    44,
+    55,
+    62
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      8,
+      16
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 24,
+  "extra": true
+}

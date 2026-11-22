@@ -1,0 +1,244 @@
+{
+  "size": 12,
+  "rooms": "000112223333000112223333000112223333000112224444000112224444000112224444000112224444555556666666555556666666555557777777888887777777888887777777",
+  "objects": ".bd.f....ac...........e...........db....a.c.b..e.c....d...bcdc........d....eb..a...ae........f....b.f.aef.d...a......a......a.e...b..a......b...",
+  "roomNames": [
+    "Boat Pit",
+    "Sun Court",
+    "Workshop",
+    "Well Shaft",
+    "Statue Hall",
+    "Hall of Pillars",
+    "Treasury",
+    "Shrine",
+    "Granary"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Birgit the brewer",
+    "Cedric the carpenter",
+    "Viola the vintner",
+    "Daisy the dancer",
+    "Edgar the embalmer",
+    "Frank the fisher",
+    "Gideon the guard",
+    "Hazel the herder",
+    "Ivo the incense maker",
+    "Jonas the jeweller",
+    "Klaus the keeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "couch"
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "same",
+      0
+    ],
+    [
+      5,
+      "next",
+      "urn"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "statue"
+    ],
+    [
+      9,
+      "next",
+      "rubble"
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "notRoom",
+      4
+    ],
+    [
+      10,
+      "door"
+    ],
+    [
+      11,
+      "next",
+      "couch"
+    ]
+  ],
+  "solution": [
+    1,
+    19,
+    29,
+    39,
+    52,
+    62,
+    81,
+    92,
+    107,
+    114,
+    120,
+    142
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      33,
+      45
+    ],
+    [
+      81,
+      93
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      108,
+      120
+    ],
+    [
+      101,
+      113
+    ],
+    [
+      124,
+      125
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      133,
+      "b"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      2
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".................L.........L........L..............C..........C..................L...................C.....C.......L....L................C.....C",
+  "hard": 6,
+  "hardest": 8,
+  "steps": 43,
+  "extra": true
+}

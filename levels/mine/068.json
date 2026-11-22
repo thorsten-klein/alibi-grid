@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "......a......b......aa...",
+  "roomNames": [
+    "Mule Stables",
+    "Shaft Elevator",
+    "Main Drift",
+    "Shift Boss Office"
+  ],
+  "people": [
+    "Albert the assayer",
+    "Bruno the blacksmith",
+    "Victor the vein claimant",
+    "Carl the cart driver",
+    "Dexter the driller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "keg"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    10,
+    17,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "keg",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

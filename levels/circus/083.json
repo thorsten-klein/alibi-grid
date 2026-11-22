@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333444333444",
+  "objects": ".ea.........d....aa.....b.a......ab.",
+  "roomNames": [
+    "Carousel",
+    "Sideshow Alley",
+    "Hay Barn",
+    "Fortune Tent",
+    "Big Top"
+  ],
+  "people": [
+    "Arthur the animal tamer",
+    "Basil the balloon artist",
+    "Vince the veteran ringmaster",
+    "Cedric the contortionist",
+    "Dmitri the drummer",
+    "Edgar the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "trunk"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      4,
+      "next",
+      "mat"
+    ],
+    [
+      5,
+      "next",
+      "mat"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    15,
+    23,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

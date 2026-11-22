@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "a..e.c....a.d...a.....abab.b...edc..b...bf.b.d..b",
+  "roomNames": [
+    "Stables",
+    "Solar",
+    "Chapel",
+    "Kitchen",
+    "Great Hall"
+  ],
+  "people": [
+    "Albert the archer",
+    "Birgit the bard",
+    "Cedric the chronicler",
+    "Dexter the doorkeeper",
+    "Elias the envoy",
+    "Felix the farrier",
+    "Viola the vintner"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "candles"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "candles"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    15,
+    25,
+    30,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "cncckcc",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

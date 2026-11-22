@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223344222334422233442223344",
+  "objects": "a....e...e.....a..a..f..a.e......b.c.....cb......",
+  "roomNames": [
+    "Bar Car",
+    "Galley",
+    "Sleeper C",
+    "Guard's Van",
+    "Corridor"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Basil the banker",
+    "Viola the vendor",
+    "Cedric the courier",
+    "Della the diplomat",
+    "Elias the envoy",
+    "Fiona the firefighter"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "wine"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "suitcase"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    19,
+    22,
+    28,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "alone",
+      null,
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "tries": 6,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

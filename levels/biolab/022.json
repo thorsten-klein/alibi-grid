@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333334444433333444445556677744555667774455566777445556677744",
+  "objects": "..b....d...dd..ed......d...ddf.be...a.....d......aa..f.a..b.a....d..a....a...............cceb...a.c.",
+  "roomNames": [
+    "Control Center",
+    "Breakroom",
+    "Chemical Vault",
+    "Centrifuge Bay",
+    "Server Farm",
+    "Cleanroom 1",
+    "Generator Core",
+    "Cryo Storage"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Bella the biochemist",
+    "Cora the chief scientist",
+    "Daisy the dna sequencer",
+    "Viola the virology head",
+    "Elsa the epidemiologist",
+    "Fiona the facility director",
+    "Gwen the geneticist",
+    "Hazel the hazard responder",
+    "Ines the intern"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chamber"
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "chamber"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "chamber"
+    ],
+    [
+      7,
+      "next",
+      "chamber"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    21,
+    38,
+    49,
+    57,
+    66,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

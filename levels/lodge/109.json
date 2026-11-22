@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233334444333344443333555533335555",
+  "objects": "...ff...fba.....aaa.b..b...a....a..e..e....fa.....f...ae.d...b.a",
+  "roomNames": [
+    "Boot Room",
+    "Spa",
+    "Fireside Lounge",
+    "Suite",
+    "Lobby",
+    "Kitchen"
+  ],
+  "people": [
+    "Arthur the athlete",
+    "Vivian the vet",
+    "Birgit the baker",
+    "Cedric the cook",
+    "Dexter the doctor",
+    "Ena the engineer",
+    "Frank the forester",
+    "Gideon the glacier expert"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    23,
+    28,
+    34,
+    40,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

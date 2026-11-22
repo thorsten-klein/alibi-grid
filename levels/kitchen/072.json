@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".a..afe......ba.aed.e...a",
+  "roomNames": [
+    "Butcher Larder",
+    "Walk In Cooler",
+    "Staff Locker",
+    "Main Dining Room"
+  ],
+  "people": [
+    "Arthur the appetizer cook",
+    "Vince the veteran restaurateur",
+    "Basil the butcher",
+    "Cedric the chocolatier",
+    "Dmitri the dessert chef"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "espresso"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "onCount",
+      "banquette",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

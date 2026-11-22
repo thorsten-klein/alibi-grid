@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222001111222333333222333333444555544444555544666555544666555544666",
+  "objects": "b..b..............ae...a..e.a....f.e..acbef...f...fbd.d.....cbbea....b.......c...",
+  "roomNames": [
+    "Arts Shed",
+    "Counselor Cabin",
+    "Bunkhouse Beta",
+    "Director Office",
+    "Campfire Clearing",
+    "Infirmary",
+    "Archery Range"
+  ],
+  "people": [
+    "Arthur the arts counselor",
+    "Basil the bugler",
+    "Cedric the cook",
+    "Dmitri the director",
+    "Vince the visitor",
+    "Edgar the eagle scout",
+    "Frank the first aid counselor",
+    "Gideon the guitar player",
+    "Henrik the hiker"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "room",
+      2
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "board"
+    ],
+    [
+      6,
+      "on",
+      "bunk"
+    ],
+    [
+      7,
+      "next",
+      "table"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    15,
+    20,
+    28,
+    36,
+    49,
+    62,
+    68,
+    75
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "table",
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

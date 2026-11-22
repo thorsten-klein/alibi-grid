@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112223333111222333311122244556666774455666677445566667744556666774455666677",
+  "objects": "...bbadb.c.ca.......a...aa....e..b.b....be....d..eb.....b.....f.acc...b.a.c..ba..fe.da.cea.bca..a...",
+  "roomNames": [
+    "Infirmary",
+    "Cloister Walk",
+    "Chapter House",
+    "Refectory",
+    "Dormitory",
+    "Bell Tower",
+    "Abbey Church",
+    "Scriptorium"
+  ],
+  "people": [
+    "Albert the abbot",
+    "Bruno the bellringer",
+    "Victor the visiting cardinal",
+    "Carl the cellarer",
+    "Dexter the doorkeeper",
+    "Elias the exorcist",
+    "Felix the forester",
+    "Gus the gardener",
+    "Hugo the herbalist",
+    "Igor the illuminator"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "palliasse"
+    ],
+    [
+      3,
+      "next",
+      "lectern"
+    ],
+    [
+      3,
+      "next",
+      "palliasse"
+    ],
+    [
+      4,
+      "next",
+      "reliquary"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "reliquary"
+    ],
+    [
+      8,
+      "next",
+      "reliquary"
+    ],
+    [
+      9,
+      "next",
+      "lectern"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    25,
+    36,
+    42,
+    59,
+    61,
+    78,
+    83,
+    94
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      22,
+      32
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      41,
+      51
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      97,
+      98
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "furniture",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "tries": 6,
+  "hard": 11,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

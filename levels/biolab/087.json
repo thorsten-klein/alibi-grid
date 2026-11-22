@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "000000111222111222331144331144331144",
+  "objects": "..........f.e.c........ba.......f...",
+  "roomNames": [
+    "Decon Airlock",
+    "Control Center",
+    "Specimen Nursery",
+    "Chemical Vault",
+    "Centrifuge Bay"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Vivian the virology head",
+    "Birgit the biochemist",
+    "Celia the chief scientist",
+    "Della the dna sequencer",
+    "Ena the epidemiologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "hood"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    16,
+    20,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      17,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,165 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333222222333224444333224444555556666555556666555556666",
+  "objects": "d.d..dec...a.ba.e....c...eaf...b......df...ba.e.b...bd..a......cdd...d..........e",
+  "roomNames": [
+    "Writers Room",
+    "Prop Armory",
+    "Director Trailer",
+    "Wardrobe Vault",
+    "Green Room",
+    "Screening Room",
+    "Sound Booth"
+  ],
+  "people": [
+    "Astrid the assistant director",
+    "Birgit the body double",
+    "Celia the choreographer",
+    "Della the diva",
+    "Ena the extra",
+    "Flora the fashion designer",
+    "Grace the gaffer",
+    "Hana the headliner",
+    "Vivian the veteran producer"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "trunk"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "light"
+    ],
+    [
+      3,
+      "next",
+      "couch"
+    ],
+    [
+      4,
+      "next",
+      "light"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "boom"
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    20,
+    30,
+    36,
+    52,
+    59,
+    67,
+    78
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "boom",
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 41,
+  "extra": true
+}

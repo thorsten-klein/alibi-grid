@@ -1,0 +1,121 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "...bcd.................b.a.d....e......aee.a.....",
+  "roomNames": [
+    "Lobby",
+    "Suite",
+    "Fireside Lounge",
+    "Ski Room",
+    "Kitchen"
+  ],
+  "people": [
+    "Astrid the athlete",
+    "Bea the bartender",
+    "Carl the climber",
+    "Viola the vlogger",
+    "Daisy the doctor",
+    "Elsa the explorer",
+    "Frank the fisher"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "tree"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    16,
+    22,
+    28,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

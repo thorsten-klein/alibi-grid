@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122334422334422334422",
+  "objects": "..bb.d....a..fbb.e...f.bf.......b.b.",
+  "roomNames": [
+    "Occult Library",
+    "Black Cat Alley",
+    "Front Porch",
+    "Apple Bobbing Hall",
+    "Witch Parlor"
+  ],
+  "people": [
+    "Albert the actor",
+    "Bruno the baker",
+    "Carl the candy maker",
+    "Dexter the decorator",
+    "Elias the entertainer",
+    "Victor the visiting storyteller"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "tombstone"
+    ],
+    [
+      1,
+      "next",
+      "swing"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "swing"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "swing"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    12,
+    19,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "group": 0
+}

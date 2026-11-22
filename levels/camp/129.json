@@ -1,0 +1,186 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122333333222333333222333333444555666444555666444555666444",
+  "objects": ".....f......c........b.......c.debb.a..f..a.d..f....b........e...b..b....b.e.fff.",
+  "roomNames": [
+    "Berry Grove",
+    "Cave",
+    "Spring",
+    "Lookout Rock",
+    "Fire Pit",
+    "Painted Wall",
+    "Elder Hut"
+  ],
+  "people": [
+    "Ada the artist",
+    "Birgit the builder",
+    "Cora the carver",
+    "Della the drummer",
+    "Elias the elk tamer",
+    "Fiona the firekeeper",
+    "Gwen the guard",
+    "Hazel the hide tanner",
+    "Victor the valley guide"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "leaves"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "leaves"
+    ],
+    [
+      7,
+      "next",
+      "bones"
+    ],
+    [
+      8,
+      "next",
+      "bones"
+    ]
+  ],
+  "solution": [
+    1,
+    16,
+    21,
+    27,
+    40,
+    50,
+    56,
+    69,
+    80
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      56,
+      57
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".24....1.",
+  "tags": "....2...1.......204.....4................2...2.....2..1...4....4.....1.1.........",
+  "hard": 12,
+  "hardest": 5,
+  "steps": 29,
+  "extra": true
+}

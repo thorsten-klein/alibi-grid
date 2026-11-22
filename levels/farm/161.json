@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000001112233000001112233000001112233000001112233444441112233444441112233444555556666444555556666444555556666777788886666777788888888777788888888",
+  "objects": "c..e..dbfe.e....ac........ff.b.b.b..c.a.....d..c..b...e.c.af..da..c..c..d..a.f.bf.e.ab..f....e.......a.d...a...bcf....d..ac.......f.f...b..f.ac.",
+  "roomNames": [
+    "Hen House",
+    "Milking Shed",
+    "Pig Pen",
+    "Tool Shed",
+    "Farmhouse Kitchen",
+    "Farmstand",
+    "Grain Silo",
+    "Big Barn",
+    "Fruit Orchard"
+  ],
+  "people": [
+    "Arthur the apple picker",
+    "Basil the beekeeper",
+    "Cedric the cattle rancher",
+    "Dmitri the dairy maid",
+    "Edgar the equipment operator",
+    "Frank the farmer",
+    "Gideon the grain miller",
+    "Henrik the harvester",
+    "Vince the vineyard leaseholder",
+    "Ivo the inspector",
+    "Jonas the jam maker",
+    "Konrad the kennel master"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "churn"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "on",
+      "rocker"
+    ],
+    [
+      3,
+      "on",
+      "bale"
+    ],
+    [
+      3,
+      "next",
+      "anvil"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "tractor"
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "churn"
+    ],
+    [
+      8,
+      "col",
+      8
+    ],
+    [
+      9,
+      "same",
+      11
+    ],
+    [
+      10,
+      "next",
+      "anvil"
+    ],
+    [
+      10,
+      "door",
+      null
+    ],
+    [
+      11,
+      "on",
+      "bale"
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    31,
+    38,
+    48,
+    65,
+    75,
+    94,
+    104,
+    114,
+    131,
+    141
+  ],
+  "doors": [
+    [
+      28,
+      29
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      67,
+      79
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      70,
+      82
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      97,
+      109
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      99,
+      111
+    ],
+    [
+      101,
+      113
+    ],
+    [
+      119,
+      131
+    ],
+    [
+      111,
+      112
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      135,
+      "b"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "rocker",
+      0
+    ],
+    [
+      "roomCount",
+      6,
+      2
+    ],
+    [
+      "roomCount",
+      0,
+      3
+    ]
+  ],
+  "hard": 9,
+  "hardest": 8,
+  "steps": 41,
+  "extra": true
+}

@@ -1,0 +1,193 @@
+{
+  "size": 10,
+  "rooms": "0000112222000011222200001122220000113333444411333344441133335555566677555556667755555666775555566677",
+  "objects": "....ee........fe..................e.b.b....f....b...cb...b.a.c..cfeb.d...ef...c..f.bea.....bb..e....",
+  "roomNames": [
+    "Church",
+    "Jail",
+    "Hotel",
+    "Telegraph Office",
+    "Barber",
+    "General Store",
+    "Corral",
+    "Sheriff Office"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Birgit the blacksmith",
+    "Cora the cook",
+    "Della the deputy",
+    "Ena the engineer",
+    "Frank the farmer",
+    "Gus the gambler",
+    "Henrik the hatmaker",
+    "Ivo the inventor",
+    "Vivian the vet"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "cactus"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      8,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    21,
+    36,
+    42,
+    59,
+    68,
+    75,
+    80,
+    94
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      27,
+      37
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      87,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      94,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    2,
+    5
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 24,
+  "extra": true
+}

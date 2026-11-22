@@ -1,0 +1,234 @@
+{
+  "size": 11,
+  "rooms": "0001111222200011112222000111122220001111222200011112222333334445553333344455533666444555336664445553366677777733666777777",
+  "objects": "...c.....e.b.ef..eea..d.....eed...f.....d.d...a.....a....a.d.b.d.....db..d.b.f....aab......ef.f..fbdd...d..c......b...f.d",
+  "roomNames": [
+    "Cobblestone Alley",
+    "Tenement Attic",
+    "Apothecary",
+    "Pawn Shop",
+    "Police Desk",
+    "Pub Taproom",
+    "Parlor Study",
+    "Mortuary"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bowler hat seller",
+    "Carl the chimney sweep",
+    "Dexter the doctor",
+    "Elias the errand boy",
+    "Felix the fishmonger",
+    "Gus the grave robber",
+    "Hugo the hawker",
+    "Igor the inspector",
+    "Jasper the journalist",
+    "Victor the vagabond"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "kiosk"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      1,
+      "same",
+      4
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "next",
+      "hansom"
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      5,
+      "next",
+      "armchair"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "on",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "armchair"
+    ],
+    [
+      8,
+      "next",
+      "kiosk"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "notRoom",
+      0
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "next",
+      "hansom"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    31,
+    36,
+    50,
+    56,
+    76,
+    84,
+    96,
+    101,
+    110
+  ],
+  "doors": [
+    [
+      24,
+      25
+    ],
+    [
+      44,
+      55
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      48,
+      59
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      51,
+      62
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      94,
+      105
+    ],
+    [
+      96,
+      107
+    ],
+    [
+      103,
+      104
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      113,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "cot",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 38,
+  "extra": true
+}

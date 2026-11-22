@@ -1,0 +1,237 @@
+{
+  "size": 12,
+  "rooms": "001112222333001112222333001112222333001112222333001114444333001114444333444444555555444444555555667777888888667777888888667777888888667777888888",
+  "objects": "....b...b.e........fb...bb.........adfcaa...e.e.a..e..b.....b...ae.ac...dad.......aa........d...d.fb.c...a.....a.......a...b......ba.aa.a.....a.",
+  "roomNames": [
+    "Haunted Conservatory",
+    "Crypt",
+    "Costume Ballroom",
+    "Apple Bobbing Hall",
+    "Occult Library",
+    "Witch Parlor",
+    "Cemetery Gate",
+    "Pumpkin Patch",
+    "Cellar Maze"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bella the black cat breeder",
+    "Cora the costume designer",
+    "Daisy the diviner",
+    "Elsa the embalmer",
+    "Fiona the fortune teller",
+    "Gwen the ghost enthusiast",
+    "Hazel the haunted house host",
+    "Viola the veteran manor heir",
+    "Ines the illusionist",
+    "Juno the juggler",
+    "Kira the keepsake collector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "swing"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "room",
+      2
+    ],
+    [
+      3,
+      "next",
+      "coffin"
+    ],
+    [
+      3,
+      "col",
+      11
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "tombstone"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "web"
+    ],
+    [
+      9,
+      "notRoom",
+      5
+    ],
+    [
+      9,
+      "next",
+      "tombstone"
+    ],
+    [
+      10,
+      "col",
+      7
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "next",
+      "coffin"
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    30,
+    47,
+    57,
+    70,
+    80,
+    88,
+    99,
+    108,
+    127,
+    137
+  ],
+  "doors": [
+    [
+      49,
+      50
+    ],
+    [
+      60,
+      72
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      42,
+      54
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      69,
+      81
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      85,
+      97
+    ],
+    [
+      86,
+      98
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      113,
+      114
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      119,
+      "r"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      133,
+      "b"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      143,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 8,
+  "steps": 27,
+  "extra": true
+}

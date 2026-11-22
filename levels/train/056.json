@@ -1,0 +1,89 @@
+{
+  "size": 5,
+  "rooms": "0001100011222222222233333",
+  "objects": "b..a...d..e.....f..f.a.db",
+  "roomNames": [
+    "Bar Car",
+    "Observation Car",
+    "Dining Car",
+    "Sleeper C"
+  ],
+  "people": [
+    "Astrid the attendant",
+    "Vera the vendor",
+    "Basil the banker",
+    "Cedric the conductor",
+    "Dora the dentist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "lamp"
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

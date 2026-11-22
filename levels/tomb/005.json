@@ -1,0 +1,170 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111000000111222222333222222333222222333444556666444556666444556666",
+  "objects": "..c.e...bde..ef...bb..c...c...bd..d......d..d.a....a...b.a.ae....a.....f.f.badfa.",
+  "roomNames": [
+    "Boat Pit",
+    "Granary",
+    "Workshop",
+    "Burial Chamber",
+    "Shrine",
+    "Statue Hall",
+    "Scribe Room"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Bella the boat builder",
+    "Cedric the carpenter",
+    "Vera the vintner",
+    "Daisy the diviner",
+    "Elsa the embalmer",
+    "Flora the fisher",
+    "Gideon the guard",
+    "Hilda the herder"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "rubble"
+    ],
+    [
+      1,
+      "next",
+      "rubble"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ],
+    [
+      8,
+      "next",
+      "jar"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    24,
+    35,
+    43,
+    49,
+    55,
+    68,
+    72
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "............C.......C..L.....L.............C....L...................L............",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 20,
+  "group": 0
+}

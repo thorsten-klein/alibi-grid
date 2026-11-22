@@ -1,0 +1,84 @@
+{
+  "size": 5,
+  "rooms": "0001100011000002223322233",
+  "objects": ".........e.........fba.fa",
+  "roomNames": [
+    "Open Sea",
+    "Dock",
+    "Galleon",
+    "Sea Cave"
+  ],
+  "people": [
+    "Alma the armorer",
+    "Bruno the barkeep",
+    "Cora the cook",
+    "Victor the voyager",
+    "Dexter the diver"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    14,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "hammock",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

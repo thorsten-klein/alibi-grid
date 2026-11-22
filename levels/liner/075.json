@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "fa...cd........eaf........b.add...cf",
+  "roomNames": [
+    "Bridge",
+    "Steerage Quarters",
+    "Dining Saloon",
+    "Promenade Deck",
+    "Stateroom A"
+  ],
+  "people": [
+    "Victor the voyage sponsor",
+    "Albert the admiral",
+    "Bruno the boatswain",
+    "Carl the captain",
+    "Dexter the deckhand",
+    "Elias the electrician"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "deckchair"
+    ],
+    [
+      2,
+      "next",
+      "telegraph"
+    ],
+    [
+      3,
+      "next",
+      "lifeboat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    23,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

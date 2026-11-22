@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "d.ad..b.......b.",
+  "roomNames": [
+    "Herb Garden",
+    "Plating Line",
+    "Main Dining Room"
+  ],
+  "people": [
+    "Viola the vip dining critic",
+    "Alma the apprentice chef",
+    "Bella the baker",
+    "Cora the chef de cuisine"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "block"
+    ],
+    [
+      1,
+      "next",
+      "banquette"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "banquette"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    8,
+    15
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

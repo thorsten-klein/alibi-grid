@@ -1,0 +1,169 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222334445566334445566334445566334445566334445566334445566",
+  "objects": "....b......f...d....ef.b......ea..bfd.....a.....c..a...b...caf....bba..ce..f.....",
+  "roomNames": [
+    "Haunted Conservatory",
+    "Black Cat Alley",
+    "Cemetery Gate",
+    "Costume Ballroom",
+    "Cellar Maze",
+    "Spider Attic",
+    "Pumpkin Patch"
+  ],
+  "people": [
+    "Alma the actor",
+    "Bella the baker",
+    "Cora the candy maker",
+    "Viola the visiting storyteller",
+    "Daisy the decorator",
+    "Elsa the entertainer",
+    "Fiona the florist",
+    "Gwen the gravedigger",
+    "Hazel the herbalist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "tombstone"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      4,
+      "next",
+      "coffin"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "pumpkin"
+    ],
+    [
+      6,
+      "next",
+      "pumpkin"
+    ],
+    [
+      6,
+      "next",
+      "swing"
+    ],
+    [
+      7,
+      "next",
+      "coffin"
+    ],
+    [
+      8,
+      "next",
+      "cauldron"
+    ]
+  ],
+  "solution": [
+    0,
+    16,
+    26,
+    32,
+    40,
+    47,
+    57,
+    69,
+    73
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

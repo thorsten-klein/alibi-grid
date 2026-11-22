@@ -1,0 +1,194 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333322222333334444555566444455556644447777664444777766",
+  "objects": ".....cf...e........a...e.b...c....e.d...b...eb...e....b.a.de...b..f...d..a........aee....df.f..f.d..",
+  "roomNames": [
+    "Chapter House",
+    "Refectory",
+    "Prior Cell",
+    "Herb Garden",
+    "Crypt",
+    "Scriptorium",
+    "Cellar",
+    "Infirmary"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Della the document copyist",
+    "Ena the elder brother",
+    "Flora the friar",
+    "Grace the glass painter",
+    "Hana the hospitaler",
+    "Isla the inquisitor",
+    "Vivian the vicar general"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "reliquary"
+    ],
+    [
+      3,
+      "next",
+      "lectern"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "on",
+      "palliasse"
+    ],
+    [
+      5,
+      "next",
+      "palliasse"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "on",
+      "palliasse"
+    ],
+    [
+      7,
+      "next",
+      "lectern"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "bellrope"
+    ]
+  ],
+  "solution": [
+    4,
+    16,
+    22,
+    37,
+    45,
+    50,
+    63,
+    79,
+    88,
+    91
+  ],
+  "doors": [
+    [
+      24,
+      25
+    ],
+    [
+      23,
+      33
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      75,
+      85
+    ],
+    [
+      87,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      92,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 37,
+  "extra": true
+}

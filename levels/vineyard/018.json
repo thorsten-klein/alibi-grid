@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "dd..d..a...ade....bab.b....d......bc",
+  "roomNames": [
+    "Grape Press",
+    "Manor Terrace",
+    "Fermentation Hall",
+    "Kitchen",
+    "Manor Library"
+  ],
+  "people": [
+    "Vera the vineyard owner",
+    "Ada the apprentice",
+    "Bea the bottler",
+    "Clara the cook",
+    "Dora the driver",
+    "Edith the enologist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "press"
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "notRoom",
+      4
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    18,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "group": 2
+}

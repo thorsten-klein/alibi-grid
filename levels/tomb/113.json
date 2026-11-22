@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0000000011111111222222223333344433333444333334445555544455555444",
+  "objects": ".c.....a.cfe.f...fa..d........db..f........cfa..........bdca..e.",
+  "roomNames": [
+    "Statue Hall",
+    "Boat Pit",
+    "Sun Court",
+    "Workshop",
+    "Burial Chamber",
+    "Shrine"
+  ],
+  "people": [
+    "Alma the architect",
+    "Birgit the brewer",
+    "Cedric the chanter",
+    "Vera the vintner",
+    "Dora the diviner",
+    "Ena the embalmer",
+    "Frank the fanbearer",
+    "Grace the guard"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "rubble"
+    ],
+    [
+      7,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    18,
+    25,
+    32,
+    45,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      4,
+      12
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "jar",
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "............L......................L..........C..L.CC.C.........",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

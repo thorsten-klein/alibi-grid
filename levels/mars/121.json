@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223333322233333222444445554444455544444555",
+  "objects": "....df..e..c....a.a....a..e.c..bc...b.f...bf.c.........d..a.....",
+  "roomNames": [
+    "Gymnasium",
+    "Oxygen Scrubber",
+    "Comms Array",
+    "Geology Lab",
+    "Airlock Module",
+    "Medical Bay"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Vera the visiting inspector",
+    "Bea the biosphere tech",
+    "Clara the chemist",
+    "Dora the doctor",
+    "Edith the electrician",
+    "Freya the farmer",
+    "Greta the ground controller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "rover"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "tower"
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      7,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    17,
+    24,
+    39,
+    44,
+    53,
+    62
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "rover",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 25,
+  "extra": true
+}

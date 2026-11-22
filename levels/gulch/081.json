@@ -1,0 +1,134 @@
+{
+  "size": 6,
+  "rooms": "000000111111222233222233444433444433",
+  "objects": "...f..ea........a.c........b...d.fe.",
+  "roomNames": [
+    "Church",
+    "Bank",
+    "Barber",
+    "General Store",
+    "Sheriff Office"
+  ],
+  "people": [
+    "Astrid the attorney",
+    "Bella the banker",
+    "Vivian the vet",
+    "Celia the cook",
+    "Dmitri the deputy",
+    "Edith the editor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    15,
+    20,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      3,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "horse",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    1
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

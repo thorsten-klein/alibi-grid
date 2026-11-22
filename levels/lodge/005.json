@@ -1,0 +1,171 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111223331111223334444223334444225554444225556666225556666225556666",
+  "objects": "...b....fe..ea.....a...c.....f...e..b..f.bf.........b.......ba.....c.e.f....c.ca.",
+  "roomNames": [
+    "Kitchen",
+    "Games Room",
+    "Boot Room",
+    "Bar",
+    "Spa",
+    "Dining Hall",
+    "Sauna"
+  ],
+  "people": [
+    "Arthur the athlete",
+    "Basil the bartender",
+    "Carl the climber",
+    "Daisy the driver",
+    "Elias the explorer",
+    "Viola the vlogger",
+    "Felix the fisher",
+    "Greta the guide",
+    "Hugo the hiker"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "wood"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "tree"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "notRoom",
+      5
+    ],
+    [
+      7,
+      "next",
+      "skis"
+    ],
+    [
+      8,
+      "next",
+      "skis"
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      8,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    17,
+    22,
+    34,
+    36,
+    51,
+    55,
+    66,
+    77
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      13,
+      22
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 21,
+  "group": 0
+}

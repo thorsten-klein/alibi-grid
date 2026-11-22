@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": ".df.c.....a.ab.f",
+  "roomNames": [
+    "Infirmary",
+    "Cloister Walk",
+    "Scriptorium"
+  ],
+  "people": [
+    "Alma the abbot",
+    "Bella the bellringer",
+    "Viola the visiting cardinal",
+    "Cora the cellarer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "lectern"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "palliasse"
+    ],
+    [
+      3,
+      "next",
+      "bellrope"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

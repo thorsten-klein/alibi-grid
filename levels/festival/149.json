@@ -1,0 +1,220 @@
+{
+  "size": 11,
+  "rooms": "0011112222200111122222001111222220011112222233334445555333344455553333444555533334445555666666677776666666777766666667777",
+  "objects": ".d...ab.d........c.b.bdb.d.....ed.....b.f.......f....baf......c.....f.a...ba.........c.b...ae..f..ca.c...................",
+  "roomNames": [
+    "First Aid Tent",
+    "Port-a-Jon Alley",
+    "Security Checkpoint",
+    "Merch Pavilion",
+    "Main Stage",
+    "Artist Trailer",
+    "Backstage VIP",
+    "Guitar Tech Tent"
+  ],
+  "people": [
+    "Ada the audio engineer",
+    "Bea the bass player",
+    "Clara the crew chief",
+    "Dora the drummer",
+    "Edith the electrician",
+    "Vera the vip record exec",
+    "Freya the frontman",
+    "Greta the guitarist",
+    "Hilda the headliner",
+    "Ivy the instrument tech",
+    "Jade the journalist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "drums"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "drums"
+    ],
+    [
+      2,
+      "next",
+      "amp"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "drums"
+    ],
+    [
+      4,
+      "next",
+      "lighttower"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "amp"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "same",
+      10
+    ],
+    [
+      10,
+      "next",
+      "amp"
+    ]
+  ],
+  "solution": [
+    9,
+    19,
+    28,
+    36,
+    44,
+    65,
+    73,
+    78,
+    93,
+    103,
+    112
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      80,
+      91
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      84,
+      95
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      112,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 10,
+  "hardest": 8,
+  "steps": 35,
+  "extra": true
+}

@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222003333444003333444003333444555566444555566444555566444",
+  "objects": "..b...b..bbc.c.....f..a.afc......a.a...fa...f.........cac..ec.ae.b......c.a...b.b",
+  "roomNames": [
+    "Kitchen",
+    "Solarium",
+    "Boiler Room",
+    "Operating Theater",
+    "Morgue",
+    "Doctor Office",
+    "Ward A"
+  ],
+  "people": [
+    "Albert the anesthetist",
+    "Victor the victim of illness",
+    "Bruno the biochemist",
+    "Carl the chief surgeon",
+    "Dexter the doctor",
+    "Elias the epidemiologist",
+    "Felix the first responder",
+    "Gus the groundskeeper",
+    "Hugo the head nurse"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "archive"
+    ],
+    [
+      2,
+      "on",
+      "wheelchair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "wheelchair"
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "cabinet"
+    ],
+    [
+      7,
+      "next",
+      "xray"
+    ],
+    [
+      8,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    16,
+    22,
+    35,
+    36,
+    46,
+    57,
+    68,
+    74
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "furniture",
+      null,
+      4
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ],
+    [
+      "nextCount",
+      "wheelchair",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

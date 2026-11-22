@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "a..b........a..b..a....f....a.c.b.b.a...e.c...a..",
+  "roomNames": [
+    "Kitchen",
+    "Armory",
+    "Daimyo Hall",
+    "Shrine",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Ada the artisan",
+    "Bea the bowyer",
+    "Clara the cook",
+    "Vera the visiting monk",
+    "Dora the drummer",
+    "Edith the embroiderer",
+    "Freya the foot soldier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      4,
+      "next",
+      "futon"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "tatami"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    16,
+    22,
+    33,
+    35,
+    45
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

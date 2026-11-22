@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0000000000011111000111112222234422222344553333445533334455333344",
+  "objects": ".e...c.....fd....e.........c...ea..bf....a....fbb......aad...a..",
+  "roomNames": [
+    "Escalator Hub",
+    "Security Office",
+    "Skate Shop",
+    "Food Court",
+    "Service Corridors",
+    "Arcade"
+  ],
+  "people": [
+    "Albert the aerobics instructor",
+    "Victor the visiting store inspector",
+    "Bruno the boutique clerk",
+    "Carl the cashier",
+    "Dexter the disc jockey",
+    "Elias the eyewear stylist",
+    "Felix the fashionista",
+    "Gus the guard"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "gumball"
+    ],
+    [
+      3,
+      "room",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    20,
+    25,
+    38,
+    45,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      7,
+      15
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      41,
+      42
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "plasticchair",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 24,
+  "group": 0
+}

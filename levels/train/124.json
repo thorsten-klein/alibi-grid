@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222233322222333222223334444455544444555",
+  "objects": "...faba..bb...a.e.d....dc.....f.....a.d.....d.......bead.fb.e...",
+  "roomNames": [
+    "Sleeper B",
+    "Bar Car",
+    "Lounge Car",
+    "Observation Car",
+    "Sleeper A",
+    "Dining Car"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bella the bookseller",
+    "Victor the vendor",
+    "Cora the conductor",
+    "Dora the diplomat",
+    "Ena the engineer",
+    "Flora the fiddler",
+    "Gus the governor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      7,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    19,
+    29,
+    39,
+    40,
+    50,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "bunk",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 33,
+  "extra": true
+}

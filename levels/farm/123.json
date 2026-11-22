@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222333334443333344455555555",
+  "objects": "..ef......a..cbfda......cbaa........a...c..a........d....b...c..",
+  "roomNames": [
+    "Pig Pen",
+    "Fruit Orchard",
+    "Big Barn",
+    "Tractor Garage",
+    "Grain Silo",
+    "Farmstand"
+  ],
+  "people": [
+    "Ada the apple picker",
+    "Bea the beekeeper",
+    "Clara the cattle rancher",
+    "Dora the dairy maid",
+    "Vera the vineyard leaseholder",
+    "Edith the equipment operator",
+    "Freya the farmer",
+    "Greta the grain miller"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "bale"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "tractor"
+    ],
+    [
+      7,
+      "on",
+      "rocker"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    28,
+    39,
+    45,
+    48,
+    57
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      51,
+      59
+    ],
+    [
+      55,
+      63
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "rocker",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

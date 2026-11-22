@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "..a.....a.a...a......c...",
+  "roomNames": [
+    "Makeup Room",
+    "Catwalk",
+    "Prop Armory",
+    "Green Room"
+  ],
+  "people": [
+    "Arthur the assistant director",
+    "Basil the body double",
+    "Cedric the choreographer",
+    "Dmitri the diva",
+    "Vince the veteran producer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "group": 1
+}

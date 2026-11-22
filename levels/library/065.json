@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "e.....dc....a.d..c..a....",
+  "roomNames": [
+    "Papyrus Vault",
+    "Lecture Theater",
+    "Courtyard Fountain",
+    "Geometry Hall"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bea the bookbinder",
+    "Vera the veteran sage",
+    "Clara the cartographer",
+    "Dora the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bust"
+    ],
+    [
+      1,
+      "next",
+      "cupboard"
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

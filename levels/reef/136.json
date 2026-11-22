@@ -1,0 +1,164 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111133330011113333111111111111111111114444411111444445555566666555556666655555",
+  "objects": "bf.........c......a.......c.cf......aa......................a..e........a........d.....c.b..ef......",
+  "roomNames": [
+    "Brig",
+    "Open Sea",
+    "Cove",
+    "Longboat",
+    "Sloop",
+    "Dock",
+    "Tavern"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Bea the barkeep",
+    "Clara the cook",
+    "Daisy the diver",
+    "Elsa the engineer",
+    "Freya the first mate",
+    "Gus the gold digger",
+    "Hazel the harbor pilot",
+    "Igor the islander",
+    "Vera the vintner"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "room",
+      3
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      9
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "col",
+      6
+    ],
+    [
+      8,
+      "next",
+      "map"
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "row",
+      9
+    ]
+  ],
+  "solution": [
+    5,
+    14,
+    23,
+    37,
+    41,
+    59,
+    60,
+    76,
+    82,
+    98
+  ],
+  "doors": [
+    [
+      17,
+      27
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      73,
+      83
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

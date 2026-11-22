@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222211133334444333344445555444455554444",
+  "objects": "a......b.f.f...a.e.f..b..a.ac............eb..f.db....bb.a.......",
+  "roomNames": [
+    "Penthouse Suite",
+    "Kitchen",
+    "Security Surveillance",
+    "Parking Garage",
+    "Main Casino Floor",
+    "The Vault"
+  ],
+  "people": [
+    "Alma the accountant",
+    "Bella the baccarat dealer",
+    "Cora the croupier",
+    "Daisy the dice inspector",
+    "Viola the vip gambler",
+    "Elsa the entertainer",
+    "Fiona the floor manager",
+    "Gwen the gambler"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "safe"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "chaise"
+    ],
+    [
+      7,
+      "notRoom",
+      5
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    30,
+    35,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

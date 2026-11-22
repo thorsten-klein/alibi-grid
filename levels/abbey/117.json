@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223333322233333222444455554444555544445555",
+  "objects": ".d..f.f...a.fa..a.e..f....b.bc.eab.a..bd..e...cf................",
+  "roomNames": [
+    "Prior Cell",
+    "Chapter House",
+    "Cellar",
+    "Crypt",
+    "Infirmary",
+    "Herb Garden"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Della the document copyist",
+    "Vivian the vicar general",
+    "Ena the elder brother",
+    "Flora the friar",
+    "Grace the glass painter"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "bellrope"
+    ],
+    [
+      3,
+      "next",
+      "stall"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "reliquary"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    22,
+    27,
+    36,
+    41,
+    50,
+    61
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "palliasse",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 8,
+  "steps": 18,
+  "extra": true
+}

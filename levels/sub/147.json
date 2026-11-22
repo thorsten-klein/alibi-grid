@@ -1,0 +1,214 @@
+{
+  "size": 11,
+  "rooms": "0011111222200111112222001111122220033311222200333444444003334444440033344444455566666777555666667775556666677755566666777",
+  "objects": "b..f.....c.......c...e.a....c..d..a....e.............f...........b..e.a......ab.ca......b....b.af......a........bd.dbb.b.",
+  "roomNames": [
+    "Pressure Airlock",
+    "Specimen Bay",
+    "Torpedo Tube",
+    "Observation Dome",
+    "Hydrothermal Lab",
+    "Sonar Room",
+    "Reactor Chamber",
+    "Pilot Cockpit"
+  ],
+  "people": [
+    "Albert the aquanaut",
+    "Bruno the bathymetry tech",
+    "Carl the captain",
+    "Dexter the drill operator",
+    "Elias the electrical engineer",
+    "Felix the first officer",
+    "Gus the geochemist",
+    "Victor the vessel designer",
+    "Hugo the hydrophone operator",
+    "Igor the instrument tech",
+    "Jasper the junior officer"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "freezer"
+    ],
+    [
+      1,
+      "next",
+      "sonar"
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "next",
+      "sonar"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "col",
+      7
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      8
+    ],
+    [
+      8,
+      "on",
+      "bunk"
+    ],
+    [
+      9,
+      "next",
+      "tank"
+    ],
+    [
+      10,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    4,
+    20,
+    27,
+    35,
+    45,
+    62,
+    74,
+    83,
+    88,
+    102,
+    120
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      68,
+      79
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      75,
+      86
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      106,
+      107
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      114,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 31,
+  "extra": true
+}

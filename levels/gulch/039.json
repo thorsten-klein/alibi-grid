@@ -1,0 +1,82 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "...............d",
+  "roomNames": [
+    "Bank",
+    "Jail",
+    "Hotel"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Bea the blacksmith",
+    "Viola the vaquero",
+    "Cora the cook"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "cactus"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    2
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

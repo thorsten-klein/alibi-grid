@@ -1,0 +1,176 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000111111222333333222333333444555555444555555444666666444666666",
+  "objects": "......f...cea..df.....dcd...ff..a..b......bbd..ca..c.f....b...eb.f.a.e.b.a.e.c..c",
+  "roomNames": [
+    "Reactor Chamber",
+    "Crew Quarters",
+    "Pilot Cockpit",
+    "Torpedo Tube",
+    "Observation Dome",
+    "Ballast Control",
+    "Sonar Room"
+  ],
+  "people": [
+    "Alma the aquanaut",
+    "Bella the bathymetry tech",
+    "Cora the captain",
+    "Daisy the drill operator",
+    "Elsa the electrical engineer",
+    "Viola the vessel designer",
+    "Fiona the first officer",
+    "Gwen the geochemist",
+    "Hazel the hydrophone operator"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "sonar"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "notRoom",
+      3
+    ],
+    [
+      6,
+      "next",
+      "valve"
+    ],
+    [
+      7,
+      "next",
+      "valve"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "freezer"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    26,
+    31,
+    42,
+    45,
+    61,
+    66,
+    74
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 7,
+  "steps": 25,
+  "group": 3
+}

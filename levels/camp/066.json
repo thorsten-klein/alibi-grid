@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "b...f.c........fa..a...b.",
+  "roomNames": [
+    "River Bank",
+    "Elder Hut",
+    "Spring",
+    "Berry Grove"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Bruno the builder",
+    "Clara the carver",
+    "Dexter the drummer",
+    "Vivian the valley guide"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "bones"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "trades"
+  ],
+  "trade": "01..4",
+  "tags": ".........10......4...44..",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

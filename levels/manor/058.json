@@ -1,0 +1,98 @@
+{
+  "size": 5,
+  "rooms": "0000000000111221112233333",
+  "objects": ".bc...a.a....a.a...c..e.c",
+  "roomNames": [
+    "Conservatory",
+    "Billiard Room",
+    "Gallery",
+    "Study"
+  ],
+  "people": [
+    "Alma the author",
+    "Vivian the valet",
+    "Bella the butler",
+    "Cora the cook",
+    "Dora the dealer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

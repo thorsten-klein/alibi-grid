@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "b.f...ebf.......",
+  "roomNames": [
+    "Security Surveillance",
+    "Main Casino Floor",
+    "Penthouse Suite"
+  ],
+  "people": [
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Vince the vip gambler",
+    "Cedric the croupier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "chaise"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "table"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "onCount",
+      "chaise",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

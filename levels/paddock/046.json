@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": ".d..f....ea..e..",
+  "roomNames": [
+    "Media Center",
+    "VIP Balcony",
+    "Tire Bay"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Victor the veteran champion"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "tires"
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      2,
+      "next",
+      "bucket"
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

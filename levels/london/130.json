@@ -1,0 +1,182 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000112222000112222333444566333444566333444566333555566333555566",
+  "objects": ".b.a........d.b...ac....f.......d......f.f...b....ba.a....c.....cc.c.b.....ffe..a",
+  "roomNames": [
+    "Newsstand Corner",
+    "Cab Stand",
+    "Parlor Study",
+    "Pawn Shop",
+    "Cobblestone Alley",
+    "Thames Wharf",
+    "Tenement Attic"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Vera the vagabond",
+    "Bea the bowler hat seller",
+    "Clara the chimney sweep",
+    "Dora the doctor",
+    "Edith the errand boy",
+    "Freya the fishmonger",
+    "Greta the grave robber",
+    "Hilda the hawker"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "armchair"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      8
+    ],
+    [
+      6,
+      "next",
+      "armchair"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "streetlamp"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "streetlamp"
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    23,
+    27,
+    42,
+    47,
+    62,
+    66,
+    73
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "hard": 10,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

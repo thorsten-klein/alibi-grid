@@ -1,0 +1,231 @@
+{
+  "size": 12,
+  "rooms": "000000000000000000000000111111122222111111122222111111122222333344445555333344445555333344445555666644445555666677778888666677778888666677778888",
+  "objects": "e..........d.c..c..d.bdd.....bc.....fc.......b....a.e......c.............c....f...b...............b.....dfb...f.....b.....ed....f.e.b....b......",
+  "roomNames": [
+    "Studio Commissary",
+    "Prop Armory",
+    "Catwalk",
+    "Soundstage A",
+    "Editing Suite",
+    "Sound Booth",
+    "Wardrobe Vault",
+    "Screening Room",
+    "Makeup Room"
+  ],
+  "people": [
+    "Astrid the assistant director",
+    "Birgit the body double",
+    "Celia the choreographer",
+    "Della the diva",
+    "Ena the extra",
+    "Flora the fashion designer",
+    "Grace the gaffer",
+    "Hana the headliner",
+    "Vivian the veteran producer",
+    "Isla the intimacy coordinator",
+    "Jutta the juvenile lead",
+    "Kai the kitchen caterer"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "couch"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "couch"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "camera"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "couch"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      4
+    ],
+    [
+      9,
+      "next",
+      "light"
+    ],
+    [
+      10,
+      "notRoom",
+      2
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    21,
+    34,
+    41,
+    48,
+    61,
+    83,
+    91,
+    100,
+    111,
+    126,
+    140
+  ],
+  "doors": [
+    [
+      12,
+      24
+    ],
+    [
+      19,
+      31
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      52,
+      64
+    ],
+    [
+      55,
+      67
+    ],
+    [
+      58,
+      70
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      85,
+      97
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      99,
+      100
+    ],
+    [
+      102,
+      114
+    ],
+    [
+      106,
+      118
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      139,
+      140
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      140,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "boom",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 28,
+  "group": 2
+}

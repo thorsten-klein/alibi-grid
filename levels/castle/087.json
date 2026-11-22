@@ -1,0 +1,128 @@
+{
+  "size": 6,
+  "rooms": "000011000011223333223333224444224444",
+  "objects": ".a.b.c...b..c..c.....e.............c",
+  "roomNames": [
+    "Courtyard",
+    "Smithy",
+    "Armory",
+    "Tower",
+    "Chapel"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bea the baker",
+    "Carl the chronicler",
+    "Daisy the dancer",
+    "Edgar the envoy",
+    "Viola the vintner"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    20,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      5
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "ccckkc",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 16,
+  "extra": true
+}

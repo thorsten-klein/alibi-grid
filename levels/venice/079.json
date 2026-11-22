@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "........f.d........b..bbdd..d..e....",
+  "roomNames": [
+    "Mirrored Gallery",
+    "Grand Ballroom",
+    "Mask Atelier",
+    "Gondola Dock",
+    "Armory"
+  ],
+  "people": [
+    "Victor the venetian senator",
+    "Albert the aristocrat",
+    "Bruno the barcarolle singer",
+    "Carl the courtesan",
+    "Dexter the doge",
+    "Elias the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "maskstand"
+    ],
+    [
+      1,
+      "next",
+      "harpsichord"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "daybed"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "fountain"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    22,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

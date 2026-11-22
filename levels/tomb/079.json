@@ -1,0 +1,107 @@
+{
+  "size": 6,
+  "rooms": "000000000000111222111222333444333444",
+  "objects": "...d..b.bbe..cffb.bbee........a.ff..",
+  "roomNames": [
+    "Burial Chamber",
+    "Well Shaft",
+    "Antechamber",
+    "Hall of Pillars",
+    "Sun Court"
+  ],
+  "people": [
+    "Vivian the vizier",
+    "Ada the astrologer",
+    "Bruno the brewer",
+    "Cedric the chanter",
+    "Dexter the diviner",
+    "Elias the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    17,
+    22,
+    26,
+    31
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..L.......................C....C....",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

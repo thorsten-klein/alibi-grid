@@ -1,0 +1,165 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333222222333224444333224444555556666555556666555556666",
+  "objects": "d.d..dec...a.ba.e....c...eaf...b......df...ba.e.b...bd..a......cdd...d..........e",
+  "roomNames": [
+    "Fruit Orchard",
+    "Tractor Garage",
+    "Milking Shed",
+    "Grain Silo",
+    "Farmhouse Kitchen",
+    "Pig Pen",
+    "Tool Shed"
+  ],
+  "people": [
+    "Astrid the apple picker",
+    "Birgit the beekeeper",
+    "Celia the cattle rancher",
+    "Della the dairy maid",
+    "Ena the equipment operator",
+    "Flora the farmer",
+    "Grace the grain miller",
+    "Hana the harvester",
+    "Vivian the vineyard leaseholder"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "churn"
+    ],
+    [
+      2,
+      "next",
+      "bale"
+    ],
+    [
+      3,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "next",
+      "rocker"
+    ],
+    [
+      4,
+      "next",
+      "anvil"
+    ],
+    [
+      5,
+      "on",
+      "rocker"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "scarecrow"
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    20,
+    30,
+    36,
+    52,
+    59,
+    67,
+    78
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "scarecrow",
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 41,
+  "extra": true
+}

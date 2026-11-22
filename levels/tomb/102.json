@@ -1,0 +1,140 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": ".c..f.bfaf.a...fa..a..a.c..a..fb.........b...e.a.",
+  "roomNames": [
+    "Hall of Pillars",
+    "Scribe Room",
+    "Well Shaft",
+    "Boat Pit",
+    "Treasury"
+  ],
+  "people": [
+    "Astrid the astrologer",
+    "Birgit the boat builder",
+    "Cora the carpenter",
+    "Della the diviner",
+    "Vince the vintner",
+    "Edith the envoy",
+    "Felix the fisher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "jar"
+    ],
+    [
+      5,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    18,
+    21,
+    29,
+    38,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "onCount",
+      "couch",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "............L.....L..C....C...........C.C.......L",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

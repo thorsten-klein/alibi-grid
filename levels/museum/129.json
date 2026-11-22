@@ -1,0 +1,167 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000022222333322222333344555333344555666644555666644555666644555",
+  "objects": "e.d.fe.a.a..b.da..b......ac..c.f....fd......d...c...........b.....a.e..bb.ec...b.",
+  "roomNames": [
+    "Security Control",
+    "Greek Antiquities",
+    "Boiler Cellar",
+    "Egyptian Wing",
+    "Medieval Hall",
+    "Grand Rotunda",
+    "Gift Shop"
+  ],
+  "people": [
+    "Alma the archaeologist",
+    "Bella the benefactor",
+    "Cora the curator",
+    "Daisy the director",
+    "Viola the valuer",
+    "Elsa the egyptologist",
+    "Fiona the forger",
+    "Gwen the guard",
+    "Hazel the historian"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "turnstile"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "display"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      6
+    ]
+  ],
+  "solution": [
+    8,
+    10,
+    21,
+    27,
+    41,
+    49,
+    61,
+    65,
+    78
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222334445553344455533444555",
+  "objects": "ce.....a...acb.bdc.....b...e.......a.d......af.ba.fa..e..acc....",
+  "roomNames": [
+    "Chapel",
+    "Pantry",
+    "Library",
+    "Kitchen",
+    "Study",
+    "Conservatory"
+  ],
+  "people": [
+    "Vivian the valet",
+    "Astrid the architect",
+    "Bea the butler",
+    "Celia the cook",
+    "Dora the doctor",
+    "Elsa the editor",
+    "Frank the florist",
+    "Grace the guest"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "shelf"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    29,
+    33,
+    42,
+    48,
+    62
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 26,
+  "group": 2
+}

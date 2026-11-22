@@ -1,0 +1,87 @@
+{
+  "size": 5,
+  "rooms": "0011100222002220033300333",
+  "objects": "....a...a...b..........be",
+  "roomNames": [
+    "Open Sea",
+    "Sloop",
+    "Tavern",
+    "Longboat"
+  ],
+  "people": [
+    "Albert the admiral",
+    "Victor the voyager",
+    "Bruno the boatswain",
+    "Cora the cook",
+    "Dora the deckhand"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      2,
+      7
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "group": 1
+}

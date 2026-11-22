@@ -1,0 +1,68 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "f...b...bc.c.f.b",
+  "roomNames": [
+    "Baggage Car",
+    "Mail Car",
+    "Sleeper C"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Bea the bookseller",
+    "Vera the vendor",
+    "Cedric the conductor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "wine"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

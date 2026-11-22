@@ -1,0 +1,91 @@
+{
+  "size": 5,
+  "rooms": "0000000000111221112233322",
+  "objects": "..........a...a..c.b.....",
+  "roomNames": [
+    "Open Sea",
+    "Sea Cave",
+    "Fort",
+    "Galleon"
+  ],
+  "people": [
+    "Albert the armorer",
+    "Bella the barkeep",
+    "Victor the vintner",
+    "Cora the captain",
+    "Dora the deckhand"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

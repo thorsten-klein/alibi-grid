@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011223111223111223444223444",
+  "objects": "....b..a...c.f...b...b.c....b.ba..c.",
+  "roomNames": [
+    "Shower Block",
+    "Director Office",
+    "Counselor Cabin",
+    "Bunkhouse Alpha",
+    "Archery Range"
+  ],
+  "people": [
+    "Astrid the archery instructor",
+    "Vivian the veteran camp owner",
+    "Birgit the boating coach",
+    "Celia the camp counselor",
+    "Della the drama coach",
+    "Ena the ecology guide"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "table"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    12,
+    21,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "board",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

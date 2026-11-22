@@ -1,0 +1,234 @@
+{
+  "size": 11,
+  "rooms": "0001111222200011112222000111122220001111222200011112222333334445553333344455533666444555336664445553366677777733666777777",
+  "objects": "...c.....e.b.ef..eea..d.....eed...f.....d.d...a.....a....a.d.b.d.....db..d.b.f....aab......ef.f..fbdd...d..c......b...f.d",
+  "roomNames": [
+    "Pharmacy",
+    "Doctor Office",
+    "Kitchen",
+    "Ward A",
+    "Operating Theater",
+    "Solarium",
+    "Reception Hall",
+    "Boiler Room"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Dexter the dentist",
+    "Elias the examiner",
+    "Felix the forensic pathologist",
+    "Gus the gerontologist",
+    "Hugo the hospitalier",
+    "Igor the inspector",
+    "Jasper the journalist",
+    "Victor the visiting superintendent"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "archive"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      1,
+      "same",
+      4
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      5,
+      "next",
+      "wheelchair"
+    ],
+    [
+      6,
+      "next",
+      "bed"
+    ],
+    [
+      7,
+      "on",
+      "bed"
+    ],
+    [
+      7,
+      "next",
+      "wheelchair"
+    ],
+    [
+      8,
+      "next",
+      "archive"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "notRoom",
+      0
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "next",
+      "cart"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    31,
+    36,
+    50,
+    56,
+    76,
+    84,
+    96,
+    101,
+    110
+  ],
+  "doors": [
+    [
+      24,
+      25
+    ],
+    [
+      44,
+      55
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      48,
+      59
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      51,
+      62
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      94,
+      105
+    ],
+    [
+      96,
+      107
+    ],
+    [
+      103,
+      104
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      113,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "bed",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 38,
+  "extra": true
+}

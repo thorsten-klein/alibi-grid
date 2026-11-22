@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "...d..d.......a....db.aa.",
+  "roomNames": [
+    "Artist Trailer",
+    "Main Stage",
+    "Backstage VIP",
+    "Merch Pavilion"
+  ],
+  "people": [
+    "Vera the vip record exec",
+    "Ada the audio engineer",
+    "Bea the bass player",
+    "Clara the crew chief",
+    "Dora the drummer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "drums"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 15,
+  "extra": true
+}

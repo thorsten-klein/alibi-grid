@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0011222222001122222200113334440011333444001133344400113334445556667777555666777755566677775556667777",
+  "objects": "...a.b...................cc.e...ba...c..c.......a....b......a...c..b.b..b.be...ad.b....f...ca.....f.",
+  "roomNames": [
+    "Sauna",
+    "Ski Room",
+    "Bar",
+    "Dining Hall",
+    "Kitchen",
+    "Boot Room",
+    "Games Room",
+    "Spa"
+  ],
+  "people": [
+    "Arthur the athlete",
+    "Bea the bartender",
+    "Cora the cook",
+    "Dmitri the driver",
+    "Ena the explorer",
+    "Viola the vet",
+    "Fiona the forester",
+    "Greta the glacier expert",
+    "Henrik the hiker",
+    "Isla the ice climber"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "skis"
+    ],
+    [
+      4,
+      "next",
+      "skis"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "tree"
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "next",
+      "wood"
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    22,
+    38,
+    41,
+    59,
+    60,
+    74,
+    86,
+    97
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      15,
+      25
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      85,
+      86
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 36,
+  "extra": true
+}

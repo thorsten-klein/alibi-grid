@@ -1,0 +1,103 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "..a...........ed.be..ba..",
+  "roomNames": [
+    "Statue Hall",
+    "Well Shaft",
+    "Workshop",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the brewer",
+    "Carl the carpenter",
+    "Viola the vintner",
+    "Dmitri the diviner"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    13,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".......L........C...C....",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "group": 2
+}

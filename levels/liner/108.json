@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": "...bb..bf...........ca..c..bed.f.d.f.....e...aa.b",
+  "roomNames": [
+    "Library",
+    "Steerage Quarters",
+    "Stateroom A",
+    "Grand Ballroom",
+    "Promenade Deck"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the bartender",
+    "Vivian the valet",
+    "Celia the chief engineer",
+    "Della the doctor",
+    "Ena the envoy",
+    "Flora the fireman"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "berth"
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "on",
+      "deckchair"
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    19,
+    21,
+    34,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "luggage",
+      1
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

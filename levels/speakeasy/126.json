@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222223333222223333224445566224445566224445566224445566",
+  "objects": ".e..........b.....afc..ecbb...cb.....a..e.fb.af.......f...a...a...fb..a..b....a..",
+  "roomNames": [
+    "Safe Room",
+    "Private Booths",
+    "Distillery",
+    "Manager Office",
+    "Cold Storage",
+    "Bar Counter",
+    "Main Lounge"
+  ],
+  "people": [
+    "Vera the valued patron",
+    "Ada the attorney",
+    "Bea the bootlegger",
+    "Clara the card sharp",
+    "Dora the distiller",
+    "Edith the emcee",
+    "Freya the forger",
+    "Greta the gun runner",
+    "Hilda the hat check girl"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "booth"
+    ],
+    [
+      2,
+      "next",
+      "roulette"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "sax"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "safe"
+    ],
+    [
+      7,
+      "on",
+      "booth"
+    ],
+    [
+      8,
+      "room",
+      4
+    ],
+    [
+      8,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    22,
+    29,
+    44,
+    51,
+    55,
+    70,
+    75
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "booth",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

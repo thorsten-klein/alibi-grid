@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "000000111111222233222233444433444433",
+  "objects": ".b.f....e...e.......a...f..b......e.",
+  "roomNames": [
+    "Pig Pen",
+    "Tractor Garage",
+    "Root Cellar",
+    "Farmhouse Kitchen",
+    "Tool Shed"
+  ],
+  "people": [
+    "Ada the apple picker",
+    "Bea the beekeeper",
+    "Clara the cattle rancher",
+    "Dora the dairy maid",
+    "Vera the vineyard leaseholder",
+    "Edith the equipment operator"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "rocker"
+    ],
+    [
+      0,
+      "next",
+      "anvil"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      5,
+      "next",
+      "rocker"
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    17,
+    19,
+    28,
+    33
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

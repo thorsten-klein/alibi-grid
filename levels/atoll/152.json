@@ -1,0 +1,221 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000002222220000022222233333222222333334444443333344444455555666666555556666665555577777755555777777",
+  "objects": "f..d.....a....f....e...b.....e..d..a...dba.d.....a.aa.c.a.b.......e....a.a.a.bd......cccd...b.bbbb...........aa...eb..dbb",
+  "roomNames": [
+    "Open Beach",
+    "Infinity Pool",
+    "Dive Shop",
+    "Overwater Bungalow",
+    "Reception Lobby",
+    "Staff Quarters",
+    "Spa Pavilion",
+    "Coral Lagoon"
+  ],
+  "people": [
+    "Ada the activities director",
+    "Bea the bartender",
+    "Vera the vacationer",
+    "Clara the concierge",
+    "Dora the divemaster",
+    "Edith the excursion guide",
+    "Freya the fitness coach",
+    "Greta the guest of honor",
+    "Hilda the hotel manager",
+    "Ivy the island pilot",
+    "Jade the jet ski renter"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "jetski"
+    ],
+    [
+      2,
+      "next",
+      "towel"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "towel"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "col",
+      8
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "towel"
+    ],
+    [
+      7,
+      "next",
+      "hammock"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "on",
+      "hammock"
+    ],
+    [
+      9,
+      "next",
+      "hammock"
+    ],
+    [
+      9,
+      "next",
+      "towel"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "next",
+      "jetski"
+    ]
+  ],
+  "solution": [
+    5,
+    18,
+    24,
+    34,
+    44,
+    63,
+    76,
+    83,
+    92,
+    108,
+    113
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      18,
+      29
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      68,
+      79
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      93,
+      104
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      114,
+      "b"
+    ],
+    [
+      117,
+      "b"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "nextCount",
+      "surfboard",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 7,
+  "steps": 38,
+  "extra": true
+}

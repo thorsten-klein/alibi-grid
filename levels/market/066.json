@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "...e...f.b.ee....f.d..ec.",
+  "roomNames": [
+    "Silk Stall",
+    "Fortune Teller",
+    "Shadow Stage",
+    "Bell Tower"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bella the boatman",
+    "Viola the village magistrate",
+    "Cora the calligrapher",
+    "Daisy the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "teacart"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "lantern"
+    ],
+    [
+      4,
+      "next",
+      "gong"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

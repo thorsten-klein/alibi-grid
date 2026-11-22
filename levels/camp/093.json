@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "b...b..d.......b............b..a..ad...f.c...da.c",
+  "roomNames": [
+    "Elder Hut",
+    "River Bank",
+    "Hide Tent",
+    "Hunting Ground",
+    "Lookout Rock"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bella the beekeeper",
+    "Celia the carver",
+    "Vera the visionary",
+    "Daisy the dancer",
+    "Edgar the elder",
+    "Frank the firekeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      4,
+      "on",
+      "log"
+    ],
+    [
+      5,
+      "next",
+      "bones"
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    19,
+    25,
+    34,
+    38,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      42,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".343110",
+  "tags": ".....4..3.........34...4.3...3........1.4.0......",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

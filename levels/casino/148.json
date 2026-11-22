@@ -1,0 +1,199 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000001122220000011222200000112222333444455553334444555533344445555333666677773336666777733366667777",
+  "objects": "a.aa...b.c....b.......f.ba...ece.ba.....a.d.....b.c.b...f.bb..ab...e...b..ba......a..ca.b....f...d..e..f..eb...e.f.......",
+  "roomNames": [
+    "Security Surveillance",
+    "Cashier Cage",
+    "Rooftop Pool",
+    "Main Casino Floor",
+    "Kitchen",
+    "Showgirl Dressing Room",
+    "High Roller Lounge",
+    "Valet Booth"
+  ],
+  "people": [
+    "Astrid the accountant",
+    "Birgit the baccarat dealer",
+    "Celia the croupier",
+    "Della the dice inspector",
+    "Vivian the vip gambler",
+    "Ena the entertainer",
+    "Flora the floor manager",
+    "Grace the gambler",
+    "Hana the high roller",
+    "Isla the investigator",
+    "Jutta the janitor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "wheel"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "chaise"
+    ],
+    [
+      3,
+      "next",
+      "table"
+    ],
+    [
+      4,
+      "next",
+      "wheel"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "wheel"
+    ],
+    [
+      8,
+      "next",
+      "safe"
+    ],
+    [
+      8,
+      "next",
+      "chaise"
+    ],
+    [
+      9,
+      "next",
+      "table"
+    ],
+    [
+      10,
+      "next",
+      "chaise"
+    ]
+  ],
+  "solution": [
+    4,
+    20,
+    24,
+    33,
+    49,
+    61,
+    76,
+    84,
+    89,
+    102,
+    118
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      44,
+      55
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      52,
+      63
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      81,
+      92
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      32,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      114,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111222332223322233",
+  "objects": ".a...b.......bf.d........",
+  "roomNames": [
+    "Opium Den",
+    "Pub Taproom",
+    "Tenement Attic",
+    "Newsstand Corner"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the bowler hat seller",
+    "Celia the chimney sweep",
+    "Della the doctor",
+    "Vivian the vagabond"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "armchair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "hansom"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      4,
+      9
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "kiosk",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

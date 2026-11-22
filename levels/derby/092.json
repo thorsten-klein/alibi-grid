@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000011000011222233222233444233444233",
+  "objects": "....a.b....ebe.bec.dfb...b..e.a...af",
+  "roomNames": [
+    "Vet Clinic",
+    "Royal Box",
+    "Winner Enclosure",
+    "Stewards Room",
+    "Jockeys Room"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the breeder",
+    "Viola the visiting royalty",
+    "Cora the clerk of scales",
+    "Daisy the doper",
+    "Elsa the owner envoy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "turfchair"
+    ],
+    [
+      1,
+      "on",
+      "stablebench"
+    ],
+    [
+      2,
+      "next",
+      "haystack"
+    ],
+    [
+      3,
+      "next",
+      "board"
+    ],
+    [
+      4,
+      "on",
+      "stablebench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    14,
+    22,
+    25,
+    33
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      19,
+      25
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

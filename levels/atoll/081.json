@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011223111223111223444223444",
+  "objects": "....b..a...c.f...b...b.c....b.ba..c.",
+  "roomNames": [
+    "Reception Lobby",
+    "Staff Quarters",
+    "Overwater Bungalow",
+    "Tiki Bar",
+    "Coconut Grove"
+  ],
+  "people": [
+    "Astrid the animator",
+    "Vivian the vip influencer",
+    "Birgit the boat captain",
+    "Celia the chef",
+    "Della the disc jockey",
+    "Ena the entertainer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "towel"
+    ],
+    [
+      1,
+      "next",
+      "surfboard"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "hammock"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "surfboard"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    12,
+    21,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "cart",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

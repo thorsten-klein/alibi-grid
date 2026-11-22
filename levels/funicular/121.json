@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223333322233333222444445554444455544444555",
+  "objects": "....df..e..c....a.a....a..e.c..bc...b.f...bf.c.........d..a.....",
+  "roomNames": [
+    "Souvenir Kiosk",
+    "Funicular Car A",
+    "Transformer Vault",
+    "Sheave Tower",
+    "Funicular Car B",
+    "Glacier Overlook"
+  ],
+  "people": [
+    "Ada the avalanche controller",
+    "Vera the veteran mountaineer",
+    "Bea the brake operator",
+    "Clara the conductor",
+    "Dora the dispatcher",
+    "Edith the electrical engineer",
+    "Freya the funicular driver",
+    "Greta the glaciologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "skirack"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "next",
+      "winch"
+    ],
+    [
+      7,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    17,
+    24,
+    39,
+    44,
+    53,
+    62
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "skirack",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 25,
+  "extra": true
+}

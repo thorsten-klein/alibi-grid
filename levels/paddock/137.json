@@ -1,0 +1,188 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000333322000333322444455666444455666444455666444455666",
+  "objects": "........cbb..ba..ab...a...ac....c....fbfb..dbfb....b..e.b..a.b....c.aabba.b..a...",
+  "roomNames": [
+    "VIP Balcony",
+    "Scrutineering Shed",
+    "Fuel Storage",
+    "Team Garage A",
+    "Media Center",
+    "Tire Bay",
+    "Pit Lane"
+  ],
+  "people": [
+    "Alma the apprentice",
+    "Bella the broadcast commentator",
+    "Cora the crew chief",
+    "Daisy the data telemetry lead",
+    "Elsa the electrician",
+    "Fiona the flag marshal",
+    "Viola the vip team owner",
+    "Gwen the grid coordinator",
+    "Hazel the hospitality host"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "room",
+      2
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "toolbox"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "fuelrig"
+    ],
+    [
+      8,
+      "next",
+      "bucket"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    16,
+    19,
+    30,
+    41,
+    53,
+    56,
+    63,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      44,
+      "r"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 36,
+  "extra": true
+}

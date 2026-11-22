@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000111110002222233322222333445553334455533344555",
+  "objects": "...abe.d..a..c...b...a.....b.b......e.d.a......a.........b.df..c",
+  "roomNames": [
+    "Observation Dome",
+    "Ballast Control",
+    "Reactor Chamber",
+    "Conning Tower",
+    "Sonar Room",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Victor the vip expedition funder",
+    "Albert the acoustic analyst",
+    "Bruno the biologist",
+    "Carl the chief diver",
+    "Dexter the doctor",
+    "Elias the environmentalist",
+    "Felix the flight pilot",
+    "Gus the gyro tech"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "freezer"
+    ],
+    [
+      7,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    22,
+    24,
+    39,
+    45,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

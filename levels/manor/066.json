@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "fb.......ddcf.cb.b....a..",
+  "roomNames": [
+    "Conservatory",
+    "Pantry",
+    "Dining Room",
+    "Study"
+  ],
+  "people": [
+    "Albert the author",
+    "Bella the butler",
+    "Cora the cook",
+    "Viola the valet",
+    "Daisy the dealer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

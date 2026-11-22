@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".......b..f.cd.d.b..b.f...d.d..a.........aea...fc",
+  "roomNames": [
+    "Thames Wharf",
+    "Cobblestone Alley",
+    "Police Desk",
+    "Newsstand Corner",
+    "Tenement Attic"
+  ],
+  "people": [
+    "Alma the apothecary",
+    "Bella the blackmailer",
+    "Cora the constable",
+    "Daisy the detective",
+    "Elsa the engraver",
+    "Fiona the forger",
+    "Viola the victim of nobility"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "armchair"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    20,
+    24,
+    29,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "streetlamp",
+      0
+    ],
+    [
+      "nextCount",
+      "kiosk",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 24,
+  "extra": true
+}

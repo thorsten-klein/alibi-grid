@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222223322222233444222334445555544455555",
+  "objects": "e...eaa.a..e.cd.....a..cde....ef..ef.ca............ca..ea.....b.",
+  "roomNames": [
+    "Captain Cabin",
+    "Fire Pit",
+    "Saloon",
+    "Fort",
+    "Cave",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Astrid the archivist",
+    "Birgit the bard",
+    "Vince the visionary",
+    "Cora the clockmaker",
+    "Dmitri the drifter",
+    "Edith the engineer",
+    "Fiona the fortune teller",
+    "Gus the gladiator"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "withBandit"
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    20,
+    26,
+    33,
+    45,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 17,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": ".1.3.430",
+  "tags": ".........1...................0.......................43....0....",
+  "bandits": 2,
+  "lawful": [
+    1
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 30,
+  "extra": true
+}

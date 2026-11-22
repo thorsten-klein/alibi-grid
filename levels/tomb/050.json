@@ -1,0 +1,72 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": ".....ac..b..c.a.",
+  "roomNames": [
+    "Boat Pit",
+    "Hall of Pillars",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Basil the boat builder",
+    "Cedric the carpenter",
+    "Vera the vintner"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "couch"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    8,
+    15
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".C......C.LL....",
+  "hard": 4,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

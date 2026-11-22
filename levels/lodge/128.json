@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000000011000000011222200011222200011222233311445533311445533311445566666445566666",
+  "objects": "a.d...........be.be.f..a.....ea.....fb...e.....bc.b.a.f..ab.....aeb..b........a..",
+  "roomNames": [
+    "Suite",
+    "Ski Room",
+    "Games Room",
+    "Lobby",
+    "Dining Hall",
+    "Sauna",
+    "Boot Room"
+  ],
+  "people": [
+    "Albert the avalanche guard",
+    "Birgit the baker",
+    "Clara the cook",
+    "Viola the vlogger",
+    "Della the driver",
+    "Edith the engineer",
+    "Frank the fisher",
+    "Greta the glacier expert",
+    "Hugo the hotelier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "tree"
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "wood"
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "wood"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "room",
+      3
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "tree"
+    ],
+    [
+      8,
+      "door"
+    ]
+  ],
+  "solution": [
+    6,
+    17,
+    19,
+    30,
+    43,
+    45,
+    59,
+    67,
+    74
+  ],
+  "doors": [
+    [
+      24,
+      25
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "hard": 10,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

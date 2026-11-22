@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": ".b......fe.......fe.afff..fc.cb...cb",
+  "roomNames": [
+    "Hall of Mirrors",
+    "Coaster Shed",
+    "Ferris Wheel Base",
+    "Cotton Candy Stand",
+    "Fortune Booth"
+  ],
+  "people": [
+    "Alma the antiquarian",
+    "Bella the barker",
+    "Viola the venture developer",
+    "Cora the cotton candy vendor",
+    "Daisy the daredevil",
+    "Elsa the urban explorer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "generator"
+    ],
+    [
+      1,
+      "next",
+      "automaton"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    19,
+    24,
+    35
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

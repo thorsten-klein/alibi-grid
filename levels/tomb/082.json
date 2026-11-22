@@ -1,0 +1,129 @@
+{
+  "size": 6,
+  "rooms": "000000000000112222112222334444334444",
+  "objects": "...dd..........b.....a..a..e...a..e.",
+  "roomNames": [
+    "Well Shaft",
+    "Shrine",
+    "Workshop",
+    "Antechamber",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Vince the vizier",
+    "Albert the astrologer",
+    "Bea the brewer",
+    "Celia the chanter",
+    "Dexter the dancer",
+    "Edith the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    12,
+    20,
+    28,
+    33
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "couch",
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".....C...L.C..............L.C....C..",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 17,
+  "extra": true
+}

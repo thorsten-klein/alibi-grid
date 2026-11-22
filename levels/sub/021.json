@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222000112222333333444555555444555555444555666666555666666",
+  "objects": "bb........f...c.dad...c....d......e.....a.b.......c..af.....a...........b....bf..",
+  "roomNames": [
+    "Pressure Airlock",
+    "Ballast Control",
+    "Specimen Bay",
+    "Conning Tower",
+    "Observation Dome",
+    "Hydrothermal Lab",
+    "Pilot Cockpit"
+  ],
+  "people": [
+    "Arthur the acoustic analyst",
+    "Basil the biologist",
+    "Vince the vip expedition funder",
+    "Cedric the chief diver",
+    "Dmitri the doctor",
+    "Edgar the environmentalist",
+    "Frank the flight pilot",
+    "Gideon the gyro tech",
+    "Henrik the helmsman"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "freezer"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "next",
+      "valve"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    25,
+    35,
+    37,
+    51,
+    57,
+    68,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 24,
+  "group": 2
+}

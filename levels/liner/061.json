@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "f.....b......bb..f.e...f.",
+  "roomNames": [
+    "Dining Saloon",
+    "First Class Lounge",
+    "Galley",
+    "Turkish Bath"
+  ],
+  "people": [
+    "Alma the admiral",
+    "Bella the boatswain",
+    "Cora the captain",
+    "Daisy the deckhand",
+    "Viola the voyage sponsor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "luggage"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "on",
+      "berth"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

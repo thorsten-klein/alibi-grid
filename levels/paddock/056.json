@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111222332223322233",
+  "objects": "d..bb.af...e..c...d...f..",
+  "roomNames": [
+    "Tire Bay",
+    "Drivers Lounge",
+    "Paddock Walkway",
+    "Hospitality Suite"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Victor the veteran champion",
+    "Dexter the driver"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "fuelrig"
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "fuelrig",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

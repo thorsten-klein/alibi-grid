@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222444444555444444555444444555666666555666666555",
+  "objects": ".effd.......f......c....d.....f..a...f.f.....cc.........ba..c..a..c...c..b.b..a..",
+  "roomNames": [
+    "Reactor Chamber",
+    "Hydrothermal Lab",
+    "Galley",
+    "Crew Quarters",
+    "Pressure Airlock",
+    "Pilot Cockpit",
+    "Sonar Room"
+  ],
+  "people": [
+    "Astrid the acoustic analyst",
+    "Birgit the biologist",
+    "Vivian the vip expedition funder",
+    "Celia the chief diver",
+    "Della the doctor",
+    "Ena the environmentalist",
+    "Flora the flight pilot",
+    "Grace the gyro tech",
+    "Hana the helmsman"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "next",
+      "valve"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "freezer"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "freezer"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "sonar"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    26,
+    34,
+    40,
+    48,
+    56,
+    69,
+    72
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      21
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 25,
+  "extra": true
+}

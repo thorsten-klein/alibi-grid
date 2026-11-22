@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "..d.da...e....b.",
+  "roomNames": [
+    "Miners Mess",
+    "Shaft Elevator",
+    "Dynamite Magazine"
+  ],
+  "people": [
+    "Albert the assayer",
+    "Bruno the blacksmith",
+    "Carl the cart driver",
+    "Victor the vein claimant"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "hoist"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    10,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "group": 3
+}

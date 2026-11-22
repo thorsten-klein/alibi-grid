@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "roomNames": [
+    "Autopsy Suite",
+    "Chemical Vault",
+    "Server Farm",
+    "Decon Airlock",
+    "Cryo Storage"
+  ],
+  "people": [
+    "Albert the algorithm engineer",
+    "Bruno the bioethicist",
+    "Carl the cryo technician",
+    "Dexter the data architect",
+    "Elias the ecologist",
+    "Felix the forensic chemist",
+    "Victor the venture backer"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "hood"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "hood"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "rack"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    22,
+    32,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

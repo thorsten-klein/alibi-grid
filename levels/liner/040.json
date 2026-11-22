@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "b.....ff.bfafabc",
+  "roomNames": [
+    "Turkish Bath",
+    "Telegraph Cabin",
+    "Stateroom A"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bartender",
+    "Carl the chief engineer",
+    "Victor the valet"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "berth"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

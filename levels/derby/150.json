@@ -1,0 +1,211 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122223333444555533334445555333344455553333444555566666777755666667777556666677775566666777755",
+  "objects": "......e..b.....a.c.b.a..aadc........d.e...d....b.dcb..a..b......e..e.b............f.e..da.....c..a.d.........f....c...d..",
+  "roomNames": [
+    "Winner Enclosure",
+    "Stewards Room",
+    "Grandstand Terrace",
+    "Members Bar",
+    "Vet Clinic",
+    "Betting Ring",
+    "Jockeys Room",
+    "Stables"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the breeder",
+    "Vera the visiting royalty",
+    "Clara the clerk of scales",
+    "Dora the doper",
+    "Edith the owner envoy",
+    "Freya the form analyst",
+    "Greta the groundskeeper",
+    "Hilda the head stableman",
+    "Ivy the investor",
+    "Jade the judge"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "stablebench"
+    ],
+    [
+      2,
+      "next",
+      "stablebench"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      10
+    ],
+    [
+      5,
+      "next",
+      "float"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "col",
+      3
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      4
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    18,
+    30,
+    33,
+    53,
+    61,
+    71,
+    80,
+    92,
+    101,
+    120
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      33
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      118,
+      119
+    ],
+    [
+      81,
+      82
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      120,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

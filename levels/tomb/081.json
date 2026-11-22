@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333444333444",
+  "objects": ".....fa....cf...........d.ec.d..f...",
+  "roomNames": [
+    "Shrine",
+    "Burial Chamber",
+    "Sun Court",
+    "Statue Hall",
+    "Well Shaft"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bea the boat builder",
+    "Clara the carpenter",
+    "Vivian the vizier",
+    "Della the dancer",
+    "Elsa the envoy"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "next",
+      "jar"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    13,
+    20,
+    28,
+    35
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "C............C..............C.......",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

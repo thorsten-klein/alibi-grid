@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": "e....d.a........dda.........acc..d..",
+  "roomNames": [
+    "Menagerie Tent",
+    "Funhouse",
+    "Ticket Booth",
+    "Ringmaster Wagon",
+    "Dressing Trailer"
+  ],
+  "people": [
+    "Arthur the animal tamer",
+    "Basil the balloon artist",
+    "Vince the veteran ringmaster",
+    "Cedric the contortionist",
+    "Dmitri the drummer",
+    "Edgar the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "cage"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    13,
+    18,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

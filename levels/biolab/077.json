@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "dd.b.db.......bff.b..............f.e",
+  "roomNames": [
+    "Chemical Vault",
+    "Cleanroom 1",
+    "Breakroom",
+    "Cleanroom 2",
+    "Control Center"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Birgit the biochemist",
+    "Celia the chief scientist",
+    "Vivian the virology head",
+    "Della the dna sequencer",
+    "Ena the epidemiologist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "chamber"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    12,
+    23,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 18,
+  "extra": true
+}

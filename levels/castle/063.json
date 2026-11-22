@@ -1,0 +1,105 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "b..bb....bb.e...c..c..cc.",
+  "roomNames": [
+    "Smithy",
+    "Tower",
+    "Chapel",
+    "Great Hall"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bea the baker",
+    "Carl the chronicler",
+    "Vera the verger",
+    "Della the dancer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      3
+    ],
+    [
+      "onCount",
+      "cot",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "ckckc",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": ".b.d....a.b.f..e....f.aae",
+  "roomNames": [
+    "Tailor Front",
+    "Hidden Alleyway",
+    "Private Booths",
+    "Coat Check"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Bella the bootlegger",
+    "Viola the valued patron",
+    "Cora the card sharp",
+    "Daisy the distiller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "on",
+      "booth"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    14,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "b..be............deeb......c..a..f......edb...a..",
+  "roomNames": [
+    "Courtyard",
+    "Mask Atelier",
+    "Palazzo Chapel",
+    "Servants Mezzanine",
+    "Private Boudoir"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the barcarolle singer",
+    "Clara the courtesan",
+    "Dora the doge",
+    "Edith the envoy",
+    "Freya the fencing master",
+    "Vera the venetian senator"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "daybed"
+    ],
+    [
+      2,
+      "next",
+      "harpsichord"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    16,
+    22,
+    28,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "harpsichord",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 18,
+  "group": 1
+}

@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122200033344555333445553334455533344",
+  "objects": "..........cf....d....d.a.....e........b.....bbd...ea..a..f.....d",
+  "roomNames": [
+    "Cave",
+    "Lookout Rock",
+    "Elder Hut",
+    "Berry Grove",
+    "Fire Pit",
+    "Spring"
+  ],
+  "people": [
+    "Arthur the artist",
+    "Bella the beekeeper",
+    "Vera the visionary",
+    "Clara the carrier",
+    "Dora the drummer",
+    "Edith the elder",
+    "Fiona the firekeeper",
+    "Gwen the guard"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "boulder"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "leaves"
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    17,
+    28,
+    39,
+    43,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "nextCount",
+      "bones",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "......4.",
+  "tags": "...3...............2.............34.3...1.......4...............",
+  "hard": 2,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

@@ -1,0 +1,198 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333000044445500004444556666444455666644445566667777776666777777",
+  "objects": ".....a..d...eb.c.e...ca.aa.b.ef...dbd...fd.f..c........e.b...ab.c......df................d........a.",
+  "roomNames": [
+    "Throne Room",
+    "Stables",
+    "Smithy",
+    "Solar",
+    "Kitchen",
+    "Armory",
+    "Chapel",
+    "Great Hall"
+  ],
+  "people": [
+    "Ada the alchemist",
+    "Victor the vintner",
+    "Bruno the baker",
+    "Cedric the chronicler",
+    "Dmitri the dancer",
+    "Ena the envoy",
+    "Frank the falconer",
+    "Greta the groom",
+    "Hazel the herald",
+    "Isla the innkeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "bench"
+    ],
+    [
+      1,
+      "on",
+      "cot"
+    ],
+    [
+      2,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "candles"
+    ],
+    [
+      8,
+      "col",
+      1
+    ],
+    [
+      9,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    27,
+    32,
+    49,
+    58,
+    66,
+    70,
+    81,
+    94
+  ],
+  "doors": [
+    [
+      33,
+      43
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      0,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    4
+  ],
+  "rank": "kncncckccc",
+  "hard": 4,
+  "hardest": 8,
+  "steps": 31,
+  "extra": true
+}

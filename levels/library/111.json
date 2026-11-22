@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222330002223300022233444555554445555544455555",
+  "objects": ".....f....f.......b.a..cb....a.........a....f.....ac.....b...e.d",
+  "roomNames": [
+    "Courtyard Fountain",
+    "Papyrus Vault",
+    "Mosaic Gallery",
+    "Observatory",
+    "Philosopher Garden",
+    "Geometry Hall"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bruno the bookbinder",
+    "Carl the cartographer",
+    "Dexter the doctor",
+    "Elias the educator",
+    "Victor the veteran sage",
+    "Felix the fanbearer",
+    "Gus the geometer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "burner"
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "sphere"
+    ],
+    [
+      7,
+      "next",
+      "mat"
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    18,
+    27,
+    37,
+    41,
+    55,
+    56
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      42,
+      43
+    ]
+  ],
+  "windows": [
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "mat",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

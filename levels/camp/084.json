@@ -1,0 +1,113 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222334444334444",
+  "objects": "....a....b.....e.e.e..a.f..ee.ae.a..",
+  "roomNames": [
+    "River Bank",
+    "Hide Tent",
+    "Cave",
+    "Lookout Rock",
+    "Berry Grove"
+  ],
+  "people": [
+    "Vera the visionary",
+    "Astrid the acrobat",
+    "Bella the builder",
+    "Clara the carver",
+    "Dmitri the dancer",
+    "Elsa the elk tamer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "on",
+      "log"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    18,
+    25,
+    33
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "trades"
+  ],
+  "trade": "334..4",
+  "tags": "2..2.3..3.......4............2....32",
+  "hard": 8,
+  "hardest": 4,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,127 @@
+{
+  "size": 6,
+  "rooms": "001111001111001222001222333444333444",
+  "objects": ".....ba...e......fdc....df..........",
+  "roomNames": [
+    "Director Office",
+    "Campfire Clearing",
+    "Archery Range",
+    "Counselor Cabin",
+    "Lake Shore"
+  ],
+  "people": [
+    "Vivian the visitor",
+    "Astrid the arts counselor",
+    "Birgit the bugler",
+    "Celia the cook",
+    "Della the director",
+    "Ena the eagle scout"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "canoes"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "next",
+      "board"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    12,
+    21,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "extra": true
+}

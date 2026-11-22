@@ -1,0 +1,176 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222233333222233333222233333444455566444455566444455566",
+  "objects": "...b...c.....dde...f........b.ce...c....c.e.ad....b...dab.e......ffeeeb........f.",
+  "roomNames": [
+    "Safe Room",
+    "Private Booths",
+    "Cold Storage",
+    "Distillery",
+    "Manager Office",
+    "VIP Poker Den",
+    "Coat Check"
+  ],
+  "people": [
+    "Victor the valued patron",
+    "Albert the attorney",
+    "Bruno the bootlegger",
+    "Carl the card sharp",
+    "Dexter the distiller",
+    "Elias the emcee",
+    "Felix the forger",
+    "Gus the gun runner",
+    "Hugo the hat check girl"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "roulette"
+    ],
+    [
+      4,
+      "next",
+      "sax"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sax"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "col",
+      6
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    26,
+    32,
+    39,
+    49,
+    56,
+    70,
+    78
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      69,
+      70
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

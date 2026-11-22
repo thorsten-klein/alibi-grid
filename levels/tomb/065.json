@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "...a.....b...be..a.....b.",
+  "roomNames": [
+    "Scribe Room",
+    "Antechamber",
+    "Boat Pit",
+    "Well Shaft"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Bella the boat builder",
+    "Cora the chanter",
+    "Daisy the diviner",
+    "Vince the vizier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "on",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    12,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..........LC....L....C...",
+  "hard": 1,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222000111222233445566773344556677334455667733445566773344556677",
+  "objects": ".....ad..ddb.b..e.......b.aa.b.f....c.eba...b.da.c..e...bbb..f..c.......e..f....aca.c..e..ba..c....a",
+  "roomNames": [
+    "Farmhouse Kitchen",
+    "Tractor Garage",
+    "Tool Shed",
+    "Root Cellar",
+    "Milking Shed",
+    "Grain Silo",
+    "Farmstand",
+    "Fruit Orchard"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barn hand",
+    "Cedric the cider presser",
+    "Dmitri the ditcher",
+    "Vince the veterinarian",
+    "Edgar the entomologist",
+    "Frank the farrier",
+    "Gideon the greenhouse tender",
+    "Henrik the horse trainer",
+    "Ivo the irrigation worker"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "scarecrow"
+    ],
+    [
+      1,
+      "on",
+      "rocker"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "rocker"
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "tractor"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "rocker"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "same",
+      6
+    ],
+    [
+      8,
+      "next",
+      "churn"
+    ],
+    [
+      9,
+      "next",
+      "bale"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    25,
+    30,
+    43,
+    54,
+    67,
+    79,
+    86,
+    92
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

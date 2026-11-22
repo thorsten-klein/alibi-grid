@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000001122000000112233444411223344441122334444112233444411225566667777556666777755666677775566667777",
+  "objects": "b.fb.......e......e.......d..f...a..c.....c......d......f..bbbcfa..bfa..af.b..b....a.....dccb..c...f",
+  "roomNames": [
+    "Med Bay",
+    "Observatory",
+    "Gym",
+    "Hydroponics",
+    "Airlock",
+    "Crew Quarters",
+    "Comms",
+    "Engine Room"
+  ],
+  "people": [
+    "Arthur the astronaut",
+    "Victor the visitor",
+    "Bella the biologist",
+    "Clara the captain",
+    "Dmitri the doctor",
+    "Elsa the engineer",
+    "Flora the flight officer",
+    "Gideon the gunner",
+    "Hugo the hull technician",
+    "Ines the instructor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "scope"
+    ],
+    [
+      1,
+      "col",
+      6
+    ],
+    [
+      2,
+      "next",
+      "scope"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      7,
+      "next",
+      "tank"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "pod"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    9,
+    16,
+    27,
+    35,
+    41,
+    54,
+    60,
+    78,
+    82,
+    93
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      10,
+      20
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      30,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 24,
+  "group": 1
+}

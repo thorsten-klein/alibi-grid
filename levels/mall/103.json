@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333444433344443334444",
+  "objects": "........b..a....d....e..bb.b..c...............db.",
+  "roomNames": [
+    "Skate Shop",
+    "Service Corridors",
+    "Arcade",
+    "Atrium Fountain",
+    "Toy Emporium"
+  ],
+  "people": [
+    "Alma the aerobics instructor",
+    "Bella the boutique clerk",
+    "Cora the cashier",
+    "Daisy the disc jockey",
+    "Viola the visiting store inspector",
+    "Elsa the eyewear stylist",
+    "Fiona the fashionista"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      0,
+      "next",
+      "photobench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "plasticchair"
+    ],
+    [
+      3,
+      "on",
+      "photobench"
+    ],
+    [
+      5,
+      "next",
+      "fountain"
+    ],
+    [
+      6,
+      "next",
+      "photobench"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    18,
+    24,
+    28,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

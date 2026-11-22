@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011223111223111223444223444",
+  "objects": "....b..a...c.f...b...b.c....b.ba..c.",
+  "roomNames": [
+    "Ferris Wheel Base",
+    "Souvenir Shack",
+    "Carousel Pavilion",
+    "Hall of Mirrors",
+    "Fortune Booth"
+  ],
+  "people": [
+    "Astrid the antiquarian",
+    "Vivian the venture developer",
+    "Birgit the barker",
+    "Celia the cotton candy vendor",
+    "Della the daredevil",
+    "Ena the urban explorer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "horse"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "cart"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    12,
+    21,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "generator",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

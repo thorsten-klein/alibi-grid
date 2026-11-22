@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122001122333344333344",
+  "objects": "ce.c.............b.a...a.b..b..eb..d",
+  "roomNames": [
+    "Solar",
+    "Armory",
+    "Chapel",
+    "Great Hall",
+    "Gatehouse"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bea the bard",
+    "Vince the vintner",
+    "Clara the chronicler",
+    "Dora the doorkeeper",
+    "Edgar the envoy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    17,
+    18,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "cncccc",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

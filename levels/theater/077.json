@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "000011000011222111222111333444333444",
+  "objects": "...b.a.a........e....a......ea.ecf..",
+  "roomNames": [
+    "Foyer",
+    "Dressing Room",
+    "Balcony",
+    "Green Room",
+    "Costume Room"
+  ],
+  "people": [
+    "Ada the agent",
+    "Vivian the violinist",
+    "Bella the baritone",
+    "Clara the critic",
+    "Dexter the director",
+    "Edith the extra"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "rack"
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    12,
+    23,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      9,
+      15
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

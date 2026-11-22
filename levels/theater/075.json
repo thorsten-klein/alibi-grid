@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".......f..........a...ad.",
+  "roomNames": [
+    "Green Room",
+    "Box Office",
+    "Lighting Booth",
+    "Orchestra Pit"
+  ],
+  "people": [
+    "Astrid the author",
+    "Bea the bass player",
+    "Vera the violinist",
+    "Cora the choreographer",
+    "Dmitri the director"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "light"
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

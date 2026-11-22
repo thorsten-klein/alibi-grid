@@ -1,0 +1,125 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "a.bdaa...d......ae.........e...c..e.b..b..e.a....",
+  "roomNames": [
+    "Boat Pit",
+    "Statue Hall",
+    "Well Shaft",
+    "Scribe Room",
+    "Shrine"
+  ],
+  "people": [
+    "Vera the vintner",
+    "Ada the astrologer",
+    "Bruno the boat builder",
+    "Clara the chanter",
+    "Dora the diviner",
+    "Edith the envoy",
+    "Fiona the fanbearer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    18,
+    24,
+    33,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "........L........................C.......C.....CC",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

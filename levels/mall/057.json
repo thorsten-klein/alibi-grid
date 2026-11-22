@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "c.f.bd.daa....d...debebe.",
+  "roomNames": [
+    "Arcade",
+    "Food Court",
+    "Security Office",
+    "Escalator Hub"
+  ],
+  "people": [
+    "Albert the aerobics instructor",
+    "Victor the visiting store inspector",
+    "Bruno the boutique clerk",
+    "Carl the cashier",
+    "Dexter the disc jockey"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "plasticchair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "gate"
+    ],
+    [
+      4,
+      "on",
+      "photobench"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "photobench",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

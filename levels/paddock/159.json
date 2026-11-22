@@ -1,0 +1,242 @@
+{
+  "size": 12,
+  "rooms": "000011122233000011122233000011122233000011122233000011122233445566777777445566777777445566777777445566777777445566888888445566888888445566888888",
+  "objects": "fd.b.b....c.b..f..a.a.......fb.a..f.......d.fa....a.....b..f...cf....a....a.e.f.c......a....d.........f..c..a.bf...........a........e..b..a.e.b.",
+  "roomNames": [
+    "Tire Bay",
+    "Drivers Lounge",
+    "Team Garage B",
+    "Pit Lane",
+    "Scrutineering Shed",
+    "Telemetry Room",
+    "Hospitality Suite",
+    "Media Center",
+    "Team Garage A"
+  ],
+  "people": [
+    "Astrid the apprentice",
+    "Birgit the broadcast commentator",
+    "Celia the crew chief",
+    "Della the data telemetry lead",
+    "Vivian the vip team owner",
+    "Ena the electrician",
+    "Flora the flag marshal",
+    "Grace the grid coordinator",
+    "Hana the hospitality host",
+    "Isla the international steward",
+    "Jutta the jack operator",
+    "Kai the kitchen chef"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      7
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "chassis"
+    ],
+    [
+      1,
+      "next",
+      "toolbox"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "toolbox"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "toolbox"
+    ],
+    [
+      4,
+      "next",
+      "bucket"
+    ],
+    [
+      5,
+      "next",
+      "toolbox"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "next",
+      "bucket"
+    ],
+    [
+      8,
+      "same",
+      11
+    ],
+    [
+      9,
+      "notRoom",
+      0
+    ],
+    [
+      10,
+      "next",
+      "fuelrig"
+    ],
+    [
+      11,
+      "door",
+      null
+    ],
+    [
+      11,
+      "row",
+      11
+    ]
+  ],
+  "solution": [
+    7,
+    22,
+    27,
+    47,
+    49,
+    66,
+    72,
+    86,
+    100,
+    117,
+    128,
+    137
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      51,
+      63
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      52,
+      64
+    ],
+    [
+      54,
+      66
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      55,
+      67
+    ],
+    [
+      58,
+      70
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      137,
+      138
+    ],
+    [
+      106,
+      118
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      131,
+      "r"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ],
+    [
+      134,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "a.c..bd.d....bc......f.ad",
+  "roomNames": [
+    "Saloon",
+    "Mine",
+    "Corral",
+    "Telegraph Office"
+  ],
+  "people": [
+    "Arthur the attorney",
+    "Bea the banker",
+    "Victor the vaquero",
+    "Celia the cattle driver",
+    "Dora the dancer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    10,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "cactus",
+      2
+    ],
+    [
+      "nextCount",
+      "chair",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    2
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

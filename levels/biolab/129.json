@@ -1,0 +1,178 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000111122334444555334444555334444555666666555666666555",
+  "objects": "....f.b...b.d.....b....d.d........f........e..b....b..dd...f..b..ceb...b..cbc...a",
+  "roomNames": [
+    "Autopsy Suite",
+    "Server Farm",
+    "Control Center",
+    "Breakroom",
+    "Chemical Vault",
+    "Decon Airlock",
+    "Cleanroom 1"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bruno the biochemist",
+    "Carl the chief scientist",
+    "Dexter the dna sequencer",
+    "Elias the epidemiologist",
+    "Felix the facility director",
+    "Victor the virology head",
+    "Gus the geneticist",
+    "Hugo the hazard responder"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "next",
+      "hood"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    30,
+    40,
+    47,
+    62,
+    64,
+    79
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 8,
+  "steps": 23,
+  "extra": true
+}

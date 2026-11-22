@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022223332222333444433344443334444",
+  "objects": ".bafe.....c..f...faf...c.b....d.cf...fab....f....",
+  "roomNames": [
+    "Open Beach",
+    "Dive Shop",
+    "Luau Grounds",
+    "Infinity Pool",
+    "Reception Lobby"
+  ],
+  "people": [
+    "Albert the animator",
+    "Bruno the boat captain",
+    "Carl the chef",
+    "Dexter the disc jockey",
+    "Victor the vip influencer",
+    "Elias the entertainer",
+    "Felix the fire dancer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "towel"
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "on",
+      "hammock"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "cart"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    25,
+    31,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223344222334422233442223344",
+  "objects": "a....e...e.....a..a..f..a.e......b.c.....cb......",
+  "roomNames": [
+    "Mule Stables",
+    "Water Sump",
+    "Miners Mess",
+    "Shift Boss Office",
+    "Deep Winze"
+  ],
+  "people": [
+    "Ada the axeman",
+    "Bea the blaster",
+    "Vera the venture capitalist",
+    "Clara the carpenter",
+    "Dora the dynamite handler",
+    "Edith the hoist operator",
+    "Freya the farrier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "drill"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "orecart"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    19,
+    22,
+    28,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "alone",
+      null,
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "tries": 6,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

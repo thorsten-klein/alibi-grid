@@ -1,0 +1,108 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": ".b...a.b...d....bcc...ed...fe.......",
+  "roomNames": [
+    "Granary",
+    "Workshop",
+    "Antechamber",
+    "Shrine",
+    "Scribe Room"
+  ],
+  "people": [
+    "Ada the architect",
+    "Bea the boat builder",
+    "Clara the chanter",
+    "Dexter the diviner",
+    "Elsa the embalmer",
+    "Victor the vizier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "next",
+      "jar"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    12,
+    21,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "L...........L.L..........L.......L..",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

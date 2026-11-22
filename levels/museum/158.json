@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000011122222000011122222000011122222000011122222333444455555333444455555333444455555333444455555666677888888666677888888666677888888666677888888",
+  "objects": "bb.......bbdc....af..c....d..b.............b..b..ffa.b...bfe.b.......a....e..b.b........bbad..d.c...ae...f.cf.....b...e.bb...b.....a..b.d..aeadd",
+  "roomNames": [
+    "Security Control",
+    "Gift Shop",
+    "Greek Antiquities",
+    "Boiler Cellar",
+    "Restoration Lab",
+    "Vault",
+    "Medieval Hall",
+    "Sculpture Court",
+    "Loading Bay"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bruno the bookkeeper",
+    "Carl the conservator",
+    "Victor the visiting donor",
+    "Dexter the docent",
+    "Elias the evaluator",
+    "Felix the floor warden",
+    "Gus the goldsmith",
+    "Hugo the heist mastermind",
+    "Igor the iconographer",
+    "Jasper the jeweller",
+    "Klaus the keepsake seller"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      0,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      1,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      7,
+      "on",
+      "cot"
+    ],
+    [
+      8,
+      "next",
+      "turnstile"
+    ],
+    [
+      8,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      9,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      10,
+      "next",
+      "display"
+    ],
+    [
+      11,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    9,
+    14,
+    24,
+    43,
+    53,
+    63,
+    78,
+    88,
+    106,
+    119,
+    128,
+    133
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      37,
+      49
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      86,
+      98
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      87,
+      99
+    ],
+    [
+      89,
+      101
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      94,
+      106
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      137,
+      138
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "onCount",
+      "bench",
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 12,
+  "hardest": 8,
+  "steps": 48,
+  "extra": true
+}

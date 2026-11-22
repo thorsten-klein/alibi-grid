@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "..............db....d.b...d...........fef......cc",
+  "roomNames": [
+    "River Bank",
+    "Bone Yard",
+    "Flint Pit",
+    "Cave",
+    "Berry Grove"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bea the builder",
+    "Cora the carrier",
+    "Della the dancer",
+    "Elsa the elk tamer",
+    "Vince the valley guide",
+    "Felix the flute player"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "door"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    19,
+    25,
+    34,
+    35,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ],
+    [
+      "alone",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "..00134",
+  "tags": ".......3....4....0.0.0..30...3....13.....0...4...",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

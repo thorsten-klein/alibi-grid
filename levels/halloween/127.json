@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222221111222223333222223333444444555444444555666666555666666555",
+  "objects": "ac..a..bf.......d..badb..a..c...c..a.e........ac..e....fce..ac..ac........e......",
+  "roomNames": [
+    "Front Porch",
+    "Cemetery Gate",
+    "Haunted Conservatory",
+    "Cellar Maze",
+    "Costume Ballroom",
+    "Occult Library",
+    "Spider Attic"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Basil the baker",
+    "Cedric the candy maker",
+    "Dmitri the decorator",
+    "Edgar the entertainer",
+    "Vince the visiting storyteller",
+    "Frank the florist",
+    "Gideon the gravedigger",
+    "Henrik the herbalist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "swing"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "pumpkin"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "pumpkin"
+    ],
+    [
+      7,
+      "next",
+      "coffin"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "coffin"
+    ],
+    [
+      8,
+      "next",
+      "cauldron"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    22,
+    29,
+    43,
+    51,
+    62,
+    63,
+    73
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "coffin",
+      0
+    ],
+    [
+      "roomCount",
+      4,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

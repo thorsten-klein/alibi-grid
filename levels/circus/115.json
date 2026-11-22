@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222222223334455533344555333445553334455533344555",
+  "objects": ".c.f..........b..ee......f.b.......c.fd..dc....bb..ae..d........",
+  "roomNames": [
+    "Fortune Tent",
+    "Prop Tent",
+    "Dressing Trailer",
+    "Ticket Booth",
+    "Big Top",
+    "Menagerie Tent"
+  ],
+  "people": [
+    "Vera the veteran ringmaster",
+    "Ada the animal tamer",
+    "Bea the balloon artist",
+    "Clara the contortionist",
+    "Dora the drummer",
+    "Edith the electrician",
+    "Freya the fortune teller",
+    "Greta the gymnast"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      7
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cannon"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "crystal"
+    ],
+    [
+      4,
+      "same",
+      7
+    ],
+    [
+      5,
+      "next",
+      "crystal"
+    ],
+    [
+      6,
+      "next",
+      "cannon"
+    ],
+    [
+      7,
+      "next",
+      "mat"
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    22,
+    27,
+    33,
+    45,
+    50,
+    56
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

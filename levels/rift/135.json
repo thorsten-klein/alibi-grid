@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111122222111112222233333222223333344445555554444555555666667777766666777776666677777",
+  "objects": "....a....a....a..b.........cb..c..c...e.............a.........a.....b.....aa.f...b.fd.fbc........c..",
+  "roomNames": [
+    "Saloon",
+    "Bank",
+    "Cave",
+    "Great Hall",
+    "Fort",
+    "Fire Pit",
+    "Captain Cabin",
+    "Throne Room"
+  ],
+  "people": [
+    "Viola the voyager",
+    "Astrid the astronomer",
+    "Bea the bard",
+    "Cedric the clockmaker",
+    "Della the drifter",
+    "Elias the engineer",
+    "Felix the falconer",
+    "Gwen the guardian",
+    "Henrik the herald",
+    "Ines the illusionist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "room",
+      3
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "on",
+      "chair"
+    ],
+    [
+      8,
+      "next",
+      "clock"
+    ],
+    [
+      8,
+      "next",
+      "statue"
+    ],
+    [
+      9,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    20,
+    35,
+    41,
+    59,
+    66,
+    74,
+    87,
+    98
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      39
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      66,
+      76
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      96,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks",
+    "trades"
+  ],
+  "court": [
+    0,
+    7
+  ],
+  "rank": "knckckcckk",
+  "trade": ".......2..",
+  "tags": "........0............2..................2.1....2..................................1......1..........",
+  "hard": 7,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,143 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111111111112222333322223333444455554444555544445555",
+  "objects": "bb.d....dcce....ba..ba..c..d.a.c..df...d.e.b..f.....a....af.d.d.",
+  "roomNames": [
+    "Tiki Bar",
+    "Staff Quarters",
+    "Overwater Bungalow",
+    "Coral Lagoon",
+    "Yacht Marina",
+    "Dive Shop"
+  ],
+  "people": [
+    "Albert the animator",
+    "Victor the vip influencer",
+    "Bruno the boat captain",
+    "Carl the chef",
+    "Dexter the disc jockey",
+    "Elias the entertainer",
+    "Felix the fire dancer",
+    "Gus the golf pro"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "towel"
+    ],
+    [
+      2,
+      "on",
+      "hammock"
+    ],
+    [
+      3,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "next",
+      "surfboard"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "on",
+      "hammock"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    16,
+    25,
+    38,
+    43,
+    50,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "hard": 7,
+  "hardest": 4,
+  "steps": 27,
+  "group": 2
+}

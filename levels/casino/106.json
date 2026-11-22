@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "....a.d...d.db.d..eae................dad.....c.cd",
+  "roomNames": [
+    "Parking Garage",
+    "Showgirl Dressing Room",
+    "Penthouse Suite",
+    "Cashier Cage",
+    "Main Casino Floor"
+  ],
+  "people": [
+    "Alma the accountant",
+    "Viola the vip gambler",
+    "Bella the baccarat dealer",
+    "Cora the croupier",
+    "Daisy the dice inspector",
+    "Elsa the entertainer",
+    "Fiona the floor manager"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "next",
+      "slots"
+    ],
+    [
+      2,
+      "next",
+      "safe"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "wheel"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    19,
+    21,
+    34,
+    38,
+    46
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

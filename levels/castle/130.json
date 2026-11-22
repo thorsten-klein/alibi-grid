@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "000011122000011122000011122333444422333444422333444422555444422555666666555666666",
+  "objects": "..c.....d..fb...f....a......a.........b.f..a.ab......aeb.b..a.b.bfb.e............",
+  "roomNames": [
+    "Gatehouse",
+    "Solar",
+    "Smithy",
+    "Great Hall",
+    "Stables",
+    "Throne Room",
+    "Tower"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Bea the bard",
+    "Cora the chronicler",
+    "Daisy the dancer",
+    "Edith the embroiderer",
+    "Victor the verger",
+    "Flora the farrier",
+    "Gwen the groom",
+    "Hugo the herald"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "candles"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "swords"
+    ],
+    [
+      8,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    7,
+    17,
+    21,
+    33,
+    36,
+    47,
+    59,
+    67,
+    73
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    4,
+    6
+  ],
+  "rank": "kccnkckkc",
+  "hard": 6,
+  "hardest": 4,
+  "steps": 30,
+  "extra": true
+}

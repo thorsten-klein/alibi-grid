@@ -1,0 +1,132 @@
+{
+  "size": 6,
+  "rooms": "000000111111223333223333224444224444",
+  "objects": "........c.....c..a..f...a...........",
+  "roomNames": [
+    "Screening Room",
+    "Green Room",
+    "Studio Commissary",
+    "Soundstage A",
+    "Writers Room"
+  ],
+  "people": [
+    "Ada the actor",
+    "Bea the boom operator",
+    "Vera the voice actor",
+    "Clara the cinematographer",
+    "Dora the director",
+    "Edith the editor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "camera"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    15,
+    23,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "camera",
+      1
+    ],
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

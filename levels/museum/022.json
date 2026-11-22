@@ -1,0 +1,186 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011112222333333444433333344445555667777555566777755556677775555667777",
+  "objects": "e.b.cd..d...d.........d.a....c.a.fc...ad.bd.....ad...a.aebdd.ed.c....acad..f.f..f.e.c...ce..........",
+  "roomNames": [
+    "Loading Bay",
+    "Restoration Lab",
+    "Greek Antiquities",
+    "Medieval Hall",
+    "Curator Study",
+    "Vault",
+    "Gift Shop",
+    "Grand Rotunda"
+  ],
+  "people": [
+    "Arthur the archaeologist",
+    "Basil the benefactor",
+    "Cedric the curator",
+    "Dmitri the director",
+    "Vince the valuer",
+    "Edgar the egyptologist",
+    "Frank the forger",
+    "Gideon the guard",
+    "Henrik the historian",
+    "Ivo the intern"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "next",
+      "display"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "same",
+      9
+    ],
+    [
+      7,
+      "next",
+      "turnstile"
+    ],
+    [
+      8,
+      "next",
+      "bench"
+    ],
+    [
+      8,
+      "next",
+      "turnstile"
+    ],
+    [
+      9,
+      "next",
+      "display"
+    ]
+  ],
+  "solution": [
+    9,
+    10,
+    27,
+    38,
+    44,
+    55,
+    63,
+    76,
+    81,
+    92
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      94,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 29,
+  "group": 2
+}

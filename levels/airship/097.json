@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333344433334443333444",
+  "objects": "..b...bd..e.c..a...b.e.....b.eedb....aa..cad.c.d.",
+  "roomNames": [
+    "Smoking Lounge",
+    "Starboard Gondola",
+    "Dining Saloon",
+    "Port Engine Gondola",
+    "Radio Cabin"
+  ],
+  "people": [
+    "Ada the aeronaut",
+    "Bea the barman",
+    "Clara the captain",
+    "Dora the dirigible pilot",
+    "Vera the vessel inventor",
+    "Edith the engine mechanic",
+    "Freya the first officer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "column"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "winch"
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      5,
+      "next",
+      "ballast"
+    ],
+    [
+      6,
+      "next",
+      "column"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    20,
+    22,
+    33,
+    38,
+    46
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

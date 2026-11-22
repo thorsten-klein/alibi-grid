@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "f...b.......a..a",
+  "roomNames": [
+    "Medieval Hall",
+    "Boiler Cellar",
+    "Curator Study"
+  ],
+  "people": [
+    "Albert the archaeologist",
+    "Bruno the benefactor",
+    "Carl the curator",
+    "Victor the valuer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "turnstile"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 10,
+  "group": 0
+}

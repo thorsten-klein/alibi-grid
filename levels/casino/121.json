@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233344555333445553334455533344555",
+  "objects": ".cb.bff....f.f.ad.a.b...cfc.ba........e...aa.cf.....da.cf...c.e.",
+  "roomNames": [
+    "Main Casino Floor",
+    "Parking Garage",
+    "Penthouse Suite",
+    "Valet Booth",
+    "Cashier Cage",
+    "Cocktail Bar"
+  ],
+  "people": [
+    "Alma the armored driver",
+    "Bella the bartender",
+    "Cora the casino manager",
+    "Daisy the dancer",
+    "Elsa the electrician",
+    "Viola the vegas mogul",
+    "Fiona the fixer",
+    "Gwen the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "chaise"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "next",
+      "wheel"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "wheel"
+    ],
+    [
+      7,
+      "next",
+      "wheel"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    21,
+    31,
+    32,
+    42,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 29,
+  "extra": true
+}

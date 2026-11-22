@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".ea.d..ca..aaf.b.d.b.c...",
+  "roomNames": [
+    "Bone Yard",
+    "Fire Pit",
+    "Painted Wall",
+    "Flint Pit"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Bella the beekeeper",
+    "Cora the carver",
+    "Dmitri the drummer",
+    "Viola the visionary"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "log"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "onCount",
+      "leaves",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "01...",
+  "tags": "...0.1...................",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 21,
+  "group": 3
+}

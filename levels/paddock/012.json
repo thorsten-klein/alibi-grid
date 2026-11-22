@@ -1,0 +1,177 @@
+{
+  "size": 9,
+  "rooms": "000000000000000000111111111222233444222233444555533444555533444555566666555566666",
+  "objects": "c..b..e...a....b....a.cf.a.bd.....f.a.............d...........a...a.......d....e.",
+  "roomNames": [
+    "Tire Bay",
+    "Paddock Walkway",
+    "Telemetry Room",
+    "Media Center",
+    "Drivers Lounge",
+    "Team Garage A",
+    "Team Garage B"
+  ],
+  "people": [
+    "Ada the apprentice",
+    "Bea the broadcast commentator",
+    "Clara the crew chief",
+    "Dora the data telemetry lead",
+    "Vera the vip team owner",
+    "Edith the electrician",
+    "Freya the flag marshal",
+    "Greta the grid coordinator",
+    "Hilda the hospitality host"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "on",
+      "bucket"
+    ],
+    [
+      2,
+      "next",
+      "toolbox"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    24,
+    32,
+    44,
+    48,
+    61,
+    63,
+    76
+  ],
+  "doors": [
+    [
+      15,
+      24
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "group": 1
+}

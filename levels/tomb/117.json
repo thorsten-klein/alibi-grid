@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223334444433344444333444443335555533355555",
+  "objects": "e.....e...........def........d..be...b.....d.aeb...fc........c..",
+  "roomNames": [
+    "Statue Hall",
+    "Treasury",
+    "Workshop",
+    "Hall of Pillars",
+    "Antechamber",
+    "Granary"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bea the brewer",
+    "Vivian the vizier",
+    "Clara the carpenter",
+    "Della the dancer",
+    "Ena the envoy",
+    "Flora the fanbearer",
+    "Gwen the goldsmith"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "col",
+      6
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    23,
+    25,
+    35,
+    42,
+    54,
+    56
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      43,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....L........C...........C.....C.......L..............L.CL..L..C",
+  "hard": 6,
+  "hardest": 5,
+  "steps": 29,
+  "extra": true
+}

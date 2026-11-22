@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".c........dff..c.....c...",
+  "roomNames": [
+    "Paddock Walkway",
+    "Telemetry Room",
+    "Scrutineering Shed",
+    "Tire Bay"
+  ],
+  "people": [
+    "Astrid the apprentice",
+    "Birgit the broadcast commentator",
+    "Vivian the vip team owner",
+    "Celia the crew chief",
+    "Della the data telemetry lead"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "next",
+      "chassis"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    14,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

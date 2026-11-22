@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222222222333334444333334444333334444555566666555566666555566666",
+  "objects": "..bdc.e.d.d....b..b..f..e.....f..............eeb.....f...f.ab.bab...e.b..ca.a....",
+  "roomNames": [
+    "Solar Array Control",
+    "Comms Array",
+    "Medical Bay",
+    "Habitat Quarters",
+    "Command Hub",
+    "Airlock Module",
+    "Rover Bay"
+  ],
+  "people": [
+    "Arthur the astrobiologist",
+    "Basil the botanist",
+    "Cedric the commander",
+    "Dmitri the drill operator",
+    "Edgar the environmental engineer",
+    "Frank the flight specialist",
+    "Gideon the geologist",
+    "Henrik the habitat architect",
+    "Vince the venture sponsor"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "rover"
+    ],
+    [
+      2,
+      "next",
+      "tower"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "next",
+      "seat"
+    ],
+    [
+      7,
+      "on",
+      "pod"
+    ],
+    [
+      8,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    20,
+    32,
+    40,
+    51,
+    54,
+    70,
+    75
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "rover",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 21,
+  "extra": true
+}

@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "e..c..b.a....abe..........ebfaa.db.a.ca....e...d.",
+  "roomNames": [
+    "Pier Edge",
+    "Cotton Candy Stand",
+    "Souvenir Shack",
+    "Boardwalk Plankway",
+    "Arcade Alley"
+  ],
+  "people": [
+    "Albert the arcade repairman",
+    "Bruno the boardwalk walker",
+    "Victor the vagrant",
+    "Carl the caretaker",
+    "Dexter the drifter",
+    "Elias the electrician",
+    "Felix the fortune teller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "cart"
+    ],
+    [
+      1,
+      "next",
+      "automaton"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "horse"
+    ],
+    [
+      6,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    18,
+    27,
+    31,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      35,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "cart",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

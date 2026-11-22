@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "...fd...db.b..ed......c.aa..c..a...ab.a.b...e...d",
+  "roomNames": [
+    "Observation Dome",
+    "Torpedo Tube",
+    "Ballast Control",
+    "Sonar Room",
+    "Conning Tower"
+  ],
+  "people": [
+    "Ada the aquanaut",
+    "Bea the bathymetry tech",
+    "Clara the captain",
+    "Dora the drill operator",
+    "Edith the electrical engineer",
+    "Freya the first officer",
+    "Vera the vessel designer"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "next",
+      "valve"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    20,
+    24,
+    33,
+    35,
+    43
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 28,
+  "group": 3
+}

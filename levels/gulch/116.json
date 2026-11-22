@@ -1,0 +1,173 @@
+{
+  "size": 8,
+  "rooms": "0000000011111111111111112222333322223333444433334444555544445555",
+  "objects": "....ab..a...a....f...b..d..b.ca.abb.ae.c...f....a.ad..f....a....",
+  "roomNames": [
+    "General Store",
+    "Livery",
+    "Jail",
+    "Sheriff Office",
+    "Telegraph Office",
+    "Barber"
+  ],
+  "people": [
+    "Astrid the attorney",
+    "Vivian the vet",
+    "Bella the banker",
+    "Cedric the cook",
+    "Della the dancer",
+    "Elsa the editor",
+    "Freya the farrier",
+    "Gus the gunsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "horse"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "notRoom",
+      2
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      7,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    7,
+    11,
+    18,
+    28,
+    33,
+    46,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      4,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

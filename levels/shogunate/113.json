@@ -1,0 +1,152 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022222222222222223333444433334444555544445555",
+  "objects": ".d..a.a.....c...cb...cb...fbd.f.ff.c..a.e.d.cbe......e......ba..",
+  "roomNames": [
+    "Shrine",
+    "Guard Gate",
+    "Moon Balcony",
+    "Tea Ceremony Room",
+    "Zen Garden",
+    "Sentry Tower"
+  ],
+  "people": [
+    "Ada the artisan",
+    "Bea the bowyer",
+    "Clara the cook",
+    "Dora the drummer",
+    "Edith the embroiderer",
+    "Vera the visiting monk",
+    "Freya the foot soldier",
+    "Greta the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "room",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "shoji"
+    ],
+    [
+      3,
+      "next",
+      "taiko"
+    ],
+    [
+      4,
+      "next",
+      "armor"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bonsai"
+    ],
+    [
+      5,
+      "next",
+      "shoji"
+    ],
+    [
+      6,
+      "next",
+      "bonsai"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    19,
+    29,
+    36,
+    41,
+    48,
+    63
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

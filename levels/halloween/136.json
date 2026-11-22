@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111223334455522333445552233344555223334466677777446667777744666",
+  "objects": "....b...afc..a..a.....a.a.....ef..c...ed..f.b.......f..b....e..a.f.eead...a.........dd..d......b....",
+  "roomNames": [
+    "Crypt",
+    "Cemetery Gate",
+    "Costume Ballroom",
+    "Cellar Maze",
+    "Haunted Conservatory",
+    "Occult Library",
+    "Pumpkin Patch",
+    "Black Cat Alley"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bella the black cat breeder",
+    "Cora the costume designer",
+    "Daisy the diviner",
+    "Viola the veteran manor heir",
+    "Elsa the embalmer",
+    "Fiona the fortune teller",
+    "Gwen the ghost enthusiast",
+    "Hazel the haunted house host",
+    "Ines the illusionist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "swing"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "pumpkin"
+    ],
+    [
+      2,
+      "next",
+      "coffin"
+    ],
+    [
+      3,
+      "next",
+      "web"
+    ],
+    [
+      4,
+      "next",
+      "cauldron"
+    ],
+    [
+      5,
+      "next",
+      "swing"
+    ],
+    [
+      6,
+      "on",
+      "coffin"
+    ],
+    [
+      7,
+      "next",
+      "web"
+    ],
+    [
+      7,
+      "next",
+      "tombstone"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "tombstone"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    26,
+    32,
+    40,
+    54,
+    69,
+    75,
+    87,
+    98
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      67,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 9,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

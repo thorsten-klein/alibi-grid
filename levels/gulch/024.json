@@ -1,0 +1,109 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "f.a.a.f....b.............",
+  "roomNames": [
+    "Mine",
+    "General Store",
+    "Corral",
+    "Barber"
+  ],
+  "people": [
+    "Vince the vaquero",
+    "Alma the attorney",
+    "Basil the blacksmith",
+    "Carl the cattle driver",
+    "Daisy the deputy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "withBandit"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    3
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 19,
+  "group": 3
+}

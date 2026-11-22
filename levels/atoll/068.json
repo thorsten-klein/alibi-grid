@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "......a......b......aa...",
+  "roomNames": [
+    "Coconut Grove",
+    "Open Beach",
+    "Overwater Bungalow",
+    "Luau Grounds"
+  ],
+  "people": [
+    "Albert the activities director",
+    "Bruno the bartender",
+    "Victor the vacationer",
+    "Carl the concierge",
+    "Dexter the divemaster"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "towel"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    10,
+    17,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "towel",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

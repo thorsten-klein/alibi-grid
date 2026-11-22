@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "..ee..b...............b..",
+  "roomNames": [
+    "Workshop",
+    "Burial Chamber",
+    "Boat Pit",
+    "Scribe Room"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Vivian the vizier",
+    "Birgit the brewer",
+    "Clara the chanter",
+    "Daisy the diviner"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "rubble"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    13,
+    19,
+    21
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "LL.....C....LC...........",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "b.d..e..ecebdb.ec....a...",
+  "roomNames": [
+    "Mail Car",
+    "Sleeper C",
+    "Bar Car",
+    "Dining Car"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Bea the bookseller",
+    "Cora the courier",
+    "Victor the vendor",
+    "Della the dentist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "crate",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "group": 1
+}

@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222000111222233445566773344556677334455667733445566773344556677",
+  "objects": ".....ad..ddb.b..e.......b.aa.b.f....c.eba...b.da.c..e...bbb..f..c.......e..f....aca.c..e..ba..c....a",
+  "roomNames": [
+    "Chemical Vault",
+    "Control Center",
+    "Autopsy Suite",
+    "Cryo Storage",
+    "Cleanroom 2",
+    "Centrifuge Bay",
+    "Generator Core",
+    "Specimen Nursery"
+  ],
+  "people": [
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician",
+    "Dmitri the data architect",
+    "Vince the venture backer",
+    "Edgar the ecologist",
+    "Frank the forensic chemist",
+    "Gideon the guard",
+    "Henrik the hardware tech",
+    "Ivo the immunologist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "on",
+      "pod"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "hood"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "same",
+      6
+    ],
+    [
+      8,
+      "next",
+      "centrifuge"
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    25,
+    30,
+    43,
+    54,
+    67,
+    79,
+    86,
+    92
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

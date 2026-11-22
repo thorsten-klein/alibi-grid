@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333344444455554444445555446666555544666677774466667777",
+  "objects": ".a..b...facd.....e.bcbf.ec.a.d..f....ea...e.d.a...c..a............b.......ba...c..........a.a.d...e.",
+  "roomNames": [
+    "Dynamite Magazine",
+    "Assay Office",
+    "Miners Mess",
+    "Shaft Elevator",
+    "Deep Winze",
+    "Water Sump",
+    "Timber Storage",
+    "Tool Crib"
+  ],
+  "people": [
+    "Arthur the axeman",
+    "Basil the blaster",
+    "Vince the venture capitalist",
+    "Cedric the carpenter",
+    "Dmitri the dynamite handler",
+    "Edgar the hoist operator",
+    "Frank the farrier",
+    "Gideon the gold panner",
+    "Henrik the healer",
+    "Ivo the iron worker"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "dynamite"
+    ],
+    [
+      2,
+      "next",
+      "orecart"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "col",
+      8
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "orecart"
+    ],
+    [
+      7,
+      "next",
+      "bunk"
+    ],
+    [
+      8,
+      "room",
+      7
+    ],
+    [
+      9,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    16,
+    21,
+    30,
+    45,
+    58,
+    69,
+    73,
+    87,
+    92
+  ],
+  "doors": [
+    [
+      24,
+      25
+    ],
+    [
+      23,
+      33
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      29,
+      "r"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "furniture",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 8,
+  "steps": 38,
+  "extra": true
+}

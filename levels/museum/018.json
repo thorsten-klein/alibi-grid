@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122331122334422334422",
+  "objects": ".f.......ad......fb...fb..e..d..a.f.",
+  "roomNames": [
+    "Vault",
+    "Boiler Cellar",
+    "Loading Bay",
+    "Egyptian Wing",
+    "Restoration Lab"
+  ],
+  "people": [
+    "Vivian the valuer",
+    "Astrid the archaeologist",
+    "Birgit the benefactor",
+    "Celia the curator",
+    "Della the director",
+    "Ena the egyptologist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "turnstile"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "display"
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "next",
+      "turnstile"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    18,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 19,
+  "group": 2
+}

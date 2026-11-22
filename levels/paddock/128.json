@@ -1,0 +1,170 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222001112222333445555333445555333445555333446666333446666",
+  "objects": ".aec.a.....f......e.......ea..............b...ad..........a...ff....b......b.b..c",
+  "roomNames": [
+    "Paddock Walkway",
+    "Telemetry Room",
+    "Team Garage B",
+    "Team Garage A",
+    "Scrutineering Shed",
+    "VIP Balcony",
+    "Tire Bay"
+  ],
+  "people": [
+    "Arthur the aerodynamicist",
+    "Basil the brake tech",
+    "Cedric the chief mechanic",
+    "Vince the veteran champion",
+    "Dmitri the driver",
+    "Edgar the engine tuner",
+    "Frank the fuel specialist",
+    "Gideon the gearbox tech",
+    "Henrik the head of team"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bucket"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "toolbox"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "bucket"
+    ],
+    [
+      7,
+      "next",
+      "chassis"
+    ],
+    [
+      8,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    27,
+    40,
+    51,
+    57,
+    71,
+    79
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "chassis",
+      2
+    ],
+    [
+      "nextCount",
+      "toolbox",
+      1
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

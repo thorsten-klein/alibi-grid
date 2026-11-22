@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011223311223311224444224444",
+  "objects": "..b.b..b...c.d..d.......a..f........",
+  "roomNames": [
+    "Treasury",
+    "Boat Pit",
+    "Sun Court",
+    "Antechamber",
+    "Well Shaft"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bruno the brewer",
+    "Clara the chanter",
+    "Dmitri the dancer",
+    "Ena the envoy",
+    "Vivian the vizier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "next",
+      "jar"
+    ],
+    [
+      5,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    17,
+    19,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "...C..C.............................",
+  "hard": 1,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

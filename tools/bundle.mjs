@@ -3,11 +3,13 @@
 // Run: node tools/bundle.mjs   (generate.mjs also runs it)
 
 import { readFileSync, writeFileSync } from 'node:fs';
+import { compileLevels, LEVELS_PATH } from './compile-levels.mjs';
 
 // Order matters: a file comes after the files it imports.
 const FILES = ['levels', 'oldIds', 'themes', 'rules', 'levelCodec', 'hints', 'generator', 'storage', 'ui', 'game', 'main'];
 
 export function buildBundle() {
+  writeFileSync(LEVELS_PATH, compileLevels(), 'utf8');
   const parts = FILES.map(name => {
     const src = readFileSync(new URL(`../js/${name}.js`, import.meta.url), 'utf8')
       .replace(/^import .*;\n/gm, '')

@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222222111222222111333445555333445555333445555333446666333446666",
+  "objects": "bc......cf...f.d.....ae.c.e...e...ac.ef.b.....dd.e...fb..............da.....ac..c",
+  "roomNames": [
+    "Greek Antiquities",
+    "Loading Bay",
+    "Gift Shop",
+    "Sculpture Court",
+    "Egyptian Wing",
+    "Grand Rotunda",
+    "Curator Study"
+  ],
+  "people": [
+    "Arthur the archaeologist",
+    "Basil the benefactor",
+    "Cedric the curator",
+    "Dmitri the director",
+    "Edgar the egyptologist",
+    "Vince the valuer",
+    "Frank the forger",
+    "Gideon the guard",
+    "Henrik the historian"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "turnstile"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "next",
+      "display"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "turnstile"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    27,
+    44,
+    51,
+    57,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      22
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      62,
+      71
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 28,
+  "group": 1
+}

@@ -1,0 +1,75 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "d.b.b..cb.......",
+  "roomNames": [
+    "Sleeper B",
+    "Guard's Van",
+    "Observation Car"
+  ],
+  "people": [
+    "Alma the attendant",
+    "Vivian the violinist",
+    "Bruno the banker",
+    "Carl the conductor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

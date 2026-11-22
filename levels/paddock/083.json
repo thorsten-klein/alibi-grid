@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333444333444",
+  "objects": ".ea.........d....aa.....b.a......ab.",
+  "roomNames": [
+    "Media Center",
+    "Drivers Lounge",
+    "Paddock Walkway",
+    "VIP Balcony",
+    "Pit Lane"
+  ],
+  "people": [
+    "Arthur the apprentice",
+    "Basil the broadcast commentator",
+    "Vince the vip team owner",
+    "Cedric the crew chief",
+    "Dmitri the data telemetry lead",
+    "Edgar the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "bucket"
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bucket"
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    15,
+    23,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

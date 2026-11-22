@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".bba...e.............dd..",
+  "roomNames": [
+    "Valley Terminal",
+    "Funicular Car A",
+    "Upper Engine Room",
+    "Observation Terrace"
+  ],
+  "people": [
+    "Astrid the alpine guide",
+    "Birgit the billeter",
+    "Celia the cable splicer",
+    "Della the doctor",
+    "Vivian the visiting vip"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "bench"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "skirack"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

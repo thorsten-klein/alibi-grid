@@ -1,0 +1,212 @@
+{
+  "size": 11,
+  "rooms": "0000111111100001111111000011111110000222333344442223333444422233334444222333344445555666777755556667777555566677775555666",
+  "objects": "a..c....fc..e.bfd..b.e.f.a.......a.e..d.e..b.ed.a....a...a.af............efd...........fb....b.e.......e.b......e.bdc...b",
+  "roomNames": [
+    "Police Desk",
+    "Mortuary",
+    "Newsstand Corner",
+    "Thames Wharf",
+    "Cab Stand",
+    "Tenement Attic",
+    "Parlor Study",
+    "Opium Den"
+  ],
+  "people": [
+    "Alma the apothecary",
+    "Bella the blackmailer",
+    "Viola the victim of nobility",
+    "Cora the constable",
+    "Daisy the detective",
+    "Elsa the engraver",
+    "Fiona the forger",
+    "Gwen the gentlemen valet",
+    "Hazel the hansom cabbie",
+    "Ines the informer",
+    "Juno the jeweller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "kiosk"
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      4,
+      "next",
+      "armchair"
+    ],
+    [
+      5,
+      "on",
+      "armchair"
+    ],
+    [
+      5,
+      "next",
+      "kiosk"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "kiosk"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "cot"
+    ],
+    [
+      9,
+      "next",
+      "hansom"
+    ],
+    [
+      10,
+      "on",
+      "cot"
+    ]
+  ],
+  "solution": [
+    6,
+    18,
+    22,
+    34,
+    52,
+    59,
+    69,
+    86,
+    90,
+    104,
+    120
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      31,
+      42
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      77,
+      88
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      113,
+      114
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 29,
+  "group": 1
+}

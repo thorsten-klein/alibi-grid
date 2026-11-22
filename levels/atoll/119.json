@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333322223333444445554444455544444555",
+  "objects": ".....b..aa..c.a..a..aa...e....b....c...b.a..d.b....f.dba.......a",
+  "roomNames": [
+    "Infinity Pool",
+    "Open Beach",
+    "Coral Lagoon",
+    "Coconut Grove",
+    "Luau Grounds",
+    "Yacht Marina"
+  ],
+  "people": [
+    "Viola the vip influencer",
+    "Alma the animator",
+    "Bella the boat captain",
+    "Cora the chef",
+    "Daisy the disc jockey",
+    "Elsa the entertainer",
+    "Fiona the fire dancer",
+    "Gwen the golf pro"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "towel"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "towel"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "towel"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "towel"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    20,
+    29,
+    33,
+    42,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,120 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "...f..........a...b...d..a..a....ce..bc.e....c.c.",
+  "roomNames": [
+    "Terrace",
+    "Bar",
+    "Lobby",
+    "Sauna",
+    "Spa"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Bea the bartender",
+    "Cedric the climber",
+    "Vera the vlogger",
+    "Della the doctor",
+    "Edith the explorer",
+    "Fiona the fisher"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "tree"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    18,
+    26,
+    31,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

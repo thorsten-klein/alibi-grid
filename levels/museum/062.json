@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "..db.e..ca.b..b.db..bba.c",
+  "roomNames": [
+    "Grand Rotunda",
+    "Vault",
+    "Restoration Lab",
+    "Security Control"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bea the bookkeeper",
+    "Clara the conservator",
+    "Dora the docent",
+    "Vera the visiting donor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "display"
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "cot",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

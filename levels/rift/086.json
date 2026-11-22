@@ -1,0 +1,125 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333444333444",
+  "objects": "...e......ab...b...a..b..da.a....b..",
+  "roomNames": [
+    "Shrine",
+    "Saloon",
+    "Bank",
+    "Fort",
+    "Cave"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Bella the bookbinder",
+    "Cora the chronicler",
+    "Dora the drifter",
+    "Edith the engineer",
+    "Viola the visionary"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "on",
+      "log"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    16,
+    18,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "..................L.................",
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

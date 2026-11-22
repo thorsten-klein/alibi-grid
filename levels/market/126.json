@@ -1,0 +1,165 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222333334444333334444335556666335556666335556666335556666",
+  "objects": "..a..d..ff.......b...e....b.....c.ba...e...f....d.c..d..cb.....b.dd.a...f..afe...",
+  "roomNames": [
+    "River Pagoda",
+    "Garden Courtyard",
+    "Lantern Bridge",
+    "Tea Pavilion",
+    "Fireworks Barge",
+    "Silk Stall",
+    "Noodle Court"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bella the boatman",
+    "Cora the calligrapher",
+    "Daisy the drummer",
+    "Viola the village magistrate",
+    "Elsa the embroiderer",
+    "Fiona the firework master",
+    "Gwen the gong striker",
+    "Hazel the herbalist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "gong"
+    ],
+    [
+      2,
+      "next",
+      "teacart"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      5,
+      "next",
+      "fireworks"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      8,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    4,
+    12,
+    18,
+    29,
+    37,
+    52,
+    62,
+    68,
+    78
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "lantern",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

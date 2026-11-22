@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233333333333333334444555544445555",
+  "objects": "fcfa.e.aea.bac......e......da...cc..e..b...b.c..b...d..a.dab..b.",
+  "roomNames": [
+    "Green Room",
+    "Wardrobe Vault",
+    "Soundstage A",
+    "Sound Booth",
+    "Makeup Room",
+    "Prop Armory"
+  ],
+  "people": [
+    "Arthur the assistant director",
+    "Basil the body double",
+    "Cedric the choreographer",
+    "Dmitri the diva",
+    "Edgar the extra",
+    "Vince the veteran producer",
+    "Frank the fashion designer",
+    "Gideon the gaffer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "on",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "trunk"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      4,
+      "col",
+      2
+    ],
+    [
+      5,
+      "next",
+      "camera"
+    ],
+    [
+      6,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "boom"
+    ]
+  ],
+  "solution": [
+    7,
+    11,
+    16,
+    29,
+    34,
+    46,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

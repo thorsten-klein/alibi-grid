@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344555333445553334455533344555",
+  "objects": "babb.b.f..e...b........b..ff...d.....c........a........e.......e",
+  "roomNames": [
+    "Water Sump",
+    "Dynamite Magazine",
+    "Main Drift",
+    "Smelting Oven",
+    "Assay Office",
+    "Deep Winze"
+  ],
+  "people": [
+    "Vera the vein claimant",
+    "Ada the assayer",
+    "Bea the blacksmith",
+    "Clara the cart driver",
+    "Dora the driller",
+    "Edith the engineer",
+    "Freya the foreman",
+    "Greta the geologist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "same",
+      7
+    ],
+    [
+      5,
+      "next",
+      "keg"
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    22,
+    25,
+    32,
+    47,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

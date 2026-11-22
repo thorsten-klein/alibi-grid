@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222233444555334445553344455533444555",
+  "objects": "..ccf.....e.......a.a.dac....d.bb...e..b..b...b.....e.........d.",
+  "roomNames": [
+    "Turkish Bath",
+    "Bridge",
+    "Steerage Quarters",
+    "Library",
+    "First Class Lounge",
+    "Boiler Room"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Vera the voyage sponsor",
+    "Bea the boatswain",
+    "Clara the captain",
+    "Dora the deckhand",
+    "Edith the electrician",
+    "Freya the first mate",
+    "Greta the guest of honor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "deckchair"
+    ],
+    [
+      3,
+      "next",
+      "lifeboat"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "telegraph"
+    ],
+    [
+      7,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    17,
+    30,
+    34,
+    40,
+    51,
+    60
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ],
+    [
+      "nextCount",
+      "berth",
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

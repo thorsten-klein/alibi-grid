@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "d..b.....efd....b..c.........a......b.....a.add..",
+  "roomNames": [
+    "High Roller Lounge",
+    "Valet Booth",
+    "Showgirl Dressing Room",
+    "Penthouse Suite",
+    "Rooftop Pool"
+  ],
+  "people": [
+    "Arthur the armored driver",
+    "Vince the vegas mogul",
+    "Basil the bartender",
+    "Cedric the casino manager",
+    "Dmitri the dancer",
+    "Edgar the electrician",
+    "Frank the fixer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "next",
+      "slots"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    33,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chaise",
+      1
+    ],
+    [
+      "nextCount",
+      "wheel",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

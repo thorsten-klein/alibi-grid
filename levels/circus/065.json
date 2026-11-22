@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "e.....dc....a.d..c..a....",
+  "roomNames": [
+    "Ringmaster Wagon",
+    "Sideshow Alley",
+    "Funhouse",
+    "Prop Tent"
+  ],
+  "people": [
+    "Ada the animal tamer",
+    "Bea the balloon artist",
+    "Vera the veteran ringmaster",
+    "Clara the contortionist",
+    "Dora the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "trunk"
+    ],
+    [
+      1,
+      "next",
+      "cannon"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

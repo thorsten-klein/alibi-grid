@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222332244332244332244",
+  "objects": "..f......acb...c...d..ae.b...fc...b.",
+  "roomNames": [
+    "Pantry",
+    "Conservatory",
+    "Gallery",
+    "Library",
+    "Hall"
+  ],
+  "people": [
+    "Vivian the valet",
+    "Albert the author",
+    "Birgit the butler",
+    "Cedric the cook",
+    "Daisy the doctor",
+    "Elias the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "shelf"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "shelf"
+    ],
+    [
+      5,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    13,
+    20,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      17,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "clock",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

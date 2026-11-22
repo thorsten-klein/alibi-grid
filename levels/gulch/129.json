@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000111122333445555333445555333446666333446666333446666",
+  "objects": ".b...........c.a...c.a......f...........b..........a.b.....fa.........cdeacf.....",
+  "roomNames": [
+    "Sheriff Office",
+    "Hotel",
+    "Jail",
+    "Church",
+    "Livery",
+    "General Store",
+    "Barber"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Basil the banker",
+    "Cora the cook",
+    "Dora the deputy",
+    "Edgar the editor",
+    "Felix the farmer",
+    "Grace the gambler",
+    "Vince the vet",
+    "Henrik the homesteader"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "room",
+      4
+    ],
+    [
+      5,
+      "next",
+      "bed"
+    ],
+    [
+      6,
+      "bandit"
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    23,
+    35,
+    43,
+    49,
+    55,
+    63,
+    78
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    2,
+    5
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

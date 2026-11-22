@@ -1,0 +1,169 @@
+{
+  "size": 10,
+  "rooms": "0011122233001112223300111222330011122233111114444411111444441111144444111111555511111155556666666666",
+  "objects": ".a...da..................d..a......d..d......e.d.......ac...........f.........a...........f....af.f.",
+  "roomNames": [
+    "Longboat",
+    "Open Sea",
+    "Sea Cave",
+    "Galleon",
+    "Lighthouse",
+    "Tavern",
+    "Sloop"
+  ],
+  "people": [
+    "Albert the admiral",
+    "Birgit the barkeep",
+    "Cedric the captain",
+    "Victor the voyager",
+    "Dmitri the diver",
+    "Elsa the engineer",
+    "Fiona the fiddler",
+    "Greta the gunner",
+    "Hazel the harpooner",
+    "Igor the islander"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "room",
+      3
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "next",
+      "anchor"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "cannon"
+    ],
+    [
+      7,
+      "notRoom",
+      1
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "col",
+      4
+    ],
+    [
+      9,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    22,
+    30,
+    43,
+    55,
+    69,
+    76,
+    84,
+    97
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      68,
+      78
+    ],
+    [
+      89,
+      99
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "alone",
+      null,
+      6
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "tries": 1,
+  "hard": 4,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

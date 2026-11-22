@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333224445552244455522444555",
+  "objects": ".....a.e........e...ef....e....cc.e.....c.c.a...aa..cb..aa.cbb.f",
+  "roomNames": [
+    "Green Room",
+    "Beer Garden",
+    "Mixing Tower",
+    "Artist Trailer",
+    "Merch Pavilion",
+    "Backstage VIP"
+  ],
+  "people": [
+    "Astrid the artist agent",
+    "Vivian the vocal coach",
+    "Birgit the bodyguard",
+    "Celia the cameraman",
+    "Della the disc jockey",
+    "Ena the event producer",
+    "Flora the fan president",
+    "Grace the groupie coordinator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      2,
+      "next",
+      "lighttower"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "lighttower"
+    ],
+    [
+      7,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    22,
+    29,
+    36,
+    43,
+    55,
+    56
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111000222000222334444334444",
+  "objects": ".ad.f.dfa....b..e.a.a.f.....c.b.fe.f",
+  "roomNames": [
+    "Team Garage A",
+    "Fuel Storage",
+    "Paddock Walkway",
+    "Hospitality Suite",
+    "Telemetry Room"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Dexter the driver",
+    "Victor the veteran champion",
+    "Elias the engine tuner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "fuelrig"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    13,
+    20,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ],
+    [
+      "alone",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333224445552244455522444555",
+  "objects": ".....a.e........e...ef....e....cc.e.....c.c.a...aa..cb..aa.cbb.f",
+  "roomNames": [
+    "Games Room",
+    "Suite",
+    "Ski Room",
+    "Sauna",
+    "Dining Hall",
+    "Fireside Lounge"
+  ],
+  "people": [
+    "Alma the avalanche guard",
+    "Viola the vet",
+    "Bruno the bartender",
+    "Cedric the climber",
+    "Della the driver",
+    "Edgar the explorer",
+    "Flora the fisher",
+    "Greta the glacier expert"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      2,
+      "next",
+      "wood"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "wood"
+    ],
+    [
+      7,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    22,
+    29,
+    36,
+    43,
+    55,
+    56
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

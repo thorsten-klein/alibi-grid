@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222223333222223333224445566224445566224445566224445566",
+  "objects": ".e..........b.....afc..ecbb...cb.....a..e.fb.af.......f...a...a...fb..a..b....a..",
+  "roomNames": [
+    "Gymnasium",
+    "Habitat Quarters",
+    "Geology Lab",
+    "Water Reclamation",
+    "Comms Array",
+    "Solar Array Control",
+    "Oxygen Scrubber"
+  ],
+  "people": [
+    "Vera the venture sponsor",
+    "Ada the astrobiologist",
+    "Bea the botanist",
+    "Clara the commander",
+    "Dora the drill operator",
+    "Edith the environmental engineer",
+    "Freya the flight specialist",
+    "Greta the geologist",
+    "Hilda the habitat architect"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "tower"
+    ],
+    [
+      7,
+      "on",
+      "seat"
+    ],
+    [
+      8,
+      "room",
+      4
+    ],
+    [
+      8,
+      "next",
+      "tower"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    22,
+    29,
+    44,
+    51,
+    55,
+    70,
+    75
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

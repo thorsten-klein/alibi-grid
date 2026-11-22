@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112223334422233344222333442225555522255555",
+  "objects": "b.....fba....f...dcf.c..c..c.b.......e...f.e..a.......e.b....b.a",
+  "roomNames": [
+    "First Class Lounge",
+    "Boiler Room",
+    "Grand Ballroom",
+    "Dining Saloon",
+    "Promenade Deck",
+    "Steerage Quarters"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the bartender",
+    "Cedric the chief engineer",
+    "Dmitri the doctor",
+    "Edgar the envoy",
+    "Vince the valet",
+    "Frank the fireman",
+    "Gideon the governess"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "berth"
+    ],
+    [
+      1,
+      "next",
+      "deckchair"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "on",
+      "berth"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    22,
+    28,
+    35,
+    42,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "..ff....a.....f..d...cf.e",
+  "roomNames": [
+    "Dining Car",
+    "Mail Car",
+    "Lounge Car",
+    "Sleeper A"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Bea the banker",
+    "Cedric the conductor",
+    "Vivian the violinist",
+    "Dexter the diplomat"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "wine"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      4,
+      "next",
+      "lamp"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "wine",
+      1
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

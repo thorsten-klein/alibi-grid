@@ -1,0 +1,151 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000333220003332200033322444455554444555544445555",
+  "objects": "...e....e..e..cc..f...f..b....d.b.d.caf.....f..c....cc.......b..",
+  "roomNames": [
+    "Great Hall",
+    "Smithy",
+    "Throne Room",
+    "Stables",
+    "Dungeon",
+    "Tower"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Birgit the bard",
+    "Cora the chronicler",
+    "Daisy the doorkeeper",
+    "Edith the envoy",
+    "Fiona the falconer",
+    "Gus the glassmaker",
+    "Vivian the vintner"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "swords"
+    ],
+    [
+      1,
+      "next",
+      "swords"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    21,
+    27,
+    33,
+    42,
+    55,
+    62
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    3
+  ],
+  "rank": "kcknkckc",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 20,
+  "group": 1
+}

@@ -1,0 +1,84 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a..c....c..b....",
+  "roomNames": [
+    "Painted Wall",
+    "Cave",
+    "River Bank"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Birgit the builder",
+    "Clara the carver",
+    "Vera the valley guide"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    2,
+    4,
+    9,
+    15
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".1..",
+  "tags": "....1...........",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 14,
+  "group": 2
+}

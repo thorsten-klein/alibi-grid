@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111223344444223344444223355544223355544666655544666655544",
+  "objects": ".c.fa...a........f....a.a..a...acf.c......c.....ce.dd.....c....e.a.......bc......",
+  "roomNames": [
+    "Bone Yard",
+    "Berry Grove",
+    "Flint Pit",
+    "Lookout Rock",
+    "Hunting Ground",
+    "Painted Wall",
+    "Elder Hut"
+  ],
+  "people": [
+    "Ada the artist",
+    "Bruno the builder",
+    "Clara the carrier",
+    "Della the drummer",
+    "Elias the elk tamer",
+    "Flora the flute player",
+    "Grace the guard",
+    "Hazel the hornblower",
+    "Vivian the valley guide"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "bones"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "on",
+      "log"
+    ],
+    [
+      4,
+      "next",
+      "boulder"
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    19,
+    27,
+    41,
+    53,
+    61,
+    67,
+    78
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      0
+    ],
+    [
+      "roomCount",
+      6,
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".01111.1.",
+  "tags": ".......2....0......1..................4..............1.....0............1.......0",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 24,
+  "group": 1
+}

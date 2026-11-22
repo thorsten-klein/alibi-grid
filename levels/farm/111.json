@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000000000000000111122221111222233344444333444443335555533355555",
+  "objects": "a.......cb.a.bb.f..aad......e..d..fb....e..............d........",
+  "roomNames": [
+    "Big Barn",
+    "Root Cellar",
+    "Fruit Orchard",
+    "Tool Shed",
+    "Hayloft",
+    "Tractor Garage"
+  ],
+  "people": [
+    "Arthur the apple picker",
+    "Basil the beekeeper",
+    "Cedric the cattle rancher",
+    "Dmitri the dairy maid",
+    "Edgar the equipment operator",
+    "Vince the vineyard leaseholder",
+    "Frank the farmer",
+    "Gideon the grain miller"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "rocker"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "next",
+      "churn"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    23,
+    27,
+    37,
+    44,
+    48,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      19
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      43,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

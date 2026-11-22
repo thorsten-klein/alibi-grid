@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011110001111000222233344443334444333",
+  "objects": "..............cb........d...d..f......a.a.....b..",
+  "roomNames": [
+    "Sea of Ages",
+    "Fort",
+    "Jail",
+    "Great Hall",
+    "Cave"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Basil the bard",
+    "Clara the clockmaker",
+    "Della the dreamer",
+    "Vivian the visionary",
+    "Edgar the engineer",
+    "Felix the fortune teller"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    18,
+    23,
+    33,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      22,
+      29
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks",
+    "sea"
+  ],
+  "court": [
+    4
+  ],
+  "rank": "kcccccn",
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "extra": true
+}

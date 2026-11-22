@@ -1,0 +1,152 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220011222333444433344443334444",
+  "objects": "...b.f.a......b....ee..e...f.b...d.......b..d..f.",
+  "roomNames": [
+    "Jail",
+    "Church",
+    "Telegraph Office",
+    "Livery",
+    "Bank"
+  ],
+  "people": [
+    "Ada the auctioneer",
+    "Birgit the banker",
+    "Celia the cook",
+    "Dmitri the deputy",
+    "Elsa the engineer",
+    "Vivian the vet",
+    "Frank the farmer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      4,
+      "bandit"
+    ],
+    [
+      5,
+      "next",
+      "cactus"
+    ],
+    [
+      5,
+      "next",
+      "bed"
+    ],
+    [
+      6,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    17,
+    21,
+    29,
+    40,
+    48
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
+  "group": 1
+}

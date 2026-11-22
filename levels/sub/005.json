@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333332222333332222444444555444444555666644555666644555",
+  "objects": ".d..b.......bc..a.............f.....ca..f....a....ae.....d..dc..b.a..cf..a....d.e",
+  "roomNames": [
+    "Crew Quarters",
+    "Hydrothermal Lab",
+    "Specimen Bay",
+    "Galley",
+    "Ballast Control",
+    "Torpedo Tube",
+    "Sonar Room"
+  ],
+  "people": [
+    "Alma the acoustic analyst",
+    "Bella the biologist",
+    "Cora the chief diver",
+    "Daisy the doctor",
+    "Elsa the environmentalist",
+    "Fiona the flight pilot",
+    "Gwen the gyro tech",
+    "Viola the vip expedition funder",
+    "Hazel the helmsman"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      7,
+      "next",
+      "bunk"
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    8,
+    12,
+    25,
+    33,
+    41,
+    46,
+    58,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      57,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "group": 0
+}

@@ -1,0 +1,188 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222334455555334455555334455555334466666334466666",
+  "objects": "..d...f.e....e......e.a.dd..a.df.d..f.e..a.a..ddf.a..d......a..e.c..b.......c...b",
+  "roomNames": [
+    "Corral",
+    "Church",
+    "Barber",
+    "General Store",
+    "Hotel",
+    "Telegraph Office",
+    "Mine"
+  ],
+  "people": [
+    "Arthur the attorney",
+    "Bea the blacksmith",
+    "Cora the cook",
+    "Dora the dancer",
+    "Elias the engineer",
+    "Felix the farmer",
+    "Viola the vaquero",
+    "Grace the gunsmith",
+    "Hilda the homesteader"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "next",
+      "cactus"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      3,
+      "bandit"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "horse"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "barrel"
+    ],
+    [
+      8,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    19,
+    35,
+    41,
+    45,
+    61,
+    66,
+    78
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "nextCount",
+      "piano",
+      3
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    1,
+    6
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

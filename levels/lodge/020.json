@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222333311444554444444554444666555555666555555666",
+  "objects": "......a...b....f..cdbc.c.c.a....ffa..c.a.a.........f..d...b.b.......a...e.c......",
+  "roomNames": [
+    "Lobby",
+    "Boot Room",
+    "Dining Hall",
+    "Games Room",
+    "Kitchen",
+    "Spa",
+    "Terrace"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Bella the bartender",
+    "Clara the climber",
+    "Della the doctor",
+    "Elias the explorer",
+    "Vera the vet",
+    "Fiona the forester",
+    "Greta the glacier expert",
+    "Hugo the hiker"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "skis"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "col",
+      6
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    22,
+    28,
+    43,
+    47,
+    62,
+    63,
+    78
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      21
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 29,
+  "group": 2
+}

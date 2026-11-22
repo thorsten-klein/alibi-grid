@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344555333445553334455533344555",
+  "objects": ".a....a.f.c..............f.ff....b.....ed..............a...a.b..",
+  "roomNames": [
+    "Hide Tent",
+    "Fire Pit",
+    "Painted Wall",
+    "Lookout Rock",
+    "Cave",
+    "Bone Yard"
+  ],
+  "people": [
+    "Albert the artist",
+    "Bruno the builder",
+    "Cora the carrier",
+    "Daisy the dancer",
+    "Edith the elder",
+    "Fiona the flute player",
+    "Gideon the guard",
+    "Victor the visionary"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "log"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    21,
+    26,
+    35,
+    44,
+    48,
+    57
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "fire",
+      1
+    ],
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "2...4.24",
+  "tags": "2......4........2.................0.3........2...........4....4.",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

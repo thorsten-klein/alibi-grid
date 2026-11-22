@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "b..be............deeb......c..a..f......edb...a..",
+  "roomNames": [
+    "Maintenance Hut",
+    "Arcade Alley",
+    "Ferris Wheel Base",
+    "Pier Edge",
+    "Fortune Booth"
+  ],
+  "people": [
+    "Albert the antiquarian",
+    "Bruno the barker",
+    "Carl the cotton candy vendor",
+    "Dexter the daredevil",
+    "Elias the urban explorer",
+    "Felix the fisherman",
+    "Victor the venture developer"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "next",
+      "claw"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    16,
+    22,
+    28,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "claw",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 18,
+  "group": 1
+}

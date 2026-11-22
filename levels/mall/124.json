@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333445553334455533344555333",
+  "objects": "......b...dc....d.f...a........b....f.a...dfe..be......a..d..fe.",
+  "roomNames": [
+    "Cinema Lobby",
+    "Record Store",
+    "Arcade",
+    "Service Corridors",
+    "Photo Studio",
+    "Atrium Fountain"
+  ],
+  "people": [
+    "Arthur the arcade manager",
+    "Basil the barista",
+    "Cedric the cinema projectionist",
+    "Vince the veteran mall owner",
+    "Dmitri the department manager",
+    "Edgar the escalator mechanic",
+    "Frank the fry cook",
+    "Gideon the greeter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "fountain"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "gumball"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    22,
+    27,
+    32,
+    45,
+    50,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "gate",
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "....cb....f.dfad....f.f.....a..f...b.....e..e.a..",
+  "roomNames": [
+    "Spa Pavilion",
+    "Tiki Bar",
+    "Reception Lobby",
+    "Yacht Marina",
+    "Infinity Pool"
+  ],
+  "people": [
+    "Ada the activities director",
+    "Bea the bartender",
+    "Clara the concierge",
+    "Dora the divemaster",
+    "Vera the vacationer",
+    "Edith the excursion guide",
+    "Freya the fitness coach"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "cart"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "idol"
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "towel"
+    ],
+    [
+      6,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    19,
+    27,
+    30,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "towel",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

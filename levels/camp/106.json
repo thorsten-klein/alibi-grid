@@ -1,0 +1,137 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222233222223344442334444233",
+  "objects": ".....ebeaaadbe.........a.f.a..e....c.ae.a.be..bbb",
+  "roomNames": [
+    "River Bank",
+    "Lookout Rock",
+    "Hide Tent",
+    "Berry Grove",
+    "Fire Pit"
+  ],
+  "people": [
+    "Alma the artist",
+    "Vivian the visionary",
+    "Basil the beekeeper",
+    "Carl the carver",
+    "Della the drummer",
+    "Edith the elder",
+    "Felix the firekeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "bones"
+    ],
+    [
+      5,
+      "next",
+      "leaves"
+    ],
+    [
+      6,
+      "on",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    19,
+    22,
+    32,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      28,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".4.0..4",
+  "tags": "......................0........0.................",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "extra": true
+}

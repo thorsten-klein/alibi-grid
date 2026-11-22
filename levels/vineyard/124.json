@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333445553334455533344555333",
+  "objects": "......b...dc....d.f...a........b....f.a...dfe..be......a..d..fe.",
+  "roomNames": [
+    "Wine Cave",
+    "Oak Barrel Cellar",
+    "Fermentation Hall",
+    "Manor Library",
+    "Grape Press",
+    "Bottling Line"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barrel cooper",
+    "Cedric the cellar master",
+    "Vince the vintner",
+    "Dmitri the distributor",
+    "Edgar the estate manager",
+    "Frank the field laborer",
+    "Gideon the grape picker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "press"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    22,
+    27,
+    32,
+    45,
+    50,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "rack",
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

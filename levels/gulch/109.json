@@ -1,0 +1,144 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "..dca.cfc..b...eac.bfc.b.......d.ba.a.b.b.a....d.",
+  "roomNames": [
+    "Saloon",
+    "Barber",
+    "Corral",
+    "Mine",
+    "Jail"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Vivian the vaquero",
+    "Basil the blacksmith",
+    "Carl the cook",
+    "Daisy the dancer",
+    "Ena the engineer",
+    "Frank the farmer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "cactus"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "bed"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "bed"
+    ],
+    [
+      5,
+      "withBandit"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    18,
+    27,
+    33,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "horse",
+      1
+    ],
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    1
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

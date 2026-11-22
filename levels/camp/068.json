@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": ".a..b.d.e.bd..c.ab.aa..d.",
+  "roomNames": [
+    "Hunting Ground",
+    "Lookout Rock",
+    "Flint Pit",
+    "Berry Grove"
+  ],
+  "people": [
+    "Arthur the artist",
+    "Bruno the beekeeper",
+    "Carl the carrier",
+    "Vince the valley guide",
+    "Daisy the drummer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "next",
+      "leaves"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    1,
+    5,
+    12,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "trades"
+  ],
+  "trade": ".3112",
+  "tags": ".....3...1..1.....1.....2",
+  "hard": 6,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

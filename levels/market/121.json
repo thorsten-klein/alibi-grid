@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233344555333445553334455533344555",
+  "objects": ".cb.bff....f.f.ad.a.b...cfc.ba........e...aa.cf.....da.cf...c.e.",
+  "roomNames": [
+    "Lantern Bridge",
+    "Bell Tower",
+    "River Pagoda",
+    "Shadow Stage",
+    "Silk Stall",
+    "Fortune Teller"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bella the bamboo carver",
+    "Cora the cook",
+    "Daisy the dancer",
+    "Elsa the elder",
+    "Viola the visiting noble",
+    "Fiona the fan painter",
+    "Gwen the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "cushion"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "lantern"
+    ],
+    [
+      7,
+      "next",
+      "lantern"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    21,
+    31,
+    32,
+    42,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 29,
+  "extra": true
+}

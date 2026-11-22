@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000111000111222133222133444133444133",
+  "objects": "a..e..f......b.ab.d.....d.eee...b...",
+  "roomNames": [
+    "Security Checkpoint",
+    "Green Room",
+    "Backstage VIP",
+    "Campers Field",
+    "Beer Garden"
+  ],
+  "people": [
+    "Vince the vip record exec",
+    "Arthur the audio engineer",
+    "Basil the bass player",
+    "Cedric the crew chief",
+    "Dmitri the drummer",
+    "Edgar the electrician"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "roadcase"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "next",
+      "roadcase"
+    ],
+    [
+      5,
+      "next",
+      "drums"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    15,
+    19,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      19,
+      25
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

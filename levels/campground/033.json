@@ -1,0 +1,247 @@
+{
+  "size": 12,
+  "rooms": "000111122222000111122222000111122222000111122222000111133333000111133333444555666666444555666666444555777888444555777888444555777888444555777888",
+  "objects": ".d.b...b.b..daa.b......fa.e.de.d..bfc......b.b..f...da.....c.....e...cb....b......aefb.ae.af......fea.ab..bec....ab.......cb.........ee.........",
+  "roomNames": [
+    "Canoe Dock",
+    "Lake Shore",
+    "Bunkhouse Alpha",
+    "Bunkhouse Beta",
+    "Infirmary",
+    "Campfire Clearing",
+    "Archery Range",
+    "Arts Shed",
+    "Shower Block"
+  ],
+  "people": [
+    "Astrid the arts counselor",
+    "Birgit the bugler",
+    "Celia the cook",
+    "Della the director",
+    "Ena the eagle scout",
+    "Flora the first aid counselor",
+    "Vivian the visitor",
+    "Grace the guitar player",
+    "Hana the hiker",
+    "Isla the intern",
+    "Jutta the jumper",
+    "Kai the kitchen helper"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "canoes"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "next",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "table"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "board"
+    ],
+    [
+      8,
+      "next",
+      "board"
+    ],
+    [
+      8,
+      "next",
+      "table"
+    ],
+    [
+      9,
+      "next",
+      "fire"
+    ],
+    [
+      9,
+      "next",
+      "bunk"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    17,
+    25,
+    44,
+    57,
+    64,
+    82,
+    90,
+    96,
+    111,
+    127,
+    143
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      66,
+      78
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      140,
+      141
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "bunk",
+      0
+    ],
+    [
+      "nextCount",
+      "fire",
+      5
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "group": 3
+}

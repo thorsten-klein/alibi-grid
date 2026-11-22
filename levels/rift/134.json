@@ -1,0 +1,155 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222334444222334444222335555222335555333333333333333333333333333",
+  "objects": ".f.c..dbd.a.debc.......da.a.e.......c....a.b......e..............................",
+  "roomNames": [
+    "Throne Room",
+    "Shrine",
+    "Fire Pit",
+    "Sea of Ages",
+    "Captain Cabin",
+    "Great Hall"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Birgit the bookbinder",
+    "Vince the visionary",
+    "Celia the clockmaker",
+    "Dexter the dreamer",
+    "Ena the explorer",
+    "Felix the falconer",
+    "Grace the guardian",
+    "Hazel the historian"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "clock"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      4,
+      "next",
+      "log"
+    ],
+    [
+      5,
+      "notRoom",
+      3
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      3
+    ],
+    [
+      8,
+      "row",
+      8
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    26,
+    34,
+    42,
+    46,
+    58,
+    66,
+    77
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      35,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      53,
+      "r"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "C........L.......................................................................",
+  "sea": 3,
+  "hard": 2,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

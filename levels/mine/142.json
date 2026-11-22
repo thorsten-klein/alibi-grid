@@ -1,0 +1,199 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222333444445533344444553334466655333446665577777666557777766655",
+  "objects": "........a.........b.a..a.........e...a..eb...a.c.bbc.......d.......fbc.c...e.b..cd..e.d....bc......f",
+  "roomNames": [
+    "Assay Office",
+    "Mule Stables",
+    "Smelting Oven",
+    "Miners Mess",
+    "Water Sump",
+    "Shift Boss Office",
+    "Shaft Elevator",
+    "Timber Storage"
+  ],
+  "people": [
+    "Vera the vein claimant",
+    "Ada the assayer",
+    "Bea the blacksmith",
+    "Clara the cart driver",
+    "Dora the driller",
+    "Edith the engineer",
+    "Freya the foreman",
+    "Greta the geologist",
+    "Hilda the hoistman",
+    "Ivy the inspector"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "next",
+      "orecart"
+    ],
+    [
+      6,
+      "next",
+      "orecart"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "hoist"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    28,
+    35,
+    43,
+    57,
+    61,
+    74,
+    89,
+    96
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      73,
+      83
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      4,
+      3
+    ]
+  ],
+  "hard": 10,
+  "hardest": 9,
+  "steps": 34,
+  "extra": true
+}

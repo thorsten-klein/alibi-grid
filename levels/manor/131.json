@@ -1,0 +1,167 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000333322000333322444556666444556666444556666444556666",
+  "objects": "b......d.....fc......ac..b.d.d......f..a...b......ec.d..........ba.eb.ef......a..",
+  "roomNames": [
+    "Ballroom",
+    "Chapel",
+    "Dining Room",
+    "Kitchen",
+    "Cellar",
+    "Billiard Room",
+    "Library"
+  ],
+  "people": [
+    "Albert the architect",
+    "Basil the butler",
+    "Celia the colonel",
+    "Dora the dealer",
+    "Elsa the envoy",
+    "Flora the florist",
+    "Grace the guest",
+    "Vera the valet",
+    "Hana the heir"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "same",
+      8
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    23,
+    30,
+    40,
+    52,
+    55,
+    63,
+    78
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 26,
+  "extra": true
+}

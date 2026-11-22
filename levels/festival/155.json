@@ -1,0 +1,210 @@
+{
+  "size": 11,
+  "rooms": "0000011222200000112222333331122223333311222233333444444333334444445555555444455555554444666666777776666667777766666677777",
+  "objects": ".d.beae.........ba.......a..ca.e.cf..bb.e.e...c.b..bbb.b...ed...b....b.......c.....ae....b...........b..ad.fbb..d..c....b",
+  "roomNames": [
+    "Guitar Tech Tent",
+    "Main Stage",
+    "Backstage VIP",
+    "Mixing Tower",
+    "Campers Field",
+    "Security Checkpoint",
+    "First Aid Tent",
+    "Artist Trailer"
+  ],
+  "people": [
+    "Albert the audio engineer",
+    "Bruno the bass player",
+    "Carl the crew chief",
+    "Dexter the drummer",
+    "Elias the electrician",
+    "Felix the frontman",
+    "Gus the guitarist",
+    "Hugo the headliner",
+    "Igor the instrument tech",
+    "Jasper the journalist",
+    "Victor the vip record exec"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "roadcase"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "lighttower"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      8,
+      "col",
+      7
+    ],
+    [
+      9,
+      "next",
+      "amp"
+    ],
+    [
+      10,
+      "row",
+      10
+    ]
+  ],
+  "solution": [
+    3,
+    20,
+    26,
+    35,
+    52,
+    65,
+    72,
+    78,
+    95,
+    104,
+    110
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      14,
+      25
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      43,
+      54
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      57,
+      68
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      86,
+      97
+    ],
+    [
+      77,
+      88
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      115,
+      "b"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 30,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "onCount",
+      "sofa",
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 55,
+  "extra": true
+}

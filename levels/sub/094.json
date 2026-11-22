@@ -1,0 +1,143 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "b.........bcd.b...b.ebe........dd....a...bcb..a.d",
+  "roomNames": [
+    "Conning Tower",
+    "Crew Quarters",
+    "Reactor Chamber",
+    "Specimen Bay",
+    "Sonar Room"
+  ],
+  "people": [
+    "Arthur the acoustic analyst",
+    "Basil the biologist",
+    "Cedric the chief diver",
+    "Dmitri the doctor",
+    "Edgar the environmentalist",
+    "Frank the flight pilot",
+    "Vince the vip expedition funder"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "sonar"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "valve"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "next",
+      "sonar"
+    ],
+    [
+      6,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    19,
+    23,
+    34,
+    35,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      2
+    ],
+    [
+      "nextCount",
+      "seat",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

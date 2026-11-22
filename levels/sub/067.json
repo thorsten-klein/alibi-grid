@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "deafa...ab.f....b..d...c.",
+  "roomNames": [
+    "Conning Tower",
+    "Pilot Cockpit",
+    "Pressure Airlock",
+    "Galley"
+  ],
+  "people": [
+    "Albert the aquanaut",
+    "Victor the vessel designer",
+    "Bruno the bathymetry tech",
+    "Carl the captain",
+    "Dexter the drill operator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "freezer"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "sonar"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    10,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

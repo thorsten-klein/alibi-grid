@@ -1,0 +1,148 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333344433334443333444",
+  "objects": ".ed..a..fa...aba..b.a........f...be....b.....b..e",
+  "roomNames": [
+    "Egyptian Wing",
+    "Restoration Lab",
+    "Medieval Hall",
+    "Boiler Cellar",
+    "Security Control"
+  ],
+  "people": [
+    "Arthur the archaeologist",
+    "Basil the benefactor",
+    "Cedric the curator",
+    "Dmitri the director",
+    "Edgar the egyptologist",
+    "Vince the valuer",
+    "Frank the forger"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "display"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "display"
+    ],
+    [
+      6,
+      "notRoom",
+      2
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    16,
+    26,
+    32,
+    41,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "turnstile",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

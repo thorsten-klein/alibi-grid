@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000222222333222222333445555333445555333446666333446666333446666",
+  "objects": ".a.dbc.ccaf...e.f..b.d....de.a..a..c...fd....b.ac.bd...a...c...b...a.a...f....d.a",
+  "roomNames": [
+    "Courtyard",
+    "Dungeon",
+    "Kitchen",
+    "Solar",
+    "Chapel",
+    "Smithy",
+    "Throne Room"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bruno the baker",
+    "Viola the verger",
+    "Celia the chronicler",
+    "Daisy the doorkeeper",
+    "Ena the embroiderer",
+    "Freya the farrier",
+    "Greta the glassmaker",
+    "Henrik the herald"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "candles"
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "same",
+      8
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      8,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    22,
+    32,
+    42,
+    46,
+    62,
+    70,
+    74
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      51,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "l"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "bench",
+      1
+    ],
+    [
+      "nextCount",
+      "urn",
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    2,
+    5
+  ],
+  "rank": "ccnknkccc",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

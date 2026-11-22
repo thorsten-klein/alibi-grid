@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0112222011222201133330113333001144400114440011444",
+  "objects": ".a......eba..bb...b.dde..f......b.f....cb........",
+  "roomNames": [
+    "Dining Car",
+    "Corridor",
+    "Sleeper C",
+    "Baggage Car",
+    "Sleeper A"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Basil the bookseller",
+    "Cora the conductor",
+    "Daisy the diplomat",
+    "Elsa the engineer",
+    "Vince the violinist",
+    "Felix the fiddler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "wine"
+    ],
+    [
+      4,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    14,
+    26,
+    31,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      22,
+      29
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "bunk",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

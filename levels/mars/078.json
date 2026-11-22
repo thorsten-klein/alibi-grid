@@ -1,0 +1,116 @@
+{
+  "size": 6,
+  "rooms": "011222011222033222033444033444033444",
+  "objects": "cba.aca.fe.....f...b....f..e...dafc.",
+  "roomNames": [
+    "Airlock Module",
+    "Water Reclamation",
+    "Solar Array Control",
+    "Oxygen Scrubber",
+    "Rover Bay"
+  ],
+  "people": [
+    "Alma the astrobiologist",
+    "Viola the venture sponsor",
+    "Bella the botanist",
+    "Cora the commander",
+    "Daisy the drill operator",
+    "Elsa the environmental engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "drill"
+    ],
+    [
+      4,
+      "next",
+      "rover"
+    ],
+    [
+      5,
+      "next",
+      "tower"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    16,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      1
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

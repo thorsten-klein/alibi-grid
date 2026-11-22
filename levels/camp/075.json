@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "a.....ca...a..e......ceaa",
+  "roomNames": [
+    "Hunting Ground",
+    "River Bank",
+    "Fire Pit",
+    "Flint Pit"
+  ],
+  "people": [
+    "Alma the artist",
+    "Vivian the visionary",
+    "Bella the beekeeper",
+    "Carl the carrier",
+    "Dora the drummer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "on",
+      "log"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    10,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      10,
+      15
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "40...",
+  "tags": "..4..4...................",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

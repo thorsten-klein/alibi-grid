@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333332222333332222444555666444555666444555666444555666",
+  "objects": "f.....b..b.bb.....b.c.....b.b......b.....b........f.....b..........f..a.....abc..",
+  "roomNames": [
+    "Team Garage A",
+    "Drivers Lounge",
+    "Hospitality Suite",
+    "Paddock Walkway",
+    "Fuel Storage",
+    "Scrutineering Shed",
+    "Telemetry Room"
+  ],
+  "people": [
+    "Alma the aerodynamicist",
+    "Bella the brake tech",
+    "Viola the veteran champion",
+    "Cora the chief mechanic",
+    "Daisy the driver",
+    "Elsa the engine tuner",
+    "Fiona the fuel specialist",
+    "Gwen the gearbox tech",
+    "Hazel the head of team"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "room",
+      2
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "next",
+      "toolbox"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    15,
+    18,
+    30,
+    43,
+    47,
+    59,
+    64,
+    80
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 21,
+  "extra": true
+}

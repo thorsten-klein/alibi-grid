@@ -1,0 +1,80 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "c.e..b..a..bb...",
+  "roomNames": [
+    "Balcony",
+    "Lighting Booth",
+    "Costume Room"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Vivian the violinist",
+    "Bea the baritone",
+    "Carl the choreographer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "piano",
+      0
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

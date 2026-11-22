@@ -1,0 +1,80 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": ".....e......a..b",
+  "roomNames": [
+    "Prop Store",
+    "Orchestra Pit",
+    "Balcony"
+  ],
+  "people": [
+    "Astrid the author",
+    "Bella the bass player",
+    "Celia the choreographer",
+    "Vivian the ventriloquist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

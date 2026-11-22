@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".b.aa..db..fb..........c.",
+  "roomNames": [
+    "Gatehouse",
+    "Great Hall",
+    "Kitchen",
+    "Dungeon"
+  ],
+  "people": [
+    "Vince the vintner",
+    "Alma the archer",
+    "Bella the bard",
+    "Cora the cupbearer",
+    "Daisy the doorkeeper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "cot"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "ccckk",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

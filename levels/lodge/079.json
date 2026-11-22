@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "da.........c....f.f.b.b.c...de......",
+  "roomNames": [
+    "Ski Room",
+    "Suite",
+    "Fireside Lounge",
+    "Games Room",
+    "Bar"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Bruno the bartender",
+    "Cora the climber",
+    "Dexter the doctor",
+    "Edgar the engineer",
+    "Vivian the vet"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "skis"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

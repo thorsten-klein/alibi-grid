@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".b.b..ee.bbcb.aa.adada...",
+  "roomNames": [
+    "Observation Dome",
+    "Pressure Airlock",
+    "Hydrothermal Lab",
+    "Conning Tower"
+  ],
+  "people": [
+    "Albert the acoustic analyst",
+    "Victor the vip expedition funder",
+    "Bruno the biologist",
+    "Carl the chief diver",
+    "Dexter the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

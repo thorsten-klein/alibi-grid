@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000000000000111222111222333444333444",
+  "objects": ".e....cbb......bc....a......c.b.f..a",
+  "roomNames": [
+    "Sauna",
+    "Fireside Lounge",
+    "Kitchen",
+    "Bar",
+    "Dining Hall"
+  ],
+  "people": [
+    "Astrid the avalanche guard",
+    "Basil the bartender",
+    "Cora the climber",
+    "Victor the vet",
+    "Daisy the driver",
+    "Edith the explorer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "skis"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    13,
+    20,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "alone",
+      null,
+      2
+    ],
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 22,
+  "group": 3
+}

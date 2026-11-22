@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "...e.ba..b.af.bd",
+  "roomNames": [
+    "Fermentation Hall",
+    "Tasting Salon",
+    "Vineyard Plot"
+  ],
+  "people": [
+    "Ada the apprentice",
+    "Vera the vineyard owner",
+    "Bea the bottler",
+    "Clara the cook"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "press"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000112222000011222200001122220000112222333334455533333445553333344555666664455566666777776666677777",
+  "objects": "b...a.......c....fd.b...b...f..bf...c.a.e.b..ac.c.......d.b.e.........a.....b.....b......e.ca.fcdd..",
+  "roomNames": [
+    "Private Booths",
+    "Coat Check",
+    "Safe Room",
+    "Jazz Stage",
+    "Tailor Front",
+    "Hidden Alleyway",
+    "Cold Storage",
+    "Bar Counter"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Bea the bootlegger",
+    "Clara the card sharp",
+    "Dora the distiller",
+    "Edith the emcee",
+    "Freya the forger",
+    "Greta the gun runner",
+    "Hilda the hat check girl",
+    "Vera the valued patron",
+    "Ivy the inspector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "cask"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "booth"
+    ],
+    [
+      8,
+      "next",
+      "booth"
+    ],
+    [
+      8,
+      "col",
+      0
+    ],
+    [
+      9,
+      "next",
+      "roulette"
+    ]
+  ],
+  "solution": [
+    8,
+    15,
+    26,
+    37,
+    42,
+    53,
+    64,
+    71,
+    80,
+    99
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      63,
+      73
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      78,
+      88
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 29,
+  "group": 1
+}

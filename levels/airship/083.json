@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122333344333344333344",
+  "objects": "b...d...e....ed.c.fa............f...",
+  "roomNames": [
+    "Smoking Lounge",
+    "Dining Saloon",
+    "Gas Catwalk",
+    "Radio Cabin",
+    "Cargo Hold"
+  ],
+  "people": [
+    "Albert the aeronaut",
+    "Bruno the barman",
+    "Carl the captain",
+    "Victor the vessel inventor",
+    "Dexter the dirigible pilot",
+    "Elias the engine mechanic"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "column"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    19,
+    24,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "luggage",
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "extra": true
+}

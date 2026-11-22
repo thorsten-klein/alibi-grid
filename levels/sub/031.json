@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220033332222003333222200333344455566774445556677444555667744455566774445556677",
+  "objects": "b....a...a......e.a....c.....abb.....afa..a.a......c..b......f........bd........f........cb...b.b...",
+  "roomNames": [
+    "Sonar Room",
+    "Reactor Chamber",
+    "Observation Dome",
+    "Galley",
+    "Pilot Cockpit",
+    "Crew Quarters",
+    "Pressure Airlock",
+    "Torpedo Tube"
+  ],
+  "people": [
+    "Arthur the acoustic analyst",
+    "Basil the biologist",
+    "Cedric the chief diver",
+    "Dmitri the doctor",
+    "Edgar the environmentalist",
+    "Frank the flight pilot",
+    "Vince the vip expedition funder",
+    "Gideon the gyro tech",
+    "Henrik the helmsman",
+    "Ivo the intern"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "tank"
+    ],
+    [
+      8,
+      "next",
+      "freezer"
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      9,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    24,
+    36,
+    40,
+    57,
+    69,
+    72,
+    81,
+    98
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      18,
+      28
+    ],
+    [
+      41,
+      51
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      0
+    ],
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 38,
+  "group": 3
+}

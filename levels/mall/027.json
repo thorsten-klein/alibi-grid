@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": ".f.cdf.c..a.....f..fe.b.df...a..c...",
+  "roomNames": [
+    "Toy Emporium",
+    "Record Store",
+    "Department Store",
+    "Food Court",
+    "Cinema Lobby"
+  ],
+  "people": [
+    "Astrid the arcade manager",
+    "Birgit the barista",
+    "Celia the cinema projectionist",
+    "Vivian the veteran mall owner",
+    "Della the department manager",
+    "Ena the escalator mechanic"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "fountain"
+    ],
+    [
+      2,
+      "next",
+      "mannequin"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    17,
+    22,
+    26,
+    31
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 3,
+  "steps": 21,
+  "group": 3
+}

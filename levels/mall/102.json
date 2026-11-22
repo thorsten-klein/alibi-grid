@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "bf...ea.f.bb...f...........ab.a..bcd..e.a.ba.....",
+  "roomNames": [
+    "Security Office",
+    "Record Store",
+    "Food Court",
+    "Escalator Hub",
+    "Toy Emporium"
+  ],
+  "people": [
+    "Albert the arcade manager",
+    "Bruno the barista",
+    "Victor the veteran mall owner",
+    "Carl the cinema projectionist",
+    "Dexter the department manager",
+    "Elias the escalator mechanic",
+    "Felix the fry cook"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "gate"
+    ],
+    [
+      1,
+      "next",
+      "mannequin"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "gate"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    19,
+    22,
+    28,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

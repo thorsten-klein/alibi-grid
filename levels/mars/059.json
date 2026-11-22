@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".b.a.....ccba..d.b.b.c...",
+  "roomNames": [
+    "Solar Array Control",
+    "Command Hub",
+    "Hydroponic Dome",
+    "Geology Lab"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Vince the visiting inspector",
+    "Basil the biosphere tech",
+    "Cedric the chemist",
+    "Dmitri the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    11,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

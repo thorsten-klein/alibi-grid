@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "...b...f...b....",
+  "roomNames": [
+    "Open Sea",
+    "Dock",
+    "Brig"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Birgit the boatswain",
+    "Vera the voyager",
+    "Carl the captain"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "on",
+      "hammock"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 8,
+  "group": 1
+}

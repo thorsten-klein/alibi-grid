@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333332222333332222444444555444444555666644555666644555",
+  "objects": ".d..b.......bc..a.............f.....ca..f....a....ae.....d..dc..b.a..cf..a....d.e",
+  "roomNames": [
+    "Herb Garden",
+    "Chapter House",
+    "Prior Cell",
+    "Cellar",
+    "Infirmary",
+    "Dormitory",
+    "Scriptorium"
+  ],
+  "people": [
+    "Ada the abbot",
+    "Bea the bellringer",
+    "Clara the cellarer",
+    "Dora the doorkeeper",
+    "Edith the exorcist",
+    "Freya the forester",
+    "Greta the gardener",
+    "Vera the visiting cardinal",
+    "Hilda the herbalist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "palliasse"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "stall"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "lectern"
+    ],
+    [
+      7,
+      "next",
+      "palliasse"
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "next",
+      "stall"
+    ]
+  ],
+  "solution": [
+    8,
+    12,
+    25,
+    33,
+    41,
+    46,
+    58,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      57,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "reliquary",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "group": 0
+}

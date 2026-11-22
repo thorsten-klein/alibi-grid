@@ -1,0 +1,80 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "f...b.......a..a",
+  "roomNames": [
+    "Pantry",
+    "Chapel",
+    "Ballroom"
+  ],
+  "people": [
+    "Ada the author",
+    "Bella the butler",
+    "Carl the cook",
+    "Vera the valet"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "clock"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "tries": 1,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 10,
+  "group": 1
+}

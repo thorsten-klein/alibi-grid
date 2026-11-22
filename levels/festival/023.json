@@ -1,0 +1,226 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112220000111122233334445555333344455553333444555533334445555666666677776666666777766666667777",
+  "objects": "da...eb.....dae......b.ca...c.eb...ab..b.....af....bcbaf..c.......b......b...e.c..a...b..f...b..f..bf.aee.d..c..a..b.....",
+  "roomNames": [
+    "First Aid Tent",
+    "Security Checkpoint",
+    "Main Stage",
+    "Backstage VIP",
+    "Campers Field",
+    "Merch Pavilion",
+    "Green Room",
+    "Artist Trailer"
+  ],
+  "people": [
+    "Alma the artist agent",
+    "Bella the bodyguard",
+    "Cora the cameraman",
+    "Daisy the disc jockey",
+    "Elsa the event producer",
+    "Fiona the fan president",
+    "Gwen the groupie coordinator",
+    "Hazel the head of security",
+    "Ines the influencer",
+    "Juno the junior stagehand",
+    "Viola the vocal coach"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "drums"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "amp"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "amp"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "lighttower"
+    ],
+    [
+      5,
+      "next",
+      "amp"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "roadcase"
+    ],
+    [
+      9,
+      "next",
+      "lighttower"
+    ],
+    [
+      10,
+      "next",
+      "roadcase"
+    ],
+    [
+      10,
+      "next",
+      "sofa"
+    ],
+    [
+      10,
+      "row",
+      10
+    ]
+  ],
+  "solution": [
+    1,
+    21,
+    22,
+    36,
+    51,
+    57,
+    75,
+    83,
+    93,
+    107,
+    114
+  ],
+  "doors": [
+    [
+      36,
+      37
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      79,
+      90
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

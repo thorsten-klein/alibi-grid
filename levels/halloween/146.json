@@ -1,0 +1,192 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222333344444433334444445555666666555566666655556677775555667777",
+  "objects": ".ce...f.b.b..d..dd.....dbfa...dd..b....ae....bbe.a..b.f.......b.c....bc..b...f.c.b...b.d...da.d.....",
+  "roomNames": [
+    "Haunted Conservatory",
+    "Apple Bobbing Hall",
+    "Occult Library",
+    "Cellar Maze",
+    "Crypt",
+    "Witch Parlor",
+    "Black Cat Alley",
+    "Cemetery Gate"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bella the black cat breeder",
+    "Cora the costume designer",
+    "Daisy the diviner",
+    "Viola the veteran manor heir",
+    "Elsa the embalmer",
+    "Fiona the fortune teller",
+    "Gwen the ghost enthusiast",
+    "Hazel the haunted house host",
+    "Ines the illusionist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "coffin"
+    ],
+    [
+      3,
+      "next",
+      "tombstone"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "swing"
+    ],
+    [
+      6,
+      "next",
+      "pumpkin"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "pumpkin"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "tombstone"
+    ],
+    [
+      9,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    29,
+    32,
+    43,
+    51,
+    65,
+    74,
+    86,
+    98
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      78,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      2
+    ],
+    [
+      "nextCount",
+      "pumpkin",
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

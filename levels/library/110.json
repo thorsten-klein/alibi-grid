@@ -1,0 +1,148 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222223332222233322222444455554444555544445555",
+  "objects": "..a.....a..........b.f.aa..a...abbab...cb..d.....b...b....ce.ed.",
+  "roomNames": [
+    "Philosopher Garden",
+    "Scribes Hall",
+    "Mosaic Gallery",
+    "Lecture Theater",
+    "Geometry Hall",
+    "Observatory"
+  ],
+  "people": [
+    "Ada the astronomer",
+    "Vera the visiting philosopher",
+    "Bea the botanist",
+    "Clara the chronicler",
+    "Dora the dialectician",
+    "Edith the epigrapher",
+    "Freya the folklorist",
+    "Greta the grammarian"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "mat"
+    ],
+    [
+      4,
+      "next",
+      "cupboard"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "mat"
+    ],
+    [
+      7,
+      "next",
+      "bust"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    27,
+    38,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

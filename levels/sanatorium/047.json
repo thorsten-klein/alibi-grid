@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "..a..b....a.c...",
+  "roomNames": [
+    "Ward B",
+    "Solarium",
+    "Kitchen"
+  ],
+  "people": [
+    "Alma the anesthetist",
+    "Bella the biochemist",
+    "Cora the chief surgeon",
+    "Viola the victim of illness"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 8,
+  "extra": true
+}

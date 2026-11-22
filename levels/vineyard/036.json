@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "..e.b....b.e....",
+  "roomNames": [
+    "Vineyard Plot",
+    "Wine Cave",
+    "Gatehouse"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Vera the vintner",
+    "Bea the barrel cooper",
+    "Clara the cellar master"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

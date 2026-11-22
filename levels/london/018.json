@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122331122334422334422",
+  "objects": ".f.......ad......fb...fb..e..d..a.f.",
+  "roomNames": [
+    "Tenement Attic",
+    "Mortuary",
+    "Apothecary",
+    "Cobblestone Alley",
+    "Opium Den"
+  ],
+  "people": [
+    "Victor the victim of nobility",
+    "Albert the apothecary",
+    "Bruno the blackmailer",
+    "Carl the constable",
+    "Dexter the detective",
+    "Elias the engraver"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "kiosk"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "fireplace"
+    ],
+    [
+      5,
+      "next",
+      "hansom"
+    ],
+    [
+      5,
+      "next",
+      "kiosk"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    18,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 19,
+  "group": 2
+}

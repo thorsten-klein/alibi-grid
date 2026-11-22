@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220013333001333300144440014444",
+  "objects": "c.b..ab.b..ab.b.eda..a....e.ec..d.f....e..bd.d...",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Valley Terminal",
+    "Sheave Tower",
+    "Glacier Overlook",
+    "Transformer Vault"
+  ],
+  "people": [
+    "Astrid the avalanche controller",
+    "Birgit the brake operator",
+    "Celia the conductor",
+    "Vivian the veteran mountaineer",
+    "Della the dispatcher",
+    "Ena the electrical engineer",
+    "Flora the funicular driver"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "skirack"
+    ],
+    [
+      4,
+      "next",
+      "skirack"
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    14,
+    25,
+    33,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

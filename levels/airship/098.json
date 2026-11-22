@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "e..c..b.a....abe..........ebfaa.db.a.ca....e...d.",
+  "roomNames": [
+    "Galley",
+    "Starboard Gondola",
+    "Rigging Loft",
+    "Port Engine Gondola",
+    "Dining Saloon"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the boatswain",
+    "Victor the vip diplomat",
+    "Carl the chief rigger",
+    "Dexter the doctor",
+    "Elias the envoy",
+    "Felix the flight steward"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "berth"
+    ],
+    [
+      1,
+      "next",
+      "winch"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "armchair"
+    ],
+    [
+      5,
+      "next",
+      "ballast"
+    ],
+    [
+      6,
+      "next",
+      "ballast"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    18,
+    27,
+    31,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      35,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "berth",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

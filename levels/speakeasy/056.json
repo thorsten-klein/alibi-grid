@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "...f....cae...a........fd",
+  "roomNames": [
+    "VIP Poker Den",
+    "Jazz Stage",
+    "Tailor Front",
+    "Safe Room"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Bea the bootlegger",
+    "Clara the card sharp",
+    "Dora the distiller",
+    "Vera the valued patron"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "safe"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "booth"
+    ],
+    [
+      3,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

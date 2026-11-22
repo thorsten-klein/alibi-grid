@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000000000000122334122334122334122334",
+  "objects": "...b...ab...d.......a.ea....a.af.ba.",
+  "roomNames": [
+    "Timber Storage",
+    "Tool Crib",
+    "Dynamite Magazine",
+    "Mule Stables",
+    "Shift Boss Office"
+  ],
+  "people": [
+    "Vera the vein claimant",
+    "Ada the assayer",
+    "Bea the blacksmith",
+    "Clara the cart driver",
+    "Dora the driller",
+    "Edith the engineer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "keg"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "dynamite"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    17,
+    20,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

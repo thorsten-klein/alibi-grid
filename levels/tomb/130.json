@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222000334444000334444555334444555334444555666666555666666",
+  "objects": "f..........e.....d.be...b..cbf........f...b..b.f.cbb........d...a..a.ff..d.......",
+  "roomNames": [
+    "Statue Hall",
+    "Antechamber",
+    "Scribe Room",
+    "Sun Court",
+    "Well Shaft",
+    "Burial Chamber",
+    "Workshop"
+  ],
+  "people": [
+    "Albert the architect",
+    "Basil the boat builder",
+    "Vince the vintner",
+    "Celia the carpenter",
+    "Dexter the diviner",
+    "Elias the embalmer",
+    "Frank the fanbearer",
+    "Gideon the goldsmith",
+    "Hilda the herder"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "couch"
+    ],
+    [
+      3,
+      "next",
+      "jar"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    14,
+    24,
+    28,
+    44,
+    52,
+    54,
+    65,
+    75
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "...LL..................................L......C.L.....C........L.C......C.C......",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 27,
+  "extra": true
+}

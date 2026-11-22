@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "..b...baaa..c.b...e.fb..e",
+  "roomNames": [
+    "First Class Lounge",
+    "Grand Ballroom",
+    "Promenade Deck",
+    "Steerage Quarters"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Basil the boatswain",
+    "Vince the voyage sponsor",
+    "Cedric the captain",
+    "Dmitri the deckhand"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "berth"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    10,
+    19,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

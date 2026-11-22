@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".......bca.dc........d.f.",
+  "roomNames": [
+    "Newsstand Corner",
+    "Thames Wharf",
+    "Opium Den",
+    "Mortuary"
+  ],
+  "people": [
+    "Alma the apothecary",
+    "Bella the blackmailer",
+    "Cora the constable",
+    "Viola the victim of nobility",
+    "Daisy the detective"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "streetlamp"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "hansom"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "cot",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

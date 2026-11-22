@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000001111111000001111111000001111111222223334444222223334444222223334444222223334444555333366666555333366666555777766666555777788888555777788888",
+  "objects": "...af.f...c....cb..ac....a....aa......b..d..b...c..d...d..a..b.....c.ff.....eac...e.........c...f.f.....d....fd....a.ba...ebc..........ab......d",
+  "roomNames": [
+    "Morgue",
+    "Operating Theater",
+    "Ward A",
+    "Ward B",
+    "Records Archive",
+    "Solarium",
+    "Pharmacy",
+    "Doctor Office",
+    "Boiler Room"
+  ],
+  "people": [
+    "Albert the anesthetist",
+    "Bruno the biochemist",
+    "Carl the chief surgeon",
+    "Dexter the doctor",
+    "Elias the epidemiologist",
+    "Felix the first responder",
+    "Gus the groundskeeper",
+    "Victor the victim of illness",
+    "Hugo the head nurse",
+    "Igor the intern",
+    "Jasper the janitor",
+    "Klaus the kinship visitor"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "cabinet"
+    ],
+    [
+      2,
+      "col",
+      10
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      3,
+      "col",
+      9
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "bed"
+    ],
+    [
+      5,
+      "next",
+      "cabinet"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "cart"
+    ],
+    [
+      9,
+      "next",
+      "bed"
+    ],
+    [
+      9,
+      "door",
+      null
+    ],
+    [
+      10,
+      "next",
+      "cabinet"
+    ],
+    [
+      11,
+      "next",
+      "wheelchair"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    34,
+    45,
+    56,
+    66,
+    72,
+    95,
+    103,
+    111,
+    125,
+    136
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      28,
+      40
+    ],
+    [
+      30,
+      42
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      72,
+      84
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      102,
+      114
+    ],
+    [
+      80,
+      92
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      116,
+      128
+    ],
+    [
+      126,
+      127
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      120,
+      "l"
+    ],
+    [
+      141,
+      "b"
+    ],
+    [
+      143,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "onCount",
+      "wheelchair",
+      0
+    ],
+    [
+      "roomCount",
+      8,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 9,
+  "steps": 38,
+  "extra": true
+}

@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011222011222011334444334444",
+  "objects": "..e...a..b..d....bb...d.d........cb.",
+  "roomNames": [
+    "Mess Hall",
+    "Bunkhouse Alpha",
+    "Lake Shore",
+    "Director Office",
+    "Shower Block"
+  ],
+  "people": [
+    "Alma the arts counselor",
+    "Viola the visitor",
+    "Bella the bugler",
+    "Cora the cook",
+    "Daisy the director",
+    "Elsa the eagle scout"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "canoes"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "table"
+    ],
+    [
+      5,
+      "next",
+      "canoes"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    20,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

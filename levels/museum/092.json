@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000000000000122334122334122334122334",
+  "objects": "...b...ab...d.......a.ea....a.af.ba.",
+  "roomNames": [
+    "Curator Study",
+    "Sculpture Court",
+    "Greek Antiquities",
+    "Gift Shop",
+    "Medieval Hall"
+  ],
+  "people": [
+    "Vera the visiting donor",
+    "Ada the archivist",
+    "Bea the bookkeeper",
+    "Clara the conservator",
+    "Dora the docent",
+    "Edith the evaluator"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "display"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    17,
+    20,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "cot",
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

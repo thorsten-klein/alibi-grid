@@ -1,0 +1,80 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "...a......e.c...",
+  "roomNames": [
+    "Livery",
+    "Corral",
+    "Hotel"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Birgit the banker",
+    "Celia the cattle driver",
+    "Viola the vaquero"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    2
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "group": 3
+}

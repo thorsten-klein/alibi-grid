@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222233444433444433",
+  "objects": ".a.fc..b.e..e.........a........b..f.",
+  "roomNames": [
+    "Foyer",
+    "Box Office",
+    "Green Room",
+    "Prop Store",
+    "Wings"
+  ],
+  "people": [
+    "Albert the agent",
+    "Basil the bass player",
+    "Cedric the choreographer",
+    "Daisy the director",
+    "Vince the violinist",
+    "Elias the electrician"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    17,
+    18,
+    27,
+    32
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

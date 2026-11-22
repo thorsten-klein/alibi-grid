@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "...e..b........b.ae..dbc.",
+  "roomNames": [
+    "Oak Barrel Cellar",
+    "Tasting Salon",
+    "Grape Press",
+    "Vineyard Plot"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barrel cooper",
+    "Cedric the cellar master",
+    "Vince the vintner",
+    "Dmitri the distributor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "rack",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

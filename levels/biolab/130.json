@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001113333001113333444455555444455555444466666444466666444466666",
+  "objects": "....f...d.e.f.fc.ac.a..b.ad.f.da.bf...cdd.f....f.a..e....bbc.a..e.d..c...d......a",
+  "roomNames": [
+    "Cryo Storage",
+    "Cleanroom 2",
+    "Server Farm",
+    "Decon Airlock",
+    "Generator Core",
+    "Control Center",
+    "Breakroom"
+  ],
+  "people": [
+    "Alma the algorithm engineer",
+    "Bella the bioethicist",
+    "Cora the cryo technician",
+    "Viola the venture backer",
+    "Daisy the data architect",
+    "Elsa the ecologist",
+    "Fiona the forensic chemist",
+    "Gwen the guard",
+    "Hazel the hardware tech"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "centrifuge"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "centrifuge"
+    ],
+    [
+      7,
+      "next",
+      "centrifuge"
+    ],
+    [
+      7,
+      "next",
+      "chamber"
+    ],
+    [
+      8,
+      "next",
+      "hood"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    25,
+    32,
+    44,
+    49,
+    55,
+    65,
+    78
+  ],
+  "doors": [
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

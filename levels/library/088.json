@@ -1,0 +1,127 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122003344333344333344",
+  "objects": ".........f.......f.f.......ccf...f.d",
+  "roomNames": [
+    "Map Archive",
+    "Courtyard Fountain",
+    "Papyrus Vault",
+    "Geometry Hall",
+    "Translation Chamber"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Basil the botanist",
+    "Cedric the chronicler",
+    "Dmitri the dialectician",
+    "Vince the visiting philosopher",
+    "Edgar the epigrapher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "next",
+      "burner"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "burner"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    15,
+    23,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "burner",
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

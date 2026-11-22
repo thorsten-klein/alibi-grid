@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....ff.......f..",
+  "roomNames": [
+    "Cloister Walk",
+    "Infirmary",
+    "Crypt"
+  ],
+  "people": [
+    "Albert the abbot",
+    "Bruno the bellringer",
+    "Victor the visiting cardinal",
+    "Carl the cellarer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bellrope"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

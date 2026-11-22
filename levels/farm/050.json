@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": ".df.c.....a.ab.f",
+  "roomNames": [
+    "Fruit Orchard",
+    "Grain Silo",
+    "Milking Shed"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Bella the barn hand",
+    "Viola the veterinarian",
+    "Cora the cider presser"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "scarecrow"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "rocker"
+    ],
+    [
+      3,
+      "next",
+      "anvil"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

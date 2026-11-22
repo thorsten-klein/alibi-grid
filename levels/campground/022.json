@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333334444433333444445556677744555667774455566777445556677744",
+  "objects": "..b....d...dd..ed......d...ddf.be...a.....d......aa..f.a..b.a....d..a....a...............cceb...a.c.",
+  "roomNames": [
+    "Arts Shed",
+    "Infirmary",
+    "Bunkhouse Beta",
+    "Bunkhouse Alpha",
+    "Shower Block",
+    "Mess Hall",
+    "Director Office",
+    "Campfire Clearing"
+  ],
+  "people": [
+    "Arthur the archery instructor",
+    "Basil the boating coach",
+    "Cedric the camp counselor",
+    "Dmitri the drama coach",
+    "Vince the veteran camp owner",
+    "Edgar the ecology guide",
+    "Frank the fisher",
+    "Gideon the groundskeeper",
+    "Henrik the head counselor",
+    "Ivo the instructor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "canoes"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "canoes"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "next",
+      "canoes"
+    ],
+    [
+      7,
+      "next",
+      "canoes"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "chair"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    21,
+    38,
+    49,
+    57,
+    66,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

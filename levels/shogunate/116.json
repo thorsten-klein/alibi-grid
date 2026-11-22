@@ -1,0 +1,167 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112223334422233344222333442225554422255544",
+  "objects": ".ba.bd.a.c....e....a..b...f...a..c.d.ab...ede.e..c...d.b.....e..",
+  "roomNames": [
+    "Falconry Yard",
+    "Zen Garden",
+    "Stables",
+    "Moon Balcony",
+    "Sentry Tower",
+    "Daimyo Hall"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the bushi warrior",
+    "Cedric the calligrapher",
+    "Vince the veteran general",
+    "Dmitri the daimyo",
+    "Edgar the envoy",
+    "Frank the falconer",
+    "Gideon the geisha"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "futon"
+    ],
+    [
+      1,
+      "next",
+      "tatami"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "on",
+      "futon"
+    ],
+    [
+      4,
+      "next",
+      "bonsai"
+    ],
+    [
+      5,
+      "next",
+      "tatami"
+    ],
+    [
+      6,
+      "next",
+      "armor"
+    ],
+    [
+      7,
+      "next",
+      "bonsai"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    17,
+    31,
+    38,
+    45,
+    50,
+    60
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      61,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "tatami",
+      0
+    ],
+    [
+      "alone",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

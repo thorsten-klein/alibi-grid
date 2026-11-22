@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "...f..........a...b...d..a..a....ce..bc.e....c.c.",
+  "roomNames": [
+    "Parking Garage",
+    "Rooftop Pool",
+    "Main Casino Floor",
+    "Security Surveillance",
+    "Valet Booth"
+  ],
+  "people": [
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Cedric the croupier",
+    "Vince the vip gambler",
+    "Dmitri the dice inspector",
+    "Edgar the entertainer",
+    "Frank the floor manager"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "on",
+      "chaise"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    18,
+    26,
+    31,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

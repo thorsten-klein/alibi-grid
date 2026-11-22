@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002233002233002244002244",
+  "objects": "........bbeaa.ae...aba..d..cb.ab...e",
+  "roomNames": [
+    "Main Lounge",
+    "Manager Office",
+    "Private Booths",
+    "Jazz Stage",
+    "Bar Counter"
+  ],
+  "people": [
+    "Arthur the attorney",
+    "Basil the bootlegger",
+    "Vince the valued patron",
+    "Cedric the card sharp",
+    "Dmitri the distiller",
+    "Edgar the emcee"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "booth"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sax"
+    ],
+    [
+      5,
+      "next",
+      "roulette"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    13,
+    23,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "cask",
+      0
+    ],
+    [
+      "nextCount",
+      "stool",
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

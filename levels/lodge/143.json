@@ -1,0 +1,192 @@
+{
+  "size": 10,
+  "rooms": "0000112222000011222233331122223333112222444455555544445555554444666666777766666677777777667777777766",
+  "objects": ".b...c.ea...e..a....b.....ab.......b...a.......ac....ab....e....dc.......e..c.e..a........d..c.a....",
+  "roomNames": [
+    "Terrace",
+    "Kitchen",
+    "Boot Room",
+    "Spa",
+    "Bar",
+    "Games Room",
+    "Ski Room",
+    "Suite"
+  ],
+  "people": [
+    "Alma the avalanche guard",
+    "Viola the vet",
+    "Bella the bartender",
+    "Clara the climber",
+    "Dora the doctor",
+    "Edgar the engineer",
+    "Frank the fisher",
+    "Greta the guide",
+    "Hilda the hiker",
+    "Isla the instructor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "tree"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "tree"
+    ],
+    [
+      9,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    21,
+    33,
+    45,
+    57,
+    69,
+    74,
+    88,
+    96
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      97,
+      98
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

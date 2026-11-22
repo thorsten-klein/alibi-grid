@@ -1,0 +1,131 @@
+{
+  "size": 9,
+  "rooms": "000000000000000000111100000111100000222000000222000000223334444223334444223334444",
+  "objects": "....................ab.....d..............................fd........de..c..fa.a..",
+  "roomNames": [
+    "Sea of Ages",
+    "Fire Pit",
+    "Fort",
+    "Cave",
+    "Throne Room"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Bruno the bard",
+    "Celia the clockmaker",
+    "Della the drifter",
+    "Edgar the engineer",
+    "Victor the visionary",
+    "Felix the fortune teller",
+    "Gideon the gladiator",
+    "Hilda the historian"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "boulder"
+    ],
+    [
+      8,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    26,
+    30,
+    40,
+    45,
+    55,
+    70,
+    78
+  ],
+  "doors": [
+    [
+      27,
+      36
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "..............................L........................C.........................",
+  "sea": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "group": 1
+}

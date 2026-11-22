@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "c...c...........d..e..bfb",
+  "roomNames": [
+    "Chemical Vault",
+    "Control Center",
+    "Cryo Storage",
+    "Decon Airlock"
+  ],
+  "people": [
+    "Alma the algorithm engineer",
+    "Bella the bioethicist",
+    "Viola the venture backer",
+    "Cora the cryo technician",
+    "Daisy the data architect"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "hood"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "chamber"
+    ],
+    [
+      4,
+      "next",
+      "centrifuge"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

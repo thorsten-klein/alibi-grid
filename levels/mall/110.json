@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": ".e.e..a.dd.be.b.aa..........dae....b.....abe.b.f.",
+  "roomNames": [
+    "Food Court",
+    "Escalator Hub",
+    "Security Office",
+    "Arcade",
+    "Record Store"
+  ],
+  "people": [
+    "Astrid the arcade manager",
+    "Birgit the barista",
+    "Celia the cinema projectionist",
+    "Vivian the veteran mall owner",
+    "Della the department manager",
+    "Ena the escalator mechanic",
+    "Flora the fry cook"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "gate"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "plasticchair"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "gate"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "photobench"
+    ],
+    [
+      6,
+      "next",
+      "mannequin"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    20,
+    23,
+    33,
+    36,
+    46
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 34,
+  "extra": true
+}

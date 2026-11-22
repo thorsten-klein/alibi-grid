@@ -1,0 +1,211 @@
+{
+  "size": 12,
+  "rooms": "000000000000000000000000000000000000000000000000111222200000111222200000111222200000333333334444333333334444555666664444555666664444555666664444",
+  "objects": "..................................................fca.........b..........d...............a....d..da.b..d..............c......f..f..d.....ae..cb.",
+  "roomNames": [
+    "Open Sea",
+    "Tavern",
+    "Market",
+    "Cove",
+    "Fort",
+    "Lighthouse",
+    "Frigate"
+  ],
+  "people": [
+    "Alma the admiral",
+    "Bruno the boatswain",
+    "Clara the captain",
+    "Dmitri the deckhand",
+    "Edgar the engineer",
+    "Flora the fiddler",
+    "Gideon the gold digger",
+    "Hugo the harpooner",
+    "Vera the vintner",
+    "Isla the islander",
+    "Jutta the jeweller",
+    "Kai the knot maker"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "col",
+      8
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "anchor"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      11
+    ],
+    [
+      7,
+      "next",
+      "crate"
+    ],
+    [
+      8,
+      "on",
+      "stool"
+    ],
+    [
+      9,
+      "room",
+      4
+    ],
+    [
+      10,
+      "next",
+      "map"
+    ],
+    [
+      11,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    17,
+    25,
+    46,
+    56,
+    63,
+    83,
+    91,
+    98,
+    117,
+    126,
+    132
+  ],
+  "doors": [
+    [
+      74,
+      75
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      96,
+      108
+    ],
+    [
+      103,
+      115
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      134,
+      135
+    ]
+  ],
+  "windows": [
+    [
+      72,
+      "l"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      135,
+      "b"
+    ],
+    [
+      136,
+      "b"
+    ],
+    [
+      141,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 2,
+  "hardest": 5,
+  "steps": 30,
+  "group": 2
+}

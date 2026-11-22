@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "...cec..db.b.de......a...a...f.e.c.b..e.a.f.cf.b.",
+  "roomNames": [
+    "Media Center",
+    "Pit Lane",
+    "Drivers Lounge",
+    "Tire Bay",
+    "Fuel Storage"
+  ],
+  "people": [
+    "Arthur the aerodynamicist",
+    "Basil the brake tech",
+    "Cedric the chief mechanic",
+    "Vince the veteran champion",
+    "Dmitri the driver",
+    "Edgar the engine tuner",
+    "Frank the fuel specialist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "tires"
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "toolbox"
+    ],
+    [
+      5,
+      "next",
+      "chassis"
+    ],
+    [
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    17,
+    21,
+    30,
+    40,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

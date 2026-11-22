@@ -1,0 +1,91 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "c.f.bd.daa....d...debebe.",
+  "roomNames": [
+    "Lab",
+    "Bridge",
+    "Med Bay",
+    "Gym"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Vivian the visitor",
+    "Basil the biologist",
+    "Carl the captain",
+    "Daisy the driller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

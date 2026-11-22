@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "f...b.a......dda.f.......",
+  "roomNames": [
+    "Infirmary",
+    "Cellar",
+    "Refectory",
+    "Bell Tower"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Vivian the vicar general",
+    "Celia the cantor",
+    "Della the document copyist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "palliasse"
+    ],
+    [
+      2,
+      "next",
+      "stall"
+    ],
+    [
+      3,
+      "on",
+      "stall"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122220112222011222233344443334444333",
+  "objects": ".a.........ebe...f.a......b..a.ec.c...ffe.e.e..b.",
+  "roomNames": [
+    "Galley",
+    "Grand Ballroom",
+    "Dining Saloon",
+    "Turkish Bath",
+    "Bridge"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Victor the valet",
+    "Bruno the bartender",
+    "Carl the chief engineer",
+    "Dexter the doctor",
+    "Elias the envoy",
+    "Felix the fireman"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "deckchair"
+    ],
+    [
+      4,
+      "next",
+      "telegraph"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "deckchair",
+      0
+    ],
+    [
+      "nextCount",
+      "piano",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

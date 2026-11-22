@@ -1,0 +1,237 @@
+{
+  "size": 12,
+  "rooms": "000011122222000011122222000011122222000011122222333334444555333334444555333334444555666664444555666664444555666667777555888887777555888887777555",
+  "objects": "d...d..bbb..c..a.da............dc.d.ec.e...d.a....b....f..aa.fe...c...dba.b..e..ebbae...df..f.b....d....c.......b...cb..a..a.d..bdeba....c..bd..",
+  "roomNames": [
+    "Observatory",
+    "Crew Quarters",
+    "Cargo Bay",
+    "Bridge",
+    "Mess Hall",
+    "Airlock",
+    "Gym",
+    "Engine Room",
+    "Comms"
+  ],
+  "people": [
+    "Arthur the astronaut",
+    "Basil the botanist",
+    "Celia the captain",
+    "Dmitri the driller",
+    "Elias the engineer",
+    "Freya the flight officer",
+    "Gwen the gunner",
+    "Hilda the hacker",
+    "Igor the instructor",
+    "Jonas the journalist",
+    "Vera the visitor",
+    "Kai the keeper"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "scope"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "scope"
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ],
+    [
+      4,
+      "col",
+      8
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "next",
+      "tank"
+    ],
+    [
+      8,
+      "next",
+      "pod"
+    ],
+    [
+      9,
+      "next",
+      "plant"
+    ],
+    [
+      9,
+      "next",
+      "pod"
+    ],
+    [
+      11,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    18,
+    24,
+    47,
+    56,
+    65,
+    74,
+    91,
+    105,
+    118,
+    124,
+    135
+  ],
+  "doors": [
+    [
+      39,
+      40
+    ],
+    [
+      37,
+      49
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      40,
+      52
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      43,
+      55
+    ],
+    [
+      45,
+      57
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      101,
+      113
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      108,
+      120
+    ],
+    [
+      136,
+      137
+    ]
+  ],
+  "windows": [
+    [
+      36,
+      "l"
+    ],
+    [
+      83,
+      "r"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      108,
+      "l"
+    ],
+    [
+      133,
+      "b"
+    ],
+    [
+      135,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      8,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 35,
+  "group": 3
+}

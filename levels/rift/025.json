@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0000000111001112223322233",
+  "objects": ".......c..............f.c",
+  "roomNames": [
+    "Sea of Ages",
+    "Bank",
+    "Great Hall",
+    "Captain Cabin"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Birgit the bookbinder",
+    "Carl the chronicler",
+    "Vince the voyager",
+    "Daisy the dreamer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    1,
+    5,
+    12,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "trades",
+    "sea"
+  ],
+  "trade": "..100",
+  "tags": "............1..........0.",
+  "sea": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "group": 3
+}

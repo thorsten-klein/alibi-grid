@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333344445555444455554444555544445555",
+  "objects": ".acdf..bc..a.f.f.d..f.b..a.....d..............bf..d...a......abb",
+  "roomNames": [
+    "Med Bay",
+    "Engine Room",
+    "Bridge",
+    "Hydroponics",
+    "Crew Quarters",
+    "Comms"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Bella the biologist",
+    "Cora the chemist",
+    "Dmitri the doctor",
+    "Edith the electrician",
+    "Frank the flight officer",
+    "Gwen the geologist",
+    "Vera the volunteer"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      0
+    ],
+    [
+      6,
+      "notRoom",
+      4
+    ],
+    [
+      7,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    25,
+    35,
+    40,
+    52,
+    61
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      2
+    ],
+    [
+      "onCount",
+      "pod",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": "bf..cb.....b.db......b....b.b......b",
+  "roomNames": [
+    "Main Casino Floor",
+    "Parking Garage",
+    "Kitchen",
+    "Rooftop Pool",
+    "Valet Booth"
+  ],
+  "people": [
+    "Astrid the armored driver",
+    "Birgit the bartender",
+    "Celia the casino manager",
+    "Della the dancer",
+    "Ena the electrician",
+    "Vivian the vegas mogul"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "table"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "chaise"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    17,
+    18,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 17,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "slots",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 32,
+  "extra": true
+}

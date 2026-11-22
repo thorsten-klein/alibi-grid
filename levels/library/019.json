@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b.b.....ca........bc......b..e.b.fb.e...ca...d...",
+  "roomNames": [
+    "Mosaic Gallery",
+    "Geometry Hall",
+    "Observatory",
+    "Great Peristyle",
+    "Map Archive"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Bella the botanist",
+    "Viola the visiting philosopher",
+    "Cora the chronicler",
+    "Daisy the dialectician",
+    "Elsa the epigrapher",
+    "Fiona the folklorist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "bust"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    20,
+    26,
+    28,
+    37,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      33,
+      40
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 25,
+  "group": 2
+}

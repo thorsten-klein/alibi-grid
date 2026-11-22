@@ -1,0 +1,136 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "b....................c..ca...f...ff........fbc.cf",
+  "roomNames": [
+    "River Bank",
+    "Fire Pit",
+    "Lookout Rock",
+    "Bone Yard",
+    "Hunting Ground"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bella the beekeeper",
+    "Cora the carver",
+    "Della the drummer",
+    "Elias the elk tamer",
+    "Frank the firekeeper",
+    "Victor the valley guide"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "bones"
+    ],
+    [
+      6,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    14,
+    22,
+    31,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".03..33",
+  "tags": "...0.....03...3........0................3........",
+  "hard": 6,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

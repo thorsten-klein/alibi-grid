@@ -1,0 +1,148 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222223332222233322222444455554444555544445555",
+  "objects": "..a.....a..........b.f.aa..a...abbab...cb..d.....b...b....ce.ed.",
+  "roomNames": [
+    "Jockeys Room",
+    "Weighing Room",
+    "Grandstand Terrace",
+    "Stewards Room",
+    "Vet Clinic",
+    "Betting Ring"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Vera the visiting royalty",
+    "Bea the breeder",
+    "Clara the clerk of scales",
+    "Dora the doper",
+    "Edith the owner envoy",
+    "Freya the form analyst",
+    "Greta the groundskeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stablebench"
+    ],
+    [
+      4,
+      "next",
+      "float"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "stablebench"
+    ],
+    [
+      7,
+      "next",
+      "board"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    27,
+    38,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "turfchair",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333322223333444445554444455544444555",
+  "objects": ".....b..aa..c.a..a..aa...e....b....c...b.a..d.b....f.dba.......a",
+  "roomNames": [
+    "Bunkhouse Beta",
+    "Mess Hall",
+    "Arts Shed",
+    "Archery Range",
+    "Infirmary",
+    "Lake Shore"
+  ],
+  "people": [
+    "Viola the veteran camp owner",
+    "Alma the archery instructor",
+    "Bella the boating coach",
+    "Cora the camp counselor",
+    "Daisy the drama coach",
+    "Elsa the ecology guide",
+    "Fiona the fisher",
+    "Gwen the groundskeeper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    20,
+    29,
+    33,
+    42,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

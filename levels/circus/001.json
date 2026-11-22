@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".a....f..ab.....d....d...",
+  "roomNames": [
+    "Hay Barn",
+    "Dressing Trailer",
+    "Fortune Tent",
+    "Sideshow Alley"
+  ],
+  "people": [
+    "Vivian the ventriloquist",
+    "Astrid the acrobat",
+    "Birgit the barker",
+    "Celia the clown",
+    "Della the daredevil"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "crystal"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "group": 0
+}

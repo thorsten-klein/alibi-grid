@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0000011222112223333333333",
+  "objects": "d.bc...ea..cff.....c.a...",
+  "roomNames": [
+    "Cellar Maze",
+    "Haunted Conservatory",
+    "Spider Attic",
+    "Pumpkin Patch"
+  ],
+  "people": [
+    "Alma the actor",
+    "Bella the baker",
+    "Cora the candy maker",
+    "Viola the visiting storyteller",
+    "Daisy the decorator"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "on",
+      "coffin"
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "coffin",
+      1
+    ],
+    [
+      "nextCount",
+      "swing",
+      0
+    ]
+  ],
+  "tries": 4,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

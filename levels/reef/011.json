@@ -1,0 +1,138 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222222223344444433444444334444445555544455555444",
+  "objects": "ffc.........a..f.d.c.b...b......cf......ba........ddc...........",
+  "roomNames": [
+    "Sea Cave",
+    "Cove",
+    "Dock",
+    "Galleon",
+    "Open Sea",
+    "Brig"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Vivian the vintner",
+    "Birgit the barkeep",
+    "Carl the captain",
+    "Daisy the diver",
+    "Edith the explorer",
+    "Freya the fiddler",
+    "Gus the gunner"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      3,
+      "next",
+      "cannon"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "anchor"
+    ]
+  ],
+  "solution": [
+    6,
+    13,
+    16,
+    25,
+    35,
+    42,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      40,
+      48
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ],
+    [
+      "nextCount",
+      "crate",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 4,
+  "tries": 1,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "group": 1
+}

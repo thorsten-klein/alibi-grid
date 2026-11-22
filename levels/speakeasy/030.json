@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222333111111333444444333444444333556666555556666555556666",
+  "objects": "a...d.........fa........ab.b........f...b..ef........aa.......b................d.",
+  "roomNames": [
+    "Safe Room",
+    "Private Booths",
+    "Jazz Stage",
+    "VIP Poker Den",
+    "Cold Storage",
+    "Hidden Alleyway",
+    "Coat Check"
+  ],
+  "people": [
+    "Viola the voice of syndicate",
+    "Alma the accordionist",
+    "Bella the bartender",
+    "Cora the crooner",
+    "Daisy the drummer",
+    "Elsa the enforcer",
+    "Fiona the flapper",
+    "Gwen the gangster",
+    "Hazel the horn player"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "booth"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "safe"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      7,
+      "next",
+      "cask"
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      8,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    17,
+    21,
+    27,
+    41,
+    47,
+    58,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "booth",
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 27,
+  "group": 3
+}

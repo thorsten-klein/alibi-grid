@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".e........d.f....ec.....e..a.....f...c.c...a....e",
+  "roomNames": [
+    "Pressure Airlock",
+    "Galley",
+    "Hydrothermal Lab",
+    "Torpedo Tube",
+    "Specimen Bay"
+  ],
+  "people": [
+    "Astrid the aquanaut",
+    "Vivian the vessel designer",
+    "Birgit the bathymetry tech",
+    "Celia the captain",
+    "Della the drill operator",
+    "Ena the electrical engineer",
+    "Flora the first officer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "valve"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "valve"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sonar"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    20,
+    23,
+    31,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

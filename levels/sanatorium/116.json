@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220003333344433333444333334445555544455555",
+  "objects": "e....bafc...c....c.ba...a..b..d.a.b....a....db.........b....a.a.",
+  "roomNames": [
+    "Kitchen",
+    "Ward B",
+    "Pharmacy",
+    "Operating Theater",
+    "Reception Hall",
+    "Ward A"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Victor the visiting superintendent",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Dexter the dentist",
+    "Elias the examiner",
+    "Felix the forensic pathologist",
+    "Gus the gerontologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "archive"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      4,
+      "on",
+      "wheelchair"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "wheelchair"
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    21,
+    28,
+    32,
+    41,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "cabinet",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 32,
+  "extra": true
+}

@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122222222222222333444433344443334444",
+  "objects": ".......b.....c.....f..a..aae.dcafdcca...f....e.ab",
+  "roomNames": [
+    "Staff Bunkhouse",
+    "Ticket Hall",
+    "Upper Engine Room",
+    "Funicular Car A",
+    "Valley Terminal"
+  ],
+  "people": [
+    "Vince the veteran mountaineer",
+    "Arthur the avalanche controller",
+    "Basil the brake operator",
+    "Cedric the conductor",
+    "Dmitri the dispatcher",
+    "Edgar the electrical engineer",
+    "Frank the funicular driver"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    15,
+    23,
+    28,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

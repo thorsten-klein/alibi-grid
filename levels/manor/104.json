@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "roomNames": [
+    "Chapel",
+    "Kitchen",
+    "Gallery",
+    "Ballroom",
+    "Dining Room"
+  ],
+  "people": [
+    "Alma the architect",
+    "Bea the banker",
+    "Cora the colonel",
+    "Daisy the dealer",
+    "Ena the envoy",
+    "Frank the footman",
+    "Victor the valet"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "shelf"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    22,
+    32,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

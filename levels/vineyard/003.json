@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333333333333334444444",
+  "objects": ".....a..d..f...ab..d..a...ba..ca.d.ab....a.ca....",
+  "roomNames": [
+    "Master Bedroom",
+    "Wine Cave",
+    "Gatehouse",
+    "Grape Press",
+    "Bottling Line"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Bea the barrel cooper",
+    "Clara the cellar master",
+    "Vera the vintner",
+    "Dora the distributor",
+    "Edith the estate manager",
+    "Freya the field laborer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "press"
+    ],
+    [
+      2,
+      "next",
+      "press"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "room",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    20,
+    21,
+    29,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      40,
+      47
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "group": 0
+}

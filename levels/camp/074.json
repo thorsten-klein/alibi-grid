@@ -1,0 +1,103 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "..c...a........a....e....",
+  "roomNames": [
+    "Hide Tent",
+    "Bone Yard",
+    "River Bank",
+    "Flint Pit"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Vera the visionary",
+    "Bea the builder",
+    "Cedric the carrier",
+    "Dora the dancer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    10,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "22.02",
+  "tags": "....2.......1.....0......",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

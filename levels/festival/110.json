@@ -1,0 +1,148 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233334444333344443333555533335555",
+  "objects": "...ff...fba.....aaa.b..b...a....a..e..e....fa.....f...ae.d...b.a",
+  "roomNames": [
+    "Security Checkpoint",
+    "Port-a-Jon Alley",
+    "Backstage VIP",
+    "Beer Garden",
+    "Main Stage",
+    "Guitar Tech Tent"
+  ],
+  "people": [
+    "Albert the artist agent",
+    "Victor the vocal coach",
+    "Bruno the bodyguard",
+    "Carl the cameraman",
+    "Dexter the disc jockey",
+    "Elias the event producer",
+    "Felix the fan president",
+    "Gus the groupie coordinator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "roadcase"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    23,
+    28,
+    34,
+    40,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

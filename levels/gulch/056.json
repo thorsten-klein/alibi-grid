@@ -1,0 +1,91 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "....bd...d.......f..a..e.",
+  "roomNames": [
+    "Jail",
+    "Livery",
+    "Barber",
+    "Mine"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Basil the blacksmith",
+    "Vince the vaquero",
+    "Carl the cook",
+    "Dora the deputy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "cactus"
+    ],
+    [
+      3,
+      "bandit"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    1
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,89 @@
+{
+  "size": 5,
+  "rooms": "0001100011000223332233322",
+  "objects": "....a.........c...e...b..",
+  "roomNames": [
+    "Sea of Ages",
+    "Hide Tent",
+    "Saloon",
+    "Cave"
+  ],
+  "people": [
+    "Ada the astronomer",
+    "Bruno the bookbinder",
+    "Clara the clockmaker",
+    "Victor the voyager",
+    "Daisy the drifter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    12,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "trades",
+    "sea"
+  ],
+  "trade": "212.0",
+  "tags": ".......................0.",
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

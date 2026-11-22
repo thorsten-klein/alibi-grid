@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "...dc...bbc..c.b",
+  "roomNames": [
+    "Pawn Shop",
+    "Mortuary",
+    "Tenement Attic"
+  ],
+  "people": [
+    "Alma the apothecary",
+    "Bella the blackmailer",
+    "Cora the constable",
+    "Viola the victim of nobility"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "streetlamp"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "b"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "hansom",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 10,
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000000000000111222111222333444333444",
+  "objects": ".b...ab.ba...bca...bb...cb..a.c.....",
+  "roomNames": [
+    "Tire Bay",
+    "Paddock Walkway",
+    "Pit Lane",
+    "Team Garage B",
+    "Fuel Storage"
+  ],
+  "people": [
+    "Astrid the apprentice",
+    "Birgit the broadcast commentator",
+    "Celia the crew chief",
+    "Della the data telemetry lead",
+    "Ena the electrician",
+    "Vivian the vip team owner"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "next",
+      "chassis"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    17,
+    21,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

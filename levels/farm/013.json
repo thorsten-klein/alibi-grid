@@ -1,0 +1,203 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000222334444422233444442223344444222335555666777555566677755556667775555666777",
+  "objects": "........e..cec.....e............b..bac.....f..fa.a.b.....a............af.c.......d.......d..b....ae.",
+  "roomNames": [
+    "Pig Pen",
+    "Farmhouse Kitchen",
+    "Farmstand",
+    "Big Barn",
+    "Hen House",
+    "Milking Shed",
+    "Tool Shed",
+    "Fruit Orchard"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Vince the veterinarian",
+    "Basil the barn hand",
+    "Cedric the cider presser",
+    "Dmitri the ditcher",
+    "Edgar the entomologist",
+    "Frank the farrier",
+    "Gideon the greenhouse tender",
+    "Henrik the horse trainer",
+    "Ivo the irrigation worker"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "churn"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "rocker"
+    ],
+    [
+      4,
+      "on",
+      "bale"
+    ],
+    [
+      5,
+      "on",
+      "bale"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "bale"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    18,
+    24,
+    31,
+    49,
+    57,
+    60,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "tractor",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
+  "group": 1
+}

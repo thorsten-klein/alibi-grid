@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222000112222333333444555555444555555444555666666555666666",
+  "objects": "bb........f...c.dad...c....d......e.....a.b.......c..af.....a...........b....bf..",
+  "roomNames": [
+    "Root Cellar",
+    "Fruit Orchard",
+    "Hen House",
+    "Big Barn",
+    "Farmstand",
+    "Farmhouse Kitchen",
+    "Grain Silo"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Bruno the barn hand",
+    "Victor the veterinarian",
+    "Carl the cider presser",
+    "Dexter the ditcher",
+    "Elias the entomologist",
+    "Felix the farrier",
+    "Gus the greenhouse tender",
+    "Hugo the horse trainer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "anvil"
+    ],
+    [
+      2,
+      "next",
+      "scarecrow"
+    ],
+    [
+      3,
+      "next",
+      "churn"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "next",
+      "rocker"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "rocker"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    25,
+    35,
+    37,
+    51,
+    57,
+    68,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 24,
+  "group": 2
+}

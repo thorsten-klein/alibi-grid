@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".a............af..f......",
+  "roomNames": [
+    "Bell Tower",
+    "Cloister Walk",
+    "Prior Cell",
+    "Abbey Church"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Vivian the vicar general",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Della the document copyist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    13,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

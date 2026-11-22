@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0001100011222223333333333",
+  "objects": "...........f...d.f..d...b",
+  "roomNames": [
+    "Grand Ballroom",
+    "Wine Cellar",
+    "Gondola Dock",
+    "Private Boudoir"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the barcarolle singer",
+    "Cora the courtesan",
+    "Daisy the doge",
+    "Viola the venetian senator"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "next",
+      "maskstand"
+    ],
+    [
+      3,
+      "next",
+      "maskstand"
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    10,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

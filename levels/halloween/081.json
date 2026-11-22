@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333444333444",
+  "objects": "...ea.c..f.....d...b...a...a.....b.d",
+  "roomNames": [
+    "Cemetery Gate",
+    "Crypt",
+    "Black Cat Alley",
+    "Costume Ballroom",
+    "Front Porch"
+  ],
+  "people": [
+    "Alma the actor",
+    "Bella the baker",
+    "Cora the candy maker",
+    "Viola the visiting storyteller",
+    "Daisy the decorator",
+    "Elsa the entertainer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "web"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "coffin"
+    ],
+    [
+      5,
+      "room",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    12,
+    23,
+    27,
+    32
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 17,
+  "extra": true
+}

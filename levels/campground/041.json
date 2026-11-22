@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "..d.......b..bb.",
+  "roomNames": [
+    "Campfire Clearing",
+    "Mess Hall",
+    "Director Office"
+  ],
+  "people": [
+    "Vivian the veteran camp owner",
+    "Astrid the archery instructor",
+    "Birgit the boating coach",
+    "Celia the camp counselor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

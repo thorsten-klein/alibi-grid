@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "...a.ee..d.ed.f.c....b.d.",
+  "roomNames": [
+    "Breakroom",
+    "Specimen Nursery",
+    "Control Center",
+    "Cleanroom 1"
+  ],
+  "people": [
+    "Alma the algorithm engineer",
+    "Bella the bioethicist",
+    "Cora the cryo technician",
+    "Daisy the data architect",
+    "Viola the venture backer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "b........f..cf...e...a...",
+  "roomNames": [
+    "Butcher Larder",
+    "Plating Line",
+    "Main Dining Room",
+    "Walk In Cooler"
+  ],
+  "people": [
+    "Victor the vip dining critic",
+    "Albert the apprentice chef",
+    "Bruno the baker",
+    "Carl the chef de cuisine",
+    "Dexter the dishwasher"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "fridge"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    10,
+    19,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      15,
+      20
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "fridge",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

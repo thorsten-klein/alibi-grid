@@ -1,0 +1,225 @@
+{
+  "size": 11,
+  "rooms": "0000000011100000000111222220001112222200011122222333444555663334445556633344455566333444555667777776666677777766666777777",
+  "objects": "a....d.a..ce.ded............b....b..d.....d.aa.f..ab..aeca........b..a...ae..f...c..f..e...a.aa...d.d.f...dae...c..aa..fa",
+  "roomNames": [
+    "Centrifuge Bay",
+    "Server Farm",
+    "Breakroom",
+    "Cryo Storage",
+    "Generator Core",
+    "Cleanroom 2",
+    "Decon Airlock",
+    "Autopsy Suite"
+  ],
+  "people": [
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician",
+    "Dmitri the data architect",
+    "Edgar the ecologist",
+    "Frank the forensic chemist",
+    "Gideon the guard",
+    "Henrik the hardware tech",
+    "Ivo the immunologist",
+    "Jonas the junior researcher",
+    "Vince the venture backer"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "hood"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chamber"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "centrifuge"
+    ],
+    [
+      7,
+      "next",
+      "centrifuge"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "on",
+      "stool"
+    ],
+    [
+      9,
+      "next",
+      "centrifuge"
+    ],
+    [
+      10,
+      "next",
+      "chamber"
+    ]
+  ],
+  "solution": [
+    1,
+    21,
+    25,
+    39,
+    49,
+    59,
+    66,
+    86,
+    90,
+    107,
+    117
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      15,
+      26
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      45,
+      56
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      90,
+      101
+    ],
+    [
+      114,
+      115
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      112,
+      "b"
+    ]
+  ],
+  "tries": 19,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      2
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 47,
+  "extra": true
+}

@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "c.d.......a.f...",
+  "roomNames": [
+    "Big Barn",
+    "Milking Shed",
+    "Fruit Orchard"
+  ],
+  "people": [
+    "Albert the apple picker",
+    "Victor the vineyard leaseholder",
+    "Bruno the beekeeper",
+    "Carl the cattle rancher"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "scarecrow"
+    ],
+    [
+      2,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

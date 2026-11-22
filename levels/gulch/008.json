@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "001111001111223333223333224444224444",
+  "objects": ".aa..f.ab.....a..f.b.be....e.b.e....",
+  "roomNames": [
+    "Hotel",
+    "Church",
+    "Telegraph Office",
+    "Corral",
+    "Barber"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bea the banker",
+    "Carl the cattle driver",
+    "Dexter the deputy",
+    "Elias the editor",
+    "Vera the vaquero"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    19,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 16,
+  "group": 1
+}

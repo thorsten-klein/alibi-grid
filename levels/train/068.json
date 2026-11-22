@@ -1,0 +1,104 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "......a......b......aa...",
+  "roomNames": [
+    "Bar Car",
+    "Dining Car",
+    "Lounge Car",
+    "Guard's Van"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Bruno the banker",
+    "Victor the violinist",
+    "Cedric the courier",
+    "Dexter the dentist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    10,
+    17,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

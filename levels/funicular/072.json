@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "b.f.....bade...........d.",
+  "roomNames": [
+    "Staff Bunkhouse",
+    "Valley Terminal",
+    "Souvenir Kiosk",
+    "Transformer Vault"
+  ],
+  "people": [
+    "Albert the alpine guide",
+    "Bruno the billeter",
+    "Carl the cable splicer",
+    "Dexter the doctor",
+    "Victor the visiting vip"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "generator"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    14,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

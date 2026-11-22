@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a....dc..d..e...",
+  "roomNames": [
+    "Calligraphy Shop",
+    "Bell Tower",
+    "Silk Stall"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the bamboo carver",
+    "Vera the visiting noble",
+    "Clara the cook"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "fireworks"
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "alone",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "group": 2
+}

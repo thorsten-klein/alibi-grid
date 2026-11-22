@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222222222333334444333334444333334444555566666555566666555566666",
+  "objects": "..bdc.e.d.d....b..b..f..e.....f..............eeb.....f...f.ab.bab...e.b..ca.a....",
+  "roomNames": [
+    "Ticket Hall",
+    "Transformer Vault",
+    "Glacier Overlook",
+    "Observation Terrace",
+    "Valley Terminal",
+    "Funicular Car B",
+    "Ski Patrol Shack"
+  ],
+  "people": [
+    "Arthur the alpine guide",
+    "Basil the billeter",
+    "Cedric the cable splicer",
+    "Dmitri the doctor",
+    "Edgar the excursionist",
+    "Frank the first aider",
+    "Gideon the gearbox tech",
+    "Henrik the hiker",
+    "Vince the visiting vip"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "skirack"
+    ],
+    [
+      2,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "next",
+      "bench"
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      8,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    20,
+    32,
+    40,
+    51,
+    54,
+    70,
+    75
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "skirack",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 21,
+  "extra": true
+}

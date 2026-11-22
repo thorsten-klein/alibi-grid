@@ -1,0 +1,215 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000002222220000022222233344422555333444225553334442255533344422555666666777776666667777766666677777",
+  "objects": ".dcd....d.a.c.df.c.fa........ea.e..a....efcbcc.b.fab..d.....da....e................da.f...f.....b...e.cd..d......b....d..",
+  "roomNames": [
+    "Mess Hall",
+    "Bunkhouse Alpha",
+    "Lake Shore",
+    "Bunkhouse Beta",
+    "Campfire Clearing",
+    "Infirmary",
+    "Director Office",
+    "Counselor Cabin"
+  ],
+  "people": [
+    "Ada the archery instructor",
+    "Bea the boating coach",
+    "Clara the camp counselor",
+    "Dora the drama coach",
+    "Edith the ecology guide",
+    "Freya the fisher",
+    "Vera the veteran camp owner",
+    "Greta the groundskeeper",
+    "Hilda the head counselor",
+    "Ivy the instructor",
+    "Jade the junior counselor"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      0,
+      "next",
+      "canoes"
+    ],
+    [
+      1,
+      "next",
+      "table"
+    ],
+    [
+      1,
+      "next",
+      "canoes"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "canoes"
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      7,
+      "window",
+      null
+    ],
+    [
+      8,
+      "next",
+      "table"
+    ],
+    [
+      9,
+      "notRoom",
+      5
+    ],
+    [
+      9,
+      "col",
+      10
+    ],
+    [
+      10,
+      "same",
+      9
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    27,
+    39,
+    53,
+    56,
+    74,
+    77,
+    91,
+    109,
+    117
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      18,
+      29
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      84,
+      95
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      78,
+      89
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      86,
+      97
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      32,
+      "r"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      114,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      0
+    ],
+    [
+      "onCount",
+      "bunk",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 30,
+  "group": 1
+}

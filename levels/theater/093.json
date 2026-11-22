@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": "e....d.a........dda.........acc..d..",
+  "roomNames": [
+    "Orchestra Pit",
+    "Costume Room",
+    "Prop Store",
+    "Wings",
+    "Green Room"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Bruno the bass player",
+    "Victor the ventriloquist",
+    "Cora the choreographer",
+    "Daisy the dancer",
+    "Elias the extra"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "mirror"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    13,
+    18,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220013333001333300144440014444",
+  "objects": "c.b..ab.b..ab.b.eda..a....e.ec..d.f....e..bd.d...",
+  "roomNames": [
+    "Rover Bay",
+    "Command Hub",
+    "Geology Lab",
+    "Medical Bay",
+    "Comms Array"
+  ],
+  "people": [
+    "Astrid the agronomist",
+    "Birgit the biosphere tech",
+    "Celia the chemist",
+    "Vivian the visiting inspector",
+    "Della the doctor",
+    "Ena the electrician",
+    "Flora the farmer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "rover"
+    ],
+    [
+      4,
+      "next",
+      "rover"
+    ],
+    [
+      4,
+      "next",
+      "tower"
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    14,
+    25,
+    33,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

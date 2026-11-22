@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "f....a...e.d...a..f.ce...",
+  "roomNames": [
+    "Bone Yard",
+    "Spring",
+    "Flint Pit",
+    "Hide Tent"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Vera the visionary",
+    "Bruno the builder",
+    "Carl the carver",
+    "Dexter the dancer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bones"
+    ],
+    [
+      2,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "trades"
+  ],
+  "trade": ".3.30",
+  "tags": "....1...3.............0..",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

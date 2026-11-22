@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".de..b.......ec..a......b..b.f...f.......b.df..a.",
+  "roomNames": [
+    "Livery",
+    "Bank",
+    "Corral",
+    "General Store",
+    "Sheriff Office"
+  ],
+  "people": [
+    "Astrid the attorney",
+    "Bruno the blacksmith",
+    "Victor the vaquero",
+    "Carl the cattle driver",
+    "Dexter the dancer",
+    "Ena the editor",
+    "Felix the farrier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "cactus"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "horse"
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      4,
+      "bandit"
+    ],
+    [
+      5,
+      "withBandit"
+    ],
+    [
+      6,
+      "next",
+      "cactus"
+    ],
+    [
+      6,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    18,
+    26,
+    30,
+    38,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

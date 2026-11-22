@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011223344223344223344223344",
+  "objects": "b..f....d..a.ddf..a.a...d...........",
+  "roomNames": [
+    "Grand Ballroom",
+    "Mask Atelier",
+    "Gondola Dock",
+    "Canal Balcony",
+    "Servants Mezzanine"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Vince the venetian senator",
+    "Basil the barcarolle singer",
+    "Cedric the courtesan",
+    "Dmitri the doge",
+    "Edgar the envoy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "maskstand"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "throne"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    17,
+    18,
+    28,
+    33
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "daybed",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

@@ -1,0 +1,177 @@
+{
+  "size": 10,
+  "rooms": "0000011111222221111122222111111111111111111111111133333444443333344444555554444455555666665555566666",
+  "objects": "a.b.................fa.e............................c..fff.c..fa..a.e.a...a...a.......da..b.e.d.....",
+  "roomNames": [
+    "Tavern",
+    "Open Sea",
+    "Brig",
+    "Lighthouse",
+    "Dock",
+    "Galleon",
+    "Sloop"
+  ],
+  "people": [
+    "Albert the admiral",
+    "Bruno the boatswain",
+    "Carl the captain",
+    "Dmitri the deckhand",
+    "Elsa the explorer",
+    "Freya the fiddler",
+    "Greta the gunner",
+    "Henrik the harbor pilot",
+    "Victor the vintner",
+    "Igor the islander"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "col",
+      7
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "room",
+      1
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      5,
+      "col",
+      0
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      8,
+      "next",
+      "map"
+    ],
+    [
+      9,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    7,
+    14,
+    29,
+    33,
+    46,
+    50,
+    65,
+    78,
+    82,
+    91
+  ],
+  "doors": [
+    [
+      3,
+      13
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      63,
+      73
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      78,
+      88
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      92,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 21,
+  "extra": true
+}

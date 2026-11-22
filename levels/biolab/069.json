@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".bc.....b....a.a.........",
+  "roomNames": [
+    "Generator Core",
+    "Specimen Nursery",
+    "Autopsy Suite",
+    "Chemical Vault"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bruno the biochemist",
+    "Victor the virology head",
+    "Carl the chief scientist",
+    "Dexter the dna sequencer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    10,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

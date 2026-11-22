@@ -1,0 +1,135 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".....d..c......b...a.f..e.b.......eb....f....b..c",
+  "roomNames": [
+    "Painted Wall",
+    "Cave",
+    "Elder Hut",
+    "River Bank",
+    "Spring"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bea the builder",
+    "Cedric the carver",
+    "Vivian the visionary",
+    "Dmitri the drummer",
+    "Edgar the elder",
+    "Frank the flute player"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "next",
+      "leaves"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "bones"
+    ],
+    [
+      6,
+      "next",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    17,
+    25,
+    29,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "..1124.",
+  "tags": ".4.......42......1....1..1...............4..4..2.",
+  "hard": 7,
+  "hardest": 5,
+  "steps": 24,
+  "group": 3
+}

@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111334444334444",
+  "objects": "..ac.d..cd......bf..f.db.....b......",
+  "roomNames": [
+    "Palazzo Chapel",
+    "Grand Ballroom",
+    "Private Boudoir",
+    "Wine Cellar",
+    "Mirrored Gallery"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Bella the boat builder",
+    "Cora the carnival poet",
+    "Daisy the diplomat",
+    "Viola the visiting merchant",
+    "Elsa the embroiderer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "throne"
+    ],
+    [
+      1,
+      "next",
+      "harpsichord"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "daybed"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    13,
+    18,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

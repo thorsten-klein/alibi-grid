@@ -1,0 +1,86 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "......bbb.b..b..",
+  "roomNames": [
+    "Fortune Teller",
+    "Tea Pavilion",
+    "Silk Stall"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Vivian the village magistrate",
+    "Birgit the boatman",
+    "Celia the calligrapher"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "cushion"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "on",
+      "cushion"
+    ]
+  ],
+  "solution": [
+    3,
+    4,
+    10,
+    13
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "group": 3
+}

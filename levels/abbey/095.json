@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".........b..e.b...ab.......a..ff.aea....bb....a..",
+  "roomNames": [
+    "Cellar",
+    "Scriptorium",
+    "Chapter House",
+    "Crypt",
+    "Herb Garden"
+  ],
+  "people": [
+    "Alma the almoner",
+    "Viola the vicar general",
+    "Bella the brewer",
+    "Cora the cantor",
+    "Daisy the document copyist",
+    "Elsa the elder brother",
+    "Fiona the friar"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "palliasse"
+    ],
+    [
+      1,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "on",
+      "palliasse"
+    ],
+    [
+      2,
+      "next",
+      "stall"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stall"
+    ],
+    [
+      5,
+      "next",
+      "reliquary"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    24,
+    28,
+    41,
+    43
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

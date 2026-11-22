@@ -1,0 +1,211 @@
+{
+  "size": 11,
+  "rooms": "0000001111100000011111000000111112223334444422233344444222333444442223334444455566667777555666677775556666777755566667777",
+  "objects": "aee.b........d....fbfed.....b..b.aa......eb.....a.b...a.b...e..ec...bf.....b.....e.....e...cb.....be....f.bb....f..b.f.a.",
+  "roomNames": [
+    "Editing Suite",
+    "Green Room",
+    "Soundstage A",
+    "Makeup Room",
+    "Catwalk",
+    "Prop Armory",
+    "Screening Room",
+    "Wardrobe Vault"
+  ],
+  "people": [
+    "Ada the assistant director",
+    "Bea the body double",
+    "Clara the choreographer",
+    "Dora the diva",
+    "Edith the extra",
+    "Freya the fashion designer",
+    "Greta the gaffer",
+    "Hilda the headliner",
+    "Vera the veteran producer",
+    "Ivy the intimacy coordinator",
+    "Jade the juvenile lead"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "on",
+      "couch"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "boom"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "couch"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      6,
+      "next",
+      "camera"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "next",
+      "light"
+    ],
+    [
+      10,
+      "on",
+      "couch"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    30,
+    43,
+    47,
+    62,
+    75,
+    78,
+    94,
+    101,
+    115
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      33
+    ],
+    [
+      27,
+      38
+    ],
+    [
+      29,
+      40
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      118,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      3
+    ],
+    [
+      "nextCount",
+      "camera",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 34,
+  "extra": true
+}

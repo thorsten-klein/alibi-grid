@@ -1,0 +1,168 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000113333000113333111144555111144555666644555666644555666644555",
+  "objects": ".b.d.......baf.........e....ff.acd..fa.........aa..ac...c.......a....b.....c..b..",
+  "roomNames": [
+    "Observatory",
+    "Gym",
+    "Mess Hall",
+    "Airlock",
+    "Cargo Bay",
+    "Lab",
+    "Hydroponics"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Birgit the biologist",
+    "Carl the chemist",
+    "Dexter the driller",
+    "Elsa the electrician",
+    "Fiona the farmer",
+    "Victor the volunteer",
+    "Gideon the gunner",
+    "Henrik the hull technician"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "room",
+      2
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      4,
+      "col",
+      2
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "console"
+    ],
+    [
+      8,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    8,
+    9,
+    24,
+    34,
+    38,
+    49,
+    55,
+    66,
+    77
+  ],
+  "doors": [
+    [
+      28,
+      37
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      2
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 24,
+  "group": 1
+}

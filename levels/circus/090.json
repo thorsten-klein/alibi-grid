@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "b.......cbd.e.ae...c.......ba....eaa",
+  "roomNames": [
+    "Ringmaster Wagon",
+    "Hay Barn",
+    "Trapeze Rig",
+    "Sideshow Alley",
+    "Funhouse"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bea the barker",
+    "Vera the ventriloquist",
+    "Clara the clown",
+    "Dora the daredevil",
+    "Edith the escape artist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      1,
+      "next",
+      "mat"
+    ],
+    [
+      1,
+      "next",
+      "trunk"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    17,
+    20,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "d.ad..b.......b.",
+  "roomNames": [
+    "Black Cat Alley",
+    "Pumpkin Patch",
+    "Haunted Conservatory"
+  ],
+  "people": [
+    "Viola the visiting storyteller",
+    "Alma the actor",
+    "Bella the baker",
+    "Cora the candy maker"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "tombstone"
+    ],
+    [
+      1,
+      "next",
+      "swing"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "swing"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    8,
+    15
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

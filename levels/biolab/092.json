@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333333444444",
+  "objects": "a...dc..caa.....e..d.e.e.b...bdc....",
+  "roomNames": [
+    "Decon Airlock",
+    "Server Farm",
+    "Control Center",
+    "Breakroom",
+    "Cleanroom 2"
+  ],
+  "people": [
+    "Astrid the algorithm engineer",
+    "Birgit the bioethicist",
+    "Celia the cryo technician",
+    "Vivian the venture backer",
+    "Della the data architect",
+    "Ena the ecologist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "centrifuge"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    22,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      28,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

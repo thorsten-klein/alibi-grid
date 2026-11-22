@@ -1,0 +1,111 @@
+{
+  "size": 5,
+  "rooms": "0000011122111223333333333",
+  "objects": "e....e...........a.a.....",
+  "roomNames": [
+    "Solar",
+    "Smithy",
+    "Armory",
+    "Dungeon"
+  ],
+  "people": [
+    "Ada the archer",
+    "Birgit the baker",
+    "Cora the chronicler",
+    "Daisy the doorkeeper",
+    "Vince the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    14,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    2
+  ],
+  "rank": "cckcc",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

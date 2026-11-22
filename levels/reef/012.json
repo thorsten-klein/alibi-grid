@@ -1,0 +1,152 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000000000000000000223333000223333000224444555224444555224444555",
+  "objects": "......ba.........a..................f..aa........a.......fc...c..........a.......",
+  "roomNames": [
+    "Open Sea",
+    "Sea Cave",
+    "Brig",
+    "Market",
+    "Lighthouse",
+    "Fort"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Bea the barkeep",
+    "Celia the captain",
+    "Dora the deckhand",
+    "Edith the explorer",
+    "Freya the first mate",
+    "Vivian the vintner",
+    "Gwen the gunner",
+    "Hilda the harbor pilot"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "anchor"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    20,
+    30,
+    41,
+    51,
+    55,
+    71,
+    72
+  ],
+  "doors": [
+    [
+      46,
+      47
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "cannon",
+      0
+    ],
+    [
+      "nextCount",
+      "stool",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 25,
+  "group": 1
+}

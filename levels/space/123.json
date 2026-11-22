@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333445553334455533344555333",
+  "objects": "......b...dc....d.f...a........b....f.a...dfe..be......a..d..fe.",
+  "roomNames": [
+    "Observatory",
+    "Hydroponics",
+    "Lab",
+    "Crew Quarters",
+    "Airlock",
+    "Engine Room"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Basil the botanist",
+    "Cedric the captain",
+    "Victor the volunteer",
+    "Dora the doctor",
+    "Edgar the engineer",
+    "Frank the flight officer",
+    "Greta the geologist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "console"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "scope"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    22,
+    27,
+    32,
+    45,
+    50,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

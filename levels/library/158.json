@@ -1,0 +1,255 @@
+{
+  "size": 12,
+  "rooms": "000001112222000001112222333331112222333331112222333331114444555666664444555666664444555666667777555666667777555888887777555888887777555888887777",
+  "objects": "....eb..e..fa.....cda...db.ae.e..ded.d..d..aaf.b....abe........a....a.a....bc..ab..ba...ae.........a......b...b..a.bc.a.af.....bb....fbe..c...b.",
+  "roomNames": [
+    "Map Archive",
+    "Mosaic Gallery",
+    "Observatory",
+    "Courtyard Fountain",
+    "Archivist Sanctum",
+    "Great Peristyle",
+    "Papyrus Vault",
+    "Lecture Theater",
+    "Philosopher Garden"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Basil the botanist",
+    "Cedric the chronicler",
+    "Vince the visiting philosopher",
+    "Dmitri the dialectician",
+    "Edgar the epigrapher",
+    "Frank the folklorist",
+    "Gideon the grammarian",
+    "Henrik the historian",
+    "Ivo the illuminator",
+    "Jonas the jurist",
+    "Konrad the keeper of scrolls"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "mat"
+    ],
+    [
+      1,
+      "next",
+      "bust"
+    ],
+    [
+      2,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "burner"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      7
+    ],
+    [
+      5,
+      "next",
+      "cupboard"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "col",
+      9
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "next",
+      "burner"
+    ],
+    [
+      9,
+      "next",
+      "mat"
+    ],
+    [
+      10,
+      "next",
+      "bust"
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "same",
+      9
+    ],
+    [
+      11,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    5,
+    22,
+    26,
+    44,
+    59,
+    64,
+    79,
+    93,
+    102,
+    109,
+    123,
+    132
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      28
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      54,
+      66
+    ],
+    [
+      44,
+      56
+    ],
+    [
+      50,
+      62
+    ],
+    [
+      52,
+      64
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      99,
+      111
+    ],
+    [
+      139,
+      140
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      83,
+      "r"
+    ],
+    [
+      131,
+      "r"
+    ],
+    [
+      134,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "nextCount",
+      "cupboard",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 26,
+  "extra": true
+}

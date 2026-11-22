@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222111112223344422233444555334445553344455533444",
+  "objects": ".d..aeb.a.......e..b...bf.c....b..e.....c..d..f....f..cf....b.f.",
+  "roomNames": [
+    "Sheriff Office",
+    "Mine",
+    "Jail",
+    "Corral",
+    "Church",
+    "Bank"
+  ],
+  "people": [
+    "Astrid the auctioneer",
+    "Vince the vaquero",
+    "Bruno the blacksmith",
+    "Cora the cattle driver",
+    "Della the dancer",
+    "Ena the editor",
+    "Fiona the farmer",
+    "Grace the gambler"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    17,
+    27,
+    38,
+    42,
+    53,
+    56
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "edge",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 2,
+  "hardest": 6,
+  "steps": 32,
+  "extra": true
+}

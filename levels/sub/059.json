@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".b.a.....ccba..d.b.b.c...",
+  "roomNames": [
+    "Ballast Control",
+    "Conning Tower",
+    "Sonar Room",
+    "Pressure Airlock"
+  ],
+  "people": [
+    "Arthur the aquanaut",
+    "Vince the vessel designer",
+    "Basil the bathymetry tech",
+    "Cedric the captain",
+    "Dmitri the drill operator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "sonar"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "sonar"
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    11,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

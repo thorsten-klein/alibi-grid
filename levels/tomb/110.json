@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011110000222233332222333344445555444455554444",
+  "objects": "ce.dc..........ad...b..ca......ee.......b.e........c............",
+  "roomNames": [
+    "Treasury",
+    "Scribe Room",
+    "Sun Court",
+    "Burial Chamber",
+    "Boat Pit",
+    "Shrine"
+  ],
+  "people": [
+    "Vince the vizier",
+    "Astrid the astrologer",
+    "Birgit the brewer",
+    "Celia the carpenter",
+    "Della the diviner",
+    "Edith the embalmer",
+    "Felix the fisher",
+    "Gideon the guard"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "urn"
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    18,
+    30,
+    33,
+    47,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "statue",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "............C.................L..LC.........C..L................",
+  "hard": 10,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

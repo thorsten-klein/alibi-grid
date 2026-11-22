@@ -1,0 +1,141 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333444433344443334444",
+  "objects": ".a..b..........................f.bb......d.d.a.a.",
+  "roomNames": [
+    "Livery",
+    "Barber",
+    "General Store",
+    "Saloon",
+    "Bank"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bella the banker",
+    "Celia the cattle driver",
+    "Dexter the deputy",
+    "Elsa the editor",
+    "Freya the farrier",
+    "Vince the vet"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "cactus"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    19,
+    21,
+    32,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "onCount",
+      "bed",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

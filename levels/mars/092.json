@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "d.a...b...b.......a...f......aa..ba.",
+  "roomNames": [
+    "Airlock Module",
+    "Rover Bay",
+    "Gymnasium",
+    "Comms Array",
+    "Solar Array Control"
+  ],
+  "people": [
+    "Albert the astrobiologist",
+    "Bruno the botanist",
+    "Carl the commander",
+    "Dexter the drill operator",
+    "Elias the environmental engineer",
+    "Victor the venture sponsor"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tower"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    18,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      1
+    ],
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

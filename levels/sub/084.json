@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002233002233002244002244",
+  "objects": "........bbeaa.ae...aba..d..cb.ab...e",
+  "roomNames": [
+    "Pilot Cockpit",
+    "Observation Dome",
+    "Galley",
+    "Hydrothermal Lab",
+    "Ballast Control"
+  ],
+  "people": [
+    "Arthur the acoustic analyst",
+    "Basil the biologist",
+    "Vince the vip expedition funder",
+    "Cedric the chief diver",
+    "Dmitri the doctor",
+    "Edgar the environmentalist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sonar"
+    ],
+    [
+      5,
+      "next",
+      "valve"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    13,
+    23,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "tank",
+      0
+    ],
+    [
+      "nextCount",
+      "bunk",
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

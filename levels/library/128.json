@@ -1,0 +1,170 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222001112222333445555333445555333445555333446666333446666",
+  "objects": ".aec.a.....f......e.......ea..............b...ad..........a...ff....b......b.b..c",
+  "roomNames": [
+    "Archivist Sanctum",
+    "Translation Chamber",
+    "Observatory",
+    "Papyrus Vault",
+    "Map Archive",
+    "Philosopher Garden",
+    "Geometry Hall"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Basil the botanist",
+    "Cedric the chronicler",
+    "Vince the visiting philosopher",
+    "Dmitri the dialectician",
+    "Edgar the epigrapher",
+    "Frank the folklorist",
+    "Gideon the grammarian",
+    "Henrik the historian"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "burner"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "mat"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "cupboard"
+    ],
+    [
+      8,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    27,
+    40,
+    51,
+    57,
+    71,
+    79
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "cupboard",
+      2
+    ],
+    [
+      "nextCount",
+      "burner",
+      1
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

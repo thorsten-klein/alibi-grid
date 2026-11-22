@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": "...bb..bf...........ca..c..bed.f.d.f.....e...aa.b",
+  "roomNames": [
+    "Security Checkpoint",
+    "Port-a-Jon Alley",
+    "Campers Field",
+    "Main Stage",
+    "Guitar Tech Tent"
+  ],
+  "people": [
+    "Astrid the artist agent",
+    "Birgit the bodyguard",
+    "Vivian the vocal coach",
+    "Celia the cameraman",
+    "Della the disc jockey",
+    "Ena the event producer",
+    "Flora the fan president"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "lighttower"
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "drums"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    19,
+    21,
+    34,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "lighttower",
+      1
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

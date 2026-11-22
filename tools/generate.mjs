@@ -22,7 +22,7 @@
 // one worker per CPU. A case that can not be made in time is left out.
 // js/levels.js is saved after every new case.
 
-import { writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { cpus } from 'node:os';
 import { Worker, isMainThread, parentPort } from 'node:worker_threads';
 import { THEMES, blockingSet } from '../js/themes.js';
@@ -130,13 +130,14 @@ if (!isMainThread) {
   // A run that stops early keeps its work, and the next run reuses it.
   const { buildBundle, BUNDLE_PATH } = await import('./bundle.mjs');
   const save = () => {
-    const campaigns = THEMES.map((theme, ti) => ({
-      theme: theme.id,
-      levels: [...GROUPS.flatMap(g => SIZES.map((_, li) => results.get(key(ti, g, li))).filter(Boolean)), ...extras[ti]],
-    }));
-    const header = '// Made by tools/generate.mjs. Do not edit by hand.\n';
-    writeFileSync(new URL('../js/levels.js', import.meta.url),
-      `${header}export const CAMPAIGNS = ${JSON.stringify(campaigns, null, 1)};\n`);
+    THEMES.forEach((theme, ti) => {
+      const levels = [...GROUPS.flatMap(g => SIZES.map((_, li) => results.get(key(ti, g, li))).filter(Boolean)), ...extras[ti]];
+      const dir = new URL(`../levels/${theme.id}`, import.meta.url);
+      mkdirSync(dir, { recursive: true });
+      levels.forEach((lv, i) => {
+        writeFileSync(new URL(`${dir.pathname}/${String(i).padStart(3, '0')}.json`), JSON.stringify(lv, null, 2) + '\n', 'utf8');
+      });
+    });
     writeFileSync(BUNDLE_PATH, buildBundle());
   };
   save();

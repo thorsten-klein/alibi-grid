@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".......bca.dc........d.f.",
+  "roomNames": [
+    "Scrutineering Shed",
+    "Media Center",
+    "Telemetry Room",
+    "Drivers Lounge"
+  ],
+  "people": [
+    "Alma the apprentice",
+    "Bella the broadcast commentator",
+    "Cora the crew chief",
+    "Viola the vip team owner",
+    "Daisy the data telemetry lead"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "chassis"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "tires"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

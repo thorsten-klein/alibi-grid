@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223333111133331111445511114455111144551111",
+  "objects": ".....a...b......a.......d.f..............a......f........d......",
+  "roomNames": [
+    "Sea Cave",
+    "Open Sea",
+    "Galleon",
+    "Sloop",
+    "Market",
+    "Dock"
+  ],
+  "people": [
+    "Vince the voyager",
+    "Albert the admiral",
+    "Birgit the boatswain",
+    "Carl the cook",
+    "Della the diver",
+    "Edith the engineer",
+    "Felix the fiddler",
+    "Gus the gunner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "room",
+      1
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    30,
+    39,
+    40,
+    52,
+    61
+  ],
+  "doors": [
+    [
+      16,
+      24
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      41,
+      42
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ],
+    [
+      "nextCount",
+      "cannon",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

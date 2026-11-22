@@ -1,0 +1,230 @@
+{
+  "size": 12,
+  "rooms": "000001112222000001112222000001112222000001112222333344445555333344445555333344445555333344445555666677775555666677778888666677778888666677778888",
+  "objects": "d..c.ed...b..df.c.c..a.b.....a..fba..b..bf..d.a..........b....fec.b.e...b...b.ed..baa...a.........b..d.......b..b...c.........a....e...a.....ff.",
+  "roomNames": [
+    "Spa",
+    "Terrace",
+    "Lobby",
+    "Sauna",
+    "Ski Room",
+    "Kitchen",
+    "Bar",
+    "Games Room",
+    "Dining Hall"
+  ],
+  "people": [
+    "Albert the avalanche guard",
+    "Bea the bartender",
+    "Cedric the climber",
+    "Dexter the driver",
+    "Elias the explorer",
+    "Viola the vet",
+    "Freya the fisher",
+    "Gus the glacier expert",
+    "Henrik the hotelier",
+    "Ivo the ice climber",
+    "Jutta the journalist",
+    "Konrad the kayaker"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "fire"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "tree"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "next",
+      "skis"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "tree"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "next",
+      "sofa"
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "same",
+      11
+    ],
+    [
+      11,
+      "next",
+      "wood"
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    27,
+    36,
+    57,
+    70,
+    76,
+    90,
+    103,
+    110,
+    128,
+    143
+  ],
+  "doors": [
+    [
+      28,
+      29
+    ],
+    [
+      38,
+      50
+    ],
+    [
+      40,
+      52
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      45,
+      57
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      87,
+      99
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      88,
+      100
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      107,
+      119
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      140,
+      "b"
+    ],
+    [
+      141,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 41,
+  "group": 2
+}

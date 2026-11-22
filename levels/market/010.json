@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "a..a.....a.......b.....febb.......a.....aa.......",
+  "roomNames": [
+    "Silk Stall",
+    "Calligraphy Shop",
+    "Fireworks Barge",
+    "Bell Tower",
+    "River Pagoda"
+  ],
+  "people": [
+    "Astrid the astrologer",
+    "Birgit the bamboo carver",
+    "Celia the cook",
+    "Vivian the visiting noble",
+    "Della the dancer",
+    "Ena the elder",
+    "Flora the fan painter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "cushion"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    22,
+    33,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 20,
+  "group": 1
+}

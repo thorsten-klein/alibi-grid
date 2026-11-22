@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....f.f......b..",
+  "roomNames": [
+    "Manor Library",
+    "Vineyard Plot",
+    "Manor Terrace"
+  ],
+  "people": [
+    "Astrid the apprentice",
+    "Birgit the bottler",
+    "Vivian the vineyard owner",
+    "Celia the cook"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "still"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

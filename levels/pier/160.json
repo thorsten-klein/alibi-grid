@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000011112222000011112222000011112222000011112222000011112222333344444555333344444555333344444555666667778888666667778888666667778888666667778888",
+  "objects": "..be..d...a.....a.......fea......b..b..b..b.bb.......b.....a.....c.....c.a..d.....a.b....a........c....b.d..f.b.de..e.....e.a....a.b.f.cc...c..e",
+  "roomNames": [
+    "Ferris Wheel Base",
+    "Pier Edge",
+    "Cotton Candy Stand",
+    "Fortune Booth",
+    "Arcade Alley",
+    "Souvenir Shack",
+    "Ghost Train",
+    "Hall of Mirrors",
+    "Carousel Pavilion"
+  ],
+  "people": [
+    "Arthur the arcade repairman",
+    "Vince the vagrant",
+    "Basil the boardwalk walker",
+    "Cedric the caretaker",
+    "Dmitri the drifter",
+    "Edgar the electrician",
+    "Frank the fortune teller",
+    "Gideon the ghost hunter",
+    "Henrik the historian",
+    "Ivo the investigator",
+    "Jonas the juggler",
+    "Konrad the key keeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "automaton"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "on",
+      "cart"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "horse"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "claw"
+    ],
+    [
+      8,
+      "same",
+      10
+    ],
+    [
+      9,
+      "next",
+      "generator"
+    ],
+    [
+      9,
+      "next",
+      "cart"
+    ],
+    [
+      10,
+      "next",
+      "automaton"
+    ],
+    [
+      11,
+      "next",
+      "generator"
+    ]
+  ],
+  "solution": [
+    7,
+    15,
+    29,
+    45,
+    50,
+    66,
+    80,
+    88,
+    106,
+    109,
+    131,
+    132
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      50,
+      62
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      54,
+      66
+    ],
+    [
+      56,
+      68
+    ],
+    [
+      57,
+      69
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      84,
+      96
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      88,
+      100
+    ],
+    [
+      91,
+      103
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      127,
+      128
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      108,
+      "l"
+    ],
+    [
+      120,
+      "l"
+    ],
+    [
+      133,
+      "b"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 9,
+  "steps": 36,
+  "extra": true
+}

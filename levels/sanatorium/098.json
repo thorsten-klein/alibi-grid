@@ -1,0 +1,120 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112222133222213344441334444133",
+  "objects": "c...a...d..e..fb.d.a..a..b.b..b.e..bcbd...b....ef",
+  "roomNames": [
+    "Operating Theater",
+    "Boiler Room",
+    "Records Archive",
+    "Kitchen",
+    "Pharmacy"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Basil the bacteriologist",
+    "Cedric the caregiver",
+    "Dmitri the dentist",
+    "Vince the visiting superintendent",
+    "Edgar the examiner",
+    "Frank the forensic pathologist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "xray"
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "on",
+      "wheelchair"
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "next",
+      "archive"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    18,
+    22,
+    33,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "...bc.....f.b..fc..b...c.",
+  "roomNames": [
+    "Pumpkin Patch",
+    "Front Porch",
+    "Spider Attic",
+    "Black Cat Alley"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the black cat breeder",
+    "Vera the veteran manor heir",
+    "Clara the costume designer",
+    "Dora the diviner"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "swing"
+    ],
+    [
+      3,
+      "next",
+      "pumpkin"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "web",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

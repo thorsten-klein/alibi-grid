@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112223333222333322244442224444",
+  "objects": ".f...d.a.ba..a..ef.a..a...c.c...........a..c...a.",
+  "roomNames": [
+    "Wine Cellar",
+    "Courtyard",
+    "Private Boudoir",
+    "Casino Ridotto",
+    "Gondola Dock"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the barcarolle singer",
+    "Cedric the courtesan",
+    "Dmitri the doge",
+    "Vince the venetian senator",
+    "Edgar the envoy",
+    "Frank the fencing master"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "harpsichord"
+    ],
+    [
+      1,
+      "next",
+      "daybed"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "gondola"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "throne"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    14,
+    27,
+    31,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      13,
+      20
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "gondola",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,86 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "..e......a...a..",
+  "roomNames": [
+    "Server Farm",
+    "Generator Core",
+    "Cleanroom 2"
+  ],
+  "people": [
+    "Vince the venture backer",
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "centrifuge"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

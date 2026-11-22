@@ -1,0 +1,170 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222333311222444455555444455555444466666444466666",
+  "objects": "....f.b.d..ce..e.f..b..c..e..d...cb..dbaa..e...........b.ba....aea..f..b....e.dd.",
+  "roomNames": [
+    "Shower Block",
+    "Lake Shore",
+    "Counselor Cabin",
+    "Archery Range",
+    "Mess Hall",
+    "Canoe Dock",
+    "Director Office"
+  ],
+  "people": [
+    "Albert the arts counselor",
+    "Victor the visitor",
+    "Bruno the bugler",
+    "Carl the cook",
+    "Dexter the director",
+    "Elias the eagle scout",
+    "Felix the first aid counselor",
+    "Gus the guitar player",
+    "Hugo the hiker"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "canoes"
+    ],
+    [
+      1,
+      "next",
+      "board"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "on",
+      "bunk"
+    ],
+    [
+      7,
+      "next",
+      "board"
+    ],
+    [
+      8,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    18,
+    35,
+    41,
+    47,
+    55,
+    69,
+    75
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      61,
+      70
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      0
+    ],
+    [
+      "onCount",
+      "bunk",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

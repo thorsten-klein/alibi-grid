@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".........b..e.b...ab.......a..ff.aea....bb....a..",
+  "roomNames": [
+    "Kitchen",
+    "Tea Ceremony Room",
+    "Guard Gate",
+    "Sentry Tower",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Alma the artisan",
+    "Viola the visiting monk",
+    "Bella the bowyer",
+    "Cora the cook",
+    "Daisy the drummer",
+    "Elsa the embroiderer",
+    "Fiona the foot soldier"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "futon"
+    ],
+    [
+      1,
+      "next",
+      "bonsai"
+    ],
+    [
+      2,
+      "on",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tatami"
+    ],
+    [
+      5,
+      "next",
+      "bonsai"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    24,
+    28,
+    41,
+    43
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

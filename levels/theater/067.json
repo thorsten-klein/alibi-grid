@@ -1,0 +1,104 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "e..a..a.....b....a.d..e..",
+  "roomNames": [
+    "Box Office",
+    "Bar",
+    "Costume Room",
+    "Green Room"
+  ],
+  "people": [
+    "Arthur the author",
+    "Basil the bass player",
+    "Victor the ventriloquist",
+    "Clara the choreographer",
+    "Dora the director"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "fa...cd........eaf........b.add...cf",
+  "roomNames": [
+    "Pastry Kitchen",
+    "Staff Locker",
+    "Butcher Larder",
+    "Saute Station",
+    "Hostess Foyer"
+  ],
+  "people": [
+    "Victor the vip dining critic",
+    "Albert the apprentice chef",
+    "Bruno the baker",
+    "Carl the chef de cuisine",
+    "Dexter the dishwasher",
+    "Elias the expediter"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "espresso"
+    ],
+    [
+      3,
+      "next",
+      "block"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "block"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    23,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

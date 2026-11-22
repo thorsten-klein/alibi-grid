@@ -1,0 +1,247 @@
+{
+  "size": 12,
+  "rooms": "000111122222000111122222000111122222000111122222000111133333000111133333444555666666444555666666444555777888444555777888444555777888444555777888",
+  "objects": ".d.b...b.b..daa.b......fa.e.de.d..bfc......b.b..f...da.....c.....e...cb....b......aefb.ae.af......fea.ab..bec....ab.......cb.........ee.........",
+  "roomNames": [
+    "River Pagoda",
+    "Bell Tower",
+    "Silk Stall",
+    "Fireworks Barge",
+    "Garden Courtyard",
+    "Calligraphy Shop",
+    "Dragon Boat",
+    "Noodle Court",
+    "Fortune Teller"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bella the boatman",
+    "Cora the calligrapher",
+    "Daisy the drummer",
+    "Elsa the embroiderer",
+    "Fiona the firework master",
+    "Viola the village magistrate",
+    "Gwen the gong striker",
+    "Hazel the herbalist",
+    "Ines the instrument maker",
+    "Juno the jade carver",
+    "Kira the kite maker"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "fireworks"
+    ],
+    [
+      1,
+      "next",
+      "gong"
+    ],
+    [
+      1,
+      "next",
+      "cushion"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "gong"
+    ],
+    [
+      3,
+      "next",
+      "cushion"
+    ],
+    [
+      4,
+      "next",
+      "lantern"
+    ],
+    [
+      5,
+      "next",
+      "gong"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "teacart"
+    ],
+    [
+      8,
+      "next",
+      "teacart"
+    ],
+    [
+      8,
+      "next",
+      "lantern"
+    ],
+    [
+      9,
+      "next",
+      "gong"
+    ],
+    [
+      9,
+      "next",
+      "cushion"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    17,
+    25,
+    44,
+    57,
+    64,
+    82,
+    90,
+    96,
+    111,
+    127,
+    143
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      66,
+      78
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      140,
+      141
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "cushion",
+      0
+    ],
+    [
+      "nextCount",
+      "gong",
+      5
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "group": 3
+}

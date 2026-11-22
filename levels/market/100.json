@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122220112222011222233344443334444333",
+  "objects": ".a.........ebe...f.a......b..a.ec.c...ffe.e.e..b.",
+  "roomNames": [
+    "River Pagoda",
+    "Lantern Bridge",
+    "Fortune Teller",
+    "Dragon Boat",
+    "Silk Stall"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Victor the village magistrate",
+    "Bruno the boatman",
+    "Carl the calligrapher",
+    "Dexter the drummer",
+    "Elias the embroiderer",
+    "Felix the firework master"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "cushion"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "gong"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "teacart"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      0
+    ],
+    [
+      "nextCount",
+      "lantern",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....f.df.bf....a....ac...........bc....f.b..bc..",
+  "roomNames": [
+    "Newsstand Corner",
+    "Thames Wharf",
+    "Police Desk",
+    "Cobblestone Alley",
+    "Tenement Attic"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bowler hat seller",
+    "Carl the chimney sweep",
+    "Victor the vagabond",
+    "Dexter the doctor",
+    "Elias the errand boy",
+    "Felix the fishmonger"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "kiosk"
+    ],
+    [
+      2,
+      "next",
+      "hansom"
+    ],
+    [
+      4,
+      "on",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "streetlamp"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    14,
+    25,
+    34,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 16,
+  "extra": true
+}

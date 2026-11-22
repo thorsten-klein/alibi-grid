@@ -1,0 +1,222 @@
+{
+  "size": 11,
+  "rooms": "0001112222200011122222000111333330001113333300011133333444445555554444455555566666557777666665577776666655777766666557777",
+  "objects": "d...f.......ed......e..........d....cb.d..a...aa..e...c.d....c.........dd.c......d..af.ce...de...a...c...a......e..abb...",
+  "roomNames": [
+    "Church",
+    "Livery",
+    "Hotel",
+    "Mine",
+    "Barber",
+    "Corral",
+    "Saloon",
+    "General Store"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Basil the blacksmith",
+    "Celia the cook",
+    "Vivian the vaquero",
+    "Della the deputy",
+    "Edith the engineer",
+    "Fiona the farmer",
+    "Gus the gambler",
+    "Henrik the hatmaker",
+    "Ivy the innkeeper",
+    "Jonas the judge"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "cactus"
+    ],
+    [
+      1,
+      "next",
+      "horse"
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      5,
+      "bandit"
+    ],
+    [
+      6,
+      "same",
+      9
+    ],
+    [
+      7,
+      "window"
+    ],
+    [
+      8,
+      "col",
+      6
+    ],
+    [
+      9,
+      "next",
+      "chair"
+    ],
+    [
+      10,
+      "alone"
+    ],
+    [
+      10,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    25,
+    35,
+    52,
+    64,
+    73,
+    77,
+    94,
+    104,
+    120
+  ],
+  "doors": [
+    [
+      35,
+      36
+    ],
+    [
+      46,
+      57
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      48,
+      59
+    ],
+    [
+      49,
+      60
+    ],
+    [
+      21,
+      32
+    ],
+    [
+      53,
+      64
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      32,
+      "r"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      118,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 26,
+  "facts": [
+    [
+      "nextCount",
+      "piano",
+      4
+    ],
+    [
+      "nextCount",
+      "barrel",
+      2
+    ],
+    [
+      "nextCount",
+      "cactus",
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    1,
+    3
+  ],
+  "hard": 10,
+  "hardest": 5,
+  "steps": 53,
+  "extra": true
+}

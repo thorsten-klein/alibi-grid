@@ -1,0 +1,173 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222003334444003334444003334444555566666555566666555566666",
+  "objects": ".c.b..f...c.baa...bd..a.....a.f.....b....d.a......c....b.d....c.......e.e....c.f.",
+  "roomNames": [
+    "Police Desk",
+    "Mortuary",
+    "Pawn Shop",
+    "Cobblestone Alley",
+    "Parlor Study",
+    "Apothecary",
+    "Pub Taproom"
+  ],
+  "people": [
+    "Ada the apothecary",
+    "Bea the blackmailer",
+    "Clara the constable",
+    "Vera the victim of nobility",
+    "Dora the detective",
+    "Edith the engraver",
+    "Freya the forger",
+    "Greta the gentlemen valet",
+    "Hilda the hansom cabbie"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "hansom"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "next",
+      "streetlamp"
+    ],
+    [
+      8,
+      "next",
+      "kiosk"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    25,
+    28,
+    38,
+    45,
+    60,
+    68,
+    80
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      26,
+      "r"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      4
+    ],
+    [
+      "onCount",
+      "armchair",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 32,
+  "extra": true
+}

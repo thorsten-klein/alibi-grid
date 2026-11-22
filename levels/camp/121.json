@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220003333300033333444455554444555544445555",
+  "objects": ".......fcc..bc...bb....b..d.af.....b........ea.f...b....bf...e..",
+  "roomNames": [
+    "Spring",
+    "Fire Pit",
+    "Elder Hut",
+    "Flint Pit",
+    "River Bank",
+    "Hunting Ground"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Basil the builder",
+    "Cora the carrier",
+    "Dmitri the drummer",
+    "Edgar the elk tamer",
+    "Vince the visionary",
+    "Freya the firekeeper",
+    "Greta the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "leaves"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "bones"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "tree"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    22,
+    24,
+    37,
+    41,
+    52,
+    58
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "onCount",
+      "log",
+      0
+    ],
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "nextCount",
+      "leaves",
+      2
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".41400.1",
+  "tags": "......................1.4............0...0.......4...0..........",
+  "hard": 7,
+  "hardest": 6,
+  "steps": 45,
+  "extra": true
+}

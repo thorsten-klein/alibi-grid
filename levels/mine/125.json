@@ -1,0 +1,157 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122333111122333111122333444444333444444555555666555555666555555666",
+  "objects": "...a.......deb.fb.db....a..be..a...b..a.......bc...a.....f.....b.a...c..b.bfa....",
+  "roomNames": [
+    "Deep Winze",
+    "Dynamite Magazine",
+    "Miners Mess",
+    "Shaft Elevator",
+    "Smelting Oven",
+    "Tool Crib",
+    "Shift Boss Office"
+  ],
+  "people": [
+    "Arthur the axeman",
+    "Basil the blaster",
+    "Cedric the carpenter",
+    "Dmitri the dynamite handler",
+    "Edgar the hoist operator",
+    "Frank the farrier",
+    "Gideon the gold panner",
+    "Vince the venture capitalist",
+    "Henrik the healer"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "dynamite"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "keg"
+    ],
+    [
+      3,
+      "next",
+      "hoist"
+    ],
+    [
+      4,
+      "next",
+      "dynamite"
+    ],
+    [
+      5,
+      "next",
+      "keg"
+    ],
+    [
+      6,
+      "next",
+      "drill"
+    ],
+    [
+      7,
+      "on",
+      "keg"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    24,
+    27,
+    37,
+    52,
+    58,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 7,
+  "hardest": 8,
+  "steps": 21,
+  "extra": true
+}

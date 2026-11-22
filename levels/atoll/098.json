@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "e..c..b.a....abe..........ebfaa.db.a.ca....e...d.",
+  "roomNames": [
+    "Luau Grounds",
+    "Coral Lagoon",
+    "Staff Quarters",
+    "Dive Shop",
+    "Infinity Pool"
+  ],
+  "people": [
+    "Albert the activities director",
+    "Bruno the bartender",
+    "Victor the vacationer",
+    "Carl the concierge",
+    "Dexter the divemaster",
+    "Elias the excursion guide",
+    "Felix the fitness coach"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "hammock"
+    ],
+    [
+      1,
+      "next",
+      "jetski"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "towel"
+    ],
+    [
+      5,
+      "next",
+      "surfboard"
+    ],
+    [
+      6,
+      "next",
+      "surfboard"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    18,
+    27,
+    31,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      35,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "hammock",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

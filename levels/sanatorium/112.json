@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223311122233444222334445553344455533444555",
+  "objects": "....eb...a.c...a...a.......bccac.a....bb.f..c.....b.a.e.c.d.....",
+  "roomNames": [
+    "Ward B",
+    "Morgue",
+    "Kitchen",
+    "Records Archive",
+    "Hydrotherapy Room",
+    "Doctor Office"
+  ],
+  "people": [
+    "Alma the attendant",
+    "Bella the bacteriologist",
+    "Cora the caregiver",
+    "Daisy the dentist",
+    "Elsa the examiner",
+    "Fiona the forensic pathologist",
+    "Viola the visiting superintendent",
+    "Gwen the gerontologist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "xray"
+    ],
+    [
+      1,
+      "on",
+      "wheelchair"
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      4,
+      "next",
+      "cabinet"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "archive"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "wheelchair"
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    22,
+    26,
+    37,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

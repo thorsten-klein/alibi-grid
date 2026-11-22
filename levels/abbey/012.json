@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222222111222222111333445555333445555333445555333446666333446666",
+  "objects": "bc......cf...f.d.....ae.c.e...e...ac.ef.b.....dd.e...fb..............da.....ac..c",
+  "roomNames": [
+    "Cloister Walk",
+    "Crypt",
+    "Infirmary",
+    "Bell Tower",
+    "Scriptorium",
+    "Abbey Church",
+    "Cellar"
+  ],
+  "people": [
+    "Alma the almoner",
+    "Bella the brewer",
+    "Cora the cantor",
+    "Daisy the document copyist",
+    "Elsa the elder brother",
+    "Viola the vicar general",
+    "Fiona the friar",
+    "Gwen the glass painter",
+    "Hazel the hospitaler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "bellrope"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bellrope"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "on",
+      "stall"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    27,
+    44,
+    51,
+    57,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      22
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      62,
+      71
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 28,
+  "group": 1
+}

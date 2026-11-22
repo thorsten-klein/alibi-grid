@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112223333111222333311122244445566664444556666444455666644445577774444557777",
+  "objects": "ab......b..ed.c..a..c....b..bf.d..b.......f.c...caacd.aa.fe..b......b.d.ae..c....f...a...b.e.e...c..",
+  "roomNames": [
+    "Wine Cellar",
+    "Private Boudoir",
+    "Canal Balcony",
+    "Mask Atelier",
+    "Armory",
+    "Courtyard",
+    "Palazzo Chapel",
+    "Casino Ridotto"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Birgit the boat builder",
+    "Celia the carnival poet",
+    "Della the diplomat",
+    "Ena the embroiderer",
+    "Flora the falconer",
+    "Grace the goldsmith",
+    "Hana the herald",
+    "Isla the illusionist",
+    "Vivian the visiting merchant"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "throne"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "throne"
+    ],
+    [
+      2,
+      "next",
+      "daybed"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "throne"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      7,
+      "next",
+      "daybed"
+    ],
+    [
+      7,
+      "next",
+      "maskstand"
+    ],
+    [
+      8,
+      "next",
+      "daybed"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "fountain"
+    ]
+  ],
+  "solution": [
+    0,
+    19,
+    27,
+    33,
+    46,
+    55,
+    64,
+    71,
+    88,
+    92
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      78,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      19,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "onCount",
+      "daybed",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

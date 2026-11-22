@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "...e...f.b.ee....f.d..ec.",
+  "roomNames": [
+    "Bridge",
+    "Dining Saloon",
+    "Steerage Quarters",
+    "Stateroom A"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the bartender",
+    "Viola the valet",
+    "Cora the chief engineer",
+    "Daisy the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "luggage"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "next",
+      "telegraph"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

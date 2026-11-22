@@ -1,0 +1,169 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222200111222200111333344444333344444333344444555566666555566666",
+  "objects": "cba...a..da........bc......c.........e...daa...db..b....c.ca...e..a...a.b.abba...",
+  "roomNames": [
+    "Games Room",
+    "Suite",
+    "Lobby",
+    "Sauna",
+    "Spa",
+    "Terrace",
+    "Boot Room"
+  ],
+  "people": [
+    "Vivian the vlogger",
+    "Alma the athlete",
+    "Bruno the baker",
+    "Carl the cook",
+    "Dexter the doctor",
+    "Ena the explorer",
+    "Felix the forester",
+    "Greta the guide",
+    "Henrik the hotelier"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      0,
+      "next",
+      "skis"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    34,
+    40,
+    53,
+    59,
+    69,
+    75
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 36,
+  "extra": true
+}

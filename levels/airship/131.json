@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001222222001222222001222222001333333001333333001333333444444444555556666555556666",
+  "objects": ".....a..af.fb.b.....b..d..be.c.d..a..b.c.....fa...b......d........c........a.c...",
+  "roomNames": [
+    "Gas Catwalk",
+    "Stateroom Alpha",
+    "Galley",
+    "Promenade Deck",
+    "Port Engine Gondola",
+    "Cockpit Bridge",
+    "Starboard Gondola"
+  ],
+  "people": [
+    "Astrid the aeronaut",
+    "Birgit the barman",
+    "Celia the captain",
+    "Della the dirigible pilot",
+    "Ena the engine mechanic",
+    "Flora the first officer",
+    "Grace the gas bag inspector",
+    "Vivian the vessel inventor",
+    "Hana the helmsman"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "column"
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "armchair"
+    ],
+    [
+      5,
+      "next",
+      "ballast"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "ballast"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    8,
+    10,
+    22,
+    33,
+    43,
+    48,
+    59,
+    65,
+    72
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "luggage",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

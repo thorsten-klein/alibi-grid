@@ -1,0 +1,224 @@
+{
+  "size": 11,
+  "rooms": "0001111222200011112222000111122220001111222233444555566334445555663344455556633444555566334447777773344477777733444777777",
+  "objects": "...e....adbaabc..b....a....f.bfbb.a....ce...b.dbb.e....bb...c...b.e....fb...fd..ab..f..b..ff..........e....cd.....dcea...",
+  "roomNames": [
+    "Gymnasium",
+    "Rover Bay",
+    "Airlock Module",
+    "Comms Array",
+    "Medical Bay",
+    "Oxygen Scrubber",
+    "Water Reclamation",
+    "Habitat Quarters"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Bruno the biosphere tech",
+    "Carl the chemist",
+    "Dexter the doctor",
+    "Elias the electrician",
+    "Felix the farmer",
+    "Gus the ground controller",
+    "Hugo the hydroponics chief",
+    "Igor the instrument mechanic",
+    "Jasper the junior colonist",
+    "Victor the visiting inspector"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      0,
+      "next",
+      "rover"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "next",
+      "tower"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "rover"
+    ],
+    [
+      5,
+      "next",
+      "rover"
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      7,
+      "on",
+      "pod"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "col",
+      1
+    ],
+    [
+      10,
+      "next",
+      "rover"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    29,
+    38,
+    47,
+    57,
+    72,
+    81,
+    98,
+    100,
+    119
+  ],
+  "doors": [
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      41,
+      52
+    ],
+    [
+      43,
+      54
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      86,
+      97
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      43,
+      "r"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      112,
+      "b"
+    ],
+    [
+      117,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "facts": [
+    [
+      "nextCount",
+      "rover",
+      4
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "group": 1
+}

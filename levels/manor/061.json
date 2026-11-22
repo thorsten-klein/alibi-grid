@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0000011111111112233322333",
+  "objects": "...ff................b.d.",
+  "roomNames": [
+    "Conservatory",
+    "Library",
+    "Kitchen",
+    "Pantry"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Vivian the vicar",
+    "Bea the butler",
+    "Celia the colonel",
+    "Dmitri the dealer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      3,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      9,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

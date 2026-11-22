@@ -1,0 +1,237 @@
+{
+  "size": 12,
+  "rooms": "000001111111000001111111000002222222333332222222333332222222444556666666444556666666444556666666444557777888444557777888444557777888444557777888",
+  "objects": ".a...c.d.b.......e..fc.a.b...b....d..f...d..c.d........b...b.b......c..............cc...b.e.c..f....a..aabfef.f.....fa.....a..e...b......a..e.da",
+  "roomNames": [
+    "Manor Library",
+    "Oak Barrel Cellar",
+    "Fermentation Hall",
+    "Gatehouse",
+    "Vineyard Plot",
+    "Bottling Line",
+    "Grape Press",
+    "Manor Terrace",
+    "Master Bedroom"
+  ],
+  "people": [
+    "Astrid the apprentice",
+    "Birgit the bottler",
+    "Celia the cook",
+    "Della the driver",
+    "Ena the enologist",
+    "Flora the fermenter",
+    "Grace the groundskeeper",
+    "Vivian the vineyard owner",
+    "Hana the hostess",
+    "Isla the inspector",
+    "Jutta the journalist",
+    "Kai the keg cooper"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "press"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "still"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "press"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "room",
+      4
+    ],
+    [
+      6,
+      "next",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ],
+    [
+      8,
+      "next",
+      "chair"
+    ],
+    [
+      8,
+      "next",
+      "still"
+    ],
+    [
+      9,
+      "next",
+      "still"
+    ],
+    [
+      9,
+      "next",
+      "bench"
+    ],
+    [
+      10,
+      "next",
+      "rack"
+    ],
+    [
+      11,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    11,
+    19,
+    24,
+    38,
+    53,
+    66,
+    73,
+    87,
+    105,
+    118,
+    128,
+    136
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      40
+    ],
+    [
+      23,
+      35
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      59,
+      71
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      51,
+      63
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      116,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "press",
+      2
+    ]
+  ],
+  "hard": 11,
+  "hardest": 8,
+  "steps": 34,
+  "extra": true
+}

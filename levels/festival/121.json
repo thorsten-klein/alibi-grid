@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233344555333445553334455533344555",
+  "objects": ".cb.bff....f.f.ad.a.b...cfc.ba........e...aa.cf.....da.cf...c.e.",
+  "roomNames": [
+    "Main Stage",
+    "Campers Field",
+    "Merch Pavilion",
+    "Port-a-Jon Alley",
+    "Mixing Tower",
+    "Green Room"
+  ],
+  "people": [
+    "Alma the audio engineer",
+    "Bella the bass player",
+    "Cora the crew chief",
+    "Daisy the drummer",
+    "Elsa the electrician",
+    "Viola the vip record exec",
+    "Fiona the frontman",
+    "Gwen the guitarist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "next",
+      "amp"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "amp"
+    ],
+    [
+      7,
+      "next",
+      "amp"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    21,
+    31,
+    32,
+    42,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 29,
+  "extra": true
+}

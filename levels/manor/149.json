@@ -1,0 +1,206 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111333344455533334445553333444555333344455566667777776666777777",
+  "objects": "a.d.e..f.....cd..ed.b.........a....fabd.b.b...b.....a...e..dc.....bb..f.fdaa......e.d.....a.b..f..d.",
+  "roomNames": [
+    "Ballroom",
+    "Cellar",
+    "Hall",
+    "Study",
+    "Dining Room",
+    "Library",
+    "Gallery",
+    "Conservatory"
+  ],
+  "people": [
+    "Astrid the author",
+    "Bella the butler",
+    "Clara the colonel",
+    "Della the doctor",
+    "Edith the editor",
+    "Viola the valet",
+    "Felix the footman",
+    "Gwen the guest",
+    "Hazel the housekeeper",
+    "Isla the illustrator"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "plant"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "shelf"
+    ],
+    [
+      6,
+      "next",
+      "clock"
+    ],
+    [
+      7,
+      "on",
+      "chair"
+    ],
+    [
+      8,
+      "notRoom",
+      1
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "same",
+      8
+    ],
+    [
+      9,
+      "next",
+      "piano"
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    28,
+    33,
+    47,
+    50,
+    62,
+    74,
+    86,
+    99
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ]
+  ],
+  "tries": 21,
+  "facts": [
+    [
+      "nextCount",
+      "shelf",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "plant",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 43,
+  "extra": true
+}

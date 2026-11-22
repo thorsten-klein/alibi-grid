@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "d.a...b...b.......a...f......aa..ba.",
+  "roomNames": [
+    "Jazz Stage",
+    "VIP Poker Den",
+    "Safe Room",
+    "Cold Storage",
+    "Bar Counter"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bruno the bootlegger",
+    "Carl the card sharp",
+    "Dexter the distiller",
+    "Elias the emcee",
+    "Victor the valued patron"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "safe"
+    ],
+    [
+      5,
+      "next",
+      "booth"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    18,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "onCount",
+      "booth",
+      1
+    ],
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

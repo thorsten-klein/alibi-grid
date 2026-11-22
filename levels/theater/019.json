@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b.b.....ca........bc......b..e.b.fb.e...ca...d...",
+  "roomNames": [
+    "Balcony",
+    "Foyer",
+    "Orchestra Pit",
+    "Stage",
+    "Prop Store"
+  ],
+  "people": [
+    "Ada the agent",
+    "Bruno the bass player",
+    "Viola the violinist",
+    "Cora the choreographer",
+    "Della the director",
+    "Elsa the electrician",
+    "Flora the fan"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "rack"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    20,
+    26,
+    28,
+    37,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      33,
+      40
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 25,
+  "group": 2
+}

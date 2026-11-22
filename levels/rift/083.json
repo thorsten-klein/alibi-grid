@@ -1,0 +1,125 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011222333222333444444",
+  "objects": "...e.a.......b..af...aa.......f....d",
+  "roomNames": [
+    "Bank",
+    "Burial Chamber",
+    "Great Hall",
+    "Hide Tent",
+    "Cave"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Basil the bard",
+    "Carl the chronicler",
+    "Dexter the drifter",
+    "Victor the voyager",
+    "Elsa the explorer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    19,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      25,
+      31
+    ],
+    [
+      29,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": ".......CLL..........................",
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

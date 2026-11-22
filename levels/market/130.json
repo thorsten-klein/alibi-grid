@@ -1,0 +1,176 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222333311222444444555444444555666644555666644555",
+  "objects": "c.e.....f.a.........de.f...cc..aff....b.a........b.b..f.a.d.f...ab.......ce...f..",
+  "roomNames": [
+    "Silk Stall",
+    "Lantern Bridge",
+    "Bell Tower",
+    "Dragon Boat",
+    "River Pagoda",
+    "Fireworks Barge",
+    "Fortune Teller"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the boatman",
+    "Victor the village magistrate",
+    "Carl the calligrapher",
+    "Dexter the drummer",
+    "Elias the embroiderer",
+    "Felix the firework master",
+    "Gus the gong striker",
+    "Hugo the herbalist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "next",
+      "gong"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    25,
+    30,
+    42,
+    53,
+    59,
+    65,
+    72
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "fireworks",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 26,
+  "extra": true
+}

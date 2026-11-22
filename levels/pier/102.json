@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "....cb....f.dfad....f.f.....a..f...b.....e..e.a..",
+  "roomNames": [
+    "Coaster Shed",
+    "Hall of Mirrors",
+    "Ferris Wheel Base",
+    "Maintenance Hut",
+    "Arcade Alley"
+  ],
+  "people": [
+    "Ada the arcade repairman",
+    "Bea the boardwalk walker",
+    "Clara the caretaker",
+    "Dora the drifter",
+    "Vera the vagrant",
+    "Edith the electrician",
+    "Freya the fortune teller"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "generator"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "claw"
+    ],
+    [
+      2,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    19,
+    27,
+    30,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

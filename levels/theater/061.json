@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "a...e.bc.ab...b.fd....bfd",
+  "roomNames": [
+    "Lighting Booth",
+    "Green Room",
+    "Orchestra Pit",
+    "Stage"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Bella the bass player",
+    "Vera the violinist",
+    "Celia the choreographer",
+    "Della the director"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "next",
+      "mirror"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

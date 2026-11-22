@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000112222000011222200001122220000112222333444555533344455553334445555333444666677777766667777776666",
+  "objects": "b...b.b.........b..f.d.a.c..fb......f.d.....b..a......b....f............aaa.b.........ee.e...a......",
+  "roomNames": [
+    "Corridor",
+    "Observation Car",
+    "Dining Car",
+    "Sleeper B",
+    "Bar Car",
+    "Lounge Car",
+    "Sleeper A",
+    "Baggage Car"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bea the bookseller",
+    "Cora the courier",
+    "Daisy the diplomat",
+    "Edgar the engineer",
+    "Flora the firefighter",
+    "Greta the guard",
+    "Hana the hairdresser",
+    "Ivy the inspector",
+    "Vince the vendor"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "wine"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      1
+    ],
+    [
+      7,
+      "next",
+      "bunk"
+    ],
+    [
+      8,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    18,
+    29,
+    35,
+    40,
+    52,
+    61,
+    77,
+    83,
+    96
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      72,
+      82
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      73,
+      83
+    ],
+    [
+      66,
+      76
+    ],
+    [
+      85,
+      86
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "onCount",
+      "bunk",
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 25,
+  "extra": true
+}

@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".f...db.....fa..fa.e.d.a.",
+  "roomNames": [
+    "Doctor Office",
+    "Pharmacy",
+    "Reception Hall",
+    "Morgue"
+  ],
+  "people": [
+    "Ada the attendant",
+    "Bea the bacteriologist",
+    "Vera the visiting superintendent",
+    "Clara the caregiver",
+    "Dora the dentist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      1,
+      "on",
+      "bed"
+    ],
+    [
+      2,
+      "next",
+      "wheelchair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "cart"
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    14,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      9,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "wheelchair",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

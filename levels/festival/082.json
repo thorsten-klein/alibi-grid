@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": ".....dce...c.a.a.a.....b..bbfedf...b",
+  "roomNames": [
+    "Guitar Tech Tent",
+    "Green Room",
+    "Campers Field",
+    "First Aid Tent",
+    "Port-a-Jon Alley"
+  ],
+  "people": [
+    "Arthur the artist agent",
+    "Basil the bodyguard",
+    "Cedric the cameraman",
+    "Vince the vocal coach",
+    "Dmitri the disc jockey",
+    "Edgar the event producer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "next",
+      "lighttower"
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    12,
+    22,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

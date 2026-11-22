@@ -1,0 +1,75 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a....c........e.",
+  "roomNames": [
+    "Kitchen",
+    "Throne Room",
+    "Stables"
+  ],
+  "people": [
+    "Vera the vintner",
+    "Ada the archer",
+    "Bella the baker",
+    "Celia the chronicler"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "kncc",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

@@ -1,0 +1,104 @@
+{
+  "size": 6,
+  "rooms": "001111001111000022000022330000330000",
+  "objects": "....b....bd......f....d..e..........",
+  "roomNames": [
+    "Open Sea",
+    "Longboat",
+    "Fort",
+    "Frigate"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Viola the vintner",
+    "Bea the barkeep",
+    "Cora the cook",
+    "Dexter the diver",
+    "Ena the explorer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "on",
+      "hammock"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "crate"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "map"
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    12,
+    23,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      10,
+      16
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "hammock",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

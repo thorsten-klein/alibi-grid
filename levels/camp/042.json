@@ -1,0 +1,77 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....ef....f...bb",
+  "roomNames": [
+    "River Bank",
+    "Flint Pit",
+    "Bone Yard"
+  ],
+  "people": [
+    "Victor the valley guide",
+    "Alma the artist",
+    "Basil the beekeeper",
+    "Carl the carver"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "trades"
+  ],
+  "trade": "3..0",
+  "tags": "...3............",
+  "hard": 2,
+  "hardest": 5,
+  "steps": 11,
+  "extra": true
+}

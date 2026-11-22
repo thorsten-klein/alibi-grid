@@ -1,0 +1,165 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333222222333224444333224444555556666555556666555556666",
+  "objects": "d.d..dec...a.ba.e....c...eaf...b......df...ba.e.b...bd..a......cdd...d..........e",
+  "roomNames": [
+    "Infirmary",
+    "Herb Garden",
+    "Scriptorium",
+    "Cloister Walk",
+    "Chapter House",
+    "Bell Tower",
+    "Dormitory"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Della the document copyist",
+    "Ena the elder brother",
+    "Flora the friar",
+    "Grace the glass painter",
+    "Hana the hospitaler",
+    "Vivian the vicar general"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "next",
+      "stall"
+    ],
+    [
+      3,
+      "next",
+      "bellrope"
+    ],
+    [
+      3,
+      "next",
+      "palliasse"
+    ],
+    [
+      4,
+      "next",
+      "bellrope"
+    ],
+    [
+      5,
+      "on",
+      "palliasse"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "lectern"
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    20,
+    30,
+    36,
+    52,
+    59,
+    67,
+    78
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "lectern",
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 41,
+  "extra": true
+}

@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222233333222233333444555666444555666444555666444555666",
+  "objects": "...b..ed...f..ec...d.a.e...a.b.....a........b....b.ac..abe..cc.......a..........c",
+  "roomNames": [
+    "Tiki Bar",
+    "Staff Quarters",
+    "Coconut Grove",
+    "Overwater Bungalow",
+    "Infinity Pool",
+    "Reception Lobby",
+    "Spa Pavilion"
+  ],
+  "people": [
+    "Arthur the animator",
+    "Vince the vip influencer",
+    "Basil the boat captain",
+    "Cedric the chef",
+    "Dmitri the disc jockey",
+    "Edgar the entertainer",
+    "Frank the fire dancer",
+    "Gideon the golf pro",
+    "Henrik the housekeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "idol"
+    ],
+    [
+      2,
+      "on",
+      "towel"
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "next",
+      "hammock"
+    ],
+    [
+      4,
+      "notRoom",
+      5
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "hammock"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "surfboard"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    8,
+    13,
+    21,
+    28,
+    42,
+    45,
+    56,
+    68,
+    79
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "onCount",
+      "towel",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

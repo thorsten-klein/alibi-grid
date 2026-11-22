@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".........f......e.b......",
+  "roomNames": [
+    "Med Bay",
+    "Mess Hall",
+    "Lab",
+    "Engine Room"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Bella the botanist",
+    "Viola the volunteer",
+    "Cora the chemist",
+    "Dmitri the driller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    10,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

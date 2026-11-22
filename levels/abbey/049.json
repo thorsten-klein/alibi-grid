@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "c.d.......a.f...",
+  "roomNames": [
+    "Abbey Church",
+    "Scriptorium",
+    "Infirmary"
+  ],
+  "people": [
+    "Albert the almoner",
+    "Victor the vicar general",
+    "Bruno the brewer",
+    "Carl the cantor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "lectern"
+    ],
+    [
+      2,
+      "next",
+      "bellrope"
+    ],
+    [
+      3,
+      "next",
+      "stall"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

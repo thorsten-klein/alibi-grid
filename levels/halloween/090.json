@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333444333444",
+  "objects": "b.cdc.d..c..........d...a.....a.d...",
+  "roomNames": [
+    "Cellar Maze",
+    "Haunted Conservatory",
+    "Black Cat Alley",
+    "Apple Bobbing Hall",
+    "Spider Attic"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Bruno the black cat breeder",
+    "Victor the veteran manor heir",
+    "Carl the costume designer",
+    "Dexter the diviner",
+    "Elias the embalmer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "swing"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      3,
+      "next",
+      "tombstone"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    16,
+    21,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

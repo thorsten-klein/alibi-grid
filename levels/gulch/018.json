@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112334444423344444233444442335555523355555",
+  "objects": "..e..c.ee...c.e.e..e..f.cf......e........c...ede..a...f...a.....",
+  "roomNames": [
+    "Jail",
+    "Corral",
+    "Mine",
+    "Bank",
+    "Saloon",
+    "Hotel"
+  ],
+  "people": [
+    "Ada the auctioneer",
+    "Birgit the blacksmith",
+    "Cedric the cattle driver",
+    "Victor the vet",
+    "Dexter the deputy",
+    "Ena the editor",
+    "Flora the farrier",
+    "Gwen the gambler"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "cactus"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "horse"
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      7,
+      "withBandit"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    17,
+    28,
+    38,
+    42,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      46,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 21,
+  "group": 2
+}

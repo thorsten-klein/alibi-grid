@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "....e......d.c.....a..fa.",
+  "roomNames": [
+    "Dragon Boat",
+    "Tea Pavilion",
+    "Fortune Teller",
+    "Fireworks Barge"
+  ],
+  "people": [
+    "Vivian the visiting noble",
+    "Astrid the astrologer",
+    "Birgit the bamboo carver",
+    "Celia the cook",
+    "Della the dancer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "l"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "fireworks",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

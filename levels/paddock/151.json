@@ -1,0 +1,220 @@
+{
+  "size": 11,
+  "rooms": "0000111111100001111111000011111112222333444422223334444222233344442222333444455566677777555666777775556667777755566677777",
+  "objects": "f.eec.........d.faeb...eff...e...d.ba............f..a..b.......f.a...b...ee.c.....ac..aa.e..da.d.......d..e......b...cd..",
+  "roomNames": [
+    "Team Garage A",
+    "Paddock Walkway",
+    "Fuel Storage",
+    "Pit Lane",
+    "Media Center",
+    "Drivers Lounge",
+    "Hospitality Suite",
+    "Telemetry Room"
+  ],
+  "people": [
+    "Albert the apprentice",
+    "Bruno the broadcast commentator",
+    "Carl the crew chief",
+    "Dexter the data telemetry lead",
+    "Elias the electrician",
+    "Victor the vip team owner",
+    "Felix the flag marshal",
+    "Gus the grid coordinator",
+    "Hugo the hospitality host",
+    "Igor the international steward",
+    "Jasper the jack operator"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "fuelrig"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bucket"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "chassis"
+    ],
+    [
+      8,
+      "col",
+      0
+    ],
+    [
+      9,
+      "same",
+      8
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "room",
+      6
+    ]
+  ],
+  "solution": [
+    10,
+    15,
+    30,
+    39,
+    53,
+    58,
+    67,
+    84,
+    88,
+    101,
+    115
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      33
+    ],
+    [
+      27,
+      38
+    ],
+    [
+      31,
+      42
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      69,
+      80
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      104,
+      105
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      21,
+      "r"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      116,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 26,
+  "extra": true
+}

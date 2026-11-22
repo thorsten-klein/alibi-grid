@@ -1,0 +1,226 @@
+{
+  "size": 12,
+  "rooms": "001122222222001122222222001122222222001133344444001133344444001133344444001133344444555666677777555666677777555666688888555666688888555666688888",
+  "objects": "...c...e...bdb.......e..f.b.......da....b.....a........bac......cf.e..bf...d........d..c........a.......f.ed......e..cc..bd.....b.b..c.b....f.bd",
+  "roomNames": [
+    "Atrium Fountain",
+    "Photo Studio",
+    "Department Store",
+    "Security Office",
+    "Cinema Lobby",
+    "Service Corridors",
+    "Food Court",
+    "Escalator Hub",
+    "Arcade"
+  ],
+  "people": [
+    "Arthur the arcade manager",
+    "Basil the barista",
+    "Cedric the cinema projectionist",
+    "Dmitri the department manager",
+    "Edgar the escalator mechanic",
+    "Vince the veteran mall owner",
+    "Frank the fry cook",
+    "Gideon the greeter",
+    "Henrik the hair stylist",
+    "Ivo the ice cream scooper",
+    "Jonas the janitor",
+    "Konrad the key cutter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "gate"
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "fountain"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      6,
+      "next",
+      "gate"
+    ],
+    [
+      7,
+      "next",
+      "gumball"
+    ],
+    [
+      8,
+      "next",
+      "mannequin"
+    ],
+    [
+      8,
+      "next",
+      "gate"
+    ],
+    [
+      9,
+      "same",
+      11
+    ],
+    [
+      10,
+      "next",
+      "gumball"
+    ],
+    [
+      10,
+      "next",
+      "photobench"
+    ],
+    [
+      11,
+      "next",
+      "gumball"
+    ],
+    [
+      11,
+      "next",
+      "fountain"
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    32,
+    40,
+    53,
+    70,
+    79,
+    85,
+    105,
+    108,
+    131,
+    134
+  ],
+  "doors": [
+    [
+      73,
+      74
+    ],
+    [
+      73,
+      85
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      29,
+      41
+    ],
+    [
+      31,
+      43
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      77,
+      89
+    ],
+    [
+      83,
+      95
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      105,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      83,
+      "r"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      143,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "mannequin",
+      3
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 35,
+  "extra": true
+}

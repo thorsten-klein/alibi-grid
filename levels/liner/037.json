@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "..cba.f...e.ae.b",
+  "roomNames": [
+    "First Class Lounge",
+    "Promenade Deck",
+    "Boiler Room"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Vince the voyage sponsor",
+    "Basil the boatswain",
+    "Cedric the captain"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "telegraph"
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "deckchair",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "extra": true
+}

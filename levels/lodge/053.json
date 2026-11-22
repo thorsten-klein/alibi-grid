@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "...a.c...a...a..",
+  "roomNames": [
+    "Bar",
+    "Sauna",
+    "Lobby"
+  ],
+  "people": [
+    "Ada the athlete",
+    "Vera the vet",
+    "Birgit the baker",
+    "Clara the cook"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    4,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "chair",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 11,
+  "extra": true
+}

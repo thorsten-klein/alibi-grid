@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000111000111223333223333224444224444",
+  "objects": ".....f.cbb...a..fb...f...f..f.c...aa",
+  "roomNames": [
+    "Starboard Gondola",
+    "Promenade Deck",
+    "Cargo Hold",
+    "Smoking Lounge",
+    "Stateroom Alpha"
+  ],
+  "people": [
+    "Astrid the aeronaut",
+    "Birgit the barman",
+    "Celia the captain",
+    "Vivian the vessel inventor",
+    "Della the dirigible pilot",
+    "Ena the engine mechanic"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "on",
+      "berth"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "armchair"
+    ],
+    [
+      5,
+      "on",
+      "armchair"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    18,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      20,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "onCount",
+      "berth",
+      1
+    ],
+    [
+      "furniture",
+      null,
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "group": 2
+}

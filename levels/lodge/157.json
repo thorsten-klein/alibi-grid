@@ -1,0 +1,238 @@
+{
+  "size": 12,
+  "rooms": "000111223333000111223333000111223333000111224444000111224444000111224444000111224444555666677777555666677777555666688888555666688888555666688888",
+  "objects": ".....b.............b..b.c.d.be.....f..f.....ba.....d..ab...a.d.a..db..a.fb.d..f..e.f..c.cb.f..d.e.bf.a........a..ab..e...b........ad.af.b.f.a.b.",
+  "roomNames": [
+    "Games Room",
+    "Suite",
+    "Sauna",
+    "Dining Hall",
+    "Lobby",
+    "Kitchen",
+    "Spa",
+    "Bar",
+    "Terrace"
+  ],
+  "people": [
+    "Albert the avalanche guard",
+    "Basil the baker",
+    "Celia the climber",
+    "Dmitri the driver",
+    "Elias the explorer",
+    "Freya the fisher",
+    "Gus the glacier expert",
+    "Hana the hotelier",
+    "Ivo the instructor",
+    "Vince the vlogger",
+    "Juno the jogger",
+    "Kitty the kayaker"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      5
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "wood"
+    ],
+    [
+      8,
+      "on",
+      "chair"
+    ],
+    [
+      9,
+      "on",
+      "chair"
+    ],
+    [
+      10,
+      "same",
+      8
+    ],
+    [
+      10,
+      "door"
+    ],
+    [
+      11,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    11,
+    16,
+    30,
+    45,
+    49,
+    67,
+    82,
+    92,
+    101,
+    110,
+    123,
+    132
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      73,
+      85
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      77,
+      89
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      103,
+      115
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      95,
+      "r"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      120,
+      "l"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 8,
+  "steps": 29,
+  "extra": true
+}

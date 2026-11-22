@@ -1,0 +1,183 @@
+{
+  "size": 10,
+  "rooms": "0011122222001112222200111222220000333333000033333344444455554444445555666644555566664477776666447777",
+  "objects": "...............c....b....fd......c....ae..e...b....e......dd.....f.eea.de..c...fa.cf.f.d...c...b..d.",
+  "roomNames": [
+    "Showgirl Dressing Room",
+    "Kitchen",
+    "Cocktail Bar",
+    "Rooftop Pool",
+    "Cashier Cage",
+    "Penthouse Suite",
+    "Valet Booth",
+    "The Vault"
+  ],
+  "people": [
+    "Astrid the armored driver",
+    "Birgit the bartender",
+    "Celia the casino manager",
+    "Della the dancer",
+    "Ena the electrician",
+    "Flora the fixer",
+    "Grace the guard",
+    "Hana the hostess",
+    "Vivian the vegas mogul",
+    "Isla the illusionist"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "wheel"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "slots"
+    ],
+    [
+      3,
+      "next",
+      "chaise"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      6,
+      "notRoom",
+      2
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      7,
+      "next",
+      "wheel"
+    ],
+    [
+      8,
+      "next",
+      "wheel"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    19,
+    27,
+    36,
+    48,
+    52,
+    63,
+    74,
+    81,
+    90
+  ],
+  "doors": [
+    [
+      22,
+      32
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      34
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      79,
+      89
+    ]
+  ],
+  "windows": [
+    [
+      50,
+      "l"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      94,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "hard": 7,
+  "hardest": 9,
+  "steps": 30,
+  "extra": true
+}

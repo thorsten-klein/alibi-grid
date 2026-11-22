@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "...e.....a..ec.......c..b.b...fbdb...d.c.....aa..",
+  "roomNames": [
+    "Food Court",
+    "Arcade",
+    "Skate Shop",
+    "Security Office",
+    "Record Store"
+  ],
+  "people": [
+    "Victor the veteran mall owner",
+    "Albert the arcade manager",
+    "Bruno the barista",
+    "Carl the cinema projectionist",
+    "Dexter the department manager",
+    "Elias the escalator mechanic",
+    "Felix the fry cook"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "fountain"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "fountain"
+    ],
+    [
+      4,
+      "on",
+      "photobench"
+    ],
+    [
+      4,
+      "next",
+      "gumball"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "next",
+      "gumball"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    20,
+    22,
+    33,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "fountain",
+      2
+    ],
+    [
+      "nextCount",
+      "plasticchair",
+      1
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 22,
+  "group": 2
+}

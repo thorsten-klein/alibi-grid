@@ -1,0 +1,177 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222222111222222111333445555333445555333445555333446666333446666",
+  "objects": "bc......cf...f.d.....ae.c.e...e...ac.ef.b.....dd.e...fb..............da.....ac..c",
+  "roomNames": [
+    "Study",
+    "Cellar",
+    "Billiard Room",
+    "Gallery",
+    "Library",
+    "Hall",
+    "Ballroom"
+  ],
+  "people": [
+    "Astrid the author",
+    "Birgit the butler",
+    "Cedric the cook",
+    "Dora the dealer",
+    "Edith the editor",
+    "Vera the vicar",
+    "Felix the florist",
+    "Grace the guest",
+    "Hazel the housekeeper"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "clock"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "on",
+      "chair"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    27,
+    44,
+    51,
+    57,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      22
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      62,
+      71
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 28,
+  "group": 1
+}

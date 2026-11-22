@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "e..a..a.....b....a.d..e..",
+  "roomNames": [
+    "Philosopher Garden",
+    "Archivist Sanctum",
+    "Courtyard Fountain",
+    "Scribes Hall"
+  ],
+  "people": [
+    "Alma the archivist",
+    "Bella the bookbinder",
+    "Viola the veteran sage",
+    "Cora the cartographer",
+    "Daisy the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bust"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bust"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "mat",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

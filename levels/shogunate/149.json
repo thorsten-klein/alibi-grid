@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111333344455533334445553333444555333344455566667777776666777777",
+  "objects": "a.d.e..f.....cd..ed.b.........a....fabd.b.b...b.....a...e..dc.....bb..f.fdaa......e.d.....a.b..f..d.",
+  "roomNames": [
+    "Kitchen",
+    "Sentry Tower",
+    "Daimyo Hall",
+    "Zen Garden",
+    "Armory",
+    "Tea Ceremony Room",
+    "Stables",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Albert the artisan",
+    "Bruno the bowyer",
+    "Carl the cook",
+    "Dexter the drummer",
+    "Elias the embroiderer",
+    "Victor the visiting monk",
+    "Felix the foot soldier",
+    "Gus the guard",
+    "Hugo the herbalist",
+    "Igor the iron smith"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "bonsai"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "shoji"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "next",
+      "futon"
+    ],
+    [
+      5,
+      "next",
+      "armor"
+    ],
+    [
+      6,
+      "next",
+      "taiko"
+    ],
+    [
+      7,
+      "on",
+      "tatami"
+    ],
+    [
+      8,
+      "notRoom",
+      1
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "same",
+      8
+    ],
+    [
+      9,
+      "next",
+      "shoji"
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    28,
+    33,
+    47,
+    50,
+    62,
+    74,
+    86,
+    99
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ]
+  ],
+  "tries": 21,
+  "facts": [
+    [
+      "nextCount",
+      "armor",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "bonsai",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 43,
+  "extra": true
+}

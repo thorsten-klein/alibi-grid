@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222222222333444444333444444333555666333555666333555666333555666",
+  "objects": "dbf.e..a....ff.......................d...c..cc..b.b.f..ef......b.cc......e....d.f",
+  "roomNames": [
+    "Telemetry Room",
+    "Drivers Lounge",
+    "Pit Lane",
+    "Paddock Walkway",
+    "Fuel Storage",
+    "VIP Balcony",
+    "Scrutineering Shed"
+  ],
+  "people": [
+    "Astrid the aerodynamicist",
+    "Birgit the brake tech",
+    "Celia the chief mechanic",
+    "Della the driver",
+    "Ena the engine tuner",
+    "Flora the fuel specialist",
+    "Grace the gearbox tech",
+    "Vivian the veteran champion",
+    "Hana the head of team"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "toolbox"
+    ],
+    [
+      1,
+      "next",
+      "bucket"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chassis"
+    ],
+    [
+      4,
+      "next",
+      "chassis"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "next",
+      "chassis"
+    ],
+    [
+      7,
+      "on",
+      "sofa"
+    ],
+    [
+      8,
+      "next",
+      "fuelrig"
+    ]
+  ],
+  "solution": [
+    1,
+    16,
+    22,
+    35,
+    42,
+    50,
+    57,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "toolbox",
+      1
+    ]
+  ],
+  "hard": 11,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

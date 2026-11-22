@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "da.........c....f.f.b.b.c...de......",
+  "roomNames": [
+    "Cashier Cage",
+    "Showgirl Dressing Room",
+    "High Roller Lounge",
+    "Cocktail Bar",
+    "Rooftop Pool"
+  ],
+  "people": [
+    "Albert the accountant",
+    "Bruno the baccarat dealer",
+    "Carl the croupier",
+    "Dexter the dice inspector",
+    "Elias the entertainer",
+    "Victor the vip gambler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "wheel"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "wheel"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "wheel"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,215 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111333344441113333444411133334444111333355555666777555556667775555566677755555666777",
+  "objects": ".....ac...cf...e...fc..c...c..f...a.e............a.b.b..b.c....fbdbb.e....cce....c.a.c.....a.....f.e.........ca.f....c...",
+  "roomNames": [
+    "Assay Office",
+    "Main Drift",
+    "Water Sump",
+    "Smelting Oven",
+    "Miners Mess",
+    "Mule Stables",
+    "Tool Crib",
+    "Deep Winze"
+  ],
+  "people": [
+    "Arthur the assayer",
+    "Basil the blacksmith",
+    "Cedric the cart driver",
+    "Dmitri the driller",
+    "Edgar the engineer",
+    "Frank the foreman",
+    "Gideon the geologist",
+    "Henrik the hoistman",
+    "Ivo the inspector",
+    "Jonas the jackhammer man",
+    "Vince the vein claimant"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "orecart"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "orecart"
+    ],
+    [
+      2,
+      "next",
+      "orecart"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "drill"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "same",
+      1
+    ],
+    [
+      7,
+      "next",
+      "keg"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "drill"
+    ],
+    [
+      9,
+      "next",
+      "dynamite"
+    ],
+    [
+      10,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    9,
+    17,
+    24,
+    40,
+    52,
+    55,
+    70,
+    82,
+    98,
+    100,
+    113
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      75,
+      86
+    ],
+    [
+      66,
+      77
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      65,
+      "r"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      118,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 10,
+  "hardest": 8,
+  "steps": 39,
+  "extra": true
+}

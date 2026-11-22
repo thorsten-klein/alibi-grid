@@ -1,0 +1,162 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233444555334445553344455533444555",
+  "objects": "....f..e...cef....c...eeccc....da..d........a...f....d.c.c......",
+  "roomNames": [
+    "Bank",
+    "Jail",
+    "Sheriff Office",
+    "Livery",
+    "Hotel",
+    "Telegraph Office"
+  ],
+  "people": [
+    "Albert the auctioneer",
+    "Bruno the banker",
+    "Viola the vaquero",
+    "Celia the cook",
+    "Dora the deputy",
+    "Elias the engineer",
+    "Flora the farmer",
+    "Gwen the gambler"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      3,
+      "notRoom",
+      5
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    17,
+    29,
+    32,
+    46,
+    52,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    5
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 19,
+  "group": 1
+}

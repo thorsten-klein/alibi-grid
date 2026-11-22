@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333222444222444",
+  "objects": "bcb.a.a......b..fda.d...de......d...",
+  "roomNames": [
+    "Galley",
+    "Sleeper A",
+    "Sleeper B",
+    "Guard's Van",
+    "Sleeper C"
+  ],
+  "people": [
+    "Vera the vendor",
+    "Arthur the attendant",
+    "Bea the banker",
+    "Cedric the conductor",
+    "Dmitri the dentist",
+    "Ena the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "crate"
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    13,
+    22,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "group": 1
+}

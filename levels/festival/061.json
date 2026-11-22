@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "f.....b......bb..f.e...f.",
+  "roomNames": [
+    "Green Room",
+    "Backstage VIP",
+    "Merch Pavilion",
+    "Beer Garden"
+  ],
+  "people": [
+    "Alma the audio engineer",
+    "Bella the bass player",
+    "Cora the crew chief",
+    "Daisy the drummer",
+    "Viola the vip record exec"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "lighttower"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

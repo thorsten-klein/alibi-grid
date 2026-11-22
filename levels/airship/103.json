@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022223332222333444433344443334444",
+  "objects": ".bafe.....c..f...faf...c.b....d.cf...fab....f....",
+  "roomNames": [
+    "Promenade Deck",
+    "Port Engine Gondola",
+    "Galley",
+    "Dining Saloon",
+    "Stateroom Alpha"
+  ],
+  "people": [
+    "Albert the aeronaut",
+    "Bruno the barman",
+    "Carl the captain",
+    "Dexter the dirigible pilot",
+    "Victor the vessel inventor",
+    "Elias the engine mechanic",
+    "Felix the first officer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "armchair"
+    ],
+    [
+      1,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "on",
+      "berth"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    25,
+    31,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

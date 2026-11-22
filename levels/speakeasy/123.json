@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233334455333344553333445533334455",
+  "objects": "...a..............a.dbb......b..be.c.cdea.f..b.....d.dbf...d.f.a",
+  "roomNames": [
+    "Jazz Stage",
+    "VIP Poker Den",
+    "Coat Check",
+    "Manager Office",
+    "Cold Storage",
+    "Distillery"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bella the bartender",
+    "Cora the crooner",
+    "Daisy the drummer",
+    "Elsa the enforcer",
+    "Viola the voice of syndicate",
+    "Fiona the flapper",
+    "Gwen the gangster"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "booth"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sax"
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      6,
+      "col",
+      1
+    ],
+    [
+      7,
+      "next",
+      "booth"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    18,
+    29,
+    36,
+    47,
+    49,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 25,
+  "extra": true
+}

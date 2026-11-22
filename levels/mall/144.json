@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011112222333333444433333344445556667777555666777755566677775556667777",
+  "objects": "...a....c..d...ae...c.be........ea.a..........aa..b.aadbbbaecac.......f..e....a.a..d....a...b.f..c..",
+  "roomNames": [
+    "Food Court",
+    "Skate Shop",
+    "Photo Studio",
+    "Arcade",
+    "Toy Emporium",
+    "Department Store",
+    "Security Office",
+    "Service Corridors"
+  ],
+  "people": [
+    "Arthur the arcade manager",
+    "Vince the veteran mall owner",
+    "Basil the barista",
+    "Cedric the cinema projectionist",
+    "Dmitri the department manager",
+    "Edgar the escalator mechanic",
+    "Frank the fry cook",
+    "Gideon the greeter",
+    "Henrik the hair stylist",
+    "Ivo the ice cream scooper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "fountain"
+    ],
+    [
+      1,
+      "next",
+      "gate"
+    ],
+    [
+      1,
+      "col",
+      7
+    ],
+    [
+      2,
+      "next",
+      "plasticchair"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "gate"
+    ],
+    [
+      4,
+      "next",
+      "plasticchair"
+    ],
+    [
+      5,
+      "on",
+      "photobench"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "room",
+      7
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "on",
+      "photobench"
+    ]
+  ],
+  "solution": [
+    9,
+    17,
+    25,
+    33,
+    48,
+    50,
+    64,
+    76,
+    81,
+    92
+  ],
+  "doors": [
+    [
+      31,
+      32
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "onCount",
+      "plasticchair",
+      1
+    ],
+    [
+      "nextCount",
+      "mannequin",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 4,
+  "steps": 48,
+  "extra": true
+}

@@ -1,0 +1,191 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333344444555664444455566444445556677777555667777755566",
+  "objects": "....ba.c.e.....f.f.a.b..cb.ced..acc..d....f...e.a.c...f...da....................b...ef.f......a..b.b",
+  "roomNames": [
+    "Opium Den",
+    "Police Desk",
+    "Pub Taproom",
+    "Parlor Study",
+    "Pawn Shop",
+    "Thames Wharf",
+    "Apothecary",
+    "Cobblestone Alley"
+  ],
+  "people": [
+    "Astrid the apothecary",
+    "Birgit the blackmailer",
+    "Celia the constable",
+    "Della the detective",
+    "Ena the engraver",
+    "Flora the forger",
+    "Grace the gentlemen valet",
+    "Hana the hansom cabbie",
+    "Isla the informer",
+    "Vivian the victim of nobility"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "fireplace"
+    ],
+    [
+      1,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      4,
+      "next",
+      "fireplace"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "armchair"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "kiosk"
+    ]
+  ],
+  "solution": [
+    3,
+    18,
+    22,
+    31,
+    45,
+    59,
+    66,
+    74,
+    80,
+    97
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      32
+    ],
+    [
+      27,
+      37
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "fireplace",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 28,
+  "group": 0
+}

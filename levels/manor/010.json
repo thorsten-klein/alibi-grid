@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".......bb.d...b.....fa.a...b...d.f.....ea....a...",
+  "roomNames": [
+    "Ballroom",
+    "Pantry",
+    "Chapel",
+    "Gallery",
+    "Kitchen"
+  ],
+  "people": [
+    "Arthur the author",
+    "Bella the butler",
+    "Vince the valet",
+    "Clara the colonel",
+    "Dora the doctor",
+    "Elias the envoy",
+    "Felix the florist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "plant"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    16,
+    24,
+    32,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 21,
+  "group": 1
+}

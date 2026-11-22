@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": ".e..b...f..ce.ccb....a....ba.f.a.e.e..e..e.aabec............aa..",
+  "roomNames": [
+    "Cargo Bay",
+    "Airlock",
+    "Hydroponics",
+    "Lab",
+    "Comms",
+    "Bridge"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Basil the biologist",
+    "Carl the captain",
+    "Dexter the doctor",
+    "Ena the engineer",
+    "Freya the flight officer",
+    "Victor the volunteer",
+    "Gideon the gunner"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "plant"
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    17,
+    30,
+    36,
+    45,
+    51,
+    63
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      3
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

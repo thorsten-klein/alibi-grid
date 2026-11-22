@@ -1,0 +1,164 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222211112222333322223333444455554444555544445555",
+  "objects": ".a.........f.de...c.e..c.....d.........d......c..db.e....b..f..b",
+  "roomNames": [
+    "Cave",
+    "Saloon",
+    "Fire Pit",
+    "Great Hall",
+    "Hide Tent",
+    "Throne Room"
+  ],
+  "people": [
+    "Astrid the archivist",
+    "Birgit the bard",
+    "Cedric the chronicler",
+    "Dora the dreamer",
+    "Vince the visionary",
+    "Ena the engineer",
+    "Flora the falconer",
+    "Gus the guardian"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "boulder"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "door"
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    17,
+    30,
+    34,
+    44,
+    53,
+    59
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": "..4..11.",
+  "tags": ".....1..........0...................1.......1...0..0.1..........",
+  "bandits": 2,
+  "lawful": [
+    1
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

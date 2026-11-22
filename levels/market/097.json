@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "d..b.....efd....b..c.........a......b.....a.add..",
+  "roomNames": [
+    "Tea Pavilion",
+    "Shadow Stage",
+    "Dragon Boat",
+    "River Pagoda",
+    "Noodle Court"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Vince the visiting noble",
+    "Basil the bamboo carver",
+    "Cedric the cook",
+    "Dmitri the dancer",
+    "Edgar the elder",
+    "Frank the fan painter"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "gong"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "next",
+      "fireworks"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    33,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "cushion",
+      1
+    ],
+    [
+      "nextCount",
+      "lantern",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333334444433333444445556677744555667774455566777445556677744",
+  "objects": "..b....d...dd..ed......d...ddf.be...a.....d......aa..f.a..b.a....d..a....a...............cceb...a.c.",
+  "roomNames": [
+    "Vet Clinic",
+    "Grandstand Terrace",
+    "Paddock Ring",
+    "Betting Ring",
+    "Stables",
+    "Winner Enclosure",
+    "Members Bar",
+    "Weighing Room"
+  ],
+  "people": [
+    "Ada the apprentice jockey",
+    "Bea the bookmaker",
+    "Clara the champion jockey",
+    "Dora the derby steward",
+    "Vera the veteran horse owner",
+    "Edith the equine therapist",
+    "Freya the farrier",
+    "Greta the groom",
+    "Hilda the horse trainer",
+    "Ivy the inspector"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "trophy"
+    ],
+    [
+      2,
+      "next",
+      "stablebench"
+    ],
+    [
+      3,
+      "next",
+      "trophy"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "stablebench"
+    ],
+    [
+      6,
+      "next",
+      "trophy"
+    ],
+    [
+      7,
+      "next",
+      "trophy"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "turfchair"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "on",
+      "stablebench"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    21,
+    38,
+    49,
+    57,
+    66,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

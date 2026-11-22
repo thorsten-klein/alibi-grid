@@ -1,0 +1,228 @@
+{
+  "size": 12,
+  "rooms": "001111222333001111222333001111222333004444222333004444222333555555666666555555666666555555666666777777888888777777888888777777888888777777888888",
+  "objects": ".e.d...de.a.....e..c.a..b............e.de...c.a..ea..af..ecb...a.f.bac..............b....f...............f......def..a.b...........a............",
+  "roomNames": [
+    "Solar",
+    "Chapel",
+    "Throne Room",
+    "Kitchen",
+    "Tower",
+    "Stables",
+    "Great Hall",
+    "Dungeon",
+    "Courtyard"
+  ],
+  "people": [
+    "Albert the alchemist",
+    "Bella the bard",
+    "Clara the cupbearer",
+    "Dexter the doorkeeper",
+    "Elsa the envoy",
+    "Vivian the vintner",
+    "Freya the farrier",
+    "Gus the groom",
+    "Henrik the herbalist",
+    "Ivo the illuminator",
+    "Jutta the jester",
+    "Klaus the keykeeper"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "candles"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "swords"
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "next",
+      "swords"
+    ],
+    [
+      9,
+      "next",
+      "candles"
+    ],
+    [
+      10,
+      "same",
+      8
+    ],
+    [
+      11,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    23,
+    34,
+    45,
+    56,
+    64,
+    72,
+    90,
+    101,
+    111,
+    121,
+    139
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      49,
+      61
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      26,
+      38
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      54,
+      66
+    ],
+    [
+      57,
+      69
+    ],
+    [
+      52,
+      64
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      86,
+      98
+    ],
+    [
+      93,
+      105
+    ],
+    [
+      137,
+      138
+    ]
+  ],
+  "windows": [
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      119,
+      "r"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      1
+    ],
+    [
+      "touch",
+      null,
+      2
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    2,
+    3,
+    7
+  ],
+  "rank": "cnnnnccknnnk",
+  "hard": 14,
+  "hardest": 9,
+  "steps": 34,
+  "extra": true
+}

@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333333333333334444444",
+  "objects": "....ac...f.ef.bfb...b...aea...e.a....ad.....afbfa",
+  "roomNames": [
+    "Dungeon",
+    "Smithy",
+    "Great Hall",
+    "Courtyard",
+    "Stables"
+  ],
+  "people": [
+    "Alma the archer",
+    "Basil the bard",
+    "Clara the chronicler",
+    "Daisy the dancer",
+    "Vivian the verger",
+    "Elsa the embroiderer",
+    "Felix the farrier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "next",
+      "swords"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    19,
+    21,
+    31,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      37,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "kkkkccc",
+  "hard": 3,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

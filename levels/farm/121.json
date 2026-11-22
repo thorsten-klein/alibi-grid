@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233333333333333334444555544445555",
+  "objects": "fcfa.e.aea.bac......e......da...cc..e..b...b.c..b...d..a.dab..b.",
+  "roomNames": [
+    "Farmhouse Kitchen",
+    "Grain Silo",
+    "Big Barn",
+    "Tool Shed",
+    "Hayloft",
+    "Tractor Garage"
+  ],
+  "people": [
+    "Arthur the apple picker",
+    "Basil the beekeeper",
+    "Cedric the cattle rancher",
+    "Dmitri the dairy maid",
+    "Edgar the equipment operator",
+    "Vince the vineyard leaseholder",
+    "Frank the farmer",
+    "Gideon the grain miller"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "bale"
+    ],
+    [
+      1,
+      "on",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "churn"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      4,
+      "col",
+      2
+    ],
+    [
+      5,
+      "next",
+      "tractor"
+    ],
+    [
+      6,
+      "next",
+      "rocker"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "scarecrow"
+    ]
+  ],
+  "solution": [
+    7,
+    11,
+    16,
+    29,
+    34,
+    46,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "bale",
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

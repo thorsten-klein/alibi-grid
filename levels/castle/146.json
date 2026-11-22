@@ -1,0 +1,208 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000222223333322222333332222244445555554444555555444466666677776666667777666666",
+  "objects": "dbf....d..f....f...c....b...cd.....aab..b...ba...a....f......a..c..cb.c..........dbf.a......a.......",
+  "roomNames": [
+    "Kitchen",
+    "Dungeon",
+    "Tower",
+    "Chapel",
+    "Armory",
+    "Smithy",
+    "Throne Room",
+    "Great Hall"
+  ],
+  "people": [
+    "Albert the archer",
+    "Victor the vintner",
+    "Basil the baker",
+    "Cedric the chronicler",
+    "Dmitri the doorkeeper",
+    "Edith the envoy",
+    "Freya the farrier",
+    "Gideon the groom",
+    "Hazel the herbalist",
+    "Isla the innkeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "candles"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "on",
+      "bench"
+    ],
+    [
+      9,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    18,
+    20,
+    35,
+    47,
+    51,
+    69,
+    73,
+    84,
+    92
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      23,
+      33
+    ],
+    [
+      15,
+      25
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      41,
+      51
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ]
+  ],
+  "tries": 22,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "cot",
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    4
+  ],
+  "rank": "kkkcckcnkk",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 39,
+  "extra": true
+}

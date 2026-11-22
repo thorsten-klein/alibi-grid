@@ -1,0 +1,136 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": "...a.aeb.aa.....b...a.b....da......e.....ad.a.c..",
+  "roomNames": [
+    "Bone Yard",
+    "Hide Tent",
+    "Fire Pit",
+    "River Bank",
+    "Spring"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Birgit the builder",
+    "Carl the carrier",
+    "Vivian the valley guide",
+    "Dmitri the drummer",
+    "Edith the elk tamer",
+    "Felix the firekeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      4,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "notRoom",
+      1
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    20,
+    26,
+    31,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "log",
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".1.0.1.",
+  "tags": ".14.....1...............1........2....21.......2.",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

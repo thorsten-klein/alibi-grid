@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": ".....e......a..b",
+  "roomNames": [
+    "Scrutineering Shed",
+    "Team Garage B",
+    "Media Center"
+  ],
+  "people": [
+    "Albert the apprentice",
+    "Bruno the broadcast commentator",
+    "Carl the crew chief",
+    "Victor the vip team owner"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bucket",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

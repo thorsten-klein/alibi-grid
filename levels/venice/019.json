@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b.b.....ca........bc......b..e.b.fb.e...ca...d...",
+  "roomNames": [
+    "Servants Mezzanine",
+    "Wine Cellar",
+    "Casino Ridotto",
+    "Grand Ballroom",
+    "Private Boudoir"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Birgit the boat builder",
+    "Vivian the visiting merchant",
+    "Celia the carnival poet",
+    "Della the diplomat",
+    "Ena the embroiderer",
+    "Flora the falconer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "daybed"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "daybed"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "fountain"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    20,
+    26,
+    28,
+    37,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      33,
+      40
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 25,
+  "group": 2
+}

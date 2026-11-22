@@ -1,0 +1,155 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111002223344002223344002223344002223344000005555000005555000005555",
+  "objects": "..............f........c.c......ed........b......b...a......eb......bd.........a.",
+  "roomNames": [
+    "Sea of Ages",
+    "Cave",
+    "Jail",
+    "Bank",
+    "Fire Pit",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Bruno the bookbinder",
+    "Cedric the clockmaker",
+    "Dexter the drifter",
+    "Elias the engineer",
+    "Felix the falconer",
+    "Greta the gladiator",
+    "Vera the voyager",
+    "Hana the herald"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "on",
+      "log"
+    ],
+    [
+      8,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    21,
+    34,
+    40,
+    46,
+    54,
+    68,
+    78
+  ],
+  "doors": [
+    [
+      15,
+      24
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      52,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": ".....................C..................C..........L.............................",
+  "sea": 0,
+  "hard": 2,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

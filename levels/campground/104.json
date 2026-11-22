@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....b.a..a..f...b.....e....a.bd....fd.d.a...aa.ac",
+  "roomNames": [
+    "Bunkhouse Beta",
+    "Campfire Clearing",
+    "Arts Shed",
+    "Mess Hall",
+    "Shower Block"
+  ],
+  "people": [
+    "Alma the arts counselor",
+    "Viola the visitor",
+    "Bella the bugler",
+    "Cora the cook",
+    "Daisy the director",
+    "Elsa the eagle scout",
+    "Fiona the first aid counselor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "board"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    25,
+    28,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "board",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

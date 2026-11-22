@@ -1,0 +1,190 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001111112222333333222233333344444555554444455555444446666677777666667777766666",
+  "objects": "e.ca.......f.f......a.f...b...eb....be.e.bb...d.a..b.b....f.fc.a...ccaf..b..b..b...cad.af.f..b.cb.d.",
+  "roomNames": [
+    "Jazz Stage",
+    "VIP Poker Den",
+    "Coat Check",
+    "Private Booths",
+    "Manager Office",
+    "Tailor Front",
+    "Distillery",
+    "Main Lounge"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bella the bartender",
+    "Cora the crooner",
+    "Daisy the drummer",
+    "Viola the voice of syndicate",
+    "Elsa the enforcer",
+    "Fiona the flapper",
+    "Gwen the gangster",
+    "Hazel the horn player",
+    "Ines the informant"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "roulette"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "booth"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "next",
+      "safe"
+    ],
+    [
+      8,
+      "on",
+      "booth"
+    ],
+    [
+      9,
+      "next",
+      "sax"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    21,
+    35,
+    49,
+    52,
+    64,
+    78,
+    87,
+    96
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      28,
+      38
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      67,
+      77
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "booth",
+      4
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 37,
+  "extra": true
+}

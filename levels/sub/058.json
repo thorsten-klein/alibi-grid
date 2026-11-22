@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "aa..bb.....f...c...ee...b",
+  "roomNames": [
+    "Ballast Control",
+    "Observation Dome",
+    "Sonar Room",
+    "Torpedo Tube"
+  ],
+  "people": [
+    "Alma the acoustic analyst",
+    "Bella the biologist",
+    "Cora the chief diver",
+    "Daisy the doctor",
+    "Viola the vip expedition funder"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "freezer"
+    ],
+    [
+      3,
+      "next",
+      "valve"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    10,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      12,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

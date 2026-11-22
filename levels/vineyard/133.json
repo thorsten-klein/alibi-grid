@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111222233333222233333222244455222244455666644455666644455",
+  "objects": "..c..f.b....beb...fdb..c.a.b.c.bf......d..b.b.fcb....c.....e...a...cb....a....bc.",
+  "roomNames": [
+    "Tasting Salon",
+    "Oak Barrel Cellar",
+    "Fermentation Hall",
+    "Vineyard Plot",
+    "Manor Library",
+    "Wine Cave",
+    "Gatehouse"
+  ],
+  "people": [
+    "Alma the apprentice",
+    "Bella the bottler",
+    "Cora the cook",
+    "Daisy the driver",
+    "Elsa the enologist",
+    "Fiona the fermenter",
+    "Viola the vineyard owner",
+    "Gwen the groundskeeper",
+    "Hazel the hostess"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "on",
+      "bench"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "still"
+    ],
+    [
+      7,
+      "next",
+      "barrel"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    26,
+    27,
+    40,
+    51,
+    55,
+    70,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "..da.db.....a.....a.f.d..",
+  "roomNames": [
+    "Bell Tower",
+    "Fortune Teller",
+    "Shadow Stage",
+    "Dragon Boat"
+  ],
+  "people": [
+    "Victor the village magistrate",
+    "Albert the acrobat",
+    "Bruno the boatman",
+    "Carl the calligrapher",
+    "Dexter the drummer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 1,
+  "steps": 11,
+  "extra": true
+}

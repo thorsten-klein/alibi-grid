@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "b.c...a.a......b.c.f..a.c..fc.b.......b.d.c.a....",
+  "roomNames": [
+    "Translation Chamber",
+    "Courtyard Fountain",
+    "Observatory",
+    "Mosaic Gallery",
+    "Philosopher Garden"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Bella the botanist",
+    "Cora the chronicler",
+    "Viola the visiting philosopher",
+    "Daisy the dialectician",
+    "Elsa the epigrapher",
+    "Fiona the folklorist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "next",
+      "burner"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "mat"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    20,
+    26,
+    30,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "onCount",
+      "mat",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

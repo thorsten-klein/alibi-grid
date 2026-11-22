@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "..a..f..e.......",
+  "roomNames": [
+    "Ward B",
+    "Operating Theater",
+    "Pharmacy"
+  ],
+  "people": [
+    "Vince the victim of illness",
+    "Arthur the anesthetist",
+    "Basil the biochemist",
+    "Cedric the chief surgeon"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "xray"
+    ],
+    [
+      3,
+      "row",
+      3
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "wheelchair",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 10,
+  "group": 0
+}

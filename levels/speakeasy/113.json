@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000002223333322233333222444455554444555544445555",
+  "objects": "b.ba..d.ba..d...a.a...d.bfea...bea........b..c.fef.....db...e...",
+  "roomNames": [
+    "Cold Storage",
+    "Manager Office",
+    "Tailor Front",
+    "Coat Check",
+    "Safe Room",
+    "Main Lounge"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bella the bartender",
+    "Viola the voice of syndicate",
+    "Cora the crooner",
+    "Daisy the drummer",
+    "Elsa the enforcer",
+    "Fiona the flapper",
+    "Gwen the gangster"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      0,
+      "next",
+      "booth"
+    ],
+    [
+      1,
+      "next",
+      "cask"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "next",
+      "booth"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "roulette"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "sax"
+    ],
+    [
+      7,
+      "next",
+      "cask"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    19,
+    28,
+    33,
+    40,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

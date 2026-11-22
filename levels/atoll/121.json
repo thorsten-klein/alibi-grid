@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223333322233333222444445554444455544444555",
+  "objects": "b..de.a.d....f...f.b.a.........f..bbd..b..b....ddb.d.......c....",
+  "roomNames": [
+    "Open Beach",
+    "Coral Lagoon",
+    "Spa Pavilion",
+    "Overwater Bungalow",
+    "Luau Grounds",
+    "Tiki Bar"
+  ],
+  "people": [
+    "Vivian the vip influencer",
+    "Astrid the animator",
+    "Birgit the boat captain",
+    "Celia the chef",
+    "Della the disc jockey",
+    "Ena the entertainer",
+    "Flora the fire dancer",
+    "Grace the golf pro"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "hammock"
+    ],
+    [
+      1,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "idol"
+    ],
+    [
+      5,
+      "next",
+      "idol"
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "surfboard"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    21,
+    26,
+    35,
+    46,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "hammock",
+      2
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,204 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222333334444433333444445555555555555555555566666666667777777777",
+  "objects": ".f....df......e....b..cb............d.......d.ba.......fa.a.aa.b.a.c.....b..........e.d..fcdc.ab..ba",
+  "roomNames": [
+    "Workshop",
+    "Scribe Room",
+    "Sun Court",
+    "Statue Hall",
+    "Boat Pit",
+    "Granary",
+    "Well Shaft",
+    "Shrine"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the boat builder",
+    "Cedric the chanter",
+    "Dora the diviner",
+    "Vera the vintner",
+    "Edith the embalmer",
+    "Flora the fisher",
+    "Grace the guard",
+    "Hugo the herder",
+    "Igor the incense maker"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "jar"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "couch"
+    ],
+    [
+      5,
+      "next",
+      "jar"
+    ],
+    [
+      6,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "notRoom",
+      2
+    ],
+    [
+      8,
+      "next",
+      "statue"
+    ],
+    [
+      9,
+      "next",
+      "urn"
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    21,
+    38,
+    49,
+    56,
+    64,
+    75,
+    87,
+    93
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      85,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      97,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      1
+    ],
+    [
+      "roomCount",
+      0,
+      3
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "C..L.L....C.C........C..C.......................L...............C..........C.......C...L............",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 32,
+  "group": 1
+}

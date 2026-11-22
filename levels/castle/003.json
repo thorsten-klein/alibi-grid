@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222333444433344443334444333",
+  "objects": "e.e..........e.cf.fa.....b...edceb..c.de....b...a",
+  "roomNames": [
+    "Chapel",
+    "Smithy",
+    "Great Hall",
+    "Tower",
+    "Throne Room"
+  ],
+  "people": [
+    "Alma the archer",
+    "Birgit the bard",
+    "Cora the cupbearer",
+    "Dexter the doorkeeper",
+    "Vince the verger",
+    "Edgar the envoy",
+    "Fiona the farrier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "room",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    20,
+    24,
+    28,
+    37,
+    46
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    4
+  ],
+  "rank": "kckknkc",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "group": 0
+}

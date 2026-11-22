@@ -1,0 +1,150 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222000111000000000000000000000333333444555555444555555444",
+  "objects": ".....bd......d.c..........b............................dac.......e...ed.c........",
+  "roomNames": [
+    "Open Sea",
+    "Fort",
+    "Longboat",
+    "Cove",
+    "Lighthouse",
+    "Sloop"
+  ],
+  "people": [
+    "Victor the vintner",
+    "Alma the admiral",
+    "Bruno the boatswain",
+    "Cora the captain",
+    "Dora the diver",
+    "Elias the engineer",
+    "Freya the fiddler",
+    "Greta the gunner",
+    "Hilda the harpooner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "anchor"
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "map"
+    ]
+  ],
+  "solution": [
+    8,
+    16,
+    23,
+    30,
+    42,
+    49,
+    54,
+    64,
+    74
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

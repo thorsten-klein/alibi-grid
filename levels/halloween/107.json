@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "d..bb.c..bc....b.....e...e........bc...e..cb.b...",
+  "roomNames": [
+    "Costume Ballroom",
+    "Cemetery Gate",
+    "Spider Attic",
+    "Haunted Conservatory",
+    "Apple Bobbing Hall"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Vince the visiting storyteller",
+    "Basil the baker",
+    "Cedric the candy maker",
+    "Dmitri the decorator",
+    "Edgar the entertainer",
+    "Frank the florist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "swing"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "swing"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    12,
+    14,
+    24,
+    29,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "pumpkin",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

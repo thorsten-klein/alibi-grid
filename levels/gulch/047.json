@@ -1,0 +1,85 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "............a.a.",
+  "roomNames": [
+    "Bank",
+    "Jail",
+    "Barber"
+  ],
+  "people": [
+    "Alma the auctioneer",
+    "Vera the vet",
+    "Bea the blacksmith",
+    "Carl the cattle driver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    1
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 9,
+  "extra": true
+}

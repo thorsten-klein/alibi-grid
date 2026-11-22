@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "........a..b.f...e.......c....fede......ae.......",
+  "roomNames": [
+    "Bottling Line",
+    "Manor Terrace",
+    "Oak Barrel Cellar",
+    "Master Bedroom",
+    "Fermentation Hall"
+  ],
+  "people": [
+    "Albert the apprentice",
+    "Bruno the bottler",
+    "Victor the vineyard owner",
+    "Carl the cook",
+    "Dexter the driver",
+    "Elias the enologist",
+    "Felix the fermenter"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "rack"
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      6,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    14,
+    24,
+    34,
+    37,
+    46
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 25,
+  "extra": true
+}

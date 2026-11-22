@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "f...b.a......dda.f.......",
+  "roomNames": [
+    "Private Boudoir",
+    "Mirrored Gallery",
+    "Canal Balcony",
+    "Palazzo Chapel"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the barcarolle singer",
+    "Vivian the venetian senator",
+    "Celia the courtesan",
+    "Della the doge"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "daybed"
+    ],
+    [
+      2,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "on",
+      "throne"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

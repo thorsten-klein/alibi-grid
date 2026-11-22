@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".......bb.d...b.....fa.a...b...d.f.....ea....a...",
+  "roomNames": [
+    "Fortune Tent",
+    "Carousel",
+    "Sideshow Alley",
+    "Funhouse",
+    "Trapeze Rig"
+  ],
+  "people": [
+    "Arthur the animal tamer",
+    "Basil the balloon artist",
+    "Vince the veteran ringmaster",
+    "Cedric the contortionist",
+    "Dmitri the drummer",
+    "Edgar the electrician",
+    "Frank the fortune teller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "trunk"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    16,
+    24,
+    32,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 21,
+  "group": 1
+}

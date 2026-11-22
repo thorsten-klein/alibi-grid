@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000111112222222233333333444455554444555544445555",
+  "objects": "...fcf....c.fb...b.a...a..bbd....f.c.e.de.e.....a.e..c.af.......",
+  "roomNames": [
+    "Specimen Nursery",
+    "Breakroom",
+    "Generator Core",
+    "Decon Airlock",
+    "Cleanroom 2",
+    "Server Farm"
+  ],
+  "people": [
+    "Alma the algorithm engineer",
+    "Bella the bioethicist",
+    "Cora the cryo technician",
+    "Daisy the data architect",
+    "Elsa the ecologist",
+    "Fiona the forensic chemist",
+    "Gwen the guard",
+    "Viola the venture backer"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ],
+    [
+      5,
+      "col",
+      1
+    ],
+    [
+      6,
+      "next",
+      "hood"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    21,
+    26,
+    32,
+    41,
+    52,
+    59
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      3
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

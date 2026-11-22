@@ -1,0 +1,188 @@
+{
+  "size": 10,
+  "rooms": "0001122222000112222200011333330001133333000113333300011444445556644444555667777755566777775556677777",
+  "objects": "...b.c...ba........a..e...a......a.cb...e.b......e..aa...a.....a..........d...a...ff...a.....f..f..b",
+  "roomNames": [
+    "Wine Cellar",
+    "Armory",
+    "Gondola Dock",
+    "Servants Mezzanine",
+    "Mirrored Gallery",
+    "Mask Atelier",
+    "Courtyard",
+    "Palazzo Chapel"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the barcarolle singer",
+    "Cora the courtesan",
+    "Daisy the doge",
+    "Elsa the envoy",
+    "Viola the venetian senator",
+    "Fiona the fencing master",
+    "Gwen the gondolier",
+    "Hazel the harlequin",
+    "Ines the inquisitor"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "next",
+      "gondola"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "daybed"
+    ],
+    [
+      4,
+      "next",
+      "throne"
+    ],
+    [
+      5,
+      "next",
+      "throne"
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "col",
+      9
+    ],
+    [
+      7,
+      "same",
+      9
+    ],
+    [
+      8,
+      "next",
+      "maskstand"
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      9,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    28,
+    37,
+    43,
+    56,
+    69,
+    70,
+    84,
+    91
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      17,
+      27
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      66,
+      76
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "group": 2
+}

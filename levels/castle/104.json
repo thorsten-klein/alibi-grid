@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223344222334422233442223344",
+  "objects": "..f...dabfab..e..dde..a.b.....ba........a.....b.a",
+  "roomNames": [
+    "Dungeon",
+    "Smithy",
+    "Solar",
+    "Great Hall",
+    "Throne Room"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Bella the baker",
+    "Carl the cupbearer",
+    "Della the doorkeeper",
+    "Viola the verger",
+    "Edith the envoy",
+    "Frank the farrier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "candles"
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    15,
+    26,
+    32,
+    37,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      39,
+      40
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "cot",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "ckckcck",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

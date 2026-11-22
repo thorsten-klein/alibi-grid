@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333444333444",
+  "objects": ".ea.........d....aa.....b.a......ab.",
+  "roomNames": [
+    "Thames Wharf",
+    "Mortuary",
+    "Apothecary",
+    "Cab Stand",
+    "Parlor Study"
+  ],
+  "people": [
+    "Arthur the apothecary",
+    "Basil the blackmailer",
+    "Vince the victim of nobility",
+    "Cedric the constable",
+    "Dmitri the detective",
+    "Edgar the engraver"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "armchair"
+    ],
+    [
+      1,
+      "next",
+      "fireplace"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    15,
+    23,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,103 @@
+{
+  "size": 5,
+  "rooms": "0011100111221112233322333",
+  "objects": "...cc.b.f.....b.....bc..c",
+  "roomNames": [
+    "Painted Wall",
+    "Spring",
+    "Flint Pit",
+    "Fire Pit"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Vince the visionary",
+    "Birgit the beekeeper",
+    "Carl the carver",
+    "Dmitri the dancer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    12,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".2022",
+  "tags": "2......2...0.............",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "group": 2
+}

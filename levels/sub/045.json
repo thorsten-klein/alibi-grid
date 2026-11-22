@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": ".b.....a.dda.b.b",
+  "roomNames": [
+    "Reactor Chamber",
+    "Ballast Control",
+    "Conning Tower"
+  ],
+  "people": [
+    "Astrid the aquanaut",
+    "Vivian the vessel designer",
+    "Birgit the bathymetry tech",
+    "Celia the captain"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

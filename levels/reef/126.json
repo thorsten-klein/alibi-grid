@@ -1,0 +1,149 @@
+{
+  "size": 9,
+  "rooms": "000011122000011122333311122333311122333333333333333333333333333444455555444455555",
+  "objects": ".fc..da.....c...........e.a....e.................................d....b.....da...",
+  "roomNames": [
+    "Market",
+    "Sea Cave",
+    "Frigate",
+    "Open Sea",
+    "Brig",
+    "Dock"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Bea the barkeep",
+    "Celia the captain",
+    "Daisy the deckhand",
+    "Ena the explorer",
+    "Frank the fiddler",
+    "Gideon the gunner",
+    "Viola the vintner",
+    "Hilda the harpooner"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "crate"
+    ],
+    [
+      1,
+      "next",
+      "anchor"
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "row",
+      8
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    26,
+    30,
+    43,
+    49,
+    59,
+    63,
+    73
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "onCount",
+      "stool",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223333322233333222444445554444455544444555",
+  "objects": "b..de.a.d....f...f.b.a.........f..bbd..b..b....ddb.d.......c....",
+  "roomNames": [
+    "Ghost Train",
+    "Cotton Candy Stand",
+    "Coaster Shed",
+    "Carousel Pavilion",
+    "Pier Edge",
+    "Hall of Mirrors"
+  ],
+  "people": [
+    "Vivian the venture developer",
+    "Astrid the antiquarian",
+    "Birgit the barker",
+    "Celia the cotton candy vendor",
+    "Della the daredevil",
+    "Ena the urban explorer",
+    "Flora the fisherman",
+    "Grace the groundskeeper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "cart"
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "claw"
+    ],
+    [
+      5,
+      "next",
+      "claw"
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    21,
+    26,
+    35,
+    46,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "cart",
+      2
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 24,
+  "extra": true
+}

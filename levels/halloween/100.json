@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122220112222011222233344443334444333",
+  "objects": ".a.........ebe...f.a......b..a.ec.c...ffe.e.e..b.",
+  "roomNames": [
+    "Spider Attic",
+    "Haunted Conservatory",
+    "Front Porch",
+    "Cellar Maze",
+    "Costume Ballroom"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Victor the veteran manor heir",
+    "Bruno the black cat breeder",
+    "Carl the costume designer",
+    "Dexter the diviner",
+    "Elias the embalmer",
+    "Felix the fortune teller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "swing"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "coffin"
+    ],
+    [
+      4,
+      "next",
+      "cauldron"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "web"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "coffin",
+      0
+    ],
+    [
+      "nextCount",
+      "pumpkin",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

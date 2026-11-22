@@ -1,0 +1,227 @@
+{
+  "size": 12,
+  "rooms": "000111222222000111222222000111222222000111222222333333444444333333444444333333444444555666677777555666677777555666677777555666688888555666688888",
+  "objects": "b.....cab.........e.b.......d.e..ce....a.f..cdd.a....bb..b...fa.........c..f.....d.b..a.....e.b.......bba......ebe..acc...b....a..ea....b....dca",
+  "roomNames": [
+    "Main Lounge",
+    "Cold Storage",
+    "Tailor Front",
+    "Bar Counter",
+    "Jazz Stage",
+    "Hidden Alleyway",
+    "Coat Check",
+    "Distillery",
+    "Manager Office"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Bella the bootlegger",
+    "Viola the valued patron",
+    "Cora the card sharp",
+    "Daisy the distiller",
+    "Elsa the emcee",
+    "Fiona the forger",
+    "Gwen the gun runner",
+    "Hazel the hat check girl",
+    "Ines the inspector",
+    "Juno the journalist",
+    "Kira the key keeper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "sax"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "cask"
+    ],
+    [
+      6,
+      "col",
+      10
+    ],
+    [
+      7,
+      "same",
+      11
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "next",
+      "roulette"
+    ],
+    [
+      10,
+      "next",
+      "roulette"
+    ],
+    [
+      11,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    7,
+    20,
+    26,
+    37,
+    59,
+    69,
+    82,
+    88,
+    96,
+    114,
+    123,
+    137
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      37,
+      49
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      45,
+      57
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      73,
+      85
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      126,
+      127
+    ],
+    [
+      116,
+      128
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      135,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "safe",
+      0
+    ],
+    [
+      "roomCount",
+      5,
+      1
+    ],
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "tries": 8,
+  "hard": 10,
+  "hardest": 10,
+  "steps": 35,
+  "extra": true
+}

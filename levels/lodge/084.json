@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "001111001111223333223333224444224444",
+  "objects": "......e................e...d......ef",
+  "roomNames": [
+    "Ski Room",
+    "Bar",
+    "Spa",
+    "Boot Room",
+    "Suite"
+  ],
+  "people": [
+    "Astrid the avalanche guard",
+    "Bea the bartender",
+    "Carl the climber",
+    "Vivian the vlogger",
+    "Dexter the doctor",
+    "Edgar the explorer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    15,
+    20,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "tree",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

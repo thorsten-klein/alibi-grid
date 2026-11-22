@@ -1,0 +1,199 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111334455555533445555553344666777334466677733446667773344666777",
+  "objects": "...d..bd.................fa.....a..f.ab.b...c.b....a.b.f.d.bb.b.....b..b....b.....fa....b.....dd.a.a",
+  "roomNames": [
+    "Stables",
+    "Dungeon",
+    "Courtyard",
+    "Smithy",
+    "Great Hall",
+    "Solar",
+    "Throne Room",
+    "Armory"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bea the baker",
+    "Vince the vintner",
+    "Clara the chronicler",
+    "Dmitri the dancer",
+    "Edgar the embroiderer",
+    "Fiona the farrier",
+    "Gideon the groom",
+    "Hilda the herbalist",
+    "Igor the innkeeper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      6,
+      "room",
+      6
+    ],
+    [
+      7,
+      "room",
+      3
+    ],
+    [
+      7,
+      "on",
+      "cot"
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    5,
+    16,
+    23,
+    30,
+    42,
+    59,
+    64,
+    71,
+    87,
+    98
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      10,
+      20
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      86,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "candles",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    7
+  ],
+  "rank": "knckccckkn",
+  "hard": 7,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

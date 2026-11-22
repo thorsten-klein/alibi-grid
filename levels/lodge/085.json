@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222333222333222444",
+  "objects": ".f.fb...f........b..be..b...........",
+  "roomNames": [
+    "Bar",
+    "Terrace",
+    "Lobby",
+    "Ski Room",
+    "Boot Room"
+  ],
+  "people": [
+    "Victor the vlogger",
+    "Alma the avalanche guard",
+    "Basil the bartender",
+    "Clara the climber",
+    "Daisy the driver",
+    "Elsa the engineer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "wood"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    14,
+    19,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      28,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

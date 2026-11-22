@@ -1,0 +1,213 @@
+{
+  "size": 11,
+  "rooms": "0000001111100000011111222233444442222334444422223344444222233444445555555555555555555555666667777776666677777766666777777",
+  "objects": "d..c.a...a..b.f.af..e...c.c....b.....eb.ba.a..e..afb..a..b......bd........e....b.f.ffb....a..bd.d..c.a..aa...a...cc.b..a.",
+  "roomNames": [
+    "Wings",
+    "Green Room",
+    "Dressing Room",
+    "Box Office",
+    "Prop Store",
+    "Foyer",
+    "Orchestra Pit",
+    "Lighting Booth"
+  ],
+  "people": [
+    "Victor the violinist",
+    "Alma the agent",
+    "Bella the baritone",
+    "Carl the choreographer",
+    "Dmitri the dancer",
+    "Elias the extra",
+    "Frank the flautist",
+    "Gus the guitarist",
+    "Hazel the hairdresser",
+    "Ivo the illusionist",
+    "Jasper the juggler"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "light"
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "col",
+      10
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "next",
+      "seat"
+    ],
+    [
+      10,
+      "next",
+      "sofa"
+    ],
+    [
+      10,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    19,
+    32,
+    35,
+    49,
+    58,
+    70,
+    86,
+    88,
+    100,
+    117
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      25
+    ],
+    [
+      15,
+      26
+    ],
+    [
+      17,
+      28
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      56,
+      67
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      59,
+      70
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      77,
+      88
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      114,
+      115
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      65,
+      "r"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      112,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 9,
+  "hardest": 10,
+  "steps": 27,
+  "extra": true
+}

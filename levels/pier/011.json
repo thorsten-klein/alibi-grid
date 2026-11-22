@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233331111333311114444555544445555",
+  "objects": "d.b....e........df..d.bb.b...e.b.ac.d.dac...a...db....c..b.a.d..",
+  "roomNames": [
+    "Ghost Train",
+    "Fortune Booth",
+    "Pier Edge",
+    "Cotton Candy Stand",
+    "Boardwalk Plankway",
+    "Hall of Mirrors"
+  ],
+  "people": [
+    "Alma the arcade repairman",
+    "Bella the boardwalk walker",
+    "Cora the caretaker",
+    "Daisy the drifter",
+    "Elsa the electrician",
+    "Viola the vagrant",
+    "Fiona the fortune teller",
+    "Gwen the ghost hunter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "claw"
+    ],
+    [
+      2,
+      "next",
+      "automaton"
+    ],
+    [
+      3,
+      "on",
+      "cart"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "horse"
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    21,
+    25,
+    32,
+    46,
+    55,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "nextCount",
+      "claw",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "group": 1
+}

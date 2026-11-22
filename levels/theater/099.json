@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "b..f.b.e...ae.f.b.....a.....fc.c.eaa..abb..d.....",
+  "roomNames": [
+    "Orchestra Pit",
+    "Wings",
+    "Box Office",
+    "Bar",
+    "Green Room"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Bea the baritone",
+    "Cora the critic",
+    "Dexter the dancer",
+    "Victor the violinist",
+    "Elsa the extra",
+    "Flora the flautist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "rack"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    18,
+    23,
+    34,
+    36,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

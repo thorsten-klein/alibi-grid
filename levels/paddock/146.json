@@ -1,0 +1,208 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222334445566633444556663344455666334445566677777555557777755555",
+  "objects": "e...bd.f...a.f.....a.b...fc....b........d....f.bb.cb..e.c..c...b..aaada.f...d.d..........bd..dc.....",
+  "roomNames": [
+    "Fuel Storage",
+    "Scrutineering Shed",
+    "Hospitality Suite",
+    "Team Garage A",
+    "Pit Lane",
+    "Tire Bay",
+    "Telemetry Room",
+    "Paddock Walkway"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Dexter the driver",
+    "Elias the engine tuner",
+    "Victor the veteran champion",
+    "Felix the fuel specialist",
+    "Gus the gearbox tech",
+    "Hugo the head of team",
+    "Igor the inspector"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "tires"
+    ],
+    [
+      1,
+      "next",
+      "tires"
+    ],
+    [
+      1,
+      "next",
+      "toolbox"
+    ],
+    [
+      2,
+      "next",
+      "toolbox"
+    ],
+    [
+      3,
+      "col",
+      9
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tires"
+    ],
+    [
+      5,
+      "next",
+      "bucket"
+    ],
+    [
+      5,
+      "next",
+      "chassis"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "bucket"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "room",
+      5
+    ]
+  ],
+  "solution": [
+    4,
+    15,
+    23,
+    39,
+    41,
+    58,
+    60,
+    77,
+    82,
+    96
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      94,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 32,
+  "extra": true
+}

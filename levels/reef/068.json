@@ -1,0 +1,80 @@
+{
+  "size": 5,
+  "rooms": "0012200122001220003300033",
+  "objects": "....c...b...a.f....d.....",
+  "roomNames": [
+    "Open Sea",
+    "Frigate",
+    "Fort",
+    "Dock"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Birgit the barkeep",
+    "Carl the captain",
+    "Victor the vintner",
+    "Dexter the deckhand"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

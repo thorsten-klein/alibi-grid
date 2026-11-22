@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "...ac.........d..ba..f.e.",
+  "roomNames": [
+    "Autopsy Suite",
+    "Specimen Nursery",
+    "Breakroom",
+    "Server Farm"
+  ],
+  "people": [
+    "Viola the virology head",
+    "Alma the analyst",
+    "Bella the biochemist",
+    "Cora the chief scientist",
+    "Daisy the dna sequencer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "centrifuge"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    12,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

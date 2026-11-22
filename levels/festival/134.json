@@ -1,0 +1,171 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222200111222200111333344444333344444333344444555566666555566666",
+  "objects": "cba...a..da........bc......c.........e...daa...db..b....c.ca...e..a...a.b.abba...",
+  "roomNames": [
+    "Green Room",
+    "Beer Garden",
+    "Main Stage",
+    "Artist Trailer",
+    "Port-a-Jon Alley",
+    "Campers Field",
+    "Security Checkpoint"
+  ],
+  "people": [
+    "Vera the vocal coach",
+    "Ada the artist agent",
+    "Bea the bodyguard",
+    "Clara the cameraman",
+    "Dora the disc jockey",
+    "Edith the event producer",
+    "Freya the fan president",
+    "Greta the groupie coordinator",
+    "Hilda the head of security"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      0,
+      "next",
+      "amp"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "drums"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    34,
+    40,
+    53,
+    59,
+    69,
+    75
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 36,
+  "extra": true
+}

@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222233444433444433",
+  "objects": "..a..d........e.....eac...ef...b..f.",
+  "roomNames": [
+    "Ticket Hall",
+    "Souvenir Kiosk",
+    "Sheave Tower",
+    "Observation Terrace",
+    "Valley Terminal"
+  ],
+  "people": [
+    "Ada the alpine guide",
+    "Bea the billeter",
+    "Vera the visiting vip",
+    "Clara the cable splicer",
+    "Dora the doctor",
+    "Edith the excursionist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "winch"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    16,
+    23,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "bench",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "skirack",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

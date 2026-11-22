@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "...e..b........b.ae..dbc.",
+  "roomNames": [
+    "Hydroponics",
+    "Bridge",
+    "Airlock",
+    "Comms"
+  ],
+  "people": [
+    "Alma the astronaut",
+    "Bruno the botanist",
+    "Cedric the chemist",
+    "Vince the volunteer",
+    "Dmitri the driller"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

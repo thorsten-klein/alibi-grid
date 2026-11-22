@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011113333004444333300444433334444555555444455555566667777556666777755",
+  "objects": "....c.fe....e..f......fa..............a...ba.....ea....b.e............fa.c......a.....ca.....b...d.f",
+  "roomNames": [
+    "Coral Lagoon",
+    "Luau Grounds",
+    "Spa Pavilion",
+    "Yacht Marina",
+    "Coconut Grove",
+    "Infinity Pool",
+    "Open Beach",
+    "Reception Lobby"
+  ],
+  "people": [
+    "Astrid the activities director",
+    "Birgit the bartender",
+    "Celia the concierge",
+    "Della the divemaster",
+    "Ena the excursion guide",
+    "Flora the fitness coach",
+    "Grace the guest of honor",
+    "Hana the hotel manager",
+    "Vivian the vacationer",
+    "Isla the island pilot"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "towel"
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "towel"
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      8,
+      "next",
+      "cart"
+    ],
+    [
+      9,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    0,
+    18,
+    25,
+    36,
+    43,
+    54,
+    61,
+    77,
+    89,
+    92
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      72,
+      82
+    ],
+    [
+      75,
+      85
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 28,
+  "extra": true
+}

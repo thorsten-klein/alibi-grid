@@ -1,0 +1,128 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211334444334444",
+  "objects": ".f.bc..d..d..a...cb........b.......c",
+  "roomNames": [
+    "Spring",
+    "Hide Tent",
+    "Lookout Rock",
+    "River Bank",
+    "Flint Pit"
+  ],
+  "people": [
+    "Vera the valley guide",
+    "Astrid the artist",
+    "Bruno the builder",
+    "Cora the carver",
+    "Della the dancer",
+    "Elias the elk tamer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "bones"
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    16,
+    20,
+    29,
+    31
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "32..0.",
+  "tags": "3........2...................0....2.",
+  "hard": 5,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

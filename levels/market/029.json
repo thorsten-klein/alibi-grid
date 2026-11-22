@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0011222200112222001122220011222233334444333344445555444455554444",
+  "objects": "...........eb..e...c.bc.....e...d.d....eb....bfd.............f..",
+  "roomNames": [
+    "Tea Pavilion",
+    "Fortune Teller",
+    "Silk Stall",
+    "Bell Tower",
+    "Lantern Bridge",
+    "River Pagoda"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Basil the boatman",
+    "Cedric the calligrapher",
+    "Dmitri the drummer",
+    "Edgar the embroiderer",
+    "Frank the firework master",
+    "Vince the village magistrate",
+    "Gideon the gong striker"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "cushion"
+    ],
+    [
+      2,
+      "next",
+      "lantern"
+    ],
+    [
+      3,
+      "next",
+      "lantern"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    23,
+    27,
+    38,
+    40,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "onCount",
+      "cushion",
+      1
+    ],
+    [
+      "alone",
+      null,
+      3
+    ]
+  ],
+  "tries": 7,
+  "hard": 6,
+  "hardest": 4,
+  "steps": 33,
+  "group": 3
+}

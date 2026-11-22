@@ -1,0 +1,219 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111222200001112222333344445553333444455533334444555666677775556666777755566667777555",
+  "objects": "d...f...b...b..ab.....daa...e..b....a.e..be.....bda.....c..dcb....f..........ccf..c..a.............ee......b...e..b..e..e",
+  "roomNames": [
+    "Statue Hall",
+    "Treasury",
+    "Workshop",
+    "Sun Court",
+    "Boat Pit",
+    "Antechamber",
+    "Well Shaft",
+    "Scribe Room"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Bea the brewer",
+    "Cedric the carpenter",
+    "Daisy the dancer",
+    "Elias the envoy",
+    "Frank the fanbearer",
+    "Victor the vizier",
+    "Gwen the goldsmith",
+    "Hugo the harpist",
+    "Ines the incense maker",
+    "Jutta the jeweller"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      4
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "next",
+      "couch"
+    ],
+    [
+      4,
+      "next",
+      "couch"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ],
+    [
+      6,
+      "next",
+      "urn"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "same",
+      8
+    ]
+  ],
+  "solution": [
+    10,
+    20,
+    29,
+    37,
+    52,
+    61,
+    67,
+    80,
+    88,
+    104,
+    112
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      48,
+      59
+    ],
+    [
+      51,
+      62
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      80,
+      91
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      81,
+      92
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      102,
+      103
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ],
+    [
+      117,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "rubble",
+      3
+    ],
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....................C........C...C...L..C...C...........................CC...............................................",
+  "hard": 5,
+  "hardest": 7,
+  "steps": 30,
+  "group": 3
+}

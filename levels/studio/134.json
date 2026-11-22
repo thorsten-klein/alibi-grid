@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222001111222333444222333444555333444555336666555336666555336666",
+  "objects": "..f....a...c...d.b.c......e..bf..d...f..bea.af...f.....d.bdafa...fba.....ec...d..",
+  "roomNames": [
+    "Editing Suite",
+    "Makeup Room",
+    "Catwalk",
+    "Director Trailer",
+    "Writers Room",
+    "Green Room",
+    "Screening Room"
+  ],
+  "people": [
+    "Albert the actor",
+    "Bruno the boom operator",
+    "Carl the cinematographer",
+    "Victor the voice actor",
+    "Dexter the director",
+    "Elias the editor",
+    "Felix the focus puller",
+    "Gus the grip",
+    "Hugo the hairdresser"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "boom"
+    ],
+    [
+      2,
+      "next",
+      "camera"
+    ],
+    [
+      3,
+      "on",
+      "couch"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "boom"
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ],
+    [
+      7,
+      "next",
+      "boom"
+    ],
+    [
+      8,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    46,
+    61,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 38,
+  "extra": true
+}

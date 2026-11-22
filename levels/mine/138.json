@@ -1,0 +1,194 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122222333332222233333222223333344445555554444555555444455666677777766667777776666",
+  "objects": "b.............f....a.cb.e..aab.bb..bbd...d..b.d...d.....dfc.d.f.e.b.c....c......b.......ad..a..a....",
+  "roomNames": [
+    "Water Sump",
+    "Tool Crib",
+    "Dynamite Magazine",
+    "Main Drift",
+    "Mule Stables",
+    "Timber Storage",
+    "Smelting Oven",
+    "Miners Mess"
+  ],
+  "people": [
+    "Albert the assayer",
+    "Bruno the blacksmith",
+    "Carl the cart driver",
+    "Dexter the driller",
+    "Elias the engineer",
+    "Felix the foreman",
+    "Gus the geologist",
+    "Victor the vein claimant",
+    "Hugo the hoistman",
+    "Igor the inspector"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "keg"
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "col",
+      1
+    ],
+    [
+      6,
+      "col",
+      9
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "on",
+      "keg"
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    28,
+    36,
+    45,
+    51,
+    69,
+    70,
+    84,
+    92
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      15,
+      25
+    ],
+    [
+      17,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      67,
+      77
+    ],
+    [
+      75,
+      85
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "hoist",
+      4
+    ],
+    [
+      "roomCount",
+      6,
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 9,
+  "steps": 27,
+  "extra": true
+}

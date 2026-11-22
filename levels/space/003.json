@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".b.....ad..de....b...d...b.b.b......a....b..a....",
+  "roomNames": [
+    "Bridge",
+    "Med Bay",
+    "Lab",
+    "Hydroponics",
+    "Comms"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bella the biologist",
+    "Celia the chemist",
+    "Dexter the driller",
+    "Vera the volunteer",
+    "Edith the electrician",
+    "Flora the farmer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "scope"
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    18,
+    27,
+    29,
+    37,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 18,
+  "group": 0
+}

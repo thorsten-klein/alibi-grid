@@ -1,0 +1,231 @@
+{
+  "size": 12,
+  "rooms": "000001111111000001111111000001111111222223334444222223334444222223334444222223334444555666667777555666667777555666667777555888887777555888887777",
+  "objects": "....c.be.....e.d.a.................f..........fb.c....bf.....ce.ab..fd....f..ec.e..b.......b......ea.c..b.a.....f.d..af...b.c.......d....d....cd",
+  "roomNames": [
+    "Overwater Bungalow",
+    "Yacht Marina",
+    "Reception Lobby",
+    "Luau Grounds",
+    "Dive Shop",
+    "Coconut Grove",
+    "Staff Quarters",
+    "Spa Pavilion",
+    "Open Beach"
+  ],
+  "people": [
+    "Ada the animator",
+    "Bea the boat captain",
+    "Clara the chef",
+    "Dora the disc jockey",
+    "Edith the entertainer",
+    "Freya the fire dancer",
+    "Greta the golf pro",
+    "Vera the vip influencer",
+    "Hilda the housekeeper",
+    "Ivy the instructor",
+    "Jade the jeweller",
+    "Kitty the kitchen hand"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      10
+    ],
+    [
+      2,
+      "next",
+      "jetski"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "next",
+      "towel"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ],
+    [
+      7,
+      "next",
+      "surfboard"
+    ],
+    [
+      8,
+      "next",
+      "hammock"
+    ],
+    [
+      9,
+      "next",
+      "hammock"
+    ],
+    [
+      9,
+      "door",
+      null
+    ],
+    [
+      10,
+      "same",
+      9
+    ],
+    [
+      10,
+      "next",
+      "towel"
+    ],
+    [
+      11,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    11,
+    22,
+    25,
+    38,
+    52,
+    60,
+    75,
+    89,
+    103,
+    116,
+    129,
+    138
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      38
+    ],
+    [
+      30,
+      42
+    ],
+    [
+      33,
+      45
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      72,
+      84
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      134,
+      135
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      113,
+      125
+    ],
+    [
+      127,
+      128
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      131,
+      "r"
+    ],
+    [
+      132,
+      "b"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ],
+    [
+      143,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "jetski",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 32,
+  "extra": true
+}

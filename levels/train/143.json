@@ -1,0 +1,206 @@
+{
+  "size": 10,
+  "rooms": "0000111122000011112200001111223333444422333344442233555446663355544666335554466633555777773355577777",
+  "objects": "...da.a...ab..b....c.b..d...ce........c.....a.a..d.c.a..b...f.c........b...a....dcbc....b.c.....b...",
+  "roomNames": [
+    "Lounge Car",
+    "Sleeper B",
+    "Baggage Car",
+    "Corridor",
+    "Sleeper A",
+    "Bar Car",
+    "Observation Car",
+    "Guard's Van"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Bella the bookseller",
+    "Clara the courier",
+    "Dora the dentist",
+    "Elsa the envoy",
+    "Fiona the firefighter",
+    "Vera the vendor",
+    "Grace the guard",
+    "Hazel the hatter",
+    "Isla the importer"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "lamp"
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "seat"
+    ],
+    [
+      7,
+      "on",
+      "bunk"
+    ],
+    [
+      7,
+      "next",
+      "suitcase"
+    ],
+    [
+      8,
+      "next",
+      "bunk"
+    ],
+    [
+      9,
+      "next",
+      "suitcase"
+    ],
+    [
+      9,
+      "alone"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    39,
+    44,
+    58,
+    65,
+    71,
+    86,
+    93
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      21,
+      31
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      77,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 37,
+  "extra": true
+}

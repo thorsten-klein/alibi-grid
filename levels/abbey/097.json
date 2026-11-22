@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333444433344443334444",
+  "objects": "ba..ab.f....e..ef..b..a...a...db.d...d..a...a.a..",
+  "roomNames": [
+    "Herb Garden",
+    "Chapter House",
+    "Cellar",
+    "Refectory",
+    "Bell Tower"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Della the document copyist",
+    "Ena the elder brother",
+    "Vivian the vicar general",
+    "Flora the friar"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "palliasse"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stall"
+    ],
+    [
+      4,
+      "next",
+      "palliasse"
+    ],
+    [
+      5,
+      "on",
+      "stall"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    20,
+    23,
+    32,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "stall",
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

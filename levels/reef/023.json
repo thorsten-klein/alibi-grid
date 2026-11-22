@@ -1,0 +1,191 @@
+{
+  "size": 11,
+  "rooms": "0011122223300111222233001112222330011122223344444433333444444333334444443333355566633333555666333335556663333355566633333",
+  "objects": "c.e..e......b.f.a.b......ab..ed..........b....aeb........a.f......a.d........bb..fe......b..........b.e.........f........",
+  "roomNames": [
+    "Fort",
+    "Frigate",
+    "Lighthouse",
+    "Open Sea",
+    "Dock",
+    "Longboat",
+    "Cove"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Bruno the barkeep",
+    "Clara the captain",
+    "Della the diver",
+    "Elsa the engineer",
+    "Felix the fiddler",
+    "Grace the gunner",
+    "Hazel the harbor pilot",
+    "Ines the islander",
+    "Vera the voyager",
+    "Juno the jailbird"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      10
+    ],
+    [
+      6,
+      "notRoom",
+      4
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      8
+    ],
+    [
+      8,
+      "on",
+      "hammock"
+    ],
+    [
+      9,
+      "next",
+      "map"
+    ],
+    [
+      10,
+      "window"
+    ]
+  ],
+  "solution": [
+    6,
+    20,
+    27,
+    35,
+    44,
+    65,
+    73,
+    85,
+    89,
+    103,
+    113
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      101,
+      102
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      115,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "hammock",
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 27,
+  "group": 2
+}

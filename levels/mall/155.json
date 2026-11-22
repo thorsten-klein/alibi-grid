@@ -1,0 +1,237 @@
+{
+  "size": 12,
+  "rooms": "000001111111000001111111000002222222333332222222333332222222444556666666444556666666444556666666444557777888444557777888444557777888444557777888",
+  "objects": ".a...c.d.b.......e..fc.a.b...b....d..f...d..c.d........b...b.b......c..............cc...b.e.c..f....a..aabfef.f.....fa.....a..e...b......a..e.da",
+  "roomNames": [
+    "Service Corridors",
+    "Record Store",
+    "Arcade",
+    "Escalator Hub",
+    "Skate Shop",
+    "Atrium Fountain",
+    "Photo Studio",
+    "Department Store",
+    "Security Office"
+  ],
+  "people": [
+    "Astrid the aerobics instructor",
+    "Birgit the boutique clerk",
+    "Celia the cashier",
+    "Della the disc jockey",
+    "Ena the eyewear stylist",
+    "Flora the fashionista",
+    "Grace the guard",
+    "Vivian the visiting store inspector",
+    "Hana the head of security",
+    "Isla the informant",
+    "Jutta the jewel kiosk seller",
+    "Kai the kitchen hand"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "plasticchair"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "gumball"
+    ],
+    [
+      2,
+      "next",
+      "photobench"
+    ],
+    [
+      3,
+      "next",
+      "mannequin"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "gumball"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "room",
+      4
+    ],
+    [
+      6,
+      "next",
+      "photobench"
+    ],
+    [
+      7,
+      "next",
+      "photobench"
+    ],
+    [
+      8,
+      "next",
+      "plasticchair"
+    ],
+    [
+      8,
+      "next",
+      "mannequin"
+    ],
+    [
+      9,
+      "next",
+      "mannequin"
+    ],
+    [
+      9,
+      "next",
+      "photobench"
+    ],
+    [
+      10,
+      "next",
+      "gate"
+    ],
+    [
+      11,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    11,
+    19,
+    24,
+    38,
+    53,
+    66,
+    73,
+    87,
+    105,
+    118,
+    128,
+    136
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      40
+    ],
+    [
+      23,
+      35
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      59,
+      71
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      51,
+      63
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      116,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "gumball",
+      2
+    ]
+  ],
+  "hard": 11,
+  "hardest": 8,
+  "steps": 34,
+  "extra": true
+}

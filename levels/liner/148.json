@@ -1,0 +1,199 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000001122220000011222200000112222333444455553334444555533344445555333666677773336666777733366667777",
+  "objects": "a.aa...b.c....b.......f.ba...ece.ba.....a.d.....b.c.b...f.bb..ab...e...b..ba......a..ca.b....f...d..e..f..eb...e.f.......",
+  "roomNames": [
+    "Telegraph Cabin",
+    "Bridge",
+    "Boiler Room",
+    "Grand Ballroom",
+    "Library",
+    "Turkish Bath",
+    "First Class Lounge",
+    "Steerage Quarters"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the bartender",
+    "Celia the chief engineer",
+    "Della the doctor",
+    "Vivian the valet",
+    "Ena the envoy",
+    "Flora the fireman",
+    "Grace the governess",
+    "Hana the heiress",
+    "Isla the inspector",
+    "Jutta the jeweller"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "luggage"
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "next",
+      "telegraph"
+    ],
+    [
+      8,
+      "next",
+      "berth"
+    ],
+    [
+      9,
+      "next",
+      "luggage"
+    ],
+    [
+      10,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    4,
+    20,
+    24,
+    33,
+    49,
+    61,
+    76,
+    84,
+    89,
+    102,
+    118
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      44,
+      55
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      52,
+      63
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      81,
+      92
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      32,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      114,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

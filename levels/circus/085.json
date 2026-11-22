@@ -1,0 +1,105 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122334444334444334444",
+  "objects": "..e...e.b.c..fe.f.b..da...ee........",
+  "roomNames": [
+    "Ticket Booth",
+    "Dressing Trailer",
+    "Trapeze Rig",
+    "Menagerie Tent",
+    "Sideshow Alley"
+  ],
+  "people": [
+    "Ada the animal tamer",
+    "Bea the balloon artist",
+    "Vera the veteran ringmaster",
+    "Clara the contortionist",
+    "Dora the drummer",
+    "Edith the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "cannon"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cage"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    12,
+    20,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "extra": true
+}

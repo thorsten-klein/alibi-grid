@@ -1,0 +1,177 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111223333444223333444225555444225555444666666444666666444",
+  "objects": "a.a....c.bf...f.b.....a...a...e......e..a..e.b.a..d....a..b...db...c.......cb..fe",
+  "roomNames": [
+    "Ward A",
+    "Doctor Office",
+    "Kitchen",
+    "Operating Theater",
+    "Ward B",
+    "Hydrotherapy Room",
+    "Reception Hall"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Dexter the dentist",
+    "Elias the examiner",
+    "Felix the forensic pathologist",
+    "Gus the gerontologist",
+    "Victor the visiting superintendent",
+    "Hugo the hospitalier"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "bed"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "archive"
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "on",
+      "wheelchair"
+    ],
+    [
+      5,
+      "next",
+      "cart"
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "cabinet"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    19,
+    34,
+    40,
+    53,
+    59,
+    66,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      56,
+      65
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 9,
+  "hardest": 7,
+  "steps": 22,
+  "extra": true
+}

@@ -1,0 +1,255 @@
+{
+  "size": 12,
+  "rooms": "000111222233000111222233000111222233000111444433555111444433555555444433555555444433555555444433666667777888666667777888666667777888666667777888",
+  "objects": "c........cc........a.ca..c..a...a.b.aabd...d.cc...ca.....e.bba.fe.a..e.....af........f....b...eb..a........cb...afb....b....f.....e..a...e..b...",
+  "roomNames": [
+    "Jockeys Room",
+    "Royal Box",
+    "Grandstand Terrace",
+    "Stables",
+    "Stewards Room",
+    "Betting Ring",
+    "Winner Enclosure",
+    "Saddling Boxes",
+    "Paddock Ring"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the breeder",
+    "Cedric the clerk of scales",
+    "Dmitri the doper",
+    "Edgar the owner envoy",
+    "Frank the form analyst",
+    "Vince the visiting royalty",
+    "Gideon the groundskeeper",
+    "Henrik the head stableman",
+    "Ivo the investor",
+    "Jonas the judge",
+    "Konrad the kitchen caterer"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "next",
+      "turfchair"
+    ],
+    [
+      3,
+      "next",
+      "trophy"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "next",
+      "board"
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "next",
+      "board"
+    ],
+    [
+      8,
+      "room",
+      7
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "stablebench"
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "same",
+      11
+    ],
+    [
+      11,
+      "same",
+      9
+    ],
+    [
+      11,
+      "next",
+      "turfchair"
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    15,
+    31,
+    42,
+    53,
+    70,
+    81,
+    95,
+    104,
+    109,
+    120,
+    134
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      48
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      52,
+      64
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      93,
+      105
+    ],
+    [
+      85,
+      97
+    ],
+    [
+      89,
+      101
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      140,
+      141
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      133,
+      "b"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      135,
+      "b"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "nextCount",
+      "haystack",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 32,
+  "group": 1
+}

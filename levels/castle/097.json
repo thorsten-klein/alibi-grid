@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "cfb.f..f..b..cae.f...a...b....a.a...a..ea.cdf.aff",
+  "roomNames": [
+    "Kitchen",
+    "Solar",
+    "Smithy",
+    "Stables",
+    "Tower"
+  ],
+  "people": [
+    "Albert the archer",
+    "Bruno the baker",
+    "Clara the chronicler",
+    "Daisy the doorkeeper",
+    "Ena the envoy",
+    "Fiona the falconer",
+    "Vera the verger"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "urn"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    14,
+    24,
+    29,
+    41,
+    46
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "knncccc",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

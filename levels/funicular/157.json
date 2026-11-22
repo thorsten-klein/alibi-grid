@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000011111222000011111222000011111222000033333222444433333222444433333222444433333222555556666777555556666777555556666777888886666777888886666777",
+  "objects": "..b..b..e....e.d...a..bfde.c.........b.d.c.c.d...f..b..c..dba.ba....cd....b......ba......bd.........db.d.eabfb..c.b....b.d.a..e....b.e.a.....ed.",
+  "roomNames": [
+    "Valley Terminal",
+    "Glacier Overlook",
+    "Transformer Vault",
+    "Ski Patrol Shack",
+    "Ticket Hall",
+    "Funicular Car B",
+    "Funicular Car A",
+    "Observation Terrace",
+    "Souvenir Kiosk"
+  ],
+  "people": [
+    "Victor the veteran mountaineer",
+    "Albert the avalanche controller",
+    "Bruno the brake operator",
+    "Carl the conductor",
+    "Dexter the dispatcher",
+    "Elias the electrical engineer",
+    "Felix the funicular driver",
+    "Gus the glaciologist",
+    "Hugo the hotelier",
+    "Igor the inspector",
+    "Jasper the journalist",
+    "Klaus the kitchen cook"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "next",
+      "winch"
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "generator"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "on",
+      "stool"
+    ],
+    [
+      10,
+      "notRoom",
+      7
+    ],
+    [
+      10,
+      "next",
+      "generator"
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "next",
+      "generator"
+    ]
+  ],
+  "solution": [
+    11,
+    14,
+    28,
+    44,
+    54,
+    65,
+    82,
+    93,
+    99,
+    109,
+    127,
+    132
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      76,
+      88
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      112,
+      124
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      136,
+      137
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      11,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      120,
+      "l"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      0
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ],
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 35,
+  "extra": true
+}

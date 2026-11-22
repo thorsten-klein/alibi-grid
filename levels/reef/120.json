@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111223333222233332222445522224455222244552222",
+  "objects": ".b.b........b....f...............b.......e.a.......b......a.....",
+  "roomNames": [
+    "Brig",
+    "Fort",
+    "Open Sea",
+    "Galleon",
+    "Cove",
+    "Frigate"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Vince the vintner",
+    "Bruno the barkeep",
+    "Carl the cook",
+    "Dexter the diver",
+    "Edgar the engineer",
+    "Flora the first mate",
+    "Gus the gunner"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "hammock"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "col",
+      7
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "window"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    13,
+    19,
+    25,
+    36,
+    47,
+    48,
+    58
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "hammock",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 2,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

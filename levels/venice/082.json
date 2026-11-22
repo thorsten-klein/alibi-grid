@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": ".....a.d.c.d.......b...ab....b.f...b",
+  "roomNames": [
+    "Canal Balcony",
+    "Armory",
+    "Gondola Dock",
+    "Palazzo Chapel",
+    "Mask Atelier"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Birgit the boat builder",
+    "Celia the carnival poet",
+    "Della the diplomat",
+    "Ena the embroiderer",
+    "Vivian the visiting merchant"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "next",
+      "harpsichord"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "daybed"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    18,
+    25,
+    33
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

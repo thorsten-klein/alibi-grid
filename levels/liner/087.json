@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000111000111222133222133444133444133",
+  "objects": "a..e..f......b.ab.d.....d.eee...b...",
+  "roomNames": [
+    "Library",
+    "Dining Saloon",
+    "First Class Lounge",
+    "Stateroom A",
+    "Turkish Bath"
+  ],
+  "people": [
+    "Vince the voyage sponsor",
+    "Arthur the admiral",
+    "Basil the boatswain",
+    "Cedric the captain",
+    "Dmitri the deckhand",
+    "Edgar the electrician"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "telegraph"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "berth"
+    ],
+    [
+      4,
+      "next",
+      "telegraph"
+    ],
+    [
+      5,
+      "next",
+      "lifeboat"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    15,
+    19,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      19,
+      25
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "deckchair",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

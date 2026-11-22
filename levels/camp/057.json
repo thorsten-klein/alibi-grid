@@ -1,0 +1,98 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".b....f..c..b..d..b.....c",
+  "roomNames": [
+    "Cave",
+    "Flint Pit",
+    "Lookout Rock",
+    "Hide Tent"
+  ],
+  "people": [
+    "Alma the artist",
+    "Basil the beekeeper",
+    "Vera the visionary",
+    "Cedric the carrier",
+    "Dexter the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bones"
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "leaves"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "1.10.",
+  "tags": "0............1...........",
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

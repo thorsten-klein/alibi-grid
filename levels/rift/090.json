@@ -1,0 +1,137 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333444333444",
+  "objects": "........b.cf.....f..b...............",
+  "roomNames": [
+    "Fort",
+    "Jail",
+    "Shrine",
+    "Captain Cabin",
+    "Throne Room"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Vince the voyager",
+    "Basil the bookbinder",
+    "Carl the chronicler",
+    "Daisy the dreamer",
+    "Elsa the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "withBandit"
+    ],
+    [
+      5,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    15,
+    19,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "statue",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "..C...C.........C....L..............",
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,111 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "..a..bc...aa..f..a.....a.",
+  "roomNames": [
+    "Reception Lobby",
+    "Staff Quarters",
+    "Coral Lagoon",
+    "Luau Grounds"
+  ],
+  "people": [
+    "Albert the animator",
+    "Bruno the boat captain",
+    "Carl the chef",
+    "Victor the vip influencer",
+    "Dexter the disc jockey"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "towel"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "cart",
+      0
+    ],
+    [
+      "edge",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "towel",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

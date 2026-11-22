@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "ca......d.aec......ae.e..",
+  "roomNames": [
+    "Observatory",
+    "Great Peristyle",
+    "Papyrus Vault",
+    "Scribes Hall"
+  ],
+  "people": [
+    "Arthur the archivist",
+    "Vince the veteran sage",
+    "Basil the bookbinder",
+    "Cedric the cartographer",
+    "Dmitri the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cupboard"
+    ],
+    [
+      4,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

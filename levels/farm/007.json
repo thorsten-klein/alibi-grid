@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "f...b.......a..a",
+  "roomNames": [
+    "Hen House",
+    "Tool Shed",
+    "Hayloft"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Bella the barn hand",
+    "Cora the cider presser",
+    "Viola the veterinarian"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "anvil"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "tries": 1,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 10,
+  "group": 1
+}

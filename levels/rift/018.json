@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": ".b..f.f..b.b............a..........a",
+  "roomNames": [
+    "Great Hall",
+    "Throne Room",
+    "Hide Tent",
+    "Fire Pit",
+    "Fort"
+  ],
+  "people": [
+    "Astrid the astronomer",
+    "Bella the bookbinder",
+    "Carl the chronicler",
+    "Dexter the dreamer",
+    "Viola the visionary",
+    "Edgar the explorer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      5,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    17,
+    19,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      3
+    ],
+    [
+      "onCount",
+      "chair",
+      1
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "...L...L.........C.............C....",
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 23,
+  "group": 2
+}

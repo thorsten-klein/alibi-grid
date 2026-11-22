@@ -1,0 +1,203 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100002222113333222211333344444433334444445555556666555555666655777766665577776666",
+  "objects": "f.f.b......f......e.......b......a....c...f..f.c.d....c..a.b....aa..e.f....a.e...ed.........eac.a...",
+  "roomNames": [
+    "Hospitality Suite",
+    "Pit Lane",
+    "Tire Bay",
+    "Paddock Walkway",
+    "Telemetry Room",
+    "Team Garage A",
+    "Team Garage B",
+    "VIP Balcony"
+  ],
+  "people": [
+    "Ada the apprentice",
+    "Bea the broadcast commentator",
+    "Clara the crew chief",
+    "Dora the data telemetry lead",
+    "Edith the electrician",
+    "Vera the vip team owner",
+    "Freya the flag marshal",
+    "Greta the grid coordinator",
+    "Hilda the hospitality host",
+    "Ivy the international steward"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "next",
+      "chassis"
+    ],
+    [
+      5,
+      "next",
+      "bucket"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "toolbox"
+    ],
+    [
+      9,
+      "on",
+      "bucket"
+    ],
+    [
+      9,
+      "next",
+      "chassis"
+    ]
+  ],
+  "solution": [
+    7,
+    19,
+    25,
+    36,
+    44,
+    58,
+    61,
+    72,
+    80,
+    93
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      33
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

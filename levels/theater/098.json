@@ -1,0 +1,119 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112222133222213344441334444133",
+  "objects": "c...a...d..e..fb.d.a..a..b.b..b.e..bcbd...b....ef",
+  "roomNames": [
+    "Green Room",
+    "Lighting Booth",
+    "Balcony",
+    "Bar",
+    "Wings"
+  ],
+  "people": [
+    "Ada the author",
+    "Bruno the baritone",
+    "Celia the critic",
+    "Dora the director",
+    "Victor the violinist",
+    "Edith the electrician",
+    "Felix the flautist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "next",
+      "mirror"
+    ],
+    [
+      3,
+      "on",
+      "seat"
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    18,
+    22,
+    33,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

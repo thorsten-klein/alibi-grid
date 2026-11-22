@@ -1,0 +1,120 @@
+{
+  "size": 7,
+  "rooms": "0000111000011111111112222333222233344443334444333",
+  "objects": ".e...aa........aa.....e..f.aeb..c...b.c.....e.b..",
+  "roomNames": [
+    "Shrine",
+    "Scribe Room",
+    "Hall of Pillars",
+    "Antechamber",
+    "Statue Hall"
+  ],
+  "people": [
+    "Vivian the vizier",
+    "Alma the astrologer",
+    "Birgit the boat builder",
+    "Cora the chanter",
+    "Della the dancer",
+    "Edgar the embalmer",
+    "Flora the fanbearer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "couch"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    15,
+    21,
+    31,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".........LC...C...........C....C........CL.......",
+  "hard": 3,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

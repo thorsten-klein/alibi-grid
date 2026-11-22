@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222333344444333344444333344444555566666555566666555566666",
+  "objects": ".....f.aca......b.b.b.fa...b.a..aba...af......af...b.cc..c..af....beaaa....d.ae..",
+  "roomNames": [
+    "Chemical Vault",
+    "Specimen Nursery",
+    "Generator Core",
+    "Centrifuge Bay",
+    "Control Center",
+    "Autopsy Suite",
+    "Server Farm"
+  ],
+  "people": [
+    "Vera the venture backer",
+    "Ada the algorithm engineer",
+    "Bea the bioethicist",
+    "Clara the cryo technician",
+    "Dora the data architect",
+    "Edith the ecologist",
+    "Freya the forensic chemist",
+    "Greta the guard",
+    "Hilda the hardware tech"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "room",
+      2
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "hood"
+    ],
+    [
+      6,
+      "next",
+      "centrifuge"
+    ],
+    [
+      7,
+      "on",
+      "pod"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    24,
+    32,
+    36,
+    52,
+    58,
+    66,
+    80
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "rack",
+      0
+    ],
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 5,
+  "steps": 45,
+  "extra": true
+}

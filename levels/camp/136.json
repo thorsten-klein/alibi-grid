@@ -1,0 +1,191 @@
+{
+  "size": 10,
+  "rooms": "0000111122000011112200001111223333111122333333444455553344445555334444555566664477776666447777666644",
+  "objects": ".....c...d.e.c.c.a...f...b.......b....ae.d..a....f.f.c...bb......a..b..ad...cb...d....e.db..e......a",
+  "roomNames": [
+    "Lookout Rock",
+    "Spring",
+    "Hunting Ground",
+    "Elder Hut",
+    "Fire Pit",
+    "Berry Grove",
+    "Hide Tent",
+    "River Bank"
+  ],
+  "people": [
+    "Ada the artist",
+    "Birgit the beekeeper",
+    "Carl the carrier",
+    "Dmitri the drummer",
+    "Elsa the elder",
+    "Vivian the visionary",
+    "Felix the flute player",
+    "Gus the grinder",
+    "Henrik the hornblower",
+    "Isla the idol carver"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      8
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "leaves"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "boulder"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "col",
+      2
+    ],
+    [
+      9,
+      "next",
+      "tree"
+    ]
+  ],
+  "solution": [
+    8,
+    19,
+    27,
+    35,
+    46,
+    50,
+    63,
+    74,
+    82,
+    91
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      65,
+      75
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      29,
+      "r"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      90,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".....4.2.4",
+  "tags": "........................0...............3.........4.........1........3....2.....3...................",
+  "hard": 6,
+  "hardest": 8,
+  "steps": 31,
+  "extra": true
+}

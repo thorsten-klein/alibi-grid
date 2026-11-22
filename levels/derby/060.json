@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "...bb.fb..d.a.be.d.......",
+  "roomNames": [
+    "Weighing Room",
+    "Stewards Room",
+    "Winner Enclosure",
+    "Grandstand Terrace"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the breeder",
+    "Vera the visiting royalty",
+    "Clara the clerk of scales",
+    "Dora the doper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "haystack"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stablebench"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

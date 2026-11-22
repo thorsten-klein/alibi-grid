@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "..a..a........b.b.......d...a.ca.ac.",
+  "roomNames": [
+    "Makeup Room",
+    "Catwalk",
+    "Writers Room",
+    "Screening Room",
+    "Wardrobe Vault"
+  ],
+  "people": [
+    "Ada the actor",
+    "Bea the boom operator",
+    "Clara the cinematographer",
+    "Vera the voice actor",
+    "Dora the director",
+    "Edith the editor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "on",
+      "couch"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    14,
+    22,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

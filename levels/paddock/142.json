@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333444455555544445555554444555555666677777766667777776666777777",
+  "objects": "d...c.....d..........c..f.e..a.a.b....da...f.a..b......a........a...b.....a..c..b.b......a.ff.b.c..a",
+  "roomNames": [
+    "Scrutineering Shed",
+    "Pit Lane",
+    "Team Garage B",
+    "Tire Bay",
+    "Team Garage A",
+    "Drivers Lounge",
+    "Hospitality Suite",
+    "Paddock Walkway"
+  ],
+  "people": [
+    "Alma the aerodynamicist",
+    "Bella the brake tech",
+    "Viola the veteran champion",
+    "Cora the chief mechanic",
+    "Daisy the driver",
+    "Elsa the engine tuner",
+    "Fiona the fuel specialist",
+    "Gwen the gearbox tech",
+    "Hazel the head of team",
+    "Ines the inspector"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "chassis"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      3
+    ],
+    [
+      8,
+      "next",
+      "chassis"
+    ],
+    [
+      9,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    7,
+    11,
+    22,
+    34,
+    48,
+    50,
+    69,
+    73,
+    86,
+    95
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      61,
+      71
+    ],
+    [
+      69,
+      79
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "l"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      94,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      5
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 7,
+  "steps": 32,
+  "extra": true
+}

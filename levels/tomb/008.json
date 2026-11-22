@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "001111001111223333223333224444224444",
+  "objects": "cfc.......aa..a....f..........f.....",
+  "roomNames": [
+    "Shrine",
+    "Burial Chamber",
+    "Well Shaft",
+    "Workshop",
+    "Scribe Room"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Bella the brewer",
+    "Cora the chanter",
+    "Della the dancer",
+    "Vivian the vizier",
+    "Edith the envoy"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      5,
+      "next",
+      "jar"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    15,
+    23,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....C..........C.......C..L.L..CC...",
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "group": 1
+}

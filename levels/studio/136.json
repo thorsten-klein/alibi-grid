@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222333444222333444222333444222333444555666666555666666",
+  "objects": "........be.......a.....eea.......f......c..cb..cbc..c......f.d....dfad...b.e.....",
+  "roomNames": [
+    "Makeup Room",
+    "Screening Room",
+    "Director Trailer",
+    "Prop Armory",
+    "Catwalk",
+    "Writers Room",
+    "Wardrobe Vault"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Basil the boom operator",
+    "Cedric the cinematographer",
+    "Dmitri the director",
+    "Edgar the editor",
+    "Vince the voice actor",
+    "Frank the focus puller",
+    "Gideon the grip",
+    "Henrik the hairdresser"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "camera"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "couch"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    8,
+    13,
+    25,
+    32,
+    38,
+    48,
+    54,
+    64,
+    78
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "camera",
+      2
+    ],
+    [
+      "nextCount",
+      "boom",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 37,
+  "extra": true
+}

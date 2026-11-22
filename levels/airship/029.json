@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333322223333444445554444455544444555",
+  "objects": ".b.ac.b.........ab...a..bec.....b.ce......c.f.b.......efab.a.c.b",
+  "roomNames": [
+    "Cockpit Bridge",
+    "Dining Saloon",
+    "Stateroom Alpha",
+    "Galley",
+    "Promenade Deck",
+    "Radio Cabin"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the boatswain",
+    "Clara the chief rigger",
+    "Dora the doctor",
+    "Edith the envoy",
+    "Freya the flight steward",
+    "Greta the ground crew chief",
+    "Vera the vip diplomat"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "berth"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "winch"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "ballast"
+    ],
+    [
+      7,
+      "next",
+      "armchair"
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    22,
+    24,
+    36,
+    43,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "berth",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 24,
+  "group": 3
+}

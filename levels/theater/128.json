@@ -1,0 +1,167 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222001112222333445555333445555333445555333446666333446666",
+  "objects": ".aec.a.....f......e.......ea..............b...ad..........a...ff....b......b.b..c",
+  "roomNames": [
+    "Bar",
+    "Dressing Room",
+    "Orchestra Pit",
+    "Wings",
+    "Prop Store",
+    "Box Office",
+    "Foyer"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Birgit the baritone",
+    "Celia the critic",
+    "Vera the violinist",
+    "Daisy the director",
+    "Edgar the extra",
+    "Fiona the flautist",
+    "Gwen the guitarist",
+    "Hilda the hairdresser"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "seat"
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    27,
+    40,
+    51,
+    57,
+    71,
+    79
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "piano",
+      2
+    ],
+    [
+      "nextCount",
+      "light",
+      1
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

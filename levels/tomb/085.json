@@ -1,0 +1,124 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "a.f..cdcb..fa...........c..da.......",
+  "roomNames": [
+    "Scribe Room",
+    "Statue Hall",
+    "Antechamber",
+    "Sun Court",
+    "Shrine"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bella the brewer",
+    "Cora the carpenter",
+    "Vince the vintner",
+    "Dora the dancer",
+    "Edith the embalmer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    14,
+    21,
+    29,
+    31
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ],
+    [
+      "nextCount",
+      "statue",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..............C....L.........L.L....",
+  "hard": 4,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

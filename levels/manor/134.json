@@ -1,0 +1,181 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222001111222333444222333444555333444555336666555336666555336666",
+  "objects": "..f....a...c...d.b.c......e..bf..d...f..bea.af...f.....d.bdafa...fba.....ec...d..",
+  "roomNames": [
+    "Dining Room",
+    "Ballroom",
+    "Cellar",
+    "Library",
+    "Billiard Room",
+    "Kitchen",
+    "Gallery"
+  ],
+  "people": [
+    "Ada the author",
+    "Bella the banker",
+    "Carl the cook",
+    "Viola the valet",
+    "Daisy the doctor",
+    "Edgar the envoy",
+    "Frank the footman",
+    "Gideon the gardener",
+    "Henrik the housekeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "clock"
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    46,
+    61,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 38,
+  "extra": true
+}

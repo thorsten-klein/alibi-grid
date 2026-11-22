@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a......ca...b...",
+  "roomNames": [
+    "Infirmary",
+    "Chapter House",
+    "Refectory"
+  ],
+  "people": [
+    "Ada the abbot",
+    "Bea the bellringer",
+    "Clara the cellarer",
+    "Vera the visiting cardinal"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stall"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    11,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

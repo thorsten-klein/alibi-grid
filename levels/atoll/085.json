@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211223344223344223344",
+  "objects": "....b...c..c....b....eaab...ec.a....",
+  "roomNames": [
+    "Yacht Marina",
+    "Coral Lagoon",
+    "Coconut Grove",
+    "Spa Pavilion",
+    "Infinity Pool"
+  ],
+  "people": [
+    "Arthur the animator",
+    "Basil the boat captain",
+    "Cedric the chef",
+    "Vince the vip influencer",
+    "Dmitri the disc jockey",
+    "Edgar the entertainer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "surfboard"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    15,
+    19,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "extra": true
+}

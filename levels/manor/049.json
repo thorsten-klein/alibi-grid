@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "c.d.......a.f...",
+  "roomNames": [
+    "Hall",
+    "Library",
+    "Billiard Room"
+  ],
+  "people": [
+    "Ada the author",
+    "Victor the vicar",
+    "Bea the banker",
+    "Celia the cook"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

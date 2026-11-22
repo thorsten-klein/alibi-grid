@@ -1,0 +1,121 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "f......dc.....ab.d..b.....e.b.b.f....f.e...acaaa.",
+  "roomNames": [
+    "Cargo Bay",
+    "Observatory",
+    "Lab",
+    "Engine Room",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Basil the biologist",
+    "Carl the captain",
+    "Daisy the driller",
+    "Vivian the visitor",
+    "Ena the electrician",
+    "Freya the flight officer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "console"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    24,
+    34,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 16,
+  "group": 1
+}

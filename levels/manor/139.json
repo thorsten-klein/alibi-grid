@@ -1,0 +1,192 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222333344445533334444553333444455333344445566667777776666777777",
+  "objects": ".b..f.c....a..a....f......f..............ea.......e...b.a......bfbfc....bd.b.....a....d.da...a..eb.a",
+  "roomNames": [
+    "Hall",
+    "Study",
+    "Dining Room",
+    "Gallery",
+    "Pantry",
+    "Library",
+    "Cellar",
+    "Billiard Room"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Birgit the butler",
+    "Cedric the colonel",
+    "Daisy the dealer",
+    "Elsa the envoy",
+    "Frank the florist",
+    "Gwen the gardener",
+    "Hazel the heir",
+    "Viola the vicar",
+    "Isla the inspector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "col",
+      9
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ],
+    [
+      7,
+      "next",
+      "clock"
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "next",
+      "piano"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    28,
+    36,
+    42,
+    59,
+    60,
+    74,
+    87,
+    95
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      78,
+      88
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

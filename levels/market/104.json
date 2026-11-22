@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".b...d....cf...b....a.aa.b...d.d.a.be..c..b.b..e.",
+  "roomNames": [
+    "Silk Stall",
+    "Shadow Stage",
+    "Fireworks Barge",
+    "Fortune Teller",
+    "Noodle Court"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bea the boatman",
+    "Vera the village magistrate",
+    "Clara the calligrapher",
+    "Dora the drummer",
+    "Edith the embroiderer",
+    "Freya the firework master"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "cushion"
+    ],
+    [
+      3,
+      "on",
+      "cushion"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    19,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "lantern",
+      0
+    ],
+    [
+      "nextCount",
+      "stool",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

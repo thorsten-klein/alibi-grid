@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000011000011223344223344223344223344",
+  "objects": "...f...f...ba...c........a.........a",
+  "roomNames": [
+    "Daimyo Hall",
+    "Tea Ceremony Room",
+    "Zen Garden",
+    "Kitchen",
+    "Guard Gate"
+  ],
+  "people": [
+    "Alma the artisan",
+    "Bella the bowyer",
+    "Cora the cook",
+    "Daisy the drummer",
+    "Elsa the embroiderer",
+    "Viola the visiting monk"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "futon"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    14,
+    18,
+    27,
+    31
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      15,
+      16
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "group": 0
+}

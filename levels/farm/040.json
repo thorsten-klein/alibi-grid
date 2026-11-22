@@ -1,0 +1,86 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "...c.a..b.b..b.b",
+  "roomNames": [
+    "Farmhouse Kitchen",
+    "Tractor Garage",
+    "Farmstand"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Bella the barn hand",
+    "Cora the cider presser",
+    "Viola the veterinarian"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "tractor",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

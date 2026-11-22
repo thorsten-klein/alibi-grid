@@ -1,0 +1,160 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333333333334445555544455555",
+  "objects": "b.........f.e..f..b.d...b...ce..e..a...ae.b..bf.aff..f.f..c.....",
+  "roomNames": [
+    "Infirmary",
+    "Herb Garden",
+    "Abbey Church",
+    "Refectory",
+    "Cellar",
+    "Scriptorium"
+  ],
+  "people": [
+    "Alma the almoner",
+    "Bella the brewer",
+    "Cora the cantor",
+    "Daisy the document copyist",
+    "Elsa the elder brother",
+    "Viola the vicar general",
+    "Fiona the friar",
+    "Gwen the glass painter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "bellrope"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "reliquary"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "palliasse"
+    ],
+    [
+      6,
+      "on",
+      "stall"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    23,
+    30,
+    33,
+    44,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "onCount",
+      "palliasse",
+      0
+    ],
+    [
+      "nextCount",
+      "altar",
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 35,
+  "extra": true
+}

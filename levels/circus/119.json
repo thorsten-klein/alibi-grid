@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223331144433311444333114443335555533355555",
+  "objects": "..c.c..b.b......a...b............e.a.........a....ffb.e..b...fdb",
+  "roomNames": [
+    "Hay Barn",
+    "Trapeze Rig",
+    "Sideshow Alley",
+    "Carousel",
+    "Fortune Tent",
+    "Ticket Booth"
+  ],
+  "people": [
+    "Astrid the animal tamer",
+    "Birgit the balloon artist",
+    "Celia the contortionist",
+    "Della the drummer",
+    "Vivian the veteran ringmaster",
+    "Ena the electrician",
+    "Flora the fortune teller",
+    "Grace the gymnast"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "room",
+      2
+    ],
+    [
+      1,
+      "on",
+      "mat"
+    ],
+    [
+      2,
+      "next",
+      "mat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      7,
+      "next",
+      "mat"
+    ],
+    [
+      7,
+      "next",
+      "crystal"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    19,
+    26,
+    37,
+    46,
+    48,
+    60
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "crystal",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "tries": 11,
+  "hard": 8,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

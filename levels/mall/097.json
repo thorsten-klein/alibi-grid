@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333344433334444444444",
+  "objects": ".d..b..b..db..a....a.......a.a.d...aa.....bc.b...",
+  "roomNames": [
+    "Arcade",
+    "Department Store",
+    "Record Store",
+    "Food Court",
+    "Security Office"
+  ],
+  "people": [
+    "Victor the visiting store inspector",
+    "Albert the aerobics instructor",
+    "Bruno the boutique clerk",
+    "Carl the cashier",
+    "Dexter the disc jockey",
+    "Elias the eyewear stylist",
+    "Felix the fashionista"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "gumball"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "plasticchair"
+    ],
+    [
+      6,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    15,
+    24,
+    32,
+    35,
+    47
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      37,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "photobench",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,208 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000001122223333311222233333112222333344555553333445555566664455555666644777776666447777766664477777",
+  "objects": "...c.b..e...cb..a.......f.....f.cd.be.....b.a...d.e.cf.c...b.dfc.b.a...a...d....b..................dd..........ca.da...ae",
+  "roomNames": [
+    "Writers Room",
+    "Soundstage A",
+    "Editing Suite",
+    "Prop Armory",
+    "Studio Commissary",
+    "Catwalk",
+    "Wardrobe Vault",
+    "Director Trailer"
+  ],
+  "people": [
+    "Arthur the assistant director",
+    "Vince the veteran producer",
+    "Basil the body double",
+    "Cedric the choreographer",
+    "Dmitri the diva",
+    "Edgar the extra",
+    "Frank the fashion designer",
+    "Gideon the gaffer",
+    "Henrik the headliner",
+    "Ivo the intimacy coordinator",
+    "Jonas the juvenile lead"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "camera"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "light"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "camera"
+    ],
+    [
+      7,
+      "on",
+      "couch"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      9
+    ],
+    [
+      8,
+      "same",
+      10
+    ],
+    [
+      9,
+      "next",
+      "boom"
+    ],
+    [
+      10,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    29,
+    38,
+    44,
+    65,
+    74,
+    80,
+    97,
+    101,
+    116
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      26,
+      37
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      49,
+      60
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      53,
+      64
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      83,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      112,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "hard": 6,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

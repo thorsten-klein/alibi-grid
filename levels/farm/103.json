@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "a..b........a..b..a....f....a.c.b.b.a...e.c...a..",
+  "roomNames": [
+    "Hayloft",
+    "Root Cellar",
+    "Big Barn",
+    "Hen House",
+    "Tractor Garage"
+  ],
+  "people": [
+    "Ada the apple picker",
+    "Bea the beekeeper",
+    "Clara the cattle rancher",
+    "Vera the vineyard leaseholder",
+    "Dora the dairy maid",
+    "Edith the equipment operator",
+    "Freya the farmer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "rocker"
+    ],
+    [
+      4,
+      "next",
+      "rocker"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "bale"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    16,
+    22,
+    33,
+    35,
+    45
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

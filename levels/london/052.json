@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "...e....b.c.efae",
+  "roomNames": [
+    "Cobblestone Alley",
+    "Police Desk",
+    "Apothecary"
+  ],
+  "people": [
+    "Viola the vagabond",
+    "Alma the aristocrat",
+    "Bella the bowler hat seller",
+    "Cora the chimney sweep"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "fireplace"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "streetlamp"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "fireplace",
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233444555334445553344455533444555",
+  "objects": ".d...d.e....dcc.....be......b.eb...d..bcd.b..f........a.dac...a.",
+  "roomNames": [
+    "Private Booths",
+    "Safe Room",
+    "Coat Check",
+    "Bar Counter",
+    "Manager Office",
+    "Hidden Alleyway"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bruno the bootlegger",
+    "Carl the card sharp",
+    "Dexter the distiller",
+    "Elias the emcee",
+    "Victor the valued patron",
+    "Felix the forger",
+    "Gus the gun runner"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "cask"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "next",
+      "booth"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    23,
+    27,
+    36,
+    46,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "......e...b.....",
+  "roomNames": [
+    "Observatory",
+    "Archivist Sanctum",
+    "Lecture Theater"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Basil the botanist",
+    "Vince the visiting philosopher",
+    "Cedric the chronicler"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bust"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    2,
+    4,
+    9,
+    15
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

@@ -1,0 +1,125 @@
+{
+  "size": 6,
+  "rooms": "000111000111223333223333224444224444",
+  "objects": ".d...e.....c......b.......bcba......",
+  "roomNames": [
+    "Barber",
+    "General Store",
+    "Bank",
+    "Church",
+    "Hotel"
+  ],
+  "people": [
+    "Arthur the auctioneer",
+    "Bruno the banker",
+    "Clara the cattle driver",
+    "Victor the vaquero",
+    "Della the deputy",
+    "Elias the engineer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "bed"
+    ],
+    [
+      4,
+      "withBandit"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    13,
+    18,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      20,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "tries": 3,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "group": 2
+}

@@ -1,0 +1,121 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "b..a.a.a..b.cb.....a.....e...f....c.afc..adba....",
+  "roomNames": [
+    "Galley",
+    "Lounge Car",
+    "Bar Car",
+    "Dining Car",
+    "Guard's Van"
+  ],
+  "people": [
+    "Alma the attendant",
+    "Viola the vendor",
+    "Bea the banker",
+    "Cedric the courier",
+    "Daisy the diplomat",
+    "Edith the engineer",
+    "Flora the fiddler"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "suitcase"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "wine"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    19,
+    22,
+    32,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      5
+    ]
+  ],
+  "hard": 5,
+  "hardest": 7,
+  "steps": 19,
+  "extra": true
+}

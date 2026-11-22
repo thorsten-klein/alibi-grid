@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "b..f.b.e...ae.f.b.....a.....fc.c.eaa..abb..d.....",
+  "roomNames": [
+    "Ward A",
+    "Pharmacy",
+    "Morgue",
+    "Kitchen",
+    "Operating Theater"
+  ],
+  "people": [
+    "Astrid the anesthetist",
+    "Birgit the biochemist",
+    "Celia the chief surgeon",
+    "Della the doctor",
+    "Vivian the victim of illness",
+    "Ena the epidemiologist",
+    "Flora the first responder"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "wheelchair"
+    ],
+    [
+      4,
+      "next",
+      "xray"
+    ],
+    [
+      5,
+      "next",
+      "wheelchair"
+    ],
+    [
+      6,
+      "next",
+      "bed"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    18,
+    23,
+    34,
+    36,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

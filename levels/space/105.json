@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333344444444444444",
+  "objects": "bf...c.....c....e...eb...a.b..a....d..e..b....b..",
+  "roomNames": [
+    "Gym",
+    "Comms",
+    "Med Bay",
+    "Airlock",
+    "Mess Hall"
+  ],
+  "people": [
+    "Arthur the astronaut",
+    "Vera the volunteer",
+    "Bea the biologist",
+    "Carl the chemist",
+    "Dexter the doctor",
+    "Edith the engineer",
+    "Freya the flight officer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    19,
+    27,
+    29,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

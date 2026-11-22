@@ -1,0 +1,85 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....aa..a.a....d",
+  "roomNames": [
+    "Shrine",
+    "Fort",
+    "Bank"
+  ],
+  "people": [
+    "Vince the visionary",
+    "Alma the archivist",
+    "Bea the bookbinder",
+    "Celia the clockmaker"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "row",
+      3
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks",
+    "glyphs"
+  ],
+  "court": [
+    2
+  ],
+  "rank": "kknn",
+  "tags": "..C...LC....C...",
+  "hard": 0,
+  "hardest": 1,
+  "steps": 10,
+  "group": 1
+}

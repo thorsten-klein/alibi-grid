@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000111000111223333223333224444224444",
+  "objects": "..f..c.e....b.....ba..b.d..c...a.c..",
+  "roomNames": [
+    "Main Dining Room",
+    "Staff Locker",
+    "Dishwashing Pit",
+    "Butcher Larder",
+    "Pastry Kitchen"
+  ],
+  "people": [
+    "Albert the appetizer cook",
+    "Victor the veteran restaurateur",
+    "Bruno the butcher",
+    "Carl the chocolatier",
+    "Dexter the dessert chef",
+    "Elias the executive chef"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      0
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    17,
+    21,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      20,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "group": 3
+}

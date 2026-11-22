@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111334444334444",
+  "objects": ".cb..f.bc.ab..bb.c.....b..........f.",
+  "roomNames": [
+    "Tower",
+    "Dungeon",
+    "Courtyard",
+    "Smithy",
+    "Great Hall"
+  ],
+  "people": [
+    "Albert the alchemist",
+    "Bruno the baker",
+    "Clara the cupbearer",
+    "Della the doorkeeper",
+    "Victor the vintner",
+    "Edith the embroiderer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    14,
+    23,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "nnckkk",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

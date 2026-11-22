@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "f...b.a......dda.f.......",
+  "roomNames": [
+    "Ninja Loft",
+    "Kitchen",
+    "Armory",
+    "Stables"
+  ],
+  "people": [
+    "Astrid the artisan",
+    "Birgit the bowyer",
+    "Vivian the visiting monk",
+    "Celia the cook",
+    "Della the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "on",
+      "tatami"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

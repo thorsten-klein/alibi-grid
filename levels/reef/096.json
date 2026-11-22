@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011110001111000223344422334442233444",
+  "objects": "..............a......b.d.....aa....ce.a..ca.e..d.",
+  "roomNames": [
+    "Open Sea",
+    "Dock",
+    "Sea Cave",
+    "Sloop",
+    "Lighthouse"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Bruno the barkeep",
+    "Carl the cook",
+    "Daisy the diver",
+    "Elsa the engineer",
+    "Victor the vintner",
+    "Felix the first mate"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    18,
+    21,
+    30,
+    40,
+    48
+  ],
+  "doors": [
+    [
+      21,
+      28
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ],
+    [
+      "nextCount",
+      "crate",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,204 @@
+{
+  "size": 10,
+  "rooms": "0000111122000011112200001111220000111122333334455533333445556666644555666664455577777445557777744555",
+  "objects": "..a...d...e..caa..b.abbc.d........d..deb.c.....e.f...f.d......ad......e....bba.d....a..a..a..f.a....",
+  "roomNames": [
+    "Record Store",
+    "Toy Emporium",
+    "Escalator Hub",
+    "Department Store",
+    "Security Office",
+    "Service Corridors",
+    "Skate Shop",
+    "Atrium Fountain"
+  ],
+  "people": [
+    "Vivian the visiting store inspector",
+    "Astrid the aerobics instructor",
+    "Birgit the boutique clerk",
+    "Celia the cashier",
+    "Della the disc jockey",
+    "Ena the eyewear stylist",
+    "Flora the fashionista",
+    "Grace the guard",
+    "Hana the head of security",
+    "Isla the informant"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "plasticchair"
+    ],
+    [
+      1,
+      "on",
+      "plasticchair"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "mannequin"
+    ],
+    [
+      6,
+      "next",
+      "gumball"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "next",
+      "gumball"
+    ],
+    [
+      8,
+      "next",
+      "photobench"
+    ],
+    [
+      9,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    24,
+    30,
+    43,
+    59,
+    62,
+    78,
+    86,
+    97
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      73,
+      83
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ]
+  ],
+  "tries": 24,
+  "facts": [
+    [
+      "nextCount",
+      "gumball",
+      4
+    ],
+    [
+      "onCount",
+      "plasticchair",
+      2
+    ],
+    [
+      "nextCount",
+      "mannequin",
+      2
+    ]
+  ],
+  "hard": 9,
+  "hardest": 8,
+  "steps": 47,
+  "extra": true
+}

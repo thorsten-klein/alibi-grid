@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000002223333322233333222444455554444555544445555",
+  "objects": "b.ba..d.ba..d...a.a...d.bfea...bea........b..c.fef.....db...e...",
+  "roomNames": [
+    "Cinema Lobby",
+    "Escalator Hub",
+    "Food Court",
+    "Skate Shop",
+    "Toy Emporium",
+    "Record Store"
+  ],
+  "people": [
+    "Alma the aerobics instructor",
+    "Bella the boutique clerk",
+    "Viola the visiting store inspector",
+    "Cora the cashier",
+    "Daisy the disc jockey",
+    "Elsa the eyewear stylist",
+    "Fiona the fashionista",
+    "Gwen the guard"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "photobench"
+    ],
+    [
+      0,
+      "next",
+      "plasticchair"
+    ],
+    [
+      1,
+      "next",
+      "gumball"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "plasticchair"
+    ],
+    [
+      3,
+      "next",
+      "plasticchair"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "gate"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "fountain"
+    ],
+    [
+      7,
+      "next",
+      "gumball"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    19,
+    28,
+    33,
+    40,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

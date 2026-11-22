@@ -1,0 +1,247 @@
+{
+  "size": 12,
+  "rooms": "000111122222000111122222000111122222000111122222000111133333000111133333444555666666444555666666444555777888444555777888444555777888444555777888",
+  "objects": ".d.b...b.b..daa.b......fa.e.de.d..bfc......b.b..f...da.....c.....e...cb....b......aefb.ae.af......fea.ab..bec....ab.......cb.........ee.........",
+  "roomNames": [
+    "Decon Airlock",
+    "Autopsy Suite",
+    "Centrifuge Bay",
+    "Chemical Vault",
+    "Breakroom",
+    "Cryo Storage",
+    "Specimen Nursery",
+    "Control Center",
+    "Server Farm"
+  ],
+  "people": [
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician",
+    "Dmitri the data architect",
+    "Edgar the ecologist",
+    "Frank the forensic chemist",
+    "Vince the venture backer",
+    "Gideon the guard",
+    "Henrik the hardware tech",
+    "Ivo the immunologist",
+    "Jonas the junior researcher",
+    "Konrad the kinetic specialist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "next",
+      "centrifuge"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "centrifuge"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "hood"
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "rack"
+    ],
+    [
+      8,
+      "next",
+      "rack"
+    ],
+    [
+      8,
+      "next",
+      "hood"
+    ],
+    [
+      9,
+      "next",
+      "centrifuge"
+    ],
+    [
+      9,
+      "next",
+      "pod"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    17,
+    25,
+    44,
+    57,
+    64,
+    82,
+    90,
+    96,
+    111,
+    127,
+    143
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      66,
+      78
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      140,
+      141
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "pod",
+      0
+    ],
+    [
+      "nextCount",
+      "centrifuge",
+      5
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "group": 3
+}

@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "..d..ef.b.....db.....a..c..fa...a.a.c....d..f....",
+  "roomNames": [
+    "Elder Hut",
+    "Flint Pit",
+    "Hunting Ground",
+    "Cave",
+    "Bone Yard"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Vivian the valley guide",
+    "Basil the builder",
+    "Cora the carrier",
+    "Daisy the dancer",
+    "Ena the elder",
+    "Freya the flute player"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "leaves"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "log"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    15,
+    26,
+    32,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      0
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "4..0.43",
+  "tags": "...4.........1........41..0..................13.3",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

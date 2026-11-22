@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222111122223333222233334444555544445555",
+  "objects": "......bb.d...cf....c..e.bd.c.de.a..b....fcb.e.c.aa..........b..a",
+  "roomNames": [
+    "High Roller Lounge",
+    "Penthouse Suite",
+    "Cashier Cage",
+    "Valet Booth",
+    "The Vault",
+    "Parking Garage"
+  ],
+  "people": [
+    "Albert the accountant",
+    "Victor the vip gambler",
+    "Bruno the baccarat dealer",
+    "Carl the croupier",
+    "Dexter the dice inspector",
+    "Elias the entertainer",
+    "Felix the floor manager",
+    "Gus the gambler"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "safe"
+    ],
+    [
+      3,
+      "next",
+      "wheel"
+    ],
+    [
+      4,
+      "next",
+      "wheel"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      6,
+      "next",
+      "chaise"
+    ],
+    [
+      7,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    23,
+    26,
+    38,
+    45,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

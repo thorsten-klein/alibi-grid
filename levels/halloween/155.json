@@ -1,0 +1,210 @@
+{
+  "size": 11,
+  "rooms": "0000011222200000112222333331122223333311222233333444444333334444445555555444455555554444666666777776666667777766666677777",
+  "objects": ".d.beae.........ba.......a..ca.e.cf..bb.e.e...c.b..bbb.b...ed...b....b.......c.....ae....b...........b..ad.fbb..d..c....b",
+  "roomNames": [
+    "Crypt",
+    "Haunted Conservatory",
+    "Pumpkin Patch",
+    "Costume Ballroom",
+    "Cemetery Gate",
+    "Black Cat Alley",
+    "Occult Library",
+    "Witch Parlor"
+  ],
+  "people": [
+    "Albert the actor",
+    "Bruno the baker",
+    "Carl the candy maker",
+    "Dexter the decorator",
+    "Elias the entertainer",
+    "Felix the florist",
+    "Gus the gravedigger",
+    "Hugo the herbalist",
+    "Igor the investigator",
+    "Jasper the jack-o-lantern carver",
+    "Victor the visiting storyteller"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "on",
+      "swing"
+    ],
+    [
+      1,
+      "next",
+      "cauldron"
+    ],
+    [
+      2,
+      "next",
+      "coffin"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "web"
+    ],
+    [
+      4,
+      "on",
+      "swing"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "next",
+      "swing"
+    ],
+    [
+      6,
+      "next",
+      "coffin"
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      8,
+      "col",
+      7
+    ],
+    [
+      9,
+      "next",
+      "pumpkin"
+    ],
+    [
+      10,
+      "row",
+      10
+    ]
+  ],
+  "solution": [
+    3,
+    20,
+    26,
+    35,
+    52,
+    65,
+    72,
+    78,
+    95,
+    104,
+    110
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      14,
+      25
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      43,
+      54
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      57,
+      68
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      86,
+      97
+    ],
+    [
+      77,
+      88
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      115,
+      "b"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 30,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "onCount",
+      "swing",
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 55,
+  "extra": true
+}

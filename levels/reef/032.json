@@ -1,0 +1,197 @@
+{
+  "size": 12,
+  "rooms": "000000000000000000000000000000000000000011100000000011122222000011122222000011122222333344455555333344455555333344466666333344466666333344466666",
+  "objects": ".....................................................d.da.........a.f........a....a...............a...acde.c.......b....c..faefa..ed..c...f...a.",
+  "roomNames": [
+    "Open Sea",
+    "Longboat",
+    "Galleon",
+    "Dock",
+    "Frigate",
+    "Sloop",
+    "Brig"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Bruno the barkeep",
+    "Celia the cook",
+    "Dmitri the diver",
+    "Edith the explorer",
+    "Flora the fiddler",
+    "Gwen the gunner",
+    "Hugo the harbor pilot",
+    "Igor the island guide",
+    "Juno the jeweller",
+    "Victor the vintner",
+    "Kira the kettle cook"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      8
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      11
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "same",
+      11
+    ],
+    [
+      10,
+      "next",
+      "cannon"
+    ],
+    [
+      11,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    32,
+    40,
+    54,
+    71,
+    79,
+    89,
+    97,
+    117,
+    122,
+    142
+  ],
+  "doors": [
+    [
+      66,
+      67
+    ],
+    [
+      76,
+      88
+    ],
+    [
+      83,
+      95
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      126,
+      127
+    ],
+    [
+      104,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      59,
+      "r"
+    ],
+    [
+      95,
+      "r"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      133,
+      "b"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      136,
+      "b"
+    ],
+    [
+      137,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 32,
+  "group": 3
+}

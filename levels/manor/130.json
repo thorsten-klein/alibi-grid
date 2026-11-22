@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001113333001113333444455555444455555444466666444466666444466666",
+  "objects": "....f...d.e.f.fc.ac.a..b.ad.f.da.bf...cdd.f....f.a..e....bbc.a..e.d..c...d......a",
+  "roomNames": [
+    "Dining Room",
+    "Library",
+    "Gallery",
+    "Ballroom",
+    "Cellar",
+    "Conservatory",
+    "Pantry"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bea the butler",
+    "Celia the cook",
+    "Victor the valet",
+    "Dora the dealer",
+    "Edgar the envoy",
+    "Flora the footman",
+    "Gwen the guest",
+    "Henrik the housekeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ],
+    [
+      7,
+      "next",
+      "plant"
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "next",
+      "shelf"
+    ],
+    [
+      8,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    25,
+    32,
+    44,
+    49,
+    55,
+    65,
+    78
+  ],
+  "doors": [
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

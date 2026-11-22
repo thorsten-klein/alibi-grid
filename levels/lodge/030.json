@@ -1,0 +1,201 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333445555533344555553334455555666447777766644777776664477777",
+  "objects": ".be..bacf..a.b.....dea..c.f.b..b...bc....e.....f...d...b.........e.a...a....c.....b..a...c..b....a.b",
+  "roomNames": [
+    "Sauna",
+    "Boot Room",
+    "Terrace",
+    "Bar",
+    "Kitchen",
+    "Games Room",
+    "Suite",
+    "Fireside Lounge"
+  ],
+  "people": [
+    "Viola the vet",
+    "Alma the avalanche guard",
+    "Bruno the baker",
+    "Cedric the climber",
+    "Della the doctor",
+    "Edith the explorer",
+    "Frank the fisher",
+    "Gideon the glacier expert",
+    "Henrik the hotelier",
+    "Isla the instructor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      0,
+      "next",
+      "skis"
+    ],
+    [
+      1,
+      "next",
+      "skis"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "room",
+      0
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "tree"
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "next",
+      "skis"
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    6,
+    14,
+    22,
+    38,
+    43,
+    55,
+    61,
+    77,
+    80,
+    99
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      69,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 31,
+  "group": 3
+}

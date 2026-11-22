@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002233002233002244002244",
+  "objects": "........bbeaa.ae...aba..d..cb.ab...e",
+  "roomNames": [
+    "Oxygen Scrubber",
+    "Water Reclamation",
+    "Habitat Quarters",
+    "Airlock Module",
+    "Solar Array Control"
+  ],
+  "people": [
+    "Arthur the astrobiologist",
+    "Basil the botanist",
+    "Vince the venture sponsor",
+    "Cedric the commander",
+    "Dmitri the drill operator",
+    "Edgar the environmental engineer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ],
+    [
+      5,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    13,
+    23,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "rover",
+      0
+    ],
+    [
+      "nextCount",
+      "pod",
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

@@ -1,0 +1,194 @@
+{
+  "size": 10,
+  "rooms": "0000000000111111111122223333332222333333222233333344444555554444455555666644777766664477776666447777",
+  "objects": "...cfbabf.dd...a.......fb....dc.fd..cc..........b...d..ce....c....b...bc.........b......a.f....f....",
+  "roomNames": [
+    "Grand Ballroom",
+    "Turkish Bath",
+    "Galley",
+    "Telegraph Cabin",
+    "Stateroom A",
+    "Promenade Deck",
+    "Boiler Room",
+    "First Class Lounge"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the bartender",
+    "Cedric the chief engineer",
+    "Dmitri the doctor",
+    "Edgar the envoy",
+    "Frank the fireman",
+    "Gideon the governess",
+    "Vince the valet",
+    "Henrik the heiress",
+    "Ivo the inspector"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "deckchair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "luggage"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      5,
+      "room",
+      4
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "notRoom",
+      7
+    ],
+    [
+      6,
+      "col",
+      8
+    ],
+    [
+      7,
+      "window",
+      null
+    ],
+    [
+      8,
+      "on",
+      "berth"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    22,
+    39,
+    47,
+    54,
+    68,
+    70,
+    81,
+    96
+  ],
+  "doors": [
+    [
+      3,
+      13
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      17,
+      27
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      41,
+      51
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      63,
+      73
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      67,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      90,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "hard": 8,
+  "hardest": 7,
+  "steps": 33,
+  "extra": true
+}

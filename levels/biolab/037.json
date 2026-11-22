@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "..a....f..e...ab",
+  "roomNames": [
+    "Chemical Vault",
+    "Breakroom",
+    "Autopsy Suite"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Birgit the biochemist",
+    "Vivian the virology head",
+    "Celia the chief scientist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

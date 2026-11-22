@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444444445555555555555555",
+  "objects": "..aa.......a...fae.........b...bd.dc..d...b.............e......f",
+  "roomNames": [
+    "Catwalk",
+    "Writers Room",
+    "Editing Suite",
+    "Prop Armory",
+    "Wardrobe Vault",
+    "Soundstage A"
+  ],
+  "people": [
+    "Astrid the actor",
+    "Birgit the boom operator",
+    "Celia the cinematographer",
+    "Della the director",
+    "Ena the editor",
+    "Flora the focus puller",
+    "Vivian the voice actor",
+    "Grace the grip"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "boom"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    21,
+    31,
+    33,
+    42,
+    51,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      42,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

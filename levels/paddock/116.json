@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220003333344433333444333334445555544455555",
+  "objects": "e....bafc...c....c.ba...a..b..d.a.b....a....db.........b....a.a.",
+  "roomNames": [
+    "Paddock Walkway",
+    "Telemetry Room",
+    "Team Garage A",
+    "Hospitality Suite",
+    "Pit Lane",
+    "Team Garage B"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Victor the veteran champion",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Dexter the driver",
+    "Elias the engine tuner",
+    "Felix the fuel specialist",
+    "Gus the gearbox tech"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "toolbox"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "on",
+      "bucket"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "bucket"
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    21,
+    28,
+    32,
+    41,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "chassis",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 32,
+  "extra": true
+}

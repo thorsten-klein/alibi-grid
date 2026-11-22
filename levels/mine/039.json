@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "a...a........a..",
+  "roomNames": [
+    "Miners Mess",
+    "Smelting Oven",
+    "Dynamite Magazine"
+  ],
+  "people": [
+    "Viola the venture capitalist",
+    "Alma the axeman",
+    "Bella the blaster",
+    "Cora the carpenter"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      4,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

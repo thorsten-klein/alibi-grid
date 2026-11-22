@@ -1,0 +1,132 @@
+{
+  "size": 6,
+  "rooms": "000000111111223333223333224444224444",
+  "objects": "........c.....c..a..f...a...........",
+  "roomNames": [
+    "Stables",
+    "Guard Gate",
+    "Shrine",
+    "Daimyo Hall",
+    "Ninja Loft"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bea the bushi warrior",
+    "Vera the veteran general",
+    "Clara the calligrapher",
+    "Dora the daimyo",
+    "Edith the envoy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "armor"
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "tatami"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    15,
+    23,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "armor",
+      1
+    ],
+    [
+      "nextCount",
+      "tatami",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

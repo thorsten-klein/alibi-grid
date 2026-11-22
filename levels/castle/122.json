@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220003333300033333444555554445555544444444",
+  "objects": "bd...e..b...dd...a..d..f...a..a...ffa.d....fc.a..d.b.c..a.c.....",
+  "roomNames": [
+    "Kitchen",
+    "Solar",
+    "Courtyard",
+    "Chapel",
+    "Great Hall",
+    "Tower"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Birgit the bard",
+    "Clara the cupbearer",
+    "Della the doorkeeper",
+    "Vera the vintner",
+    "Elsa the envoy",
+    "Felix the falconer",
+    "Grace the glassmaker"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "candles"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "candles"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    28,
+    32,
+    45,
+    55,
+    57
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      54,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 22,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    4
+  ],
+  "rank": "cckkkcck",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 39,
+  "extra": true
+}

@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223334444433344444333555553335555533355555",
+  "objects": ".....d...c....f.d....b....e.b..........e........dff.a...........",
+  "roomNames": [
+    "Sun Court",
+    "Workshop",
+    "Hall of Pillars",
+    "Boat Pit",
+    "Well Shaft",
+    "Treasury"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Birgit the brewer",
+    "Clara the chanter",
+    "Dmitri the diviner",
+    "Elsa the embalmer",
+    "Vince the vintner",
+    "Fiona the fanbearer",
+    "Gwen the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "next",
+      "jar"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      7
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    20,
+    31,
+    38,
+    42,
+    51,
+    56
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      37,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "rubble",
+      2
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".L...........L......L............C.C...............L....C.......",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 21,
+  "group": 1
+}

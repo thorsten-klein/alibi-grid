@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122223344442222334444222233444422223344445556667777555666777755566677775556667777",
+  "objects": "..de.b.b..a....ba.e..fb.b.b...d..a...e......b.....a.....a.....b.bd..dabb.bb.b.f.a.........bb........",
+  "roomNames": [
+    "Oxygen Scrubber",
+    "Water Reclamation",
+    "Airlock Module",
+    "Command Hub",
+    "Hydroponic Dome",
+    "Habitat Quarters",
+    "Rover Bay",
+    "Comms Array"
+  ],
+  "people": [
+    "Ada the astrobiologist",
+    "Bea the botanist",
+    "Clara the commander",
+    "Dora the drill operator",
+    "Edith the environmental engineer",
+    "Freya the flight specialist",
+    "Greta the geologist",
+    "Hilda the habitat architect",
+    "Ivy the it specialist",
+    "Vera the venture sponsor"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "rover"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "pod"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    24,
+    38,
+    40,
+    57,
+    63,
+    76,
+    81,
+    99
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      10,
+      20
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      99,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 25,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "seat",
+      3
+    ],
+    [
+      "nextCount",
+      "tower",
+      0
+    ]
+  ],
+  "hard": 10,
+  "hardest": 8,
+  "steps": 55,
+  "extra": true
+}

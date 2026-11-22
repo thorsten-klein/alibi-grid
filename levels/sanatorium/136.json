@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333334455333334455666664455666664455666664455",
+  "objects": ".f.....a.ae......e........a.....e.....b..af.bb..f.....d..c.ed...........cdf...b.f",
+  "roomNames": [
+    "Morgue",
+    "Doctor Office",
+    "Reception Hall",
+    "Boiler Room",
+    "Operating Theater",
+    "Ward A",
+    "Hydrotherapy Room"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Victor the visiting superintendent",
+    "Dexter the dentist",
+    "Elias the examiner",
+    "Felix the forensic pathologist",
+    "Gus the gerontologist",
+    "Hugo the hospitalier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "archive"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "wheelchair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      4
+    ],
+    [
+      5,
+      "next",
+      "bed"
+    ],
+    [
+      6,
+      "next",
+      "cabinet"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "cart"
+    ],
+    [
+      8,
+      "next",
+      "bed"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    25,
+    30,
+    40,
+    53,
+    56,
+    64,
+    77
+  ],
+  "doors": [
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "hard": 4,
+  "hardest": 7,
+  "steps": 30,
+  "extra": true
+}

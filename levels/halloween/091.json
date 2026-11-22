@@ -1,0 +1,116 @@
+{
+  "size": 6,
+  "rooms": "001111001111222333222333222444222444",
+  "objects": "...........d....dd.ad.b........b....",
+  "roomNames": [
+    "Pumpkin Patch",
+    "Apple Bobbing Hall",
+    "Crypt",
+    "Occult Library",
+    "Witch Parlor"
+  ],
+  "people": [
+    "Alma the actor",
+    "Bella the baker",
+    "Cora the candy maker",
+    "Daisy the decorator",
+    "Elsa the entertainer",
+    "Viola the visiting storyteller"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "tombstone"
+    ],
+    [
+      3,
+      "on",
+      "swing"
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    14,
+    22,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

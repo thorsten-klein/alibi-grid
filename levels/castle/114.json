@@ -1,0 +1,151 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122200111222333445553334455533344555",
+  "objects": "ca.....f..dd......ae.fd.d..........c.ae....cf..b.a.b.ed..adf..fd",
+  "roomNames": [
+    "Stables",
+    "Armory",
+    "Smithy",
+    "Solar",
+    "Dungeon",
+    "Chapel"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Vince the vintner",
+    "Basil the baker",
+    "Clara the cupbearer",
+    "Dora the doorkeeper",
+    "Edith the envoy",
+    "Frank the farrier",
+    "Gideon the groom"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      3,
+      "next",
+      "candles"
+    ],
+    [
+      4,
+      "next",
+      "swords"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "on",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    20,
+    25,
+    39,
+    42,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "urn",
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    5
+  ],
+  "rank": "cckccckk",
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

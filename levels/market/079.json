@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "000111000111222222222222334444334444",
+  "objects": "...b.e.a.ca..f................c..baf",
+  "roomNames": [
+    "Dragon Boat",
+    "Fireworks Barge",
+    "Tea Pavilion",
+    "Shadow Stage",
+    "Silk Stall"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the bamboo carver",
+    "Clara the cook",
+    "Vera the visiting noble",
+    "Dora the dancer",
+    "Edith the elder"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "cushion"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    17,
+    21,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

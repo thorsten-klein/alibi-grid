@@ -1,0 +1,158 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222333445555333445555333445555333446666333446666",
+  "objects": "................b..c...cc....f.c.....de.....cc..f.db.a......f....e.f.......a.a...",
+  "roomNames": [
+    "Breakroom",
+    "Specimen Nursery",
+    "Autopsy Suite",
+    "Chemical Vault",
+    "Cleanroom 2",
+    "Decon Airlock",
+    "Server Farm"
+  ],
+  "people": [
+    "Vivian the virology head",
+    "Astrid the analyst",
+    "Birgit the biochemist",
+    "Celia the chief scientist",
+    "Della the dna sequencer",
+    "Ena the epidemiologist",
+    "Flora the facility director",
+    "Grace the geneticist",
+    "Hana the hazard responder"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "next",
+      "hood"
+    ],
+    [
+      3,
+      "next",
+      "hood"
+    ],
+    [
+      4,
+      "same",
+      8
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "rack"
+    ],
+    [
+      7,
+      "next",
+      "centrifuge"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    16,
+    20,
+    33,
+    39,
+    53,
+    59,
+    64,
+    76
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

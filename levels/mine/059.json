@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "f......ebc.....c..f....e.",
+  "roomNames": [
+    "Deep Winze",
+    "Shaft Elevator",
+    "Main Drift",
+    "Assay Office"
+  ],
+  "people": [
+    "Alma the axeman",
+    "Bella the blaster",
+    "Cora the carpenter",
+    "Daisy the dynamite handler",
+    "Viola the venture capitalist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "orecart"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "next",
+      "orecart"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": ".c..bf..ba.c.c.b.c........b....b....a...daf.d.cb.",
+  "roomNames": [
+    "Statue Hall",
+    "Shrine",
+    "Burial Chamber",
+    "Scribe Room",
+    "Well Shaft"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Bea the brewer",
+    "Vera the vizier",
+    "Carl the chanter",
+    "Dexter the dancer",
+    "Ena the envoy",
+    "Freya the fanbearer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "couch"
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    15,
+    24,
+    34,
+    37,
+    47
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".......C.............................L...........",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

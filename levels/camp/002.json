@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "001111001111223333223333224444224444",
+  "objects": "...a.b.ef..aa.....a.b..f.c...a..d...",
+  "roomNames": [
+    "Cave",
+    "Bone Yard",
+    "Fire Pit",
+    "Flint Pit",
+    "Elder Hut"
+  ],
+  "people": [
+    "Albert the artist",
+    "Vera the visionary",
+    "Birgit the beekeeper",
+    "Cora the carver",
+    "Dmitri the dancer",
+    "Edith the elder"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "log"
+    ],
+    [
+      1,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    12,
+    19,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bones",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "2..2.1",
+  "tags": "...................2..........33...1",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 13,
+  "group": 0
+}

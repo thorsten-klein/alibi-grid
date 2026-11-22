@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344255333442553334425533344255",
+  "objects": "aeac..e....b...a......b..e..f.ba.eb.d.d.bd.bb.bb...aea.....dc..e",
+  "roomNames": [
+    "Grain Silo",
+    "Pig Pen",
+    "Hayloft",
+    "Big Barn",
+    "Root Cellar",
+    "Farmhouse Kitchen"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Bruno the barn hand",
+    "Carl the cider presser",
+    "Dexter the ditcher",
+    "Elias the entomologist",
+    "Felix the farrier",
+    "Gus the greenhouse tender",
+    "Victor the veterinarian"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "bale"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "on",
+      "rocker"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      6,
+      "next",
+      "scarecrow"
+    ],
+    [
+      7,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    20,
+    30,
+    35,
+    45,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "scarecrow",
+      2
+    ],
+    [
+      "nextCount",
+      "bale",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "group": 1
+}

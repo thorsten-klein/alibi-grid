@@ -1,0 +1,78 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": ".....e..a.b.....",
+  "roomNames": [
+    "Bank",
+    "Saloon",
+    "Livery"
+  ],
+  "people": [
+    "Vivian the vet",
+    "Arthur the auctioneer",
+    "Bella the blacksmith",
+    "Celia the cattle driver"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "withBandit"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    1
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

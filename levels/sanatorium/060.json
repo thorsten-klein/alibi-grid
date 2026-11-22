@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "...bb.fb..d.a.be.d.......",
+  "roomNames": [
+    "Operating Theater",
+    "Boiler Room",
+    "Reception Hall",
+    "Records Archive"
+  ],
+  "people": [
+    "Ada the attendant",
+    "Bea the bacteriologist",
+    "Vera the visiting superintendent",
+    "Clara the caregiver",
+    "Dora the dentist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "archive"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

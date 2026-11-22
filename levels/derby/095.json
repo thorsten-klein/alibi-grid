@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "..eb..c.....fc...............c..........bb....a.d",
+  "roomNames": [
+    "Betting Ring",
+    "Paddock Ring",
+    "Jockeys Room",
+    "Winner Enclosure",
+    "Weighing Room"
+  ],
+  "people": [
+    "Ada the apprentice jockey",
+    "Bea the bookmaker",
+    "Clara the champion jockey",
+    "Vera the veteran horse owner",
+    "Dora the derby steward",
+    "Edith the equine therapist",
+    "Freya the farrier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "stablebench"
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "next",
+      "turfchair"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    18,
+    22,
+    34,
+    37,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "board",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

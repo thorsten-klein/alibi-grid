@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022223333222233332222444455554444555544445555",
+  "objects": "d.e..dcf.....d...ac...d.ece....d....de.........c..f.f.ccbab.fc..",
+  "roomNames": [
+    "Port-a-Jon Alley",
+    "Mixing Tower",
+    "Guitar Tech Tent",
+    "Backstage VIP",
+    "Campers Field",
+    "First Aid Tent"
+  ],
+  "people": [
+    "Arthur the audio engineer",
+    "Vince the vip record exec",
+    "Basil the bass player",
+    "Cedric the crew chief",
+    "Dmitri the drummer",
+    "Edgar the electrician",
+    "Frank the frontman",
+    "Gideon the guitarist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "drums"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "drums"
+    ],
+    [
+      5,
+      "next",
+      "amp"
+    ],
+    [
+      6,
+      "next",
+      "lighttower"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    20,
+    29,
+    39,
+    46,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "roadcase",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

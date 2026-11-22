@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "....ac...e.ecbbb",
+  "roomNames": [
+    "Calligraphy Shop",
+    "Silk Stall",
+    "Noodle Court"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the boatman",
+    "Victor the village magistrate",
+    "Carl the calligrapher"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      3,
+      "on",
+      "cushion"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 13,
+  "group": 1
+}

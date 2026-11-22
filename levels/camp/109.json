@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000111110002223344422233444222334445553344455533",
+  "objects": ".....a.........a.a....a....e..a....af..a....e....b.a..f.a....aaf",
+  "roomNames": [
+    "Spring",
+    "Cave",
+    "Hunting Ground",
+    "Berry Grove",
+    "Hide Tent",
+    "Elder Hut"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bruno the beekeeper",
+    "Celia the carrier",
+    "Dora the dancer",
+    "Elias the elder",
+    "Viola the valley guide",
+    "Fiona the flute player",
+    "Greta the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "bones"
+    ],
+    [
+      6,
+      "on",
+      "leaves"
+    ],
+    [
+      7,
+      "on",
+      "log"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    19,
+    31,
+    34,
+    46,
+    49,
+    56
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "tree",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "2..20..2",
+  "tags": "..3......................2........0...............2.............",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,85 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "e..a........f...",
+  "roomNames": [
+    "Telegraph Office",
+    "Jail",
+    "Saloon"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Basil the blacksmith",
+    "Vivian the vet",
+    "Cedric the cattle driver"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    0
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 9,
+  "group": 1
+}

@@ -1,0 +1,111 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "..a..bc...aa..f..a.....a.",
+  "roomNames": [
+    "Tool Crib",
+    "Deep Winze",
+    "Water Sump",
+    "Shift Boss Office"
+  ],
+  "people": [
+    "Albert the axeman",
+    "Bruno the blaster",
+    "Carl the carpenter",
+    "Victor the venture capitalist",
+    "Dexter the dynamite handler"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      0
+    ],
+    [
+      "edge",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "keg",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

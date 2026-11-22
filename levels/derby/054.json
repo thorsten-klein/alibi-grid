@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "c.e..b..a..bb...",
+  "roomNames": [
+    "Grandstand Terrace",
+    "Stewards Room",
+    "Stables"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Vivian the visiting royalty",
+    "Birgit the breeder",
+    "Celia the clerk of scales"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      2,
+      "next",
+      "stablebench"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "float",
+      0
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

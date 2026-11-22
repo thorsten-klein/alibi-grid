@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112222233333",
+  "objects": "....fac....b...f.....b..f",
+  "roomNames": [
+    "Black Cat Alley",
+    "Cemetery Gate",
+    "Spider Attic",
+    "Pumpkin Patch"
+  ],
+  "people": [
+    "Victor the visiting storyteller",
+    "Albert the actor",
+    "Bruno the baker",
+    "Carl the candy maker",
+    "Dexter the decorator"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "next",
+      "pumpkin"
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    11,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

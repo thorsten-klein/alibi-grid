@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233344455333444553334445533344455",
+  "objects": "..c..bbaa....bc...d.af.b...bc..f.d...b..b...a....ae........a....",
+  "roomNames": [
+    "Well Shaft",
+    "Scribe Room",
+    "Antechamber",
+    "Hall of Pillars",
+    "Shrine",
+    "Treasury"
+  ],
+  "people": [
+    "Alma the architect",
+    "Birgit the boat builder",
+    "Cora the carpenter",
+    "Dora the diviner",
+    "Edgar the envoy",
+    "Flora the fanbearer",
+    "Vera the vizier",
+    "Greta the goldsmith"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      3,
+      "next",
+      "urn"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      7,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    17,
+    29,
+    35,
+    42,
+    55,
+    62
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      61,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "................................L.....................CC......C.",
+  "hard": 9,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

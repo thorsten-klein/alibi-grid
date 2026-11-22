@@ -1,0 +1,84 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "......bbb.b..b..",
+  "roomNames": [
+    "Mail Car",
+    "Lounge Car",
+    "Sleeper A"
+  ],
+  "people": [
+    "Ada the attendant",
+    "Vera the violinist",
+    "Bruno the bookseller",
+    "Celia the conductor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    3,
+    4,
+    10,
+    13
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "group": 3
+}

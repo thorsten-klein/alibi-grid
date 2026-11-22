@@ -1,0 +1,204 @@
+{
+  "size": 10,
+  "rooms": "0011122233001112223300111222330011122233445555666644555566664455556666445555666677777777777777777777",
+  "objects": "b..df.....ef.........e.a..b......ca...f.c..f.f..a.a...ea.b.f..f....d.b..a.a.......c..e....b.aebc...e",
+  "roomNames": [
+    "Tenement Attic",
+    "Cab Stand",
+    "Mortuary",
+    "Cobblestone Alley",
+    "Pawn Shop",
+    "Police Desk",
+    "Thames Wharf",
+    "Opium Den"
+  ],
+  "people": [
+    "Vince the vagabond",
+    "Arthur the aristocrat",
+    "Basil the bowler hat seller",
+    "Cedric the chimney sweep",
+    "Dmitri the doctor",
+    "Edgar the errand boy",
+    "Frank the fishmonger",
+    "Gideon the grave robber",
+    "Henrik the hawker",
+    "Ivo the inspector"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "hansom"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "armchair"
+    ],
+    [
+      3,
+      "next",
+      "fireplace"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "armchair"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "hansom"
+    ],
+    [
+      7,
+      "next",
+      "armchair"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "cot"
+    ],
+    [
+      9,
+      "next",
+      "fireplace"
+    ]
+  ],
+  "solution": [
+    2,
+    19,
+    23,
+    31,
+    47,
+    50,
+    66,
+    75,
+    84,
+    98
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      73,
+      83
+    ],
+    [
+      77,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 22,
+  "facts": [
+    [
+      "onCount",
+      "cot",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 44,
+  "extra": true
+}

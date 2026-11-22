@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022223332222333444433344443334444",
+  "objects": ".f.......dfd....d.a............a.b..c..e....f..a.",
+  "roomNames": [
+    "Counselor Cabin",
+    "Bunkhouse Alpha",
+    "Archery Range",
+    "Infirmary",
+    "Canoe Dock"
+  ],
+  "people": [
+    "Arthur the arts counselor",
+    "Basil the bugler",
+    "Cedric the cook",
+    "Vince the visitor",
+    "Dmitri the director",
+    "Edgar the eagle scout",
+    "Frank the first aid counselor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "next",
+      "board"
+    ]
+  ],
+  "solution": [
+    6,
+    7,
+    19,
+    23,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

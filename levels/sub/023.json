@@ -1,0 +1,226 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112220000111122233334445555333344455553333444555533334445555666666677776666666777766666667777",
+  "objects": "da...eb.....dae......b.ca...c.eb...ab..b.....af....bcbaf..c.......b......b...e.c..a...b..f...b..f..bf.aee.d..c..a..b.....",
+  "roomNames": [
+    "Crew Quarters",
+    "Specimen Bay",
+    "Conning Tower",
+    "Sonar Room",
+    "Torpedo Tube",
+    "Galley",
+    "Reactor Chamber",
+    "Hydrothermal Lab"
+  ],
+  "people": [
+    "Ada the acoustic analyst",
+    "Bea the biologist",
+    "Clara the chief diver",
+    "Dora the doctor",
+    "Edith the environmentalist",
+    "Freya the flight pilot",
+    "Greta the gyro tech",
+    "Hilda the helmsman",
+    "Ivy the intern",
+    "Jade the journeyman",
+    "Vera the vip expedition funder"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "sonar"
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "sonar"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "freezer"
+    ],
+    [
+      5,
+      "next",
+      "sonar"
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "valve"
+    ],
+    [
+      9,
+      "next",
+      "freezer"
+    ],
+    [
+      10,
+      "next",
+      "valve"
+    ],
+    [
+      10,
+      "next",
+      "bunk"
+    ],
+    [
+      10,
+      "row",
+      10
+    ]
+  ],
+  "solution": [
+    1,
+    21,
+    22,
+    36,
+    51,
+    57,
+    75,
+    83,
+    93,
+    107,
+    114
+  ],
+  "doors": [
+    [
+      36,
+      37
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      79,
+      90
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

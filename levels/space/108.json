@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122222222222222333444433344443334444",
+  "objects": ".......b.....c.....f..a..aae.dcafdcca...f....e.ab",
+  "roomNames": [
+    "Gym",
+    "Crew Quarters",
+    "Lab",
+    "Hydroponics",
+    "Bridge"
+  ],
+  "people": [
+    "Victor the visitor",
+    "Albert the astronaut",
+    "Bea the botanist",
+    "Cora the chemist",
+    "Dora the doctor",
+    "Edith the engineer",
+    "Fiona the flight officer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    15,
+    23,
+    28,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

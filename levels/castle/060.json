@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "..de..f.d..bb..bf.b......",
+  "roomNames": [
+    "Kitchen",
+    "Courtyard",
+    "Armory",
+    "Dungeon"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Bea the bard",
+    "Victor the vintner",
+    "Clara the chronicler",
+    "Dora the doorkeeper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "candles"
+    ],
+    [
+      1,
+      "next",
+      "candles"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "ncckc",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

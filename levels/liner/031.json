@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333344444433334444443333555666777755566677775556667777555666",
+  "objects": ".e.edbd........c..ab.a....c.f............eb..ae..da.........e.f........dc..ef.ab.e....cab....cee...b",
+  "roomNames": [
+    "Boiler Room",
+    "Stateroom A",
+    "Steerage Quarters",
+    "Bridge",
+    "Grand Ballroom",
+    "First Class Lounge",
+    "Dining Saloon",
+    "Turkish Bath"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the bartender",
+    "Clara the chief engineer",
+    "Dora the doctor",
+    "Edith the envoy",
+    "Freya the fireman",
+    "Greta the governess",
+    "Vera the valet",
+    "Hilda the heiress",
+    "Ivy the inspector"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "on",
+      "deckchair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "telegraph"
+    ],
+    [
+      5,
+      "next",
+      "deckchair"
+    ],
+    [
+      6,
+      "next",
+      "luggage"
+    ],
+    [
+      7,
+      "on",
+      "berth"
+    ],
+    [
+      7,
+      "next",
+      "deckchair"
+    ],
+    [
+      8,
+      "next",
+      "piano"
+    ],
+    [
+      9,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    21,
+    34,
+    47,
+    55,
+    66,
+    79,
+    83,
+    98
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      61,
+      71
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      73,
+      74
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 30,
+  "group": 3
+}

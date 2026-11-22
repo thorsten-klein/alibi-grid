@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": "............be.d..eab.a.a.e.........eb...b.ebb...........c..ddbc",
+  "roomNames": [
+    "Games Room",
+    "Ski Room",
+    "Boot Room",
+    "Suite",
+    "Bar",
+    "Terrace"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Viola the vlogger",
+    "Bea the baker",
+    "Carl the cook",
+    "Dmitri the doctor",
+    "Elsa the explorer",
+    "Flora the forester",
+    "Gideon the glacier expert"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      5
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "tree"
+    ],
+    [
+      6,
+      "next",
+      "skis"
+    ],
+    [
+      7,
+      "next",
+      "skis"
+    ],
+    [
+      7,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    22,
+    27,
+    37,
+    44,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      0
+    ],
+    [
+      "roomCount",
+      5,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "group": 0
+}

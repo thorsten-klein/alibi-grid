@@ -1,0 +1,230 @@
+{
+  "size": 11,
+  "rooms": "0001111111100011111111000111222220001112222200011122222333334444443333344444455555444444555556666667777766666677777666666",
+  "objects": ".cbb....fb....d...f...feb.......fe.....c..cd....b....a.d.e.b.bd.ab...adaa....d.e.d..f.......b..c.....b.....a...dde..b.e..",
+  "roomNames": [
+    "Ninja Loft",
+    "Armory",
+    "Stables",
+    "Falconry Yard",
+    "Kitchen",
+    "Guard Gate",
+    "Tea Ceremony Room",
+    "Moon Balcony"
+  ],
+  "people": [
+    "Alma the artisan",
+    "Bella the bowyer",
+    "Cora the cook",
+    "Daisy the drummer",
+    "Elsa the embroiderer",
+    "Fiona the foot soldier",
+    "Viola the visiting monk",
+    "Gwen the guard",
+    "Hazel the herbalist",
+    "Ines the iron smith",
+    "Juno the junior samurai"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "armor"
+    ],
+    [
+      0,
+      "col",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "next",
+      "armor"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bonsai"
+    ],
+    [
+      5,
+      "next",
+      "futon"
+    ],
+    [
+      6,
+      "notRoom",
+      1
+    ],
+    [
+      7,
+      "next",
+      "tatami"
+    ],
+    [
+      7,
+      "next",
+      "taiko"
+    ],
+    [
+      8,
+      "next",
+      "bonsai"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "room",
+      7
+    ],
+    [
+      10,
+      "next",
+      "futon"
+    ],
+    [
+      10,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    16,
+    31,
+    41,
+    54,
+    58,
+    67,
+    83,
+    90,
+    103,
+    117
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      45,
+      56
+    ],
+    [
+      18,
+      29
+    ],
+    [
+      48,
+      59
+    ],
+    [
+      49,
+      60
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      68,
+      79
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      89,
+      100
+    ],
+    [
+      114,
+      115
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      43,
+      "r"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      87,
+      "r"
+    ],
+    [
+      112,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 36,
+  "group": 3
+}

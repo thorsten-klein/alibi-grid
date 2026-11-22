@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "..b...f.......f..fb.......f....d.fd..f.....a.....",
+  "roomNames": [
+    "Pantry",
+    "Dining Room",
+    "Study",
+    "Gallery",
+    "Hall"
+  ],
+  "people": [
+    "Alma the author",
+    "Bella the butler",
+    "Vera the vicar",
+    "Clara the cook",
+    "Della the dealer",
+    "Edgar the editor",
+    "Flora the footman"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "clock"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      3,
+      "notRoom",
+      4
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    22,
+    28,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "clock",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

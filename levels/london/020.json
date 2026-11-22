@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222334445553344455533444555",
+  "objects": "ce.....a...acb.bdc.....b...e.......a.d......af.ba.fa..e..acc....",
+  "roomNames": [
+    "Mortuary",
+    "Thames Wharf",
+    "Cobblestone Alley",
+    "Opium Den",
+    "Pawn Shop",
+    "Tenement Attic"
+  ],
+  "people": [
+    "Vince the victim of nobility",
+    "Arthur the apothecary",
+    "Basil the blackmailer",
+    "Cedric the constable",
+    "Dmitri the detective",
+    "Edgar the engraver",
+    "Frank the forger",
+    "Gideon the gentlemen valet"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "armchair"
+    ],
+    [
+      1,
+      "next",
+      "streetlamp"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "hansom"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "kiosk"
+    ],
+    [
+      6,
+      "on",
+      "armchair"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "next",
+      "fireplace"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    29,
+    33,
+    42,
+    48,
+    62
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "armchair",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 26,
+  "group": 2
+}

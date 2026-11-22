@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "...bcd.................b.a.d....e......aee.a.....",
+  "roomNames": [
+    "Main Stage",
+    "Beer Garden",
+    "Backstage VIP",
+    "Mixing Tower",
+    "Guitar Tech Tent"
+  ],
+  "people": [
+    "Astrid the artist agent",
+    "Birgit the bodyguard",
+    "Celia the cameraman",
+    "Vivian the vocal coach",
+    "Della the disc jockey",
+    "Ena the event producer",
+    "Flora the fan president"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "drums"
+    ],
+    [
+      1,
+      "next",
+      "amp"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "roadcase"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    16,
+    22,
+    28,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

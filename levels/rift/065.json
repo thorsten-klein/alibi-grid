@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0000000000112221122211333",
+  "objects": "...........d..bb...f.....",
+  "roomNames": [
+    "Sea of Ages",
+    "Burial Chamber",
+    "Bank",
+    "Jail"
+  ],
+  "people": [
+    "Ada the astronomer",
+    "Bella the bard",
+    "Cedric the clockmaker",
+    "Viola the voyager",
+    "Della the drifter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "on",
+      "log"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    14,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      17,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      19,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "log",
+      1
+    ]
+  ],
+  "rules": [
+    "trades",
+    "sea"
+  ],
+  "trade": "14.41",
+  "tags": "................24...1.1.",
+  "sea": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

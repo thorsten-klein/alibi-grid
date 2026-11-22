@@ -1,0 +1,190 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111223334444223334444223334444223334444225556666225556666",
+  "objects": "...bcb....a.ff.c.b.b.eb.d.a.....b..b...cceb...c......b...c...f.f..f.b..a.ac.e.c..",
+  "roomNames": [
+    "Sheriff Office",
+    "General Store",
+    "Church",
+    "Barber",
+    "Hotel",
+    "Corral",
+    "Livery"
+  ],
+  "people": [
+    "Astrid the auctioneer",
+    "Bruno the banker",
+    "Viola the vet",
+    "Cora the cattle driver",
+    "Dexter the dancer",
+    "Elias the engineer",
+    "Frank the farmer",
+    "Greta the gunsmith",
+    "Hugo the hatmaker"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "horse"
+    ],
+    [
+      2,
+      "next",
+      "cactus"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "withBandit"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "next",
+      "bed"
+    ],
+    [
+      8,
+      "next",
+      "barrel"
+    ],
+    [
+      8,
+      "next",
+      "piano"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    25,
+    31,
+    36,
+    50,
+    55,
+    69,
+    75
+  ],
+  "doors": [
+    [
+      22,
+      23
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ],
+    [
+      "corner",
+      null,
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    0,
+    6
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 31,
+  "extra": true
+}

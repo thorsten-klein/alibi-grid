@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222003333222003333222003333222444444555444444555666644555666644555",
+  "objects": "....aa..c.......da............a...a.d.a...e...c.....e..fcff..c.....ee............",
+  "roomNames": [
+    "Bar Car",
+    "Dining Car",
+    "Mail Car",
+    "Galley",
+    "Baggage Car",
+    "Sleeper C",
+    "Sleeper A"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Birgit the bookseller",
+    "Cora the courier",
+    "Dexter the diplomat",
+    "Edith the envoy",
+    "Flora the firefighter",
+    "Vivian the violinist",
+    "Gideon the governor",
+    "Henrik the hatter"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "wine"
+    ],
+    [
+      6,
+      "next",
+      "suitcase"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "suitcase"
+    ],
+    [
+      8,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    49,
+    60,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      54,
+      63
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 26,
+  "group": 0
+}

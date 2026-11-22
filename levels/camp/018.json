@@ -1,0 +1,125 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": ".ac...........a.....abb...a..a...f..",
+  "roomNames": [
+    "Painted Wall",
+    "Elder Hut",
+    "Flint Pit",
+    "Cave",
+    "Bone Yard"
+  ],
+  "people": [
+    "Arthur the artist",
+    "Bea the builder",
+    "Cedric the carrier",
+    "Dexter the dancer",
+    "Vera the valley guide",
+    "Ena the elk tamer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "boulder"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    15,
+    19,
+    28,
+    35
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "onCount",
+      "log",
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "..40..",
+  "tags": ".........1.........0....4...........",
+  "tries": 4,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 15,
+  "group": 2
+}

@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222333344445533334444553333444455333344445566667777776666777777",
+  "objects": ".b..f.c....a..a....f......f..............ea.......e...b.a......bfbfc....bd.b.....a....d.da...a..eb.a",
+  "roomNames": [
+    "Big Barn",
+    "Grain Silo",
+    "Root Cellar",
+    "Pig Pen",
+    "Hen House",
+    "Milking Shed",
+    "Farmstand",
+    "Fruit Orchard"
+  ],
+  "people": [
+    "Albert the apple picker",
+    "Bruno the beekeeper",
+    "Carl the cattle rancher",
+    "Dexter the dairy maid",
+    "Elias the equipment operator",
+    "Felix the farmer",
+    "Gus the grain miller",
+    "Hugo the harvester",
+    "Victor the vineyard leaseholder",
+    "Igor the inspector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "on",
+      "rocker"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      9
+    ],
+    [
+      6,
+      "next",
+      "churn"
+    ],
+    [
+      7,
+      "next",
+      "anvil"
+    ],
+    [
+      7,
+      "next",
+      "rocker"
+    ],
+    [
+      8,
+      "next",
+      "rocker"
+    ],
+    [
+      8,
+      "next",
+      "scarecrow"
+    ],
+    [
+      9,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    28,
+    36,
+    42,
+    59,
+    60,
+    74,
+    87,
+    95
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      78,
+      88
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

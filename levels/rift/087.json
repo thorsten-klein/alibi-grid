@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000122000122000122000122333344333344",
+  "objects": ".........f.....b....f....bb....a.e..",
+  "roomNames": [
+    "Burial Chamber",
+    "Cave",
+    "Hide Tent",
+    "Fort",
+    "Fire Pit"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Birgit the bard",
+    "Cedric the chronicler",
+    "Dmitri the dreamer",
+    "Vivian the visionary",
+    "Elsa the engineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "withBandit"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    22,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "boulder",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "..C.L......C....C.............C.....",
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

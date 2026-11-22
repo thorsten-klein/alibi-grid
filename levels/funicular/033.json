@@ -1,0 +1,247 @@
+{
+  "size": 12,
+  "rooms": "000111122222000111122222000111122222000111122222000111133333000111133333444555666666444555666666444555777888444555777888444555777888444555777888",
+  "objects": ".d.b...b.b..daa.b......fa.e.de.d..bfc......b.b..f...da.....c.....e...cb....b......aefb.ae.af......fea.ab..bec....ab.......cb.........ee.........",
+  "roomNames": [
+    "Observation Terrace",
+    "Glacier Overlook",
+    "Funicular Car A",
+    "Funicular Car B",
+    "Souvenir Kiosk",
+    "Sheave Tower",
+    "Ticket Hall",
+    "Ski Patrol Shack",
+    "Transformer Vault"
+  ],
+  "people": [
+    "Ada the alpine guide",
+    "Bea the billeter",
+    "Clara the cable splicer",
+    "Dora the doctor",
+    "Edith the excursionist",
+    "Freya the first aider",
+    "Vera the visiting vip",
+    "Greta the gearbox tech",
+    "Hilda the hiker",
+    "Ivy the instructor",
+    "Jade the junior patrol",
+    "Kitty the knot rigger"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "skirack"
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "winch"
+    ],
+    [
+      5,
+      "next",
+      "generator"
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "luggage"
+    ],
+    [
+      8,
+      "next",
+      "luggage"
+    ],
+    [
+      8,
+      "next",
+      "winch"
+    ],
+    [
+      9,
+      "next",
+      "generator"
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    17,
+    25,
+    44,
+    57,
+    64,
+    82,
+    90,
+    96,
+    111,
+    127,
+    143
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      66,
+      78
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      140,
+      141
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      0
+    ],
+    [
+      "nextCount",
+      "generator",
+      5
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "group": 3
+}

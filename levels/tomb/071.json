@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "...b..............e...f..",
+  "roomNames": [
+    "Boat Pit",
+    "Shrine",
+    "Workshop",
+    "Well Shaft"
+  ],
+  "people": [
+    "Ada the architect",
+    "Basil the brewer",
+    "Viola the vizier",
+    "Carl the carpenter",
+    "Dexter the diviner"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    14,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "L.......C........C.....C.",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "extra": true
+}

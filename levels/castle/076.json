@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000000000000111222111222333444333444",
+  "objects": "a..b.d..f.....d..cd...........ac...c",
+  "roomNames": [
+    "Throne Room",
+    "Courtyard",
+    "Great Hall",
+    "Smithy",
+    "Stables"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Vera the vintner",
+    "Bea the baker",
+    "Carl the cupbearer",
+    "Dora the doorkeeper",
+    "Ena the envoy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    13,
+    21,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    4
+  ],
+  "rank": "cckknk",
+  "hard": 2,
+  "hardest": 5,
+  "steps": 12,
+  "extra": true
+}

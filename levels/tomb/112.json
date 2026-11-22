@@ -1,0 +1,164 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222211122222111333334443333344455555444",
+  "objects": "b..e...a..b..b.a.....e..e....d....b....f....a.b....e..a..f.....f",
+  "roomNames": [
+    "Hall of Pillars",
+    "Statue Hall",
+    "Scribe Room",
+    "Sun Court",
+    "Workshop",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Alma the architect",
+    "Vince the vizier",
+    "Bruno the brewer",
+    "Clara the carpenter",
+    "Dmitri the diviner",
+    "Edith the envoy",
+    "Frank the fanbearer",
+    "Gwen the guard"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "jar"
+    ],
+    [
+      7,
+      "next",
+      "jar"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    16,
+    27,
+    37,
+    46,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      49,
+      57
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      31,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "rubble",
+      1
+    ],
+    [
+      "nextCount",
+      "stool",
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".C..L....L......C......C..C............................C........",
+  "hard": 6,
+  "hardest": 5,
+  "steps": 29,
+  "extra": true
+}

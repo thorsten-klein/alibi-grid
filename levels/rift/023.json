@@ -1,0 +1,216 @@
+{
+  "size": 11,
+  "rooms": "0001111111100011111111000111111110001111111122233311111222333111112223331111144433355555444666555554446665555544466655555",
+  "objects": ".............c........eb.........c.c.........b..b......f.bf........fb..........b.faeaeacbc.e...d..bfa.a....e.....bb.bf..b",
+  "roomNames": [
+    "Hide Tent",
+    "Sea of Ages",
+    "Burial Chamber",
+    "Fire Pit",
+    "Cave",
+    "Captain Cabin",
+    "Shrine"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bella the bookbinder",
+    "Clara the chronicler",
+    "Dora the drifter",
+    "Edith the engineer",
+    "Frank the falconer",
+    "Grace the guardian",
+    "Hilda the herald",
+    "Ivy the illusionist",
+    "Vince the voyager",
+    "Jonas the juggler"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "room",
+      3
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ],
+    [
+      8,
+      "next",
+      "boulder"
+    ],
+    [
+      9,
+      "next",
+      "log"
+    ],
+    [
+      9,
+      "withBandit"
+    ],
+    [
+      10,
+      "next",
+      "clock"
+    ],
+    [
+      10,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    28,
+    34,
+    51,
+    60,
+    74,
+    86,
+    92,
+    109,
+    110
+  ],
+  "doors": [
+    [
+      34,
+      45
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      68,
+      79
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "sea"
+  ],
+  "sea": 1,
+  "bandits": 3,
+  "lawful": [
+    3,
+    6
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 31,
+  "group": 2
+}

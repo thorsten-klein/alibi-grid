@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000001122000000112233333311223333331122444411112244441155224444115566444411556677777755667777775566",
+  "objects": "a.d..a.a.ae...b.c....b......f.d.b...ea.......e...a.da..cd...a....b.cc....f.e..fea......b.a.........f",
+  "roomNames": [
+    "Statue Hall",
+    "Granary",
+    "Scribe Room",
+    "Burial Chamber",
+    "Workshop",
+    "Hall of Pillars",
+    "Boat Pit",
+    "Shrine"
+  ],
+  "people": [
+    "Vince the vintner",
+    "Alma the architect",
+    "Bea the brewer",
+    "Clara the chanter",
+    "Della the diviner",
+    "Elias the embalmer",
+    "Fiona the fanbearer",
+    "Grace the guard",
+    "Hilda the harpist",
+    "Ivo the inspector"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "next",
+      "rubble"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "jar"
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "next",
+      "urn"
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    29,
+    38,
+    46,
+    50,
+    62,
+    77,
+    84,
+    95
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      10,
+      20
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      72,
+      82
+    ],
+    [
+      97,
+      98
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "......C..................C...............L....L.C.......................C...........................",
+  "hard": 7,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

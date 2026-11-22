@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333444333444",
+  "objects": "e.a......d......b......c..f..d...a..",
+  "roomNames": [
+    "Sleeper A",
+    "Dining Car",
+    "Guard's Van",
+    "Observation Car",
+    "Corridor"
+  ],
+  "people": [
+    "Arthur the accordionist",
+    "Vera the vendor",
+    "Basil the banker",
+    "Celia the conductor",
+    "Dexter the diplomat",
+    "Elias the envoy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    12,
+    20,
+    28,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 23,
+  "group": 3
+}

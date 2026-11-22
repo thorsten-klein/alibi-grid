@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "b......e......b.",
+  "roomNames": [
+    "Main Stage",
+    "Port-a-Jon Alley",
+    "Backstage VIP"
+  ],
+  "people": [
+    "Alma the audio engineer",
+    "Bella the bass player",
+    "Viola the vip record exec",
+    "Cora the crew chief"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "roadcase"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    4,
+    10,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 9,
+  "extra": true
+}

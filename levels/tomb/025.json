@@ -1,0 +1,127 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333444333444",
+  "objects": "a..a.dbb...ea..ba.....b...........f.",
+  "roomNames": [
+    "Sun Court",
+    "Boat Pit",
+    "Antechamber",
+    "Granary",
+    "Shrine"
+  ],
+  "people": [
+    "Alma the architect",
+    "Bruno the boat builder",
+    "Clara the carpenter",
+    "Viola the vintner",
+    "Dexter the diviner",
+    "Edith the embalmer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "couch"
+    ],
+    [
+      4,
+      "next",
+      "jar"
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    17,
+    21,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".LL.....L...........C.......L.......",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
+  "group": 3
+}

@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223333322233333222444445554444455544444555",
+  "objects": "b..de.a.d....f...f.b.a.........f..bbd..b..b....ddb.d.......c....",
+  "roomNames": [
+    "Grand Rotunda",
+    "Vault",
+    "Security Control",
+    "Egyptian Wing",
+    "Medieval Hall",
+    "Greek Antiquities"
+  ],
+  "people": [
+    "Vivian the valuer",
+    "Astrid the archaeologist",
+    "Birgit the benefactor",
+    "Celia the curator",
+    "Della the director",
+    "Ena the egyptologist",
+    "Flora the forger",
+    "Grace the guard"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "turnstile"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "sarcophagus"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    21,
+    26,
+    35,
+    46,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "cot",
+      2
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 24,
+  "extra": true
+}

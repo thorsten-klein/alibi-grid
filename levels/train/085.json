@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211223344223344223344",
+  "objects": "....b...c..c....b....eaab...ec.a....",
+  "roomNames": [
+    "Sleeper C",
+    "Galley",
+    "Bar Car",
+    "Baggage Car",
+    "Sleeper B"
+  ],
+  "people": [
+    "Astrid the attendant",
+    "Bea the bookseller",
+    "Cedric the conductor",
+    "Vera the violinist",
+    "Dexter the dentist",
+    "Elias the engineer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "suitcase"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    15,
+    19,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "extra": true
+}

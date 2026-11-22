@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222000112222334444555334444555334444555333366666333366666",
+  "objects": "b.fda.....e...ce...eac......db...d..ec.....cbaa..ba....fb..a.a.d..d..fb.b......d.",
+  "roomNames": [
+    "Med Bay",
+    "Bridge",
+    "Hydroponics",
+    "Comms",
+    "Engine Room",
+    "Mess Hall",
+    "Observatory"
+  ],
+  "people": [
+    "Arthur the astronaut",
+    "Bruno the botanist",
+    "Celia the chemist",
+    "Dmitri the doctor",
+    "Elias the electrician",
+    "Frank the farmer",
+    "Greta the gunner",
+    "Hilda the hull technician",
+    "Victor the volunteer"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "plant"
+    ],
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "console"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    30,
+    42,
+    49,
+    61,
+    71,
+    77
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      61,
+      70
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      3
+    ],
+    [
+      "onCount",
+      "pod",
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 7,
+  "steps": 34,
+  "group": 3
+}

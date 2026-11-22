@@ -1,0 +1,199 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112223333444422233334444222333344442225555666777755556667777555566677775555666777755556667777",
+  "objects": "f....c........f...a...b.....a.adfaaa......f.....cb...a.b.a........da.c..bda.......ca..e...f............d............f.d..",
+  "roomNames": [
+    "Flint Pit",
+    "Bone Yard",
+    "Fire Pit",
+    "Painted Wall",
+    "Cave",
+    "Berry Grove",
+    "River Bank",
+    "Spring"
+  ],
+  "people": [
+    "Alma the artist",
+    "Bella the builder",
+    "Carl the carver",
+    "Vivian the visionary",
+    "Dexter the drummer",
+    "Edgar the elk tamer",
+    "Freya the firekeeper",
+    "Gideon the grinder",
+    "Hazel the hornblower",
+    "Ivo the ice cutter",
+    "Jade the jumper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "bones"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "next",
+      "bones"
+    ],
+    [
+      4,
+      "next",
+      "leaves"
+    ],
+    [
+      5,
+      "col",
+      8
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ],
+    [
+      8,
+      "next",
+      "bones"
+    ],
+    [
+      8,
+      "col",
+      3
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    27,
+    43,
+    50,
+    63,
+    70,
+    77,
+    91,
+    108,
+    111
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      24,
+      35
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      26,
+      37
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      65,
+      76
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      58,
+      69
+    ],
+    [
+      59,
+      70
+    ],
+    [
+      62,
+      73
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      72,
+      73
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      112,
+      "b"
+    ],
+    [
+      115,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "3.4.......1",
+  "tags": ".......3..10.............104..........4.............1..........................1...............3..4.......3....1.........",
+  "hard": 7,
+  "hardest": 6,
+  "steps": 36,
+  "extra": true
+}

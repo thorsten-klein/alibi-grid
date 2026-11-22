@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
+  "objects": "..ff..db..c.be........c....a...e.............e.ffe....a..b......",
+  "roomNames": [
+    "Granary",
+    "Hall of Pillars",
+    "Scribe Room",
+    "Workshop",
+    "Sun Court",
+    "Boat Pit"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Birgit the boat builder",
+    "Clara the chanter",
+    "Dora the dancer",
+    "Vince the vintner",
+    "Ena the embalmer",
+    "Freya the fisher",
+    "Greta the goldsmith"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    20,
+    24,
+    33,
+    42,
+    55,
+    62
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".........C.....L.................C........L............CL.LC..C.",
+  "tries": 3,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 19,
+  "group": 2
+}

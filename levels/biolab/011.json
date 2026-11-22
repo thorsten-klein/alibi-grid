@@ -1,0 +1,140 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
+  "objects": ".e.........e...............e...b..c.b...b..cd......f...e.b......",
+  "roomNames": [
+    "Cryo Storage",
+    "Cleanroom 1",
+    "Centrifuge Bay",
+    "Decon Airlock",
+    "Server Farm",
+    "Chemical Vault"
+  ],
+  "people": [
+    "Albert the algorithm engineer",
+    "Bruno the bioethicist",
+    "Carl the cryo technician",
+    "Dexter the data architect",
+    "Elias the ecologist",
+    "Felix the forensic chemist",
+    "Victor the venture backer",
+    "Gus the guard"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "centrifuge"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "hood"
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    17,
+    28,
+    35,
+    40,
+    54,
+    61
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "chamber",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 21,
+  "group": 1
+}

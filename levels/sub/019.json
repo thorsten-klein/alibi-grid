@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "...e.....a..ec.......c..b.b...fbdb...d.c.....aa..",
+  "roomNames": [
+    "Conning Tower",
+    "Sonar Room",
+    "Torpedo Tube",
+    "Galley",
+    "Pilot Cockpit"
+  ],
+  "people": [
+    "Victor the vip expedition funder",
+    "Albert the acoustic analyst",
+    "Bruno the biologist",
+    "Carl the chief diver",
+    "Dexter the doctor",
+    "Elias the environmentalist",
+    "Felix the flight pilot"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "sonar"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "sonar"
+    ],
+    [
+      4,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    20,
+    22,
+    33,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "sonar",
+      2
+    ],
+    [
+      "nextCount",
+      "seat",
+      1
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 22,
+  "group": 2
+}

@@ -1,0 +1,169 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222000111222334444555334444555336666555336666555",
+  "objects": "...ae.b.....e...a.b...b.eaae....c...a.b.be............dac.dc.beb.a..e...b..b.....",
+  "roomNames": [
+    "Hayloft",
+    "Grain Silo",
+    "Pig Pen",
+    "Milking Shed",
+    "Big Barn",
+    "Root Cellar",
+    "Tractor Garage"
+  ],
+  "people": [
+    "Vera the vineyard leaseholder",
+    "Ada the apple picker",
+    "Bea the beekeeper",
+    "Clara the cattle rancher",
+    "Dora the dairy maid",
+    "Edith the equipment operator",
+    "Freya the farmer",
+    "Greta the grain miller",
+    "Hilda the harvester"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "tractor"
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "rocker"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "rocker"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    23,
+    35,
+    39,
+    52,
+    60,
+    65,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "churn",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

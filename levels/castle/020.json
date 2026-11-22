@@ -1,0 +1,148 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": "..ea.c..a.e.c..a.af..d......b...e..baa..efeae..af....c.........c",
+  "roomNames": [
+    "Kitchen",
+    "Armory",
+    "Smithy",
+    "Solar",
+    "Tower",
+    "Chapel"
+  ],
+  "people": [
+    "Albert the alchemist",
+    "Vera the vintner",
+    "Birgit the bard",
+    "Celia the cupbearer",
+    "Della the dancer",
+    "Edgar the envoy",
+    "Fiona the falconer",
+    "Gideon the groom"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "swords"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "swords"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    16,
+    27,
+    37,
+    47,
+    50,
+    60
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "apart",
+      "rank"
+    ],
+    [
+      "nextCount",
+      "barrel",
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    1
+  ],
+  "rank": "knknckcc",
+  "tries": 5,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 24,
+  "group": 2
+}

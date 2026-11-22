@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333333333333334444444",
+  "objects": ".....a..d..f...ab..d..a...ba..ca.d.ab....a.ca....",
+  "roomNames": [
+    "Canoe Dock",
+    "Shower Block",
+    "Director Office",
+    "Bunkhouse Beta",
+    "Arts Shed"
+  ],
+  "people": [
+    "Astrid the arts counselor",
+    "Birgit the bugler",
+    "Celia the cook",
+    "Vivian the visitor",
+    "Della the director",
+    "Ena the eagle scout",
+    "Flora the first aid counselor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "canoes"
+    ],
+    [
+      2,
+      "next",
+      "canoes"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "room",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    20,
+    21,
+    29,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      40,
+      47
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "group": 0
+}

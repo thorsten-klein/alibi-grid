@@ -1,0 +1,197 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220033332222003333224444555522444455552244445555226666777722666677772266667777",
+  "objects": "....b.....b.f....bf.d.a.bc.....a....cd.db..ab.ab..f.......f.b...dc.a.....e.c..........fd....b...e.a.",
+  "roomNames": [
+    "Bar",
+    "Costume Room",
+    "Orchestra Pit",
+    "Dressing Room",
+    "Lighting Booth",
+    "Wings",
+    "Box Office",
+    "Stage"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Bruno the bass player",
+    "Cora the critic",
+    "Dora the director",
+    "Vivian the violinist",
+    "Ena the electrician",
+    "Fiona the flautist",
+    "Gideon the guitarist",
+    "Henrik the hairdresser",
+    "Ivo the illusionist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "light"
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "light"
+    ],
+    [
+      6,
+      "next",
+      "seat"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "rack"
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "next",
+      "rack"
+    ]
+  ],
+  "solution": [
+    1,
+    19,
+    22,
+    35,
+    40,
+    54,
+    68,
+    76,
+    83,
+    97
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      18,
+      28
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      68,
+      78
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      92,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 12,
+  "hardest": 8,
+  "steps": 37,
+  "extra": true
+}

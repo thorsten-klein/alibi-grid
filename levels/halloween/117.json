@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022223333222233332222444455554444555544445555",
+  "objects": "d.e..dcf.....d...ac...d.ece....d....de.........c..f.f.ccbab.fc..",
+  "roomNames": [
+    "Apple Bobbing Hall",
+    "Costume Ballroom",
+    "Crypt",
+    "Pumpkin Patch",
+    "Cemetery Gate",
+    "Occult Library"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Vince the visiting storyteller",
+    "Basil the baker",
+    "Cedric the candy maker",
+    "Dmitri the decorator",
+    "Edgar the entertainer",
+    "Frank the florist",
+    "Gideon the gravedigger"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "tombstone"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "tombstone"
+    ],
+    [
+      5,
+      "next",
+      "pumpkin"
+    ],
+    [
+      6,
+      "next",
+      "web"
+    ],
+    [
+      7,
+      "next",
+      "coffin"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    20,
+    29,
+    39,
+    46,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "cauldron",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

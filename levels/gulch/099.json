@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": "a...b.....c.bd........ccde..d..a.....eb..f.......",
+  "roomNames": [
+    "Corral",
+    "Saloon",
+    "Bank",
+    "Mine",
+    "Telegraph Office"
+  ],
+  "people": [
+    "Alma the auctioneer",
+    "Bruno the blacksmith",
+    "Vivian the vet",
+    "Carl the cattle driver",
+    "Dexter the deputy",
+    "Elsa the engineer",
+    "Frank the farrier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "bed"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "bandit"
+    ],
+    [
+      5,
+      "next",
+      "cactus"
+    ],
+    [
+      6,
+      "next",
+      "bed"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    15,
+    27,
+    33,
+    35,
+    45
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ],
+    [
+      "nextCount",
+      "cactus",
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

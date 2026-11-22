@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "bbcc.....f..abb..ac...b..",
+  "roomNames": [
+    "Sculpture Court",
+    "Egyptian Wing",
+    "Security Control",
+    "Vault"
+  ],
+  "people": [
+    "Arthur the archivist",
+    "Basil the bookkeeper",
+    "Cedric the conservator",
+    "Vince the visiting donor",
+    "Dmitri the docent"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    11,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

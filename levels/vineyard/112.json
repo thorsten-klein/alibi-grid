@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233444555334445553344455533444555",
+  "objects": ".d...d.e....dcc.....be......b.eb...d..bcd.b..f........a.dac...a.",
+  "roomNames": [
+    "Master Bedroom",
+    "Kitchen",
+    "Vineyard Plot",
+    "Manor Library",
+    "Gatehouse",
+    "Fermentation Hall"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Bruno the barrel cooper",
+    "Carl the cellar master",
+    "Dexter the distributor",
+    "Elias the estate manager",
+    "Victor the vintner",
+    "Felix the field laborer",
+    "Gus the grape picker"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "press"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "still"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    23,
+    27,
+    36,
+    46,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 16,
+  "extra": true
+}

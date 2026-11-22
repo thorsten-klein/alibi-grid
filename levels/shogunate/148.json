@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333322222333334444555666444455566677775556667777555666",
+  "objects": "...ab.........f..c...f.e....bd..c.d........cbea.db.......f.e.c.....bf...b.da.......c...fc......cb...",
+  "roomNames": [
+    "Shrine",
+    "Guard Gate",
+    "Armory",
+    "Moon Balcony",
+    "Ninja Loft",
+    "Zen Garden",
+    "Tea Ceremony Room",
+    "Sentry Tower"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bea the bushi warrior",
+    "Clara the calligrapher",
+    "Dora the daimyo",
+    "Edith the envoy",
+    "Freya the falconer",
+    "Greta the geisha",
+    "Hilda the hatamoto retainer",
+    "Vera the veteran general",
+    "Ivy the inquisitor"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "notRoom",
+      6
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "armor"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      1
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "tatami"
+    ],
+    [
+      8,
+      "next",
+      "tatami"
+    ],
+    [
+      8,
+      "next",
+      "armor"
+    ],
+    [
+      9,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    18,
+    24,
+    30,
+    42,
+    51,
+    63,
+    76,
+    85,
+    99
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      32
+    ],
+    [
+      27,
+      37
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      72,
+      82
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 17,
+  "facts": [
+    [
+      "nextCount",
+      "bonsai",
+      1
+    ],
+    [
+      "roomCount",
+      7,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 45,
+  "extra": true
+}

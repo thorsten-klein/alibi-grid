@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111222233333222233333222244455222244455666644455666644455",
+  "objects": "..c..f.b....beb...fdb..c.a.b.c.bf......d..b.b.fcb....c.....e...a...cb....a....bc.",
+  "roomNames": [
+    "Conning Tower",
+    "Pilot Cockpit",
+    "Sonar Room",
+    "Torpedo Tube",
+    "Ballast Control",
+    "Reactor Chamber",
+    "Observation Dome"
+  ],
+  "people": [
+    "Alma the aquanaut",
+    "Bella the bathymetry tech",
+    "Cora the captain",
+    "Daisy the drill operator",
+    "Elsa the electrical engineer",
+    "Fiona the first officer",
+    "Viola the vessel designer",
+    "Gwen the geochemist",
+    "Hazel the hydrophone operator"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      0,
+      "next",
+      "sonar"
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "freezer"
+    ],
+    [
+      7,
+      "next",
+      "sonar"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    26,
+    27,
+    40,
+    51,
+    55,
+    70,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

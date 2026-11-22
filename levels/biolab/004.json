@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233445555334455553344555533445555",
+  "objects": ".....fe.f.ff..effb..ace.f.feaeb..b.a..c..a..f..........c.b...d..",
+  "roomNames": [
+    "Control Center",
+    "Cryo Storage",
+    "Generator Core",
+    "Cleanroom 1",
+    "Decon Airlock",
+    "Specimen Nursery"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Vivian the virology head",
+    "Birgit the biochemist",
+    "Celia the chief scientist",
+    "Della the dna sequencer",
+    "Ena the epidemiologist",
+    "Flora the facility director",
+    "Grace the geneticist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "hood"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    18,
+    25,
+    37,
+    40,
+    54,
+    63
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "group": 0
+}

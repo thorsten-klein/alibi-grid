@@ -1,0 +1,157 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122333111122333111122333444444333444444555555666555555666555555666",
+  "objects": "...a.......deb.fb.db....a..be..a...b..a.......bc...a.....f.....b.a...c..b.bfa....",
+  "roomNames": [
+    "Loading Bay",
+    "Greek Antiquities",
+    "Boiler Cellar",
+    "Grand Rotunda",
+    "Restoration Lab",
+    "Sculpture Court",
+    "Medieval Hall"
+  ],
+  "people": [
+    "Arthur the archaeologist",
+    "Basil the benefactor",
+    "Cedric the curator",
+    "Dmitri the director",
+    "Edgar the egyptologist",
+    "Frank the forger",
+    "Gideon the guard",
+    "Vince the valuer",
+    "Henrik the historian"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "display"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "next",
+      "display"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "turnstile"
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    24,
+    27,
+    37,
+    52,
+    58,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 7,
+  "hardest": 8,
+  "steps": 21,
+  "extra": true
+}

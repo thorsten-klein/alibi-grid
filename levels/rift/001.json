@@ -1,0 +1,88 @@
+{
+  "size": 5,
+  "rooms": "0011200112001120003300033",
+  "objects": "...b........ac..........a",
+  "roomNames": [
+    "Sea of Ages",
+    "Throne Room",
+    "Cave",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Viola the voyager",
+    "Birgit the bookbinder",
+    "Cedric the chronicler",
+    "Dexter the drifter"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    11,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "trades",
+    "sea"
+  ],
+  "trade": ".0..4",
+  "tags": "....4...0.....0..........",
+  "sea": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 11,
+  "group": 0
+}

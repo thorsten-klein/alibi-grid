@@ -1,0 +1,220 @@
+{
+  "size": 11,
+  "rooms": "0000000111100000001111222200011112222333333322223333333222233333334444455555544444555555444446666667777766666677777666666",
+  "objects": "....b..ec...d..aad.aabb..c.c...b.e.d.......d..c.....bbb..a.........c..cb..ea..c..c......f.e..fa.e.b....d.e...bd.....c...c",
+  "roomNames": [
+    "Silk Stall",
+    "Fortune Teller",
+    "Dragon Boat",
+    "Garden Courtyard",
+    "Noodle Court",
+    "River Pagoda",
+    "Shadow Stage",
+    "Lantern Bridge"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Vince the village magistrate",
+    "Basil the boatman",
+    "Cedric the calligrapher",
+    "Dmitri the drummer",
+    "Edgar the embroiderer",
+    "Frank the firework master",
+    "Gideon the gong striker",
+    "Henrik the herbalist",
+    "Ivo the instrument maker",
+    "Jonas the jade carver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "cushion"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "cushion"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "cushion"
+    ],
+    [
+      6,
+      "col",
+      2
+    ],
+    [
+      7,
+      "col",
+      3
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "next",
+      "gong"
+    ],
+    [
+      10,
+      "next",
+      "fireworks"
+    ],
+    [
+      10,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    21,
+    30,
+    39,
+    48,
+    64,
+    68,
+    80,
+    95,
+    104,
+    111
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      25
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      55,
+      66
+    ],
+    [
+      59,
+      70
+    ],
+    [
+      62,
+      73
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      92,
+      103
+    ],
+    [
+      86,
+      97
+    ],
+    [
+      114,
+      115
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      115,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "gong",
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 8,
+  "steps": 33,
+  "extra": true
+}

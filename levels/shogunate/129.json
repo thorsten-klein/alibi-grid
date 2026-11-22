@@ -1,0 +1,178 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000111122334444555334444555334444555666666555666666555",
+  "objects": "....f.b...b.d.....b....d.d........f........e..b....b..dd...f..b..ceb...b..cbc...a",
+  "roomNames": [
+    "Moon Balcony",
+    "Stables",
+    "Falconry Yard",
+    "Shrine",
+    "Guard Gate",
+    "Kitchen",
+    "Daimyo Hall"
+  ],
+  "people": [
+    "Albert the artisan",
+    "Bruno the bowyer",
+    "Carl the cook",
+    "Dexter the drummer",
+    "Elias the embroiderer",
+    "Felix the foot soldier",
+    "Victor the visiting monk",
+    "Gus the guard",
+    "Hugo the herbalist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "taiko"
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "on",
+      "futon"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "on",
+      "futon"
+    ],
+    [
+      7,
+      "next",
+      "armor"
+    ],
+    [
+      8,
+      "next",
+      "tatami"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    30,
+    40,
+    47,
+    62,
+    64,
+    79
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "futon",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 8,
+  "steps": 23,
+  "extra": true
+}

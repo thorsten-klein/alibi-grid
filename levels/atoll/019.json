@@ -1,0 +1,143 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222333444433344443334444333",
+  "objects": "..f.f..........e.cd.bbaa...b..f.a........f..b....",
+  "roomNames": [
+    "Luau Grounds",
+    "Yacht Marina",
+    "Overwater Bungalow",
+    "Coral Lagoon",
+    "Dive Shop"
+  ],
+  "people": [
+    "Vera the vacationer",
+    "Ada the activities director",
+    "Bea the bartender",
+    "Clara the concierge",
+    "Dora the divemaster",
+    "Edith the excursion guide",
+    "Freya the fitness coach"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "cart"
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "hammock"
+    ],
+    [
+      6,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    14,
+    23,
+    29,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "idol",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "jetski",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 22,
+  "group": 2
+}

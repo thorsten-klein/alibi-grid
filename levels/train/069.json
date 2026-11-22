@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".a.......b..d..d....b....",
+  "roomNames": [
+    "Bar Car",
+    "Mail Car",
+    "Corridor",
+    "Guard's Van"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Birgit the bookseller",
+    "Celia the courier",
+    "Dexter the diplomat",
+    "Victor the vendor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "crate",
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "extra": true
+}

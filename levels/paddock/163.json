@@ -1,0 +1,231 @@
+{
+  "size": 12,
+  "rooms": "000111112222000111112222000111112222000111113333000444443333000444443333000444443333555556667777555556667777888886667777888886667777888886667777",
+  "objects": ".........cc...........e....cfde....c.a.....a.d...d....e.e..cbb...a.a...af.b.d.b..f.cef..c.b..e..db...ec......aba...b..a....d.......b............",
+  "roomNames": [
+    "Media Center",
+    "Scrutineering Shed",
+    "Pit Lane",
+    "Drivers Lounge",
+    "Tire Bay",
+    "Fuel Storage",
+    "Team Garage A",
+    "Telemetry Room",
+    "Team Garage B"
+  ],
+  "people": [
+    "Arthur the apprentice",
+    "Basil the broadcast commentator",
+    "Cedric the crew chief",
+    "Dmitri the data telemetry lead",
+    "Edgar the electrician",
+    "Frank the flag marshal",
+    "Gideon the grid coordinator",
+    "Henrik the hospitality host",
+    "Ivo the international steward",
+    "Vince the vip team owner",
+    "Jonas the jack operator",
+    "Konrad the kitchen chef"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      2,
+      "next",
+      "bucket"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      3,
+      "on",
+      "bucket"
+    ],
+    [
+      4,
+      "next",
+      "tires"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "tires"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "next",
+      "fuelrig"
+    ],
+    [
+      8,
+      "col",
+      8
+    ],
+    [
+      9,
+      "next",
+      "bucket"
+    ],
+    [
+      10,
+      "same",
+      8
+    ],
+    [
+      10,
+      "row",
+      10
+    ],
+    [
+      11,
+      "next",
+      "tires"
+    ]
+  ],
+  "solution": [
+    11,
+    18,
+    25,
+    43,
+    48,
+    62,
+    77,
+    94,
+    104,
+    112,
+    129,
+    135
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      55
+    ],
+    [
+      34,
+      46
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      81,
+      93
+    ],
+    [
+      76,
+      88
+    ],
+    [
+      77,
+      89
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      98,
+      110
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      112,
+      113
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      3
+    ],
+    [
+      "nextCount",
+      "tires",
+      3
+    ]
+  ],
+  "hard": 12,
+  "hardest": 10,
+  "steps": 51,
+  "extra": true
+}

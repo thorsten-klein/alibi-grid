@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".b.b..ee.bbcb.aa.adada...",
+  "roomNames": [
+    "Water Reclamation",
+    "Geology Lab",
+    "Airlock Module",
+    "Command Hub"
+  ],
+  "people": [
+    "Albert the astrobiologist",
+    "Victor the venture sponsor",
+    "Bruno the botanist",
+    "Carl the commander",
+    "Dexter the drill operator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,120 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112222133222213344441334444133",
+  "objects": "c...a...d..e..fb.d.a..a..b.b..b.e..bcbd...b....ef",
+  "roomNames": [
+    "Hospitality Suite",
+    "Drivers Lounge",
+    "Media Center",
+    "Paddock Walkway",
+    "Team Garage A"
+  ],
+  "people": [
+    "Arthur the aerodynamicist",
+    "Basil the brake tech",
+    "Cedric the chief mechanic",
+    "Dmitri the driver",
+    "Vince the veteran champion",
+    "Edgar the engine tuner",
+    "Frank the fuel specialist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      2,
+      "next",
+      "tires"
+    ],
+    [
+      3,
+      "on",
+      "bucket"
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      5,
+      "next",
+      "toolbox"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    18,
+    22,
+    33,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,132 @@
+{
+  "size": 6,
+  "rooms": "000000111111223333223333224444224444",
+  "objects": "........c.....c..a..f...a...........",
+  "roomNames": [
+    "Palazzo Chapel",
+    "Mask Atelier",
+    "Servants Mezzanine",
+    "Grand Ballroom",
+    "Private Boudoir"
+  ],
+  "people": [
+    "Ada the alchemist",
+    "Bea the boat builder",
+    "Vera the visiting merchant",
+    "Clara the carnival poet",
+    "Dora the diplomat",
+    "Edith the embroiderer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "gondola"
+    ],
+    [
+      3,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "throne"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    15,
+    23,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "gondola",
+      1
+    ],
+    [
+      "nextCount",
+      "throne",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

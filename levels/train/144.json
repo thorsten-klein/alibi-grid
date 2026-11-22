@@ -1,0 +1,197 @@
+{
+  "size": 10,
+  "rooms": "0000111122000011112233331111223333111122333344444433334444445555556666555555666677775566667777556666",
+  "objects": "fa..b.f..c..e.b.....d...ab..d.....e.f..bfc....e..c.fcb.f..ab....f.......b.ceab..aec.e....b.ea.c.a...",
+  "roomNames": [
+    "Mail Car",
+    "Baggage Car",
+    "Sleeper C",
+    "Corridor",
+    "Sleeper B",
+    "Observation Car",
+    "Guard's Van",
+    "Dining Car"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bruno the bookseller",
+    "Vera the vendor",
+    "Clara the conductor",
+    "Daisy the dentist",
+    "Ena the envoy",
+    "Freya the firefighter",
+    "Grace the guard",
+    "Hazel the hairdresser",
+    "Isla the inspector"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "lamp"
+    ],
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "wine"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "suitcase"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "col",
+      8
+    ],
+    [
+      7,
+      "next",
+      "bunk"
+    ],
+    [
+      8,
+      "next",
+      "lamp"
+    ],
+    [
+      9,
+      "next",
+      "seat"
+    ],
+    [
+      9,
+      "row",
+      9
+    ]
+  ],
+  "solution": [
+    2,
+    16,
+    25,
+    31,
+    43,
+    54,
+    68,
+    79,
+    80,
+    97
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      93,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 37,
+  "extra": true
+}

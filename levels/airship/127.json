@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222222333222222333444555333444555333444555666444555666",
+  "objects": "......c.e...f............d..b..f......b..b..a.d.d..b...f..a.b.e.edf.....ff.ac.e..",
+  "roomNames": [
+    "Dining Saloon",
+    "Cargo Hold",
+    "Promenade Deck",
+    "Radio Cabin",
+    "Cockpit Bridge",
+    "Stateroom Alpha",
+    "Port Engine Gondola"
+  ],
+  "people": [
+    "Ada the aeronaut",
+    "Bea the barman",
+    "Clara the captain",
+    "Dora the dirigible pilot",
+    "Edith the engine mechanic",
+    "Freya the first officer",
+    "Greta the gas bag inspector",
+    "Vera the vessel inventor",
+    "Hilda the helmsman"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      5,
+      "next",
+      "column"
+    ],
+    [
+      6,
+      "on",
+      "berth"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    21,
+    29,
+    40,
+    45,
+    60,
+    70,
+    80
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "r"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

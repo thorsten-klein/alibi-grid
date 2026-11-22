@@ -1,0 +1,154 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222111133333111133333111133444111555444111555444111555444",
+  "objects": "................bd........a....a...................b......aff.c....ab......d..ab.",
+  "roomNames": [
+    "Jail",
+    "Sea of Ages",
+    "Bank",
+    "Throne Room",
+    "Cave",
+    "Great Hall"
+  ],
+  "people": [
+    "Arthur the archivist",
+    "Birgit the bard",
+    "Cora the chronicler",
+    "Dexter the drifter",
+    "Vivian the voyager",
+    "Edith the explorer",
+    "Fiona the fortune teller",
+    "Greta the gladiator",
+    "Hugo the herald"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      5,
+      "notRoom",
+      2
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    31,
+    44,
+    48,
+    61,
+    64,
+    77
+  ],
+  "doors": [
+    [
+      25,
+      34
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      0
+    ],
+    [
+      "onCount",
+      "log",
+      0
+    ],
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "..C....L..........C..................................C...........................",
+  "sea": 1,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 32,
+  "group": 3
+}

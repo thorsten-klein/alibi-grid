@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".a....f..ab.....d....d...",
+  "roomNames": [
+    "Observation Dome",
+    "Pressure Airlock",
+    "Galley",
+    "Torpedo Tube"
+  ],
+  "people": [
+    "Vince the vip expedition funder",
+    "Arthur the acoustic analyst",
+    "Basil the biologist",
+    "Cedric the chief diver",
+    "Dmitri the doctor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "freezer"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "group": 0
+}

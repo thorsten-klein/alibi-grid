@@ -1,0 +1,113 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223333111333311144441114444111",
+  "objects": "d.......d...b..a...ffbaa.....a......ca......b....",
+  "roomNames": [
+    "Tavern",
+    "Open Sea",
+    "Frigate",
+    "Cove",
+    "Sea Cave"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Vivian the vintner",
+    "Birgit the barkeep",
+    "Carl the captain",
+    "Dora the deckhand",
+    "Edgar the engineer",
+    "Frank the first mate"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "hammock"
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "next",
+      "anchor"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    16,
+    24,
+    34,
+    39,
+    43
+  ],
+  "doors": [
+    [
+      14,
+      21
+    ],
+    [
+      28,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

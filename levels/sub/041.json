@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....ba.b.b.f....",
+  "roomNames": [
+    "Observation Dome",
+    "Specimen Bay",
+    "Reactor Chamber"
+  ],
+  "people": [
+    "Vera the vessel designer",
+    "Ada the aquanaut",
+    "Bea the bathymetry tech",
+    "Clara the captain"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "freezer"
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 8,
+  "extra": true
+}

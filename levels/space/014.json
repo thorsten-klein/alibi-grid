@@ -1,0 +1,203 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222333311122223333111222233334444444333344444445555556666655555566666555555666667777777777777777777777",
+  "objects": ".....faa..b..d.....................f.cc.ef.b....a..bc..a....e.e...da......fd............e...d......e..ae..a.....abb..f..c",
+  "roomNames": [
+    "Observatory",
+    "Lab",
+    "Crew Quarters",
+    "Mess Hall",
+    "Hydroponics",
+    "Airlock",
+    "Engine Room",
+    "Bridge"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Bruno the biologist",
+    "Carl the chemist",
+    "Dexter the doctor",
+    "Elsa the engineer",
+    "Freya the farmer",
+    "Gideon the gunner",
+    "Hilda the hacker",
+    "Ines the instructor",
+    "Jasper the janitor",
+    "Vivian the volunteer"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "col",
+      8
+    ],
+    [
+      9,
+      "on",
+      "seat"
+    ]
+  ],
+  "solution": [
+    1,
+    21,
+    24,
+    36,
+    50,
+    64,
+    70,
+    82,
+    96,
+    106,
+    110
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      24
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      58,
+      69
+    ],
+    [
+      59,
+      70
+    ],
+    [
+      65,
+      76
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      90,
+      101
+    ],
+    [
+      98,
+      109
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      118,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      0
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 19,
+  "group": 1
+}

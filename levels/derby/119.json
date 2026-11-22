@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223331144433311444333114443335555533355555",
+  "objects": "..c.c..b.b......a...b............e.a.........a....ffb.e..b...fdb",
+  "roomNames": [
+    "Members Bar",
+    "Paddock Ring",
+    "Stewards Room",
+    "Grandstand Terrace",
+    "Jockeys Room",
+    "Saddling Boxes"
+  ],
+  "people": [
+    "Astrid the apprentice jockey",
+    "Birgit the bookmaker",
+    "Celia the champion jockey",
+    "Della the derby steward",
+    "Vivian the veteran horse owner",
+    "Ena the equine therapist",
+    "Flora the farrier",
+    "Grace the groom"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "room",
+      2
+    ],
+    [
+      1,
+      "on",
+      "stablebench"
+    ],
+    [
+      2,
+      "next",
+      "stablebench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "turfchair"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      7,
+      "next",
+      "stablebench"
+    ],
+    [
+      7,
+      "next",
+      "haystack"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    19,
+    26,
+    37,
+    46,
+    48,
+    60
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "haystack",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "tries": 11,
+  "hard": 8,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

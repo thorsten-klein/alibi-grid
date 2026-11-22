@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0112222011222201133330113333001144400114440011444",
+  "objects": ".a......eba..bb...b.dde..f......b.f....cb........",
+  "roomNames": [
+    "Ghost Train",
+    "Souvenir Shack",
+    "Maintenance Hut",
+    "Coaster Shed",
+    "Hall of Mirrors"
+  ],
+  "people": [
+    "Arthur the antiquarian",
+    "Basil the barker",
+    "Cedric the cotton candy vendor",
+    "Dmitri the daredevil",
+    "Edgar the urban explorer",
+    "Vince the venture developer",
+    "Frank the fisherman"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "cart"
+    ],
+    [
+      3,
+      "next",
+      "generator"
+    ],
+    [
+      4,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    14,
+    26,
+    31,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      22,
+      29
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "cart",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

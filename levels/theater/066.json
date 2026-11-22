@@ -1,0 +1,89 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "...db...d.b...fb.d.......",
+  "roomNames": [
+    "Prop Store",
+    "Stage",
+    "Dressing Room",
+    "Foyer"
+  ],
+  "people": [
+    "Viola the violinist",
+    "Arthur the author",
+    "Bea the baritone",
+    "Celia the choreographer",
+    "Dmitri the director"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

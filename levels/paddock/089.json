@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "....e...........ae........b..e...b..",
+  "roomNames": [
+    "Scrutineering Shed",
+    "Telemetry Room",
+    "Team Garage B",
+    "Media Center",
+    "Pit Lane"
+  ],
+  "people": [
+    "Astrid the apprentice",
+    "Birgit the broadcast commentator",
+    "Celia the crew chief",
+    "Vivian the vip team owner",
+    "Della the data telemetry lead",
+    "Ena the electrician"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "fuelrig"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "fuelrig"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    16,
+    21,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "onCount",
+      "bucket",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

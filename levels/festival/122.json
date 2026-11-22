@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+  "objects": "..b.b........af..b..cfa...bf..b..d....e.f.fea.b......da...a.c.b.",
+  "roomNames": [
+    "Beer Garden",
+    "First Aid Tent",
+    "Merch Pavilion",
+    "Security Checkpoint",
+    "Campers Field",
+    "Mixing Tower"
+  ],
+  "people": [
+    "Arthur the artist agent",
+    "Basil the bodyguard",
+    "Cedric the cameraman",
+    "Dmitri the disc jockey",
+    "Edgar the event producer",
+    "Frank the fan president",
+    "Gideon the groupie coordinator",
+    "Vince the vocal coach"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "amp"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "lighttower"
+    ],
+    [
+      6,
+      "next",
+      "roadcase"
+    ],
+    [
+      7,
+      "next",
+      "drums"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    28,
+    32,
+    41,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "drums",
+      3
+    ],
+    [
+      "nextCount",
+      "lighttower",
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

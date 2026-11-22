@@ -1,0 +1,183 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111000000111222334444222334444222334444222335555666665555666665555",
+  "objects": "...b..fb..a....d..bc..................a...e..bb..........b........e.....ade.d...e",
+  "roomNames": [
+    "Pastry Kitchen",
+    "Main Dining Room",
+    "Hostess Foyer",
+    "Plating Line",
+    "Walk In Cooler",
+    "Dishwashing Pit",
+    "Herb Garden"
+  ],
+  "people": [
+    "Astrid the appetizer cook",
+    "Birgit the butcher",
+    "Celia the chocolatier",
+    "Della the dessert chef",
+    "Ena the executive chef",
+    "Flora the fromager",
+    "Grace the grill cook",
+    "Hana the head sommelier",
+    "Vivian the veteran restaurateur"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "banquette"
+    ],
+    [
+      1,
+      "next",
+      "banquette"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "espresso"
+    ],
+    [
+      5,
+      "next",
+      "banquette"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "block"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    26,
+    29,
+    41,
+    48,
+    61,
+    64,
+    78
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "fridge",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

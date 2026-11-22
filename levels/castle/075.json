@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "001122001122333322333322444422444422",
+  "objects": "d....d.c...a......a.......bd.....c..",
+  "roomNames": [
+    "Dungeon",
+    "Courtyard",
+    "Chapel",
+    "Solar",
+    "Tower"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bard",
+    "Celia the chronicler",
+    "Daisy the dancer",
+    "Ena the envoy",
+    "Victor the vintner"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      20,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      18,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "kkcnkc",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

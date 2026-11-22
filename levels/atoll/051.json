@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": ".b.dfb....a.a..a",
+  "roomNames": [
+    "Luau Grounds",
+    "Spa Pavilion",
+    "Staff Quarters"
+  ],
+  "people": [
+    "Astrid the animator",
+    "Vivian the vip influencer",
+    "Birgit the boat captain",
+    "Celia the chef"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "next",
+      "towel"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "idol",
+      1
+    ],
+    [
+      "onCount",
+      "hammock",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233444555334445553344455533444555",
+  "objects": ".d...d.e....dcc.....be......b.eb...d..bcd.b..f........a.dac...a.",
+  "roomNames": [
+    "Security Office",
+    "Toy Emporium",
+    "Skate Shop",
+    "Service Corridors",
+    "Escalator Hub",
+    "Arcade"
+  ],
+  "people": [
+    "Albert the arcade manager",
+    "Bruno the barista",
+    "Carl the cinema projectionist",
+    "Dexter the department manager",
+    "Elias the escalator mechanic",
+    "Victor the veteran mall owner",
+    "Felix the fry cook",
+    "Gus the greeter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "gumball"
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "next",
+      "photobench"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "mannequin"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "next",
+      "plasticchair"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    23,
+    27,
+    36,
+    46,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 16,
+  "extra": true
+}

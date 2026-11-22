@@ -1,0 +1,209 @@
+{
+  "size": 10,
+  "rooms": "0000111122000011112200001111223333444422333344442233555446663355544666335554466633555777773355577777",
+  "objects": "...da.a...ab..b....c.b..d...ce........c.....a.a..d.c.a..b...f.c........b...a....dcbc....b.c.....b...",
+  "roomNames": [
+    "Smoking Lounge",
+    "Dining Saloon",
+    "Radio Cabin",
+    "Rigging Loft",
+    "Cockpit Bridge",
+    "Gas Catwalk",
+    "Port Engine Gondola",
+    "Galley"
+  ],
+  "people": [
+    "Albert the aeronaut",
+    "Bruno the barman",
+    "Carl the captain",
+    "Dexter the dirigible pilot",
+    "Elias the engine mechanic",
+    "Felix the first officer",
+    "Victor the vessel inventor",
+    "Gus the gas bag inspector",
+    "Hugo the helmsman",
+    "Igor the instrument tech"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "armchair"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "armchair"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "winch"
+    ],
+    [
+      4,
+      "on",
+      "armchair"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "armchair"
+    ],
+    [
+      7,
+      "on",
+      "berth"
+    ],
+    [
+      7,
+      "next",
+      "ballast"
+    ],
+    [
+      8,
+      "next",
+      "berth"
+    ],
+    [
+      9,
+      "next",
+      "ballast"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    39,
+    44,
+    58,
+    65,
+    71,
+    86,
+    93
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      21,
+      31
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      77,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 37,
+  "extra": true
+}

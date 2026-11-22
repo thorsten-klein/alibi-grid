@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "..c.f...........ec....f..",
+  "roomNames": [
+    "Tool Crib",
+    "Miners Mess",
+    "Smelting Oven",
+    "Assay Office"
+  ],
+  "people": [
+    "Alma the assayer",
+    "Viola the vein claimant",
+    "Bella the blacksmith",
+    "Cora the cart driver",
+    "Daisy the driller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "orecart"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    13,
+    19,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

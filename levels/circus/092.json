@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000011000011222233222233444233444233",
+  "objects": "....a.b....ebe.bec.dfb...b..e.a...af",
+  "roomNames": [
+    "Prop Tent",
+    "Ringmaster Wagon",
+    "Big Top",
+    "Sideshow Alley",
+    "Fortune Tent"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bella the barker",
+    "Viola the ventriloquist",
+    "Cora the clown",
+    "Daisy the daredevil",
+    "Elsa the escape artist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "on",
+      "mat"
+    ],
+    [
+      2,
+      "next",
+      "crystal"
+    ],
+    [
+      3,
+      "next",
+      "trunk"
+    ],
+    [
+      4,
+      "on",
+      "mat"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    14,
+    22,
+    25,
+    33
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      19,
+      25
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

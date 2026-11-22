@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333444442222244444222225555666777555566677755556667775555666777",
+  "objects": "...........e..dfc.f..ebf..e..fe......a.e...aa.b..c.be..........b...f.f....bd....fd..d.c..e....a.....",
+  "roomNames": [
+    "Habitat Quarters",
+    "Oxygen Scrubber",
+    "Command Hub",
+    "Solar Array Control",
+    "Water Reclamation",
+    "Rover Bay",
+    "Airlock Module",
+    "Medical Bay"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Bea the biosphere tech",
+    "Clara the chemist",
+    "Dora the doctor",
+    "Edith the electrician",
+    "Freya the farmer",
+    "Greta the ground controller",
+    "Hilda the hydroponics chief",
+    "Vera the visiting inspector",
+    "Ivy the instrument mechanic"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "tower"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "next",
+      "rover"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    20,
+    38,
+    41,
+    56,
+    63,
+    74,
+    87,
+    99
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      96,
+      97
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

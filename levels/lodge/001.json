@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112222233333",
+  "objects": "..a..c..a..a...d.f...b.bf",
+  "roomNames": [
+    "Dining Hall",
+    "Games Room",
+    "Bar",
+    "Terrace"
+  ],
+  "people": [
+    "Albert the athlete",
+    "Vivian the vlogger",
+    "Bea the bartender",
+    "Clara the climber",
+    "Dmitri the driver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    11,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "group": 0
+}

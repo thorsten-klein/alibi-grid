@@ -1,0 +1,150 @@
+{
+  "size": 9,
+  "rooms": "000011122000011122000033322444433322444422222444422222222225555222225555222225555",
+  "objects": "...f.......c..........b.....b..aa...bc........a............ff.................ba.",
+  "roomNames": [
+    "Fort",
+    "Sloop",
+    "Open Sea",
+    "Frigate",
+    "Cove",
+    "Dock"
+  ],
+  "people": [
+    "Astrid the admiral",
+    "Bea the boatswain",
+    "Vince the voyager",
+    "Cedric the cook",
+    "Della the diver",
+    "Edith the explorer",
+    "Frank the fiddler",
+    "Gideon the gold digger",
+    "Hana the harbor pilot"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "anchor"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "room",
+      4
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "window"
+    ],
+    [
+      8,
+      "on",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    20,
+    31,
+    39,
+    52,
+    54,
+    71,
+    78
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 2,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 19,
+  "extra": true
+}

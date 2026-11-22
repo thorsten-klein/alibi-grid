@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".a............af..f......",
+  "roomNames": [
+    "Palazzo Chapel",
+    "Casino Ridotto",
+    "Servants Mezzanine",
+    "Grand Ballroom"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Vivian the venetian senator",
+    "Birgit the barcarolle singer",
+    "Celia the courtesan",
+    "Della the doge"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "throne"
+    ],
+    [
+      1,
+      "next",
+      "throne"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    13,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

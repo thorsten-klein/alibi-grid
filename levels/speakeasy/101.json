@@ -1,0 +1,123 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223331122333444433344443334444",
+  "objects": "...b...a.....c..f..a..c.a.....cb..bee..d...d.....",
+  "roomNames": [
+    "Manager Office",
+    "Coat Check",
+    "Main Lounge",
+    "Cold Storage",
+    "Distillery"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Vera the voice of syndicate",
+    "Bea the bartender",
+    "Clara the crooner",
+    "Dora the drummer",
+    "Edith the enforcer",
+    "Freya the flapper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "roulette"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "cask"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    19,
+    21,
+    29,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "roulette",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

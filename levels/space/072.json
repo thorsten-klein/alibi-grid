@@ -1,0 +1,89 @@
+{
+  "size": 5,
+  "rooms": "0000000000111112223322233",
+  "objects": ".f....eaf.......c..bb.a.b",
+  "roomNames": [
+    "Engine Room",
+    "Airlock",
+    "Bridge",
+    "Lab"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Birgit the biologist",
+    "Clara the captain",
+    "Della the doctor",
+    "Vera the visitor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    13,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

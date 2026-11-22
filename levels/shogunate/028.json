@@ -1,0 +1,153 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b.b..d.a.....c.....afbc.c........c.e.a...b...b..a",
+  "roomNames": [
+    "Shrine",
+    "Tea Ceremony Room",
+    "Sentry Tower",
+    "Zen Garden",
+    "Armory"
+  ],
+  "people": [
+    "Arthur the artisan",
+    "Basil the bowyer",
+    "Cedric the cook",
+    "Vince the visiting monk",
+    "Dmitri the drummer",
+    "Edgar the embroiderer",
+    "Frank the foot soldier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "armor"
+    ],
+    [
+      1,
+      "next",
+      "tatami"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "armor"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    16,
+    21,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "taiko",
+      0
+    ],
+    [
+      "nextCount",
+      "tatami",
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 32,
+  "group": 3
+}

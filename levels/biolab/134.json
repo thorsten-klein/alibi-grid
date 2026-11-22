@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222001111222333444222333444555333444555336666555336666555336666",
+  "objects": "..f....a...c...d.b.c......e..bf..d...f..bea.af...f.....d.bdafa...fba.....ec...d..",
+  "roomNames": [
+    "Cryo Storage",
+    "Decon Airlock",
+    "Generator Core",
+    "Cleanroom 2",
+    "Specimen Nursery",
+    "Chemical Vault",
+    "Server Farm"
+  ],
+  "people": [
+    "Albert the algorithm engineer",
+    "Bruno the bioethicist",
+    "Carl the cryo technician",
+    "Victor the venture backer",
+    "Dexter the data architect",
+    "Elias the ecologist",
+    "Felix the forensic chemist",
+    "Gus the guard",
+    "Hugo the hardware tech"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "chamber"
+    ],
+    [
+      2,
+      "next",
+      "hood"
+    ],
+    [
+      3,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "chamber"
+    ],
+    [
+      5,
+      "next",
+      "rack"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "rack"
+    ],
+    [
+      7,
+      "next",
+      "chamber"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    46,
+    61,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 38,
+  "extra": true
+}

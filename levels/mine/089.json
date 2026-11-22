@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": ".b......fe.......fe.afff..fc.cb...cb",
+  "roomNames": [
+    "Dynamite Magazine",
+    "Assay Office",
+    "Tool Crib",
+    "Water Sump",
+    "Mule Stables"
+  ],
+  "people": [
+    "Alma the axeman",
+    "Bella the blaster",
+    "Viola the venture capitalist",
+    "Cora the carpenter",
+    "Daisy the dynamite handler",
+    "Elsa the hoist operator"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "drill"
+    ],
+    [
+      1,
+      "next",
+      "dynamite"
+    ],
+    [
+      3,
+      "next",
+      "keg"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "orecart"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    19,
+    24,
+    35
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

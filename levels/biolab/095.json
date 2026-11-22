@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".........b..e.b...ab.......a..ff.aea....bb....a..",
+  "roomNames": [
+    "Decon Airlock",
+    "Cleanroom 2",
+    "Chemical Vault",
+    "Generator Core",
+    "Control Center"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Viola the virology head",
+    "Bella the biochemist",
+    "Cora the chief scientist",
+    "Daisy the dna sequencer",
+    "Elsa the epidemiologist",
+    "Fiona the facility director"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "centrifuge"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    24,
+    28,
+    41,
+    43
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

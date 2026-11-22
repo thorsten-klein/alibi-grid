@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "f...b.a......dda.f.......",
+  "roomNames": [
+    "Writers Room",
+    "Makeup Room",
+    "Editing Suite",
+    "Screening Room"
+  ],
+  "people": [
+    "Astrid the assistant director",
+    "Birgit the body double",
+    "Vivian the veteran producer",
+    "Celia the choreographer",
+    "Della the diva"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

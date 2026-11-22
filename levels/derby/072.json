@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0001100011000223332233322",
+  "objects": ".aa.d...b.....c.........a",
+  "roomNames": [
+    "Royal Box",
+    "Betting Ring",
+    "Winner Enclosure",
+    "Grandstand Terrace"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the breeder",
+    "Viola the visiting royalty",
+    "Cora the clerk of scales",
+    "Daisy the doper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "stablebench"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      2
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

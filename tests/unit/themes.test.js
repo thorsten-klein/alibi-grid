@@ -79,7 +79,7 @@ test('every special rule has its text, with and without case details', () => {
 });
 
 test('themes, objects and small helpers', () => {
-  assert.equal(THEMES.length, 11);
+  assert.equal(THEMES.length, 41);
   for (const t of THEMES) {
     assert.equal(themeById(t.id), t);
     assert.ok(blockingSet(t).size > 0, t.id);

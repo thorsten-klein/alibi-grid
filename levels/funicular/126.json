@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222223333222223333224445566224445566224445566224445566",
+  "objects": ".e..........b.....afc..ecbb...cb.....a..e.fb.af.......f...a...a...fb..a..b....a..",
+  "roomNames": [
+    "Souvenir Kiosk",
+    "Observation Terrace",
+    "Sheave Tower",
+    "Staff Bunkhouse",
+    "Transformer Vault",
+    "Ticket Hall",
+    "Funicular Car A"
+  ],
+  "people": [
+    "Vera the visiting vip",
+    "Ada the alpine guide",
+    "Bea the billeter",
+    "Clara the cable splicer",
+    "Dora the doctor",
+    "Edith the excursionist",
+    "Freya the first aider",
+    "Greta the gearbox tech",
+    "Hilda the hiker"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "generator"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "winch"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "luggage"
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ],
+    [
+      8,
+      "room",
+      4
+    ],
+    [
+      8,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    22,
+    29,
+    44,
+    51,
+    55,
+    70,
+    75
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

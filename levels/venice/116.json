@@ -1,0 +1,167 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112223334422233344222333442225554422255544",
+  "objects": ".ba.bd.a.c....e....a..b...f...a..c.d.ab...ede.e..c...d.b.....e..",
+  "roomNames": [
+    "Wine Cellar",
+    "Casino Ridotto",
+    "Palazzo Chapel",
+    "Courtyard",
+    "Armory",
+    "Grand Ballroom"
+  ],
+  "people": [
+    "Arthur the alchemist",
+    "Basil the boat builder",
+    "Cedric the carnival poet",
+    "Vince the visiting merchant",
+    "Dmitri the diplomat",
+    "Edgar the embroiderer",
+    "Frank the falconer",
+    "Gideon the goldsmith"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "daybed"
+    ],
+    [
+      1,
+      "next",
+      "throne"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "on",
+      "daybed"
+    ],
+    [
+      4,
+      "next",
+      "fountain"
+    ],
+    [
+      5,
+      "next",
+      "throne"
+    ],
+    [
+      6,
+      "next",
+      "gondola"
+    ],
+    [
+      7,
+      "next",
+      "fountain"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    17,
+    31,
+    38,
+    45,
+    50,
+    60
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      61,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "throne",
+      0
+    ],
+    [
+      "alone",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

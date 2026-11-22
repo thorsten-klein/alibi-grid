@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "..d.e....bf....c...b.....",
+  "roomNames": [
+    "Skate Shop",
+    "Department Store",
+    "Arcade",
+    "Service Corridors"
+  ],
+  "people": [
+    "Astrid the arcade manager",
+    "Vivian the veteran mall owner",
+    "Birgit the barista",
+    "Celia the cinema projectionist",
+    "Della the department manager"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "gumball"
+    ],
+    [
+      2,
+      "next",
+      "photobench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    1,
+    5,
+    14,
+    17,
+    23
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

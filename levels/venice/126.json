@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000223332222233322222333444555554445555544455555",
+  "objects": ".dcd.....cabb.a.a.....e.e.............a......a..b...........bb..",
+  "roomNames": [
+    "Grand Ballroom",
+    "Palazzo Chapel",
+    "Armory",
+    "Mask Atelier",
+    "Private Boudoir",
+    "Servants Mezzanine"
+  ],
+  "people": [
+    "Arthur the alchemist",
+    "Vince the visiting merchant",
+    "Basil the boat builder",
+    "Cedric the carnival poet",
+    "Dmitri the diplomat",
+    "Edgar the embroiderer",
+    "Frank the falconer",
+    "Gideon the goldsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "col",
+      7
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "throne"
+    ],
+    [
+      6,
+      "next",
+      "daybed"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    18,
+    31,
+    36,
+    46,
+    49,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      42,
+      43
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 19,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 35,
+  "extra": true
+}

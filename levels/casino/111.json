@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000000000000000111222221112222233444555334445553344455533444555",
+  "objects": ".......ad.cf...adc...a.e...................f.....b...e.....a....",
+  "roomNames": [
+    "High Roller Lounge",
+    "Cashier Cage",
+    "Main Casino Floor",
+    "The Vault",
+    "Cocktail Bar",
+    "Valet Booth"
+  ],
+  "people": [
+    "Alma the armored driver",
+    "Bella the bartender",
+    "Cora the casino manager",
+    "Daisy the dancer",
+    "Elsa the electrician",
+    "Fiona the fixer",
+    "Gwen the guard",
+    "Viola the vegas mogul"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "wheel"
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "on",
+      "chaise"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    19,
+    28,
+    39,
+    46,
+    49,
+    56
+  ],
+  "doors": [
+    [
+      10,
+      18
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "table",
+      0
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

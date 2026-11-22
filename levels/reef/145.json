@@ -1,0 +1,189 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111333300000003333000000033330000000333344440000555444400005554444000055544440000555",
+  "objects": "....b...a......edb..c.....adb...a......fe..........e..........eb..........a...c.........e.......aa...........a.ea......f.",
+  "roomNames": [
+    "Open Sea",
+    "Galleon",
+    "Longboat",
+    "Sea Cave",
+    "Tavern",
+    "Sloop"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Bruno the barkeep",
+    "Clara the cook",
+    "Dexter the deckhand",
+    "Edith the engineer",
+    "Felix the first mate",
+    "Gwen the gold digger",
+    "Henrik the harbor pilot",
+    "Viola the vintner",
+    "Igor the island guide",
+    "Jutta the jailbird"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "crate"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "anchor"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "notRoom",
+      0
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "on",
+      "stool"
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "col",
+      8
+    ],
+    [
+      10,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    21,
+    24,
+    33,
+    45,
+    59,
+    72,
+    80,
+    97,
+    107,
+    117
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      76,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      110,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "hammock",
+      0
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 3,
+  "hardest": 6,
+  "steps": 25,
+  "extra": true
+}

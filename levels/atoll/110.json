@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0011222200112222001122220011222233334444333344445555444455554444",
+  "objects": "...........eb..e...c.bc.....e...d.d....eb....bfd.............f..",
+  "roomNames": [
+    "Overwater Bungalow",
+    "Reception Lobby",
+    "Tiki Bar",
+    "Yacht Marina",
+    "Open Beach",
+    "Dive Shop"
+  ],
+  "people": [
+    "Arthur the activities director",
+    "Basil the bartender",
+    "Cedric the concierge",
+    "Dmitri the divemaster",
+    "Edgar the excursion guide",
+    "Frank the fitness coach",
+    "Vince the vacationer",
+    "Gideon the guest of honor"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "next",
+      "surfboard"
+    ],
+    [
+      3,
+      "next",
+      "surfboard"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    23,
+    27,
+    38,
+    40,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "hammock",
+      1
+    ],
+    [
+      "roomCount",
+      5,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

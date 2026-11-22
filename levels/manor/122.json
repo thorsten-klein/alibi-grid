@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222001112220011133244455332444553324445533244455",
+  "objects": "..a.b...f..ca.b..cbf.b..e.a.b.......cba.af........c.a...c.fa....",
+  "roomNames": [
+    "Chapel",
+    "Kitchen",
+    "Hall",
+    "Study",
+    "Library",
+    "Gallery"
+  ],
+  "people": [
+    "Albert the author",
+    "Bruno the banker",
+    "Clara the cook",
+    "Della the doctor",
+    "Elias the envoy",
+    "Freya the footman",
+    "Vivian the vicar",
+    "Gus the guest"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "shelf"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    21,
+    25,
+    39,
+    40,
+    51,
+    60
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "onCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 29,
+  "extra": true
+}

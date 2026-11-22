@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211223344223344223344",
+  "objects": "....b...c..c....b....eaab...ec.a....",
+  "roomNames": [
+    "Maintenance Hut",
+    "Cotton Candy Stand",
+    "Fortune Booth",
+    "Coaster Shed",
+    "Arcade Alley"
+  ],
+  "people": [
+    "Arthur the antiquarian",
+    "Basil the barker",
+    "Cedric the cotton candy vendor",
+    "Vince the venture developer",
+    "Dmitri the daredevil",
+    "Edgar the urban explorer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "horse"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    15,
+    19,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "extra": true
+}

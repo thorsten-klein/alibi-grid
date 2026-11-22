@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a.a...fc.......a",
+  "roomNames": [
+    "Main Lounge",
+    "Safe Room",
+    "Hidden Alleyway"
+  ],
+  "people": [
+    "Arthur the attorney",
+    "Basil the bootlegger",
+    "Vince the valued patron",
+    "Cedric the card sharp"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "booth"
+    ],
+    [
+      2,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "row",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

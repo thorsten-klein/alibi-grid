@@ -1,0 +1,80 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "...b....a....cb.",
+  "roomNames": [
+    "Mess Hall",
+    "Bridge",
+    "Comms"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Vince the volunteer",
+    "Basil the biologist",
+    "Cedric the captain"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      0
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

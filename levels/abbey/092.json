@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333333444444",
+  "objects": "a...dc..caa.....e..d.e.e.b...bdc....",
+  "roomNames": [
+    "Cellar",
+    "Bell Tower",
+    "Herb Garden",
+    "Prior Cell",
+    "Scriptorium"
+  ],
+  "people": [
+    "Astrid the abbot",
+    "Birgit the bellringer",
+    "Celia the cellarer",
+    "Vivian the visiting cardinal",
+    "Della the doorkeeper",
+    "Ena the exorcist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "lectern"
+    ],
+    [
+      1,
+      "next",
+      "stall"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "reliquary"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "palliasse"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    22,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      28,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

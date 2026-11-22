@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+  "objects": "..b.b........af..b..cfa...bf..b..d....e.f.fea.b......da...a.c.b.",
+  "roomNames": [
+    "Showgirl Dressing Room",
+    "Rooftop Pool",
+    "Penthouse Suite",
+    "Kitchen",
+    "Parking Garage",
+    "Cashier Cage"
+  ],
+  "people": [
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Cedric the croupier",
+    "Dmitri the dice inspector",
+    "Edgar the entertainer",
+    "Frank the floor manager",
+    "Gideon the gambler",
+    "Vince the vip gambler"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "chaise"
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "wheel"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ],
+    [
+      6,
+      "next",
+      "safe"
+    ],
+    [
+      7,
+      "next",
+      "slots"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    28,
+    32,
+    41,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "slots",
+      3
+    ],
+    [
+      "nextCount",
+      "table",
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

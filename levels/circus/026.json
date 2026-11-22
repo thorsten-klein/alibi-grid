@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".b..b..e......ad.........",
+  "roomNames": [
+    "Hay Barn",
+    "Dressing Trailer",
+    "Fortune Tent",
+    "Carousel"
+  ],
+  "people": [
+    "Astrid the animal tamer",
+    "Birgit the balloon artist",
+    "Vivian the veteran ringmaster",
+    "Celia the contortionist",
+    "Della the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "trunk",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 18,
+  "group": 3
+}

@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222211133334444333344445555444455554444",
+  "objects": "a......b.f.f...a.e.f..b..a.ac............eb..f.db....bb.a.......",
+  "roomNames": [
+    "Dining Hall",
+    "Boot Room",
+    "Sauna",
+    "Terrace",
+    "Lobby",
+    "Kitchen"
+  ],
+  "people": [
+    "Albert the athlete",
+    "Bruno the bartender",
+    "Clara the cook",
+    "Dmitri the driver",
+    "Vera the vet",
+    "Edgar the explorer",
+    "Felix the forester",
+    "Gwen the guide"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "tree"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "notRoom",
+      5
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    30,
+    35,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

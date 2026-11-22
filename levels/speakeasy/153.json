@@ -1,0 +1,230 @@
+{
+  "size": 12,
+  "rooms": "001111222222001111222222001111222222001111333344001111333344555555333344555555333344555555333344666677777888666677777888666677777888666677777888",
+  "objects": "aa...b....cb...e..e.c.fe.c....ab.c.a............d..f.e..c..dd.e..c....bba.....eb...f..a.e......a...e.......ef...b.a.e...bc.e.e.d.f....a..f.eb..d",
+  "roomNames": [
+    "Cold Storage",
+    "Hidden Alleyway",
+    "Coat Check",
+    "Bar Counter",
+    "Distillery",
+    "Safe Room",
+    "Manager Office",
+    "Private Booths",
+    "Jazz Stage"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bella the bartender",
+    "Cora the crooner",
+    "Viola the voice of syndicate",
+    "Daisy the drummer",
+    "Elsa the enforcer",
+    "Fiona the flapper",
+    "Gwen the gangster",
+    "Hazel the horn player",
+    "Ines the informant",
+    "Juno the jazz pianist",
+    "Kira the kingpin"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "sax"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      4,
+      "next",
+      "sax"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "sax"
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      8,
+      "next",
+      "safe"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "next",
+      "sax"
+    ],
+    [
+      10,
+      "next",
+      "stool"
+    ],
+    [
+      10,
+      "next",
+      "cask"
+    ],
+    [
+      11,
+      "next",
+      "roulette"
+    ]
+  ],
+  "solution": [
+    11,
+    16,
+    27,
+    43,
+    57,
+    70,
+    77,
+    86,
+    96,
+    109,
+    128,
+    138
+  ],
+  "doors": [
+    [
+      37,
+      38
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      65
+    ],
+    [
+      33,
+      45
+    ],
+    [
+      34,
+      46
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      91,
+      103
+    ],
+    [
+      93,
+      105
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      85,
+      97
+    ],
+    [
+      88,
+      100
+    ],
+    [
+      111,
+      112
+    ],
+    [
+      104,
+      105
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ],
+    [
+      "nextCount",
+      "booth",
+      0
+    ]
+  ],
+  "hard": 11,
+  "hardest": 10,
+  "steps": 35,
+  "extra": true
+}

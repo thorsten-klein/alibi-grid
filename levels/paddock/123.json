@@ -1,0 +1,160 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233444555334445553344455533444555",
+  "objects": ".a.......bfa...c.b..a..f...b....ba........d..da....eb........ae.",
+  "roomNames": [
+    "Team Garage B",
+    "Fuel Storage",
+    "Pit Lane",
+    "Tire Bay",
+    "Media Center",
+    "Team Garage A"
+  ],
+  "people": [
+    "Vince the vip team owner",
+    "Arthur the apprentice",
+    "Basil the broadcast commentator",
+    "Cedric the crew chief",
+    "Dmitri the data telemetry lead",
+    "Edgar the electrician",
+    "Frank the flag marshal",
+    "Gideon the grid coordinator"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "bucket"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "notRoom",
+      5
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    19,
+    29,
+    39,
+    44,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

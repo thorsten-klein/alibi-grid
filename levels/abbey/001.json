@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".a....f..ab.....d....d...",
+  "roomNames": [
+    "Crypt",
+    "Refectory",
+    "Cellar",
+    "Dormitory"
+  ],
+  "people": [
+    "Victor the visiting cardinal",
+    "Albert the abbot",
+    "Bruno the bellringer",
+    "Carl the cellarer",
+    "Dexter the doorkeeper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "next",
+      "stall"
+    ],
+    [
+      2,
+      "next",
+      "bellrope"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "group": 0
+}

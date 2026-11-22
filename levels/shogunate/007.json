@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "....ac...e.ecbbb",
+  "roomNames": [
+    "Armory",
+    "Zen Garden",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bushi warrior",
+    "Viola the veteran general",
+    "Cora the calligrapher"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "armor"
+    ],
+    [
+      3,
+      "on",
+      "futon"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 13,
+  "group": 1
+}

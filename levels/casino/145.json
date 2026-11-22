@@ -1,0 +1,214 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111122233444552223344455222334445522233444556663377755666337775566633777556663377755",
+  "objects": "....c...f......a.a..b.......b....a..b.....f..f.....b..d....f.....a...d.eaa..f...ff..c....aaa...fee..",
+  "roomNames": [
+    "Main Casino Floor",
+    "Showgirl Dressing Room",
+    "Cashier Cage",
+    "High Roller Lounge",
+    "The Vault",
+    "Security Surveillance",
+    "Parking Garage",
+    "Penthouse Suite"
+  ],
+  "people": [
+    "Albert the armored driver",
+    "Bruno the bartender",
+    "Carl the casino manager",
+    "Dexter the dancer",
+    "Elias the electrician",
+    "Felix the fixer",
+    "Victor the vegas mogul",
+    "Gus the guard",
+    "Hugo the hostess",
+    "Igor the illusionist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "chaise"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chaise"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "safe"
+    ],
+    [
+      8,
+      "next",
+      "safe"
+    ],
+    [
+      9,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    0,
+    19,
+    26,
+    38,
+    44,
+    55,
+    63,
+    72,
+    87,
+    91
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      18,
+      28
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      97,
+      98
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "wheel",
+      0
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

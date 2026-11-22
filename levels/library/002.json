@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122334422334422334422",
+  "objects": "..bb.d....a..fbb.e...f.bf.......b.b.",
+  "roomNames": [
+    "Geometry Hall",
+    "Mosaic Gallery",
+    "Courtyard Fountain",
+    "Archivist Sanctum",
+    "Translation Chamber"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bea the bookbinder",
+    "Clara the cartographer",
+    "Dora the doctor",
+    "Edith the educator",
+    "Vera the veteran sage"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "sphere"
+    ],
+    [
+      1,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "mat"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "mat"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    12,
+    19,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "group": 0
+}

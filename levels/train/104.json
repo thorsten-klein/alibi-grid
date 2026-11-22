@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....b.a..a..f...b.....e....a.bd....fd.d.a...aa.ac",
+  "roomNames": [
+    "Sleeper B",
+    "Baggage Car",
+    "Galley",
+    "Dining Car",
+    "Mail Car"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Vivian the vendor",
+    "Bea the bookseller",
+    "Celia the conductor",
+    "Dmitri the dentist",
+    "Elias the envoy",
+    "Flora the firefighter"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "wine"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "on",
+      "seat"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    25,
+    28,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "wine",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

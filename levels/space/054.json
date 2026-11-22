@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....f.f......b..",
+  "roomNames": [
+    "Crew Quarters",
+    "Comms",
+    "Mess Hall"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Bella the botanist",
+    "Victor the volunteer",
+    "Cora the captain"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      3,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

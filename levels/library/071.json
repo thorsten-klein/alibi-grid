@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": ".b..f...fa....d.b.d.ad...",
+  "roomNames": [
+    "Courtyard Fountain",
+    "Great Peristyle",
+    "Translation Chamber",
+    "Papyrus Vault"
+  ],
+  "people": [
+    "Victor the veteran sage",
+    "Albert the archivist",
+    "Bruno the bookbinder",
+    "Carl the cartographer",
+    "Dexter the doctor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "mat"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "sphere"
+    ]
+  ],
+  "solution": [
+    1,
+    5,
+    13,
+    19,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

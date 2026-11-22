@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333333333333334444444",
+  "objects": "...be......a.ed.b...bba...e.c....b.ce...b...c..c.",
+  "roomNames": [
+    "Ward B",
+    "Kitchen",
+    "Reception Hall",
+    "Boiler Room",
+    "Solarium"
+  ],
+  "people": [
+    "Arthur the anesthetist",
+    "Basil the biochemist",
+    "Cedric the chief surgeon",
+    "Dmitri the doctor",
+    "Edgar the epidemiologist",
+    "Vince the victim of illness",
+    "Frank the first responder"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "xray"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "xray"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      4,
+      "next",
+      "cabinet"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    21,
+    29,
+    38,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      35,
+      42
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 3,
+  "steps": 23,
+  "extra": true
+}

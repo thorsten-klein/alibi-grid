@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000111000111222222222222334444334444",
+  "objects": "d......da..b..aa....a....a.f.c....a.",
+  "roomNames": [
+    "Lounge Car",
+    "Sleeper A",
+    "Bar Car",
+    "Baggage Car",
+    "Sleeper B"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bella the bookseller",
+    "Vivian the vendor",
+    "Celia the conductor",
+    "Dexter the diplomat",
+    "Elsa the engineer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    12,
+    21,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "suitcase",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

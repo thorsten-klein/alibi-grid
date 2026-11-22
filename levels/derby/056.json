@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111222332223322233",
+  "objects": "d..bb.af...e..c...d...f..",
+  "roomNames": [
+    "Vet Clinic",
+    "Stewards Room",
+    "Members Bar",
+    "Weighing Room"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the breeder",
+    "Carl the clerk of scales",
+    "Victor the visiting royalty",
+    "Dexter the doper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "stablebench"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "board"
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "board",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

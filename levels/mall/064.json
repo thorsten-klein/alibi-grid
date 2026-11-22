@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "...e..b........b.ae..dbc.",
+  "roomNames": [
+    "Record Store",
+    "Food Court",
+    "Photo Studio",
+    "Skate Shop"
+  ],
+  "people": [
+    "Arthur the arcade manager",
+    "Basil the barista",
+    "Cedric the cinema projectionist",
+    "Vince the veteran mall owner",
+    "Dmitri the department manager"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "photobench"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "gate"
+    ],
+    [
+      4,
+      "next",
+      "plasticchair"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "gate",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

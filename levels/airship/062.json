@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "..db.e..ca.b..b.db..bba.c",
+  "roomNames": [
+    "Promenade Deck",
+    "Starboard Gondola",
+    "Dining Saloon",
+    "Radio Cabin"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the boatswain",
+    "Clara the chief rigger",
+    "Dora the doctor",
+    "Vera the vip diplomat"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "winch"
+    ],
+    [
+      3,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "berth",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

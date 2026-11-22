@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "...........ca...a...b.f..a..c..acb.......ae.f..a.",
+  "roomNames": [
+    "Deep Winze",
+    "Shaft Elevator",
+    "Main Drift",
+    "Shift Boss Office",
+    "Timber Storage"
+  ],
+  "people": [
+    "Alma the axeman",
+    "Bella the blaster",
+    "Cora the carpenter",
+    "Daisy the dynamite handler",
+    "Viola the venture capitalist",
+    "Elsa the hoist operator",
+    "Fiona the farrier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "orecart"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    17,
+    27,
+    30,
+    40,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 21,
+  "extra": true
+}

@@ -1,0 +1,162 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000111122000334444000334444555334444555336666555336666",
+  "objects": ".bb.f........d.bcf.fa....fb.fa...e.c...f....f..b.........f.a..e...d.......d...db.",
+  "roomNames": [
+    "Cryo Storage",
+    "Specimen Nursery",
+    "Cleanroom 1",
+    "Chemical Vault",
+    "Server Farm",
+    "Autopsy Suite",
+    "Cleanroom 2"
+  ],
+  "people": [
+    "Victor the venture backer",
+    "Albert the algorithm engineer",
+    "Bruno the bioethicist",
+    "Carl the cryo technician",
+    "Dexter the data architect",
+    "Elias the ecologist",
+    "Felix the forensic chemist",
+    "Gus the guard",
+    "Hugo the hardware tech"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chamber"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "room",
+      6
+    ],
+    [
+      8,
+      "next",
+      "chamber"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    22,
+    29,
+    43,
+    50,
+    55,
+    71,
+    75
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      61,
+      70
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 26,
+  "group": 2
+}

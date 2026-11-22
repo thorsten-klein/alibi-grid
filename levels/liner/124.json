@@ -1,0 +1,173 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222000033444000033444555533444555533444555666666555666666",
+  "objects": ".......bafe.a.df.e.b..............a........b.c....c.fbe.........f.c.....c.a.e.fa.",
+  "roomNames": [
+    "Telegraph Cabin",
+    "Library",
+    "First Class Lounge",
+    "Promenade Deck",
+    "Turkish Bath",
+    "Steerage Quarters",
+    "Boiler Room"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the bartender",
+    "Clara the chief engineer",
+    "Vera the valet",
+    "Dora the doctor",
+    "Edith the envoy",
+    "Freya the fireman",
+    "Greta the governess",
+    "Hilda the heiress"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      2,
+      "on",
+      "berth"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "on",
+      "deckchair"
+    ]
+  ],
+  "solution": [
+    3,
+    16,
+    19,
+    31,
+    41,
+    53,
+    60,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      20,
+      29
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      57,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      72,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "luggage",
+      3
+    ],
+    [
+      "nextCount",
+      "berth",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

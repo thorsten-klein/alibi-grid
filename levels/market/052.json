@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "b.f...ebf.......",
+  "roomNames": [
+    "Fireworks Barge",
+    "Lantern Bridge",
+    "River Pagoda"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Basil the boatman",
+    "Vince the village magistrate",
+    "Cedric the calligrapher"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "cushion"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "teacart"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "onCount",
+      "cushion",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

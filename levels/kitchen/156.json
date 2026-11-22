@@ -1,0 +1,237 @@
+{
+  "size": 12,
+  "rooms": "001112222333001112222333001112222333001112222333001114444333001114444333444444555555444444555555667777888888667777888888667777888888667777888888",
+  "objects": "....b...b.e........fb...bb.........adfcaa...e.e.a..e..b.....b...ae.ac...dad.......aa........d...d.fb.c...a.....a.......a...b......ba.aa.a.....a.",
+  "roomNames": [
+    "Main Dining Room",
+    "Saute Station",
+    "Pastry Kitchen",
+    "Staff Locker",
+    "Dishwashing Pit",
+    "Wine Cellar",
+    "Hostess Foyer",
+    "Plating Line",
+    "Chef Private Office"
+  ],
+  "people": [
+    "Alma the appetizer cook",
+    "Bella the butcher",
+    "Cora the chocolatier",
+    "Daisy the dessert chef",
+    "Elsa the executive chef",
+    "Fiona the fromager",
+    "Gwen the grill cook",
+    "Hazel the head sommelier",
+    "Viola the veteran restaurateur",
+    "Ines the inventory manager",
+    "Juno the jam maker",
+    "Kira the knife sharpener"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "banquette"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "room",
+      2
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "col",
+      11
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "block"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "fridge"
+    ],
+    [
+      9,
+      "notRoom",
+      5
+    ],
+    [
+      9,
+      "next",
+      "block"
+    ],
+    [
+      10,
+      "col",
+      7
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "next",
+      "stool"
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    30,
+    47,
+    57,
+    70,
+    80,
+    88,
+    99,
+    108,
+    127,
+    137
+  ],
+  "doors": [
+    [
+      49,
+      50
+    ],
+    [
+      60,
+      72
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      42,
+      54
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      69,
+      81
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      85,
+      97
+    ],
+    [
+      86,
+      98
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      133,
+      134
+    ],
+    [
+      113,
+      114
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      119,
+      "r"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      133,
+      "b"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      143,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 8,
+  "steps": 27,
+  "extra": true
+}

@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222334445553344455533444555",
+  "objects": "ce.....a...acb.bdc.....b...e.......a.d......af.ba.fa..e..acc....",
+  "roomNames": [
+    "Torpedo Tube",
+    "Specimen Bay",
+    "Sonar Room",
+    "Hydrothermal Lab",
+    "Pilot Cockpit",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Viola the vessel designer",
+    "Alma the aquanaut",
+    "Bella the bathymetry tech",
+    "Cora the captain",
+    "Daisy the drill operator",
+    "Elsa the electrical engineer",
+    "Fiona the first officer",
+    "Gwen the geochemist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "sonar"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "freezer"
+    ],
+    [
+      6,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "next",
+      "valve"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    29,
+    33,
+    42,
+    48,
+    62
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "seat",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 26,
+  "group": 2
+}

@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222233322222333222223334444455544444555",
+  "objects": "...faba..bb...a.e.d....dc.....f.....a.d.....d.......bead.fb.e...",
+  "roomNames": [
+    "Smelting Oven",
+    "Mule Stables",
+    "Main Drift",
+    "Timber Storage",
+    "Dynamite Magazine",
+    "Shaft Elevator"
+  ],
+  "people": [
+    "Alma the assayer",
+    "Bella the blacksmith",
+    "Viola the vein claimant",
+    "Cora the cart driver",
+    "Daisy the driller",
+    "Elsa the engineer",
+    "Fiona the foreman",
+    "Gwen the geologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "keg"
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "hoist"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      7,
+      "next",
+      "keg"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    19,
+    29,
+    39,
+    40,
+    50,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "bunk",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 33,
+  "extra": true
+}

@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220003333300033333444445554444455544444555",
+  "objects": ".b..e...e.....b.cb.....d..c.a......dba.....e...a.e..f...cd......",
+  "roomNames": [
+    "Tenement Attic",
+    "Police Desk",
+    "Cab Stand",
+    "Mortuary",
+    "Cobblestone Alley",
+    "Apothecary"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Vivian the vagabond",
+    "Birgit the bowler hat seller",
+    "Celia the chimney sweep",
+    "Della the doctor",
+    "Ena the errand boy",
+    "Flora the fishmonger",
+    "Grace the grave robber"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "fireplace"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "fireplace"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "armchair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      2
+    ],
+    [
+      6,
+      "next",
+      "streetlamp"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    22,
+    28,
+    34,
+    45,
+    48,
+    63
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "nextCount",
+      "cot",
+      3
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 33,
+  "extra": true
+}
