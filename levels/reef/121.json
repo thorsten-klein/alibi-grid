@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112223333322233333222444422224444222244442222",
+  "objects": "a.................a.e....a..e......b....a..a......b.............",
+  "roomNames": [
+    "Lighthouse",
+    "Tavern",
+    "Open Sea",
+    "Cove",
+    "Market"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Birgit the barkeep",
+    "Carl the cook",
+    "Viola the voyager",
+    "Daisy the deckhand",
+    "Elsa the explorer",
+    "Felix the fiddler",
+    "Grace the gold digger"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "hammock"
+    ],
+    [
+      7,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    23,
+    24,
+    34,
+    44,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      32,
+      40
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 2,
+  "extra": true
+}

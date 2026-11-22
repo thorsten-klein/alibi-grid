@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "aca..bb...f..b..b.......bcb..f......fc..a.a.a..e.",
+  "roomNames": [
+    "Lab",
+    "Med Bay",
+    "Hydroponics",
+    "Gym",
+    "Engine Room"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Basil the biologist",
+    "Clara the chemist",
+    "Vivian the volunteer",
+    "Dmitri the doctor",
+    "Elias the engineer",
+    "Flora the flight officer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "console"
+    ],
+    [
+      5,
+      "next",
+      "console"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    16,
+    27,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "alone",
+      null,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 18,
+  "group": 2
+}

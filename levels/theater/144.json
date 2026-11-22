@@ -1,0 +1,165 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000112222000112222333334444333334444555556666555556666555556666",
+  "objects": "..dc.......e...e.....d...a.b..a......b.....ec......ff.....cf..........a..ab..ca.e",
+  "roomNames": [
+    "Prop Store",
+    "Wings",
+    "Box Office",
+    "Stage",
+    "Green Room",
+    "Dressing Room",
+    "Foyer"
+  ],
+  "people": [
+    "Arthur the author",
+    "Bella the bass player",
+    "Carl the choreographer",
+    "Daisy the dancer",
+    "Vera the violinist",
+    "Ena the extra",
+    "Flora the flautist",
+    "Gus the guitarist",
+    "Hugo the harpist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      7
+    ],
+    [
+      1,
+      "next",
+      "mirror"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "col",
+      2
+    ],
+    [
+      7,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "door"
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    23,
+    33,
+    36,
+    46,
+    56,
+    71,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      45,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 22,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "extra": true
+}

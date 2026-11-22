@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220011222333344433334443333444",
+  "objects": "....f.....ff..c..c...........be..aa.e..bad.......",
+  "roomNames": [
+    "Cemetery Gate",
+    "Witch Parlor",
+    "Costume Ballroom",
+    "Cellar Maze",
+    "Haunted Conservatory"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bella the black cat breeder",
+    "Cora the costume designer",
+    "Daisy the diviner",
+    "Elsa the embalmer",
+    "Viola the veteran manor heir",
+    "Fiona the fortune teller"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "swing"
+    ],
+    [
+      5,
+      "next",
+      "cauldron"
+    ],
+    [
+      6,
+      "next",
+      "tombstone"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    18,
+    24,
+    28,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "pumpkin",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

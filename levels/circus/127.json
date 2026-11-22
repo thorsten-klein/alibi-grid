@@ -1,0 +1,195 @@
+{
+  "size": 9,
+  "rooms": "001122333001122333001122333001122333001144444001144444555566666555566666555566666",
+  "objects": ".........f.bd.ee.cd.....e.d..f.df.............ab.....f...........aecc..e.........",
+  "roomNames": [
+    "Fortune Tent",
+    "Sideshow Alley",
+    "Big Top",
+    "Ticket Booth",
+    "Dressing Trailer",
+    "Trapeze Rig",
+    "Ringmaster Wagon"
+  ],
+  "people": [
+    "Alma the animal tamer",
+    "Bella the balloon artist",
+    "Cora the contortionist",
+    "Daisy the drummer",
+    "Elsa the electrician",
+    "Fiona the fortune teller",
+    "Gwen the gymnast",
+    "Viola the veteran ringmaster",
+    "Hazel the horse trickster"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "trunk"
+    ],
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "crystal"
+    ],
+    [
+      2,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "next",
+      "crystal"
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "next",
+      "trunk"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      4
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "room",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "trunk"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    33,
+    39,
+    49,
+    54,
+    70,
+    80
+  ],
+  "doors": [
+    [
+      28,
+      29
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "nextCount",
+      "cage",
+      0
+    ],
+    [
+      "nextCount",
+      "chair",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 28,
+  "extra": true
+}

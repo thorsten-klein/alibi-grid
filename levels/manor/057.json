@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "f...b.a......dda.f.......",
+  "roomNames": [
+    "Billiard Room",
+    "Ballroom",
+    "Dining Room",
+    "Gallery"
+  ],
+  "people": [
+    "Arthur the author",
+    "Bruno the banker",
+    "Vivian the valet",
+    "Clara the cook",
+    "Dexter the dealer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222233444555334445553344455533444555",
+  "objects": "..ccf.....e.......a.a.dac....d.bb...e..b..b...b.....e.........d.",
+  "roomNames": [
+    "Showgirl Dressing Room",
+    "Cashier Cage",
+    "Valet Booth",
+    "Kitchen",
+    "High Roller Lounge",
+    "Rooftop Pool"
+  ],
+  "people": [
+    "Ada the armored driver",
+    "Vera the vegas mogul",
+    "Bea the bartender",
+    "Clara the casino manager",
+    "Dora the dancer",
+    "Edith the electrician",
+    "Freya the fixer",
+    "Greta the guard"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "slots"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "safe"
+    ],
+    [
+      7,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    17,
+    30,
+    34,
+    40,
+    51,
+    60
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ],
+    [
+      "nextCount",
+      "chaise",
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

@@ -1,0 +1,203 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000222334444422233444442223344444222335555666777555566677755556667775555666777",
+  "objects": "........e..cec.....e............b..bac.....f..fa.a.b.....a............af.c.......d.......d..b....ae.",
+  "roomNames": [
+    "Bell Tower",
+    "Chapter House",
+    "Crypt",
+    "Abbey Church",
+    "Prior Cell",
+    "Scriptorium",
+    "Dormitory",
+    "Infirmary"
+  ],
+  "people": [
+    "Arthur the abbot",
+    "Vince the visiting cardinal",
+    "Basil the bellringer",
+    "Cedric the cellarer",
+    "Dmitri the doorkeeper",
+    "Edgar the exorcist",
+    "Frank the forester",
+    "Gideon the gardener",
+    "Henrik the herbalist",
+    "Ivo the illuminator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "palliasse"
+    ],
+    [
+      4,
+      "on",
+      "stall"
+    ],
+    [
+      5,
+      "on",
+      "stall"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "stall"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    18,
+    24,
+    31,
+    49,
+    57,
+    60,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "altar",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
+  "group": 1
+}

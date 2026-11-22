@@ -1,0 +1,91 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "deafa...ab.f....b..d...c.",
+  "roomNames": [
+    "Bridge",
+    "Hydroponics",
+    "Mess Hall",
+    "Med Bay"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Viola the visitor",
+    "Bella the botanist",
+    "Cora the chemist",
+    "Dmitri the driller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "console"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    10,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

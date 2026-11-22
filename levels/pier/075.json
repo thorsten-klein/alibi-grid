@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444444444444",
+  "objects": ".e..badc.f...e....b...bc...e......a.",
+  "roomNames": [
+    "Ferris Wheel Base",
+    "Carousel Pavilion",
+    "Cotton Candy Stand",
+    "Ghost Train",
+    "Souvenir Shack"
+  ],
+  "people": [
+    "Arthur the antiquarian",
+    "Basil the barker",
+    "Cedric the cotton candy vendor",
+    "Dmitri the daredevil",
+    "Vince the venture developer",
+    "Edgar the urban explorer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      2,
+      "next",
+      "horse"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "automaton"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    17,
+    20,
+    25,
+    33
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "cart",
+      1
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

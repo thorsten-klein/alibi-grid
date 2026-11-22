@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011112221111222333224433322443332244",
+  "objects": "febb.....dd...aa....a..f..aa......d.fef...c..c...",
+  "roomNames": [
+    "Records Archive",
+    "Doctor Office",
+    "Operating Theater",
+    "Reception Hall",
+    "Kitchen"
+  ],
+  "people": [
+    "Albert the anesthetist",
+    "Victor the victim of illness",
+    "Bruno the biochemist",
+    "Carl the chief surgeon",
+    "Dexter the doctor",
+    "Elias the epidemiologist",
+    "Felix the first responder"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "archive"
+    ],
+    [
+      2,
+      "next",
+      "wheelchair"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "archive"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "archive"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    16,
+    27,
+    31,
+    40,
+    43
+  ],
+  "doors": [
+    [
+      8,
+      15
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      26,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

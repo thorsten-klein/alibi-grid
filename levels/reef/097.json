@@ -1,0 +1,111 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112330044233004423300442330044",
+  "objects": ".....a.............d.......f.......fb...db..b..b.",
+  "roomNames": [
+    "Open Sea",
+    "Sea Cave",
+    "Longboat",
+    "Galleon",
+    "Fort"
+  ],
+  "people": [
+    "Alma the armorer",
+    "Bruno the barkeep",
+    "Carl the captain",
+    "Vince the voyager",
+    "Dora the deckhand",
+    "Ena the engineer",
+    "Fiona the fiddler"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      0
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "next",
+      "crate"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    17,
+    23,
+    29,
+    41,
+    47
+  ],
+  "doors": [
+    [
+      19,
+      26
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

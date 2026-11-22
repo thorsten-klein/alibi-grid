@@ -1,0 +1,108 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "...cab...bdb..a...e...af........d.b.",
+  "roomNames": [
+    "Bar Car",
+    "Observation Car",
+    "Lounge Car",
+    "Sleeper B",
+    "Galley"
+  ],
+  "people": [
+    "Vivian the vendor",
+    "Ada the accordionist",
+    "Basil the bookseller",
+    "Cedric the conductor",
+    "Dmitri the dentist",
+    "Ena the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "lamp"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    14,
+    19,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

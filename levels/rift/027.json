@@ -1,0 +1,113 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222333333333333334443333444",
+  "objects": "..b.b.f.c..d.....f....b..................c....ae.",
+  "roomNames": [
+    "Hide Tent",
+    "Jail",
+    "Shrine",
+    "Sea of Ages",
+    "Burial Chamber"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bruno the bard",
+    "Celia the clockmaker",
+    "Vince the visionary",
+    "Dexter the drifter",
+    "Ena the explorer",
+    "Freya the falconer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "on",
+      "log"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    16,
+    22,
+    32,
+    38,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ]
+  ],
+  "tries": 6,
+  "rules": [
+    "ranks",
+    "sea"
+  ],
+  "court": [
+    4
+  ],
+  "rank": "ckkcckk",
+  "sea": 3,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 25,
+  "group": 3
+}

@@ -1,0 +1,142 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222333445553334455533344555",
+  "objects": "a.e........f..b.fe....c.fccf..d...b.fb...........caacac..c...c..",
+  "roomNames": [
+    "Throne Room",
+    "Chapel",
+    "Kitchen",
+    "Stables",
+    "Solar",
+    "Courtyard"
+  ],
+  "people": [
+    "Ada the alchemist",
+    "Birgit the bard",
+    "Vince the verger",
+    "Cora the cupbearer",
+    "Daisy the dancer",
+    "Edgar the envoy",
+    "Frank the farrier",
+    "Gus the groom"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "swords"
+    ],
+    [
+      1,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    20,
+    29,
+    32,
+    42,
+    51,
+    63
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    4,
+    5
+  ],
+  "rank": "ckckkknk",
+  "hard": 1,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

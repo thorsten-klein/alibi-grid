@@ -1,0 +1,167 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112223334422233344222333442225554422255544",
+  "objects": ".ba.bd.a.c....e....a..b...f...a..c.d.ab...ede.e..c...d.b.....e..",
+  "roomNames": [
+    "Tractor Garage",
+    "Grain Silo",
+    "Pig Pen",
+    "Tool Shed",
+    "Farmstand",
+    "Big Barn"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barn hand",
+    "Cedric the cider presser",
+    "Vince the veterinarian",
+    "Dmitri the ditcher",
+    "Edgar the entomologist",
+    "Frank the farrier",
+    "Gideon the greenhouse tender"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "rocker"
+    ],
+    [
+      1,
+      "next",
+      "bale"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "on",
+      "rocker"
+    ],
+    [
+      4,
+      "next",
+      "churn"
+    ],
+    [
+      5,
+      "next",
+      "bale"
+    ],
+    [
+      6,
+      "next",
+      "tractor"
+    ],
+    [
+      7,
+      "next",
+      "churn"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    17,
+    31,
+    38,
+    45,
+    50,
+    60
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      61,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "bale",
+      0
+    ],
+    [
+      "alone",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

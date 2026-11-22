@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "dd.........b..c.....fbb.f.d.....dac.f..cf.......c",
+  "roomNames": [
+    "Main Dining Room",
+    "Dishwashing Pit",
+    "Wine Cellar",
+    "Saute Station",
+    "Chef Private Office"
+  ],
+  "people": [
+    "Ada the appetizer cook",
+    "Bea the butcher",
+    "Clara the chocolatier",
+    "Dora the dessert chef",
+    "Edith the executive chef",
+    "Vera the veteran restaurateur",
+    "Freya the fromager"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cooktop"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "banquette"
+    ],
+    [
+      3,
+      "next",
+      "block"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "block"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    15,
+    25,
+    33,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

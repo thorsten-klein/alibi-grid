@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "fb.......ddcf.cb.b....a..",
+  "roomNames": [
+    "Control Center",
+    "Breakroom",
+    "Cryo Storage",
+    "Centrifuge Bay"
+  ],
+  "people": [
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician",
+    "Vince the venture backer",
+    "Dmitri the data architect"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "pod",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": ".bab..........b....f........c...a..c.......b..ddd",
+  "roomNames": [
+    "Conservatory",
+    "Cellar",
+    "Kitchen",
+    "Billiard Room",
+    "Ballroom"
+  ],
+  "people": [
+    "Ada the architect",
+    "Bella the butler",
+    "Victor the vicar",
+    "Cedric the colonel",
+    "Dmitri the dealer",
+    "Edith the editor",
+    "Frank the florist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    20,
+    24,
+    29,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "shelf",
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

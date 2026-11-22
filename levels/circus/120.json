@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333344422555444225554442255544422555",
+  "objects": ".a....b.........b.a.b..d..d.e.........b...........a...abae..f...",
+  "roomNames": [
+    "Funhouse",
+    "Sideshow Alley",
+    "Prop Tent",
+    "Menagerie Tent",
+    "Carousel",
+    "Ringmaster Wagon"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bea the barker",
+    "Clara the clown",
+    "Dora the daredevil",
+    "Edith the escape artist",
+    "Freya the fire eater",
+    "Greta the giant",
+    "Vera the ventriloquist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cage"
+    ],
+    [
+      4,
+      "next",
+      "mat"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    19,
+    31,
+    37,
+    44,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      29,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "extra": true
+}

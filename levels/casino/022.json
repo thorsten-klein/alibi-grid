@@ -1,0 +1,186 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011112222333333444433333344445555667777555566777755556677775555667777",
+  "objects": "e.b.cd..d...d.........d.a....c.a.fc...ad.bd.....ad...a.aebdd.ed.c....acad..f.f..f.e.c...ce..........",
+  "roomNames": [
+    "Valet Booth",
+    "Security Surveillance",
+    "Cashier Cage",
+    "Kitchen",
+    "Penthouse Suite",
+    "Rooftop Pool",
+    "Showgirl Dressing Room",
+    "Main Casino Floor"
+  ],
+  "people": [
+    "Albert the armored driver",
+    "Bruno the bartender",
+    "Carl the casino manager",
+    "Dexter the dancer",
+    "Victor the vegas mogul",
+    "Elias the electrician",
+    "Felix the fixer",
+    "Gus the guard",
+    "Hugo the hostess",
+    "Igor the illusionist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "slots"
+    ],
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "slots"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "same",
+      9
+    ],
+    [
+      7,
+      "next",
+      "table"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "next",
+      "table"
+    ],
+    [
+      9,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    9,
+    10,
+    27,
+    38,
+    44,
+    55,
+    63,
+    76,
+    81,
+    92
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      94,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 29,
+  "group": 2
+}

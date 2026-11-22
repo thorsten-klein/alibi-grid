@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "roomNames": [
+    "Courtyard",
+    "Mask Atelier",
+    "Palazzo Chapel",
+    "Mirrored Gallery",
+    "Canal Balcony"
+  ],
+  "people": [
+    "Albert the alchemist",
+    "Bruno the boat builder",
+    "Carl the carnival poet",
+    "Dexter the diplomat",
+    "Elias the embroiderer",
+    "Felix the falconer",
+    "Victor the visiting merchant"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "throne"
+    ],
+    [
+      1,
+      "next",
+      "daybed"
+    ],
+    [
+      2,
+      "next",
+      "gondola"
+    ],
+    [
+      2,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "gondola"
+    ],
+    [
+      5,
+      "next",
+      "throne"
+    ],
+    [
+      5,
+      "next",
+      "maskstand"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    22,
+    32,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

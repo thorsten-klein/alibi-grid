@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "dd.....ab.fb...fe....e.d.",
+  "roomNames": [
+    "Hunting Ground",
+    "River Bank",
+    "Elder Hut",
+    "Cave"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Birgit the builder",
+    "Celia the carver",
+    "Vivian the visionary",
+    "Dora the dancer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "leaves"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "next",
+      "leaves"
+    ],
+    [
+      4,
+      "next",
+      "bones"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "trades"
+  ],
+  "trade": "04200",
+  "tags": ".....44..2..2......00....",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "fa.....cad.afbd..ea......",
+  "roomNames": [
+    "Green Room",
+    "Catwalk",
+    "Studio Commissary",
+    "Director Trailer"
+  ],
+  "people": [
+    "Albert the actor",
+    "Bruno the boom operator",
+    "Carl the cinematographer",
+    "Victor the voice actor",
+    "Dexter the director"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "camera"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "boom"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    13,
+    19,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,186 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011112222333333444433333344445555667777555566777755556677775555667777",
+  "objects": "e.b.cd..d...d.........d.a....c.a.fc...ad.bd.....ad...a.aebdd.ed.c....acad..f.f..f.e.c...ce..........",
+  "roomNames": [
+    "Observation Dome",
+    "Hydrothermal Lab",
+    "Pilot Cockpit",
+    "Specimen Bay",
+    "Galley",
+    "Crew Quarters",
+    "Ballast Control",
+    "Conning Tower"
+  ],
+  "people": [
+    "Astrid the aquanaut",
+    "Birgit the bathymetry tech",
+    "Celia the captain",
+    "Della the drill operator",
+    "Vivian the vessel designer",
+    "Ena the electrical engineer",
+    "Flora the first officer",
+    "Grace the geochemist",
+    "Hana the hydrophone operator",
+    "Isla the instrument tech"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "next",
+      "valve"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "same",
+      9
+    ],
+    [
+      7,
+      "next",
+      "freezer"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "freezer"
+    ],
+    [
+      9,
+      "next",
+      "valve"
+    ]
+  ],
+  "solution": [
+    9,
+    10,
+    27,
+    38,
+    44,
+    55,
+    63,
+    76,
+    81,
+    92
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      94,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 29,
+  "group": 2
+}

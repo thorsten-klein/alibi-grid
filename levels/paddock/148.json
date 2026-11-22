@@ -1,0 +1,204 @@
+{
+  "size": 10,
+  "rooms": "0011122233001112223300111222330011122233445555666644555566664455556666445555666677777777777777777777",
+  "objects": "b..df.....ef.........e.a..b......ca...f.c..f.f..a.a...ea.b.f..f....d.b..a.a.......c..e....b.aebc...e",
+  "roomNames": [
+    "Tire Bay",
+    "VIP Balcony",
+    "Drivers Lounge",
+    "Team Garage A",
+    "Team Garage B",
+    "Hospitality Suite",
+    "Media Center",
+    "Telemetry Room"
+  ],
+  "people": [
+    "Vince the veteran champion",
+    "Arthur the aerodynamicist",
+    "Basil the brake tech",
+    "Cedric the chief mechanic",
+    "Dmitri the driver",
+    "Edgar the engine tuner",
+    "Frank the fuel specialist",
+    "Gideon the gearbox tech",
+    "Henrik the head of team",
+    "Ivo the inspector"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "tires"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "bucket"
+    ],
+    [
+      3,
+      "next",
+      "fuelrig"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "bucket"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "tires"
+    ],
+    [
+      7,
+      "next",
+      "bucket"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "sofa"
+    ],
+    [
+      9,
+      "next",
+      "fuelrig"
+    ]
+  ],
+  "solution": [
+    2,
+    19,
+    23,
+    31,
+    47,
+    50,
+    66,
+    75,
+    84,
+    98
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      73,
+      83
+    ],
+    [
+      77,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 22,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 44,
+  "extra": true
+}

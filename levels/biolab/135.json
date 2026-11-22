@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333334444333334444333335555666665555666665555",
+  "objects": "..d...d.b....a............bd...c..c..b..cff..aa...eb..c...a.a................adf.",
+  "roomNames": [
+    "Server Farm",
+    "Cleanroom 2",
+    "Specimen Nursery",
+    "Cleanroom 1",
+    "Autopsy Suite",
+    "Decon Airlock",
+    "Control Center"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Bella the biochemist",
+    "Cora the chief scientist",
+    "Daisy the dna sequencer",
+    "Viola the virology head",
+    "Elsa the epidemiologist",
+    "Fiona the facility director",
+    "Gwen the geneticist",
+    "Hazel the hazard responder"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "hood"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "col",
+      2
+    ],
+    [
+      8,
+      "next",
+      "rack"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    25,
+    32,
+    36,
+    49,
+    60,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      2
+    ],
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 32,
+  "extra": true
+}

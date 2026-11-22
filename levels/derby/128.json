@@ -1,0 +1,170 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222001112222333445555333445555333445555333446666333446666",
+  "objects": ".aec.a.....f......e.......ea..............b...ad..........a...ff....b......b.b..c",
+  "roomNames": [
+    "Members Bar",
+    "Paddock Ring",
+    "Betting Ring",
+    "Royal Box",
+    "Saddling Boxes",
+    "Jockeys Room",
+    "Vet Clinic"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the breeder",
+    "Cedric the clerk of scales",
+    "Vince the visiting royalty",
+    "Dmitri the doper",
+    "Edgar the owner envoy",
+    "Frank the form analyst",
+    "Gideon the groundskeeper",
+    "Henrik the head stableman"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "turfchair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "haystack"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "stablebench"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "turfchair"
+    ],
+    [
+      7,
+      "next",
+      "float"
+    ],
+    [
+      8,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    27,
+    40,
+    51,
+    57,
+    71,
+    79
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "float",
+      2
+    ],
+    [
+      "nextCount",
+      "haystack",
+      1
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333334444333334444333335555666665555666665555",
+  "objects": "..d...d.b....a............bd...c..c..b..cff..aa...eb..c...a.a................adf.",
+  "roomNames": [
+    "Stables",
+    "Tea Ceremony Room",
+    "Ninja Loft",
+    "Daimyo Hall",
+    "Moon Balcony",
+    "Kitchen",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Alma the artisan",
+    "Bella the bowyer",
+    "Cora the cook",
+    "Daisy the drummer",
+    "Viola the visiting monk",
+    "Elsa the embroiderer",
+    "Fiona the foot soldier",
+    "Gwen the guard",
+    "Hazel the herbalist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "armor"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "futon"
+    ],
+    [
+      5,
+      "next",
+      "tatami"
+    ],
+    [
+      6,
+      "on",
+      "tatami"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "col",
+      2
+    ],
+    [
+      8,
+      "next",
+      "taiko"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    25,
+    32,
+    36,
+    49,
+    60,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "nextCount",
+      "tatami",
+      2
+    ],
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 32,
+  "extra": true
+}

@@ -1,0 +1,73 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "..e.b....b.e....",
+  "roomNames": [
+    "Comms",
+    "Observatory",
+    "Gym"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Vivian the visitor",
+    "Bella the biologist",
+    "Clara the chemist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

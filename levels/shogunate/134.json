@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222001111222333444222333444555333444555336666555336666555336666",
+  "objects": "..f....a...c...d.b.c......e..bf..d...f..bea.af...f.....d.bdafa...fba.....ec...d..",
+  "roomNames": [
+    "Armory",
+    "Kitchen",
+    "Sentry Tower",
+    "Tea Ceremony Room",
+    "Ninja Loft",
+    "Guard Gate",
+    "Stables"
+  ],
+  "people": [
+    "Albert the archer",
+    "Bruno the bushi warrior",
+    "Carl the calligrapher",
+    "Victor the veteran general",
+    "Dexter the daimyo",
+    "Elias the envoy",
+    "Felix the falconer",
+    "Gus the geisha",
+    "Hugo the hatamoto retainer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "shoji"
+    ],
+    [
+      2,
+      "next",
+      "armor"
+    ],
+    [
+      3,
+      "on",
+      "futon"
+    ],
+    [
+      4,
+      "on",
+      "tatami"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "shoji"
+    ],
+    [
+      5,
+      "next",
+      "taiko"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "on",
+      "tatami"
+    ],
+    [
+      7,
+      "next",
+      "taiko"
+    ],
+    [
+      7,
+      "next",
+      "shoji"
+    ],
+    [
+      8,
+      "next",
+      "tatami"
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    46,
+    61,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "nextCount",
+      "futon",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 38,
+  "extra": true
+}

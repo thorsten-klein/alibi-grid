@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000002223333322233333222444455554444555544445555",
+  "objects": "b.ba..d.ba..d...a.a...d.bfea...bea........b..c.fef.....db...e...",
+  "roomNames": [
+    "Observatory",
+    "Gym",
+    "Bridge",
+    "Comms",
+    "Cargo Bay",
+    "Hydroponics"
+  ],
+  "people": [
+    "Arthur the astronaut",
+    "Birgit the botanist",
+    "Vince the visitor",
+    "Cora the captain",
+    "Dmitri the driller",
+    "Edgar the electrician",
+    "Frank the farmer",
+    "Greta the geologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "scope"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "plant"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "next",
+      "console"
+    ],
+    [
+      7,
+      "next",
+      "scope"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    19,
+    28,
+    33,
+    40,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

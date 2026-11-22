@@ -1,0 +1,98 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "...b..fc.b.e......e......",
+  "roomNames": [
+    "Shrine",
+    "Workshop",
+    "Granary",
+    "Well Shaft"
+  ],
+  "people": [
+    "Astrid the astrologer",
+    "Bruno the boat builder",
+    "Carl the carpenter",
+    "Dora the dancer",
+    "Viola the vizier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "jar"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..C.LC......LL..L......C.",
+  "extra": true
+}

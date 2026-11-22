@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333222233344443334444",
+  "objects": ".........b......cf.......aa.....adf.bd.c.d....d.b",
+  "roomNames": [
+    "Solar",
+    "Smithy",
+    "Throne Room",
+    "Courtyard",
+    "Gatehouse"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Bella the baker",
+    "Vera the vintner",
+    "Celia the chronicler",
+    "Della the doorkeeper",
+    "Edith the embroiderer",
+    "Frank the farrier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "next",
+      "candles"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    14,
+    22,
+    30,
+    40,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      32,
+      39
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "nnckkcc",
+  "hard": 7,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

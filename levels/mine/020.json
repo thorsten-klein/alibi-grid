@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222334445553344455533444555",
+  "objects": "ce.....a...acb.bdc.....b...e.......a.d......af.ba.fa..e..acc....",
+  "roomNames": [
+    "Miners Mess",
+    "Shift Boss Office",
+    "Main Drift",
+    "Smelting Oven",
+    "Dynamite Magazine",
+    "Water Sump"
+  ],
+  "people": [
+    "Victor the venture capitalist",
+    "Albert the axeman",
+    "Bruno the blaster",
+    "Carl the carpenter",
+    "Dexter the dynamite handler",
+    "Elias the hoist operator",
+    "Felix the farrier",
+    "Gus the gold panner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "keg"
+    ],
+    [
+      1,
+      "next",
+      "orecart"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "hoist"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "drill"
+    ],
+    [
+      6,
+      "on",
+      "keg"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "next",
+      "dynamite"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    29,
+    33,
+    42,
+    48,
+    62
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "keg",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 26,
+  "group": 2
+}

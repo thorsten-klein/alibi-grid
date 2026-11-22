@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333333333344443334444",
+  "objects": "...........f.ea.....c.f....b.bc.bb........b..e.f.",
+  "roomNames": [
+    "Solar",
+    "Stables",
+    "Gatehouse",
+    "Tower",
+    "Armory"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Bella the bard",
+    "Cedric the chronicler",
+    "Viola the verger",
+    "Daisy the doorkeeper",
+    "Ena the envoy",
+    "Flora the farrier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "swords"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    6,
+    7,
+    17,
+    26,
+    32,
+    37,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "facts": [
+    [
+      "onCount",
+      "cot",
+      1
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    2
+  ],
+  "rank": "kcckkcc",
+  "extra": true
+}

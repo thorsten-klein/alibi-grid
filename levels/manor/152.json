@@ -1,0 +1,167 @@
+{
+  "size": 9,
+  "rooms": "001223333001223333001223333001224444001224444551224444551226666551226666551226666",
+  "objects": ".......cbbd..fb..e.a.e..f.abe.b......ba.a.c...aa....e.b.ab.....b.......fe....b.f.",
+  "roomNames": [
+    "Dining Room",
+    "Hall",
+    "Pantry",
+    "Gallery",
+    "Library",
+    "Cellar",
+    "Chapel"
+  ],
+  "people": [
+    "Ada the author",
+    "Basil the banker",
+    "Celia the colonel",
+    "Della the dealer",
+    "Victor the valet",
+    "Ena the envoy",
+    "Frank the footman",
+    "Gus the guest",
+    "Hugo the housekeeper"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "same",
+      8
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "clock"
+    ],
+    [
+      8,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    23,
+    30,
+    44,
+    51,
+    55,
+    70,
+    76
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

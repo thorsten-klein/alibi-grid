@@ -1,0 +1,98 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "f......ebc.....c..f....e.",
+  "roomNames": [
+    "Corridor",
+    "Dining Car",
+    "Lounge Car",
+    "Baggage Car"
+  ],
+  "people": [
+    "Astrid the accordionist",
+    "Basil the banker",
+    "Celia the conductor",
+    "Dora the diplomat",
+    "Viola the violinist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "suitcase"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "wine"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "next",
+      "suitcase"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

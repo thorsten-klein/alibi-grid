@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112223334422233344222333442225555522255555",
+  "objects": "b.....fba....f...dcf.c..c..c.b.......e...f.e..a.......e.b....b.a",
+  "roomNames": [
+    "Tea Pavilion",
+    "Noodle Court",
+    "Lantern Bridge",
+    "Fortune Teller",
+    "Calligraphy Shop",
+    "Shadow Stage"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Basil the boatman",
+    "Cedric the calligrapher",
+    "Dmitri the drummer",
+    "Edgar the embroiderer",
+    "Vince the village magistrate",
+    "Frank the firework master",
+    "Gideon the gong striker"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "cushion"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "lantern"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "lantern"
+    ],
+    [
+      5,
+      "next",
+      "teacart"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "on",
+      "cushion"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    22,
+    28,
+    35,
+    42,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 17,
+  "extra": true
+}

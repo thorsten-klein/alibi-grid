@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0000011100111002233322333",
+  "objects": "..........a.....ba.ad....",
+  "roomNames": [
+    "Open Sea",
+    "Lighthouse",
+    "Cove",
+    "Dock"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Bella the boatswain",
+    "Carl the cook",
+    "Dexter the diver",
+    "Vera the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    13,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      5
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

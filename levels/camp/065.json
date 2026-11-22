@@ -1,0 +1,93 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".d....c.d.......a.fcbf...",
+  "roomNames": [
+    "Hunting Ground",
+    "Flint Pit",
+    "Painted Wall",
+    "Lookout Rock"
+  ],
+  "people": [
+    "Alma the artist",
+    "Basil the builder",
+    "Celia the carver",
+    "Viola the valley guide",
+    "Dora the drummer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    13,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "rules": [
+    "trades"
+  ],
+  "trade": "4...3",
+  "tags": "...24......3..2..........",
+  "extra": true
+}

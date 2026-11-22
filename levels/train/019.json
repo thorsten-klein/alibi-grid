@@ -1,0 +1,141 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222333444433344443334444333",
+  "objects": "..f.f..........e.cd.bbaa...b..f.a........f..b....",
+  "roomNames": [
+    "Guard's Van",
+    "Sleeper C",
+    "Lounge Car",
+    "Galley",
+    "Observation Car"
+  ],
+  "people": [
+    "Vivian the violinist",
+    "Arthur the accordionist",
+    "Bruno the banker",
+    "Celia the courier",
+    "Dexter the diplomat",
+    "Elias the engineer",
+    "Felix the fiddler"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "wine"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "door"
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    14,
+    23,
+    29,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "crate",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "lamp",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 22,
+  "group": 2
+}

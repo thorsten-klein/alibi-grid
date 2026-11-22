@@ -2,6 +2,7 @@
 
 import { test, expect } from './fixtures.js';
 import { seedStorage, caseLink, caseKey } from './helpers.js';
+import { THEMES } from '../../js/themes.js';
 
 // A rule or fact card on the case maker (its checkbox is hidden: click the card).
 const card = (page, text) => page.locator('label.rule-card', { hasText: text });
@@ -10,7 +11,7 @@ test.describe('home', () => {
   test('shows every campaign with one progress bar per group, and the case maker', async ({ page }) => {
     await page.goto('/index.html');
     await expect(page.locator('.hero h1')).toHaveText('Alibi Grid');
-    await expect(page.locator('a.campaign-card:not(.custom-card)')).toHaveCount(11);
+    await expect(page.locator('a.campaign-card:not(.custom-card)')).toHaveCount(THEMES.length);
     const manor = page.locator('a.campaign-card', { hasText: 'Blackwood Manor' });
     await expect(manor.locator('.progress-name')).toHaveText(['Beginner', 'Medium', 'Hard', 'Expert', 'Additional']);
     await expect(manor.locator('.progress').first()).toContainText('0 /');

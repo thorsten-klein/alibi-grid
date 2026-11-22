@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222222111222222111333445555333445555333445555333446666333446666",
+  "objects": "bc......cf...f.d.....ae.c.e...e...ac.ef.b.....dd.e...fb..............da.....ac..c",
+  "roomNames": [
+    "Cashier Cage",
+    "Valet Booth",
+    "Showgirl Dressing Room",
+    "Cocktail Bar",
+    "High Roller Lounge",
+    "Main Casino Floor",
+    "Penthouse Suite"
+  ],
+  "people": [
+    "Albert the armored driver",
+    "Bruno the bartender",
+    "Carl the casino manager",
+    "Dexter the dancer",
+    "Elias the electrician",
+    "Victor the vegas mogul",
+    "Felix the fixer",
+    "Gus the guard",
+    "Hugo the hostess"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "table"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "next",
+      "safe"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "table"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    27,
+    44,
+    51,
+    57,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      22
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      62,
+      71
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 28,
+  "group": 1
+}

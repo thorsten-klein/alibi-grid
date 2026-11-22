@@ -1,0 +1,131 @@
+{
+  "size": 8,
+  "rooms": "0000001100000011000000110000001122223333222233334444555544445555",
+  "objects": "................................b.....a..............d..........",
+  "roomNames": [
+    "Open Sea",
+    "Sloop",
+    "Sea Cave",
+    "Fort",
+    "Dock",
+    "Tavern"
+  ],
+  "people": [
+    "Vince the voyager",
+    "Alma the armorer",
+    "Bea the boatswain",
+    "Clara the cook",
+    "Dmitri the diver",
+    "Edgar the engineer",
+    "Fiona the fiddler",
+    "Greta the gunner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "on",
+      "hammock"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "door"
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    21,
+    26,
+    32,
+    43,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

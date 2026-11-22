@@ -1,0 +1,82 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "....a.d..c.f.e.a",
+  "roomNames": [
+    "Livery",
+    "Church",
+    "Corral"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Basil the banker",
+    "Victor the vet",
+    "Cedric the cattle driver"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "next",
+      "cactus"
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    2
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "extra": true
+}

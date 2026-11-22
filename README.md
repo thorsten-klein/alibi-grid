@@ -114,7 +114,7 @@ Then open http://localhost:8000. GitHub Pages can serve the folder as is.
 
 ## Levels
 
-There are 11 campaigns. Each has four groups: Beginner, Medium, Hard and Expert.
+There are 41 campaigns. Each has four groups: Beginner, Medium, Hard and Expert.
 Each group has one case per board size, from 4×4 up to 12×12.
 Beginner stops at 10×10. A size the generator can not make is left out, but only at the ends:
 a group has no gaps between its sizes.
@@ -135,18 +135,20 @@ Each case shows its difficulty as a badge. Its tooltip gives the exact number.
 Below the four groups, "Additional Extra Levels" holds more cases of any difficulty:
 older cases that fit no group any more, and cases made with `--extra`.
 
-A script makes the levels and writes them to `js/levels.js`.
+A script makes the levels and writes one file per case to `levels/<theme>/`.
+`js/levels.js` and `js/bundle.js` are made from these files.
 It makes the cases in parallel. A case it can not make in time is left out:
 
 ```sh
 node tools/generate.mjs           # fill missing cases (also rebuilds the bundle)
 node tools/generate.mjs --extra   # make more extra cases (20 on 4×4 down to 3 on 12×12, per campaign)
 node tools/generate.mjs --extra --sizes 5,6 --groups 0,1 --count 200   # 200 extra cases of these sizes and difficulties
-node tools/bundle.mjs             # rebuild js/bundle.js after editing js/
-node tools/check.mjs              # check all levels and that the bundle is fresh
+node tools/compile-levels.mjs      # compile individual levels/ into js/levels.js
+node tools/bundle.mjs             # rebuild js/levels.js and js/bundle.js after editing js/ or levels/
+node tools/check.mjs              # check levels/, and that js/levels.js and the bundle are fresh
 ```
 
-The generator keeps the cases in `js/levels.js` and checks each one again.
+The generator keeps the cases in `levels/` and checks each one again.
 See the top of `tools/generate.mjs` for its options (sizes, time limit, seeds).
 
 Each level has exactly one solution. The step-by-step deduction (`js/hints.js`) must solve it
@@ -187,7 +189,8 @@ tests in parallel, then one job that merges the coverage.
 | `js/themes.js` | Campaign themes: rooms, cast, objects, clue text |
 | `js/levelCodec.js` | Compact level format |
 | `js/storage.js` | Progress in `localStorage` |
-| `js/levels.js` | Generated levels |
+| `levels/` | Individual level files per campaign (`levels/<campaign>/<case>.json`) |
+| `js/levels.js` | Compiled levels bundle |
 | `js/bundle.js` | All of `js/` in one file, for `file://` |
 | `tools/` | Generator and checker (Node) |
 | `tests/` | Unit and browser tests, coverage |

@@ -1,0 +1,93 @@
+{
+  "size": 5,
+  "rooms": "0001100011222223333333333",
+  "objects": "....c.......fcf...a.d....",
+  "roomNames": [
+    "Lookout Rock",
+    "Flint Pit",
+    "Elder Hut",
+    "Hunting Ground"
+  ],
+  "people": [
+    "Ada the artist",
+    "Birgit the builder",
+    "Cedric the carver",
+    "Della the drummer",
+    "Victor the valley guide"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "bones"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "trades"
+  ],
+  "trade": "0.3.2",
+  "tags": "......................3..",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222000112222333333444555555444555555444555666666555666666",
+  "objects": "bb........f...c.dad...c....d......e.....a.b.......c..af.....a...........b....bf..",
+  "roomNames": [
+    "Police Desk",
+    "Newsstand Corner",
+    "Thames Wharf",
+    "Parlor Study",
+    "Apothecary",
+    "Opium Den",
+    "Pawn Shop"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the bowler hat seller",
+    "Vivian the vagabond",
+    "Celia the chimney sweep",
+    "Della the doctor",
+    "Ena the errand boy",
+    "Flora the fishmonger",
+    "Grace the grave robber",
+    "Hana the hawker"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "kiosk"
+    ],
+    [
+      2,
+      "next",
+      "hansom"
+    ],
+    [
+      3,
+      "next",
+      "fireplace"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    25,
+    35,
+    37,
+    51,
+    57,
+    68,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 24,
+  "group": 2
+}

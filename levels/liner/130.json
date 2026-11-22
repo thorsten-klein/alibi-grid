@@ -1,0 +1,176 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222333311222444444555444444555666644555666644555",
+  "objects": "c.e.....f.a.........de.f...cc..aff....b.a........b.b..f.a.d.f...ab.......ce...f..",
+  "roomNames": [
+    "Bridge",
+    "Grand Ballroom",
+    "Stateroom A",
+    "Turkish Bath",
+    "Galley",
+    "Telegraph Cabin",
+    "Dining Saloon"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bartender",
+    "Victor the valet",
+    "Carl the chief engineer",
+    "Dexter the doctor",
+    "Elias the envoy",
+    "Felix the fireman",
+    "Gus the governess",
+    "Hugo the heiress"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "deckchair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "next",
+      "telegraph"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "deckchair"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    25,
+    30,
+    42,
+    53,
+    59,
+    65,
+    72
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "lifeboat",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 26,
+  "extra": true
+}

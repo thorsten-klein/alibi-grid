@@ -1,0 +1,170 @@
+{
+  "size": 10,
+  "rooms": "0000000000000000000000111100000011110000222233000022223300002222330000222233444455555544445555554444",
+  "objects": ".......................b........a.......a.f..........c......d...dc....e..eb..b....dd..bc..fbb..b....",
+  "roomNames": [
+    "Open Sea",
+    "Dock",
+    "Galleon",
+    "Sea Cave",
+    "Market",
+    "Sloop"
+  ],
+  "people": [
+    "Alma the admiral",
+    "Bruno the boatswain",
+    "Celia the captain",
+    "Dora the deckhand",
+    "Edgar the engineer",
+    "Flora the first mate",
+    "Greta the gold digger",
+    "Victor the vintner",
+    "Hazel the harpooner",
+    "Ivo the island guide"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      8,
+      "next",
+      "hammock"
+    ],
+    [
+      8,
+      "next",
+      "crate"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    22,
+    35,
+    40,
+    56,
+    67,
+    78,
+    81,
+    99
+  ],
+  "doors": [
+    [
+      32,
+      42
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      72,
+      82
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      75,
+      85
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      40,
+      "l"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      97,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "anchor",
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

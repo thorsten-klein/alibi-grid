@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223331122333444433344443334444",
+  "objects": "..c..ca.c..a.....bddb.ae.a.f..d...........c....d.",
+  "roomNames": [
+    "Guard's Van",
+    "Observation Car",
+    "Bar Car",
+    "Sleeper B",
+    "Sleeper A"
+  ],
+  "people": [
+    "Ada the attendant",
+    "Bea the bookseller",
+    "Carl the courier",
+    "Daisy the dentist",
+    "Edith the engineer",
+    "Vera the vendor",
+    "Flora the fiddler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "on",
+      "seat"
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      5,
+      "next",
+      "crate"
+    ],
+    [
+      6,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    14,
+    22,
+    31,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
+  "facts": [
+    [
+      "nextCount",
+      "crate",
+      1
+    ]
+  ],
+  "extra": true
+}

@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000001100000011222200112222001133344555333445553334455533344555",
+  "objects": "...a..........a..eeaa.effd.ca.c..d.ab.fb....f..d....aa.b.c.b....",
+  "roomNames": [
+    "Morgue",
+    "Ward B",
+    "Kitchen",
+    "Ward A",
+    "Operating Theater",
+    "Records Archive"
+  ],
+  "people": [
+    "Viola the victim of illness",
+    "Alma the anesthetist",
+    "Bella the biochemist",
+    "Cora the chief surgeon",
+    "Daisy the doctor",
+    "Elsa the epidemiologist",
+    "Fiona the first responder",
+    "Gwen the groundskeeper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "wheelchair"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "cart"
+    ],
+    [
+      4,
+      "next",
+      "cart"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "on",
+      "wheelchair"
+    ],
+    [
+      7,
+      "next",
+      "bed"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    19,
+    26,
+    32,
+    46,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 28,
+  "extra": true
+}

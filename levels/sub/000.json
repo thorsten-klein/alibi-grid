@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "f...b.......a..a",
+  "roomNames": [
+    "Specimen Bay",
+    "Torpedo Tube",
+    "Galley"
+  ],
+  "people": [
+    "Alma the aquanaut",
+    "Bella the bathymetry tech",
+    "Cora the captain",
+    "Viola the vessel designer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "freezer"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 10,
+  "group": 0
+}

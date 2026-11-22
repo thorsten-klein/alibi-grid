@@ -1,0 +1,177 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333334444333334444333335555666665555666665555",
+  "objects": "..d...d.b....a............bd...c..c..b..cff..aa...eb..c...a.a................adf.",
+  "roomNames": [
+    "Gallery",
+    "Library",
+    "Billiard Room",
+    "Hall",
+    "Chapel",
+    "Ballroom",
+    "Conservatory"
+  ],
+  "people": [
+    "Ada the architect",
+    "Birgit the banker",
+    "Cedric the cook",
+    "Della the dealer",
+    "Vera the valet",
+    "Elsa the envoy",
+    "Flora the florist",
+    "Gideon the gardener",
+    "Hilda the housekeeper"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "col",
+      2
+    ],
+    [
+      8,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    25,
+    32,
+    36,
+    49,
+    60,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ],
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 32,
+  "extra": true
+}

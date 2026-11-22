@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "....c.f.....b...c...f.d..",
+  "roomNames": [
+    "Archery Range",
+    "Shower Block",
+    "Campfire Clearing",
+    "Bunkhouse Alpha"
+  ],
+  "people": [
+    "Astrid the arts counselor",
+    "Birgit the bugler",
+    "Celia the cook",
+    "Vivian the visitor",
+    "Della the director"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "board"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

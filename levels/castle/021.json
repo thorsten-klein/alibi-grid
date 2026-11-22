@@ -1,0 +1,164 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333344444333344444555544444555566666555566666",
+  "objects": "...a............f.aef.b.....b..a.b....e....b..........bdc.fa..f.....d..a.........",
+  "roomNames": [
+    "Armory",
+    "Tower",
+    "Solar",
+    "Chapel",
+    "Great Hall",
+    "Smithy",
+    "Kitchen"
+  ],
+  "people": [
+    "Alma the archer",
+    "Vince the verger",
+    "Bella the baker",
+    "Celia the cupbearer",
+    "Daisy the doorkeeper",
+    "Edith the envoy",
+    "Flora the falconer",
+    "Grace the groom",
+    "Henrik the herald"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "swords"
+    ],
+    [
+      5,
+      "next",
+      "urn"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    15,
+    18,
+    34,
+    37,
+    53,
+    59,
+    65,
+    75
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    5
+  ],
+  "rank": "kcnckkckk",
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "group": 2
+}

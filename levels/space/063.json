@@ -1,0 +1,93 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".........b.b.a.f.c..bdcdb",
+  "roomNames": [
+    "Airlock",
+    "Cargo Bay",
+    "Observatory",
+    "Mess Hall"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Bea the biologist",
+    "Vera the visitor",
+    "Clara the chemist",
+    "Dexter the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    12,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

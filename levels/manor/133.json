@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233334444333344443333555533335555",
+  "objects": "......a.a..f.c.........f..f.c...........a....b.d...c.....d......",
+  "roomNames": [
+    "Conservatory",
+    "Gallery",
+    "Kitchen",
+    "Dining Room",
+    "Ballroom",
+    "Pantry"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bella the butler",
+    "Carl the colonel",
+    "Dexter the dealer",
+    "Ena the envoy",
+    "Freya the florist",
+    "Gideon the guest",
+    "Vivian the valet"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "shelf"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "sofa"
+    ],
+    [
+      6,
+      "notRoom",
+      2
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    16,
+    27,
+    33,
+    45,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      46,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 25,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "extra": true
+}

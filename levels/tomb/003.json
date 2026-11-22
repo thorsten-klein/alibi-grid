@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022223332222333444433344443334444",
+  "objects": "..........b..a.a..e.......a.........e....ffdda.c.",
+  "roomNames": [
+    "Shrine",
+    "Hall of Pillars",
+    "Statue Hall",
+    "Well Shaft",
+    "Antechamber"
+  ],
+  "people": [
+    "Ada the architect",
+    "Vince the vizier",
+    "Bruno the boat builder",
+    "Celia the carpenter",
+    "Dora the diviner",
+    "Elsa the embalmer",
+    "Freya the fisher"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "on",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "next",
+      "jar"
+    ],
+    [
+      6,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    19,
+    23,
+    29,
+    35,
+    46
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".................L.L...C....CC.....C.............",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "group": 0
+}

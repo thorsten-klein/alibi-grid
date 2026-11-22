@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....ff.......f..",
+  "roomNames": [
+    "Grain Silo",
+    "Fruit Orchard",
+    "Farmstand"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Bruno the barn hand",
+    "Victor the veterinarian",
+    "Carl the cider presser"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "anvil"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

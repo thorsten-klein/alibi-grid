@@ -1,0 +1,199 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333444444556644444455664444445566777777556677777755667777775566",
+  "objects": "......d...c.a...a.b.b....bbabbef.....bf.e.a.........ac.f......c.b.f.......bb......a.fc....ae........",
+  "roomNames": [
+    "Green Room",
+    "Prop Armory",
+    "Sound Booth",
+    "Writers Room",
+    "Wardrobe Vault",
+    "Soundstage A",
+    "Studio Commissary",
+    "Editing Suite"
+  ],
+  "people": [
+    "Ada the assistant director",
+    "Bea the body double",
+    "Clara the choreographer",
+    "Dora the diva",
+    "Edith the extra",
+    "Freya the fashion designer",
+    "Greta the gaffer",
+    "Hilda the headliner",
+    "Ivy the intimacy coordinator",
+    "Vera the veteran producer"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "on",
+      "couch"
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ],
+    [
+      6,
+      "next",
+      "light"
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    25,
+    34,
+    49,
+    56,
+    67,
+    70,
+    81,
+    98
+  ],
+  "doors": [
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      92,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "trunk",
+      1
+    ],
+    [
+      "roomCount",
+      7,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

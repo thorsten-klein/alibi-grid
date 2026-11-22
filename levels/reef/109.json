@@ -1,0 +1,116 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112203333220333322000002200000",
+  "objects": ".............b........f........d.a........f......",
+  "roomNames": [
+    "Open Sea",
+    "Market",
+    "Longboat",
+    "Dock"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Vera the voyager",
+    "Bella the boatswain",
+    "Cora the captain",
+    "Daisy the diver",
+    "Elsa the explorer",
+    "Fiona the fiddler"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    18,
+    23,
+    28,
+    41,
+    43
+  ],
+  "doors": [
+    [
+      20,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "extra": true
+}

@@ -1,0 +1,84 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": ".a.f...........a",
+  "roomNames": [
+    "Burial Chamber",
+    "Great Hall",
+    "Fire Pit"
+  ],
+  "people": [
+    "Ada the astronomer",
+    "Bruno the bard",
+    "Carl the chronicler",
+    "Vera the voyager"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks",
+    "glyphs"
+  ],
+  "court": [
+    2
+  ],
+  "rank": "ccnk",
+  "tags": "C...............",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "b.f.....bade...........d.",
+  "roomNames": [
+    "Escalator Hub",
+    "Food Court",
+    "Toy Emporium",
+    "Cinema Lobby"
+  ],
+  "people": [
+    "Albert the arcade manager",
+    "Bruno the barista",
+    "Carl the cinema projectionist",
+    "Dexter the department manager",
+    "Victor the veteran mall owner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "photobench"
+    ],
+    [
+      1,
+      "next",
+      "photobench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "gate"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    14,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

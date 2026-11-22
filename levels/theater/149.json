@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000000000111111111111111111222222333222222333445555333445555666445555666445555666",
+  "objects": ".a.......f..b.....b.....e...af.....ac...f...e.b...a.fab..b....bd..f.b.....ef.c...",
+  "roomNames": [
+    "Stage",
+    "Green Room",
+    "Balcony",
+    "Costume Room",
+    "Wings",
+    "Lighting Booth",
+    "Box Office"
+  ],
+  "people": [
+    "Astrid the author",
+    "Basil the baritone",
+    "Cedric the choreographer",
+    "Daisy the dancer",
+    "Elsa the extra",
+    "Felix the flautist",
+    "Victor the ventriloquist",
+    "Gwen the ghost writer",
+    "Hazel the harpist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "next",
+      "light"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    26,
+    32,
+    42,
+    45,
+    56,
+    67,
+    79
+  ],
+  "doors": [
+    [
+      4,
+      13
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 23,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "extra": true
+}

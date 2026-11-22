@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".......bb.d...b.....fa.a...b...d.f.....ea....a...",
+  "roomNames": [
+    "Timber Storage",
+    "Shift Boss Office",
+    "Miners Mess",
+    "Tool Crib",
+    "Smelting Oven"
+  ],
+  "people": [
+    "Albert the axeman",
+    "Bruno the blaster",
+    "Victor the venture capitalist",
+    "Carl the carpenter",
+    "Dexter the dynamite handler",
+    "Elias the hoist operator",
+    "Felix the farrier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ],
+    [
+      3,
+      "next",
+      "keg"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "dynamite"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    16,
+    24,
+    32,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 21,
+  "group": 1
+}

@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344455333444553334445533344455",
+  "objects": ".a.e......c....cc.d....ba....b.b...c...ee...c.b....d..ab.......e",
+  "roomNames": [
+    "Ticket Booth",
+    "Fortune Tent",
+    "Carousel",
+    "Trapeze Rig",
+    "Menagerie Tent",
+    "Ringmaster Wagon"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Viola the ventriloquist",
+    "Bella the barker",
+    "Cora the clown",
+    "Daisy the daredevil",
+    "Elsa the escape artist",
+    "Fiona the fire eater",
+    "Gwen the giant"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    31,
+    37,
+    41,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 27,
+  "group": 3
+}

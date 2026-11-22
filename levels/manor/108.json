@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011112221111222333224433322443332244",
+  "objects": ".....c.b...e..ba.....d.fc.b..aa.a.cb.e..b.....b..",
+  "roomNames": [
+    "Pantry",
+    "Kitchen",
+    "Library",
+    "Cellar",
+    "Gallery"
+  ],
+  "people": [
+    "Viola the valet",
+    "Ada the author",
+    "Bea the butler",
+    "Celia the cook",
+    "Della the doctor",
+    "Elsa the editor",
+    "Felix the florist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "shelf"
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "on",
+      "sofa"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    15,
+    26,
+    32,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      8,
+      15
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      27,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "extra": true
+}

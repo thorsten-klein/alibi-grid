@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0000112200001122000011223333314433333144333331445555514455555144",
+  "objects": "f..a.c....d.ebed......ab..a.a.bb.c...cbb.a..a..c..d.....bb..e.e.",
+  "roomNames": [
+    "Comms",
+    "Gym",
+    "Lab",
+    "Cargo Bay",
+    "Airlock",
+    "Engine Room"
+  ],
+  "people": [
+    "Alma the astronaut",
+    "Bella the biologist",
+    "Carl the chemist",
+    "Dexter the doctor",
+    "Edgar the electrician",
+    "Fiona the flight officer",
+    "Gideon the gunner",
+    "Viola the visitor"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "console"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "scope"
+    ],
+    [
+      7,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    16,
+    30,
+    36,
+    42,
+    49,
+    59
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      42,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 25,
+  "group": 3
+}

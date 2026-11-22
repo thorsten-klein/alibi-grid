@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000111110002222233322222333445553334455533344555",
+  "objects": "...abe.d..a..c...b...a.....b.b......e.d.a......a.........b.df..c",
+  "roomNames": [
+    "Gym",
+    "Crew Quarters",
+    "Observatory",
+    "Bridge",
+    "Lab",
+    "Engine Room"
+  ],
+  "people": [
+    "Vince the volunteer",
+    "Alma the analyst",
+    "Bruno the biologist",
+    "Celia the chemist",
+    "Daisy the driller",
+    "Elsa the engineer",
+    "Frank the flight officer",
+    "Gwen the gunner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      7,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    22,
+    24,
+    39,
+    45,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

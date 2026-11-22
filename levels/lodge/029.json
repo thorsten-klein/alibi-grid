@@ -1,0 +1,170 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111222221111222223333222223333444444444555666666555666666",
+  "objects": "..efd..af.f.........b.....c....b....b..a.....a.a.c..b...a..c.d..d...a.e.ef..d..e.",
+  "roomNames": [
+    "Sauna",
+    "Kitchen",
+    "Fireside Lounge",
+    "Games Room",
+    "Dining Hall",
+    "Ski Room",
+    "Spa"
+  ],
+  "people": [
+    "Albert the athlete",
+    "Viola the vet",
+    "Basil the bartender",
+    "Celia the cook",
+    "Dmitri the doctor",
+    "Ena the engineer",
+    "Flora the fisher",
+    "Grace the glacier expert",
+    "Hazel the hiker"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "wood"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    19,
+    31,
+    43,
+    53,
+    57,
+    65,
+    77
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 27,
+  "group": 3
+}

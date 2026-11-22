@@ -1,0 +1,163 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111222223333222223333445556666445556666445556666445556666",
+  "objects": "b.b.bb...b.....d....d.bf....bc...ca.d....b....a...............a.d...f..f.b.....f.",
+  "roomNames": [
+    "Lighting Booth",
+    "Prop Store",
+    "Costume Room",
+    "Stage",
+    "Green Room",
+    "Balcony",
+    "Wings"
+  ],
+  "people": [
+    "Arthur the agent",
+    "Birgit the bass player",
+    "Victor the ventriloquist",
+    "Cedric the critic",
+    "Della the director",
+    "Elias the extra",
+    "Felix the flautist",
+    "Gus the guitarist",
+    "Henrik the hairdresser"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "light"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ],
+    [
+      8,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    22,
+    35,
+    39,
+    51,
+    54,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 24,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "extra": true
+}

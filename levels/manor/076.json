@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "a..b...ceb.f..f...beb.fa.",
+  "roomNames": [
+    "Billiard Room",
+    "Ballroom",
+    "Dining Room",
+    "Pantry"
+  ],
+  "people": [
+    "Ada the architect",
+    "Vince the valet",
+    "Bruno the banker",
+    "Carl the cook",
+    "Dmitri the dealer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "facts": [
+    [
+      "nextCount",
+      "clock",
+      1
+    ]
+  ],
+  "extra": true
+}

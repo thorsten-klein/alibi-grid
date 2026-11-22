@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112223333111222333311122244445566664444556666444455666644445577774444557777",
+  "objects": "ab......b..ed.c..a..c....b..bf.d..b.......f.c...caacd.aa.fe..b......b.d.ae..c....f...a...b.e.e...c..",
+  "roomNames": [
+    "Herb Garden",
+    "Infirmary",
+    "Refectory",
+    "Chapter House",
+    "Crypt",
+    "Dormitory",
+    "Bell Tower",
+    "Cloister Walk"
+  ],
+  "people": [
+    "Astrid the abbot",
+    "Birgit the bellringer",
+    "Celia the cellarer",
+    "Della the doorkeeper",
+    "Ena the exorcist",
+    "Flora the forester",
+    "Grace the gardener",
+    "Hana the herbalist",
+    "Isla the illuminator",
+    "Vivian the visiting cardinal"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "stall"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "stall"
+    ],
+    [
+      2,
+      "next",
+      "palliasse"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "stall"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      7,
+      "next",
+      "palliasse"
+    ],
+    [
+      7,
+      "next",
+      "bellrope"
+    ],
+    [
+      8,
+      "next",
+      "palliasse"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "reliquary"
+    ]
+  ],
+  "solution": [
+    0,
+    19,
+    27,
+    33,
+    46,
+    55,
+    64,
+    71,
+    88,
+    92
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      78,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      19,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "onCount",
+      "palliasse",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

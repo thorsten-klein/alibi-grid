@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": ".....e...dcdc...dc..caac............f..aa........",
+  "roomNames": [
+    "Restoration Lab",
+    "Sculpture Court",
+    "Curator Study",
+    "Vault",
+    "Egyptian Wing"
+  ],
+  "people": [
+    "Astrid the archaeologist",
+    "Vivian the valuer",
+    "Birgit the benefactor",
+    "Celia the curator",
+    "Della the director",
+    "Ena the egyptologist",
+    "Flora the forger"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "display"
+    ],
+    [
+      1,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    14,
+    24,
+    29,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "turnstile",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

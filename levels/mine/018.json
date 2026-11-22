@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122331122334422334422",
+  "objects": ".f.......ad......fb...fb..e..d..a.f.",
+  "roomNames": [
+    "Water Sump",
+    "Miners Mess",
+    "Deep Winze",
+    "Main Drift",
+    "Smelting Oven"
+  ],
+  "people": [
+    "Vivian the venture capitalist",
+    "Astrid the axeman",
+    "Birgit the blaster",
+    "Celia the carpenter",
+    "Della the dynamite handler",
+    "Ena the hoist operator"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "dynamite"
+    ],
+    [
+      5,
+      "next",
+      "hoist"
+    ],
+    [
+      5,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    18,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 19,
+  "group": 2
+}

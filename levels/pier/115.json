@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001133344555333445553334455533344555333",
+  "objects": "...........a.b.f.bb...d...e...c..........a....a...f...de....a...",
+  "roomNames": [
+    "Fortune Booth",
+    "Hall of Mirrors",
+    "Cotton Candy Stand",
+    "Coaster Shed",
+    "Boardwalk Plankway",
+    "Ghost Train"
+  ],
+  "people": [
+    "Arthur the antiquarian",
+    "Basil the barker",
+    "Vince the venture developer",
+    "Cedric the cotton candy vendor",
+    "Dmitri the daredevil",
+    "Edgar the urban explorer",
+    "Frank the fisherman",
+    "Gideon the groundskeeper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "claw"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "generator"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    20,
+    27,
+    39,
+    46,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "cart",
+      1
+    ],
+    [
+      "nextCount",
+      "horse",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

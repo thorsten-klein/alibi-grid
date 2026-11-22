@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011122221112222333344433334443333444",
+  "objects": "..d...d...d.e.......aaf.............cb...f.b..a..",
+  "roomNames": [
+    "Cave",
+    "Bone Yard",
+    "Flint Pit",
+    "Hunting Ground",
+    "Spring"
+  ],
+  "people": [
+    "Alma the artist",
+    "Bruno the builder",
+    "Cora the carrier",
+    "Dexter the dancer",
+    "Edgar the elk tamer",
+    "Vince the valley guide",
+    "Flora the flute player"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "bones"
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "room",
+      4
+    ],
+    [
+      6,
+      "next",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    15,
+    26,
+    34,
+    38,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      16
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".13..4.",
+  "tags": ".........1..................1.........4..........",
+  "extra": true
+}

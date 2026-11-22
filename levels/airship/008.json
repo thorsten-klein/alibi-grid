@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "..a.....a.a...a......c...",
+  "roomNames": [
+    "Port Engine Gondola",
+    "Rigging Loft",
+    "Starboard Gondola",
+    "Dining Saloon"
+  ],
+  "people": [
+    "Astrid the aeronaut",
+    "Birgit the barman",
+    "Celia the captain",
+    "Della the dirigible pilot",
+    "Vivian the vessel inventor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "armchair",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "group": 1
+}

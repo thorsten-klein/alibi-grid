@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222211122222111333445553334455533344555",
+  "objects": "c.......db......c...c..f...b.....bf.....c.........e.............",
+  "roomNames": [
+    "Engine Room",
+    "Hydroponics",
+    "Gym",
+    "Comms",
+    "Mess Hall",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Ada the astronaut",
+    "Bea the botanist",
+    "Vince the volunteer",
+    "Carl the captain",
+    "Dmitri the doctor",
+    "Edgar the electrician",
+    "Freya the farmer",
+    "Gideon the gunner"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      0,
+      "next",
+      "console"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    22,
+    24,
+    37,
+    43,
+    52,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "console",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 21,
+  "group": 2
+}

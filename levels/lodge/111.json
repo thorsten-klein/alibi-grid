@@ -1,0 +1,136 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122220112222011222233344443334444333",
+  "objects": ".a.........ebe...f.a......b..a.ec.c...ffe.e.e..b.",
+  "roomNames": [
+    "Dining Hall",
+    "Lobby",
+    "Games Room",
+    "Suite",
+    "Ski Room"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Vince the vlogger",
+    "Bruno the baker",
+    "Carl the cook",
+    "Dexter the doctor",
+    "Edith the engineer",
+    "Frank the forester"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "next",
+      "wood"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      0
+    ],
+    [
+      "nextCount",
+      "skis",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

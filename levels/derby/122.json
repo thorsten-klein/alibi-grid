@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222333332223333322233333444455554444555544445555",
+  "objects": "..fc..de.........a..bdfb.e..ab.........fc.bfa..b....e..af.......",
+  "roomNames": [
+    "Stewards Room",
+    "Winner Enclosure",
+    "Members Bar",
+    "Grandstand Terrace",
+    "Betting Ring",
+    "Royal Box"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the breeder",
+    "Cora the clerk of scales",
+    "Viola the visiting royalty",
+    "Daisy the doper",
+    "Elsa the owner envoy",
+    "Fiona the form analyst",
+    "Gwen the groundskeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "board"
+    ],
+    [
+      2,
+      "next",
+      "trophy"
+    ],
+    [
+      3,
+      "next",
+      "stablebench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "next",
+      "haystack"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    20,
+    30,
+    34,
+    41,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 31,
+  "extra": true
+}

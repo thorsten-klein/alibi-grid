@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222332222334444334444",
+  "objects": "df...bff......a.................e.a.",
+  "roomNames": [
+    "Kitchen",
+    "Study",
+    "Library",
+    "Ballroom",
+    "Dining Room"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Vince the valet",
+    "Bea the banker",
+    "Carl the colonel",
+    "Dmitri the dealer",
+    "Elias the envoy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    16,
+    18,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 15,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      0
+    ],
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "extra": true
+}

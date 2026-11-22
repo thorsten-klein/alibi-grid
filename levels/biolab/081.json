@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "....e....e.a.c.ab..f..d.a..c.......d",
+  "roomNames": [
+    "Cryo Storage",
+    "Server Farm",
+    "Control Center",
+    "Centrifuge Bay",
+    "Generator Core"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Vince the virology head",
+    "Basil the biochemist",
+    "Cedric the chief scientist",
+    "Dmitri the dna sequencer",
+    "Edgar the epidemiologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      0,
+      "next",
+      "centrifuge"
+    ],
+    [
+      2,
+      "next",
+      "centrifuge"
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    18,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "hood",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

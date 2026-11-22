@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0000011122111223333333333",
+  "objects": "...ad...a.c...cb....a.aa.",
+  "roomNames": [
+    "Armory",
+    "Tower",
+    "Stables",
+    "Great Hall"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Bea the bard",
+    "Carl the cupbearer",
+    "Vera the vintner",
+    "Dexter the doorkeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    13,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      6
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    2
+  ],
+  "rank": "ckkcc",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 14,
+  "group": 1
+}

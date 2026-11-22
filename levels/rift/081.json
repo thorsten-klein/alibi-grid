@@ -1,0 +1,129 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122001122333344333344",
+  "objects": ".....b.........b...b.....b...bf..bad",
+  "roomNames": [
+    "Saloon",
+    "Fort",
+    "Burial Chamber",
+    "Cave",
+    "Jail"
+  ],
+  "people": [
+    "Astrid the archivist",
+    "Basil the bard",
+    "Vivian the visionary",
+    "Cedric the clockmaker",
+    "Daisy the drifter",
+    "Ena the engineer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "room",
+      1
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ],
+    [
+      5,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    13,
+    22,
+    29,
+    32
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "...LL.C.....C.........LC............",
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "extra": true
+}

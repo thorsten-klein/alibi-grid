@@ -1,0 +1,123 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223331122333444433344443334444",
+  "objects": "...b...a.....c..f..a..c.a.....cb..bee..d...d.....",
+  "roomNames": [
+    "Water Reclamation",
+    "Medical Bay",
+    "Oxygen Scrubber",
+    "Comms Array",
+    "Geology Lab"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Vera the visiting inspector",
+    "Bea the biosphere tech",
+    "Clara the chemist",
+    "Dora the doctor",
+    "Edith the electrician",
+    "Freya the farmer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "drill"
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "rover"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    19,
+    21,
+    29,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

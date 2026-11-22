@@ -1,0 +1,137 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333333333333334444444",
+  "objects": ".....a..d..f...ab..d..a...ba..ca.d.ab....a.ca....",
+  "roomNames": [
+    "Observation Car",
+    "Mail Car",
+    "Corridor",
+    "Sleeper B",
+    "Galley"
+  ],
+  "people": [
+    "Alma the accordionist",
+    "Bruno the bookseller",
+    "Cedric the courier",
+    "Viola the violinist",
+    "Dexter the dentist",
+    "Elias the engineer",
+    "Freya the firefighter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "room",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    20,
+    21,
+    29,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      40,
+      47
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "seat",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "group": 0
+}

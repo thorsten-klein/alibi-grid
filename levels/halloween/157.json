@@ -1,0 +1,232 @@
+{
+  "size": 12,
+  "rooms": "000001111222000001111222000001111222333331111222333334444444333334444444333334444444555556666777555556666777888886666777888886666777888886666777",
+  "objects": ".a...f...eb.cd....e..d.f.....a..bcc..c...bf..........d..d.........b.......af.ad....bc....e.f..d.f...f.........ac..dd..d....d........abe..bacab.b",
+  "roomNames": [
+    "Pumpkin Patch",
+    "Occult Library",
+    "Witch Parlor",
+    "Costume Ballroom",
+    "Crypt",
+    "Front Porch",
+    "Cellar Maze",
+    "Cemetery Gate",
+    "Apple Bobbing Hall"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Basil the baker",
+    "Cedric the candy maker",
+    "Dmitri the decorator",
+    "Edgar the entertainer",
+    "Frank the florist",
+    "Gideon the gravedigger",
+    "Henrik the herbalist",
+    "Ivo the investigator",
+    "Vince the visiting storyteller",
+    "Jonas the jack-o-lantern carver",
+    "Konrad the key keeper"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "next",
+      "pumpkin"
+    ],
+    [
+      1,
+      "next",
+      "swing"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "on",
+      "coffin"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "web"
+    ],
+    [
+      4,
+      "next",
+      "pumpkin"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "cauldron"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "next",
+      "swing"
+    ],
+    [
+      10,
+      "col",
+      11
+    ],
+    [
+      11,
+      "next",
+      "tombstone"
+    ],
+    [
+      11,
+      "next",
+      "cauldron"
+    ]
+  ],
+  "solution": [
+    0,
+    20,
+    29,
+    43,
+    49,
+    64,
+    82,
+    90,
+    98,
+    117,
+    131,
+    135
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      27,
+      39
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      72,
+      84
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      97,
+      109
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      124,
+      125
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ],
+    [
+      133,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "coffin",
+      1
+    ],
+    [
+      "roomCount",
+      8,
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 9,
+  "steps": 36,
+  "extra": true
+}

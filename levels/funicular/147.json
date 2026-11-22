@@ -1,0 +1,214 @@
+{
+  "size": 11,
+  "rooms": "0011111222200111112222001111122220033311222200333444444003334444440033344444455566666777555666667775556666677755566666777",
+  "objects": "b..f.....c.......c...e.a....c..d..a....e.............f...........b..e.a......ab.ca......b....b.af......a........bd.dbb.b.",
+  "roomNames": [
+    "Sheave Tower",
+    "Souvenir Kiosk",
+    "Glacier Overlook",
+    "Staff Bunkhouse",
+    "Funicular Car B",
+    "Upper Engine Room",
+    "Transformer Vault",
+    "Funicular Car A"
+  ],
+  "people": [
+    "Albert the avalanche controller",
+    "Bruno the brake operator",
+    "Carl the conductor",
+    "Dexter the dispatcher",
+    "Elias the electrical engineer",
+    "Felix the funicular driver",
+    "Gus the glaciologist",
+    "Victor the veteran mountaineer",
+    "Hugo the hotelier",
+    "Igor the inspector",
+    "Jasper the journalist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "luggage"
+    ],
+    [
+      1,
+      "next",
+      "winch"
+    ],
+    [
+      1,
+      "next",
+      "skirack"
+    ],
+    [
+      2,
+      "next",
+      "winch"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "col",
+      7
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      8
+    ],
+    [
+      8,
+      "on",
+      "stool"
+    ],
+    [
+      9,
+      "next",
+      "skirack"
+    ],
+    [
+      10,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    4,
+    20,
+    27,
+    35,
+    45,
+    62,
+    74,
+    83,
+    88,
+    102,
+    120
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      68,
+      79
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      75,
+      86
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      106,
+      107
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      114,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 31,
+  "extra": true
+}

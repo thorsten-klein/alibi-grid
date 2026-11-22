@@ -1,0 +1,87 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "b..bb.aa........",
+  "roomNames": [
+    "Smithy",
+    "Dungeon",
+    "Solar"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Viola the vintner",
+    "Bruno the bard",
+    "Cora the chronicler"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "cot",
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "nkck",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 13,
+  "group": 2
+}

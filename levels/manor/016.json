@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": ".....a..cea.e...",
+  "roomNames": [
+    "Chapel",
+    "Conservatory",
+    "Ballroom"
+  ],
+  "people": [
+    "Arthur the author",
+    "Birgit the banker",
+    "Carl the colonel",
+    "Victor the valet"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    4,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "alone",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "group": 2
+}

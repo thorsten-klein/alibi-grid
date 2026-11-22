@@ -1,0 +1,91 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "..da.a.d..f......b..aa..d",
+  "roomNames": [
+    "Suite",
+    "Bar",
+    "Kitchen",
+    "Sauna"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Bella the baker",
+    "Victor the vlogger",
+    "Celia the cook",
+    "Della the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    12,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

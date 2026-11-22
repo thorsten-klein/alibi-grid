@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0011222200112222001122220011222233334444333344445555444455554444",
+  "objects": "...........eb..e...c.bc.....e...d.d....eb....bfd.............f..",
+  "roomNames": [
+    "Smoking Lounge",
+    "Stateroom Alpha",
+    "Cockpit Bridge",
+    "Cargo Hold",
+    "Promenade Deck",
+    "Port Engine Gondola"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the boatswain",
+    "Cedric the chief rigger",
+    "Dmitri the doctor",
+    "Edgar the envoy",
+    "Frank the flight steward",
+    "Vince the vip diplomat",
+    "Gideon the ground crew chief"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "next",
+      "ballast"
+    ],
+    [
+      3,
+      "next",
+      "ballast"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    23,
+    27,
+    38,
+    40,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "berth",
+      1
+    ],
+    [
+      "roomCount",
+      5,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

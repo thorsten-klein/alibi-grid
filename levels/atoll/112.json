@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344555333445553334455533344555",
+  "objects": "babb.b.f..e...b........b..ff...d.....c........a........e.......e",
+  "roomNames": [
+    "Coral Lagoon",
+    "Tiki Bar",
+    "Overwater Bungalow",
+    "Infinity Pool",
+    "Spa Pavilion",
+    "Staff Quarters"
+  ],
+  "people": [
+    "Vera the vacationer",
+    "Ada the activities director",
+    "Bea the bartender",
+    "Clara the concierge",
+    "Dora the divemaster",
+    "Edith the excursion guide",
+    "Freya the fitness coach",
+    "Greta the guest of honor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "hammock"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "same",
+      7
+    ],
+    [
+      5,
+      "next",
+      "towel"
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    22,
+    25,
+    32,
+    47,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "cart",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

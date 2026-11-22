@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001113333001113333444455555444455555444466666444466666444466666",
+  "objects": "....f...d.e.f.fc.ac.a..b.ad.f.da.bf...cdd.f....f.a..e....bbc.a..e.d..c...d......a",
+  "roomNames": [
+    "Armory",
+    "Tea Ceremony Room",
+    "Stables",
+    "Kitchen",
+    "Sentry Tower",
+    "Falconry Yard",
+    "Shrine"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bushi warrior",
+    "Cora the calligrapher",
+    "Viola the veteran general",
+    "Daisy the daimyo",
+    "Elsa the envoy",
+    "Fiona the falconer",
+    "Gwen the geisha",
+    "Hazel the hatamoto retainer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bonsai"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "tatami"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "tatami"
+    ],
+    [
+      6,
+      "next",
+      "bonsai"
+    ],
+    [
+      7,
+      "next",
+      "bonsai"
+    ],
+    [
+      7,
+      "next",
+      "shoji"
+    ],
+    [
+      8,
+      "next",
+      "armor"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    25,
+    32,
+    44,
+    49,
+    55,
+    65,
+    78
+  ],
+  "doors": [
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "tatami",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

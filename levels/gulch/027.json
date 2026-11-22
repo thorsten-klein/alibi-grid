@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344555333445553334455533344555",
+  "objects": "cc...c....ba........f..fbf.cbf..........f.c..abb...ec.a.ad.f.bd.",
+  "roomNames": [
+    "Telegraph Office",
+    "Jail",
+    "Bank",
+    "Saloon",
+    "Church",
+    "Mine"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Bruno the blacksmith",
+    "Clara the cook",
+    "Daisy the deputy",
+    "Edith the editor",
+    "Viola the vet",
+    "Flora the farmer",
+    "Grace the gambler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "bed"
+    ],
+    [
+      3,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "bandit"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      6,
+      "next",
+      "cactus"
+    ],
+    [
+      7,
+      "next",
+      "cactus"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    18,
+    30,
+    36,
+    43,
+    49,
+    61
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "tries": 6,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
+  "group": 3
+}

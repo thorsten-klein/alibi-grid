@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000111112222222233333333444455554444555544445555",
+  "objects": "...fcf....c.fb...b.a...a..bbd....f.c.e.de.e.....a.e..c.af.......",
+  "roomNames": [
+    "Ninja Loft",
+    "Shrine",
+    "Sentry Tower",
+    "Kitchen",
+    "Tea Ceremony Room",
+    "Stables"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bushi warrior",
+    "Cora the calligrapher",
+    "Daisy the daimyo",
+    "Elsa the envoy",
+    "Fiona the falconer",
+    "Gwen the geisha",
+    "Viola the veteran general"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "taiko"
+    ],
+    [
+      1,
+      "next",
+      "tatami"
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "taiko"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bonsai"
+    ],
+    [
+      5,
+      "col",
+      1
+    ],
+    [
+      6,
+      "next",
+      "armor"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    21,
+    26,
+    32,
+    41,
+    52,
+    59
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      3
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

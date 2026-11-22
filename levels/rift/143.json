@@ -1,0 +1,160 @@
+{
+  "size": 9,
+  "rooms": "001111111001111111001111111001221111001221111333224444333224444333555555333555555",
+  "objects": ".........ab.................f.a.........b.........bfef.....b.b.e....bb......f.bf.",
+  "roomNames": [
+    "Fire Pit",
+    "Sea of Ages",
+    "Fort",
+    "Burial Chamber",
+    "Throne Room",
+    "Captain Cabin"
+  ],
+  "people": [
+    "Astrid the archivist",
+    "Basil the bookbinder",
+    "Cora the chronicler",
+    "Dora the dreamer",
+    "Ena the explorer",
+    "Freya the fortune teller",
+    "Gus the gladiator",
+    "Viola the voyager",
+    "Hazel the historian"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "on",
+      "log"
+    ]
+  ],
+  "solution": [
+    8,
+    14,
+    25,
+    29,
+    36,
+    46,
+    58,
+    66,
+    78
+  ],
+  "doors": [
+    [
+      36,
+      45
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      18,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "L..........................L..................L.......C...............C..........",
+  "sea": 1,
+  "hard": 7,
+  "hardest": 6,
+  "steps": 28,
+  "extra": true
+}

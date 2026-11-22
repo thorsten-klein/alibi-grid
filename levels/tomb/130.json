@@ -1,0 +1,152 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333222233334444555544445555",
+  "objects": ".deae....e.....bbb.a..........f.b..........fc.a.b....c..a..b.fd.",
+  "roomNames": [
+    "Boat Pit",
+    "Sun Court",
+    "Burial Chamber",
+    "Treasury",
+    "Scribe Room",
+    "Antechamber"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Victor the vintner",
+    "Birgit the brewer",
+    "Carl the chanter",
+    "Dmitri the diviner",
+    "Edith the envoy",
+    "Felix the fisher",
+    "Gus the goldsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "rubble"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "jar"
+    ],
+    [
+      4,
+      "next",
+      "couch"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "col",
+      0
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      7,
+      "next",
+      "jar"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    22,
+    29,
+    33,
+    40,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "rubble",
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "........C.C.........L......C.L..................................",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

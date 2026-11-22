@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111222332223322233",
+  "objects": ".a...b.......bf.d........",
+  "roomNames": [
+    "Translation Chamber",
+    "Courtyard Fountain",
+    "Geometry Hall",
+    "Map Archive"
+  ],
+  "people": [
+    "Astrid the astronomer",
+    "Birgit the botanist",
+    "Celia the chronicler",
+    "Della the dialectician",
+    "Vivian the visiting philosopher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "sphere"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      4,
+      9
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "burner",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

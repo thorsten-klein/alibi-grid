@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "000000111222111222331144331144331144",
+  "objects": "..........f.e.c........ba.......f...",
+  "roomNames": [
+    "Hayloft",
+    "Tractor Garage",
+    "Fruit Orchard",
+    "Farmhouse Kitchen",
+    "Grain Silo"
+  ],
+  "people": [
+    "Astrid the apple picker",
+    "Vivian the vineyard leaseholder",
+    "Birgit the beekeeper",
+    "Celia the cattle rancher",
+    "Della the dairy maid",
+    "Ena the equipment operator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "next",
+      "tractor"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bale"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    16,
+    20,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      17,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

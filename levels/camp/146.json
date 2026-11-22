@@ -1,0 +1,181 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333333222333333222444555566444555566444555566",
+  "objects": "..be.b.aa..d...............f.f..eca..baca...c.b...b.....bbbd........b....ff..aa..",
+  "roomNames": [
+    "Painted Wall",
+    "Hide Tent",
+    "Lookout Rock",
+    "River Bank",
+    "Bone Yard",
+    "Fire Pit",
+    "Spring"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Bea the builder",
+    "Cedric the carver",
+    "Victor the visionary",
+    "Della the dancer",
+    "Edith the elder",
+    "Frank the firekeeper",
+    "Gideon the grinder",
+    "Hilda the hornblower"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "log"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "col",
+      8
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "log"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ],
+    [
+      8,
+      "on",
+      "log"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    26,
+    30,
+    40,
+    47,
+    54,
+    68,
+    78
+  ],
+  "doors": [
+    [
+      30,
+      31
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "leaves",
+      1
+    ],
+    [
+      "nextCount",
+      "boulder",
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "..133.441",
+  "tags": ".1.................23.....1...34.........1............4..........4...............",
+  "hard": 4,
+  "hardest": 7,
+  "steps": 18,
+  "extra": true
+}

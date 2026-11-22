@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "....a...c.......",
+  "roomNames": [
+    "Grand Ballroom",
+    "Mirrored Gallery",
+    "Private Boudoir"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the barcarolle singer",
+    "Cedric the courtesan",
+    "Vince the venetian senator"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "throne"
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

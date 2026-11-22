@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "f...b.a......dda.f.......",
+  "roomNames": [
+    "Fruit Orchard",
+    "Hayloft",
+    "Root Cellar",
+    "Pig Pen"
+  ],
+  "people": [
+    "Astrid the apple picker",
+    "Birgit the beekeeper",
+    "Vivian the vineyard leaseholder",
+    "Celia the cattle rancher",
+    "Della the dairy maid"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "bale"
+    ],
+    [
+      3,
+      "on",
+      "bale"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

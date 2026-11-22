@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233331111333311114444555544445555",
+  "objects": "d.b....e........df..d.bb.b...e.b.ac.d.dac...a...db....c..b.a.d..",
+  "roomNames": [
+    "Great Peristyle",
+    "Map Archive",
+    "Mosaic Gallery",
+    "Geometry Hall",
+    "Philosopher Garden",
+    "Observatory"
+  ],
+  "people": [
+    "Astrid the astronomer",
+    "Birgit the botanist",
+    "Celia the chronicler",
+    "Della the dialectician",
+    "Ena the epigrapher",
+    "Vivian the visiting philosopher",
+    "Flora the folklorist",
+    "Grace the grammarian"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "sphere"
+    ],
+    [
+      2,
+      "next",
+      "bust"
+    ],
+    [
+      3,
+      "on",
+      "mat"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "cupboard"
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    21,
+    25,
+    32,
+    46,
+    55,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "nextCount",
+      "sphere",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "group": 1
+}

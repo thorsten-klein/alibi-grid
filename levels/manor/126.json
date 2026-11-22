@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222211112222111133344555333445553334455533344555",
+  "objects": "..b...a.....b...f....e.d....b........cad.c................b.....",
+  "roomNames": [
+    "Kitchen",
+    "Ballroom",
+    "Conservatory",
+    "Gallery",
+    "Billiard Room",
+    "Pantry"
+  ],
+  "people": [
+    "Albert the author",
+    "Birgit the banker",
+    "Vince the vicar",
+    "Clara the cook",
+    "Dora the dealer",
+    "Elsa the editor",
+    "Fiona the footman",
+    "Grace the gardener"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "next",
+      "clock"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    22,
+    24,
+    36,
+    43,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 23,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "extra": true
+}

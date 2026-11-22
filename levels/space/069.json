@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "......ce....b...e...caf.c",
+  "roomNames": [
+    "Cargo Bay",
+    "Airlock",
+    "Comms",
+    "Observatory"
+  ],
+  "people": [
+    "Victor the volunteer",
+    "Astrid the analyst",
+    "Bruno the biologist",
+    "Cedric the captain",
+    "Dmitri the driller"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "console"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 15,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "extra": true
+}

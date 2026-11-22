@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "d....ba........e",
+  "roomNames": [
+    "Corridor",
+    "Mail Car",
+    "Galley"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Basil the banker",
+    "Cora the conductor",
+    "Viola the vendor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "door"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    11,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      13,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

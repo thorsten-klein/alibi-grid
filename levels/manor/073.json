@@ -1,0 +1,93 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "a.e...d..ad......c.....a.",
+  "roomNames": [
+    "Hall",
+    "Chapel",
+    "Conservatory",
+    "Library"
+  ],
+  "people": [
+    "Ada the architect",
+    "Vera the valet",
+    "Basil the butler",
+    "Cora the cook",
+    "Daisy the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    11,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

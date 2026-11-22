@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "......a......b......aa...",
+  "roomNames": [
+    "Gift Shop",
+    "Grand Rotunda",
+    "Egyptian Wing",
+    "Medieval Hall"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bruno the bookkeeper",
+    "Victor the visiting donor",
+    "Carl the conservator",
+    "Dexter the docent"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    10,
+    17,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "bench",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

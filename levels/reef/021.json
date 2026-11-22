@@ -1,0 +1,171 @@
+{
+  "size": 9,
+  "rooms": "000000000000000000000000000000111111000111111222233444222233444555533444555533444",
+  "objects": "..............................cdf..c.....b.....fb...b....b..b....b..cbcb.....b.fd",
+  "roomNames": [
+    "Open Sea",
+    "Dock",
+    "Tavern",
+    "Market",
+    "Sea Cave",
+    "Lighthouse"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Bruno the boatswain",
+    "Cora the cook",
+    "Daisy the diver",
+    "Ena the explorer",
+    "Viola the voyager",
+    "Freya the fiddler",
+    "Gideon the gold digger",
+    "Henrik the harbor pilot"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "notRoom",
+      4
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "door"
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    20,
+    27,
+    43,
+    48,
+    55,
+    71,
+    78
+  ],
+  "doors": [
+    [
+      39,
+      48
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      35,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "crate",
+      1
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 25,
+  "group": 2
+}

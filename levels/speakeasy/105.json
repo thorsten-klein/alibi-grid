@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220013333001333300144440014444",
+  "objects": "c.b..ab.b..ab.b.eda..a....e.ec..d.f....e..bd.d...",
+  "roomNames": [
+    "VIP Poker Den",
+    "Tailor Front",
+    "Distillery",
+    "Coat Check",
+    "Cold Storage"
+  ],
+  "people": [
+    "Astrid the accordionist",
+    "Birgit the bartender",
+    "Celia the crooner",
+    "Vivian the voice of syndicate",
+    "Della the drummer",
+    "Ena the enforcer",
+    "Flora the flapper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "roulette"
+    ],
+    [
+      2,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "next",
+      "cask"
+    ],
+    [
+      4,
+      "next",
+      "cask"
+    ],
+    [
+      4,
+      "next",
+      "safe"
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    14,
+    25,
+    33,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

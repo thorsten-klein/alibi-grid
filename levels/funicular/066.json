@@ -1,0 +1,85 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "..fbfc..b....b...b.......",
+  "roomNames": [
+    "Valley Terminal",
+    "Funicular Car A",
+    "Sheave Tower",
+    "Observation Terrace"
+  ],
+  "people": [
+    "Ada the alpine guide",
+    "Vera the visiting vip",
+    "Bea the billeter",
+    "Clara the cable splicer",
+    "Dora the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "winch"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    13,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

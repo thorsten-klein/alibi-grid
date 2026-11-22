@@ -1,0 +1,211 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222333311122223333111222233331114444333311144445555666444455556664444555566644445555666777755556667777",
+  "objects": "e.......e..cd...c.d.e..ca..d......a...c....ef..b.c....e.d...........b..a..ea.e..a..c.b....ca..adc.facf.ce........e...b...",
+  "roomNames": [
+    "Editing Suite",
+    "Screening Room",
+    "Writers Room",
+    "Wardrobe Vault",
+    "Catwalk",
+    "Green Room",
+    "Soundstage A",
+    "Director Trailer"
+  ],
+  "people": [
+    "Viola the voice actor",
+    "Alma the actor",
+    "Bella the boom operator",
+    "Cora the cinematographer",
+    "Daisy the director",
+    "Elsa the editor",
+    "Fiona the focus puller",
+    "Gwen the grip",
+    "Hazel the hairdresser",
+    "Ines the ingenue",
+    "Juno the journalist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "boom"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "trunk"
+    ],
+    [
+      3,
+      "col",
+      9
+    ],
+    [
+      4,
+      "next",
+      "couch"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "trunk"
+    ],
+    [
+      7,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "next",
+      "camera"
+    ],
+    [
+      9,
+      "window",
+      null
+    ],
+    [
+      10,
+      "room",
+      6
+    ]
+  ],
+  "solution": [
+    4,
+    19,
+    32,
+    42,
+    46,
+    61,
+    73,
+    80,
+    89,
+    99,
+    115
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      12,
+      23
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      43,
+      54
+    ],
+    [
+      58,
+      69
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      95,
+      106
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      43,
+      "r"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 9,
+  "hardest": 7,
+  "steps": 28,
+  "extra": true
+}

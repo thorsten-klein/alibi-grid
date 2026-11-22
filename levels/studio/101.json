@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112223333222333322244442224444",
+  "objects": ".f...d.a.ba..a..ef.a..a...c.c...........a..c...a.",
+  "roomNames": [
+    "Prop Armory",
+    "Sound Booth",
+    "Writers Room",
+    "Wardrobe Vault",
+    "Director Trailer"
+  ],
+  "people": [
+    "Arthur the assistant director",
+    "Basil the body double",
+    "Cedric the choreographer",
+    "Dmitri the diva",
+    "Vince the veteran producer",
+    "Edgar the extra",
+    "Frank the fashion designer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "boom"
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "camera"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    14,
+    27,
+    31,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      13,
+      20
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "camera",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

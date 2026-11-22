@@ -1,0 +1,132 @@
+{
+  "size": 6,
+  "rooms": "000000000000112222112222113333114444",
+  "objects": "..c...c.e.dbb..a......f.....a..a..a.",
+  "roomNames": [
+    "Solar",
+    "Great Hall",
+    "Stables",
+    "Smithy",
+    "Courtyard"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Bruno the baker",
+    "Cora the cupbearer",
+    "Viola the verger",
+    "Dora the dancer",
+    "Edgar the envoy"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "urn"
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    14,
+    21,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      7,
+      13
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      27,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "urn",
+      1
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "kcckcn",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

@@ -1,4 +1,4 @@
-# Run all tests on every push to the main branch.
+# Run all tests on every push to the main branch, and on every pull request.
 # Unit tests and browser tests (in 4 shards) run in parallel, each with coverage.
 # The last job merges the coverage and fails below 100%.
 name: Tests
@@ -6,6 +6,12 @@ name: Tests
 on:
   push:
     branches: [master, main]
+  pull_request:
+
+# A new push to a pull request stops its older run.
+concurrency:
+  group: tests-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   levels:

@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222111112223333322233333444455554444555544445555",
+  "objects": ".a...e.da......fb....f.....baffdfa.d...bdf......a.....ba.b.fe..f",
+  "roomNames": [
+    "Hunting Ground",
+    "Elder Hut",
+    "Lookout Rock",
+    "Flint Pit",
+    "Spring",
+    "Bone Yard"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Basil the beekeeper",
+    "Celia the carver",
+    "Dmitri the drummer",
+    "Viola the valley guide",
+    "Edgar the elder",
+    "Felix the firekeeper",
+    "Greta the grinder"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "on",
+      "log"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      7,
+      "next",
+      "tree"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    22,
+    28,
+    39,
+    43,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "log",
+      2
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".2.0...1",
+  "tags": "...3.....2........1.........................0....0...........1..",
+  "hard": 4,
+  "hardest": 3,
+  "steps": 31,
+  "extra": true
+}

@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0000000000111112233322333",
+  "objects": "abd.fc..b.....a......ad..",
+  "roomNames": [
+    "Chapter House",
+    "Abbey Church",
+    "Bell Tower",
+    "Crypt"
+  ],
+  "people": [
+    "Ada the almoner",
+    "Vera the vicar general",
+    "Bea the brewer",
+    "Clara the cantor",
+    "Dora the document copyist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      9,
+      14
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      19,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "bellrope",
+      0
+    ],
+    [
+      "nextCount",
+      "stall",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

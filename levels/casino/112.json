@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112223334422233344222333442225555522255555",
+  "objects": "b.....fba....f...dcf.c..c..c.b.......e...f.e..a.......e.b....b.a",
+  "roomNames": [
+    "High Roller Lounge",
+    "Rooftop Pool",
+    "Main Casino Floor",
+    "Cocktail Bar",
+    "The Vault",
+    "Valet Booth"
+  ],
+  "people": [
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Cedric the croupier",
+    "Dmitri the dice inspector",
+    "Edgar the entertainer",
+    "Vince the vip gambler",
+    "Frank the floor manager",
+    "Gideon the gambler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "chaise"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "wheel"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "wheel"
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ],
+    [
+      6,
+      "window",
+      null
+    ],
+    [
+      7,
+      "on",
+      "chaise"
+    ]
+  ],
+  "solution": [
+    7,
+    9,
+    22,
+    28,
+    35,
+    42,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 17,
+  "extra": true
+}

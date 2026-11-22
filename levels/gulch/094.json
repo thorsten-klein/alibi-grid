@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": ".......ca..a...b..e.ab....d.....a...",
+  "roomNames": [
+    "Church",
+    "Saloon",
+    "Sheriff Office",
+    "Livery",
+    "General Store"
+  ],
+  "people": [
+    "Astrid the auctioneer",
+    "Vera the vet",
+    "Birgit the blacksmith",
+    "Clara the cook",
+    "Dmitri the dancer",
+    "Elsa the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "withBandit"
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "next",
+      "cactus"
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    16,
+    23,
+    27,
+    32
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

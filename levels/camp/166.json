@@ -1,0 +1,199 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111100000011112222223333222222333344444433334455566666445556666644555777774455577777",
+  "objects": "....e.......bb..ac.f.....b...e.........b.a..d..c.d.aa.c.ba.....a..bab.f.......a.d.b.ed.af..f.....fb.",
+  "roomNames": [
+    "Lookout Rock",
+    "Bone Yard",
+    "Hunting Ground",
+    "Elder Hut",
+    "Fire Pit",
+    "Hide Tent",
+    "Spring",
+    "River Bank"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Birgit the builder",
+    "Clara the carrier",
+    "Dmitri the drummer",
+    "Victor the visionary",
+    "Edith the elk tamer",
+    "Freya the firekeeper",
+    "Grace the guard",
+    "Hazel the hornblower",
+    "Ivy the idol carver"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "tree"
+    ],
+    [
+      1,
+      "on",
+      "leaves"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "log"
+    ],
+    [
+      5,
+      "on",
+      "log"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "on",
+      "log"
+    ],
+    [
+      8,
+      "on",
+      "log"
+    ],
+    [
+      8,
+      "next",
+      "bones"
+    ],
+    [
+      9,
+      "door"
+    ],
+    [
+      9,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    26,
+    35,
+    40,
+    51,
+    69,
+    78,
+    87,
+    94
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      25,
+      35
+    ],
+    [
+      28,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      78,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 22,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ],
+    [
+      "onCount",
+      "leaves",
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "...2..0.3.",
+  "tags": "............................0.....12........................3...0....0......1.......................",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 41,
+  "extra": true
+}

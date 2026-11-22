@@ -1,10 +1,11 @@
-// Build all campaign levels and write js/levels.js.
+// Build all campaign levels and write them to levels/<theme>/NNN.json.
+// Then js/levels.js and js/bundle.js are made from levels/.
 // Run: node tools/generate.mjs [--sizes 4,5,6,7] [--workers 4] [--time 30] [--fresh]
 //   --sizes    only these board sizes (a quick test run)
 //   --workers  cases made at once (default: CPUs, at most 8)
 //   --time     seconds for one case before it is left out (default 900)
 //   --seed     add this to every seed: a retry tries other boards (default 0)
-//   --fresh    make every case new. Without it, the cases in js/levels.js are kept:
+//   --fresh    make every case new. Without it, the cases in levels/ are kept:
 //              each is checked again, and its "what if" steps pick its group.
 //              A case that no longer fits a group becomes an extra case.
 //   --extra    make only extra cases: per campaign and size as many as EXTRA_PER_SIZE
@@ -23,16 +24,16 @@
 // Each campaign has four groups (Beginner, Medium, Hard, Expert).
 // Each group has one case per board size. The cases are made in parallel,
 // one worker per CPU. A case that can not be made in time is left out.
-// js/levels.js is saved after every new case.
+// levels/ (and js/levels.js) is saved after every new case.
 
-import { writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, unlinkSync } from 'node:fs';
 import { cpus } from 'node:os';
 import { Worker, isMainThread, parentPort } from 'node:worker_threads';
 import { THEMES, blockingSet } from '../js/themes.js';
 import { encodeLevel, decodeLevel } from '../js/levelCodec.js';
 import { makeLevel, SIZES, DIFFICULTY, difficultyIndex, unneededParts, fitsLimit } from '../js/generator.js';
 import { caseScore } from '../js/hints.js';
-import { CAMPAIGNS as OLD } from '../js/levels.js';
+import { readCampaigns, themeDir, levelFiles } from './compile-levels.mjs';
 
 // The campaign groups: indexes into DIFFICULTY.
 export const GROUPS = [0, 1, 2, 3];
@@ -71,7 +72,7 @@ if (!isMainThread) {
   const only = arg('--sizes') ? arg('--sizes').split(',').map(Number) : SIZES;
   const timeLimit = 1000 * (Number(arg('--time')) || 900);
   const key = (ti, g, li) => `${ti}:${g}:${li}`;
-  // Cases we have: key -> raw level. Start with the cases in js/levels.js.
+  // Cases we have: key -> raw level. Start with the cases in levels/.
   // Each is checked again (the hints may have changed): its "what if" steps pick
   // its group, and every part must still be needed for that group.
   const results = new Map();
@@ -82,7 +83,7 @@ if (!isMainThread) {
   if (!process.argv.includes('--fresh')) {
     const fits = [];
     let moved = 0, dropped = 0;
-    const sources = [...OLD];
+    const sources = readCampaigns();
     if (arg('--also')) sources.push(...(await import(new URL(arg('--also'), `file://${process.cwd()}/`))).CAMPAIGNS);
     for (const c of sources) {
       const ti = THEMES.findIndex(t => t.id === c.theme);
@@ -147,18 +148,21 @@ if (!isMainThread) {
   const total = jobs.length;
   let done = 0, missing = 0, added = 0, asked = 0;
 
-  // Write js/levels.js (and the bundle) with all cases so far, after every new case.
+  // Write levels/ (then js/levels.js and the bundle) with all cases so far, after every new case.
   // A run that stops early keeps its work, and the next run reuses it.
-  const { buildBundle, BUNDLE_PATH } = await import('./bundle.mjs');
+  const { writeBundle } = await import('./bundle.mjs');
   const save = () => {
-    const campaigns = THEMES.map((theme, ti) => ({
-      theme: theme.id,
-      levels: [...GROUPS.flatMap(g => SIZES.map((_, li) => results.get(key(ti, g, li))).filter(Boolean)), ...extras[ti]],
-    }));
-    const header = '// Made by tools/generate.mjs. Do not edit by hand.\n';
-    writeFileSync(new URL('../js/levels.js', import.meta.url),
-      `${header}export const CAMPAIGNS = ${JSON.stringify(campaigns, null, 1)};\n`);
-    writeFileSync(BUNDLE_PATH, buildBundle());
+    THEMES.forEach((theme, ti) => {
+      const levels = [...GROUPS.flatMap(g => SIZES.map((_, li) => results.get(key(ti, g, li))).filter(Boolean)), ...extras[ti]];
+      const dir = themeDir(theme.id);
+      mkdirSync(dir, { recursive: true });
+      // Files past the last case are left from a bigger run: remove them.
+      for (const f of levelFiles(theme.id)) if (Number.parseInt(f, 10) >= levels.length) unlinkSync(new URL(f, dir));
+      levels.forEach((lv, i) => {
+        writeFileSync(new URL(`${String(i).padStart(3, '0')}.json`, dir), JSON.stringify(lv, null, 2) + '\n', 'utf8');
+      });
+    });
+    writeBundle();
   };
   save();
 
@@ -203,5 +207,5 @@ if (!isMainThread) {
     const holes = sizesOf(g).filter(n => n > Math.min(...have) && n < Math.max(...have) && !have.includes(n));
     if (holes.length) console.log(`HOLE ${theme.id} ${DIFFICULTY[g].name}: ${holes.join(', ')}`);
   });
-  console.log('wrote js/levels.js and js/bundle.js');
+  console.log('wrote levels/, js/levels.js and js/bundle.js');
 }

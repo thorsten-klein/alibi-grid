@@ -1,0 +1,207 @@
+{
+  "size": 12,
+  "rooms": "000111111111000111111111000000002222000000002222000000002222000003333444000003333444000003333444000005556666000005556666000005556666000005556666",
+  "objects": ".......bb.........cf..c.......................a..........d.......f....dd.....ade.d.e.......a.........aaff.e........d..ba.....a....c......e...ca.",
+  "roomNames": [
+    "Open Sea",
+    "Sloop",
+    "Fort",
+    "Frigate",
+    "Longboat",
+    "Dock",
+    "Cove"
+  ],
+  "people": [
+    "Albert the admiral",
+    "Bella the boatswain",
+    "Clara the captain",
+    "Dmitri the diver",
+    "Edith the engineer",
+    "Flora the fiddler",
+    "Vivian the vintner",
+    "Gus the gunner",
+    "Henrik the harpooner",
+    "Isla the islander",
+    "Jonas the jeweller",
+    "Klaus the kettle cook"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "anchor"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "room",
+      0
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "crate"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "next",
+      "hammock"
+    ],
+    [
+      10,
+      "next",
+      "crate"
+    ],
+    [
+      11,
+      "row",
+      11
+    ],
+    [
+      11,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    10,
+    13,
+    24,
+    39,
+    54,
+    69,
+    80,
+    89,
+    100,
+    119,
+    127,
+    134
+  ],
+  "doors": [
+    [
+      22,
+      34
+    ],
+    [
+      56,
+      68
+    ],
+    [
+      57,
+      69
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      89,
+      101
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      94,
+      106
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      35,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      95,
+      "r"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      140,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "alone",
+      null,
+      10
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 6,
+  "hardest": 7,
+  "steps": 35,
+  "extra": true
+}

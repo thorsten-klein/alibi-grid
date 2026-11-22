@@ -1,0 +1,215 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000002222220000022222233344422555333444225553334442255533344422555666666777776666667777766666677777",
+  "objects": ".dcd....d.a.c.df.c.fa........ea.e..a....efcbcc.b.fab..d.....da....e................da.f...f.....b...e.cd..d......b....d..",
+  "roomNames": [
+    "Daimyo Hall",
+    "Zen Garden",
+    "Moon Balcony",
+    "Guard Gate",
+    "Armory",
+    "Shrine",
+    "Sentry Tower",
+    "Tea Ceremony Room"
+  ],
+  "people": [
+    "Astrid the artisan",
+    "Birgit the bowyer",
+    "Celia the cook",
+    "Della the drummer",
+    "Ena the embroiderer",
+    "Flora the foot soldier",
+    "Vivian the visiting monk",
+    "Grace the guard",
+    "Hana the herbalist",
+    "Isla the iron smith",
+    "Jutta the junior samurai"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "taiko"
+    ],
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "next",
+      "armor"
+    ],
+    [
+      1,
+      "next",
+      "shoji"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "next",
+      "shoji"
+    ],
+    [
+      5,
+      "next",
+      "armor"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      7,
+      "window",
+      null
+    ],
+    [
+      8,
+      "next",
+      "armor"
+    ],
+    [
+      9,
+      "notRoom",
+      5
+    ],
+    [
+      9,
+      "col",
+      10
+    ],
+    [
+      10,
+      "same",
+      9
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    27,
+    39,
+    53,
+    56,
+    74,
+    77,
+    91,
+    109,
+    117
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      18,
+      29
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      84,
+      95
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      78,
+      89
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      86,
+      97
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      32,
+      "r"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      114,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "tatami",
+      0
+    ],
+    [
+      "onCount",
+      "futon",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 30,
+  "group": 1
+}

@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333322223333444445554444455544444555",
+  "objects": ".....b..aa..c.a..a..aa...e....b....c...b.a..d.b....f.dba.......a",
+  "roomNames": [
+    "Dining Saloon",
+    "Promenade Deck",
+    "Starboard Gondola",
+    "Gas Catwalk",
+    "Galley",
+    "Cargo Hold"
+  ],
+  "people": [
+    "Viola the vessel inventor",
+    "Alma the aeronaut",
+    "Bella the barman",
+    "Cora the captain",
+    "Daisy the dirigible pilot",
+    "Elsa the engine mechanic",
+    "Fiona the first officer",
+    "Gwen the gas bag inspector"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "armchair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "armchair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "armchair"
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    20,
+    29,
+    33,
+    42,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

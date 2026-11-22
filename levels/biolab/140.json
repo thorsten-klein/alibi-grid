@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222000011122233333344443333334444555555666655555566667777777777",
+  "objects": "......dd..........b.....f........d..ea.....b..bb...fe.b.......efbe.c.....cf...cf.......ed.f.f.b...a.",
+  "roomNames": [
+    "Breakroom",
+    "Cryo Storage",
+    "Chemical Vault",
+    "Specimen Nursery",
+    "Centrifuge Bay",
+    "Autopsy Suite",
+    "Decon Airlock",
+    "Cleanroom 2"
+  ],
+  "people": [
+    "Alma the algorithm engineer",
+    "Viola the venture backer",
+    "Bella the bioethicist",
+    "Cora the cryo technician",
+    "Daisy the data architect",
+    "Elsa the ecologist",
+    "Fiona the forensic chemist",
+    "Gwen the guard",
+    "Hazel the hardware tech",
+    "Ines the immunologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "rack"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "on",
+      "stool"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    19,
+    21,
+    37,
+    40,
+    53,
+    64,
+    76,
+    82,
+    98
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      63,
+      73
+    ],
+    [
+      68,
+      78
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      85,
+      95
+    ],
+    [
+      86,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 8,
+  "hardest": 9,
+  "steps": 31,
+  "extra": true
+}

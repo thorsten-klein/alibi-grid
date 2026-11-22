@@ -1,0 +1,203 @@
+{
+  "size": 11,
+  "rooms": "0001112222200011122222000111222220001113333344444433333444444333334444443333355566666777555666667775556666677755566666777",
+  "objects": "fb......a.ef...bb............e...f............e.....be.......c.a.b.f.b............b...a..a....afb.a..b..bbe.ec...daebd..c",
+  "roomNames": [
+    "Steerage Quarters",
+    "Promenade Deck",
+    "Boiler Room",
+    "Stateroom A",
+    "First Class Lounge",
+    "Dining Saloon",
+    "Bridge",
+    "Galley"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bartender",
+    "Carl the chief engineer",
+    "Dexter the doctor",
+    "Victor the valet",
+    "Elias the envoy",
+    "Felix the fireman",
+    "Gus the governess",
+    "Hugo the heiress",
+    "Igor the inspector",
+    "Jasper the jeweller"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "deckchair"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "telegraph"
+    ],
+    [
+      1,
+      "col",
+      10
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "next",
+      "telegraph"
+    ],
+    [
+      5,
+      "next",
+      "telegraph"
+    ],
+    [
+      5,
+      "next",
+      "deckchair"
+    ],
+    [
+      6,
+      "next",
+      "berth"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "deckchair"
+    ],
+    [
+      9,
+      "next",
+      "lifeboat"
+    ],
+    [
+      10,
+      "on",
+      "deckchair"
+    ]
+  ],
+  "solution": [
+    8,
+    21,
+    28,
+    40,
+    45,
+    64,
+    68,
+    77,
+    93,
+    102,
+    114
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      75,
+      86
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      69,
+      80
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      106,
+      107
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      32,
+      "r"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      113,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 5,
+  "hardest": 8,
+  "steps": 32,
+  "extra": true
+}

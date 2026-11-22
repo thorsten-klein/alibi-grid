@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": ".d..f....ea..e..",
+  "roomNames": [
+    "Mosaic Gallery",
+    "Philosopher Garden",
+    "Geometry Hall"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Bruno the botanist",
+    "Carl the chronicler",
+    "Victor the visiting philosopher"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "sphere"
+    ],
+    [
+      1,
+      "next",
+      "bust"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

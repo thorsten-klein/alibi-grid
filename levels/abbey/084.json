@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "001111001111000222000222333444333444",
+  "objects": "ad............eb...db..d...ecac.a.df",
+  "roomNames": [
+    "Prior Cell",
+    "Bell Tower",
+    "Crypt",
+    "Refectory",
+    "Cellar"
+  ],
+  "people": [
+    "Albert the abbot",
+    "Bruno the bellringer",
+    "Carl the cellarer",
+    "Dexter the doorkeeper",
+    "Elias the exorcist",
+    "Victor the visiting cardinal"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "lectern"
+    ],
+    [
+      3,
+      "next",
+      "reliquary"
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    17,
+    20,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "reliquary",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

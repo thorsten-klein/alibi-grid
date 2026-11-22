@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222333222333222444",
+  "objects": ".f.fb...f........b..be..b...........",
+  "roomNames": [
+    "First Aid Tent",
+    "Campers Field",
+    "Main Stage",
+    "Mixing Tower",
+    "Security Checkpoint"
+  ],
+  "people": [
+    "Viola the vocal coach",
+    "Alma the artist agent",
+    "Bella the bodyguard",
+    "Cora the cameraman",
+    "Daisy the disc jockey",
+    "Elsa the event producer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "lighttower"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    14,
+    19,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      28,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

@@ -1,0 +1,193 @@
+{
+  "size": 10,
+  "rooms": "0001122333000112233300011223330001122333444445555544444555556666655555666667777766666777776666677777",
+  "objects": ".e...f.b.aba.........bc..bc..a......d.cde.fe.bf...fe..f..defa.db....a...e...dfd........c.fce.ac.....",
+  "roomNames": [
+    "Bunkhouse Beta",
+    "Arts Shed",
+    "Mess Hall",
+    "Shower Block",
+    "Director Office",
+    "Archery Range",
+    "Counselor Cabin",
+    "Campfire Clearing"
+  ],
+  "people": [
+    "Arthur the arts counselor",
+    "Basil the bugler",
+    "Cedric the cook",
+    "Dmitri the director",
+    "Edgar the eagle scout",
+    "Frank the first aid counselor",
+    "Gideon the guitar player",
+    "Vince the visitor",
+    "Henrik the hiker",
+    "Ivo the intern"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "room",
+      3
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "canoes"
+    ],
+    [
+      4,
+      "next",
+      "board"
+    ],
+    [
+      5,
+      "next",
+      "canoes"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "col",
+      9
+    ]
+  ],
+  "solution": [
+    2,
+    18,
+    21,
+    33,
+    47,
+    56,
+    64,
+    70,
+    85,
+    99
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      65,
+      75
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

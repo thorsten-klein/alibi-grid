@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "b.e...a..d.....ba..c...a.",
+  "roomNames": [
+    "Courtyard",
+    "Dungeon",
+    "Solar",
+    "Great Hall"
+  ],
+  "people": [
+    "Ada the archer",
+    "Vivian the vintner",
+    "Bruno the bard",
+    "Celia the cupbearer",
+    "Daisy the doorkeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "candles"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 12,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "cnkkc",
+  "extra": true
+}

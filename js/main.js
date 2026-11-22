@@ -59,7 +59,10 @@ const RULE_NAME = {
 
 // Theme for a rule set: the campaign with exactly these rules, else the Time Rift.
 function themeFor(rules) {
-  if (!rules.length) return THEMES.filter(t => !themeRules(t).length)[Math.floor(Math.random() * 5)];
+  if (!rules.length) {
+    const vanilla = THEMES.filter(t => !themeRules(t).length);
+    return vanilla[Math.floor(Math.random() * vanilla.length)];
+  }
   if (rules.length === 1) return THEMES.find(t => !t.mix && themeRules(t).join() === rules[0]) || themeById('rift');
   return themeById('rift');
 }

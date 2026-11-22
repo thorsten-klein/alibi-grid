@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0011222200112222001122220011222233334444333344445555444455554444",
+  "objects": "...........eb..e...c.bc.....e...d.d....eb....bfd.............f..",
+  "roomNames": [
+    "Counselor Cabin",
+    "Shower Block",
+    "Bunkhouse Alpha",
+    "Lake Shore",
+    "Mess Hall",
+    "Canoe Dock"
+  ],
+  "people": [
+    "Arthur the arts counselor",
+    "Basil the bugler",
+    "Cedric the cook",
+    "Dmitri the director",
+    "Edgar the eagle scout",
+    "Frank the first aid counselor",
+    "Vince the visitor",
+    "Gideon the guitar player"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "table"
+    ],
+    [
+      3,
+      "next",
+      "table"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    23,
+    27,
+    38,
+    40,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "bunk",
+      1
+    ],
+    [
+      "roomCount",
+      5,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

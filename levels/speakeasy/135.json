@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000111122333344444333344444333344444555566666555566666",
+  "objects": ".c.bab..c......d....abe..................c....c...cb...a..a.a.b..f.ebffbdcea...ea",
+  "roomNames": [
+    "Private Booths",
+    "Safe Room",
+    "Cold Storage",
+    "Coat Check",
+    "Main Lounge",
+    "Bar Counter",
+    "Tailor Front"
+  ],
+  "people": [
+    "Astrid the accordionist",
+    "Birgit the bartender",
+    "Celia the crooner",
+    "Vivian the voice of syndicate",
+    "Della the drummer",
+    "Ena the enforcer",
+    "Flora the flapper",
+    "Grace the gangster",
+    "Hana the horn player"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "cask"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "booth"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "sax"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sax"
+    ],
+    [
+      6,
+      "next",
+      "sax"
+    ],
+    [
+      6,
+      "next",
+      "booth"
+    ],
+    [
+      7,
+      "next",
+      "safe"
+    ],
+    [
+      8,
+      "next",
+      "roulette"
+    ]
+  ],
+  "solution": [
+    6,
+    16,
+    20,
+    30,
+    40,
+    45,
+    59,
+    64,
+    80
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

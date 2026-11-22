@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "..c........fef......da.a.a.d...f....",
+  "roomNames": [
+    "Solar",
+    "Kitchen",
+    "Gatehouse",
+    "Great Hall",
+    "Courtyard"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Basil the bard",
+    "Cedric the chronicler",
+    "Dora the dancer",
+    "Elsa the embroiderer",
+    "Vince the verger"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    14,
+    19,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "kcnccc",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "group": 3
+}

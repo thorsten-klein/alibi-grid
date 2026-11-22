@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "c...c...........d..e..bfb",
+  "roomNames": [
+    "Chapter House",
+    "Herb Garden",
+    "Refectory",
+    "Cellar"
+  ],
+  "people": [
+    "Alma the abbot",
+    "Bella the bellringer",
+    "Viola the visiting cardinal",
+    "Cora the cellarer",
+    "Daisy the doorkeeper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "altar"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "lectern"
+    ],
+    [
+      4,
+      "next",
+      "reliquary"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

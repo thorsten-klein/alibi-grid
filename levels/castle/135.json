@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222223333344433333444333334445555544455555444",
+  "objects": ".c...d..bca..b..aaea..........c..b.f.b..b...............b.d.....",
+  "roomNames": [
+    "Throne Room",
+    "Gatehouse",
+    "Chapel",
+    "Dungeon",
+    "Kitchen",
+    "Tower"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Bruno the bard",
+    "Cedric the chronicler",
+    "Dmitri the dancer",
+    "Vince the verger",
+    "Elias the envoy",
+    "Felix the falconer",
+    "Gideon the groom"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    17,
+    28,
+    34,
+    46,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    1
+  ],
+  "rank": "nnnckckc",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

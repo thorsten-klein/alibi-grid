@@ -1,0 +1,70 @@
+{
+  "size": 4,
+  "rooms": "0000000011112222",
+  "objects": ".....e.b.de...c.",
+  "roomNames": [
+    "Ballroom",
+    "Library",
+    "Pantry"
+  ],
+  "people": [
+    "Albert the author",
+    "Vince the vicar",
+    "Basil the butler",
+    "Carl the cook"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      3,
+      "next",
+      "shelf"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      8,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

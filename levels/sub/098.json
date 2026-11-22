@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "......b..e......e.....fe...d.f.e.....e....b..cc..",
+  "roomNames": [
+    "Conning Tower",
+    "Hydrothermal Lab",
+    "Pilot Cockpit",
+    "Torpedo Tube",
+    "Ballast Control"
+  ],
+  "people": [
+    "Alma the acoustic analyst",
+    "Viola the vip expedition funder",
+    "Bella the biologist",
+    "Cora the chief diver",
+    "Daisy the doctor",
+    "Elsa the environmentalist",
+    "Fiona the flight pilot"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "valve"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "sonar"
+    ],
+    [
+      6,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    24,
+    33,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

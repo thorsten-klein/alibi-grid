@@ -1,0 +1,135 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222222222222233333334444444",
+  "objects": "....beb.......dfaf....b.a....f...b.c.....bc....a.",
+  "roomNames": [
+    "Bank",
+    "Saloon",
+    "Corral",
+    "Livery",
+    "Sheriff Office"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Vera the vet",
+    "Basil the banker",
+    "Cora the cattle driver",
+    "Daisy the dancer",
+    "Edgar the editor",
+    "Freya the farmer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    20,
+    24,
+    28,
+    37,
+    46
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      39,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "extra": true
+}

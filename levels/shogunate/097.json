@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333444433344443334444",
+  "objects": "ba..ab.f....e..ef..b..a...a...db.d...d..a...a.a..",
+  "roomNames": [
+    "Falconry Yard",
+    "Guard Gate",
+    "Kitchen",
+    "Armory",
+    "Stables"
+  ],
+  "people": [
+    "Astrid the artisan",
+    "Birgit the bowyer",
+    "Celia the cook",
+    "Della the drummer",
+    "Ena the embroiderer",
+    "Vivian the visiting monk",
+    "Flora the foot soldier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "next",
+      "futon"
+    ],
+    [
+      5,
+      "on",
+      "tatami"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    20,
+    23,
+    32,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "tatami",
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

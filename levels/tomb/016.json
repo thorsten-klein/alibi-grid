@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "000111000111223333223333224444224444",
+  "objects": "bb...d.a....d..c......d.....c..f.b.d",
+  "roomNames": [
+    "Granary",
+    "Well Shaft",
+    "Treasury",
+    "Antechamber",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Ada the architect",
+    "Basil the boat builder",
+    "Vera the vizier",
+    "Cedric the carpenter",
+    "Della the diviner",
+    "Elias the envoy"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    20,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "...........L....C...CC..............",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "group": 2
+}

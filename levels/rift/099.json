@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223333222333322244442224444222",
+  "objects": "....b...b.....aefbe....b...................fa....",
+  "roomNames": [
+    "Saloon",
+    "Burial Chamber",
+    "Sea of Ages",
+    "Bank",
+    "Captain Cabin"
+  ],
+  "people": [
+    "Vince the voyager",
+    "Astrid the astronomer",
+    "Bella the bard",
+    "Celia the clockmaker",
+    "Dexter the drifter",
+    "Elsa the explorer",
+    "Flora the falconer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      2,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    17,
+    23,
+    29,
+    35,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      30,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      0
+    ],
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks",
+    "sea"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "ccknkkc",
+  "sea": 2,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

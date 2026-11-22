@@ -1,0 +1,138 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": "...f..d...ba.....df.....c.....db..c..........f........e.........",
+  "roomNames": [
+    "Habitat Quarters",
+    "Comms Array",
+    "Medical Bay",
+    "Command Hub",
+    "Airlock Module",
+    "Geology Lab"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the biosphere tech",
+    "Cedric the chemist",
+    "Vince the visiting inspector",
+    "Dmitri the doctor",
+    "Edgar the electrician",
+    "Frank the farmer",
+    "Gideon the ground controller"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      1
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    21,
+    31,
+    38,
+    41,
+    48,
+    58
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

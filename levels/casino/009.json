@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": ".....c.c..aff.b.b..dc....b.b.d.c....",
+  "roomNames": [
+    "Kitchen",
+    "Showgirl Dressing Room",
+    "Main Casino Floor",
+    "High Roller Lounge",
+    "Cashier Cage"
+  ],
+  "people": [
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Vince the vip gambler",
+    "Cedric the croupier",
+    "Dmitri the dice inspector",
+    "Edgar the entertainer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "on",
+      "chaise"
+    ],
+    [
+      3,
+      "next",
+      "slots"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "slots"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    16,
+    18,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "table",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "group": 1
+}

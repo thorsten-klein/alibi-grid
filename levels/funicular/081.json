@@ -1,0 +1,119 @@
+{
+  "size": 6,
+  "rooms": "000111000111223344223344223344223344",
+  "objects": "c..ff..f...c..be..a.f........a.....e",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Sheave Tower",
+    "Funicular Car A",
+    "Ticket Hall",
+    "Valley Terminal"
+  ],
+  "people": [
+    "Ada the avalanche controller",
+    "Bea the brake operator",
+    "Vera the veteran mountaineer",
+    "Clara the conductor",
+    "Dora the dispatcher",
+    "Edith the electrical engineer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "winch"
+    ],
+    [
+      1,
+      "next",
+      "winch"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    14,
+    22,
+    25,
+    33
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

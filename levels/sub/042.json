@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "...bb..b..b.c.e.",
+  "roomNames": [
+    "Galley",
+    "Torpedo Tube",
+    "Ballast Control"
+  ],
+  "people": [
+    "Albert the acoustic analyst",
+    "Bruno the biologist",
+    "Carl the chief diver",
+    "Victor the vip expedition funder"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "sonar"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    8,
+    15
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 10,
+  "extra": true
+}

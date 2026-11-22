@@ -1,0 +1,148 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222233322222333444223334445555544455555",
+  "objects": "e....c......b.....a.b..c...a...e.............e..b..a...........b",
+  "roomNames": [
+    "Spring",
+    "Hide Tent",
+    "River Bank",
+    "Hunting Ground",
+    "Painted Wall",
+    "Fire Pit"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Basil the beekeeper",
+    "Vera the visionary",
+    "Cora the carver",
+    "Dora the dancer",
+    "Edgar the elk tamer",
+    "Fiona the firekeeper",
+    "Gideon the guard"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    17,
+    28,
+    37,
+    43,
+    54,
+    56
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "3.0...23",
+  "tags": "....0..3............................2................22.32.4....",
+  "tries": 4,
+  "hard": 2,
+  "hardest": 5,
+  "steps": 22,
+  "group": 2
+}

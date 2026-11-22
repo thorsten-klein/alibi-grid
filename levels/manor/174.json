@@ -1,0 +1,208 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111222200003334444333333344443333333444455553334444555566667775555666677755556666777",
+  "objects": ".......b..c....a.bb.........f.....d..e.d.f.f...d..eb...b..dd..b.e...e......ea...b.....e.d..bda.a.........a.f......a.....b",
+  "roomNames": [
+    "Ballroom",
+    "Hall",
+    "Gallery",
+    "Study",
+    "Library",
+    "Pantry",
+    "Cellar",
+    "Chapel"
+  ],
+  "people": [
+    "Alma the architect",
+    "Bea the butler",
+    "Cora the colonel",
+    "Viola the valet",
+    "Daisy the dealer",
+    "Elias the editor",
+    "Felix the florist",
+    "Greta the guest",
+    "Hilda the housekeeper",
+    "Ines the inspector",
+    "Jasper the judge"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "col",
+      9
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      3,
+      "next",
+      "clock"
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "plant"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "piano"
+    ],
+    [
+      9,
+      "next",
+      "sofa"
+    ],
+    [
+      9,
+      "col",
+      3
+    ],
+    [
+      10,
+      "same",
+      8
+    ]
+  ],
+  "solution": [
+    6,
+    20,
+    26,
+    40,
+    46,
+    65,
+    71,
+    85,
+    89,
+    102,
+    110
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      69,
+      80
+    ],
+    [
+      81,
+      92
+    ],
+    [
+      84,
+      95
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "piano",
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

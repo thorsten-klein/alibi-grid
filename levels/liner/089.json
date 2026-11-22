@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001122001122003333003333004444004444",
+  "objects": "......befd.bd....bc.a.d.a.d.....de..",
+  "roomNames": [
+    "Galley",
+    "Steerage Quarters",
+    "Boiler Room",
+    "Telegraph Cabin",
+    "Library"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Vera the voyage sponsor",
+    "Bea the boatswain",
+    "Clara the captain",
+    "Dora the deckhand",
+    "Edith the electrician"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "deckchair"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "deckchair"
+    ],
+    [
+      5,
+      "next",
+      "telegraph"
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    14,
+    21,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "....cb..e.....c.f...bc..f",
+  "roomNames": [
+    "Bunkhouse Alpha",
+    "Mess Hall",
+    "Campfire Clearing",
+    "Lake Shore"
+  ],
+  "people": [
+    "Albert the arts counselor",
+    "Bruno the bugler",
+    "Carl the cook",
+    "Dexter the director",
+    "Victor the visitor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "board"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    5,
+    12,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

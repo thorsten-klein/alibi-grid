@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".....d..........a..a.....",
+  "roomNames": [
+    "Backstage VIP",
+    "Security Checkpoint",
+    "Artist Trailer",
+    "Port-a-Jon Alley"
+  ],
+  "people": [
+    "Vera the vip record exec",
+    "Ada the audio engineer",
+    "Bea the bass player",
+    "Clara the crew chief",
+    "Dora the drummer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 17,
+  "extra": true
+}

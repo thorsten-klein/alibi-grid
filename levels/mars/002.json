@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122334422334422334422",
+  "objects": "..bb.d....a..fbb.e...f.bf.......b.b.",
+  "roomNames": [
+    "Rover Bay",
+    "Gymnasium",
+    "Comms Array",
+    "Water Reclamation",
+    "Airlock Module"
+  ],
+  "people": [
+    "Astrid the agronomist",
+    "Birgit the biosphere tech",
+    "Celia the chemist",
+    "Della the doctor",
+    "Ena the electrician",
+    "Vivian the visiting inspector"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "rover"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    12,
+    19,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "group": 0
+}

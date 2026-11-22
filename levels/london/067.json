@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "e..a..a.....b....a.d..e..",
+  "roomNames": [
+    "Cab Stand",
+    "Apothecary",
+    "Pub Taproom",
+    "Police Desk"
+  ],
+  "people": [
+    "Alma the apothecary",
+    "Bella the blackmailer",
+    "Viola the victim of nobility",
+    "Cora the constable",
+    "Daisy the detective"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "fireplace"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "fireplace"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "cot",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

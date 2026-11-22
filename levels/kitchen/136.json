@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111223334455522333445552233344555223334466677777446667777744666",
+  "objects": "....b...afc..a..a.....a.a.....ef..c...ed..f.b.......f..b....e..a.f.eead...a.........dd..d......b....",
+  "roomNames": [
+    "Saute Station",
+    "Hostess Foyer",
+    "Pastry Kitchen",
+    "Chef Private Office",
+    "Main Dining Room",
+    "Dishwashing Pit",
+    "Plating Line",
+    "Herb Garden"
+  ],
+  "people": [
+    "Alma the appetizer cook",
+    "Bella the butcher",
+    "Cora the chocolatier",
+    "Daisy the dessert chef",
+    "Viola the veteran restaurateur",
+    "Elsa the executive chef",
+    "Fiona the fromager",
+    "Gwen the grill cook",
+    "Hazel the head sommelier",
+    "Ines the inventory manager"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "banquette"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "cooktop"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "fridge"
+    ],
+    [
+      4,
+      "next",
+      "espresso"
+    ],
+    [
+      5,
+      "next",
+      "banquette"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "fridge"
+    ],
+    [
+      7,
+      "next",
+      "block"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "block"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    26,
+    32,
+    40,
+    54,
+    69,
+    75,
+    87,
+    98
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      67,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 9,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

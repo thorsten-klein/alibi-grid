@@ -1,0 +1,88 @@
+{
+  "size": 5,
+  "rooms": "0111101111011112223322233",
+  "objects": ".....c..........b.....b..",
+  "roomNames": [
+    "Fort",
+    "Open Sea",
+    "Frigate",
+    "Longboat"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Birgit the boatswain",
+    "Clara the captain",
+    "Dora the deckhand",
+    "Victor the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "on",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      10,
+      15
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "l"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "extra": true
+}

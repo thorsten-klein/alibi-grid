@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222222222333444444333444444333555666333555666333555666333555666",
+  "objects": "dbf.e..a....ff.......................d...c..cc..b.b.f..ef......b.cc......e....d.f",
+  "roomNames": [
+    "Trapeze Rig",
+    "Sideshow Alley",
+    "Big Top",
+    "Hay Barn",
+    "Funhouse",
+    "Fortune Tent",
+    "Ticket Booth"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Birgit the barker",
+    "Celia the clown",
+    "Della the daredevil",
+    "Ena the escape artist",
+    "Flora the fire eater",
+    "Grace the giant",
+    "Vivian the ventriloquist",
+    "Hana the hypnotist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "crystal"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cannon"
+    ],
+    [
+      4,
+      "next",
+      "cannon"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "mat"
+    ],
+    [
+      6,
+      "next",
+      "cannon"
+    ],
+    [
+      7,
+      "on",
+      "mat"
+    ],
+    [
+      8,
+      "next",
+      "trunk"
+    ]
+  ],
+  "solution": [
+    1,
+    16,
+    22,
+    35,
+    42,
+    50,
+    57,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "crystal",
+      1
+    ]
+  ],
+  "hard": 11,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

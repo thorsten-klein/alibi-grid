@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333344433334443333444",
+  "objects": "..b...bd..e.c..a...b.e.....b.eedb....aa..cad.c.d.",
+  "roomNames": [
+    "Counselor Cabin",
+    "Arts Shed",
+    "Bunkhouse Beta",
+    "Canoe Dock",
+    "Campfire Clearing"
+  ],
+  "people": [
+    "Ada the archery instructor",
+    "Bea the boating coach",
+    "Clara the camp counselor",
+    "Dora the drama coach",
+    "Vera the veteran camp owner",
+    "Edith the ecology guide",
+    "Freya the fisher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "canoes"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ],
+    [
+      6,
+      "next",
+      "canoes"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    20,
+    22,
+    33,
+    38,
+    46
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

@@ -1,0 +1,187 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222233344222233344222233344555533344555566666555566666",
+  "objects": "...d.ac.a...e...a.............d.....b.........d.b....b.......ca..d.a...eea.....f.",
+  "roomNames": [
+    "Telegraph Office",
+    "Hotel",
+    "Saloon",
+    "Barber",
+    "Mine",
+    "Livery",
+    "Corral"
+  ],
+  "people": [
+    "Arthur the auctioneer",
+    "Bella the banker",
+    "Clara the cattle driver",
+    "Vera the vet",
+    "Dmitri the deputy",
+    "Elsa the editor",
+    "Freya the farmer",
+    "Grace the gambler",
+    "Henrik the hatmaker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cactus"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "col",
+      7
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "cactus"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    26,
+    31,
+    39,
+    52,
+    60,
+    64,
+    74
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      18,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      1
+    ],
+    [
+      "nextCount",
+      "horse",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    1,
+    3
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 23,
+  "group": 0
+}

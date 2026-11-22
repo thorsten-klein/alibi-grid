@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000000000000111111223344223344223344",
+  "objects": ".........a..d..b.dd.........b...ba..",
+  "roomNames": [
+    "Solar Array Control",
+    "Geology Lab",
+    "Oxygen Scrubber",
+    "Comms Array",
+    "Gymnasium"
+  ],
+  "people": [
+    "Astrid the astrobiologist",
+    "Vivian the venture sponsor",
+    "Birgit the botanist",
+    "Celia the commander",
+    "Della the drill operator",
+    "Ena the environmental engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "rover"
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    13,
+    22,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

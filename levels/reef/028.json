@@ -1,0 +1,136 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122211133333111333331114444411144444",
+  "objects": "f............b..d..................................e..e....b....",
+  "roomNames": [
+    "Cove",
+    "Open Sea",
+    "Dock",
+    "Sea Cave",
+    "Lighthouse"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Victor the vintner",
+    "Bruno the boatswain",
+    "Cora the cook",
+    "Daisy the deckhand",
+    "Edith the engineer",
+    "Frank the fiddler",
+    "Grace the gunner"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "col",
+      0
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    21,
+    26,
+    36,
+    43,
+    48,
+    63
+  ],
+  "doors": [
+    [
+      29,
+      37
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 23,
+  "group": 3
+}

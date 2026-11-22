@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "a..a.........e..e.ef.be..a.......e.d..a........b.",
+  "roomNames": [
+    "Casino Ridotto",
+    "Palazzo Chapel",
+    "Servants Mezzanine",
+    "Mask Atelier",
+    "Private Boudoir"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the barcarolle singer",
+    "Celia the courtesan",
+    "Vivian the venetian senator",
+    "Della the doge",
+    "Ena the envoy",
+    "Flora the fencing master"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      0,
+      "next",
+      "throne"
+    ],
+    [
+      1,
+      "next",
+      "fountain"
+    ],
+    [
+      2,
+      "next",
+      "maskstand"
+    ],
+    [
+      3,
+      "on",
+      "daybed"
+    ],
+    [
+      4,
+      "notRoom",
+      4
+    ],
+    [
+      5,
+      "next",
+      "daybed"
+    ],
+    [
+      6,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    20,
+    21,
+    31,
+    40,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ],
+    [
+      "nextCount",
+      "maskstand",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

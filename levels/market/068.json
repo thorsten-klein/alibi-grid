@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "..........bc.b.d......d.a",
+  "roomNames": [
+    "Garden Courtyard",
+    "Fortune Teller",
+    "River Pagoda",
+    "Dragon Boat"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Birgit the boatman",
+    "Vivian the village magistrate",
+    "Celia the calligrapher",
+    "Della the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "next",
+      "fireworks"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    12,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "fireworks",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

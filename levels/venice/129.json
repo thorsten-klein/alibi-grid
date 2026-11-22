@@ -1,0 +1,178 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000111122000111122334444555334444555334444555666666555666666555",
+  "objects": "....f.b...b.d.....b....d.d........f........e..b....b..dd...f..b..ceb...b..cbc...a",
+  "roomNames": [
+    "Courtyard",
+    "Palazzo Chapel",
+    "Wine Cellar",
+    "Servants Mezzanine",
+    "Mask Atelier",
+    "Mirrored Gallery",
+    "Grand Ballroom"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the barcarolle singer",
+    "Carl the courtesan",
+    "Dexter the doge",
+    "Elias the envoy",
+    "Felix the fencing master",
+    "Victor the venetian senator",
+    "Gus the gondolier",
+    "Hugo the harlequin"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "maskstand"
+    ],
+    [
+      1,
+      "next",
+      "daybed"
+    ],
+    [
+      2,
+      "on",
+      "daybed"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "on",
+      "daybed"
+    ],
+    [
+      7,
+      "next",
+      "gondola"
+    ],
+    [
+      8,
+      "next",
+      "throne"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    30,
+    40,
+    47,
+    62,
+    64,
+    79
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "daybed",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 8,
+  "steps": 23,
+  "extra": true
+}

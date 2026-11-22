@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000113333000113333444555666444555666444555666444555666444555666",
+  "objects": ".....d..d.d.....a...b....a........b.b....b.f.....d...b......bb...a.a.....eb..c..d",
+  "roomNames": [
+    "Orchestra Pit",
+    "Lighting Booth",
+    "Box Office",
+    "Bar",
+    "Costume Room",
+    "Wings",
+    "Stage"
+  ],
+  "people": [
+    "Astrid the author",
+    "Birgit the baritone",
+    "Celia the choreographer",
+    "Dmitri the dancer",
+    "Edgar the electrician",
+    "Flora the fan",
+    "Vince the ventriloquist",
+    "Grace the guitarist",
+    "Hilda the harpist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "mirror"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "next",
+      "mirror"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    18,
+    33,
+    39,
+    47,
+    62,
+    68,
+    79
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      44,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 25,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 44,
+  "extra": true
+}

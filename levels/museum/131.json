@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001222222001222222001222222001333333001333333001333333444444444555556666555556666",
+  "objects": ".....a..af.fb.b.....b..d..be.c.d..a..b.c.....fa...b......d........c........a.c...",
+  "roomNames": [
+    "Gift Shop",
+    "Sculpture Court",
+    "Medieval Hall",
+    "Grand Rotunda",
+    "Curator Study",
+    "Greek Antiquities",
+    "Vault"
+  ],
+  "people": [
+    "Astrid the archaeologist",
+    "Birgit the benefactor",
+    "Celia the curator",
+    "Della the director",
+    "Ena the egyptologist",
+    "Flora the forger",
+    "Grace the guard",
+    "Vivian the valuer",
+    "Hana the historian"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "turnstile"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    8,
+    10,
+    22,
+    33,
+    43,
+    48,
+    59,
+    65,
+    72
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "turnstile",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

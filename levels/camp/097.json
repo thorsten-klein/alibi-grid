@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "001111001111002233002233442233442233",
+  "objects": "......f.a.....f.....ca.e.ce...a.....",
+  "roomNames": [
+    "Elder Hut",
+    "Berry Grove",
+    "Hide Tent",
+    "Painted Wall",
+    "Bone Yard"
+  ],
+  "people": [
+    "Vince the valley guide",
+    "Alma the acrobat",
+    "Bruno the builder",
+    "Cora the carver",
+    "Daisy the dancer",
+    "Edith the elder"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    17,
+    19,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".1..1.",
+  "tags": ".......4................1........1..",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

@@ -1,0 +1,190 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000113333000113333444555666444555666444555666444555666444555666",
+  "objects": ".....d..d.d.....a...b....a........b.b....b.f.....d...b......bb...a.a.....eb..c..d",
+  "roomNames": [
+    "Observatory",
+    "Lecture Theater",
+    "Philosopher Garden",
+    "Archivist Sanctum",
+    "Courtyard Fountain",
+    "Papyrus Vault",
+    "Great Peristyle"
+  ],
+  "people": [
+    "Arthur the astronomer",
+    "Basil the botanist",
+    "Cedric the chronicler",
+    "Dmitri the dialectician",
+    "Edgar the epigrapher",
+    "Frank the folklorist",
+    "Vince the visiting philosopher",
+    "Gideon the grammarian",
+    "Henrik the historian"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "sphere"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "next",
+      "mat"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "mat"
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "cupboard"
+    ],
+    [
+      8,
+      "next",
+      "sphere"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    18,
+    33,
+    39,
+    47,
+    62,
+    68,
+    79
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      44,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 25,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 44,
+  "extra": true
+}

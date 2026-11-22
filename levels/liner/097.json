@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "d..b.....efd....b..c.........a......b.....a.add..",
+  "roomNames": [
+    "First Class Lounge",
+    "Steerage Quarters",
+    "Turkish Bath",
+    "Galley",
+    "Boiler Room"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Vince the voyage sponsor",
+    "Basil the boatswain",
+    "Cedric the captain",
+    "Dmitri the deckhand",
+    "Edgar the electrician",
+    "Frank the first mate"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "telegraph"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "next",
+      "lifeboat"
+    ],
+    [
+      6,
+      "on",
+      "deckchair"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    33,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "berth",
+      1
+    ],
+    [
+      "nextCount",
+      "piano",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

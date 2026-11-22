@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "....e....e.a.c.ab..f..d.a..c.......d",
+  "roomNames": [
+    "Refectory",
+    "Bell Tower",
+    "Herb Garden",
+    "Cloister Walk",
+    "Crypt"
+  ],
+  "people": [
+    "Arthur the almoner",
+    "Vince the vicar general",
+    "Basil the brewer",
+    "Cedric the cantor",
+    "Dmitri the document copyist",
+    "Edgar the elder brother"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      0,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "next",
+      "reliquary"
+    ],
+    [
+      3,
+      "next",
+      "bellrope"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    18,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "altar",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

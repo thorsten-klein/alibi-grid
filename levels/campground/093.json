@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "...c..a.fff...e...dba...e...efe...b.ee....ef.f...",
+  "roomNames": [
+    "Counselor Cabin",
+    "Director Office",
+    "Bunkhouse Alpha",
+    "Shower Block",
+    "Archery Range"
+  ],
+  "people": [
+    "Albert the archery instructor",
+    "Bruno the boating coach",
+    "Carl the camp counselor",
+    "Dexter the drama coach",
+    "Elias the ecology guide",
+    "Victor the veteran camp owner",
+    "Felix the fisher"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "board"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "board"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "next",
+      "board"
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    17,
+    22,
+    32,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

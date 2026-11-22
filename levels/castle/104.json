@@ -1,0 +1,120 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": "..d.af..b.e.fa..ad..ac.........bc....e...........",
+  "roomNames": [
+    "Tower",
+    "Courtyard",
+    "Dungeon",
+    "Gatehouse",
+    "Stables"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Viola the verger",
+    "Birgit the baker",
+    "Carl the cupbearer",
+    "Della the dancer",
+    "Elias the embroiderer",
+    "Freya the farrier"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "candles"
+    ],
+    [
+      2,
+      "next",
+      "candles"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    18,
+    27,
+    31,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "kkccccc",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "extra": true
+}

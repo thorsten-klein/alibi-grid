@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333344445555444455554444555544445555",
+  "objects": ".acdf..bc..a.f.f.d..f.b..a.....d..............bf..d...a......abb",
+  "roomNames": [
+    "Master Bedroom",
+    "Bottling Line",
+    "Tasting Salon",
+    "Oak Barrel Cellar",
+    "Manor Library",
+    "Vineyard Plot"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Bea the barrel cooper",
+    "Clara the cellar master",
+    "Dora the distributor",
+    "Edith the estate manager",
+    "Freya the field laborer",
+    "Greta the grape picker",
+    "Vera the vintner"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "still"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "press"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      0
+    ],
+    [
+      6,
+      "notRoom",
+      4
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    25,
+    35,
+    40,
+    52,
+    61
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      2
+    ],
+    [
+      "onCount",
+      "bench",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

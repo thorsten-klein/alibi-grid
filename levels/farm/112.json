@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444444445555555555555555",
+  "objects": "..aa.......a...fae.........b...bd.dc..d...b.............e......f",
+  "roomNames": [
+    "Farmstand",
+    "Fruit Orchard",
+    "Root Cellar",
+    "Tractor Garage",
+    "Grain Silo",
+    "Big Barn"
+  ],
+  "people": [
+    "Astrid the agronomist",
+    "Birgit the barn hand",
+    "Celia the cider presser",
+    "Della the ditcher",
+    "Ena the entomologist",
+    "Flora the farrier",
+    "Vivian the veterinarian",
+    "Grace the greenhouse tender"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "bale"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "scarecrow"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "anvil"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    21,
+    31,
+    33,
+    42,
+    51,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      42,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "rocker",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0000000000111112223322233",
+  "objects": "..a...d...aca.b..b...b..b",
+  "roomNames": [
+    "Suite",
+    "Boot Room",
+    "Bar",
+    "Fireside Lounge"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Victor the vlogger",
+    "Bea the bartender",
+    "Carl the cook",
+    "Dora the driver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      11
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "extra": true
+}

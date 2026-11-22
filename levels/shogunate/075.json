@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0001100011222223333333333",
+  "objects": "...........f...d.f..d...b",
+  "roomNames": [
+    "Daimyo Hall",
+    "Falconry Yard",
+    "Tea Ceremony Room",
+    "Ninja Loft"
+  ],
+  "people": [
+    "Alma the artisan",
+    "Bella the bowyer",
+    "Cora the cook",
+    "Daisy the drummer",
+    "Viola the visiting monk"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    10,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "bdaaaa.bfa...c.a...ae.........f.....eb.e..cef...e",
+  "roomNames": [
+    "Mess Hall",
+    "Observatory",
+    "Hydroponics",
+    "Med Bay",
+    "Bridge"
+  ],
+  "people": [
+    "Ada the astronaut",
+    "Bea the botanist",
+    "Clara the chemist",
+    "Dmitri the doctor",
+    "Elsa the electrician",
+    "Felix the farmer",
+    "Vera the visitor"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    15,
+    24,
+    34,
+    37,
+    47
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "extra": true
+}

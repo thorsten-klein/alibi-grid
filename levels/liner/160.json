@@ -1,0 +1,250 @@
+{
+  "size": 12,
+  "rooms": "000011122222000011122222000011122222333311122222333311144444333311144444335554446666335554446666335554446666335554447777888888887777888888887777",
+  "objects": ".bb....b.a......bf...b...b.d...e.......d.....b.b.....d..a....a.................d.fa..d...d.af.cbb..deff.a.f...a.....e.a.....d....f...bd....ecdda",
+  "roomNames": [
+    "Grand Ballroom",
+    "Bridge",
+    "First Class Lounge",
+    "Steerage Quarters",
+    "Library",
+    "Dining Saloon",
+    "Stateroom A",
+    "Turkish Bath",
+    "Promenade Deck"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bartender",
+    "Carl the chief engineer",
+    "Dexter the doctor",
+    "Elias the envoy",
+    "Felix the fireman",
+    "Gus the governess",
+    "Hugo the heiress",
+    "Igor the inspector",
+    "Jasper the jeweller",
+    "Victor the valet",
+    "Klaus the kettle tender"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "on",
+      "berth"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "telegraph"
+    ],
+    [
+      3,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "room",
+      1
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      9
+    ],
+    [
+      7,
+      "on",
+      "deckchair"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "deckchair"
+    ],
+    [
+      9,
+      "next",
+      "telegraph"
+    ],
+    [
+      9,
+      "door",
+      null
+    ],
+    [
+      10,
+      "next",
+      "lifeboat"
+    ],
+    [
+      11,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    1,
+    23,
+    32,
+    46,
+    51,
+    66,
+    74,
+    91,
+    105,
+    112,
+    125,
+    132
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      27,
+      39
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      64,
+      76
+    ],
+    [
+      44,
+      56
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      109,
+      121
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      71,
+      83
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      115,
+      127
+    ],
+    [
+      110,
+      122
+    ],
+    [
+      107,
+      119
+    ],
+    [
+      127,
+      128
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      11,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      134,
+      "b"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "telegraph",
+      2
+    ],
+    [
+      "nextCount",
+      "lifeboat",
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 9,
+  "steps": 45,
+  "extra": true
+}

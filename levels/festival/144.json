@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0000112222000011222233331122223333112222444455555544445555554444666666777766666677777777667777777766",
+  "objects": ".b...c.ea...e..a....b.....ab.......b...a.......ac....ab....e....dc.......e..c.e..a........d..c.a....",
+  "roomNames": [
+    "Campers Field",
+    "Guitar Tech Tent",
+    "Security Checkpoint",
+    "Port-a-Jon Alley",
+    "First Aid Tent",
+    "Green Room",
+    "Mixing Tower",
+    "Beer Garden"
+  ],
+  "people": [
+    "Ada the artist agent",
+    "Vera the vocal coach",
+    "Bea the bodyguard",
+    "Clara the cameraman",
+    "Dora the disc jockey",
+    "Edith the event producer",
+    "Freya the fan president",
+    "Greta the groupie coordinator",
+    "Hilda the head of security",
+    "Ivy the influencer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "roadcase"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "next",
+      "drums"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "roadcase"
+    ],
+    [
+      9,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    21,
+    33,
+    45,
+    57,
+    69,
+    74,
+    88,
+    96
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      97,
+      98
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

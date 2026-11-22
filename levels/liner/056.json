@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "f.a.a.c.a....da...a.b..e.",
+  "roomNames": [
+    "Stateroom A",
+    "Boiler Room",
+    "Library",
+    "Grand Ballroom"
+  ],
+  "people": [
+    "Viola the valet",
+    "Alma the aristocrat",
+    "Bella the bartender",
+    "Cora the chief engineer",
+    "Daisy the doctor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "deckchair"
+    ],
+    [
+      1,
+      "next",
+      "lifeboat"
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "next",
+      "deckchair"
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    10,
+    19,
+    21
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

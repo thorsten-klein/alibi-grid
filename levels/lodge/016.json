@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0001100011222222222233333",
+  "objects": "..c.........b.....b..bc..",
+  "roomNames": [
+    "Terrace",
+    "Fireside Lounge",
+    "Kitchen",
+    "Lobby"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Basil the bartender",
+    "Victor the vet",
+    "Clara the cook",
+    "Dmitri the driver"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    14,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      15,
+      20
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "group": 2
+}

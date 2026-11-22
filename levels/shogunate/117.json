@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223333322233333222444455554444555544445555",
+  "objects": ".d..f.f...a.fa..a.e..f....b.bc.eab.a..bd..e...cf................",
+  "roomNames": [
+    "Shrine",
+    "Guard Gate",
+    "Kitchen",
+    "Sentry Tower",
+    "Ninja Loft",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Astrid the artisan",
+    "Birgit the bowyer",
+    "Celia the cook",
+    "Della the drummer",
+    "Vivian the visiting monk",
+    "Ena the embroiderer",
+    "Flora the foot soldier",
+    "Grace the guard"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "tatami"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bonsai"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    22,
+    27,
+    36,
+    41,
+    50,
+    61
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "futon",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 8,
+  "steps": 18,
+  "extra": true
+}

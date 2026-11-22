@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122220112222011222233344443334444333",
+  "objects": ".a.........ebe...f.a......b..a.ec.c...ffe.e.e..b.",
+  "roomNames": [
+    "Walk In Cooler",
+    "Main Dining Room",
+    "Butcher Larder",
+    "Chef Private Office",
+    "Pastry Kitchen"
+  ],
+  "people": [
+    "Albert the appetizer cook",
+    "Victor the veteran restaurateur",
+    "Bruno the butcher",
+    "Carl the chocolatier",
+    "Dexter the dessert chef",
+    "Elias the executive chef",
+    "Felix the fromager"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "banquette"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "espresso"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "fridge"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      0
+    ],
+    [
+      "nextCount",
+      "cooktop",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,78 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a.a...fc.......a",
+  "roomNames": [
+    "Hydroponics",
+    "Cargo Bay",
+    "Lab"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Birgit the biologist",
+    "Vivian the visitor",
+    "Clara the captain"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "row",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

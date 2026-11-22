@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "roomNames": [
+    "Tool Shed",
+    "Farmhouse Kitchen",
+    "Pig Pen",
+    "Hayloft",
+    "Root Cellar"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Bruno the barn hand",
+    "Carl the cider presser",
+    "Dexter the ditcher",
+    "Elias the entomologist",
+    "Felix the farrier",
+    "Victor the veterinarian"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "bale"
+    ],
+    [
+      1,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "tractor"
+    ],
+    [
+      2,
+      "next",
+      "bale"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tractor"
+    ],
+    [
+      5,
+      "next",
+      "bale"
+    ],
+    [
+      5,
+      "next",
+      "anvil"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    22,
+    32,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

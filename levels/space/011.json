@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333222244445555444455554444",
+  "objects": "........b..e.......e.......d..d...d.........a........a...dfba...",
+  "roomNames": [
+    "Observatory",
+    "Cargo Bay",
+    "Lab",
+    "Engine Room",
+    "Med Bay",
+    "Airlock"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Bea the botanist",
+    "Vera the volunteer",
+    "Carl the captain",
+    "Dexter the driller",
+    "Elsa the engineer",
+    "Frank the farmer",
+    "Gus the gunner"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      4,
+      "next",
+      "scope"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      7,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    20,
+    29,
+    35,
+    40,
+    50,
+    63
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "pod",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 18,
+  "group": 1
+}

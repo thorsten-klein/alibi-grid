@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "001111001111223333223333224444224444",
+  "objects": "bbb.c..e...f..cb...aa.ff..a.a..aed.f",
+  "roomNames": [
+    "Berry Grove",
+    "Bone Yard",
+    "Elder Hut",
+    "Fire Pit",
+    "River Bank"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bea the beekeeper",
+    "Cora the carver",
+    "Dexter the dancer",
+    "Vivian the visionary",
+    "Edgar the elk tamer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "bones"
+    ],
+    [
+      3,
+      "next",
+      "leaves"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    17,
+    21,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "rules": [
+    "trades"
+  ],
+  "trade": ".....1",
+  "tags": ".....4.......................14...1.",
+  "extra": true
+}

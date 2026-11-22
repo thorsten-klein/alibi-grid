@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0112222011222201133330113333011444401144440114444",
+  "objects": ".....a......f.....ea..dbbb.a......a.a.d..a.b.....",
+  "roomNames": [
+    "Cleanroom 1",
+    "Cryo Storage",
+    "Specimen Nursery",
+    "Chemical Vault",
+    "Control Center"
+  ],
+  "people": [
+    "Astrid the algorithm engineer",
+    "Vivian the venture backer",
+    "Birgit the bioethicist",
+    "Celia the cryo technician",
+    "Della the data architect",
+    "Ena the ecologist",
+    "Flora the forensic chemist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    14,
+    23,
+    32,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      42,
+      43
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      25,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

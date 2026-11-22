@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000333322000333322000333322444444555444444555666644555666644555",
+  "objects": "e.fb...a....f.e..f........f...e.....bda........d....d.f.cdaa...........e.ffd.....",
+  "roomNames": [
+    "Med Bay",
+    "Crew Quarters",
+    "Lab",
+    "Engine Room",
+    "Mess Hall",
+    "Gym",
+    "Comms"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Bella the biologist",
+    "Cedric the chemist",
+    "Dora the driller",
+    "Elsa the electrician",
+    "Fiona the flight officer",
+    "Gideon the geologist",
+    "Hugo the hull technician",
+    "Victor the visitor"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "plant"
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "tank"
+    ],
+    [
+      8,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    21,
+    28,
+    43,
+    49,
+    60,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "l"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "alone",
+      null,
+      5
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "group": 2
+}

@@ -1,0 +1,143 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344444333444443335555533355555",
+  "objects": "..a......c..ce..ab....ef.a.e.d..fee.e..c.d...ce.........a..e....",
+  "roomNames": [
+    "Statue Hall",
+    "Burial Chamber",
+    "Granary",
+    "Shrine",
+    "Sun Court",
+    "Workshop"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bruno the brewer",
+    "Carl the carpenter",
+    "Dmitri the dancer",
+    "Vivian the vizier",
+    "Edith the embalmer",
+    "Frank the fisher",
+    "Grace the guard"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    21,
+    24,
+    38,
+    44,
+    49,
+    63
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      46,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "...LC.....C.............C..........L..C.....C....L..............",
+  "extra": true
+}

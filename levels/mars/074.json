@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".......d.......e..bc..f..",
+  "roomNames": [
+    "Water Reclamation",
+    "Solar Array Control",
+    "Medical Bay",
+    "Gymnasium"
+  ],
+  "people": [
+    "Arthur the astrobiologist",
+    "Basil the botanist",
+    "Cedric the commander",
+    "Dmitri the drill operator",
+    "Vince the venture sponsor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

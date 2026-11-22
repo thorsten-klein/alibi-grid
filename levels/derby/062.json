@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".bdf..b..f......f.b.a..d.",
+  "roomNames": [
+    "Saddling Boxes",
+    "Stables",
+    "Paddock Ring",
+    "Grandstand Terrace"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the breeder",
+    "Cora the clerk of scales",
+    "Daisy the doper",
+    "Viola the visiting royalty"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "haystack"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "on",
+      "stablebench"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    10,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

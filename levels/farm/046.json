@@ -1,0 +1,86 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "..e......a...a..",
+  "roomNames": [
+    "Pig Pen",
+    "Farmstand",
+    "Milking Shed"
+  ],
+  "people": [
+    "Vince the veterinarian",
+    "Arthur the agronomist",
+    "Basil the barn hand",
+    "Cedric the cider presser"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "churn"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "bale",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

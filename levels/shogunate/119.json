@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111002223330022233300222333444455554444555544445555",
+  "objects": ".ba..a....b..c....db........f..e....ac...c....ac...dbc...b.....f",
+  "roomNames": [
+    "Guard Gate",
+    "Moon Balcony",
+    "Zen Garden",
+    "Ninja Loft",
+    "Tea Ceremony Room",
+    "Stables"
+  ],
+  "people": [
+    "Albert the artisan",
+    "Bruno the bowyer",
+    "Carl the cook",
+    "Dexter the drummer",
+    "Elias the embroiderer",
+    "Felix the foot soldier",
+    "Victor the visiting monk",
+    "Gus the guard"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "tatami"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "armor"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "tatami"
+    ],
+    [
+      7,
+      "next",
+      "shoji"
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    20,
+    25,
+    32,
+    45,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

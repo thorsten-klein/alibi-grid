@@ -1,0 +1,165 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333222222333224444333224444555556666555556666555556666",
+  "objects": "d.d..dec...a.ba.e....c...eaf...b......df...ba.e.b...bd..a......cdd...d..........e",
+  "roomNames": [
+    "Ninja Loft",
+    "Falconry Yard",
+    "Tea Ceremony Room",
+    "Zen Garden",
+    "Guard Gate",
+    "Stables",
+    "Moon Balcony"
+  ],
+  "people": [
+    "Astrid the artisan",
+    "Birgit the bowyer",
+    "Celia the cook",
+    "Della the drummer",
+    "Ena the embroiderer",
+    "Flora the foot soldier",
+    "Grace the guard",
+    "Hana the herbalist",
+    "Vivian the visiting monk"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "bonsai"
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "next",
+      "futon"
+    ],
+    [
+      4,
+      "next",
+      "taiko"
+    ],
+    [
+      5,
+      "on",
+      "futon"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "shoji"
+    ]
+  ],
+  "solution": [
+    1,
+    17,
+    20,
+    30,
+    36,
+    52,
+    59,
+    67,
+    78
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "shoji",
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 41,
+  "extra": true
+}

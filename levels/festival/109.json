@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222233322222333444555334445553344455533",
+  "objects": ".b.c...a.b......d...fd.b....ba.b.f...a..bf..f....e...beb...b...c",
+  "roomNames": [
+    "Green Room",
+    "Guitar Tech Tent",
+    "Main Stage",
+    "Backstage VIP",
+    "Security Checkpoint",
+    "Campers Field"
+  ],
+  "people": [
+    "Ada the audio engineer",
+    "Bea the bass player",
+    "Clara the crew chief",
+    "Dora the drummer",
+    "Edith the electrician",
+    "Vera the vip record exec",
+    "Freya the frontman",
+    "Greta the guitarist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "amp"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "on",
+      "sofa"
+    ],
+    [
+      6,
+      "next",
+      "lighttower"
+    ],
+    [
+      7,
+      "next",
+      "roadcase"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    29,
+    39,
+    40,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "nextCount",
+      "roadcase",
+      1
+    ]
+  ],
+  "hard": 12,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

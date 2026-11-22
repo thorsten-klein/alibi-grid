@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111222333222333444444",
+  "objects": ".....f..aa..b...bf.c..be......a.a...",
+  "roomNames": [
+    "Pier Edge",
+    "Carousel Pavilion",
+    "Maintenance Hut",
+    "Souvenir Shack",
+    "Arcade Alley"
+  ],
+  "people": [
+    "Victor the vagrant",
+    "Albert the arcade repairman",
+    "Bruno the boardwalk walker",
+    "Carl the caretaker",
+    "Dexter the drifter",
+    "Elias the electrician"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "on",
+      "cart"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    15,
+    22,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      26,
+      32
+    ],
+    [
+      29,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

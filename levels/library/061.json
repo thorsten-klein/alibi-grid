@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "a...e.bc.ab...b.fd....bfd",
+  "roomNames": [
+    "Lecture Theater",
+    "Scribes Hall",
+    "Observatory",
+    "Great Peristyle"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bruno the bookbinder",
+    "Victor the veteran sage",
+    "Carl the cartographer",
+    "Dexter the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bust"
+    ],
+    [
+      3,
+      "next",
+      "burner"
+    ],
+    [
+      4,
+      "on",
+      "mat"
+    ],
+    [
+      4,
+      "next",
+      "sphere"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

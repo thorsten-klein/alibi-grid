@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "..a..b....a.c...",
+  "roomNames": [
+    "Opium Den",
+    "Pub Taproom",
+    "Apothecary"
+  ],
+  "people": [
+    "Alma the apothecary",
+    "Bella the blackmailer",
+    "Cora the constable",
+    "Viola the victim of nobility"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 8,
+  "extra": true
+}

@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "b......a.d.d..b....ce..b..eb.b....db",
+  "roomNames": [
+    "Coral Lagoon",
+    "Reception Lobby",
+    "Infinity Pool",
+    "Tiki Bar",
+    "Luau Grounds"
+  ],
+  "people": [
+    "Astrid the activities director",
+    "Birgit the bartender",
+    "Celia the concierge",
+    "Vivian the vacationer",
+    "Della the divemaster",
+    "Ena the excursion guide"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "next",
+      "towel"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "hammock"
+    ],
+    [
+      5,
+      "next",
+      "jetski"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    15,
+    22,
+    29,
+    32
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      3
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

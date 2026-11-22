@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "fb.......ddcf.cb.b....a..",
+  "roomNames": [
+    "Prop Armory",
+    "Studio Commissary",
+    "Editing Suite",
+    "Wardrobe Vault"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Basil the boom operator",
+    "Cedric the cinematographer",
+    "Vince the voice actor",
+    "Dmitri the director"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "couch",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

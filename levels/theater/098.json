@@ -1,0 +1,128 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "b.......cbd.e.ae...c.......ba....eaa",
+  "roomNames": [
+    "Wings",
+    "Bar",
+    "Dressing Room",
+    "Lighting Booth",
+    "Costume Room"
+  ],
+  "people": [
+    "Albert the author",
+    "Basil the bass player",
+    "Viola the ventriloquist",
+    "Cora the choreographer",
+    "Dmitri the director",
+    "Ena the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    17,
+    20,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

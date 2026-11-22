@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "f.....f....e..f...a......b...c..a.e.f.a....bd....",
+  "roomNames": [
+    "Tire Bay",
+    "Team Garage A",
+    "Fuel Storage",
+    "VIP Balcony",
+    "Team Garage B"
+  ],
+  "people": [
+    "Astrid the aerodynamicist",
+    "Birgit the brake tech",
+    "Celia the chief mechanic",
+    "Della the driver",
+    "Ena the engine tuner",
+    "Vivian the veteran champion",
+    "Flora the fuel specialist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "toolbox"
+    ],
+    [
+      3,
+      "next",
+      "bucket"
+    ],
+    [
+      4,
+      "next",
+      "chassis"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    25,
+    28,
+    40,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "toolbox",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

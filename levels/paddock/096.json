@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....f.df.bf....a....ac...........bc....f.b..bc..",
+  "roomNames": [
+    "Scrutineering Shed",
+    "Media Center",
+    "Hospitality Suite",
+    "Team Garage A",
+    "Tire Bay"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Victor the veteran champion",
+    "Dexter the driver",
+    "Elias the engine tuner",
+    "Felix the fuel specialist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "toolbox"
+    ],
+    [
+      2,
+      "next",
+      "tires"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "chassis"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    14,
+    25,
+    34,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 16,
+  "extra": true
+}

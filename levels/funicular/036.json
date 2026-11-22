@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "..e.b....b.e....",
+  "roomNames": [
+    "Glacier Overlook",
+    "Transformer Vault",
+    "Staff Bunkhouse"
+  ],
+  "people": [
+    "Ada the alpine guide",
+    "Vera the visiting vip",
+    "Bea the billeter",
+    "Clara the cable splicer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

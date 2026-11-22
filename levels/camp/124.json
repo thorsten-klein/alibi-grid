@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222211122222111333445553334455533344555",
+  "objects": ".....b.b.f....aa...a..b..af.....b..b.ba.f.e...a.df......b.ea..a.",
+  "roomNames": [
+    "Lookout Rock",
+    "Cave",
+    "Spring",
+    "Painted Wall",
+    "Hunting Ground",
+    "Hide Tent"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bruno the builder",
+    "Cedric the carver",
+    "Dora the drummer",
+    "Elias the elk tamer",
+    "Fiona the flute player",
+    "Gus the guard",
+    "Vivian the valley guide"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "on",
+      "log"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "on",
+      "log"
+    ],
+    [
+      3,
+      "next",
+      "bones"
+    ],
+    [
+      4,
+      "next",
+      "leaves"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      5
+    ],
+    [
+      7,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    16,
+    25,
+    36,
+    43,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 21,
+  "facts": [
+    [
+      "nextCount",
+      "bones",
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".0.41...",
+  "tags": "1...........03......................1....3......................",
+  "extra": true
+}

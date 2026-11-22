@@ -1,0 +1,83 @@
+{
+  "size": 5,
+  "rooms": "0000011111112221133311333",
+  "objects": "............f....b......e",
+  "roomNames": [
+    "Dock",
+    "Open Sea",
+    "Market",
+    "Fort"
+  ],
+  "people": [
+    "Albert the armorer",
+    "Bea the boatswain",
+    "Cedric the captain",
+    "Dmitri the diver",
+    "Viola the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    11,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      12,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

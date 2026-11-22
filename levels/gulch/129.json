@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0000000011122222111222223334444433344444333444443335555533355555",
+  "objects": "bf.eb..eb........d.....a...b.....d...d...a.....c.c..e..b........",
+  "roomNames": [
+    "Sheriff Office",
+    "General Store",
+    "Church",
+    "Bank",
+    "Corral",
+    "Barber"
+  ],
+  "people": [
+    "Albert the auctioneer",
+    "Basil the banker",
+    "Cedric the cook",
+    "Della the deputy",
+    "Elias the engineer",
+    "Freya the farrier",
+    "Viola the vaquero",
+    "Gideon the gunsmith"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "horse"
+    ],
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "withBandit"
+    ],
+    [
+      3,
+      "next",
+      "cactus"
+    ],
+    [
+      4,
+      "next",
+      "bed"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    22,
+    25,
+    35,
+    45,
+    48,
+    60
+  ],
+  "doors": [
+    [
+      1,
+      9
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

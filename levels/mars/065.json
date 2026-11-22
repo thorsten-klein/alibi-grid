@@ -1,0 +1,89 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".....cf...e.....a.b.afce.",
+  "roomNames": [
+    "Command Hub",
+    "Hydroponic Dome",
+    "Comms Array",
+    "Gymnasium"
+  ],
+  "people": [
+    "Vivian the visiting inspector",
+    "Astrid the agronomist",
+    "Birgit the biosphere tech",
+    "Celia the chemist",
+    "Della the doctor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "tower"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

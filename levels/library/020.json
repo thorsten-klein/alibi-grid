@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222223332222233322222333444445554444455544444555",
+  "objects": ".....e....dda....fc.a.....a.fc.f.........ca....a..b.fcaa........",
+  "roomNames": [
+    "Lecture Theater",
+    "Archivist Sanctum",
+    "Observatory",
+    "Courtyard Fountain",
+    "Papyrus Vault",
+    "Translation Chamber"
+  ],
+  "people": [
+    "Arthur the archivist",
+    "Basil the bookbinder",
+    "Cedric the cartographer",
+    "Dmitri the doctor",
+    "Edgar the educator",
+    "Vince the veteran sage",
+    "Frank the fanbearer",
+    "Gideon the geometer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "bust"
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "next",
+      "burner"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    16,
+    26,
+    35,
+    46,
+    49,
+    63
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "mat",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 24,
+  "group": 2
+}

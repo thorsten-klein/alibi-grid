@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": ".b.b.ab..db.b....ab.fbc..",
+  "roomNames": [
+    "Shrine",
+    "Hall of Pillars",
+    "Well Shaft",
+    "Boat Pit"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Birgit the brewer",
+    "Carl the carpenter",
+    "Vera the vintner",
+    "Dora the dancer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "on",
+      "couch"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    12,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".......C.................",
+  "hard": 1,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

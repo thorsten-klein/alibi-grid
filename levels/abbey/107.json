@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "a..a.........e..e.ef.be..a.......e.d..a........b.",
+  "roomNames": [
+    "Cloister Walk",
+    "Bell Tower",
+    "Prior Cell",
+    "Chapter House",
+    "Infirmary"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Vivian the vicar general",
+    "Della the document copyist",
+    "Ena the elder brother",
+    "Flora the friar"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "next",
+      "bellrope"
+    ],
+    [
+      3,
+      "on",
+      "palliasse"
+    ],
+    [
+      4,
+      "notRoom",
+      4
+    ],
+    [
+      5,
+      "next",
+      "palliasse"
+    ],
+    [
+      6,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    20,
+    21,
+    31,
+    40,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ],
+    [
+      "nextCount",
+      "bellrope",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

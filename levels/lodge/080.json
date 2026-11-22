@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": ".c..a.......c......b......f...f...e.",
+  "roomNames": [
+    "Kitchen",
+    "Fireside Lounge",
+    "Boot Room",
+    "Bar",
+    "Terrace"
+  ],
+  "people": [
+    "Astrid the athlete",
+    "Vera the vlogger",
+    "Bea the bartender",
+    "Celia the cook",
+    "Dora the driver",
+    "Elias the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "next",
+      "wood"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    14,
+    22,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      0,
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,128 @@
+{
+  "size": 6,
+  "rooms": "000000000000112222112222333344333344",
+  "objects": "..b...b.b..e.b..........b.c..e.....b",
+  "roomNames": [
+    "Engine Room",
+    "Mess Hall",
+    "Gym",
+    "Cargo Bay",
+    "Observatory"
+  ],
+  "people": [
+    "Vivian the volunteer",
+    "Arthur the astronaut",
+    "Birgit the botanist",
+    "Cedric the chemist",
+    "Daisy the doctor",
+    "Elsa the engineer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    15,
+    23,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

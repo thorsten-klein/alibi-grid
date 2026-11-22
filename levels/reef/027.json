@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112223333444333344444444444444444",
+  "objects": "f..b.b...d.........a.bb.....a....................",
+  "roomNames": [
+    "Lighthouse",
+    "Sea Cave",
+    "Galleon",
+    "Frigate",
+    "Open Sea"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Basil the barkeep",
+    "Viola the voyager",
+    "Carl the captain",
+    "Dmitri the deckhand",
+    "Elsa the engineer",
+    "Flora the first mate"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "col",
+      6
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    18,
+    24,
+    33,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 4,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 23,
+  "group": 3
+}

@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
+  "objects": ".b..d....e.c..a.......caa..b..f......ab.a.f....e...d......bc....",
+  "roomNames": [
+    "Security Control",
+    "Restoration Lab",
+    "Egyptian Wing",
+    "Greek Antiquities",
+    "Grand Rotunda",
+    "Loading Bay"
+  ],
+  "people": [
+    "Alma the archivist",
+    "Bella the bookkeeper",
+    "Cora the conservator",
+    "Viola the visiting donor",
+    "Daisy the docent",
+    "Elsa the evaluator",
+    "Fiona the floor warden",
+    "Gwen the goldsmith"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "notRoom",
+      5
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ],
+    [
+      6,
+      "next",
+      "display"
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "on",
+      "cot"
+    ]
+  ],
+  "solution": [
+    6,
+    13,
+    20,
+    24,
+    33,
+    43,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

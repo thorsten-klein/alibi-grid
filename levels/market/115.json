@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344555333445553334455533344555",
+  "objects": "c.....f...bff...........f..b.e...a.....db.b.....e......ab...e...",
+  "roomNames": [
+    "River Pagoda",
+    "Fireworks Barge",
+    "Fortune Teller",
+    "Silk Stall",
+    "Noodle Court",
+    "Tea Pavilion"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Bruno the bamboo carver",
+    "Carl the cook",
+    "Dexter the dancer",
+    "Elias the elder",
+    "Felix the fan painter",
+    "Victor the visiting noble",
+    "Gus the guard"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "fireworks"
+    ],
+    [
+      5,
+      "next",
+      "gong"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      7,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    20,
+    31,
+    38,
+    40,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      24,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

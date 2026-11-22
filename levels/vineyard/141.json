@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333444442222244444222225555666777555566677755556667775555666777",
+  "objects": "...........e..dfc.f..ebf..e..fe......a.e...aa.b..c.be..........b...f.f....bd....fd..d.c..e....a.....",
+  "roomNames": [
+    "Master Bedroom",
+    "Oak Barrel Cellar",
+    "Tasting Salon",
+    "Manor Library",
+    "Gatehouse",
+    "Bottling Line",
+    "Grape Press",
+    "Vineyard Plot"
+  ],
+  "people": [
+    "Ada the apprentice",
+    "Bea the bottler",
+    "Clara the cook",
+    "Dora the driver",
+    "Edith the enologist",
+    "Freya the fermenter",
+    "Greta the groundskeeper",
+    "Hilda the hostess",
+    "Vera the vineyard owner",
+    "Ivy the inspector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "still"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "press"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "rack"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    20,
+    38,
+    41,
+    56,
+    63,
+    74,
+    87,
+    99
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      96,
+      97
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

@@ -1,0 +1,211 @@
+{
+  "size": 11,
+  "rooms": "0000001111100000011111000000111112223334444422233344444222333444442223334444455566667777555666677775556666777755566667777",
+  "objects": "aee.b........d....fbfed.....b..b.aa......eb.....a.b...a.b...e..ec...bf.....b.....e.....e...cb.....be....f.bb....f..b.f.a.",
+  "roomNames": [
+    "Cryo Storage",
+    "Chemical Vault",
+    "Cleanroom 1",
+    "Decon Airlock",
+    "Generator Core",
+    "Control Center",
+    "Server Farm",
+    "Centrifuge Bay"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Bea the biochemist",
+    "Clara the chief scientist",
+    "Dora the dna sequencer",
+    "Edith the epidemiologist",
+    "Freya the facility director",
+    "Greta the geneticist",
+    "Hilda the hazard responder",
+    "Vera the virology head",
+    "Ivy the intern",
+    "Jade the janitor"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      6,
+      "next",
+      "hood"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "next",
+      "rack"
+    ],
+    [
+      10,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    30,
+    43,
+    47,
+    62,
+    75,
+    78,
+    94,
+    101,
+    115
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      33
+    ],
+    [
+      27,
+      38
+    ],
+    [
+      29,
+      40
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      118,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      3
+    ],
+    [
+      "nextCount",
+      "hood",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 34,
+  "extra": true
+}

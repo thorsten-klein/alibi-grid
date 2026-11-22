@@ -1,0 +1,119 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": ".......feacd.....e.c..d.....a.e.....",
+  "roomNames": [
+    "Smithy",
+    "Chapel",
+    "Tower",
+    "Stables",
+    "Throne Room"
+  ],
+  "people": [
+    "Arthur the alchemist",
+    "Bella the baker",
+    "Carl the chronicler",
+    "Dexter the doorkeeper",
+    "Vera the verger",
+    "Edgar the envoy"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "on",
+      "bench"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "candles"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    12,
+    23,
+    26,
+    31
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "cckkcc",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 15,
+  "extra": true
+}

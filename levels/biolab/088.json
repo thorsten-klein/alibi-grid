@@ -1,0 +1,132 @@
+{
+  "size": 6,
+  "rooms": "000000111111223333223333224444224444",
+  "objects": "........c.....c..a..f...a...........",
+  "roomNames": [
+    "Server Farm",
+    "Chemical Vault",
+    "Breakroom",
+    "Cleanroom 1",
+    "Specimen Nursery"
+  ],
+  "people": [
+    "Ada the algorithm engineer",
+    "Bea the bioethicist",
+    "Vera the venture backer",
+    "Clara the cryo technician",
+    "Dora the data architect",
+    "Edith the ecologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "hood"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    15,
+    23,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "hood",
+      1
+    ],
+    [
+      "nextCount",
+      "stool",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

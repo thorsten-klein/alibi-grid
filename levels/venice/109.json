@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "d.a.a..a......a...........a.....ed.f.......fab...",
+  "roomNames": [
+    "Private Boudoir",
+    "Palazzo Chapel",
+    "Grand Ballroom",
+    "Wine Cellar",
+    "Mask Atelier"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the barcarolle singer",
+    "Victor the venetian senator",
+    "Carl the courtesan",
+    "Dexter the doge",
+    "Elias the envoy",
+    "Felix the fencing master"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "throne"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "maskstand"
+    ],
+    [
+      6,
+      "next",
+      "throne"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    27,
+    28,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      21,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "nextCount",
+      "daybed",
+      0
+    ],
+    [
+      "nextCount",
+      "throne",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 36,
+  "extra": true
+}

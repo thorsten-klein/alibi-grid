@@ -1,0 +1,247 @@
+{
+  "size": 12,
+  "rooms": "000111122222000111122222000111122222000111122222000111133333000111133333444555666666444555666666444555777888444555777888444555777888444555777888",
+  "objects": ".d.b...b.b..daa.b......fa.e.de.d..bfc......b.b..f...da.....c.....e...cb....b......aefb.ae.af......fea.ab..bec....ab.......cb.........ee.........",
+  "roomNames": [
+    "Kitchen",
+    "Moon Balcony",
+    "Zen Garden",
+    "Guard Gate",
+    "Shrine",
+    "Armory",
+    "Ninja Loft",
+    "Falconry Yard",
+    "Stables"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the bushi warrior",
+    "Cedric the calligrapher",
+    "Dmitri the daimyo",
+    "Edgar the envoy",
+    "Frank the falconer",
+    "Vince the veteran general",
+    "Gideon the geisha",
+    "Henrik the hatamoto retainer",
+    "Ivo the inquisitor",
+    "Jonas the jester",
+    "Konrad the kendo master"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "next",
+      "bonsai"
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      2,
+      "next",
+      "bonsai"
+    ],
+    [
+      3,
+      "next",
+      "futon"
+    ],
+    [
+      4,
+      "next",
+      "armor"
+    ],
+    [
+      5,
+      "next",
+      "bonsai"
+    ],
+    [
+      6,
+      "on",
+      "tatami"
+    ],
+    [
+      7,
+      "next",
+      "taiko"
+    ],
+    [
+      8,
+      "next",
+      "taiko"
+    ],
+    [
+      8,
+      "next",
+      "armor"
+    ],
+    [
+      9,
+      "next",
+      "bonsai"
+    ],
+    [
+      9,
+      "next",
+      "futon"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "alone",
+      null
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    17,
+    25,
+    44,
+    57,
+    64,
+    82,
+    90,
+    96,
+    111,
+    127,
+    143
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      66,
+      78
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      92,
+      104
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      140,
+      141
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "onCount",
+      "futon",
+      0
+    ],
+    [
+      "nextCount",
+      "bonsai",
+      5
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "group": 3
+}

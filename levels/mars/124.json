@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333445553334455533344555333",
+  "objects": "......b...dc....d.f...a........b....f.a...dfe..be......a..d..fe.",
+  "roomNames": [
+    "Comms Array",
+    "Oxygen Scrubber",
+    "Hydroponic Dome",
+    "Solar Array Control",
+    "Airlock Module",
+    "Rover Bay"
+  ],
+  "people": [
+    "Arthur the astrobiologist",
+    "Basil the botanist",
+    "Cedric the commander",
+    "Vince the venture sponsor",
+    "Dmitri the drill operator",
+    "Edgar the environmental engineer",
+    "Frank the flight specialist",
+    "Gideon the geologist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "rover"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    22,
+    27,
+    32,
+    45,
+    50,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

@@ -1,0 +1,83 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "...a.........b..",
+  "roomNames": [
+    "Throne Room",
+    "Shrine",
+    "Bank"
+  ],
+  "people": [
+    "Victor the voyager",
+    "Arthur the archivist",
+    "Bella the bard",
+    "Cedric the clockmaker"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks",
+    "glyphs"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "nkkc",
+  "tags": ".........CL.C...",
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

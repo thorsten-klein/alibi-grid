@@ -1,0 +1,208 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222334445566633444556663344455666334445566677777555557777755555",
+  "objects": "e...bd.f...a.f.....a.b...fc....b........d....f.bb.cb..e.c..c...b..aaada.f...d.d..........bd..dc.....",
+  "roomNames": [
+    "Funhouse",
+    "Ticket Booth",
+    "Dressing Trailer",
+    "Ringmaster Wagon",
+    "Big Top",
+    "Prop Tent",
+    "Trapeze Rig",
+    "Hay Barn"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the barker",
+    "Carl the clown",
+    "Dexter the daredevil",
+    "Elias the escape artist",
+    "Victor the ventriloquist",
+    "Felix the fire eater",
+    "Gus the giant",
+    "Hugo the hypnotist",
+    "Igor the illusionist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "cage"
+    ],
+    [
+      1,
+      "next",
+      "cage"
+    ],
+    [
+      1,
+      "next",
+      "crystal"
+    ],
+    [
+      2,
+      "next",
+      "crystal"
+    ],
+    [
+      3,
+      "col",
+      9
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "cage"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "room",
+      5
+    ]
+  ],
+  "solution": [
+    4,
+    15,
+    23,
+    39,
+    41,
+    58,
+    60,
+    77,
+    82,
+    96
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      71,
+      81
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      94,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ],
+    [
+      98,
+      "b"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 32,
+  "extra": true
+}

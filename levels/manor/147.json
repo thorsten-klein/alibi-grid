@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333332222333334444333334444555556666555556666555556666",
+  "objects": "...e........b.......f..e....cb...a......c.a..b.ff..d....b.........a....ebc...c...",
+  "roomNames": [
+    "Dining Room",
+    "Conservatory",
+    "Pantry",
+    "Chapel",
+    "Billiard Room",
+    "Hall",
+    "Library"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Birgit the banker",
+    "Cedric the colonel",
+    "Daisy the doctor",
+    "Elias the envoy",
+    "Victor the valet",
+    "Fiona the florist",
+    "Gideon the guest",
+    "Hazel the heir"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "plant"
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "room",
+      4
+    ],
+    [
+      5,
+      "on",
+      "sofa"
+    ],
+    [
+      6,
+      "notRoom",
+      1
+    ],
+    [
+      7,
+      "next",
+      "shelf"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      7
+    ]
+  ],
+  "solution": [
+    4,
+    14,
+    21,
+    29,
+    44,
+    45,
+    60,
+    64,
+    79
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 24,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      0
+    ]
+  ],
+  "extra": true
+}

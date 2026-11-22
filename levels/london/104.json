@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "f.....f....e..f...a......b...c..a.e.f.a....bd....",
+  "roomNames": [
+    "Tenement Attic",
+    "Cobblestone Alley",
+    "Pub Taproom",
+    "Cab Stand",
+    "Pawn Shop"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the bowler hat seller",
+    "Celia the chimney sweep",
+    "Della the doctor",
+    "Ena the errand boy",
+    "Vivian the vagabond",
+    "Flora the fishmonger"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "kiosk"
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      4,
+      "next",
+      "streetlamp"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    25,
+    28,
+    40,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "kiosk",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

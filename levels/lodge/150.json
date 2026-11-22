@@ -1,0 +1,168 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222334445566334445566334445566334445566334445566334445566",
+  "objects": "....b......f...d....ef.b......ea..bfd.....a.....c..a...b...caf....bba..ce..f.....",
+  "roomNames": [
+    "Lobby",
+    "Boot Room",
+    "Terrace",
+    "Ski Room",
+    "Suite",
+    "Dining Hall",
+    "Fireside Lounge"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Bella the baker",
+    "Carl the cook",
+    "Viola the vet",
+    "Daisy the doctor",
+    "Elias the engineer",
+    "Frank the forester",
+    "Gus the guide",
+    "Hilda the hiker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "skis"
+    ],
+    [
+      6,
+      "next",
+      "skis"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      8,
+      "next",
+      "tree"
+    ]
+  ],
+  "solution": [
+    0,
+    16,
+    26,
+    32,
+    40,
+    47,
+    57,
+    69,
+    73
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

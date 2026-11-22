@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "..a....f..e...ab",
+  "roomNames": [
+    "Mask Atelier",
+    "Servants Mezzanine",
+    "Courtyard"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the barcarolle singer",
+    "Vivian the venetian senator",
+    "Celia the courtesan"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "maskstand"
+    ],
+    [
+      1,
+      "next",
+      "throne"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "throne"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

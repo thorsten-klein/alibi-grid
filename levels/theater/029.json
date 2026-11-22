@@ -1,0 +1,151 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333322223333444445554444455544444555",
+  "objects": ".b.ac.b.........ab...a..bec.....b.ce......c.f.b.......efab.a.c.b",
+  "roomNames": [
+    "Orchestra Pit",
+    "Dressing Room",
+    "Costume Room",
+    "Balcony",
+    "Stage",
+    "Green Room"
+  ],
+  "people": [
+    "Arthur the agent",
+    "Birgit the bass player",
+    "Cora the critic",
+    "Dexter the director",
+    "Edgar the electrician",
+    "Fiona the flautist",
+    "Gideon the guitarist",
+    "Viola the violinist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "piano"
+    ],
+    [
+      7,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    22,
+    24,
+    36,
+    43,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 24,
+  "group": 3
+}

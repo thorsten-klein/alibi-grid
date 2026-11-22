@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333444333444",
+  "objects": "a...f.......a.b..d.........f.a.....e",
+  "roomNames": [
+    "Infinity Pool",
+    "Yacht Marina",
+    "Coral Lagoon",
+    "Spa Pavilion",
+    "Dive Shop"
+  ],
+  "people": [
+    "Alma the animator",
+    "Bella the boat captain",
+    "Cora the chef",
+    "Viola the vip influencer",
+    "Daisy the disc jockey",
+    "Elsa the entertainer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "towel"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "jetski"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    13,
+    21,
+    29,
+    32
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "cart",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

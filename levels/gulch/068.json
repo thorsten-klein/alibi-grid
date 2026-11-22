@@ -1,0 +1,105 @@
+{
+  "size": 5,
+  "rooms": "0011100111222222222233333",
+  "objects": "...b...d..e...a.....beac.",
+  "roomNames": [
+    "Church",
+    "Sheriff Office",
+    "Jail",
+    "Hotel"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Bella the blacksmith",
+    "Clara the cook",
+    "Viola the vet",
+    "Della the deputy"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    0
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

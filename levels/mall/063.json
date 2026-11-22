@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".........f......e.b......",
+  "roomNames": [
+    "Security Office",
+    "Department Store",
+    "Arcade",
+    "Atrium Fountain"
+  ],
+  "people": [
+    "Alma the aerobics instructor",
+    "Bella the boutique clerk",
+    "Viola the visiting store inspector",
+    "Cora the cashier",
+    "Daisy the disc jockey"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "mannequin"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    10,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

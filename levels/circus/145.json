@@ -1,0 +1,203 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100002222113333222211333344444433334444445555556666555555666655777766665577776666",
+  "objects": "f.f.b......f......e.......b......a....c...f..f.c.d....c..a.b....aa..e.f....a.e...ed.........eac.a...",
+  "roomNames": [
+    "Dressing Trailer",
+    "Big Top",
+    "Prop Tent",
+    "Hay Barn",
+    "Trapeze Rig",
+    "Ringmaster Wagon",
+    "Menagerie Tent",
+    "Fortune Tent"
+  ],
+  "people": [
+    "Ada the animal tamer",
+    "Bea the balloon artist",
+    "Clara the contortionist",
+    "Dora the drummer",
+    "Edith the electrician",
+    "Vera the veteran ringmaster",
+    "Freya the fortune teller",
+    "Greta the gymnast",
+    "Hilda the horse trickster",
+    "Ivy the iron jaw"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "trunk"
+    ],
+    [
+      2,
+      "next",
+      "mat"
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "next",
+      "cannon"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "crystal"
+    ],
+    [
+      9,
+      "on",
+      "chair"
+    ],
+    [
+      9,
+      "next",
+      "cannon"
+    ]
+  ],
+  "solution": [
+    7,
+    19,
+    25,
+    36,
+    44,
+    58,
+    61,
+    72,
+    80,
+    93
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      33
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

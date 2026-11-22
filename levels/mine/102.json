@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "....cb....f.dfad....f.f.....a..f...b.....e..e.a..",
+  "roomNames": [
+    "Assay Office",
+    "Dynamite Magazine",
+    "Tool Crib",
+    "Miners Mess",
+    "Smelting Oven"
+  ],
+  "people": [
+    "Ada the assayer",
+    "Bea the blacksmith",
+    "Clara the cart driver",
+    "Dora the driller",
+    "Vera the vein claimant",
+    "Edith the engineer",
+    "Freya the foreman"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "drill"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "hoist"
+    ],
+    [
+      2,
+      "next",
+      "drill"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "keg"
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    19,
+    27,
+    30,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "keg",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

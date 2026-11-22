@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": "...bb..bf...........ca..c..bed.f.d.f.....e...aa.b",
+  "roomNames": [
+    "Black Cat Alley",
+    "Apple Bobbing Hall",
+    "Cemetery Gate",
+    "Haunted Conservatory",
+    "Crypt"
+  ],
+  "people": [
+    "Astrid the astrologer",
+    "Birgit the black cat breeder",
+    "Vivian the veteran manor heir",
+    "Celia the costume designer",
+    "Della the diviner",
+    "Ena the embalmer",
+    "Flora the fortune teller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "swing"
+    ],
+    [
+      1,
+      "next",
+      "web"
+    ],
+    [
+      3,
+      "on",
+      "coffin"
+    ],
+    [
+      4,
+      "next",
+      "tombstone"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    19,
+    21,
+    34,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "web",
+      1
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0000122000012200001223333122333312244441224444122",
+  "objects": "....a.d..d...cc.abc...a...b.e...ab.b........ebd..",
+  "roomNames": [
+    "Generator Core",
+    "Cryo Storage",
+    "Server Farm",
+    "Control Center",
+    "Breakroom"
+  ],
+  "people": [
+    "Vera the venture backer",
+    "Ada the algorithm engineer",
+    "Bea the bioethicist",
+    "Clara the cryo technician",
+    "Dora the data architect",
+    "Edith the ecologist",
+    "Freya the forensic chemist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "chamber"
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    23,
+    34,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      29,
+      36
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "hard": 7,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

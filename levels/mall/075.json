@@ -1,0 +1,111 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "..b..ba..d..a..d.a.d.a...",
+  "roomNames": [
+    "Food Court",
+    "Security Office",
+    "Skate Shop",
+    "Atrium Fountain"
+  ],
+  "people": [
+    "Astrid the aerobics instructor",
+    "Birgit the boutique clerk",
+    "Celia the cashier",
+    "Della the disc jockey",
+    "Vivian the visiting store inspector"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "gumball"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "plasticchair"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "onCount",
+      "photobench",
+      0
+    ],
+    [
+      "edge",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

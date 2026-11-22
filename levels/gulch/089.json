@@ -1,0 +1,125 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333224444224444",
+  "objects": "....b........a..bfdba..dce...e..bc.b",
+  "roomNames": [
+    "Livery",
+    "Corral",
+    "Hotel",
+    "Bank",
+    "Mine"
+  ],
+  "people": [
+    "Astrid the attorney",
+    "Bella the blacksmith",
+    "Cora the cook",
+    "Dexter the dancer",
+    "Victor the vet",
+    "Elsa the engineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "bed"
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    16,
+    19,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      0
+    ],
+    [
+      "nextCount",
+      "bed",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,157 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122333111122333111122333444444333444444555555666555555666555555666",
+  "objects": "...a.......deb.fb.db....a..be..a...b..a.......bc...a.....f.....b.a...c..b.bfa....",
+  "roomNames": [
+    "Souvenir Shack",
+    "Hall of Mirrors",
+    "Maintenance Hut",
+    "Ghost Train",
+    "Arcade Alley",
+    "Ferris Wheel Base",
+    "Pier Edge"
+  ],
+  "people": [
+    "Arthur the antiquarian",
+    "Basil the barker",
+    "Cedric the cotton candy vendor",
+    "Dmitri the daredevil",
+    "Edgar the urban explorer",
+    "Frank the fisherman",
+    "Gideon the groundskeeper",
+    "Vince the venture developer",
+    "Henrik the hobo"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "automaton"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "claw"
+    ],
+    [
+      4,
+      "next",
+      "automaton"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "generator"
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    24,
+    27,
+    37,
+    52,
+    58,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 7,
+  "hardest": 8,
+  "steps": 21,
+  "extra": true
+}

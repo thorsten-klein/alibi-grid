@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0000001100000011222200112222001133334444333344445555444455554444",
+  "objects": ".........a..f..bb....ad...fbe.....bc.b..fbc........f...cbc.b.fbd",
+  "roomNames": [
+    "Farmhouse Kitchen",
+    "Milking Shed",
+    "Fruit Orchard",
+    "Hen House",
+    "Pig Pen",
+    "Hayloft"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Bea the barn hand",
+    "Clara the cider presser",
+    "Dora the ditcher",
+    "Edith the entomologist",
+    "Freya the farrier",
+    "Vera the veterinarian",
+    "Greta the greenhouse tender"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "anvil"
+    ],
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "anvil"
+    ],
+    [
+      2,
+      "on",
+      "bale"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "rocker"
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      6,
+      "next",
+      "rocker"
+    ],
+    [
+      7,
+      "next",
+      "tractor"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    21,
+    31,
+    33,
+    46,
+    48,
+    58
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      0,
+      3
+    ]
+  ],
+  "tries": 3,
+  "hard": 9,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

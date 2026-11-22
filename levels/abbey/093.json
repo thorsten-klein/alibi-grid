@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "001122001122003333003333004444004444",
+  "objects": "...................be.....a.e.ad...b",
+  "roomNames": [
+    "Dormitory",
+    "Cellar",
+    "Prior Cell",
+    "Bell Tower",
+    "Chapter House"
+  ],
+  "people": [
+    "Ada the almoner",
+    "Bea the brewer",
+    "Clara the cantor",
+    "Dora the document copyist",
+    "Vera the vicar general",
+    "Edith the elder brother"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "reliquary"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "palliasse"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    19,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "palliasse",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

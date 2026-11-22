@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000000000000000111122221111222233344555333445553334455533344555",
+  "objects": "....f..f.c...b...eb..ec......b...b.c.b.b...........e..d..bbe...a",
+  "roomNames": [
+    "Stage",
+    "Bar",
+    "Green Room",
+    "Dressing Room",
+    "Orchestra Pit",
+    "Balcony"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Bea the baritone",
+    "Vera the ventriloquist",
+    "Carl the choreographer",
+    "Dmitri the dancer",
+    "Edgar the extra",
+    "Flora the fan",
+    "Greta the guitarist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "mirror"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      7,
+      "on",
+      "seat"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    20,
+    29,
+    33,
+    46,
+    48,
+    63
+  ],
+  "doors": [
+    [
+      9,
+      17
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "rack",
+      2
+    ]
+  ],
+  "extra": true
+}

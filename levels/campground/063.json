@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "..ff....a.....f..d...cf.e",
+  "roomNames": [
+    "Mess Hall",
+    "Shower Block",
+    "Counselor Cabin",
+    "Bunkhouse Alpha"
+  ],
+  "people": [
+    "Albert the archery instructor",
+    "Bruno the boating coach",
+    "Carl the camp counselor",
+    "Victor the veteran camp owner",
+    "Dexter the drama coach"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      0
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "board",
+      1
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

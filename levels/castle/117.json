@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "b.....bac.e...b..dbb..b...ec...b...fe......bf.a.a",
+  "roomNames": [
+    "Throne Room",
+    "Armory",
+    "Dungeon",
+    "Gatehouse",
+    "Tower"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Bea the baker",
+    "Celia the cupbearer",
+    "Viola the verger",
+    "Dmitri the dancer",
+    "Edith the embroiderer",
+    "Flora the farrier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      6,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    19,
+    21,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    2
+  ],
+  "rank": "kknckcc",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

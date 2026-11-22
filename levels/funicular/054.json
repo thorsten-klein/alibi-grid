@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a.a...fc.......a",
+  "roomNames": [
+    "Funicular Car A",
+    "Souvenir Kiosk",
+    "Upper Engine Room"
+  ],
+  "people": [
+    "Arthur the alpine guide",
+    "Basil the billeter",
+    "Vince the visiting vip",
+    "Cedric the cable splicer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "row",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

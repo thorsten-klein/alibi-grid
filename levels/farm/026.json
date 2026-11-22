@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".b..b..e......ad.........",
+  "roomNames": [
+    "Farmstand",
+    "Root Cellar",
+    "Hayloft",
+    "Hen House"
+  ],
+  "people": [
+    "Albert the apple picker",
+    "Bruno the beekeeper",
+    "Victor the vineyard leaseholder",
+    "Carl the cattle rancher",
+    "Dexter the dairy maid"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "bale"
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "churn",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 18,
+  "group": 3
+}

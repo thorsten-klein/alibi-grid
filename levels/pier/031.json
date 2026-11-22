@@ -1,0 +1,201 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333322222333334455566777445556677744555667774455566777",
+  "objects": "....b.b...........bc..........ad.d....fe...cad....b..b.....f....e.............b.d.b..f...db.b...a...",
+  "roomNames": [
+    "Pier Edge",
+    "Ghost Train",
+    "Boardwalk Plankway",
+    "Fortune Booth",
+    "Maintenance Hut",
+    "Arcade Alley",
+    "Carousel Pavilion",
+    "Souvenir Shack"
+  ],
+  "people": [
+    "Alma the arcade repairman",
+    "Bella the boardwalk walker",
+    "Cora the caretaker",
+    "Viola the vagrant",
+    "Daisy the drifter",
+    "Elsa the electrician",
+    "Fiona the fortune teller",
+    "Gwen the ghost hunter",
+    "Hazel the historian",
+    "Ines the investigator"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "cart"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "claw"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "cart"
+    ],
+    [
+      5,
+      "notRoom",
+      6
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "cart"
+    ],
+    [
+      8,
+      "notRoom",
+      1
+    ],
+    [
+      8,
+      "next",
+      "cart"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "claw"
+    ],
+    [
+      9,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    28,
+    32,
+    40,
+    56,
+    65,
+    77,
+    83,
+    99
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      25,
+      35
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 3,
+  "steps": 32,
+  "group": 3
+}

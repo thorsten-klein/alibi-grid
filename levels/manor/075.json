@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "......d.b....f....f.c..b.",
+  "roomNames": [
+    "Study",
+    "Chapel",
+    "Billiard Room",
+    "Cellar"
+  ],
+  "people": [
+    "Albert the author",
+    "Victor the valet",
+    "Bella the banker",
+    "Carl the cook",
+    "Dexter the dealer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 14,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "shelf",
+      1
+    ]
+  ],
+  "extra": true
+}

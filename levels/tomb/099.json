@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220011222333344433334443333444",
+  "objects": ".b.b...ba...a..cd.ceb.....a.a..b...e......eb.f..a",
+  "roomNames": [
+    "Sun Court",
+    "Granary",
+    "Antechamber",
+    "Burial Chamber",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Birgit the boat builder",
+    "Carl the carpenter",
+    "Dmitri the diviner",
+    "Ena the envoy",
+    "Felix the fanbearer",
+    "Vera the vizier"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      3,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    17,
+    25,
+    28,
+    41,
+    47
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "C................C......CL...............C.......",
+  "hard": 7,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,125 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "bf...ea.f.bb...f...........ab.a..bcd..e.a.ba.....",
+  "roomNames": [
+    "Med Bay",
+    "Hydroponics",
+    "Bridge",
+    "Gym",
+    "Cargo Bay"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Basil the botanist",
+    "Vivian the visitor",
+    "Cedric the captain",
+    "Dora the doctor",
+    "Elias the electrician",
+    "Frank the farmer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "plant"
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    19,
+    22,
+    28,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

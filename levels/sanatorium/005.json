@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222000111222333344444333344444555566666555566666",
+  "objects": "....f.ff....f...bc.....fa..a.......a.....aa.................cd..c.c...c.....afb..",
+  "roomNames": [
+    "Records Archive",
+    "Morgue",
+    "Ward B",
+    "Ward A",
+    "Hydrotherapy Room",
+    "Reception Hall",
+    "Doctor Office"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Basil the bacteriologist",
+    "Cedric the caregiver",
+    "Vince the visiting superintendent",
+    "Dmitri the dentist",
+    "Edgar the examiner",
+    "Frank the forensic pathologist",
+    "Gideon the gerontologist",
+    "Henrik the hospitalier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "archive"
+    ],
+    [
+      1,
+      "next",
+      "bed"
+    ],
+    [
+      2,
+      "next",
+      "bed"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "on",
+      "wheelchair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "notRoom",
+      3
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "cabinet"
+    ],
+    [
+      8,
+      "next",
+      "cabinet"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    25,
+    29,
+    41,
+    45,
+    58,
+    71,
+    75
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "group": 0
+}

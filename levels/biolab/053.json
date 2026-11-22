@@ -1,0 +1,81 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "b....aa.....e...",
+  "roomNames": [
+    "Autopsy Suite",
+    "Chemical Vault",
+    "Server Farm"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Vera the virology head",
+    "Bea the biochemist",
+    "Clara the chief scientist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    4,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "centrifuge",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

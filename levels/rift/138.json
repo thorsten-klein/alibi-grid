@@ -1,0 +1,142 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000112222333112222333111111333111111444115555444115555444115555",
+  "objects": "...........d...........bb.b......ae.bc.......fb.......a.d...f.dfe......c..d....c.",
+  "roomNames": [
+    "Jail",
+    "Sea of Ages",
+    "Fire Pit",
+    "Bank",
+    "Throne Room",
+    "Cave"
+  ],
+  "people": [
+    "Alma the archivist",
+    "Bruno the bookbinder",
+    "Clara the chronicler",
+    "Della the drifter",
+    "Edith the engineer",
+    "Fiona the falconer",
+    "Gwen the gladiator",
+    "Hugo the historian",
+    "Victor the visionary"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "on",
+      "log"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    3,
+    10,
+    23,
+    27,
+    42,
+    49,
+    61,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      18,
+      27
+    ],
+    [
+      46,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      77,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 21,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "...................CL...............................................L........LC..",
+  "sea": 1,
+  "extra": true
+}

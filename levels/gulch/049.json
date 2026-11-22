@@ -1,0 +1,87 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "...d..e....fe...",
+  "roomNames": [
+    "Bank",
+    "Mine",
+    "Saloon"
+  ],
+  "people": [
+    "Vivian the vaquero",
+    "Ada the attorney",
+    "Bruno the banker",
+    "Clara the cook"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "horse",
+      0
+    ],
+    [
+      "alone",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    1
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

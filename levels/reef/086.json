@@ -1,0 +1,104 @@
+{
+  "size": 6,
+  "rooms": "000000000000000000112233112233112233",
+  "objects": "......................dfbf.b..babd..",
+  "roomNames": [
+    "Open Sea",
+    "Sea Cave",
+    "Tavern",
+    "Cove"
+  ],
+  "people": [
+    "Albert the admiral",
+    "Bea the boatswain",
+    "Cedric the captain",
+    "Daisy the diver",
+    "Victor the vintner",
+    "Edgar the engineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    16,
+    20,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
+  "facts": [
+    [
+      "nextCount",
+      "cannon",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "extra": true
+}

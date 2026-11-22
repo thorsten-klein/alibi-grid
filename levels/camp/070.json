@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "bd..df...a.c.....f......c",
+  "roomNames": [
+    "Spring",
+    "Hide Tent",
+    "Painted Wall",
+    "Lookout Rock"
+  ],
+  "people": [
+    "Ada the artist",
+    "Basil the beekeeper",
+    "Cedric the carrier",
+    "Della the drummer",
+    "Vince the visionary"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    13,
+    19,
+    22
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "2..23",
+  "tags": ".......4...............2.",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

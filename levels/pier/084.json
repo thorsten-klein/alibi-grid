@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011222011222011334444334444",
+  "objects": "..e...a..b..d....bb...d.d........cb.",
+  "roomNames": [
+    "Ghost Train",
+    "Hall of Mirrors",
+    "Maintenance Hut",
+    "Souvenir Shack",
+    "Ferris Wheel Base"
+  ],
+  "people": [
+    "Alma the arcade repairman",
+    "Viola the vagrant",
+    "Bella the boardwalk walker",
+    "Cora the caretaker",
+    "Daisy the drifter",
+    "Elsa the electrician"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "next",
+      "claw"
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ],
+    [
+      5,
+      "next",
+      "claw"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    20,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

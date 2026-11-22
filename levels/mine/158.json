@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000011122222000011122222000011122222000011122222333444455555333444455555333444455555333444455555666677888888666677888888666677888888666677888888",
+  "objects": "bb.......bbdc....af..c....d..b.............b..b..ffa.b...bfe.b.......a....e..b.b........bbad..d.c...ae...f.cf.....b...e.bb...b.....a..b.d..aeadd",
+  "roomNames": [
+    "Assay Office",
+    "Mule Stables",
+    "Dynamite Magazine",
+    "Miners Mess",
+    "Smelting Oven",
+    "Water Sump",
+    "Shift Boss Office",
+    "Tool Crib",
+    "Deep Winze"
+  ],
+  "people": [
+    "Albert the assayer",
+    "Bruno the blacksmith",
+    "Carl the cart driver",
+    "Victor the vein claimant",
+    "Dexter the driller",
+    "Elias the engineer",
+    "Felix the foreman",
+    "Gus the geologist",
+    "Hugo the hoistman",
+    "Igor the inspector",
+    "Jasper the jackhammer man",
+    "Klaus the keg maker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      0,
+      "next",
+      "orecart"
+    ],
+    [
+      1,
+      "next",
+      "hoist"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "orecart"
+    ],
+    [
+      3,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "keg"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      7,
+      "on",
+      "bunk"
+    ],
+    [
+      8,
+      "next",
+      "drill"
+    ],
+    [
+      8,
+      "next",
+      "orecart"
+    ],
+    [
+      9,
+      "next",
+      "orecart"
+    ],
+    [
+      10,
+      "next",
+      "dynamite"
+    ],
+    [
+      11,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    9,
+    14,
+    24,
+    43,
+    53,
+    63,
+    78,
+    88,
+    106,
+    119,
+    128,
+    133
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      37,
+      49
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      86,
+      98
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      87,
+      99
+    ],
+    [
+      89,
+      101
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      94,
+      106
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      137,
+      138
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "onCount",
+      "keg",
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 12,
+  "hardest": 8,
+  "steps": 48,
+  "extra": true
+}

@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344444333444443335555533355555",
+  "objects": "....fb.....cc...b..f.b.....d.ba.b.....c.fd.aa.....a....a...cbc..",
+  "roomNames": [
+    "Specimen Nursery",
+    "Autopsy Suite",
+    "Breakroom",
+    "Cleanroom 1",
+    "Generator Core",
+    "Cleanroom 2"
+  ],
+  "people": [
+    "Albert the algorithm engineer",
+    "Bruno the bioethicist",
+    "Carl the cryo technician",
+    "Dexter the data architect",
+    "Victor the venture backer",
+    "Elias the ecologist",
+    "Felix the forensic chemist",
+    "Gus the guard"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "next",
+      "hood"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    18,
+    31,
+    35,
+    44,
+    53,
+    56
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      43,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 17,
+  "extra": true
+}

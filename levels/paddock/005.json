@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222003333222003333222003333222444444555444444555666644555666644555",
+  "objects": "....aa..c.......da............a...a.d.a...e...c.....e..fcff..c.....ee............",
+  "roomNames": [
+    "Scrutineering Shed",
+    "Pit Lane",
+    "Fuel Storage",
+    "Tire Bay",
+    "Hospitality Suite",
+    "Drivers Lounge",
+    "Team Garage B"
+  ],
+  "people": [
+    "Arthur the aerodynamicist",
+    "Basil the brake tech",
+    "Cedric the chief mechanic",
+    "Dmitri the driver",
+    "Edgar the engine tuner",
+    "Frank the fuel specialist",
+    "Vince the veteran champion",
+    "Gideon the gearbox tech",
+    "Henrik the head of team"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "bucket"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "bucket"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "toolbox"
+    ],
+    [
+      6,
+      "next",
+      "chassis"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "chassis"
+    ],
+    [
+      8,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    49,
+    60,
+    70,
+    73
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      54,
+      63
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 26,
+  "group": 0
+}

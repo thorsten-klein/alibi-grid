@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000333322000333322000333322444555666444555666444555666444555666",
+  "objects": "....cf..da..ddf...e..bae...a.a...f..af......cb........fc...ae.......d..c..ee.a...",
+  "roomNames": [
+    "Cellar Maze",
+    "Costume Ballroom",
+    "Pumpkin Patch",
+    "Front Porch",
+    "Witch Parlor",
+    "Crypt",
+    "Black Cat Alley"
+  ],
+  "people": [
+    "Albert the actor",
+    "Bruno the baker",
+    "Carl the candy maker",
+    "Dexter the decorator",
+    "Elias the entertainer",
+    "Felix the florist",
+    "Gus the gravedigger",
+    "Hugo the herbalist",
+    "Victor the visiting storyteller"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "tombstone"
+    ],
+    [
+      0,
+      "next",
+      "pumpkin"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "cauldron"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "web"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "coffin"
+    ],
+    [
+      7,
+      "next",
+      "web"
+    ],
+    [
+      8,
+      "on",
+      "coffin"
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    19,
+    34,
+    38,
+    53,
+    58,
+    63,
+    77
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 20,
+  "facts": [
+    [
+      "nextCount",
+      "web",
+      3
+    ],
+    [
+      "corner",
+      null,
+      5
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 45,
+  "extra": true
+}

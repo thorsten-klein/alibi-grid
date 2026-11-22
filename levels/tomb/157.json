@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000222223333322222333334444433333444445556666777555666677755566667775556666777",
+  "objects": "..d....d.e.....f.b.........a....ff..f.d.d...d.....e.df....fe....b.....a......fa....ac......be.....f.",
+  "roomNames": [
+    "Well Shaft",
+    "Hall of Pillars",
+    "Boat Pit",
+    "Treasury",
+    "Scribe Room",
+    "Antechamber",
+    "Sun Court",
+    "Shrine"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Bruno the brewer",
+    "Carl the chanter",
+    "Della the diviner",
+    "Edith the embalmer",
+    "Frank the fanbearer",
+    "Gus the goldsmith",
+    "Hilda the herder",
+    "Ines the incense maker",
+    "Vivian the vizier"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "jar"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      8,
+      "next",
+      "urn"
+    ],
+    [
+      9,
+      "next",
+      "jar"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    22,
+    37,
+    46,
+    54,
+    68,
+    70,
+    85,
+    99
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      86,
+      87
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".C...........C.............................L.....C................................L..L.............C",
+  "hard": 8,
+  "hardest": 7,
+  "steps": 37,
+  "extra": true
+}

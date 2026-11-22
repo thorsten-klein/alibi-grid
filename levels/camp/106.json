@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333444433344443334444",
+  "objects": "..a......bb.bb..ac.d.a....d....a....f.e..da.a.ec.",
+  "roomNames": [
+    "River Bank",
+    "Cave",
+    "Elder Hut",
+    "Hide Tent",
+    "Fire Pit"
+  ],
+  "people": [
+    "Victor the visionary",
+    "Astrid the artist",
+    "Bella the builder",
+    "Clara the carrier",
+    "Dora the drummer",
+    "Elias the elder",
+    "Fiona the firekeeper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "leaves"
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    25,
+    34,
+    35,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 16,
+  "rules": [
+    "trades"
+  ],
+  "trade": "2424.02",
+  "tags": "........4.....3..........4.3.....................",
+  "extra": true
+}

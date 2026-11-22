@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "c..a.....cffa......f...a.",
+  "roomNames": [
+    "River Pagoda",
+    "Lantern Bridge",
+    "Dragon Boat",
+    "Shadow Stage"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the boatman",
+    "Victor the village magistrate",
+    "Carl the calligrapher",
+    "Dexter the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "group": 2
+}

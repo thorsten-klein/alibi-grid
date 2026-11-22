@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": ".....dce...c.a.a.a.....b..bbfedf...b",
+  "roomNames": [
+    "Calligraphy Shop",
+    "Fortune Teller",
+    "Bell Tower",
+    "Noodle Court",
+    "Shadow Stage"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Basil the boatman",
+    "Cedric the calligrapher",
+    "Vince the village magistrate",
+    "Dmitri the drummer",
+    "Edgar the embroiderer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "cushion"
+    ],
+    [
+      4,
+      "next",
+      "teacart"
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    12,
+    22,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

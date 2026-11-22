@@ -1,0 +1,203 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222001111222000334444000334444000334444555666644555666644555666644",
+  "objects": "......aceb.a.a..ab......bc.d.b......a.......a.c..a.bb..ac...b...f...d.....a.f...f",
+  "roomNames": [
+    "Jail",
+    "Bank",
+    "Telegraph Office",
+    "Saloon",
+    "Corral",
+    "Livery",
+    "Hotel"
+  ],
+  "people": [
+    "Viola the vet",
+    "Ada the auctioneer",
+    "Basil the blacksmith",
+    "Clara the cattle driver",
+    "Della the deputy",
+    "Elias the editor",
+    "Fiona the farrier",
+    "Gwen the gunsmith",
+    "Hilda the hatmaker"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "cactus"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      6,
+      "col",
+      8
+    ],
+    [
+      7,
+      "next",
+      "cactus"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "bandit"
+    ],
+    [
+      8,
+      "next",
+      "cactus"
+    ],
+    [
+      8,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    34,
+    42,
+    48,
+    62,
+    67,
+    77
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      56,
+      57
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      72,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      1
+    ],
+    [
+      "alone",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    3,
+    4
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 28,
+  "group": 1
+}

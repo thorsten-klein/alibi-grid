@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220011222333344433334443333444",
+  "objects": ".....b.a.............b....a.e.ff..e..e..ab.ebc...",
+  "roomNames": [
+    "Boat Pit",
+    "Workshop",
+    "Hall of Pillars",
+    "Scribe Room",
+    "Treasury"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bruno the brewer",
+    "Clara the carpenter",
+    "Della the dancer",
+    "Vera the vizier",
+    "Edith the embalmer",
+    "Fiona the fisher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      6
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    18,
+    23,
+    29,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      2
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "L........C......C.CC...................C.........",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "group": 1
+}

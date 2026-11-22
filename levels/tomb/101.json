@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223344222334422233442223344",
+  "objects": ".dbb.....a..bdd.....eee.......b..c.........e.....",
+  "roomNames": [
+    "Scribe Room",
+    "Sun Court",
+    "Treasury",
+    "Workshop",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Bella the brewer",
+    "Vivian the vintner",
+    "Cora the carpenter",
+    "Dexter the diviner",
+    "Edith the envoy",
+    "Felix the fisher"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    19,
+    24,
+    28,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      46,
+      47
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....C....................................L..C....",
+  "extra": true
+}

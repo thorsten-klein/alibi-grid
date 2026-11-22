@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344255333442553334425533344255",
+  "objects": "aeac..e....b...a......b..e..f.ba.eb.d.d.bd.bb.bb...aea.....dc..e",
+  "roomNames": [
+    "Cashier Cage",
+    "Cocktail Bar",
+    "Penthouse Suite",
+    "Main Casino Floor",
+    "The Vault",
+    "Security Surveillance"
+  ],
+  "people": [
+    "Ada the accountant",
+    "Bea the baccarat dealer",
+    "Clara the croupier",
+    "Dora the dice inspector",
+    "Edith the entertainer",
+    "Freya the floor manager",
+    "Greta the gambler",
+    "Vera the vip gambler"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "table"
+    ],
+    [
+      3,
+      "on",
+      "chaise"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      6,
+      "next",
+      "slots"
+    ],
+    [
+      7,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    20,
+    30,
+    35,
+    45,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "slots",
+      2
+    ],
+    [
+      "nextCount",
+      "stool",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "group": 1
+}

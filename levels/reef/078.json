@@ -1,0 +1,106 @@
+{
+  "size": 6,
+  "rooms": "000000000000001122001122333344333344",
+  "objects": ".................d...e.a...cc.cc...a",
+  "roomNames": [
+    "Open Sea",
+    "Frigate",
+    "Longboat",
+    "Market",
+    "Fort"
+  ],
+  "people": [
+    "Albert the armorer",
+    "Bruno the barkeep",
+    "Celia the captain",
+    "Dexter the diver",
+    "Vera the vintner",
+    "Edith the explorer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "next",
+      "anchor"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    16,
+    23,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

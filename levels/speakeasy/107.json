@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "........a..b.f...e.......c....fede......ae.......",
+  "roomNames": [
+    "VIP Poker Den",
+    "Distillery",
+    "Main Lounge",
+    "Private Booths",
+    "Hidden Alleyway"
+  ],
+  "people": [
+    "Albert the accordionist",
+    "Bruno the bartender",
+    "Victor the voice of syndicate",
+    "Carl the crooner",
+    "Dexter the drummer",
+    "Elias the enforcer",
+    "Felix the flapper"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "booth"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "roulette"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "roulette"
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      6,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    14,
+    24,
+    34,
+    37,
+    46
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 25,
+  "extra": true
+}

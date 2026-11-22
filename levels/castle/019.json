@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333333344443334444333",
+  "objects": ".....f.abac.ac..d.a.cb.a.....c..e....d..de.......",
+  "roomNames": [
+    "Armory",
+    "Dungeon",
+    "Chapel",
+    "Courtyard",
+    "Kitchen"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Bella the baker",
+    "Vivian the verger",
+    "Celia the chronicler",
+    "Dmitri the dancer",
+    "Edgar the envoy",
+    "Flora the falconer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "on",
+      "bench"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "next",
+      "candles"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    18,
+    27,
+    33,
+    38,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "cknkkck",
+  "hard": 6,
+  "hardest": 5,
+  "steps": 22,
+  "group": 2
+}

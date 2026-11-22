@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "....e....e.a.c.ab..f..d.a..c.......d",
+  "roomNames": [
+    "Canal Balcony",
+    "Palazzo Chapel",
+    "Wine Cellar",
+    "Casino Ridotto",
+    "Armory"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Vince the venetian senator",
+    "Basil the barcarolle singer",
+    "Cedric the courtesan",
+    "Dmitri the doge",
+    "Edgar the envoy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "throne"
+    ],
+    [
+      0,
+      "next",
+      "fountain"
+    ],
+    [
+      2,
+      "next",
+      "fountain"
+    ],
+    [
+      3,
+      "next",
+      "maskstand"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    18,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "gondola",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

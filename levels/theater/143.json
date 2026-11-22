@@ -1,0 +1,167 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111222223333222223333445555666445555666445555666445555666",
+  "objects": ".....d....ad.d.b....c.b.......b........cd.....ebd...b.........d..f.....aaa......d",
+  "roomNames": [
+    "Costume Room",
+    "Box Office",
+    "Wings",
+    "Orchestra Pit",
+    "Prop Store",
+    "Foyer",
+    "Stage"
+  ],
+  "people": [
+    "Ada the agent",
+    "Bella the bass player",
+    "Cedric the critic",
+    "Della the director",
+    "Edith the electrician",
+    "Frank the fan",
+    "Greta the ghost writer",
+    "Vivian the violinist",
+    "Hugo the harpist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "mirror"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "col",
+      8
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    14,
+    19,
+    35,
+    43,
+    51,
+    54,
+    66,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 21,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "extra": true
+}

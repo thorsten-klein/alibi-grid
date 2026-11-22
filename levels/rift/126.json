@@ -1,0 +1,166 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222233333444333334445555444455554444",
+  "objects": "cd...eae....e.b.b...b...bf.....dbe.bd...da..e.e...a....b.de.....",
+  "roomNames": [
+    "Captain Cabin",
+    "Bank",
+    "Throne Room",
+    "Fort",
+    "Fire Pit",
+    "Hide Tent"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Victor the voyager",
+    "Bella the bard",
+    "Cora the clockmaker",
+    "Dmitri the dreamer",
+    "Elsa the explorer",
+    "Flora the fortune teller",
+    "Greta the gladiator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "on",
+      "log"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "boulder"
+    ],
+    [
+      6,
+      "bandit"
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    20,
+    27,
+    37,
+    47,
+    48,
+    62
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      3
+    ],
+    [
+      "nextCount",
+      "barrel",
+      2
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": ".33.4..4",
+  "tags": ".........3.4.................12......4.1...................1.4.1",
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

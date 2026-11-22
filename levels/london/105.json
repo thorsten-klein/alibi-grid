@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "a.......b.b.be....df............b..a.ebb.f..f....",
+  "roomNames": [
+    "Pub Taproom",
+    "Apothecary",
+    "Mortuary",
+    "Cab Stand",
+    "Cobblestone Alley"
+  ],
+  "people": [
+    "Ada the apothecary",
+    "Bea the blackmailer",
+    "Clara the constable",
+    "Vera the victim of nobility",
+    "Dora the detective",
+    "Edith the engraver",
+    "Freya the forger"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "kiosk"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    14,
+    22,
+    33,
+    38,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

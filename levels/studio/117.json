@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223333322233333222444455554444555544445555",
+  "objects": ".d..f.f...a.fa..a.e..f....b.bc.eab.a..bd..e...cf................",
+  "roomNames": [
+    "Studio Commissary",
+    "Green Room",
+    "Makeup Room",
+    "Catwalk",
+    "Writers Room",
+    "Prop Armory"
+  ],
+  "people": [
+    "Astrid the assistant director",
+    "Birgit the body double",
+    "Celia the choreographer",
+    "Della the diva",
+    "Vivian the veteran producer",
+    "Ena the extra",
+    "Flora the fashion designer",
+    "Grace the gaffer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "light"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    22,
+    27,
+    36,
+    41,
+    50,
+    61
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 8,
+  "steps": 18,
+  "extra": true
+}

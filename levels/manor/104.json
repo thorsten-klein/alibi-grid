@@ -1,0 +1,118 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".e...b.a..d.e..eb....b.......a..b...cfb..........",
+  "roomNames": [
+    "Pantry",
+    "Chapel",
+    "Gallery",
+    "Library",
+    "Dining Room"
+  ],
+  "people": [
+    "Viola the vicar",
+    "Astrid the author",
+    "Bella the banker",
+    "Carl the colonel",
+    "Dora the dealer",
+    "Edgar the envoy",
+    "Felix the florist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    17,
+    26,
+    29,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "extra": true
+}

@@ -1,0 +1,160 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333333333334445555544455555",
+  "objects": "b.........f.e..f..b.d...b...ce..e..a...ae.b..bf.aff..f.f..c.....",
+  "roomNames": [
+    "Private Boudoir",
+    "Wine Cellar",
+    "Grand Ballroom",
+    "Canal Balcony",
+    "Mirrored Gallery",
+    "Gondola Dock"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the barcarolle singer",
+    "Cora the courtesan",
+    "Daisy the doge",
+    "Elsa the envoy",
+    "Viola the venetian senator",
+    "Fiona the fencing master",
+    "Gwen the gondolier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "maskstand"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "fountain"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "daybed"
+    ],
+    [
+      6,
+      "on",
+      "throne"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    23,
+    30,
+    33,
+    44,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "onCount",
+      "daybed",
+      0
+    ],
+    [
+      "nextCount",
+      "gondola",
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 35,
+  "extra": true
+}

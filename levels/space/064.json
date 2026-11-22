@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0000011111111112233322333",
+  "objects": ".......a.a.........fd.af.",
+  "roomNames": [
+    "Airlock",
+    "Crew Quarters",
+    "Med Bay",
+    "Bridge"
+  ],
+  "people": [
+    "Alma the astronaut",
+    "Victor the volunteer",
+    "Bella the biologist",
+    "Cora the chemist",
+    "Dmitri the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    10,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 15,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "scope",
+      0
+    ]
+  ],
+  "extra": true
+}

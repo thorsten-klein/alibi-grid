@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112223333222333322244442224444",
+  "objects": ".f...d.a.ba..a..ef.a..a...c.c...........a..c...a.",
+  "roomNames": [
+    "Control Center",
+    "Autopsy Suite",
+    "Specimen Nursery",
+    "Centrifuge Bay",
+    "Cleanroom 2"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Basil the biochemist",
+    "Cedric the chief scientist",
+    "Dmitri the dna sequencer",
+    "Vince the virology head",
+    "Edgar the epidemiologist",
+    "Frank the facility director"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "hood"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    14,
+    27,
+    31,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      13,
+      20
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "hood",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

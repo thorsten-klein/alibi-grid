@@ -1,0 +1,116 @@
+{
+  "size": 6,
+  "rooms": "001111001111223333223333224444224444",
+  "objects": ".f....b...e..ba.f..a.ead...aaaa..be.",
+  "roomNames": [
+    "Kitchen",
+    "Chapel",
+    "Dungeon",
+    "Courtyard",
+    "Tower"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the bard",
+    "Clara the cupbearer",
+    "Dora the doorkeeper",
+    "Vince the verger",
+    "Edgar the envoy"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "on",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    12,
+    20,
+    28,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "cccncc",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

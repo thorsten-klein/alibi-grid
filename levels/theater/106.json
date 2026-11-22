@@ -1,0 +1,125 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "........b.....b..cdc.................f....abbd..d",
+  "roomNames": [
+    "Dressing Room",
+    "Balcony",
+    "Prop Store",
+    "Foyer",
+    "Lighting Booth"
+  ],
+  "people": [
+    "Arthur the agent",
+    "Basil the bass player",
+    "Clara the choreographer",
+    "Della the dancer",
+    "Vince the ventriloquist",
+    "Ena the electrician",
+    "Freya the flautist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "next",
+      "mirror"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ],
+    [
+      6,
+      "next",
+      "mirror"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    16,
+    21,
+    31,
+    36,
+    47
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

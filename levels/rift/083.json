@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000011000011222233222233444433444433",
+  "objects": "....c...c.....d...b..bac.ca.e.d.....",
+  "roomNames": [
+    "Shrine",
+    "Fire Pit",
+    "Cave",
+    "Jail",
+    "Saloon"
+  ],
+  "people": [
+    "Astrid the astronomer",
+    "Viola the voyager",
+    "Bea the bookbinder",
+    "Clara the chronicler",
+    "Daisy the drifter",
+    "Ena the explorer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "withBandit"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "next",
+      "boulder"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    16,
+    20,
+    29,
+    31
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "...C................L........C.LL...",
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

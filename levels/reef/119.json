@@ -1,0 +1,122 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222222222222222222233444222334442223344422233444",
+  "objects": "....e.d....f.b.......................d.e....a.b......e.e......a.",
+  "roomNames": [
+    "Frigate",
+    "Sea Cave",
+    "Open Sea",
+    "Longboat",
+    "Market"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Bea the boatswain",
+    "Cedric the cook",
+    "Dmitri the deckhand",
+    "Elsa the engineer",
+    "Frank the fiddler",
+    "Grace the gunner",
+    "Vera the voyager"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      7
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "hammock"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    17,
+    31,
+    35,
+    46,
+    52,
+    61
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "cannon",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 2,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 21,
+  "extra": true
+}

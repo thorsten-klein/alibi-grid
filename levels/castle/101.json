@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".e.e.db...a......d......a..b.b...d..c...e.abb....",
+  "roomNames": [
+    "Stables",
+    "Tower",
+    "Kitchen",
+    "Solar",
+    "Gatehouse"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bruno the bard",
+    "Vince the vintner",
+    "Celia the cupbearer",
+    "Dexter the dancer",
+    "Elsa the embroiderer",
+    "Flora the falconer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "swords"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    16,
+    22,
+    34,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "cnccckc",
+  "tries": 0,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,182 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111223333444223333444223333444223355555666655555666655555",
+  "objects": ".bb.b.....f..f......ab.e.d..c...e..bd..f.c...e.......c...a..a...f..........e..ca.",
+  "roomNames": [
+    "Corridor",
+    "Baggage Car",
+    "Observation Car",
+    "Sleeper A",
+    "Dining Car",
+    "Bar Car",
+    "Guard's Van"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Basil the bookseller",
+    "Clara the conductor",
+    "Vince the violinist",
+    "Daisy the diplomat",
+    "Elsa the envoy",
+    "Felix the fiddler",
+    "Greta the guard",
+    "Hana the hatter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "lamp"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "wine"
+    ],
+    [
+      4,
+      "next",
+      "suitcase"
+    ],
+    [
+      5,
+      "next",
+      "lamp"
+    ],
+    [
+      6,
+      "next",
+      "lamp"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "suitcase"
+    ]
+  ],
+  "solution": [
+    3,
+    17,
+    24,
+    29,
+    40,
+    46,
+    54,
+    70,
+    77
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "extra": true
+}

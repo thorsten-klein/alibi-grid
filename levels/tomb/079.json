@@ -1,0 +1,123 @@
+{
+  "size": 6,
+  "rooms": "000000000000111223111223444223444223",
+  "objects": "b.b..a.b.d....e.......c..ea.....b...",
+  "roomNames": [
+    "Shrine",
+    "Workshop",
+    "Hall of Pillars",
+    "Treasury",
+    "Statue Hall"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Birgit the brewer",
+    "Cora the carpenter",
+    "Dexter the diviner",
+    "Ena the envoy",
+    "Vivian the vintner"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    13,
+    21,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "facts": [
+    [
+      "nextCount",
+      "statue",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".............L.C....................",
+  "extra": true
+}

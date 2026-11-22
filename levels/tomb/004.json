@@ -1,0 +1,160 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112223333322233333444333334445555544455555",
+  "objects": "b...c.....a.......c.......f.d....f...beb..cb.a..bb.a.aec..aa....",
+  "roomNames": [
+    "Granary",
+    "Scribe Room",
+    "Boat Pit",
+    "Shrine",
+    "Hall of Pillars",
+    "Antechamber"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bea the brewer",
+    "Cora the chanter",
+    "Della the dancer",
+    "Elias the embalmer",
+    "Flora the fanbearer",
+    "Vera the vintner",
+    "Gus the goldsmith"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "couch"
+    ],
+    [
+      7,
+      "next",
+      "rubble"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    19,
+    29,
+    36,
+    41,
+    50,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..CC............C.....C.C..L.C..................................",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 24,
+  "group": 0
+}

@@ -1,0 +1,147 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b.b..d.a.....c.....afbc.c........c.e.a...b...b..a",
+  "roomNames": [
+    "Guard's Van",
+    "Lounge Car",
+    "Corridor",
+    "Sleeper A",
+    "Baggage Car"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Bruno the banker",
+    "Clara the courier",
+    "Victor the violinist",
+    "Dmitri the dentist",
+    "Elsa the envoy",
+    "Freya the fiddler"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "suitcase"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "suitcase"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    16,
+    21,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "wine",
+      0
+    ],
+    [
+      "nextCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 32,
+  "group": 3
+}

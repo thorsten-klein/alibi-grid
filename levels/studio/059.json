@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "..ef..c.f....a.a.c....c..",
+  "roomNames": [
+    "Soundstage A",
+    "Studio Commissary",
+    "Director Trailer",
+    "Green Room"
+  ],
+  "people": [
+    "Albert the assistant director",
+    "Bruno the body double",
+    "Carl the choreographer",
+    "Dexter the diva",
+    "Victor the veteran producer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "camera"
+    ],
+    [
+      1,
+      "next",
+      "camera"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "trunk",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 9,
+  "extra": true
+}

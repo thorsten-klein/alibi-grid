@@ -1,0 +1,134 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111111111111112222211122222334444553344445533444455",
+  "objects": ".a...........................d...........c.......b...d.bf.......",
+  "roomNames": [
+    "Market",
+    "Open Sea",
+    "Sloop",
+    "Brig",
+    "Galleon",
+    "Dock"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Bruno the boatswain",
+    "Cedric the cook",
+    "Daisy the deckhand",
+    "Ena the explorer",
+    "Felix the first mate",
+    "Gideon the gunner",
+    "Vivian the voyager"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "crate"
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    16,
+    27,
+    37,
+    46,
+    52,
+    58
+  ],
+  "doors": [
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "crate",
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

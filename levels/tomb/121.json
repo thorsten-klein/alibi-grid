@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344455333444553334445533344455",
+  "objects": "..f......c.ab........b.cf...e.....d...dd..e.b..............e...d",
+  "roomNames": [
+    "Boat Pit",
+    "Burial Chamber",
+    "Statue Hall",
+    "Well Shaft",
+    "Workshop",
+    "Scribe Room"
+  ],
+  "people": [
+    "Vera the vizier",
+    "Ada the architect",
+    "Birgit the boat builder",
+    "Carl the carpenter",
+    "Dexter the diviner",
+    "Elsa the embalmer",
+    "Fiona the fisher",
+    "Grace the guard"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "couch"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    19,
+    26,
+    36,
+    40,
+    49,
+    62
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 24,
+  "facts": [
+    [
+      "nextCount",
+      "jar",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "........C....L.....LC...............L...........................",
+  "extra": true
+}

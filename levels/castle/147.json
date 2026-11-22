@@ -1,0 +1,183 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222000112222333445555333445555333446666333446666333446666",
+  "objects": "....b.f..be...ac..c......a..e.....f.....b....d.......ca....eb.a...af.d.ea...c....",
+  "roomNames": [
+    "Tower",
+    "Gatehouse",
+    "Smithy",
+    "Chapel",
+    "Courtyard",
+    "Throne Room",
+    "Great Hall"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bard",
+    "Vivian the verger",
+    "Cora the cupbearer",
+    "Dmitri the doorkeeper",
+    "Elsa the embroiderer",
+    "Flora the falconer",
+    "Greta the glassmaker",
+    "Hazel the herbalist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "room",
+      2
+    ],
+    [
+      2,
+      "next",
+      "swords"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "swords"
+    ],
+    [
+      7,
+      "next",
+      "candles"
+    ],
+    [
+      8,
+      "on",
+      "bench"
+    ],
+    [
+      8,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    17,
+    19,
+    29,
+    40,
+    51,
+    61,
+    68,
+    72
+  ],
+  "doors": [
+    [
+      29,
+      30
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      50,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 26,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      2
+    ],
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "apart",
+      "rank"
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    6
+  ],
+  "rank": "nkckkcknk",
+  "extra": true
+}

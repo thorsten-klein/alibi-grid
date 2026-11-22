@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011112222333333444433333344445556667777555666777755566677775556667777",
+  "objects": "...a....c..d...ae...c.be........ea.a..........aa..b.aadbbbaecac.......f..e....a.a..d....a...b.f..c..",
+  "roomNames": [
+    "Command Hub",
+    "Medical Bay",
+    "Airlock Module",
+    "Hydroponic Dome",
+    "Gymnasium",
+    "Geology Lab",
+    "Habitat Quarters",
+    "Solar Array Control"
+  ],
+  "people": [
+    "Arthur the astrobiologist",
+    "Vince the venture sponsor",
+    "Basil the botanist",
+    "Cedric the commander",
+    "Dmitri the drill operator",
+    "Edgar the environmental engineer",
+    "Frank the flight specialist",
+    "Gideon the geologist",
+    "Henrik the habitat architect",
+    "Ivo the it specialist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "next",
+      "drill"
+    ],
+    [
+      1,
+      "col",
+      7
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "drill"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "room",
+      7
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "on",
+      "pod"
+    ]
+  ],
+  "solution": [
+    9,
+    17,
+    25,
+    33,
+    48,
+    50,
+    64,
+    76,
+    81,
+    92
+  ],
+  "doors": [
+    [
+      31,
+      32
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      70,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      1
+    ],
+    [
+      "nextCount",
+      "tower",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 4,
+  "steps": 48,
+  "extra": true
+}

@@ -1,0 +1,194 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000022233000022233444422233444422233555446666555446666555446666",
+  "objects": "b.a.e......f......b........a...d..........bc.....cf.caa....d..c.b.c.cd...a.afb...",
+  "roomNames": [
+    "Skate Shop",
+    "Record Store",
+    "Department Store",
+    "Atrium Fountain",
+    "Photo Studio",
+    "Cinema Lobby",
+    "Toy Emporium"
+  ],
+  "people": [
+    "Albert the aerobics instructor",
+    "Bruno the boutique clerk",
+    "Carl the cashier",
+    "Dexter the disc jockey",
+    "Elias the eyewear stylist",
+    "Felix the fashionista",
+    "Gus the guard",
+    "Victor the visiting store inspector",
+    "Hugo the head of security"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      6
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "plasticchair"
+    ],
+    [
+      4,
+      "on",
+      "photobench"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "on",
+      "plasticchair"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "fountain"
+    ],
+    [
+      8,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    25,
+    28,
+    42,
+    47,
+    54,
+    67,
+    80
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      53,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 35,
+  "extra": true
+}

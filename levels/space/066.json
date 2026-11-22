@@ -1,0 +1,87 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".....cf...e.....a.b.afce.",
+  "roomNames": [
+    "Bridge",
+    "Lab",
+    "Observatory",
+    "Cargo Bay"
+  ],
+  "people": [
+    "Viola the visitor",
+    "Albert the analyst",
+    "Bea the botanist",
+    "Clara the captain",
+    "Della the driller"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

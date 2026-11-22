@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112223344122233441555334415553344155533441",
+  "objects": ".e....a...b..e............e..b..e.f.d......f....ea.e...a..c.fb..",
+  "roomNames": [
+    "Philosopher Garden",
+    "Archivist Sanctum",
+    "Translation Chamber",
+    "Scribes Hall",
+    "Papyrus Vault",
+    "Lecture Theater"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bea the bookbinder",
+    "Vera the veteran sage",
+    "Clara the cartographer",
+    "Dora the doctor",
+    "Edith the educator",
+    "Freya the fanbearer",
+    "Greta the geometer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "mat"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    22,
+    27,
+    37,
+    47,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      42,
+      43
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 20,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 35,
+  "extra": true
+}

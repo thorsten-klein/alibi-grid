@@ -1,0 +1,227 @@
+{
+  "size": 12,
+  "rooms": "000111122222000111122222000111122222000111122222000333344444000333344444000333355555666777755555666777755555666777755555666777788888666777788888",
+  "objects": "..a..bf...a....aa.e.b.a..c...f........b...f....c.ed...ea...ae..........faf.....d........b...ac.f.ad...aff...ac.a..e.c.d..c...db.ae...edb..f.e..e",
+  "roomNames": [
+    "Sleeper A",
+    "Mail Car",
+    "Lounge Car",
+    "Sleeper B",
+    "Sleeper C",
+    "Baggage Car",
+    "Dining Car",
+    "Galley",
+    "Corridor"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Birgit the banker",
+    "Celia the conductor",
+    "Della the dentist",
+    "Ena the envoy",
+    "Freya the fiddler",
+    "Gwen the governor",
+    "Hana the hairdresser",
+    "Igor the inspector",
+    "Jade the journalist",
+    "Viola the violinist",
+    "Klaus the knife grinder"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      0,
+      "next",
+      "wine"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "suitcase"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "lamp"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "wine"
+    ],
+    [
+      7,
+      "next",
+      "suitcase"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "next",
+      "crate"
+    ],
+    [
+      9,
+      "next",
+      "seat"
+    ],
+    [
+      10,
+      "on",
+      "bunk"
+    ],
+    [
+      10,
+      "next",
+      "lamp"
+    ],
+    [
+      11,
+      "next",
+      "lamp"
+    ]
+  ],
+  "solution": [
+    5,
+    21,
+    35,
+    39,
+    48,
+    67,
+    74,
+    92,
+    97,
+    112,
+    126,
+    142
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      72,
+      84
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      46,
+      58
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      115,
+      127
+    ],
+    [
+      110,
+      111
+    ],
+    [
+      126,
+      127
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      95,
+      "r"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      135,
+      "b"
+    ],
+    [
+      141,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 7,
+  "hardest": 7,
+  "steps": 31,
+  "extra": true
+}

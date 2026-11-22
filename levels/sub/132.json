@@ -1,0 +1,176 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222233333222233333222233333444455566444455566444455566",
+  "objects": "...b...c.....dde...f........b.ce...c....c.e.ad....b...dab.e......ffeeeb........f.",
+  "roomNames": [
+    "Specimen Bay",
+    "Galley",
+    "Reactor Chamber",
+    "Pressure Airlock",
+    "Observation Dome",
+    "Crew Quarters",
+    "Torpedo Tube"
+  ],
+  "people": [
+    "Victor the vip expedition funder",
+    "Albert the acoustic analyst",
+    "Bruno the biologist",
+    "Carl the chief diver",
+    "Dexter the doctor",
+    "Elias the environmentalist",
+    "Felix the flight pilot",
+    "Gus the gyro tech",
+    "Hugo the helmsman"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "freezer"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "valve"
+    ],
+    [
+      4,
+      "next",
+      "sonar"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sonar"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "on",
+      "bunk"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "col",
+      6
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    26,
+    32,
+    39,
+    49,
+    56,
+    70,
+    78
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      69,
+      70
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      27,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

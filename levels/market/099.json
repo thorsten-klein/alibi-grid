@@ -1,0 +1,143 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112233444223344422334442233444",
+  "objects": "..eb.f..e.a..ab...a...ad..bc..........e.d.b...a.d",
+  "roomNames": [
+    "Tea Pavilion",
+    "Noodle Court",
+    "Dragon Boat",
+    "Fortune Teller",
+    "River Pagoda"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the bamboo carver",
+    "Clara the cook",
+    "Dora the dancer",
+    "Edith the elder",
+    "Vera the visiting noble",
+    "Freya the fan painter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "gong"
+    ],
+    [
+      5,
+      "next",
+      "fireworks"
+    ],
+    [
+      6,
+      "next",
+      "fireworks"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    21,
+    31,
+    41,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      3
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

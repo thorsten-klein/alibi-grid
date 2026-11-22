@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "...e.fdad..b........f.d...c.b.......",
+  "roomNames": [
+    "Chemical Vault",
+    "Specimen Nursery",
+    "Decon Airlock",
+    "Control Center",
+    "Generator Core"
+  ],
+  "people": [
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician",
+    "Dmitri the data architect",
+    "Vince the venture backer",
+    "Edgar the ecologist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "next",
+      "chamber"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    17,
+    19,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "centrifuge",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

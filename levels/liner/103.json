@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "...e....c....c.........a..............ca...cfbd..",
+  "roomNames": [
+    "Bridge",
+    "First Class Lounge",
+    "Turkish Bath",
+    "Galley",
+    "Stateroom A"
+  ],
+  "people": [
+    "Astrid the admiral",
+    "Birgit the boatswain",
+    "Celia the captain",
+    "Vivian the voyage sponsor",
+    "Della the deckhand",
+    "Ena the electrician",
+    "Flora the first mate"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "lifeboat"
+    ],
+    [
+      6,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    20,
+    23,
+    31,
+    36,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

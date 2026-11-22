@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222200111222200111333344444333344444555544444555566666555566666",
+  "objects": "f.a.d...e...f...b.a..edb....b....c.dfb...d...b.dee.f...fbd.ac.d....a..a..f.ab..a.",
+  "roomNames": [
+    "Rooftop Pool",
+    "Parking Garage",
+    "The Vault",
+    "Showgirl Dressing Room",
+    "Penthouse Suite",
+    "Valet Booth",
+    "Security Surveillance"
+  ],
+  "people": [
+    "Arthur the accountant",
+    "Basil the baccarat dealer",
+    "Vince the vip gambler",
+    "Cedric the croupier",
+    "Dmitri the dice inspector",
+    "Edgar the entertainer",
+    "Frank the floor manager",
+    "Gideon the gambler",
+    "Henrik the high roller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      0,
+      "next",
+      "slots"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "slots"
+    ],
+    [
+      3,
+      "next",
+      "wheel"
+    ],
+    [
+      4,
+      "on",
+      "chaise"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "table"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "on",
+      "chaise"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    26,
+    34,
+    37,
+    50,
+    54,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      32,
+      33
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "nextCount",
+      "chaise",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "extra": true
+}

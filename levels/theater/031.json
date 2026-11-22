@@ -1,0 +1,197 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333322222333334455566777445556677744555667774455566777",
+  "objects": "....b.b...........bc..........ad.d....fe...cad....b..b.....f....e.............b.d.b..f...db.b...a...",
+  "roomNames": [
+    "Balcony",
+    "Stage",
+    "Box Office",
+    "Prop Store",
+    "Lighting Booth",
+    "Dressing Room",
+    "Wings",
+    "Bar"
+  ],
+  "people": [
+    "Astrid the author",
+    "Birgit the baritone",
+    "Clara the critic",
+    "Vera the violinist",
+    "Della the director",
+    "Edgar the extra",
+    "Freya the flautist",
+    "Greta the ghost writer",
+    "Hazel the harpist",
+    "Isla the impresario"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "mirror"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "notRoom",
+      6
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "notRoom",
+      1
+    ],
+    [
+      8,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "next",
+      "mirror"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    28,
+    32,
+    40,
+    56,
+    65,
+    77,
+    83,
+    99
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      25,
+      35
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 3,
+  "steps": 32,
+  "group": 3
+}

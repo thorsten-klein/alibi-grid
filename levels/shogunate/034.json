@@ -1,0 +1,70 @@
+{
+  "size": 4,
+  "rooms": "0000000011112222",
+  "objects": ".....e.b.de...c.",
+  "roomNames": [
+    "Kitchen",
+    "Tea Ceremony Room",
+    "Shrine"
+  ],
+  "people": [
+    "Albert the archer",
+    "Victor the veteran general",
+    "Bruno the bushi warrior",
+    "Carl the calligrapher"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "bonsai"
+    ],
+    [
+      3,
+      "next",
+      "armor"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      8,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

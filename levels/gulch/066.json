@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "c....a.....deae.e...e....",
+  "roomNames": [
+    "Saloon",
+    "Sheriff Office",
+    "Bank",
+    "Livery"
+  ],
+  "people": [
+    "Viola the vaquero",
+    "Arthur the attorney",
+    "Bella the banker",
+    "Celia the cook",
+    "Dora the deputy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "withBandit"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 13,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    1
+  ],
+  "extra": true
+}

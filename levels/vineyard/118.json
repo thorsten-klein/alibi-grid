@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222211112222333322223333444455554444555544445555",
+  "objects": "..bfefc.fa.ea..b.a...ef......c.ced...a.....e..bbc....c.f.cba....",
+  "roomNames": [
+    "Tasting Salon",
+    "Gatehouse",
+    "Vineyard Plot",
+    "Master Bedroom",
+    "Grape Press",
+    "Wine Cave"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Bella the barrel cooper",
+    "Viola the vintner",
+    "Cora the cellar master",
+    "Daisy the distributor",
+    "Elsa the estate manager",
+    "Fiona the field laborer",
+    "Gwen the grape picker"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "bench"
+    ],
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "still"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    19,
+    25,
+    38,
+    47,
+    52,
+    56
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

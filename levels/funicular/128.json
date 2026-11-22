@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222334445555334445555334445555334446666334446666334446666",
+  "objects": "b...cb.....f..b.ef...ea.....d.a...a....b..aba..a..c..b..a..a.bb.....d.e..f.b..a..",
+  "roomNames": [
+    "Upper Engine Room",
+    "Funicular Car A",
+    "Glacier Overlook",
+    "Transformer Vault",
+    "Ski Patrol Shack",
+    "Staff Bunkhouse",
+    "Valley Terminal"
+  ],
+  "people": [
+    "Alma the alpine guide",
+    "Bella the billeter",
+    "Viola the visiting vip",
+    "Cora the cable splicer",
+    "Daisy the doctor",
+    "Elsa the excursionist",
+    "Fiona the first aider",
+    "Gwen the gearbox tech",
+    "Hazel the hiker"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "room",
+      3
+    ],
+    [
+      8,
+      "row",
+      8
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    24,
+    29,
+    43,
+    48,
+    58,
+    63,
+    80
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      50,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      71,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "bench",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

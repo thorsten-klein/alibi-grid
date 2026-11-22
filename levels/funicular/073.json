@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0000000000111112223322233",
+  "objects": ".f....eaf.......c..bb.a.b",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Funicular Car B",
+    "Valley Terminal",
+    "Upper Engine Room"
+  ],
+  "people": [
+    "Alma the avalanche controller",
+    "Bella the brake operator",
+    "Cora the conductor",
+    "Daisy the dispatcher",
+    "Viola the veteran mountaineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    13,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

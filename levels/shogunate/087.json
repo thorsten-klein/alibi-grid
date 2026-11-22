@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "000000111222111222331144331144331144",
+  "objects": "..........f.e.c........ba.......f...",
+  "roomNames": [
+    "Kitchen",
+    "Falconry Yard",
+    "Ninja Loft",
+    "Guard Gate",
+    "Zen Garden"
+  ],
+  "people": [
+    "Astrid the artisan",
+    "Vivian the visiting monk",
+    "Birgit the bowyer",
+    "Celia the cook",
+    "Della the drummer",
+    "Ena the embroiderer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "next",
+      "armor"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tatami"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    16,
+    20,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      17,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

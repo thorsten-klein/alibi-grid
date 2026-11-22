@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222445555666445555666445555666444444666444444666",
+  "objects": "...........b.....c.....da.e.....c....a.eda..f..e.b.b.b......f........b...d..e..cd",
+  "roomNames": [
+    "Fireside Lounge",
+    "Lobby",
+    "Ski Room",
+    "Games Room",
+    "Dining Hall",
+    "Sauna",
+    "Kitchen"
+  ],
+  "people": [
+    "Alma the avalanche guard",
+    "Vivian the vet",
+    "Bella the baker",
+    "Clara the climber",
+    "Dexter the doctor",
+    "Elsa the explorer",
+    "Fiona the fisher",
+    "Gideon the glacier expert",
+    "Hana the hotelier"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "wood"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "next",
+      "skis"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    19,
+    29,
+    41,
+    53,
+    58,
+    70,
+    78
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      12,
+      21
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 27,
+  "facts": [
+    [
+      "nextCount",
+      "wood",
+      1
+    ]
+  ],
+  "extra": true
+}

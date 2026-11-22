@@ -1,0 +1,104 @@
+{
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": "fd..a.a.c.......d......b.",
+  "roomNames": [
+    "Hall of Pillars",
+    "Shrine",
+    "Treasury",
+    "Workshop"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Basil the boat builder",
+    "Carl the chanter",
+    "Della the dancer",
+    "Vince the vizier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    10,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..........C......LL..C...",
+  "extra": true
+}

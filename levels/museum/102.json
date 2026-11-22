@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "....cb....f.dfad....f.f.....a..f...b.....e..e.a..",
+  "roomNames": [
+    "Security Control",
+    "Greek Antiquities",
+    "Sculpture Court",
+    "Boiler Cellar",
+    "Restoration Lab"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bea the bookkeeper",
+    "Clara the conservator",
+    "Dora the docent",
+    "Vera the visiting donor",
+    "Edith the evaluator",
+    "Freya the floor warden"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "turnstile"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "next",
+      "turnstile"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    19,
+    27,
+    30,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "a........a....b....f.....",
+  "roomNames": [
+    "Reception Lobby",
+    "Overwater Bungalow",
+    "Staff Quarters",
+    "Infinity Pool"
+  ],
+  "people": [
+    "Astrid the animator",
+    "Vivian the vip influencer",
+    "Birgit the boat captain",
+    "Celia the chef",
+    "Della the disc jockey"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "towel"
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "cart"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    13,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "towel",
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

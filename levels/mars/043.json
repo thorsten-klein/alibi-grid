@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "b.d...b....f..b.",
+  "roomNames": [
+    "Water Reclamation",
+    "Comms Array",
+    "Habitat Quarters"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Viola the visiting inspector",
+    "Bella the biosphere tech",
+    "Cora the chemist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "rover"
+    ],
+    [
+      2,
+      "next",
+      "tower"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "tower"
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

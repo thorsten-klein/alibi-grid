@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "d.a.a..a......a...........a.....ed.f.......fab...",
+  "roomNames": [
+    "Writers Room",
+    "Screening Room",
+    "Soundstage A",
+    "Prop Armory",
+    "Green Room"
+  ],
+  "people": [
+    "Albert the assistant director",
+    "Bruno the body double",
+    "Victor the veteran producer",
+    "Carl the choreographer",
+    "Dexter the diva",
+    "Elias the extra",
+    "Felix the fashion designer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    27,
+    28,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      21,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      0
+    ],
+    [
+      "nextCount",
+      "chair",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 36,
+  "extra": true
+}

@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "......c...c..db.c......f.....bd...f.db...a.dec...",
+  "roomNames": [
+    "Painted Wall",
+    "Berry Grove",
+    "Lookout Rock",
+    "Hunting Ground",
+    "Flint Pit"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Bruno the builder",
+    "Cedric the carrier",
+    "Dmitri the drummer",
+    "Edgar the elk tamer",
+    "Frank the firekeeper",
+    "Vivian the valley guide"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    14,
+    26,
+    31,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 18,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".20.2.0",
+  "tags": "...2...3...0...................2................0",
+  "extra": true
+}

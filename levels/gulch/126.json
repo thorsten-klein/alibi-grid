@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222330002223300022233444555334445553344455533",
+  "objects": ".b.......ea.f..ae.d.bfc.e...a..a..d..d.......e......df.b....cb.c",
+  "roomNames": [
+    "Saloon",
+    "Bank",
+    "General Store",
+    "Hotel",
+    "Jail",
+    "Church"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Victor the vaquero",
+    "Basil the blacksmith",
+    "Carl the cook",
+    "Dmitri the dancer",
+    "Elsa the engineer",
+    "Felix the farrier",
+    "Grace the gunsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "horse"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "bandit"
+    ],
+    [
+      7,
+      "on",
+      "bed"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    23,
+    30,
+    32,
+    42,
+    49,
+    61
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      42,
+      43
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      3
+    ],
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 21,
+  "extra": true
+}

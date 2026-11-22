@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
+  "objects": ".b..d....e.c..a.......caa..b..f......ab.a.f....e...d......bc....",
+  "roomNames": [
+    "Radio Cabin",
+    "Dining Saloon",
+    "Smoking Lounge",
+    "Cockpit Bridge",
+    "Promenade Deck",
+    "Rigging Loft"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the boatswain",
+    "Cora the chief rigger",
+    "Viola the vip diplomat",
+    "Daisy the doctor",
+    "Elsa the envoy",
+    "Fiona the flight steward",
+    "Gwen the ground crew chief"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "armchair"
+    ],
+    [
+      4,
+      "notRoom",
+      5
+    ],
+    [
+      5,
+      "next",
+      "column"
+    ],
+    [
+      6,
+      "next",
+      "winch"
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "on",
+      "berth"
+    ]
+  ],
+  "solution": [
+    6,
+    13,
+    20,
+    24,
+    33,
+    43,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

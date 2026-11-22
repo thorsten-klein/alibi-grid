@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011222223333333333",
+  "objects": "...........f...d.f..d...b",
+  "roomNames": [
+    "Hall",
+    "Conservatory",
+    "Library",
+    "Billiard Room"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Birgit the butler",
+    "Cedric the colonel",
+    "Dexter the doctor",
+    "Viola the vicar"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "next",
+      "clock"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    10,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

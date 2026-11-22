@@ -1,0 +1,162 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+  "objects": "....aeee..........a...............c...f.....f..aa.dd.b..ec..cd..",
+  "roomNames": [
+    "Cave",
+    "Shrine",
+    "Burial Chamber",
+    "Hide Tent",
+    "Captain Cabin",
+    "Bank"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Bruno the bard",
+    "Celia the clockmaker",
+    "Dexter the dreamer",
+    "Elias the engineer",
+    "Felix the fortune teller",
+    "Gwen the gladiator",
+    "Vince the visionary"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "clock"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    21,
+    26,
+    39,
+    40,
+    52,
+    62
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": ".4030...",
+  "tags": "0........4.4...1.....0...3.....4.1..............................",
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 33,
+  "extra": true
+}

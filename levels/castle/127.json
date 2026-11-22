@@ -1,0 +1,142 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333224445552244455522444555",
+  "objects": "....f.a....cb.b.....eb..ea.....a......fe..cbe..fd.e.b.eb...da...",
+  "roomNames": [
+    "Armory",
+    "Stables",
+    "Gatehouse",
+    "Great Hall",
+    "Solar",
+    "Kitchen"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Birgit the bard",
+    "Celia the cupbearer",
+    "Vince the vintner",
+    "Daisy the dancer",
+    "Edith the embroiderer",
+    "Frank the falconer",
+    "Gideon the glassmaker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "swords"
+    ],
+    [
+      7,
+      "next",
+      "candles"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    19,
+    30,
+    36,
+    45,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    5
+  ],
+  "rank": "nnkcknkk",
+  "hard": 6,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": ".c.....cf..ae.........f..e........b.b.ebe..eb.ca.",
+  "roomNames": [
+    "Gymnasium",
+    "Medical Bay",
+    "Hydroponic Dome",
+    "Airlock Module",
+    "Oxygen Scrubber"
+  ],
+  "people": [
+    "Astrid the astrobiologist",
+    "Birgit the botanist",
+    "Celia the commander",
+    "Della the drill operator",
+    "Ena the environmental engineer",
+    "Vivian the venture sponsor",
+    "Flora the flight specialist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "next",
+      "tower"
+    ],
+    [
+      3,
+      "next",
+      "tower"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    15,
+    23,
+    33,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

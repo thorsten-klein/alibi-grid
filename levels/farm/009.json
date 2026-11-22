@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": ".....c.c..aff.b.b..dc....b.b.d.c....",
+  "roomNames": [
+    "Hen House",
+    "Fruit Orchard",
+    "Big Barn",
+    "Milking Shed",
+    "Grain Silo"
+  ],
+  "people": [
+    "Astrid the agronomist",
+    "Birgit the barn hand",
+    "Vivian the veterinarian",
+    "Celia the cider presser",
+    "Della the ditcher",
+    "Ena the entomologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bale"
+    ],
+    [
+      2,
+      "on",
+      "rocker"
+    ],
+    [
+      3,
+      "next",
+      "scarecrow"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "scarecrow"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    16,
+    18,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "anvil",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "group": 1
+}

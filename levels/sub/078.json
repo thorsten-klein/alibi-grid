@@ -1,0 +1,116 @@
+{
+  "size": 6,
+  "rooms": "011222011222033222033444033444033444",
+  "objects": "cba.aca.fe.....f...b....f..e...dafc.",
+  "roomNames": [
+    "Hydrothermal Lab",
+    "Observation Dome",
+    "Ballast Control",
+    "Pilot Cockpit",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Alma the acoustic analyst",
+    "Viola the vip expedition funder",
+    "Bella the biologist",
+    "Cora the chief diver",
+    "Daisy the doctor",
+    "Elsa the environmentalist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "valve"
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ],
+    [
+      5,
+      "next",
+      "freezer"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    16,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      1
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

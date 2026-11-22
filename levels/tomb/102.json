@@ -1,0 +1,135 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "........a.ac..e...f.b.aa..bde..d...b...c...db...c",
+  "roomNames": [
+    "Antechamber",
+    "Boat Pit",
+    "Well Shaft",
+    "Hall of Pillars",
+    "Granary"
+  ],
+  "people": [
+    "Ada the architect",
+    "Bruno the brewer",
+    "Carl the carpenter",
+    "Dmitri the diviner",
+    "Elias the embalmer",
+    "Felix the fanbearer",
+    "Vera the vizier"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      6,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    15,
+    21,
+    30,
+    41,
+    46
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 20,
+  "facts": [
+    [
+      "nextCount",
+      "statue",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".....................C........C......L.......C...",
+  "extra": true
+}

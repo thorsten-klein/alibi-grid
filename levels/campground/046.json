@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "b......eba..e..a",
+  "roomNames": [
+    "Campfire Clearing",
+    "Bunkhouse Alpha",
+    "Arts Shed"
+  ],
+  "people": [
+    "Astrid the arts counselor",
+    "Vivian the visitor",
+    "Birgit the bugler",
+    "Celia the cook"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 10,
+  "extra": true
+}

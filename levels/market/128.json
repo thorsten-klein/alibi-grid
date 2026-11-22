@@ -1,0 +1,183 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111000000111222334444222334444222334444222335555666665555666665555",
+  "objects": "...b..fb..a....d..bc..................a...e..bb..........b........e.....ade.d...e",
+  "roomNames": [
+    "Silk Stall",
+    "Lantern Bridge",
+    "Bell Tower",
+    "Tea Pavilion",
+    "River Pagoda",
+    "Noodle Court",
+    "Garden Courtyard"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Birgit the boatman",
+    "Celia the calligrapher",
+    "Della the drummer",
+    "Ena the embroiderer",
+    "Flora the firework master",
+    "Grace the gong striker",
+    "Hana the herbalist",
+    "Vivian the village magistrate"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "cushion"
+    ],
+    [
+      1,
+      "next",
+      "cushion"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "gong"
+    ],
+    [
+      5,
+      "next",
+      "cushion"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "fireworks"
+    ],
+    [
+      8,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    26,
+    29,
+    41,
+    48,
+    61,
+    64,
+    78
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "teacart",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

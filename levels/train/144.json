@@ -1,0 +1,177 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222333444222333444222333444555333444555666666555666666",
+  "objects": "...b..c..........fb..b..f..ff.c...f...c...a....b......ab..a.......e...e...eac....",
+  "roomNames": [
+    "Corridor",
+    "Sleeper A",
+    "Dining Car",
+    "Bar Car",
+    "Guard's Van",
+    "Sleeper C",
+    "Baggage Car"
+  ],
+  "people": [
+    "Ada the attendant",
+    "Bruno the banker",
+    "Celia the conductor",
+    "Dora the dentist",
+    "Edith the engineer",
+    "Fiona the fiddler",
+    "Gwen the governor",
+    "Vince the violinist",
+    "Hana the hairdresser"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      8,
+      "next",
+      "lamp"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    33,
+    44,
+    49,
+    61,
+    68,
+    75
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 21,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "extra": true
+}

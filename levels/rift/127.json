@@ -1,0 +1,165 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111223331112233311122333111444455554444555544445555",
+  "objects": ".......e......e..be.f.......e.b.d.cb..........da..c.b.c....fd...",
+  "roomNames": [
+    "Bank",
+    "Hide Tent",
+    "Shrine",
+    "Burial Chamber",
+    "Captain Cabin",
+    "Cave"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Basil the bookbinder",
+    "Cedric the clockmaker",
+    "Dexter the dreamer",
+    "Edgar the engineer",
+    "Viola the voyager",
+    "Fiona the falconer",
+    "Gwen the guardian"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    19,
+    29,
+    38,
+    44,
+    55,
+    56
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": "4..4.202",
+  "tags": ".4...2..2.............4......4.4.0...2.............2....2.......",
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

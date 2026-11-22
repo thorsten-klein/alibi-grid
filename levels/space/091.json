@@ -1,0 +1,129 @@
+{
+  "size": 6,
+  "rooms": "001111001111002233002233002244002244",
+  "objects": "........bbeaa.ae...aba..d..cb.ab...e",
+  "roomNames": [
+    "Hydroponics",
+    "Gym",
+    "Med Bay",
+    "Airlock",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Bruno the botanist",
+    "Vera the visitor",
+    "Celia the captain",
+    "Dora the driller",
+    "Edgar the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "console"
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    13,
+    23,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "scope",
+      0
+    ],
+    [
+      "nextCount",
+      "pod",
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

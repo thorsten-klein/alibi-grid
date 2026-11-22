@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "dd.........b..c.....fbb.f.d.....dac.f..cf.......c",
+  "roomNames": [
+    "Grand Ballroom",
+    "Boiler Room",
+    "Telegraph Cabin",
+    "Promenade Deck",
+    "Turkish Bath"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the bartender",
+    "Clara the chief engineer",
+    "Dora the doctor",
+    "Edith the envoy",
+    "Vera the valet",
+    "Freya the fireman"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "lifeboat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    15,
+    25,
+    33,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

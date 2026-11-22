@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333322223333444445554444455544444555",
+  "objects": ".b.ac.b.........ab...a..bec.....b.ce......c.f.b.......efab.a.c.b",
+  "roomNames": [
+    "Main Lounge",
+    "Jazz Stage",
+    "Cold Storage",
+    "Safe Room",
+    "Tailor Front",
+    "Distillery"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bruno the bootlegger",
+    "Carl the card sharp",
+    "Dexter the distiller",
+    "Elias the emcee",
+    "Felix the forger",
+    "Gus the gun runner",
+    "Victor the valued patron"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "booth"
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "roulette"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "safe"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "sax"
+    ],
+    [
+      7,
+      "next",
+      "booth"
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    22,
+    24,
+    36,
+    43,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 24,
+  "group": 3
+}

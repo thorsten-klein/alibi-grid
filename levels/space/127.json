@@ -1,0 +1,140 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
+  "objects": ".f...bf.c.c....a....bc.............caad............a............",
+  "roomNames": [
+    "Engine Room",
+    "Bridge",
+    "Crew Quarters",
+    "Hydroponics",
+    "Airlock",
+    "Mess Hall"
+  ],
+  "people": [
+    "Viola the visitor",
+    "Arthur the astronaut",
+    "Bea the botanist",
+    "Celia the captain",
+    "Della the driller",
+    "Edith the engineer",
+    "Freya the farmer",
+    "Gwen the geologist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "scope"
+    ],
+    [
+      5,
+      "room",
+      5
+    ],
+    [
+      6,
+      "on",
+      "seat"
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    7,
+    14,
+    16,
+    25,
+    37,
+    44,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

@@ -1,0 +1,109 @@
+{
+  "size": 6,
+  "rooms": "000011000011222111222111333444333444",
+  "objects": "..cbed..c.bb.c.bcfa...........ba.d..",
+  "roomNames": [
+    "Dining Hall",
+    "Games Room",
+    "Lobby",
+    "Kitchen",
+    "Suite"
+  ],
+  "people": [
+    "Alma the avalanche guard",
+    "Victor the vlogger",
+    "Basil the baker",
+    "Carl the climber",
+    "Dexter the doctor",
+    "Elsa the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "wood"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    14,
+    23,
+    27,
+    34
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

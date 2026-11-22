@@ -1,0 +1,111 @@
+{
+  "size": 6,
+  "rooms": "000000000000111222111222333444333444",
+  "objects": "..d...f...a..bb...d..cbbc...e..f....",
+  "roomNames": [
+    "Wings",
+    "Orchestra Pit",
+    "Foyer",
+    "Balcony",
+    "Green Room"
+  ],
+  "people": [
+    "Astrid the author",
+    "Basil the bass player",
+    "Cedric the critic",
+    "Viola the violinist",
+    "Daisy the director",
+    "Edgar the extra"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "mirror"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "next",
+      "light"
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    15,
+    23,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      0
+    ]
+  ],
+  "extra": true
+}

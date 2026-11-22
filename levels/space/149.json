@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000111111222333444222333444222333444222333444555555666555555666",
+  "objects": "....c.a...c...ef..ac....a..b....ab......d..a.a......a.eb......baad.....c.....b..f",
+  "roomNames": [
+    "Lab",
+    "Comms",
+    "Crew Quarters",
+    "Gym",
+    "Engine Room",
+    "Airlock",
+    "Hydroponics"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Bella the botanist",
+    "Carl the captain",
+    "Dexter the driller",
+    "Elsa the engineer",
+    "Flora the farmer",
+    "Gideon the gunner",
+    "Victor the visitor",
+    "Henrik the hacker"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "console"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "scope"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "pod"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    18,
+    30,
+    43,
+    49,
+    60,
+    68,
+    73
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 2,
+  "hardest": 5,
+  "steps": 23,
+  "facts": [
+    [
+      "nextCount",
+      "scope",
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "extra": true
+}

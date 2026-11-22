@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "c.....f...afb..c.c.......",
+  "roomNames": [
+    "Cotton Candy Stand",
+    "Ghost Train",
+    "Maintenance Hut",
+    "Pier Edge"
+  ],
+  "people": [
+    "Vince the vagrant",
+    "Arthur the arcade repairman",
+    "Basil the boardwalk walker",
+    "Cedric the caretaker",
+    "Dmitri the drifter"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "onCount",
+      "cart",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

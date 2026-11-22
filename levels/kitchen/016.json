@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "..f....a.df..a..",
+  "roomNames": [
+    "Plating Line",
+    "Pastry Kitchen",
+    "Wine Cellar"
+  ],
+  "people": [
+    "Ada the apprentice chef",
+    "Vera the vip dining critic",
+    "Bea the baker",
+    "Clara the chef de cuisine"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "fridge"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "b"
+    ],
+    [
+      14,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 13,
+  "group": 2
+}

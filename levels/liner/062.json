@@ -1,0 +1,94 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".aea.b.......aad..ba..e..",
+  "roomNames": [
+    "First Class Lounge",
+    "Telegraph Cabin",
+    "Turkish Bath",
+    "Bridge"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Vince the valet",
+    "Basil the bartender",
+    "Cedric the chief engineer",
+    "Dmitri the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "telegraph"
+    ],
+    [
+      2,
+      "on",
+      "deckchair"
+    ],
+    [
+      3,
+      "on",
+      "berth"
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    14,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

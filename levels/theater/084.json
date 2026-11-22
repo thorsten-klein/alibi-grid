@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "000000111111111111223344223344223344",
+  "objects": "...d.d.c.......e..a..ab....c.f..b...",
+  "roomNames": [
+    "Dressing Room",
+    "Lighting Booth",
+    "Stage",
+    "Costume Room",
+    "Box Office"
+  ],
+  "people": [
+    "Arthur the agent",
+    "Bella the bass player",
+    "Cora the critic",
+    "Dora the director",
+    "Edith the electrician",
+    "Victor the ventriloquist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    14,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      3,
+      9
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

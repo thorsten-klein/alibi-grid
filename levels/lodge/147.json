@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111000000111222334444222334444222334444222335555666665555666665555",
+  "objects": "...b..fb..a....d..bc..................a...e..bb..........b........e.....ade.d...e",
+  "roomNames": [
+    "Ski Room",
+    "Lobby",
+    "Terrace",
+    "Fireside Lounge",
+    "Dining Hall",
+    "Bar",
+    "Boot Room"
+  ],
+  "people": [
+    "Albert the athlete",
+    "Bella the bartender",
+    "Cora the cook",
+    "Dmitri the doctor",
+    "Ena the explorer",
+    "Felix the forester",
+    "Gus the glacier expert",
+    "Henrik the hiker",
+    "Viola the vet"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    26,
+    29,
+    41,
+    48,
+    61,
+    64,
+    78
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      56,
+      65
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "wood",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

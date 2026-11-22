@@ -1,0 +1,162 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111223331112233311122333111444555554445555544455555",
+  "objects": "edb.a...e...f.a.......e.a...........ad.ba.c........a...a.......b",
+  "roomNames": [
+    "Mine",
+    "Saloon",
+    "Barber",
+    "Corral",
+    "Sheriff Office",
+    "Hotel"
+  ],
+  "people": [
+    "Albert the auctioneer",
+    "Basil the blacksmith",
+    "Carl the cook",
+    "Vera the vaquero",
+    "Dmitri the dancer",
+    "Elsa the engineer",
+    "Freya the farrier",
+    "Gideon the gambler"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "cactus"
+    ],
+    [
+      4,
+      "next",
+      "cactus"
+    ],
+    [
+      4,
+      "next",
+      "bed"
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    20,
+    29,
+    38,
+    40,
+    50,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    1
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

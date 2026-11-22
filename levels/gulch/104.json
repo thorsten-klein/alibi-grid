@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333333344444444444444",
+  "objects": "..ae...d...c.....a.......b.......bb..............",
+  "roomNames": [
+    "Telegraph Office",
+    "General Store",
+    "Livery",
+    "Hotel",
+    "Corral"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Bella the banker",
+    "Carl the cook",
+    "Daisy the dancer",
+    "Elias the editor",
+    "Felix the farrier",
+    "Victor the vet"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      4
+    ],
+    [
+      6,
+      "col",
+      6
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    14,
+    23,
+    29,
+    39,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "extra": true
+}

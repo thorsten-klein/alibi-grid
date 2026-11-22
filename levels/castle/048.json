@@ -1,0 +1,88 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "..b..bb.a....b.b",
+  "roomNames": [
+    "Great Hall",
+    "Armory",
+    "Stables"
+  ],
+  "people": [
+    "Victor the verger",
+    "Arthur the alchemist",
+    "Bea the baker",
+    "Cora the chronicler"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ]
+  ],
+  "solution": [
+    2,
+    4,
+    9,
+    15
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "cknc",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

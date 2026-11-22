@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": ".b......fe.......fe.afff..fc.cb...cb",
+  "roomNames": [
+    "Greek Antiquities",
+    "Security Control",
+    "Sculpture Court",
+    "Vault",
+    "Gift Shop"
+  ],
+  "people": [
+    "Alma the archaeologist",
+    "Bella the benefactor",
+    "Viola the valuer",
+    "Cora the curator",
+    "Daisy the director",
+    "Elsa the egyptologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "turnstile"
+    ],
+    [
+      1,
+      "next",
+      "display"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "sarcophagus"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    19,
+    24,
+    35
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

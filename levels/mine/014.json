@@ -1,0 +1,212 @@
+{
+  "size": 11,
+  "rooms": "0000111111100001111111000011111110000222333344442223333444422233334444222333344445555666777755556667777555566677775555666",
+  "objects": "a..c....fc..e.bfd..b.e.f.a.......a.e..d.e..b.ed.a....a...a.af............efd...........fb....b.e.......e.b......e.bdc...b",
+  "roomNames": [
+    "Assay Office",
+    "Miners Mess",
+    "Mule Stables",
+    "Shift Boss Office",
+    "Timber Storage",
+    "Water Sump",
+    "Shaft Elevator",
+    "Smelting Oven"
+  ],
+  "people": [
+    "Ada the axeman",
+    "Bea the blaster",
+    "Vera the venture capitalist",
+    "Clara the carpenter",
+    "Dora the dynamite handler",
+    "Edith the hoist operator",
+    "Freya the farrier",
+    "Greta the gold panner",
+    "Hilda the healer",
+    "Ivy the iron worker",
+    "Jade the junior skinner"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "drill"
+    ],
+    [
+      3,
+      "next",
+      "keg"
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ],
+    [
+      5,
+      "on",
+      "keg"
+    ],
+    [
+      5,
+      "next",
+      "drill"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "drill"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "bunk"
+    ],
+    [
+      9,
+      "next",
+      "hoist"
+    ],
+    [
+      10,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    6,
+    18,
+    22,
+    34,
+    52,
+    59,
+    69,
+    86,
+    90,
+    104,
+    120
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      31,
+      42
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      77,
+      88
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      113,
+      114
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 29,
+  "group": 1
+}

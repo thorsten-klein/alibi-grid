@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": "bf..cb.....b.db......b....b.b......b",
+  "roomNames": [
+    "Lobby",
+    "Terrace",
+    "Boot Room",
+    "Bar",
+    "Spa"
+  ],
+  "people": [
+    "Alma the avalanche guard",
+    "Birgit the bartender",
+    "Carl the climber",
+    "Dexter the driver",
+    "Edgar the engineer",
+    "Viola the vet"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "wood"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    17,
+    18,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 17,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "fire",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 32,
+  "extra": true
+}

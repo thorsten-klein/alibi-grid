@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122333333444433444433",
+  "objects": "...a......a.d...c.d...fbfddec...ba..",
+  "roomNames": [
+    "Distillery",
+    "Private Booths",
+    "VIP Poker Den",
+    "Manager Office",
+    "Safe Room"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Vera the valued patron",
+    "Bea the bootlegger",
+    "Clara the card sharp",
+    "Dora the distiller",
+    "Edith the emcee"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "safe"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    13,
+    21,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

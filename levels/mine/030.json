@@ -1,0 +1,176 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000111111222333333222333333444555555444555555444666666444666666",
+  "objects": "......f...cea..df.....dcd...ff..a..b......bbd..ca..c.f....b...eb.f.a.e.b.a.e.c..c",
+  "roomNames": [
+    "Tool Crib",
+    "Water Sump",
+    "Dynamite Magazine",
+    "Miners Mess",
+    "Deep Winze",
+    "Mule Stables",
+    "Main Drift"
+  ],
+  "people": [
+    "Albert the axeman",
+    "Bruno the blaster",
+    "Carl the carpenter",
+    "Dexter the dynamite handler",
+    "Elias the hoist operator",
+    "Victor the venture capitalist",
+    "Felix the farrier",
+    "Gus the gold panner",
+    "Hugo the healer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "orecart"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "hoist"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "keg"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "notRoom",
+      3
+    ],
+    [
+      6,
+      "next",
+      "dynamite"
+    ],
+    [
+      7,
+      "next",
+      "dynamite"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    26,
+    31,
+    42,
+    45,
+    61,
+    66,
+    74
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 7,
+  "steps": 25,
+  "group": 3
+}

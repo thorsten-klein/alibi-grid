@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122223333332222333333444433333344445555667777555566777755556677775555667777",
+  "objects": "....a.b.....e.....f...b.....e.a.a.e..cb......d...bda....b....aea..b.b...c.......e....a......ad.....d",
+  "roomNames": [
+    "Kitchen",
+    "Bottling Line",
+    "Grape Press",
+    "Oak Barrel Cellar",
+    "Tasting Salon",
+    "Manor Library",
+    "Master Bedroom",
+    "Manor Terrace"
+  ],
+  "people": [
+    "Albert the agronomist",
+    "Victor the vintner",
+    "Bruno the barrel cooper",
+    "Carl the cellar master",
+    "Dexter the distributor",
+    "Elias the estate manager",
+    "Felix the field laborer",
+    "Gus the grape picker",
+    "Hugo the harvest coordinator",
+    "Igor the importer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ],
+    [
+      6,
+      "col",
+      5
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "press"
+    ],
+    [
+      9,
+      "next",
+      "press"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    23,
+    38,
+    47,
+    51,
+    65,
+    76,
+    89,
+    92
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      21,
+      31
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      25,
+      35
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 33,
+  "extra": true
+}

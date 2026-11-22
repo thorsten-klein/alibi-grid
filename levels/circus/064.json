@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111222332223322233",
+  "objects": ".a...b.......bf.d........",
+  "roomNames": [
+    "Trapeze Rig",
+    "Funhouse",
+    "Prop Tent",
+    "Ticket Booth"
+  ],
+  "people": [
+    "Astrid the acrobat",
+    "Birgit the barker",
+    "Celia the clown",
+    "Della the daredevil",
+    "Vivian the ventriloquist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "cage"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      4,
+      9
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "crystal",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,211 @@
+{
+  "size": 10,
+  "rooms": "0001122222000112222200011333330001133333000113333344444555554444455555444446666677777666667777766666",
+  "objects": "..b.d.ec...fc......b.b.b.....a.e......a...c..b.ae..f......b.....ba.....ac.....b...a..........db.ecd.",
+  "roomNames": [
+    "Fire Pit",
+    "Shrine",
+    "Bank",
+    "Jail",
+    "Burial Chamber",
+    "Throne Room",
+    "Hide Tent",
+    "Captain Cabin"
+  ],
+  "people": [
+    "Viola the visionary",
+    "Astrid the astronomer",
+    "Bella the bookbinder",
+    "Cora the clockmaker",
+    "Della the drifter",
+    "Edith the explorer",
+    "Frank the falconer",
+    "Greta the gladiator",
+    "Hugo the herald",
+    "Ines the inventor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "clock"
+    ],
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "next",
+      "boulder"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "next",
+      "log"
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    14,
+    20,
+    36,
+    47,
+    55,
+    68,
+    73,
+    89,
+    92
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      66,
+      76
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      91,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "nextCount",
+      "statue",
+      1
+    ],
+    [
+      "onCount",
+      "chair",
+      1
+    ]
+  ],
+  "rules": [
+    "ranks",
+    "trades"
+  ],
+  "court": [
+    1,
+    3
+  ],
+  "rank": "ckcnncccck",
+  "trade": "...0.34.41",
+  "tags": ".....0..............................0...............3333....1.......4..........3.3.....0.4.1...3....",
+  "hard": 7,
+  "hardest": 6,
+  "steps": 41,
+  "extra": true
+}

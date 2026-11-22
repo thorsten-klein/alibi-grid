@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223344222334422233442223344",
+  "objects": "a....e...e.....a..a..f..a.e......b.c.....cb......",
+  "roomNames": [
+    "Gas Catwalk",
+    "Starboard Gondola",
+    "Cargo Hold",
+    "Galley",
+    "Rigging Loft"
+  ],
+  "people": [
+    "Ada the aeronaut",
+    "Bea the barman",
+    "Vera the vessel inventor",
+    "Clara the captain",
+    "Dora the dirigible pilot",
+    "Edith the engine mechanic",
+    "Freya the first officer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "ballast"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    19,
+    22,
+    28,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "alone",
+      null,
+      2
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "tries": 6,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

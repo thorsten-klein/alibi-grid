@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": ".c.....cf..ae.........f..e........b.b.ebe..eb.ca.",
+  "roomNames": [
+    "Cargo Bay",
+    "Comms",
+    "Lab",
+    "Airlock",
+    "Hydroponics"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Bea the botanist",
+    "Carl the captain",
+    "Dmitri the driller",
+    "Elsa the electrician",
+    "Vince the visitor",
+    "Frank the flight officer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    15,
+    23,
+    33,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 20,
+  "extra": true
+}

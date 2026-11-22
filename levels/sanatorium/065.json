@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "e.....dc....a.d..c..a....",
+  "roomNames": [
+    "Pharmacy",
+    "Boiler Room",
+    "Solarium",
+    "Doctor Office"
+  ],
+  "people": [
+    "Ada the anesthetist",
+    "Bea the biochemist",
+    "Vera the victim of illness",
+    "Clara the chief surgeon",
+    "Dora the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "xray"
+    ],
+    [
+      1,
+      "next",
+      "cabinet"
+    ],
+    [
+      2,
+      "on",
+      "wheelchair"
+    ],
+    [
+      3,
+      "next",
+      "wheelchair"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

@@ -1,0 +1,88 @@
+{
+  "size": 5,
+  "rooms": "0000000000111112223322233",
+  "objects": "..........e.b......bfa...",
+  "roomNames": [
+    "Sea of Ages",
+    "Shrine",
+    "Fire Pit",
+    "Bank"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Birgit the bard",
+    "Cedric the chronicler",
+    "Vince the voyager",
+    "Daisy the drifter"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    13,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "trades",
+    "sea"
+  ],
+  "trade": "13000",
+  "tags": ".............0.0.3.....0.",
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

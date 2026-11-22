@@ -1,0 +1,121 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": ".f..dc....bcc.fd.b.b..b.bdb..e..aa..f....f...b..e",
+  "roomNames": [
+    "Maintenance Hut",
+    "Fortune Booth",
+    "Boardwalk Plankway",
+    "Ghost Train",
+    "Souvenir Shack"
+  ],
+  "people": [
+    "Albert the arcade repairman",
+    "Victor the vagrant",
+    "Bruno the boardwalk walker",
+    "Carl the caretaker",
+    "Dexter the drifter",
+    "Elias the electrician",
+    "Felix the fortune teller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "on",
+      "cart"
+    ],
+    [
+      3,
+      "next",
+      "claw"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    26,
+    31,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

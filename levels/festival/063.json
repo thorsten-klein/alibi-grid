@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "af...a........ebb........",
+  "roomNames": [
+    "First Aid Tent",
+    "Artist Trailer",
+    "Green Room",
+    "Beer Garden"
+  ],
+  "people": [
+    "Astrid the audio engineer",
+    "Birgit the bass player",
+    "Celia the crew chief",
+    "Vivian the vip record exec",
+    "Della the drummer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "roadcase"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

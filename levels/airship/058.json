@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "....cb..e.....c.f...bc..f",
+  "roomNames": [
+    "Cockpit Bridge",
+    "Promenade Deck",
+    "Radio Cabin",
+    "Cargo Hold"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the boatswain",
+    "Carl the chief rigger",
+    "Dexter the doctor",
+    "Victor the vip diplomat"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      1,
+      "on",
+      "berth"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "luggage"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    5,
+    12,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

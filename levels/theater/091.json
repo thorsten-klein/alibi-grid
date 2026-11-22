@@ -1,0 +1,124 @@
+{
+  "size": 6,
+  "rooms": "000111000111222233222233444433444433",
+  "objects": ".e..fa.b.........b.aa.d.....aef.....",
+  "roomNames": [
+    "Costume Room",
+    "Box Office",
+    "Foyer",
+    "Prop Store",
+    "Lighting Booth"
+  ],
+  "people": [
+    "Albert the author",
+    "Bruno the baritone",
+    "Cedric the choreographer",
+    "Della the dancer",
+    "Vivian the ventriloquist",
+    "Elias the electrician"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "light"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    21,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 16,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      0
+    ]
+  ],
+  "extra": true
+}

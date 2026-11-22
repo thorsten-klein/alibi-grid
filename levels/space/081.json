@@ -1,0 +1,136 @@
+{
+  "size": 6,
+  "rooms": "000011000011223333223333224444224444",
+  "objects": "b..........bb.d.......bbb.c.....b..c",
+  "roomNames": [
+    "Gym",
+    "Hydroponics",
+    "Crew Quarters",
+    "Mess Hall",
+    "Lab"
+  ],
+  "people": [
+    "Alma the astronaut",
+    "Birgit the botanist",
+    "Cedric the chemist",
+    "Della the driller",
+    "Elsa the engineer",
+    "Vera the visitor"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "console"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    19,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 17,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "nextCount",
+      "console",
+      1
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "extra": true
+}

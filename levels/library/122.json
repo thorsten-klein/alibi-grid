@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222333332223333322233333444455554444555544445555",
+  "objects": "..fc..de.........a..bdfb.e..ab.........fc.bfa..b....e..af.......",
+  "roomNames": [
+    "Lecture Theater",
+    "Great Peristyle",
+    "Archivist Sanctum",
+    "Mosaic Gallery",
+    "Observatory",
+    "Papyrus Vault"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Bella the botanist",
+    "Cora the chronicler",
+    "Viola the visiting philosopher",
+    "Daisy the dialectician",
+    "Elsa the epigrapher",
+    "Fiona the folklorist",
+    "Gwen the grammarian"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "bust"
+    ],
+    [
+      2,
+      "next",
+      "sphere"
+    ],
+    [
+      3,
+      "next",
+      "mat"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "next",
+      "burner"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    20,
+    30,
+    34,
+    41,
+    48,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 31,
+  "extra": true
+}

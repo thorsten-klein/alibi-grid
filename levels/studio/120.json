@@ -1,0 +1,139 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222233322222333222223334444455544444555",
+  "objects": "a..f........f.......a..b....c.e..d.b.....e......e.......a...d.c.",
+  "roomNames": [
+    "Studio Commissary",
+    "Sound Booth",
+    "Makeup Room",
+    "Wardrobe Vault",
+    "Screening Room",
+    "Green Room"
+  ],
+  "people": [
+    "Alma the actor",
+    "Bella the boom operator",
+    "Cora the cinematographer",
+    "Daisy the director",
+    "Viola the voice actor",
+    "Elsa the editor",
+    "Fiona the focus puller",
+    "Gwen the grip"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "trunk"
+    ],
+    [
+      7,
+      "next",
+      "camera"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    19,
+    29,
+    34,
+    44,
+    49,
+    63
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "corner",
+      null,
+      5
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

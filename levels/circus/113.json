@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011110000222233442222334422223344555533445555",
+  "objects": "....a.........a.....ed.b.a..ba......b........ebca..d...c.....c.a",
+  "roomNames": [
+    "Trapeze Rig",
+    "Hay Barn",
+    "Prop Tent",
+    "Carousel",
+    "Dressing Trailer",
+    "Menagerie Tent"
+  ],
+  "people": [
+    "Arthur the animal tamer",
+    "Basil the balloon artist",
+    "Cedric the contortionist",
+    "Dmitri the drummer",
+    "Edgar the electrician",
+    "Frank the fortune teller",
+    "Gideon the gymnast",
+    "Vince the veteran ringmaster"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "on",
+      "mat"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ],
+    [
+      6,
+      "next",
+      "cannon"
+    ],
+    [
+      7,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    23,
+    24,
+    35,
+    46,
+    53,
+    60
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      0,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

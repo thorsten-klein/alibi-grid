@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "b........a.......c.f..d..",
+  "roomNames": [
+    "Scribe Room",
+    "Burial Chamber",
+    "Antechamber",
+    "Granary"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Basil the brewer",
+    "Vivian the vizier",
+    "Carl the chanter",
+    "Della the dancer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    12,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".....L.L....C.......C....",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "group": 0
+}

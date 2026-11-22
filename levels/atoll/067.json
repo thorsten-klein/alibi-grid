@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "abee...eb.ce.....a.......",
+  "roomNames": [
+    "Overwater Bungalow",
+    "Infinity Pool",
+    "Yacht Marina",
+    "Luau Grounds"
+  ],
+  "people": [
+    "Vera the vip influencer",
+    "Ada the animator",
+    "Bea the boat captain",
+    "Clara the chef",
+    "Dora the disc jockey"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "jetski"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "towel"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

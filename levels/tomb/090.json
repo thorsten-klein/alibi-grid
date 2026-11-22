@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222332244332244332244",
+  "objects": "..........b..........bbd.a...fe.a..b",
+  "roomNames": [
+    "Sun Court",
+    "Burial Chamber",
+    "Treasury",
+    "Workshop",
+    "Shrine"
+  ],
+  "people": [
+    "Astrid the astrologer",
+    "Bruno the boat builder",
+    "Cedric the chanter",
+    "Vince the vizier",
+    "Della the diviner",
+    "Ena the embalmer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "couch"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    15,
+    22,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      16,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 18,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "L..CC....C...L....C.................",
+  "extra": true
+}

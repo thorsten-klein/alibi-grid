@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333333333333334444444",
+  "objects": ".....a..d..f...ab..d..a...ba..ca.d.ab....a.ca....",
+  "roomNames": [
+    "Dive Shop",
+    "Reception Lobby",
+    "Staff Quarters",
+    "Infinity Pool",
+    "Coral Lagoon"
+  ],
+  "people": [
+    "Astrid the activities director",
+    "Birgit the bartender",
+    "Celia the concierge",
+    "Vivian the vacationer",
+    "Della the divemaster",
+    "Ena the excursion guide",
+    "Flora the fitness coach"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      1,
+      "next",
+      "idol"
+    ],
+    [
+      2,
+      "next",
+      "idol"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "next",
+      "towel"
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "room",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    20,
+    21,
+    29,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      40,
+      47
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "nextCount",
+      "towel",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "group": 0
+}

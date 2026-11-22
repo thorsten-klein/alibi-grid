@@ -1,0 +1,178 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222333311222333311222333344555333344555666644555666644555",
+  "objects": "b..f...d.....b....a.ef.........f.d.e...........a.b...bb....f....d...fc.a.........",
+  "roomNames": [
+    "Chapel",
+    "Study",
+    "Gallery",
+    "Ballroom",
+    "Library",
+    "Cellar",
+    "Billiard Room"
+  ],
+  "people": [
+    "Alma the architect",
+    "Birgit the butler",
+    "Clara the colonel",
+    "Dexter the dealer",
+    "Ena the editor",
+    "Felix the footman",
+    "Vince the valet",
+    "Gus the guest",
+    "Hazel the housekeeper"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "next",
+      "clock"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "col",
+      2
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    26,
+    34,
+    40,
+    45,
+    56,
+    66,
+    77
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 28,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      3
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "extra": true
+}

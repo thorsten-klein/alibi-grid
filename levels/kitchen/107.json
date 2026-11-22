@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "d..bb.c..bc....b.....e...e........bc...e..cb.b...",
+  "roomNames": [
+    "Pastry Kitchen",
+    "Hostess Foyer",
+    "Walk In Cooler",
+    "Main Dining Room",
+    "Staff Locker"
+  ],
+  "people": [
+    "Arthur the apprentice chef",
+    "Vince the vip dining critic",
+    "Basil the baker",
+    "Cedric the chef de cuisine",
+    "Dmitri the dishwasher",
+    "Edgar the expediter",
+    "Frank the fishmonger"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "banquette"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "banquette"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    12,
+    14,
+    24,
+    29,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "cooktop",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

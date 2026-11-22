@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000000000000111222111222333444333444",
+  "objects": "f....a......ecea.e.a....eb...eb....b",
+  "roomNames": [
+    "Sun Court",
+    "Antechamber",
+    "Well Shaft",
+    "Shrine",
+    "Workshop"
+  ],
+  "people": [
+    "Ada the architect",
+    "Victor the vintner",
+    "Bea the boat builder",
+    "Cedric the chanter",
+    "Dexter the dancer",
+    "Edith the envoy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      4,
+      "next",
+      "couch"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    16,
+    18,
+    26,
+    33
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".......C.C...........C....L.........",
+  "extra": true
+}

@@ -1,0 +1,152 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111000000111000000111220000333220000333220000333224444555224444555",
+  "objects": "................f.........f........fc.........b....f.b...........b.aa.b.f.a...f..",
+  "roomNames": [
+    "Sea of Ages",
+    "Bank",
+    "Great Hall",
+    "Saloon",
+    "Shrine",
+    "Throne Room"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Basil the bookbinder",
+    "Cora the chronicler",
+    "Dora the dreamer",
+    "Elsa the engineer",
+    "Fiona the fortune teller",
+    "Viola the voyager",
+    "Gwen the guardian",
+    "Henrik the historian"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "clock"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "clock"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      7,
+      "next",
+      "clock"
+    ],
+    [
+      7,
+      "window"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    5,
+    17,
+    21,
+    34,
+    42,
+    47,
+    55,
+    63,
+    76
+  ],
+  "doors": [
+    [
+      33,
+      42
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "..........................................L....................C............L....",
+  "sea": 0,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

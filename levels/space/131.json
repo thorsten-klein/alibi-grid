@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+  "objects": "...c..a......fd...f.edd.........b....fa....a.....c....b.e.....b.",
+  "roomNames": [
+    "Comms",
+    "Gym",
+    "Engine Room",
+    "Cargo Bay",
+    "Airlock",
+    "Crew Quarters"
+  ],
+  "people": [
+    "Alma the astronaut",
+    "Birgit the biologist",
+    "Clara the captain",
+    "Dora the doctor",
+    "Ena the engineer",
+    "Viola the volunteer",
+    "Flora the flight officer",
+    "Gideon the geologist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "console"
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    19,
+    28,
+    32,
+    41,
+    54,
+    61
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 5,
+  "hardest": 3,
+  "steps": 21,
+  "facts": [
+    [
+      "nextCount",
+      "tank",
+      2
+    ]
+  ],
+  "extra": true
+}

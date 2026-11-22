@@ -1,0 +1,130 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222233444433444433",
+  "objects": "..a..d........e.....eac...ef...b..f.",
+  "roomNames": [
+    "Crew Quarters",
+    "Cargo Bay",
+    "Mess Hall",
+    "Med Bay",
+    "Bridge"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bella the biologist",
+    "Vince the volunteer",
+    "Cedric the chemist",
+    "Dora the doctor",
+    "Ena the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "console"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    16,
+    23,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "scope",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

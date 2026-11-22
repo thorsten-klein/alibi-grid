@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "b..c.abe..b..e..........f",
+  "roomNames": [
+    "Sleeper C",
+    "Baggage Car",
+    "Lounge Car",
+    "Observation Car"
+  ],
+  "people": [
+    "Ada the attendant",
+    "Bella the bookseller",
+    "Cora the courier",
+    "Vivian the vendor",
+    "Dora the dentist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "extra": true
+}

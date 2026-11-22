@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "f...afa...e................eb...e..e....a..d.b..a",
+  "roomNames": [
+    "Boat Pit",
+    "Well Shaft",
+    "Shrine",
+    "Sun Court",
+    "Statue Hall"
+  ],
+  "people": [
+    "Alma the architect",
+    "Bella the brewer",
+    "Cora the carpenter",
+    "Dexter the diviner",
+    "Vivian the vizier",
+    "Edgar the envoy",
+    "Fiona the fanbearer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    15,
+    25,
+    33,
+    38,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ],
+    [
+      "onCount",
+      "stool",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..C............C.........C.......C...............",
+  "hard": 7,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

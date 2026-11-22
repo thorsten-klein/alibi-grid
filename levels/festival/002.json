@@ -1,0 +1,119 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222233222233444444",
+  "objects": ".........f..fb.....c.....f..ea.a.bf.",
+  "roomNames": [
+    "Beer Garden",
+    "Port-a-Jon Alley",
+    "Backstage VIP",
+    "Artist Trailer",
+    "Guitar Tech Tent"
+  ],
+  "people": [
+    "Albert the audio engineer",
+    "Bruno the bass player",
+    "Victor the vip record exec",
+    "Carl the crew chief",
+    "Dexter the drummer",
+    "Elias the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "amp"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "on",
+      "chair"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    16,
+    20,
+    27,
+    31
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      25,
+      31
+    ],
+    [
+      29,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "group": 0
+}

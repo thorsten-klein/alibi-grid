@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000111122000111122000333322000333322000333322444555666444555666444555666444555666",
+  "objects": "....cf..da..ddf...e..bae...a.a...f..af......cb........fc...ae.......d..c..ee.a...",
+  "roomNames": [
+    "Dragon Boat",
+    "Silk Stall",
+    "Tea Pavilion",
+    "Fortune Teller",
+    "Fireworks Barge",
+    "Calligraphy Shop",
+    "Garden Courtyard"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Bruno the bamboo carver",
+    "Carl the cook",
+    "Dexter the dancer",
+    "Elias the elder",
+    "Felix the fan painter",
+    "Gus the guard",
+    "Hugo the harbor guide",
+    "Victor the visiting noble"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "fireworks"
+    ],
+    [
+      0,
+      "next",
+      "lantern"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "gong"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
+      "teacart"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "teacart"
+    ],
+    [
+      8,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    19,
+    34,
+    38,
+    53,
+    58,
+    63,
+    77
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 20,
+  "facts": [
+    [
+      "nextCount",
+      "teacart",
+      3
+    ],
+    [
+      "corner",
+      null,
+      5
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 45,
+  "extra": true
+}

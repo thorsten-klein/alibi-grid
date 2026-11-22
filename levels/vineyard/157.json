@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000011111222000011111222000011111222000033333222444433333222444433333222444433333222555556666777555556666777555556666777888886666777888886666777",
+  "objects": "..b..b..e....e.d...a..bfde.c.........b.d.c.c.d...f..b..c..dba.ba....cd....b......ba......bd.........db.d.eabfb..c.b....b.d.a..e....b.e.a.....ed.",
+  "roomNames": [
+    "Tasting Salon",
+    "Vineyard Plot",
+    "Wine Cave",
+    "Bottling Line",
+    "Manor Library",
+    "Grape Press",
+    "Oak Barrel Cellar",
+    "Master Bedroom",
+    "Kitchen"
+  ],
+  "people": [
+    "Victor the vineyard owner",
+    "Albert the apprentice",
+    "Bruno the bottler",
+    "Carl the cook",
+    "Dexter the driver",
+    "Elias the enologist",
+    "Felix the fermenter",
+    "Gus the groundskeeper",
+    "Hugo the hostess",
+    "Igor the inspector",
+    "Jasper the journalist",
+    "Klaus the keg cooper"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "rack"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "on",
+      "bench"
+    ],
+    [
+      10,
+      "notRoom",
+      7
+    ],
+    [
+      10,
+      "next",
+      "rack"
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "next",
+      "rack"
+    ]
+  ],
+  "solution": [
+    11,
+    14,
+    28,
+    44,
+    54,
+    65,
+    82,
+    93,
+    99,
+    109,
+    127,
+    132
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      76,
+      88
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      112,
+      124
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      136,
+      137
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      11,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      120,
+      "l"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      0
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ],
+    [
+      "onCount",
+      "bench",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 35,
+  "extra": true
+}

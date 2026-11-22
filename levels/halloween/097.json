@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "d..b.....efd....b..c.........a......b.....a.add..",
+  "roomNames": [
+    "Pumpkin Patch",
+    "Apple Bobbing Hall",
+    "Cellar Maze",
+    "Spider Attic",
+    "Occult Library"
+  ],
+  "people": [
+    "Arthur the actor",
+    "Vince the visiting storyteller",
+    "Basil the baker",
+    "Cedric the candy maker",
+    "Dmitri the decorator",
+    "Edgar the entertainer",
+    "Frank the florist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "cauldron"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "next",
+      "tombstone"
+    ],
+    [
+      6,
+      "on",
+      "coffin"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    33,
+    39,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "swing",
+      1
+    ],
+    [
+      "nextCount",
+      "pumpkin",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

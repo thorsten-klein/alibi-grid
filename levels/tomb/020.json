@@ -1,0 +1,191 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111122222111112222233333222223333344444555664444455566777775556677777555667777755566",
+  "objects": "a.d...dad....f......f....b......a.......fb..b.d.d.b...........b....a.f.c.......a..c.f.....c..b..b..b",
+  "roomNames": [
+    "Statue Hall",
+    "Well Shaft",
+    "Granary",
+    "Treasury",
+    "Scribe Room",
+    "Shrine",
+    "Burial Chamber",
+    "Antechamber"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bruno the boat builder",
+    "Cedric the chanter",
+    "Viola the vizier",
+    "Daisy the diviner",
+    "Edgar the envoy",
+    "Felix the fanbearer",
+    "Gwen the guard",
+    "Henrik the herder",
+    "Ivy the incense maker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "jar"
+    ],
+    [
+      8,
+      "next",
+      "urn"
+    ],
+    [
+      8,
+      "next",
+      "jar"
+    ],
+    [
+      9,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    0,
+    12,
+    29,
+    38,
+    45,
+    56,
+    67,
+    74,
+    83,
+    91
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      39
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      60,
+      70
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      92,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "...L.......L..C...C.........L..L..L..........C.L.......L..............C.........C..C.....C..........",
+  "tries": 4,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 33,
+  "group": 2
+}

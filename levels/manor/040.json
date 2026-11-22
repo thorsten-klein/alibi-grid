@@ -1,0 +1,83 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "...c.a..b.b..b.b",
+  "roomNames": [
+    "Kitchen",
+    "Conservatory",
+    "Cellar"
+  ],
+  "people": [
+    "Albert the architect",
+    "Basil the banker",
+    "Cedric the colonel",
+    "Vivian the valet"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "shelf",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

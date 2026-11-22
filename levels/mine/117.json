@@ -1,0 +1,157 @@
+{
+  "size": 8,
+  "rooms": "0000000011111111111111112222333322223333222244445555444455554444",
+  "objects": "a...a.c...a.e....c..de........d..a.b.c...b........b.a..df..a.a..",
+  "roomNames": [
+    "Tool Crib",
+    "Miners Mess",
+    "Assay Office",
+    "Smelting Oven",
+    "Shift Boss Office",
+    "Water Sump"
+  ],
+  "people": [
+    "Ada the axeman",
+    "Vera the venture capitalist",
+    "Bea the blaster",
+    "Clara the carpenter",
+    "Dora the dynamite handler",
+    "Edith the hoist operator",
+    "Freya the farrier",
+    "Greta the gold panner"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "next",
+      "orecart"
+    ],
+    [
+      3,
+      "next",
+      "orecart"
+    ],
+    [
+      4,
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ],
+    [
+      5,
+      "next",
+      "keg"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "col",
+      1
+    ],
+    [
+      7,
+      "same",
+      5
+    ],
+    [
+      7,
+      "next",
+      "hoist"
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    32,
+    44,
+    49,
+    63
+  ],
+  "doors": [
+    [
+      1,
+      9
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

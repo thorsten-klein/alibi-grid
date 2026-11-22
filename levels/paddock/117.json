@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000001100000011222200112222001133344555333445553334455533344555",
+  "objects": "...a..........a..eeaa.effd.ca.c..d.ab.fb....f..d....aa.b.c.b....",
+  "roomNames": [
+    "VIP Balcony",
+    "Telemetry Room",
+    "Paddock Walkway",
+    "Team Garage B",
+    "Hospitality Suite",
+    "Media Center"
+  ],
+  "people": [
+    "Viola the vip team owner",
+    "Alma the apprentice",
+    "Bella the broadcast commentator",
+    "Cora the crew chief",
+    "Daisy the data telemetry lead",
+    "Elsa the electrician",
+    "Fiona the flag marshal",
+    "Gwen the grid coordinator"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "bucket"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "tires"
+    ],
+    [
+      4,
+      "next",
+      "tires"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "on",
+      "bucket"
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    19,
+    26,
+    32,
+    46,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 28,
+  "extra": true
+}

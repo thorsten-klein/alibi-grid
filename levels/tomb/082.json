@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333224444224444",
+  "objects": "..d..c.bf..c.b..e.......bfa..e.b....",
+  "roomNames": [
+    "Shrine",
+    "Statue Hall",
+    "Burial Chamber",
+    "Workshop",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Albert the architect",
+    "Bruno the boat builder",
+    "Viola the vintner",
+    "Cora the chanter",
+    "Dmitri the diviner",
+    "Elsa the embalmer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "on",
+      "couch"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    17,
+    22,
+    26,
+    31
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "............L.........C.............",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

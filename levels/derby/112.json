@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223311122233444222334445553344455533444555",
+  "objects": "....eb...a.c...a...a.......bccac.a....bb.f..c.....b.a.e.c.d.....",
+  "roomNames": [
+    "Paddock Ring",
+    "Jockeys Room",
+    "Members Bar",
+    "Grandstand Terrace",
+    "Saddling Boxes",
+    "Vet Clinic"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the breeder",
+    "Cora the clerk of scales",
+    "Daisy the doper",
+    "Elsa the owner envoy",
+    "Fiona the form analyst",
+    "Viola the visiting royalty",
+    "Gwen the groundskeeper"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      1,
+      "on",
+      "turfchair"
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "next",
+      "stablebench"
+    ],
+    [
+      4,
+      "next",
+      "float"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "haystack"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "turfchair"
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    22,
+    26,
+    37,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      23,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

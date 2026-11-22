@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "...a.ee..d.ed.f.c....b.d.",
+  "roomNames": [
+    "Studio Commissary",
+    "Writers Room",
+    "Prop Armory",
+    "Soundstage A"
+  ],
+  "people": [
+    "Alma the actor",
+    "Bella the boom operator",
+    "Cora the cinematographer",
+    "Daisy the director",
+    "Viola the voice actor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

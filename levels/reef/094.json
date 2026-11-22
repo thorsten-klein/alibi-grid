@@ -1,0 +1,111 @@
+{
+  "size": 6,
+  "rooms": "000000000000111100223344223344223333",
+  "objects": "..................e..d.d...a..ac...a",
+  "roomNames": [
+    "Open Sea",
+    "Frigate",
+    "Market",
+    "Dock",
+    "Fort"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Bea the boatswain",
+    "Clara the cook",
+    "Dora the deckhand",
+    "Elias the explorer",
+    "Vivian the vintner"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    12,
+    20,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      28,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      2
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

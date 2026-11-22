@@ -1,0 +1,119 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122222222222222333444433344443334444",
+  "objects": "f.a..d..f......f...d..ee.........eab...b.fe.da...",
+  "roomNames": [
+    "Cleanroom 2",
+    "Autopsy Suite",
+    "Breakroom",
+    "Control Center",
+    "Generator Core"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bruno the biochemist",
+    "Victor the virology head",
+    "Carl the chief scientist",
+    "Dexter the dna sequencer",
+    "Elias the epidemiologist",
+    "Felix the facility director"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "next",
+      "chamber"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    14,
+    27,
+    30,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
+  "extra": true
+}

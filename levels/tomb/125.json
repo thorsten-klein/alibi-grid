@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222233322222333444553334445555544455555",
+  "objects": "d...cb.b.....e..a..a..e........a..c...e..e..a.....c...a..b.a..b.",
+  "roomNames": [
+    "Granary",
+    "Shrine",
+    "Hall of Pillars",
+    "Treasury",
+    "Well Shaft",
+    "Boat Pit"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Bea the boat builder",
+    "Vera the vizier",
+    "Carl the chanter",
+    "Della the dancer",
+    "Elsa the envoy",
+    "Felix the fanbearer",
+    "Gus the guard"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "couch"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "couch"
+    ],
+    [
+      7,
+      "next",
+      "couch"
+    ],
+    [
+      7,
+      "door"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    17,
+    27,
+    32,
+    47,
+    54,
+    58
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 25,
+  "facts": [
+    [
+      "nextCount",
+      "urn",
+      2
+    ],
+    [
+      "nextCount",
+      "stool",
+      1
+    ],
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..........L.C..............CL...CC.C.........C.LC.........L.....",
+  "extra": true
+}

@@ -1,0 +1,161 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222211133344555333445553334455533344555",
+  "objects": "cd.a.c..b......e...ae...........db...e....aba.....e.....cb....a.",
+  "roomNames": [
+    "Hall of Pillars",
+    "Burial Chamber",
+    "Shrine",
+    "Antechamber",
+    "Treasury",
+    "Sun Court"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Vince the vintner",
+    "Birgit the boat builder",
+    "Carl the carpenter",
+    "Dexter the diviner",
+    "Ena the embalmer",
+    "Frank the fanbearer",
+    "Grace the goldsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      4,
+      "same",
+      7
+    ],
+    [
+      5,
+      "next",
+      "couch"
+    ],
+    [
+      6,
+      "next",
+      "urn"
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    19,
+    30,
+    39,
+    41,
+    48,
+    61
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....C.....C............................C............C........C..",
+  "hard": 5,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

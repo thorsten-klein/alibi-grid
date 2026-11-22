@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333222233334444555544445555",
+  "objects": "...a..d.d.fa.d.adc...cf.d..bb.a......a.e...c..ff..be...ad.c..edb",
+  "roomNames": [
+    "Throne Room",
+    "Hide Tent",
+    "Great Hall",
+    "Captain Cabin",
+    "Bank",
+    "Shrine"
+  ],
+  "people": [
+    "Viola the voyager",
+    "Alma the archivist",
+    "Bea the bard",
+    "Celia the chronicler",
+    "Della the dreamer",
+    "Edith the explorer",
+    "Freya the falconer",
+    "Gus the guardian"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "on",
+      "log"
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "bandit"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    19,
+    28,
+    32,
+    42,
+    54,
+    57
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ]
+  ],
+  "tries": 21,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": "4..3..3.",
+  "tags": "1....4.............................3.............2.........12...",
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 42,
+  "extra": true
+}

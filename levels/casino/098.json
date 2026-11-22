@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "...bcd.................b.a.d....e......aee.a.....",
+  "roomNames": [
+    "Main Casino Floor",
+    "Showgirl Dressing Room",
+    "High Roller Lounge",
+    "Cashier Cage",
+    "The Vault"
+  ],
+  "people": [
+    "Astrid the accountant",
+    "Birgit the baccarat dealer",
+    "Celia the croupier",
+    "Vivian the vip gambler",
+    "Della the dice inspector",
+    "Ena the entertainer",
+    "Flora the floor manager"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "slots"
+    ],
+    [
+      1,
+      "next",
+      "wheel"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    16,
+    22,
+    28,
+    38,
+    47
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chaise",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "a..a.....a.......b.....febb.......a.....aa.......",
+  "roomNames": [
+    "Zen Garden",
+    "Armory",
+    "Guard Gate",
+    "Moon Balcony",
+    "Kitchen"
+  ],
+  "people": [
+    "Ada the artisan",
+    "Bea the bowyer",
+    "Clara the cook",
+    "Vera the visiting monk",
+    "Dora the drummer",
+    "Edith the embroiderer",
+    "Freya the foot soldier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "tatami"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      4,
+      "next",
+      "futon"
+    ],
+    [
+      4,
+      "next",
+      "tatami"
+    ],
+    [
+      5,
+      "on",
+      "tatami"
+    ],
+    [
+      6,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    22,
+    33,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 20,
+  "group": 1
+}

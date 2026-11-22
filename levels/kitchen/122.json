@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+  "objects": "..b.b........af..b..cfa...bf..b..d....e.f.fea.b......da...a.c.b.",
+  "roomNames": [
+    "Chef Private Office",
+    "Dishwashing Pit",
+    "Walk In Cooler",
+    "Herb Garden",
+    "Hostess Foyer",
+    "Pastry Kitchen"
+  ],
+  "people": [
+    "Arthur the appetizer cook",
+    "Basil the butcher",
+    "Cedric the chocolatier",
+    "Dmitri the dessert chef",
+    "Edgar the executive chef",
+    "Frank the fromager",
+    "Gideon the grill cook",
+    "Vince the veteran restaurateur"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "banquette"
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "cooktop"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "fridge"
+    ],
+    [
+      6,
+      "next",
+      "espresso"
+    ],
+    [
+      7,
+      "next",
+      "block"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    28,
+    32,
+    41,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "block",
+      3
+    ],
+    [
+      "nextCount",
+      "fridge",
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

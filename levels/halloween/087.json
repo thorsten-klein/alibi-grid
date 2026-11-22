@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000111000111222133222133444133444133",
+  "objects": "a..e..f......b.ab.d.....d.eee...b...",
+  "roomNames": [
+    "Black Cat Alley",
+    "Front Porch",
+    "Pumpkin Patch",
+    "Cemetery Gate",
+    "Cellar Maze"
+  ],
+  "people": [
+    "Vince the visiting storyteller",
+    "Arthur the actor",
+    "Basil the baker",
+    "Cedric the candy maker",
+    "Dmitri the decorator",
+    "Edgar the entertainer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "cauldron"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "swing"
+    ],
+    [
+      4,
+      "next",
+      "cauldron"
+    ],
+    [
+      5,
+      "next",
+      "tombstone"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    15,
+    19,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      19,
+      25
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "coffin",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 14,
+  "extra": true
+}

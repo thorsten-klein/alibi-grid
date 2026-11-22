@@ -1,0 +1,148 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222223332222233322222444455554444555544445555",
+  "objects": "..a.....a..........b.f.aa..a...abbab...cb..d.....b...b....ce.ed.",
+  "roomNames": [
+    "Cab Stand",
+    "Police Desk",
+    "Thames Wharf",
+    "Mortuary",
+    "Tenement Attic",
+    "Pawn Shop"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Vera the vagabond",
+    "Bea the bowler hat seller",
+    "Clara the chimney sweep",
+    "Dora the doctor",
+    "Edith the errand boy",
+    "Freya the fishmonger",
+    "Greta the grave robber"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "streetlamp"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "fireplace"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    18,
+    27,
+    38,
+    40,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "armchair",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

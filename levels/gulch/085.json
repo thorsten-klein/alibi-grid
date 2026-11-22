@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122334422334444334444",
+  "objects": "...a...f.....f....e...............fa",
+  "roomNames": [
+    "Church",
+    "Corral",
+    "Sheriff Office",
+    "Livery",
+    "Hotel"
+  ],
+  "people": [
+    "Astrid the auctioneer",
+    "Bruno the banker",
+    "Cora the cattle driver",
+    "Dmitri the deputy",
+    "Victor the vet",
+    "Ena the editor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    17,
+    20,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      20
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "extra": true
+}

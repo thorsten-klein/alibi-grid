@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0000011111223332233322333",
+  "objects": "bba.a....ba..c...bfeaaf..",
+  "roomNames": [
+    "Galley",
+    "Cockpit Bridge",
+    "Smoking Lounge",
+    "Starboard Gondola"
+  ],
+  "people": [
+    "Arthur the aeronaut",
+    "Basil the barman",
+    "Cedric the captain",
+    "Vince the vessel inventor",
+    "Dmitri the dirigible pilot"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "armchair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "ballast"
+    ],
+    [
+      3,
+      "next",
+      "armchair"
+    ],
+    [
+      4,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      6
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 13,
+  "extra": true
+}

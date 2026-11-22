@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "...f....cae...a........fd",
+  "roomNames": [
+    "Atrium Fountain",
+    "Photo Studio",
+    "Food Court",
+    "Toy Emporium"
+  ],
+  "people": [
+    "Ada the arcade manager",
+    "Bea the barista",
+    "Clara the cinema projectionist",
+    "Dora the department manager",
+    "Vera the veteran mall owner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "mannequin"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "plasticchair"
+    ],
+    [
+      3,
+      "next",
+      "mannequin"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

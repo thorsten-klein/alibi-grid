@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112233334422333344223333445555534455555344",
+  "objects": "......a.aa..a.........f...b.fb.de...f.....e.ad...a..bb...f.c...b",
+  "roomNames": [
+    "First Class Lounge",
+    "Telegraph Cabin",
+    "Grand Ballroom",
+    "Boiler Room",
+    "Bridge",
+    "Promenade Deck"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the bartender",
+    "Clara the chief engineer",
+    "Dora the doctor",
+    "Edith the envoy",
+    "Vera the valet",
+    "Freya the fireman",
+    "Greta the governess"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "deckchair"
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      2,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "next",
+      "telegraph"
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      4,
+      "next",
+      "telegraph"
+    ],
+    [
+      6,
+      "on",
+      "deckchair"
+    ],
+    [
+      7,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    5,
+    14,
+    23,
+    24,
+    34,
+    43,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      44,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "deckchair",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

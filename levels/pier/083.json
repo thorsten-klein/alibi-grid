@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122333344333344333344",
+  "objects": "b...d...e....ed.c.fa............f...",
+  "roomNames": [
+    "Carousel Pavilion",
+    "Arcade Alley",
+    "Fortune Booth",
+    "Coaster Shed",
+    "Maintenance Hut"
+  ],
+  "people": [
+    "Albert the antiquarian",
+    "Bruno the barker",
+    "Carl the cotton candy vendor",
+    "Victor the venture developer",
+    "Dexter the daredevil",
+    "Elias the urban explorer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "claw"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "generator"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    19,
+    24,
+    35
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "generator",
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "extra": true
+}

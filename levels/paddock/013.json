@@ -1,0 +1,204 @@
+{
+  "size": 10,
+  "rooms": "0011111111001111111100222233330022223333002222333344444555554444455555666667777766666777776666677777",
+  "objects": "........dbf.............a.f..c..e.....c.d..d..f...........a.e...a...e..a.b...c...a..................",
+  "roomNames": [
+    "Drivers Lounge",
+    "Team Garage A",
+    "Fuel Storage",
+    "Hospitality Suite",
+    "Pit Lane",
+    "Telemetry Room",
+    "Tire Bay",
+    "Media Center"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Dexter the driver",
+    "Elias the engine tuner",
+    "Felix the fuel specialist",
+    "Gus the gearbox tech",
+    "Hugo the head of team",
+    "Igor the inspector",
+    "Victor the veteran champion"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "room",
+      1
+    ],
+    [
+      1,
+      "next",
+      "toolbox"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "chassis"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "bucket"
+    ],
+    [
+      4,
+      "next",
+      "toolbox"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "room",
+      5
+    ],
+    [
+      6,
+      "next",
+      "fuelrig"
+    ],
+    [
+      7,
+      "on",
+      "sofa"
+    ],
+    [
+      8,
+      "col",
+      6
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "row",
+      9
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    28,
+    34,
+    47,
+    50,
+    69,
+    73,
+    86,
+    92
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      17,
+      27
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      61,
+      71
+    ],
+    [
+      69,
+      79
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      95,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "alone",
+      null,
+      6
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 26,
+  "group": 1
+}

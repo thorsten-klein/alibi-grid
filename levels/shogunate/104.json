@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "roomNames": [
+    "Moon Balcony",
+    "Guard Gate",
+    "Stables",
+    "Kitchen",
+    "Armory"
+  ],
+  "people": [
+    "Albert the archer",
+    "Bruno the bushi warrior",
+    "Carl the calligrapher",
+    "Dexter the daimyo",
+    "Elias the envoy",
+    "Felix the falconer",
+    "Victor the veteran general"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "tatami"
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "armor"
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "armor"
+    ],
+    [
+      5,
+      "next",
+      "tatami"
+    ],
+    [
+      5,
+      "next",
+      "taiko"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    22,
+    32,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

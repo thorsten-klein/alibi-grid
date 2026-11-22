@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "a.f...a.daff..df..d..a...",
+  "roomNames": [
+    "Operating Theater",
+    "Kitchen",
+    "Hydrotherapy Room",
+    "Records Archive"
+  ],
+  "people": [
+    "Astrid the anesthetist",
+    "Birgit the biochemist",
+    "Vivian the victim of illness",
+    "Celia the chief surgeon",
+    "Della the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "wheelchair"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "archive"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "edge",
+      null,
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 22,
+  "group": 3
+}

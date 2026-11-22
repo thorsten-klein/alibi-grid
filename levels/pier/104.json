@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....b.a..a..f...b.....e....a.bd....fd.d.a...aa.ac",
+  "roomNames": [
+    "Arcade Alley",
+    "Coaster Shed",
+    "Cotton Candy Stand",
+    "Ghost Train",
+    "Ferris Wheel Base"
+  ],
+  "people": [
+    "Alma the arcade repairman",
+    "Viola the vagrant",
+    "Bella the boardwalk walker",
+    "Cora the caretaker",
+    "Daisy the drifter",
+    "Elsa the electrician",
+    "Fiona the fortune teller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "on",
+      "cart"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "generator"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    25,
+    28,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      41,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "generator",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

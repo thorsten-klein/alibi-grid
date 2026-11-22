@@ -1,0 +1,124 @@
+{
+  "size": 6,
+  "rooms": "011222011222011333011333444433444433",
+  "objects": "...f..b.d..c.f....b...be..bbcd..e.e.",
+  "roomNames": [
+    "Workshop",
+    "Statue Hall",
+    "Treasury",
+    "Boat Pit",
+    "Well Shaft"
+  ],
+  "people": [
+    "Astrid the astrologer",
+    "Basil the brewer",
+    "Cedric the carpenter",
+    "Della the diviner",
+    "Vince the vintner",
+    "Edith the envoy"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "jar"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      3,
+      "on",
+      "couch"
+    ],
+    [
+      5,
+      "next",
+      "rubble"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    14,
+    22,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ]
+  ],
+  "tries": 11,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "rubble",
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".....C...C......C...................",
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

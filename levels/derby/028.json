@@ -1,0 +1,153 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b.b..d.a.....c.....afbc.c........c.e.a...b...b..a",
+  "roomNames": [
+    "Grandstand Terrace",
+    "Royal Box",
+    "Members Bar",
+    "Betting Ring",
+    "Weighing Room"
+  ],
+  "people": [
+    "Albert the apprentice jockey",
+    "Bruno the bookmaker",
+    "Carl the champion jockey",
+    "Victor the veteran horse owner",
+    "Dexter the derby steward",
+    "Elias the equine therapist",
+    "Felix the farrier"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "float"
+    ],
+    [
+      1,
+      "next",
+      "turfchair"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "float"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "notRoom",
+      0
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    16,
+    21,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "haystack",
+      0
+    ],
+    [
+      "nextCount",
+      "turfchair",
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 32,
+  "group": 3
+}

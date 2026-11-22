@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011222011222011334444334444",
+  "objects": "..e...a..b..d....bb...d.d........cb.",
+  "roomNames": [
+    "Grand Rotunda",
+    "Greek Antiquities",
+    "Boiler Cellar",
+    "Loading Bay",
+    "Sculpture Court"
+  ],
+  "people": [
+    "Alma the archivist",
+    "Viola the visiting donor",
+    "Bella the bookkeeper",
+    "Cora the conservator",
+    "Daisy the docent",
+    "Elsa the evaluator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    20,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

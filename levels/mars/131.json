@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000000000000000000111111222111111222333344555333344555333344555666644555666644555",
+  "objects": "ea...af...c..a.a.........df....fe..db..f...d.......bed..a.d...d.f.c..c...ad.d..b.",
+  "roomNames": [
+    "Oxygen Scrubber",
+    "Hydroponic Dome",
+    "Habitat Quarters",
+    "Geology Lab",
+    "Water Reclamation",
+    "Comms Array",
+    "Airlock Module"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Bea the biosphere tech",
+    "Clara the chemist",
+    "Dora the doctor",
+    "Edith the electrician",
+    "Freya the farmer",
+    "Greta the ground controller",
+    "Hilda the hydroponics chief",
+    "Vera the visiting inspector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "col",
+      7
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "rover"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "on",
+      "seat"
+    ],
+    [
+      7,
+      "next",
+      "rover"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    3,
+    16,
+    18,
+    28,
+    42,
+    50,
+    56,
+    67,
+    80
+  ],
+  "doors": [
+    [
+      9,
+      18
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "r"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "tank",
+      0
+    ],
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 25,
+  "extra": true
+}

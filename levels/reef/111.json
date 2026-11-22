@@ -1,0 +1,115 @@
+{
+  "size": 7,
+  "rooms": "0001111000111122233332223333444333344433334443333",
+  "objects": "....a....f....e.a....bf.............e.....bd.....",
+  "roomNames": [
+    "Dock",
+    "Market",
+    "Fort",
+    "Open Sea",
+    "Frigate"
+  ],
+  "people": [
+    "Vince the vintner",
+    "Ada the armorer",
+    "Bea the boatswain",
+    "Carl the cook",
+    "Dmitri the diver",
+    "Elias the engineer",
+    "Frank the first mate"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "next",
+      "cannon"
+    ],
+    [
+      3,
+      "on",
+      "hammock"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "crate"
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    15,
+    21,
+    32,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      23,
+      30
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      21,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222200111222200111333344444333344444555544444555566666555566666",
+  "objects": "f.a.d...e...f...b.a..edb....b....c.dfb...d...b.dee.f...fbd.ac.d....a..a..f.ab..a.",
+  "roomNames": [
+    "Occult Library",
+    "Cemetery Gate",
+    "Crypt",
+    "Cellar Maze",
+    "Spider Attic",
+    "Apple Bobbing Hall",
+    "Witch Parlor"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Basil the black cat breeder",
+    "Vince the veteran manor heir",
+    "Cedric the costume designer",
+    "Dmitri the diviner",
+    "Edgar the embalmer",
+    "Frank the fortune teller",
+    "Gideon the ghost enthusiast",
+    "Henrik the haunted house host"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "coffin"
+    ],
+    [
+      0,
+      "next",
+      "tombstone"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "tombstone"
+    ],
+    [
+      3,
+      "next",
+      "pumpkin"
+    ],
+    [
+      4,
+      "on",
+      "swing"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "web"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "on",
+      "swing"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    26,
+    34,
+    37,
+    50,
+    54,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      32,
+      33
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "nextCount",
+      "swing",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 31,
+  "extra": true
+}

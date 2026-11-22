@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".bba...e.............dd..",
+  "roomNames": [
+    "Conning Tower",
+    "Pilot Cockpit",
+    "Sonar Room",
+    "Galley"
+  ],
+  "people": [
+    "Astrid the acoustic analyst",
+    "Birgit the biologist",
+    "Celia the chief diver",
+    "Della the doctor",
+    "Vivian the vip expedition funder"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,155 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111122223334442222333444222233344444444444554444444455444444445566666444556666644455",
+  "objects": "...f.......b......b..b.dd.b......f......eb.f..................................fe.ca.....d.........c.",
+  "roomNames": [
+    "Market",
+    "Frigate",
+    "Longboat",
+    "Sea Cave",
+    "Open Sea",
+    "Dock",
+    "Fort"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Basil the boatswain",
+    "Cedric the captain",
+    "Della the diver",
+    "Edgar the engineer",
+    "Frank the fiddler",
+    "Vince the vintner",
+    "Gwen the gold digger",
+    "Hazel the harpooner",
+    "Isla the island guide"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "cannon"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "hammock"
+    ],
+    [
+      4,
+      "same",
+      2
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      7,
+      "notRoom",
+      6
+    ],
+    [
+      7,
+      "col",
+      1
+    ],
+    [
+      8,
+      "next",
+      "map"
+    ],
+    [
+      9,
+      "room",
+      4
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    20,
+    36,
+    42,
+    54,
+    68,
+    71,
+    89,
+    97
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      14,
+      24
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      91,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 4,
+  "hard": 5,
+  "hardest": 7,
+  "steps": 30,
+  "group": 3
+}

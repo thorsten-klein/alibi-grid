@@ -1,0 +1,136 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223331122333444433344443334444",
+  "objects": "......b.dc...daab..b...c.....b........f.cd.....ad",
+  "roomNames": [
+    "Tower",
+    "Dungeon",
+    "Solar",
+    "Stables",
+    "Kitchen"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bea the bard",
+    "Cora the chronicler",
+    "Della the doorkeeper",
+    "Edgar the envoy",
+    "Victor the vintner",
+    "Frank the farrier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    14,
+    22,
+    34,
+    37,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    4
+  ],
+  "rank": "ccckkck",
+  "hard": 7,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

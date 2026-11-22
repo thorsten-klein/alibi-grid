@@ -1,0 +1,70 @@
+{
+  "size": 4,
+  "rooms": "0122012201220122",
+  "objects": ".b....c.e.......",
+  "roomNames": [
+    "Hydrotherapy Room",
+    "Operating Theater",
+    "Reception Hall"
+  ],
+  "people": [
+    "Astrid the anesthetist",
+    "Vivian the victim of illness",
+    "Birgit the biochemist",
+    "Celia the chief surgeon"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "xray"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    9,
+    12
+  ],
+  "doors": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000011111222000011111222000011111222000033333222444433333222444433333222444433333222555556666777555556666777555556666777888886666777888886666777",
+  "objects": "..b..b..e....e.d...a..bfde.c.........b.d.c.c.d...f..b..c..dba.ba....cd....b......ba......bd.........db.d.eabfb..c.b....b.d.a..e....b.e.a.....ed.",
+  "roomNames": [
+    "Tailor Front",
+    "Coat Check",
+    "Cold Storage",
+    "VIP Poker Den",
+    "Bar Counter",
+    "Jazz Stage",
+    "Main Lounge",
+    "Private Booths",
+    "Safe Room"
+  ],
+  "people": [
+    "Victor the voice of syndicate",
+    "Albert the accordionist",
+    "Bruno the bartender",
+    "Carl the crooner",
+    "Dexter the drummer",
+    "Elias the enforcer",
+    "Felix the flapper",
+    "Gus the gangster",
+    "Hugo the horn player",
+    "Igor the informant",
+    "Jasper the jazz pianist",
+    "Klaus the kingpin"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "roulette"
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "next",
+      "sax"
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      6,
+      "on",
+      "booth"
+    ],
+    [
+      7,
+      "next",
+      "roulette"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "on",
+      "stool"
+    ],
+    [
+      10,
+      "notRoom",
+      7
+    ],
+    [
+      10,
+      "next",
+      "roulette"
+    ],
+    [
+      11,
+      "room",
+      8
+    ],
+    [
+      11,
+      "next",
+      "roulette"
+    ]
+  ],
+  "solution": [
+    11,
+    14,
+    28,
+    44,
+    54,
+    65,
+    82,
+    93,
+    99,
+    109,
+    127,
+    132
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      44
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      82,
+      94
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      76,
+      88
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      112,
+      124
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      136,
+      137
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      11,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      120,
+      "l"
+    ],
+    [
+      134,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      0
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ],
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 35,
+  "extra": true
+}

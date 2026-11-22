@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222333444222333444222333444222333444555666666555666666",
+  "objects": "........be.......a.....eea.......f......c..cb..cbc..c......f.d....dfad...b.e.....",
+  "roomNames": [
+    "Hayloft",
+    "Pig Pen",
+    "Milking Shed",
+    "Tractor Garage",
+    "Farmstand",
+    "Fruit Orchard",
+    "Grain Silo"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barn hand",
+    "Cedric the cider presser",
+    "Dmitri the ditcher",
+    "Edgar the entomologist",
+    "Vince the veterinarian",
+    "Frank the farrier",
+    "Gideon the greenhouse tender",
+    "Henrik the horse trainer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "bale"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "on",
+      "bale"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tractor"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "rocker"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "rocker"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    8,
+    13,
+    25,
+    32,
+    38,
+    48,
+    54,
+    64,
+    78
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "tractor",
+      2
+    ],
+    [
+      "nextCount",
+      "scarecrow",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 37,
+  "extra": true
+}

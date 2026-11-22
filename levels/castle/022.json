@@ -1,0 +1,199 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122223333112222333311222244555566664455556666445555666644555577774455557777",
+  "objects": "..e....b....fae...e..d.df.......a...b....c.d.....d..f...........d.add...............d..b...e.b...a..",
+  "roomNames": [
+    "Stables",
+    "Armory",
+    "Tower",
+    "Throne Room",
+    "Great Hall",
+    "Solar",
+    "Gatehouse",
+    "Dungeon"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Birgit the baker",
+    "Cedric the cupbearer",
+    "Dora the doorkeeper",
+    "Elias the envoy",
+    "Frank the falconer",
+    "Victor the verger",
+    "Gus the groom",
+    "Hugo the herald",
+    "Ivy the innkeeper"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "swords"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "candles"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "room",
+      4
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "candles"
+    ],
+    [
+      7,
+      "next",
+      "candles"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "on",
+      "cot"
+    ],
+    [
+      9,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    16,
+    20,
+    38,
+    42,
+    51,
+    65,
+    74,
+    87,
+    99
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      41,
+      51
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      76,
+      86
+    ]
+  ],
+  "windows": [
+    [
+      39,
+      "r"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      92,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    5,
+    7
+  ],
+  "rank": "kkkcccnkkn",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 28,
+  "group": 2
+}

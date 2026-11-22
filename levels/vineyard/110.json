@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": ".e.e..a.dd.be.b.aa..........dae....b.....abe.b.f.",
+  "roomNames": [
+    "Tasting Salon",
+    "Gatehouse",
+    "Master Bedroom",
+    "Fermentation Hall",
+    "Oak Barrel Cellar"
+  ],
+  "people": [
+    "Astrid the agronomist",
+    "Birgit the barrel cooper",
+    "Celia the cellar master",
+    "Vivian the vintner",
+    "Della the distributor",
+    "Ena the estate manager",
+    "Flora the field laborer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "still"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    20,
+    23,
+    33,
+    36,
+    46
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 34,
+  "extra": true
+}

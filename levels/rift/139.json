@@ -1,0 +1,158 @@
+{
+  "size": 9,
+  "rooms": "000000000000000000000000000000001111000001111222334444222334444222335555222335555",
+  "objects": "...............................................dbcf......ec......c..d....d.dc...e",
+  "roomNames": [
+    "Sea of Ages",
+    "Hide Tent",
+    "Bank",
+    "Burial Chamber",
+    "Throne Room",
+    "Fire Pit"
+  ],
+  "people": [
+    "Ada the astronomer",
+    "Birgit the bard",
+    "Clara the chronicler",
+    "Daisy the drifter",
+    "Vera the visionary",
+    "Edgar the explorer",
+    "Flora the fortune teller",
+    "Gideon the guardian",
+    "Hilda the historian"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "col",
+      1
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    8,
+    12,
+    24,
+    32,
+    43,
+    45,
+    55,
+    67,
+    74
+  ],
+  "doors": [
+    [
+      44,
+      53
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      62,
+      71
+    ]
+  ],
+  "windows": [
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs",
+    "sea"
+  ],
+  "tags": "................................C........L.C.C.......L.....C............L.C..L...",
+  "sea": 0,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

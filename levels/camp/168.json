@@ -1,0 +1,209 @@
+{
+  "size": 11,
+  "rooms": "0001112222200011122222000111222220001112222233333344444333333444443333334444455555544444555555666667777776666677777766666",
+  "objects": "..f............e.......a.a.....f..b...eca....b......a.c..bb...f..d....a.........a.........c...dba.ea.ca.a...........ff...",
+  "roomNames": [
+    "Berry Grove",
+    "Painted Wall",
+    "River Bank",
+    "Flint Pit",
+    "Lookout Rock",
+    "Cave",
+    "Spring",
+    "Bone Yard"
+  ],
+  "people": [
+    "Albert the artist",
+    "Birgit the beekeeper",
+    "Cora the carrier",
+    "Vince the valley guide",
+    "Dexter the drummer",
+    "Elias the elder",
+    "Felix the flute player",
+    "Gus the guard",
+    "Hazel the hornblower",
+    "Ivy the ice cutter",
+    "Jutta the joker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      7
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "on",
+      "leaves"
+    ],
+    [
+      4,
+      "next",
+      "leaves"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "on",
+      "log"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      7,
+      "col",
+      5
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "next",
+      "log"
+    ],
+    [
+      9,
+      "same",
+      10
+    ],
+    [
+      10,
+      "window"
+    ]
+  ],
+  "solution": [
+    7,
+    17,
+    24,
+    34,
+    47,
+    64,
+    70,
+    82,
+    88,
+    107,
+    120
+  ],
+  "doors": [
+    [
+      35,
+      36
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      66,
+      77
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      93,
+      104
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      21,
+      "r"
+    ],
+    [
+      32,
+      "r"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "boulder",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".3.1...4..3",
+  "tags": "0..........................2................4...........4...........4......................1.............3.....43......33",
+  "hard": 8,
+  "hardest": 9,
+  "steps": 26,
+  "extra": true
+}

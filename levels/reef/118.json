@@ -1,0 +1,134 @@
+{
+  "size": 8,
+  "rooms": "0000000000000000000000000001111100011111222333332224444422244444",
+  "objects": "............................b.........e..a.........a.f.fa.......",
+  "roomNames": [
+    "Open Sea",
+    "Sea Cave",
+    "Sloop",
+    "Fort",
+    "Galleon"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Basil the boatswain",
+    "Cora the captain",
+    "Daisy the diver",
+    "Ena the explorer",
+    "Freya the first mate",
+    "Victor the voyager",
+    "Grace the gold digger"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "map"
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    20,
+    24,
+    39,
+    45,
+    51,
+    62
+  ],
+  "doors": [
+    [
+      35,
+      43
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      55,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

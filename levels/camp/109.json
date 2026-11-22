@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "..aac...........b.bcb...db...bb.e..aeb.......e...",
+  "roomNames": [
+    "Painted Wall",
+    "Elder Hut",
+    "Flint Pit",
+    "Bone Yard",
+    "Hunting Ground"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Vince the visionary",
+    "Birgit the beekeeper",
+    "Cedric the carrier",
+    "Dmitri the dancer",
+    "Elias the elder",
+    "Freya the firekeeper"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "log"
+    ],
+    [
+      2,
+      "next",
+      "fire"
+    ],
+    [
+      3,
+      "on",
+      "leaves"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    17,
+    25,
+    34,
+    40,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      0
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".1.2.2.",
+  "tags": ".......1.....3........2........4......1........4.",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

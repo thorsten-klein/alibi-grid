@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "001122001122003333003333004444004444",
+  "objects": "...................be.....a.e.ad...b",
+  "roomNames": [
+    "Tool Shed",
+    "Hayloft",
+    "Hen House",
+    "Pig Pen",
+    "Farmhouse Kitchen"
+  ],
+  "people": [
+    "Ada the apple picker",
+    "Bea the beekeeper",
+    "Clara the cattle rancher",
+    "Dora the dairy maid",
+    "Vera the vineyard leaseholder",
+    "Edith the equipment operator"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "churn"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "rocker"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    19,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "rocker",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

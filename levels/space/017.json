@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000011000011223344223344223344223344",
+  "objects": ".....de.ef.e.f.b.cca.a..f.fe.ba..a..",
+  "roomNames": [
+    "Comms",
+    "Observatory",
+    "Hydroponics",
+    "Med Bay",
+    "Engine Room"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Basil the biologist",
+    "Clara the chemist",
+    "Della the doctor",
+    "Vera the volunteer",
+    "Ena the electrician"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "notRoom",
+      3
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    12,
+    22,
+    29,
+    32
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
+  "group": 2
+}

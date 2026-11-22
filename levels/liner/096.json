@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220011222333344433334443333444",
+  "objects": "....f.....ff..c..c...........be..aa.e..bad.......",
+  "roomNames": [
+    "Stateroom A",
+    "Telegraph Cabin",
+    "Bridge",
+    "Turkish Bath",
+    "Grand Ballroom"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the bartender",
+    "Cora the chief engineer",
+    "Daisy the doctor",
+    "Elsa the envoy",
+    "Viola the valet",
+    "Fiona the fireman"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      5,
+      "next",
+      "telegraph"
+    ],
+    [
+      6,
+      "next",
+      "lifeboat"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    18,
+    24,
+    28,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "piano",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

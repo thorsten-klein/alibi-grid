@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222111122223333222233334444555544445555",
+  "objects": "......bb.d...cf....c..e.bd.c.de.a..b....fcb.e.c.aa..........b..a",
+  "roomNames": [
+    "Pumpkin Patch",
+    "Spider Attic",
+    "Costume Ballroom",
+    "Apple Bobbing Hall",
+    "Crypt",
+    "Cemetery Gate"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Victor the veteran manor heir",
+    "Bruno the black cat breeder",
+    "Carl the costume designer",
+    "Dexter the diviner",
+    "Elias the embalmer",
+    "Felix the fortune teller",
+    "Gus the ghost enthusiast"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "cauldron"
+    ],
+    [
+      3,
+      "next",
+      "pumpkin"
+    ],
+    [
+      4,
+      "next",
+      "pumpkin"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "next",
+      "cauldron"
+    ],
+    [
+      6,
+      "next",
+      "swing"
+    ],
+    [
+      7,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    23,
+    26,
+    38,
+    45,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      16,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

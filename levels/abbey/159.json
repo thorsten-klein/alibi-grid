@@ -1,0 +1,227 @@
+{
+  "size": 12,
+  "rooms": "000000011111000000011111000000011111222222233333222222233333222222233333444455556666444455556666444455557777444455557777888855557777888855557777",
+  "objects": "e..........dbd...dc...b.ee.adca.d..f.e..b.bb.....afbe..bba.............e.bf.......b........c..a...c....dbc..a......a..a....c..f...d.bd.c.bd.aa.e",
+  "roomNames": [
+    "Scriptorium",
+    "Dormitory",
+    "Chapter House",
+    "Bell Tower",
+    "Cloister Walk",
+    "Abbey Church",
+    "Crypt",
+    "Herb Garden",
+    "Cellar"
+  ],
+  "people": [
+    "Albert the almoner",
+    "Victor the vicar general",
+    "Bruno the brewer",
+    "Carl the cantor",
+    "Dexter the document copyist",
+    "Elias the elder brother",
+    "Felix the friar",
+    "Gus the glass painter",
+    "Hugo the hospitaler",
+    "Igor the inquisitor",
+    "Jasper the junior novice",
+    "Klaus the keeper of keys"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "reliquary"
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "reliquary"
+    ],
+    [
+      6,
+      "on",
+      "palliasse"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "altar"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "stall"
+    ],
+    [
+      10,
+      "same",
+      8
+    ],
+    [
+      11,
+      "on",
+      "palliasse"
+    ],
+    [
+      11,
+      "next",
+      "lectern"
+    ]
+  ],
+  "solution": [
+    9,
+    19,
+    26,
+    36,
+    54,
+    64,
+    82,
+    87,
+    104,
+    109,
+    131,
+    137
+  ],
+  "doors": [
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      42
+    ],
+    [
+      31,
+      43
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      61,
+      73
+    ],
+    [
+      65,
+      77
+    ],
+    [
+      67,
+      79
+    ],
+    [
+      69,
+      81
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      111,
+      123
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      92,
+      104
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      132,
+      "b"
+    ],
+    [
+      136,
+      "b"
+    ],
+    [
+      138,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "nextCount",
+      "palliasse",
+      1
+    ]
+  ],
+  "hard": 11,
+  "hardest": 10,
+  "steps": 42,
+  "extra": true
+}

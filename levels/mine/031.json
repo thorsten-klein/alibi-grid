@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220033332222003333222200333344455566774445556677444555667744455566774445556677",
+  "objects": "b....a...a......e.a....c.....abb.....afa..a.a......c..b......f........bd........f........cb...b.b...",
+  "roomNames": [
+    "Main Drift",
+    "Tool Crib",
+    "Deep Winze",
+    "Timber Storage",
+    "Dynamite Magazine",
+    "Water Sump",
+    "Assay Office",
+    "Miners Mess"
+  ],
+  "people": [
+    "Alma the assayer",
+    "Bella the blacksmith",
+    "Cora the cart driver",
+    "Daisy the driller",
+    "Elsa the engineer",
+    "Fiona the foreman",
+    "Viola the vein claimant",
+    "Gwen the geologist",
+    "Hazel the hoistman",
+    "Ines the inspector"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "keg"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "hoist"
+    ],
+    [
+      8,
+      "next",
+      "drill"
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      9,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    24,
+    36,
+    40,
+    57,
+    69,
+    72,
+    81,
+    98
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      18,
+      28
+    ],
+    [
+      41,
+      51
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "dynamite",
+      0
+    ],
+    [
+      "alone",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 38,
+  "group": 3
+}

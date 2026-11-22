@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000002223333322233333222444455554444555544445555",
+  "objects": "b.ba..d.ba..d...a.a...d.bfea...bea........b..c.fef.....db...e...",
+  "roomNames": [
+    "Comms Array",
+    "Water Reclamation",
+    "Command Hub",
+    "Medical Bay",
+    "Gymnasium",
+    "Oxygen Scrubber"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Bella the biosphere tech",
+    "Viola the visiting inspector",
+    "Cora the chemist",
+    "Daisy the doctor",
+    "Elsa the electrician",
+    "Fiona the farmer",
+    "Gwen the ground controller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "rover"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "drill"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      7,
+      "next",
+      "rover"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    19,
+    28,
+    33,
+    40,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

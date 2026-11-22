@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112233444422334444223355552233555522335555",
+  "objects": "abc..a..e.......a..f....d.e....b..e....b......c.....bff......b..",
+  "roomNames": [
+    "Guard's Van",
+    "Observation Car",
+    "Lounge Car",
+    "Sleeper B",
+    "Dining Car",
+    "Corridor"
+  ],
+  "people": [
+    "Alma the attendant",
+    "Bruno the banker",
+    "Clara the courier",
+    "Della the diplomat",
+    "Edgar the engineer",
+    "Fiona the firefighter",
+    "Greta the guard",
+    "Vince the violinist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "crate"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    23,
+    29,
+    32,
+    44,
+    51,
+    57
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      39,
+      47
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "wine",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

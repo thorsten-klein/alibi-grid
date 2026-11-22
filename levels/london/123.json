@@ -1,0 +1,160 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233444555334445553344455533444555",
+  "objects": ".a.......bfa...c.b..a..f...b....ba........d..da....eb........ae.",
+  "roomNames": [
+    "Pawn Shop",
+    "Pub Taproom",
+    "Parlor Study",
+    "Tenement Attic",
+    "Thames Wharf",
+    "Cobblestone Alley"
+  ],
+  "people": [
+    "Vince the victim of nobility",
+    "Arthur the apothecary",
+    "Basil the blackmailer",
+    "Cedric the constable",
+    "Dmitri the detective",
+    "Edgar the engraver",
+    "Frank the forger",
+    "Gideon the gentlemen valet"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "notRoom",
+      5
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      6,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    19,
+    29,
+    39,
+    44,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

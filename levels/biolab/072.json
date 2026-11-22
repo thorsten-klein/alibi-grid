@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "...e....c.d.e.....bd.b.a.",
+  "roomNames": [
+    "Centrifuge Bay",
+    "Specimen Nursery",
+    "Cleanroom 2",
+    "Control Center"
+  ],
+  "people": [
+    "Astrid the algorithm engineer",
+    "Vivian the venture backer",
+    "Birgit the bioethicist",
+    "Celia the cryo technician",
+    "Della the data architect"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "centrifuge"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "same",
+      2
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "pod",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,197 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000001122220000011222200000112222333444455553334444555533344445555333666677773336666777733366667777",
+  "objects": "a.aa...b.c....b.......f.ba...ece.ba.....a.d.....b.c.b...f.bb..ab...e...b..ba......a..ca.b....f...d..e..f..eb...e.f.......",
+  "roomNames": [
+    "Sauna",
+    "Ski Room",
+    "Bar",
+    "Lobby",
+    "Boot Room",
+    "Suite",
+    "Fireside Lounge",
+    "Spa"
+  ],
+  "people": [
+    "Astrid the avalanche guard",
+    "Birgit the bartender",
+    "Celia the climber",
+    "Dexter the doctor",
+    "Victor the vlogger",
+    "Elias the explorer",
+    "Fiona the fisher",
+    "Grace the glacier expert",
+    "Hazel the hotelier",
+    "Ivy the instructor",
+    "Jonas the jogger"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "next",
+      "skis"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "wood"
+    ],
+    [
+      4,
+      "next",
+      "skis"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "skis"
+    ],
+    [
+      8,
+      "next",
+      "tree"
+    ],
+    [
+      8,
+      "next",
+      "sofa"
+    ],
+    [
+      9,
+      "next",
+      "wood"
+    ],
+    [
+      10,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    4,
+    20,
+    24,
+    33,
+    49,
+    61,
+    76,
+    84,
+    89,
+    102,
+    118
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      44,
+      55
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      52,
+      63
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      81,
+      92
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      32,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      114,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 26,
+  "extra": true
+}

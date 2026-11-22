@@ -1,0 +1,142 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222222223333444433334444333344445555555555555555",
+  "objects": "..e.a..a..fb..db.....a....d.....ea...c.....e.....b....cc......f.",
+  "roomNames": [
+    "Safe Room",
+    "Private Booths",
+    "Tailor Front",
+    "Hidden Alleyway",
+    "VIP Poker Den",
+    "Main Lounge"
+  ],
+  "people": [
+    "Albert the accordionist",
+    "Bruno the bartender",
+    "Carl the crooner",
+    "Dexter the drummer",
+    "Elias the enforcer",
+    "Felix the flapper",
+    "Gus the gangster",
+    "Victor the voice of syndicate"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "next",
+      "cask"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "sax"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    22,
+    27,
+    39,
+    45,
+    50,
+    60
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      46,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "group": 0
+}

@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222333444333444333",
+  "objects": "...cebb.c....ec......d....a...fd.c.a",
+  "roomNames": [
+    "Arcade Alley",
+    "Fortune Booth",
+    "Hall of Mirrors",
+    "Boardwalk Plankway",
+    "Maintenance Hut"
+  ],
+  "people": [
+    "Vince the vagrant",
+    "Arthur the arcade repairman",
+    "Basil the boardwalk walker",
+    "Cedric the caretaker",
+    "Dmitri the drifter",
+    "Edgar the electrician"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "cart"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    15,
+    20,
+    28,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "automaton",
+      0
+    ],
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

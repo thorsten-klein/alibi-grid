@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233444555334445553344455533444555",
+  "objects": "....e....a..bd.cfb.....b...fad...e.d....a.ab.......a.f.c........",
+  "roomNames": [
+    "Apothecary",
+    "Opium Den",
+    "Cobblestone Alley",
+    "Mortuary",
+    "Police Desk",
+    "Parlor Study"
+  ],
+  "people": [
+    "Albert the apothecary",
+    "Bruno the blackmailer",
+    "Carl the constable",
+    "Victor the victim of nobility",
+    "Dexter the detective",
+    "Elias the engraver",
+    "Felix the forger",
+    "Gus the gentlemen valet"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "hansom"
+    ],
+    [
+      1,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "kiosk"
+    ],
+    [
+      7,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    20,
+    26,
+    39,
+    43,
+    54,
+    57
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 3,
+  "hardest": 7,
+  "steps": 30,
+  "extra": true
+}

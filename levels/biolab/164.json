@@ -1,0 +1,240 @@
+{
+  "size": 12,
+  "rooms": "000111222233000111222233000111222233000111222233444444433333444444433333444444433333555566666777555566666777555588888777555588888777555588888777",
+  "objects": ".......d....e.c.....b...bf..b......e...be...b...f..c.e..ecb.d...acecd...d...ba..abac.....c......c....a.....f.aaaa.......c..a.....be.....fa...b..",
+  "roomNames": [
+    "Decon Airlock",
+    "Server Farm",
+    "Cryo Storage",
+    "Cleanroom 2",
+    "Centrifuge Bay",
+    "Autopsy Suite",
+    "Cleanroom 1",
+    "Breakroom",
+    "Chemical Vault"
+  ],
+  "people": [
+    "Albert the algorithm engineer",
+    "Bruno the bioethicist",
+    "Carl the cryo technician",
+    "Dexter the data architect",
+    "Elias the ecologist",
+    "Victor the venture backer",
+    "Felix the forensic chemist",
+    "Gus the guard",
+    "Hugo the hardware tech",
+    "Igor the immunologist",
+    "Jasper the junior researcher",
+    "Klaus the kinetic specialist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "same",
+      3
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "centrifuge"
+    ],
+    [
+      4,
+      "next",
+      "centrifuge"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "same",
+      0
+    ],
+    [
+      6,
+      "next",
+      "chamber"
+    ],
+    [
+      7,
+      "same",
+      11
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ],
+    [
+      10,
+      "on",
+      "pod"
+    ],
+    [
+      11,
+      "row",
+      11
+    ],
+    [
+      11,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    10,
+    17,
+    24,
+    47,
+    54,
+    63,
+    80,
+    85,
+    100,
+    115,
+    129,
+    134
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      48
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      42,
+      54
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      81,
+      93
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      77,
+      89
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      135,
+      136
+    ],
+    [
+      104,
+      105
+    ],
+    [
+      104,
+      116
+    ],
+    [
+      128,
+      129
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      119,
+      "r"
+    ],
+    [
+      141,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ]
+  ],
+  "tries": 20,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "rack",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 9,
+  "steps": 49,
+  "extra": true
+}

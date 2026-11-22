@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "...aa.........ec.f....ce....fe.......c...ba.....a",
+  "roomNames": [
+    "Kitchen",
+    "Lobby",
+    "Suite",
+    "Terrace",
+    "Ski Room"
+  ],
+  "people": [
+    "Albert the athlete",
+    "Viola the vlogger",
+    "Basil the bartender",
+    "Clara the climber",
+    "Daisy the doctor",
+    "Elsa the engineer",
+    "Frank the fisher"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "skis"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "next",
+      "skis"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    20,
+    21,
+    32,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

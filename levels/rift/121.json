@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233444555334445553344455533444555",
+  "objects": "c.b.c...b....a..ae.a.........e..b..........d...ab......c......f.",
+  "roomNames": [
+    "Hide Tent",
+    "Fort",
+    "Shrine",
+    "Saloon",
+    "Burial Chamber",
+    "Fire Pit"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Viola the visionary",
+    "Bella the bard",
+    "Clara the clockmaker",
+    "Dmitri the drifter",
+    "Ena the engineer",
+    "Fiona the fortune teller",
+    "Greta the guardian"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "log"
+    ],
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    19,
+    30,
+    33,
+    40,
+    52,
+    61
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      0
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": "4...04..",
+  "tags": ".........2....0.....2.....................2........0....2...0...",
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

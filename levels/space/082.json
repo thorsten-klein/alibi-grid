@@ -1,0 +1,123 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122334422334422334422",
+  "objects": ".d....d..ba..bb.c....f.d.be........a",
+  "roomNames": [
+    "Mess Hall",
+    "Comms",
+    "Cargo Bay",
+    "Gym",
+    "Airlock"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Birgit the biologist",
+    "Clara the captain",
+    "Vera the volunteer",
+    "Dora the doctor",
+    "Elsa the electrician"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      1
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    18,
+    25,
+    34
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "facts": [
+    [
+      "onCount",
+      "pod",
+      2
+    ]
+  ],
+  "extra": true
+}

@@ -1,0 +1,81 @@
+{
+  "size": 5,
+  "rooms": "0001122211222113331133311",
+  "objects": "......ba....b....f.......",
+  "roomNames": [
+    "Brig",
+    "Open Sea",
+    "Frigate",
+    "Sloop"
+  ],
+  "people": [
+    "Alma the admiral",
+    "Bella the boatswain",
+    "Victor the voyager",
+    "Cedric the cook",
+    "Daisy the diver"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cannon"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    10,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      10,
+      15
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "extra": true
+}

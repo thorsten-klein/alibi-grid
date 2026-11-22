@@ -1,0 +1,151 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122200111222333445553334455533344555",
+  "objects": ".a..a..b...c.....a.b..ce..bb..bcc...a..b.....a.......c..aa.f....",
+  "roomNames": [
+    "Livery",
+    "Corral",
+    "Telegraph Office",
+    "Saloon",
+    "Church",
+    "Barber"
+  ],
+  "people": [
+    "Albert the auctioneer",
+    "Vera the vet",
+    "Basil the blacksmith",
+    "Cora the cook",
+    "Daisy the deputy",
+    "Edgar the engineer",
+    "Felix the farrier",
+    "Gus the gunsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      4,
+      "on",
+      "bed"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "withBandit"
+    ],
+    [
+      7,
+      "next",
+      "horse"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    21,
+    30,
+    39,
+    42,
+    51,
+    60
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 20,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0112222011222201133330113333011444401144440114444",
+  "objects": ".....a......f.....ea..dbbb.a......a.a.d..a.b.....",
+  "roomNames": [
+    "Abbey Church",
+    "Refectory",
+    "Infirmary",
+    "Chapter House",
+    "Herb Garden"
+  ],
+  "people": [
+    "Astrid the abbot",
+    "Vivian the visiting cardinal",
+    "Birgit the bellringer",
+    "Celia the cellarer",
+    "Della the doorkeeper",
+    "Ena the exorcist",
+    "Flora the forester"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "stall"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "on",
+      "stall"
+    ],
+    [
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    14,
+    23,
+    32,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      42,
+      43
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      25,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

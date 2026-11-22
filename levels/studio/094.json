@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111222233222233444433444433",
+  "objects": ".ea.bb.d....b.ef..ac......b..d.a.b..",
+  "roomNames": [
+    "Soundstage A",
+    "Director Trailer",
+    "Editing Suite",
+    "Sound Booth",
+    "Wardrobe Vault"
+  ],
+  "people": [
+    "Albert the actor",
+    "Bruno the boom operator",
+    "Carl the cinematographer",
+    "Dexter the director",
+    "Elias the editor",
+    "Victor the voice actor"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "camera"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "on",
+      "couch"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    13,
+    22,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "boom",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 23,
+  "extra": true
+}

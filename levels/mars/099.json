@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".......fbb...f........df......bf.......b..dae.ec.",
+  "roomNames": [
+    "Comms Array",
+    "Command Hub",
+    "Water Reclamation",
+    "Solar Array Control",
+    "Habitat Quarters"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Vince the visiting inspector",
+    "Basil the biosphere tech",
+    "Cedric the chemist",
+    "Dmitri the doctor",
+    "Edgar the electrician",
+    "Frank the farmer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "rover"
+    ],
+    [
+      3,
+      "next",
+      "rover"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    21,
+    33,
+    39,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 6,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

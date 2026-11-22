@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222233222233444433444433",
+  "objects": "b..ec..ae............f.dbf......ccbc",
+  "roomNames": [
+    "Crypt",
+    "Scriptorium",
+    "Bell Tower",
+    "Cellar",
+    "Prior Cell"
+  ],
+  "people": [
+    "Arthur the abbot",
+    "Basil the bellringer",
+    "Vince the visiting cardinal",
+    "Cedric the cellarer",
+    "Dmitri the doorkeeper",
+    "Edgar the exorcist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "palliasse"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "palliasse"
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    14,
+    19,
+    27,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

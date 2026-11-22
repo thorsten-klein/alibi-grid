@@ -1,0 +1,242 @@
+{
+  "size": 12,
+  "rooms": "000011112222000011112222000011112222000011112222333344445555333344445555333344445555333344445555666667775555666667778888666667778888666667778888",
+  "objects": ".b.ab.db.a.....e.......c.b..fb.....b......dc...........fb.bdb............f...a......cba.fef....f.....b..efb..d.cfc....ff.b.ef....bda.......a....",
+  "roomNames": [
+    "Stateroom Alpha",
+    "Smoking Lounge",
+    "Port Engine Gondola",
+    "Radio Cabin",
+    "Dining Saloon",
+    "Promenade Deck",
+    "Rigging Loft",
+    "Galley",
+    "Cockpit Bridge"
+  ],
+  "people": [
+    "Astrid the aristocrat",
+    "Birgit the boatswain",
+    "Celia the chief rigger",
+    "Della the doctor",
+    "Ena the envoy",
+    "Flora the flight steward",
+    "Grace the ground crew chief",
+    "Hana the hostess",
+    "Isla the industrialist",
+    "Vivian the vip diplomat",
+    "Jutta the junior steward",
+    "Kai the knot rigger"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "armchair"
+    ],
+    [
+      0,
+      "next",
+      "winch"
+    ],
+    [
+      1,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "berth"
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      5,
+      "col",
+      7
+    ],
+    [
+      6,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "luggage"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "door",
+      null
+    ],
+    [
+      10,
+      "on",
+      "armchair"
+    ],
+    [
+      11,
+      "notRoom",
+      6
+    ],
+    [
+      11,
+      "row",
+      11
+    ]
+  ],
+  "solution": [
+    3,
+    21,
+    24,
+    37,
+    54,
+    67,
+    76,
+    94,
+    98,
+    116,
+    131,
+    137
+  ],
+  "doors": [
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      43,
+      55
+    ],
+    [
+      46,
+      58
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      84,
+      96
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      88,
+      100
+    ],
+    [
+      91,
+      103
+    ],
+    [
+      103,
+      104
+    ],
+    [
+      107,
+      119
+    ],
+    [
+      100,
+      101
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "windows": [
+    [
+      59,
+      "r"
+    ],
+    [
+      83,
+      "r"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      95,
+      "r"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      132,
+      "l"
+    ],
+    [
+      139,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      3
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 37,
+  "group": 3
+}

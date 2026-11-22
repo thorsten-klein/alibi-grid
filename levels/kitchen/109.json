@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222233322222333444555334445553344455533",
+  "objects": ".b.c...a.b......d...fd.b....ba.b.f...a..bf..f....e...beb...b...c",
+  "roomNames": [
+    "Butcher Larder",
+    "Saute Station",
+    "Main Dining Room",
+    "Plating Line",
+    "Herb Garden",
+    "Hostess Foyer"
+  ],
+  "people": [
+    "Ada the apprentice chef",
+    "Bea the baker",
+    "Clara the chef de cuisine",
+    "Dora the dishwasher",
+    "Edith the expediter",
+    "Vera the vip dining critic",
+    "Freya the fishmonger",
+    "Greta the garde manger"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "cooktop"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "banquette"
+    ],
+    [
+      5,
+      "on",
+      "banquette"
+    ],
+    [
+      6,
+      "next",
+      "fridge"
+    ],
+    [
+      7,
+      "next",
+      "espresso"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    29,
+    39,
+    40,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "nextCount",
+      "espresso",
+      1
+    ]
+  ],
+  "hard": 12,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

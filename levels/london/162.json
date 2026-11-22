@@ -1,0 +1,241 @@
+{
+  "size": 12,
+  "rooms": "000111112222000111112222000111112222000111113333444444443333444444443333555566677777555566677777555566688888555566688888555566688888555566688888",
+  "objects": "...ac...f..c..d..e..b...d.b..e....b.da.a....d...a.e..c....e.e.......dafaa...c...a..a.a..f.......bcc.ef..ca...e......eaa.....dce.a...........cb..",
+  "roomNames": [
+    "Apothecary",
+    "Opium Den",
+    "Tenement Attic",
+    "Mortuary",
+    "Police Desk",
+    "Cobblestone Alley",
+    "Cab Stand",
+    "Newsstand Corner",
+    "Pawn Shop"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the bowler hat seller",
+    "Cora the chimney sweep",
+    "Daisy the doctor",
+    "Elsa the errand boy",
+    "Fiona the fishmonger",
+    "Gwen the grave robber",
+    "Hazel the hawker",
+    "Ines the inspector",
+    "Juno the journalist",
+    "Kira the keg tapster",
+    "Viola the vagabond"
+  ],
+  "victim": 11,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "fireplace"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "fireplace"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "on",
+      "armchair"
+    ],
+    [
+      8,
+      "next",
+      "streetlamp"
+    ],
+    [
+      8,
+      "col",
+      9
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "same",
+      9
+    ],
+    [
+      10,
+      "next",
+      "armchair"
+    ],
+    [
+      11,
+      "next",
+      "streetlamp"
+    ],
+    [
+      11,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    16,
+    32,
+    43,
+    51,
+    62,
+    78,
+    85,
+    105,
+    119,
+    130,
+    137
+  ],
+  "doors": [
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      48
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      42,
+      54
+    ],
+    [
+      33,
+      45
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      70,
+      82
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      65,
+      77
+    ],
+    [
+      67,
+      79
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      78,
+      79
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      92,
+      104
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      133,
+      "b"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      140,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      2
+    ],
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 9,
+  "steps": 42,
+  "extra": true
+}

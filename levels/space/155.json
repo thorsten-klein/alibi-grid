@@ -1,0 +1,189 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000022233000022233444422233444422233555446666555446666555446666",
+  "objects": "b.a.e......f......b........a...d..........bc.....cf.caa....d..c.b.c.cd...a.afb...",
+  "roomNames": [
+    "Comms",
+    "Hydroponics",
+    "Mess Hall",
+    "Engine Room",
+    "Airlock",
+    "Observatory",
+    "Cargo Bay"
+  ],
+  "people": [
+    "Ada the astronaut",
+    "Bruno the biologist",
+    "Celia the captain",
+    "Della the doctor",
+    "Elias the electrician",
+    "Fiona the flight officer",
+    "Grace the gunner",
+    "Vera the visitor",
+    "Henrik the hacker"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "notRoom",
+      6
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "console"
+    ],
+    [
+      8,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    25,
+    28,
+    42,
+    47,
+    54,
+    67,
+    80
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      52,
+      61
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      67,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      53,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      74,
+      "b"
+    ]
+  ],
+  "tries": 18,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ],
+    [
+      "roomCount",
+      6,
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 35,
+  "extra": true
+}

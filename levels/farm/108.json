@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".....dabbd.b.fab.........c.b.a.d....ceb..e....b..",
+  "roomNames": [
+    "Fruit Orchard",
+    "Tool Shed",
+    "Farmstand",
+    "Pig Pen",
+    "Hayloft"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Bea the barn hand",
+    "Clara the cider presser",
+    "Dora the ditcher",
+    "Edith the entomologist",
+    "Freya the farrier",
+    "Vera the veterinarian"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "scarecrow"
+    ],
+    [
+      1,
+      "on",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bale"
+    ],
+    [
+      5,
+      "next",
+      "churn"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    20,
+    23,
+    28,
+    40,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "onCount",
+      "bale",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

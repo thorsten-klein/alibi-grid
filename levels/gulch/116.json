@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "..bc..ea....b..b..f.bd...........b...b.ef........",
+  "roomNames": [
+    "Barber",
+    "Corral",
+    "General Store",
+    "Sheriff Office",
+    "Mine"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bea the blacksmith",
+    "Cedric the cattle driver",
+    "Daisy the deputy",
+    "Vivian the vaquero",
+    "Elsa the editor",
+    "Fiona the farmer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "horse"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      5,
+      "bandit"
+    ],
+    [
+      6,
+      "next",
+      "piano"
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    19,
+    23,
+    31,
+    35,
+    46
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 8,
+  "hardest": 7,
+  "steps": 22,
+  "extra": true
+}

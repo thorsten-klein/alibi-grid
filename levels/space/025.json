@@ -1,0 +1,105 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "f..cbd..b..f..f.......a..",
+  "roomNames": [
+    "Airlock",
+    "Hydroponics",
+    "Observatory",
+    "Gym"
+  ],
+  "people": [
+    "Vince the visitor",
+    "Albert the astronaut",
+    "Bruno the biologist",
+    "Carl the captain",
+    "Dmitri the driller"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      15,
+      "l"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      0
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 18,
+  "group": 3
+}

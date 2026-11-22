@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0000001100000011222200112222001133344555333445553334455533344555",
+  "objects": "...a..........a..eeaa.effd.ca.c..d.ab.fb....f..d....aa.b.c.b....",
+  "roomNames": [
+    "Philosopher Garden",
+    "Translation Chamber",
+    "Archivist Sanctum",
+    "Observatory",
+    "Scribes Hall",
+    "Mosaic Gallery"
+  ],
+  "people": [
+    "Viola the veteran sage",
+    "Alma the archivist",
+    "Bella the bookbinder",
+    "Cora the cartographer",
+    "Daisy the doctor",
+    "Elsa the educator",
+    "Fiona the fanbearer",
+    "Gwen the geometer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "sphere"
+    ],
+    [
+      4,
+      "next",
+      "sphere"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "on",
+      "bench"
+    ],
+    [
+      7,
+      "next",
+      "mat"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    19,
+    26,
+    32,
+    46,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      52,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 28,
+  "extra": true
+}

@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".bba...e.............dd..",
+  "roomNames": [
+    "Food Court",
+    "Record Store",
+    "Arcade",
+    "Security Office"
+  ],
+  "people": [
+    "Astrid the arcade manager",
+    "Birgit the barista",
+    "Celia the cinema projectionist",
+    "Della the department manager",
+    "Vivian the veteran mall owner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "plasticchair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "gumball"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    11,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

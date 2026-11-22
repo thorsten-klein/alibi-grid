@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".........a..ab.a.....b...",
+  "roomNames": [
+    "Grand Ballroom",
+    "Promenade Deck",
+    "Stateroom A",
+    "Steerage Quarters"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the bartender",
+    "Carl the chief engineer",
+    "Victor the valet",
+    "Dexter the doctor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "deckchair"
+    ],
+    [
+      2,
+      "on",
+      "berth"
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "deckchair",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

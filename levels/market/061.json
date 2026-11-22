@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "f.....b......bb..f.e...f.",
+  "roomNames": [
+    "Fortune Teller",
+    "Tea Pavilion",
+    "River Pagoda",
+    "Dragon Boat"
+  ],
+  "people": [
+    "Alma the astrologer",
+    "Bella the bamboo carver",
+    "Cora the cook",
+    "Daisy the dancer",
+    "Viola the visiting noble"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "teacart"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "on",
+      "cushion"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    13,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 11,
+  "extra": true
+}

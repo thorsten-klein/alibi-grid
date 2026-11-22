@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000113333000113333444555666444555666444555666444555666444555666",
+  "objects": "...f..fb...a...fc..a.d..f..b....de.....a......d.c.d...e.f......b.b.d.f....b..a..f",
+  "roomNames": [
+    "Burial Chamber",
+    "Well Shaft",
+    "Hall of Pillars",
+    "Statue Hall",
+    "Shrine",
+    "Sun Court",
+    "Scribe Room"
+  ],
+  "people": [
+    "Alma the architect",
+    "Birgit the brewer",
+    "Carl the carpenter",
+    "Della the dancer",
+    "Edgar the envoy",
+    "Vince the vizier",
+    "Felix the fanbearer",
+    "Grace the guard",
+    "Hana the harpist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      0,
+      "next",
+      "jar"
+    ],
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "jar"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "next",
+      "statue"
+    ],
+    [
+      6,
+      "next",
+      "jar"
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ],
+    [
+      8,
+      "next",
+      "couch"
+    ]
+  ],
+  "solution": [
+    4,
+    14,
+    25,
+    28,
+    44,
+    47,
+    60,
+    66,
+    72
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      68,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "jar",
+      5
+    ],
+    [
+      "nextCount",
+      "stool",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..............L..........L..................C.....................L...C.CL.......",
+  "hard": 10,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

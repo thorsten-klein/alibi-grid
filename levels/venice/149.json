@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111333344455533334445553333444555333344455566667777776666777777",
+  "objects": "a.d.e..f.....cd..ed.b.........a....fabd.b.b...b.....a...e..dc.....bb..f.fdaa......e.d.....a.b..f..d.",
+  "roomNames": [
+    "Mirrored Gallery",
+    "Armory",
+    "Grand Ballroom",
+    "Casino Ridotto",
+    "Canal Balcony",
+    "Gondola Dock",
+    "Palazzo Chapel",
+    "Wine Cellar"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the barcarolle singer",
+    "Carl the courtesan",
+    "Dexter the doge",
+    "Elias the envoy",
+    "Victor the venetian senator",
+    "Felix the fencing master",
+    "Gus the gondolier",
+    "Hugo the harlequin",
+    "Igor the inquisitor"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "fountain"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "harpsichord"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "next",
+      "daybed"
+    ],
+    [
+      5,
+      "next",
+      "gondola"
+    ],
+    [
+      6,
+      "next",
+      "maskstand"
+    ],
+    [
+      7,
+      "on",
+      "throne"
+    ],
+    [
+      8,
+      "notRoom",
+      1
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "same",
+      8
+    ],
+    [
+      9,
+      "next",
+      "harpsichord"
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    28,
+    33,
+    47,
+    50,
+    62,
+    74,
+    86,
+    99
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ]
+  ],
+  "tries": 21,
+  "facts": [
+    [
+      "nextCount",
+      "gondola",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "fountain",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 43,
+  "extra": true
+}

@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112223334422233344222333442225555522255555",
+  "objects": ".....a........a.b......cd..ffe...........b.....c..ad...a...b....",
+  "roomNames": [
+    "Egyptian Wing",
+    "Sculpture Court",
+    "Restoration Lab",
+    "Greek Antiquities",
+    "Medieval Hall",
+    "Security Control"
+  ],
+  "people": [
+    "Victor the visiting donor",
+    "Albert the archivist",
+    "Bruno the bookkeeper",
+    "Carl the conservator",
+    "Dexter the docent",
+    "Elias the evaluator",
+    "Felix the floor warden",
+    "Gus the goldsmith"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "turnstile"
+    ],
+    [
+      5,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      7,
+      "notRoom",
+      1
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    17,
+    26,
+    36,
+    46,
+    48,
+    63
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      56,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

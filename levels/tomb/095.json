@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333344333344",
+  "objects": ".....e.e..bf..........fe..c...e.a...",
+  "roomNames": [
+    "Burial Chamber",
+    "Shrine",
+    "Scribe Room",
+    "Boat Pit",
+    "Workshop"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Bella the boat builder",
+    "Celia the chanter",
+    "Vera the vizier",
+    "Dora the dancer",
+    "Elsa the envoy"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    14,
+    19,
+    28,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".............................L.....C",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

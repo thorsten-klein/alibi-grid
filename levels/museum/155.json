@@ -1,0 +1,246 @@
+{
+  "size": 12,
+  "rooms": "000011122333000011122333000011122333000011122333444444422333444444422333444444422333556666778888556666778888556666778888556666778888556666778888",
+  "objects": "e...caa..e.fa...bad...b..a.....cdd..b.e.f...c.c.bbdb.bd...b............c..b...c.c.a..c......bc.c...d...bf.........aaba...d.d....afb..b.faca....d",
+  "roomNames": [
+    "Medieval Hall",
+    "Egyptian Wing",
+    "Security Control",
+    "Vault",
+    "Boiler Cellar",
+    "Restoration Lab",
+    "Sculpture Court",
+    "Greek Antiquities",
+    "Grand Rotunda"
+  ],
+  "people": [
+    "Arthur the archaeologist",
+    "Basil the benefactor",
+    "Cedric the curator",
+    "Dmitri the director",
+    "Edgar the egyptologist",
+    "Frank the forger",
+    "Gideon the guard",
+    "Henrik the historian",
+    "Ivo the intern",
+    "Jonas the janitor",
+    "Konrad the key master",
+    "Vince the valuer"
+  ],
+  "victim": 11,
+  "clues": [
+    [
+      0,
+      "next",
+      "turnstile"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "on",
+      "cot"
+    ],
+    [
+      8,
+      "next",
+      "bench"
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "col",
+      4
+    ],
+    [
+      10,
+      "next",
+      "statue"
+    ],
+    [
+      11,
+      "next",
+      "turnstile"
+    ]
+  ],
+  "solution": [
+    10,
+    13,
+    30,
+    36,
+    56,
+    63,
+    74,
+    89,
+    103,
+    112,
+    131,
+    141
+  ],
+  "doors": [
+    [
+      27,
+      28
+    ],
+    [
+      39,
+      51
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      80,
+      92
+    ],
+    [
+      83,
+      95
+    ],
+    [
+      72,
+      84
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      121,
+      122
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      103,
+      104
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      83,
+      "r"
+    ],
+    [
+      96,
+      "l"
+    ],
+    [
+      136,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "bench",
+      0
+    ],
+    [
+      "roomCount",
+      8,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 29,
+  "extra": true
+}

@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001111001111000222000222333444333444",
+  "objects": ".....b..d......a...f..bcfbbccaff....",
+  "roomNames": [
+    "Glacier Overlook",
+    "Observation Terrace",
+    "Souvenir Kiosk",
+    "Valley Terminal",
+    "Funicular Car B"
+  ],
+  "people": [
+    "Alma the avalanche controller",
+    "Bella the brake operator",
+    "Viola the veteran mountaineer",
+    "Cora the conductor",
+    "Daisy the dispatcher",
+    "Elsa the electrical engineer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    17,
+    22,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,174 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222000112222333333444555555444555555444555666666555666666",
+  "objects": "bb........f...c.dad...c....d......e.....a.b.......c..af.....a...........b....bf..",
+  "roomNames": [
+    "Dining Room",
+    "Billiard Room",
+    "Pantry",
+    "Hall",
+    "Cellar",
+    "Kitchen",
+    "Study"
+  ],
+  "people": [
+    "Astrid the author",
+    "Bruno the butler",
+    "Victor the vicar",
+    "Carl the colonel",
+    "Dmitri the dealer",
+    "Elias the editor",
+    "Freya the florist",
+    "Grace the gardener",
+    "Henrik the heir"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "clock"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    25,
+    35,
+    37,
+    51,
+    57,
+    68,
+    76
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      59,
+      68
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 24,
+  "group": 2
+}

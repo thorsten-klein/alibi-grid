@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011113333004444333300444433334444555555444455555566667777556666777755",
+  "objects": "....c.fe....e..f......fa..............a...ba.....ea....b.e............fa.c......a.....ca.....b...d.f",
+  "roomNames": [
+    "Water Sump",
+    "Shift Boss Office",
+    "Assay Office",
+    "Miners Mess",
+    "Mule Stables",
+    "Smelting Oven",
+    "Shaft Elevator",
+    "Tool Crib"
+  ],
+  "people": [
+    "Astrid the assayer",
+    "Birgit the blacksmith",
+    "Celia the cart driver",
+    "Della the driller",
+    "Ena the engineer",
+    "Flora the foreman",
+    "Grace the geologist",
+    "Hana the hoistman",
+    "Vivian the vein claimant",
+    "Isla the inspector"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "drill"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "keg"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "keg"
+    ],
+    [
+      7,
+      "col",
+      7
+    ],
+    [
+      8,
+      "next",
+      "drill"
+    ],
+    [
+      9,
+      "next",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    0,
+    18,
+    25,
+    36,
+    43,
+    54,
+    61,
+    77,
+    89,
+    92
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      72,
+      82
+    ],
+    [
+      75,
+      85
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 28,
+  "extra": true
+}

@@ -1,0 +1,120 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444444444444",
+  "objects": ".............a.a.e.a...d.....f...abb",
+  "roomNames": [
+    "Members Bar",
+    "Stables",
+    "Saddling Boxes",
+    "Winner Enclosure",
+    "Vet Clinic"
+  ],
+  "people": [
+    "Albert the apprentice jockey",
+    "Bruno the bookmaker",
+    "Carl the champion jockey",
+    "Dexter the derby steward",
+    "Victor the veteran horse owner",
+    "Elias the equine therapist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "board"
+    ],
+    [
+      3,
+      "next",
+      "turfchair"
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

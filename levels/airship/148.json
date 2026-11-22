@@ -1,0 +1,215 @@
+{
+  "size": 11,
+  "rooms": "0000111111100001111111000022222223333222222233334444444333344444443333555666633335556666777755566667777555666677775556666",
+  "objects": ".bc.a.b.b..d.ba.a.a.....ca....b..c...b...bd.cad.........f.de..........a.c..a.....d..ec.....e..eadde.f.c.afb......cd......",
+  "roomNames": [
+    "Gas Catwalk",
+    "Stateroom Alpha",
+    "Promenade Deck",
+    "Starboard Gondola",
+    "Port Engine Gondola",
+    "Rigging Loft",
+    "Galley",
+    "Cargo Hold"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Bruno the boatswain",
+    "Carl the chief rigger",
+    "Dexter the doctor",
+    "Elias the envoy",
+    "Felix the flight steward",
+    "Victor the vip diplomat",
+    "Gus the ground crew chief",
+    "Hugo the hostess",
+    "Igor the industrialist",
+    "Jasper the junior steward"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "on",
+      "armchair"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      2
+    ],
+    [
+      8,
+      "next",
+      "luggage"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "col",
+      8
+    ],
+    [
+      10,
+      "room",
+      5
+    ]
+  ],
+  "solution": [
+    10,
+    16,
+    26,
+    36,
+    51,
+    55,
+    75,
+    79,
+    89,
+    107,
+    116
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      35
+    ],
+    [
+      16,
+      27
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      80,
+      91
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      64,
+      75
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      102,
+      103
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      65,
+      "r"
+    ],
+    [
+      112,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "armchair",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 7,
+  "steps": 34,
+  "extra": true
+}

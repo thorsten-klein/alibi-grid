@@ -1,0 +1,211 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122223333111444433331114444333311144445555555666655555556666777777766667777777666677777776666",
+  "objects": ".f.c.ea.....a.b..............e..a..e.dba...af......c....c....e.....b.............b.e...e.ae...fd......b.......b.e.e.a.a.f",
+  "roomNames": [
+    "Observation Terrace",
+    "Funicular Car B",
+    "Ski Patrol Shack",
+    "Sheave Tower",
+    "Ticket Hall",
+    "Transformer Vault",
+    "Valley Terminal",
+    "Funicular Car A"
+  ],
+  "people": [
+    "Astrid the alpine guide",
+    "Birgit the billeter",
+    "Celia the cable splicer",
+    "Della the doctor",
+    "Ena the excursionist",
+    "Flora the first aider",
+    "Vivian the visiting vip",
+    "Grace the gearbox tech",
+    "Hana the hiker",
+    "Isla the instructor",
+    "Jutta the junior patrol"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "winch"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "generator"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "next",
+      "luggage"
+    ],
+    [
+      10,
+      "next",
+      "bench"
+    ],
+    [
+      10,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    7,
+    17,
+    23,
+    33,
+    47,
+    57,
+    70,
+    82,
+    96,
+    109,
+    119
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      24,
+      35
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      58,
+      69
+    ],
+    [
+      64,
+      75
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      80,
+      91
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      65,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      110,
+      "l"
+    ]
+  ],
+  "tries": 24,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 9,
+  "steps": 49,
+  "extra": true
+}

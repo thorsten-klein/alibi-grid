@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "b.c...a.a......b.c.f..a.c..fc.b.......b.d.c.a....",
+  "roomNames": [
+    "Paddock Ring",
+    "Stables",
+    "Betting Ring",
+    "Grandstand Terrace",
+    "Jockeys Room"
+  ],
+  "people": [
+    "Alma the aristocrat",
+    "Bella the breeder",
+    "Cora the clerk of scales",
+    "Viola the visiting royalty",
+    "Daisy the doper",
+    "Elsa the owner envoy",
+    "Fiona the form analyst"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "next",
+      "haystack"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "stablebench"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    20,
+    26,
+    30,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "onCount",
+      "stablebench",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,132 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".b.d.fd......e......ace..a....db.e.......e..b..bb",
+  "roomNames": [
+    "Saloon",
+    "Corral",
+    "Barber",
+    "Jail",
+    "Telegraph Office"
+  ],
+  "people": [
+    "Astrid the attorney",
+    "Birgit the banker",
+    "Victor the vet",
+    "Celia the cattle driver",
+    "Della the dancer",
+    "Ena the editor",
+    "Fiona the farrier"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "cactus"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "col",
+      6
+    ],
+    [
+      5,
+      "withBandit"
+    ],
+    [
+      6,
+      "next",
+      "bed"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    16,
+    26,
+    34,
+    39,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

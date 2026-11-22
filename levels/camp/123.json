@@ -1,0 +1,141 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": "..a......a..e...a.c..........d......a....ad..b..e......eadbd....",
+  "roomNames": [
+    "Bone Yard",
+    "Fire Pit",
+    "Hide Tent",
+    "Painted Wall",
+    "Berry Grove",
+    "Cave"
+  ],
+  "people": [
+    "Ada the artist",
+    "Birgit the builder",
+    "Celia the carver",
+    "Victor the valley guide",
+    "Della the drummer",
+    "Ena the elder",
+    "Frank the firekeeper",
+    "Greta the grinder"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      4,
+      "next",
+      "log"
+    ],
+    [
+      5,
+      "on",
+      "leaves"
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "on",
+      "leaves"
+    ],
+    [
+      7,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    20,
+    30,
+    35,
+    45,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "rules": [
+    "trades"
+  ],
+  "trade": ".0.22032",
+  "tags": "...........1.3.0..............2..0.2....0..2.......1.2..........",
+  "extra": true
+}

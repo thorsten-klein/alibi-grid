@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": "c.d.......a.f...",
+  "roomNames": [
+    "Cleanroom 1",
+    "Cleanroom 2",
+    "Specimen Nursery"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Victor the virology head",
+    "Bruno the biochemist",
+    "Carl the chief scientist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chamber"
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

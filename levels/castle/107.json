@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "c...ea.b.c...a.e.....b...b..a....ce....ba..fd.d..",
+  "roomNames": [
+    "Tower",
+    "Armory",
+    "Solar",
+    "Kitchen",
+    "Great Hall"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Basil the baker",
+    "Cora the cupbearer",
+    "Dmitri the dancer",
+    "Elsa the envoy",
+    "Frank the farrier",
+    "Victor the vintner"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "on",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    14,
+    24,
+    29,
+    39,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 17,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "ccccnkk",
+  "extra": true
+}

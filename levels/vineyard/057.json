@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "c.f.bd.daa....d...debebe.",
+  "roomNames": [
+    "Fermentation Hall",
+    "Tasting Salon",
+    "Master Bedroom",
+    "Gatehouse"
+  ],
+  "people": [
+    "Albert the apprentice",
+    "Victor the vineyard owner",
+    "Bruno the bottler",
+    "Carl the cook",
+    "Dexter the driver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

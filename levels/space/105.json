@@ -1,0 +1,123 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "....a.f......f...b...f........f..d.d..b.e..b.....",
+  "roomNames": [
+    "Comms",
+    "Bridge",
+    "Gym",
+    "Hydroponics",
+    "Mess Hall"
+  ],
+  "people": [
+    "Arthur the astronaut",
+    "Bella the biologist",
+    "Viola the volunteer",
+    "Carl the chemist",
+    "Daisy the driller",
+    "Edgar the electrician",
+    "Frank the farmer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ],
+    [
+      5,
+      "next",
+      "scope"
+    ],
+    [
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    20,
+    26,
+    31,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      17,
+      18
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 19,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "extra": true
+}

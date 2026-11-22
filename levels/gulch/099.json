@@ -1,0 +1,135 @@
+{
+  "size": 6,
+  "rooms": "000000000000112222112222113344113344",
+  "objects": "b......a...da............b.d...a..d.",
+  "roomNames": [
+    "General Store",
+    "Mine",
+    "Corral",
+    "Livery",
+    "Sheriff Office"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Basil the banker",
+    "Cedric the cook",
+    "Viola the vet",
+    "Daisy the dancer",
+    "Edgar the editor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    16,
+    23,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      7,
+      13
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "alone",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

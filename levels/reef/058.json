@@ -1,0 +1,80 @@
+{
+  "size": 5,
+  "rooms": "0000011222112223332233322",
+  "objects": ".ffe............ef...d...",
+  "roomNames": [
+    "Cove",
+    "Lighthouse",
+    "Open Sea",
+    "Sea Cave"
+  ],
+  "people": [
+    "Albert the armorer",
+    "Bruno the barkeep",
+    "Cora the cook",
+    "Dora the deckhand",
+    "Victor the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "map"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      0,
+      5
+    ],
+    [
+      10,
+      15
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,88 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".bff...c..e.b...ffc......",
+  "roomNames": [
+    "Lounge Car",
+    "Sleeper A",
+    "Baggage Car",
+    "Dining Car"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Birgit the banker",
+    "Cora the courier",
+    "Vivian the violinist",
+    "Dexter the diplomat"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "bunk"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      4,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    12,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

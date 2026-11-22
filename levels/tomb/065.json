@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "..ba..d...a...fb.a...b...",
+  "roomNames": [
+    "Boat Pit",
+    "Antechamber",
+    "Well Shaft",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Bea the brewer",
+    "Carl the chanter",
+    "Daisy the dancer",
+    "Viola the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "couch"
+    ],
+    [
+      4,
+      "row",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....L....C..L.......C....",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "c..a.....cffa......f...a.",
+  "roomNames": [
+    "Observation Car",
+    "Dining Car",
+    "Bar Car",
+    "Corridor"
+  ],
+  "people": [
+    "Astrid the attendant",
+    "Bella the bookseller",
+    "Vivian the violinist",
+    "Carl the courier",
+    "Daisy the diplomat"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "suitcase"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "group": 2
+}

@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "c.....f...afb..c.c.......",
+  "roomNames": [
+    "Vault",
+    "Grand Rotunda",
+    "Boiler Cellar",
+    "Medieval Hall"
+  ],
+  "people": [
+    "Vince the visiting donor",
+    "Arthur the archivist",
+    "Basil the bookkeeper",
+    "Cedric the conservator",
+    "Dmitri the docent"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "next",
+      "turnstile"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "sarcophagus"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    16,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ],
+    [
+      "onCount",
+      "cot",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0000111000011111111112223333222333322244442224444",
+  "objects": "a....d..........ce.bca....cd..a.e...f......a....f",
+  "roomNames": [
+    "Boat Pit",
+    "Statue Hall",
+    "Granary",
+    "Hall of Pillars",
+    "Scribe Room"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Birgit the brewer",
+    "Vince the vizier",
+    "Cedric the carpenter",
+    "Della the dancer",
+    "Edgar the envoy",
+    "Freya the fisher"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    15,
+    23,
+    28,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      7,
+      14
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "jar",
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".C......L....CLC.................................",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 25,
+  "group": 2
+}

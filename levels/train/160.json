@@ -1,0 +1,191 @@
+{
+  "size": 10,
+  "rooms": "0001122333000112233300011223330001122333444445555544444555556666655555666667777766666777776666677777",
+  "objects": ".e...f.b.aba.........bc..bc..a......d.cde.fe.bf...fe..f..defa.db....a...e...dfd........c.fce.ac.....",
+  "roomNames": [
+    "Sleeper B",
+    "Galley",
+    "Dining Car",
+    "Mail Car",
+    "Corridor",
+    "Bar Car",
+    "Lounge Car",
+    "Baggage Car"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Basil the banker",
+    "Cora the courier",
+    "Della the dentist",
+    "Elias the envoy",
+    "Fiona the fiddler",
+    "Gideon the guard",
+    "Victor the vendor",
+    "Hazel the hatter",
+    "Ines the importer"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "lamp"
+    ],
+    [
+      1,
+      "room",
+      3
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "crate"
+    ],
+    [
+      4,
+      "next",
+      "wine"
+    ],
+    [
+      5,
+      "next",
+      "crate"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "seat"
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "col",
+      9
+    ]
+  ],
+  "solution": [
+    2,
+    18,
+    21,
+    33,
+    47,
+    56,
+    64,
+    70,
+    85,
+    99
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      65,
+      75
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

@@ -1,0 +1,119 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "a..a......c...b.....ea.e..........ef",
+  "roomNames": [
+    "Hide Tent",
+    "Berry Grove",
+    "Hunting Ground",
+    "Spring",
+    "Bone Yard"
+  ],
+  "people": [
+    "Ada the artist",
+    "Bea the builder",
+    "Carl the carver",
+    "Della the drummer",
+    "Edith the elk tamer",
+    "Vivian the visionary"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "next",
+      "boulder"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "row",
+      5
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    12,
+    22,
+    27,
+    32
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "rules": [
+    "trades"
+  ],
+  "trade": "2.....",
+  "tags": ".2............................1.....",
+  "extra": true
+}

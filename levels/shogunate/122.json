@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222001112220011133244455332444553324445533244455",
+  "objects": "..a.b...f..ca.b..cbf.b..e.a.b.......cba.af........c.a...c.fa....",
+  "roomNames": [
+    "Moon Balcony",
+    "Guard Gate",
+    "Daimyo Hall",
+    "Zen Garden",
+    "Tea Ceremony Room",
+    "Stables"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Birgit the bushi warrior",
+    "Celia the calligrapher",
+    "Della the daimyo",
+    "Ena the envoy",
+    "Flora the falconer",
+    "Vivian the veteran general",
+    "Grace the geisha"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "futon"
+    ],
+    [
+      1,
+      "next",
+      "armor"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "futon"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bonsai"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "taiko"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "tatami"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    21,
+    25,
+    39,
+    40,
+    51,
+    60
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "onCount",
+      "futon",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 29,
+  "extra": true
+}

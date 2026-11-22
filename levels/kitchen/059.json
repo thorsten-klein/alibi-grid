@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "...d..d.......a....db.aa.",
+  "roomNames": [
+    "Wine Cellar",
+    "Main Dining Room",
+    "Plating Line",
+    "Walk In Cooler"
+  ],
+  "people": [
+    "Vera the vip dining critic",
+    "Ada the apprentice chef",
+    "Bea the baker",
+    "Clara the chef de cuisine",
+    "Dora the dishwasher"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "block"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    12,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "banquette",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 15,
+  "extra": true
+}

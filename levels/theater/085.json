@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444444444444",
+  "objects": ".............a.a.e.a...d.....f...abb",
+  "roomNames": [
+    "Bar",
+    "Costume Room",
+    "Prop Store",
+    "Stage",
+    "Foyer"
+  ],
+  "people": [
+    "Arthur the agent",
+    "Bea the baritone",
+    "Cedric the critic",
+    "Della the dancer",
+    "Victor the violinist",
+    "Edgar the extra"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

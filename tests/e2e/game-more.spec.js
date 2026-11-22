@@ -108,8 +108,10 @@ test('a solved board: no person board; the person board shows others dimmed and 
   await person(page, 'Alma').locator('.person-zoom').click();
   await expect(dialog(page).locator('.person-board .token.dim.victim')).toHaveText('V');
   await closeDialog(page);
+  await expect(dialog(page)).not.toBeVisible();
   await open(page, { pos: SOLUTION });
   await dialog(page).getByRole('button', { name: 'Use shared board' }).click(); // replaces the board above
+  await expect(page.locator('button.submit')).toBeEnabled();
   await page.locator('button.submit').click();
   await dialog(page).getByRole('button', { name: 'Submit answer' }).click();
   await expect(dialog(page).locator('.result-title')).toBeVisible(); // the result dialog is open

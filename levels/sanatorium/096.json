@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....f.df.bf....a....ac...........bc....f.b..bc..",
+  "roomNames": [
+    "Hydrotherapy Room",
+    "Records Archive",
+    "Operating Theater",
+    "Pharmacy",
+    "Doctor Office"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Victor the visiting superintendent",
+    "Dexter the dentist",
+    "Elias the examiner",
+    "Felix the forensic pathologist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "bed"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "archive"
+    ],
+    [
+      2,
+      "next",
+      "cart"
+    ],
+    [
+      4,
+      "on",
+      "bed"
+    ],
+    [
+      5,
+      "next",
+      "cabinet"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    14,
+    25,
+    34,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 16,
+  "extra": true
+}

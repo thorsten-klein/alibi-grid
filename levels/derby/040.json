@@ -1,0 +1,74 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": ".efc..a........b",
+  "roomNames": [
+    "Paddock Ring",
+    "Royal Box",
+    "Saddling Boxes"
+  ],
+  "people": [
+    "Ada the aristocrat",
+    "Bea the breeder",
+    "Vera the visiting royalty",
+    "Clara the clerk of scales"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 10,
+  "extra": true
+}

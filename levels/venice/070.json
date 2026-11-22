@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "c...c...........d..e..bfb",
+  "roomNames": [
+    "Mask Atelier",
+    "Wine Cellar",
+    "Canal Balcony",
+    "Mirrored Gallery"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Bella the boat builder",
+    "Viola the visiting merchant",
+    "Cora the carnival poet",
+    "Daisy the diplomat"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "gondola"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "harpsichord"
+    ],
+    [
+      4,
+      "next",
+      "fountain"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    12,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

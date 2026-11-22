@@ -1,0 +1,201 @@
+{
+  "size": 10,
+  "rooms": "0001122333000112233300011223330001122333444442225544444222554444466655777776665577777666557777766655",
+  "objects": "....c...b.....a.......f.e...aa.ae....fd.b....f..bb....da..ba...c..b.a..e..a..d....f.....ad.d..d..f..",
+  "roomNames": [
+    "Cargo Bay",
+    "Observatory",
+    "Crew Quarters",
+    "Lab",
+    "Airlock",
+    "Hydroponics",
+    "Comms",
+    "Engine Room"
+  ],
+  "people": [
+    "Ada the astronaut",
+    "Bruno the botanist",
+    "Celia the chemist",
+    "Dora the driller",
+    "Ena the engineer",
+    "Freya the farmer",
+    "Gideon the gunner",
+    "Vince the volunteer",
+    "Hilda the hull technician",
+    "Isla the instructor"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "room",
+      1
+    ],
+    [
+      4,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "console"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "pod"
+    ],
+    [
+      7,
+      "next",
+      "scope"
+    ],
+    [
+      8,
+      "next",
+      "scope"
+    ],
+    [
+      9,
+      "alone"
+    ]
+  ],
+  "solution": [
+    9,
+    11,
+    25,
+    33,
+    48,
+    52,
+    64,
+    76,
+    87,
+    90
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      64,
+      74
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      94,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "edge",
+      null,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 27,
+  "group": 2
+}

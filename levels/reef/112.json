@@ -1,0 +1,113 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223333333333333344443334444333",
+  "objects": ".b...c..f...ea............................f......",
+  "roomNames": [
+    "Tavern",
+    "Market",
+    "Sloop",
+    "Open Sea",
+    "Longboat"
+  ],
+  "people": [
+    "Alma the admiral",
+    "Birgit the barkeep",
+    "Celia the cook",
+    "Dora the deckhand",
+    "Edgar the explorer",
+    "Vince the vintner",
+    "Fiona the fiddler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "hammock"
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ],
+    [
+      6,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    18,
+    23,
+    33,
+    35,
+    45
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

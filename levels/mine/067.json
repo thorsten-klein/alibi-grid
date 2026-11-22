@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "abee...eb.ce.....a.......",
+  "roomNames": [
+    "Main Drift",
+    "Smelting Oven",
+    "Miners Mess",
+    "Shift Boss Office"
+  ],
+  "people": [
+    "Vera the venture capitalist",
+    "Ada the axeman",
+    "Bea the blaster",
+    "Clara the carpenter",
+    "Dora the dynamite handler"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "dynamite"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

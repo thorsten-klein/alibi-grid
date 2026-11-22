@@ -1,0 +1,98 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "ac.ada.c...d..a.dd.b..fcb",
+  "roomNames": [
+    "Throne Room",
+    "Great Hall",
+    "Smithy",
+    "Dungeon"
+  ],
+  "people": [
+    "Ada the archer",
+    "Birgit the baker",
+    "Cora the cupbearer",
+    "Della the dancer",
+    "Viola the vintner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "bench"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "candles"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "urn",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "cccnk",
+  "hard": 1,
+  "hardest": 5,
+  "steps": 13,
+  "extra": true
+}

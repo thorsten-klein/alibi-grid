@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": ".c..a.......c......b......f...f...e.",
+  "roomNames": [
+    "The Vault",
+    "High Roller Lounge",
+    "Kitchen",
+    "Rooftop Pool",
+    "Parking Garage"
+  ],
+  "people": [
+    "Arthur the armored driver",
+    "Vince the vegas mogul",
+    "Basil the bartender",
+    "Cedric the casino manager",
+    "Dmitri the dancer",
+    "Edgar the electrician"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "next",
+      "table"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    14,
+    22,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      0,
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
+  "extra": true
+}

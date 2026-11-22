@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".a.......b..d..d....b....",
+  "roomNames": [
+    "Gas Catwalk",
+    "Stateroom Alpha",
+    "Rigging Loft",
+    "Galley"
+  ],
+  "people": [
+    "Alma the aeronaut",
+    "Bella the barman",
+    "Cora the captain",
+    "Daisy the dirigible pilot",
+    "Viola the vessel inventor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "column",
+      1
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "extra": true
+}

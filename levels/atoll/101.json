@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": ".....e...dcdc...dc..caac............f..aa........",
+  "roomNames": [
+    "Infinity Pool",
+    "Reception Lobby",
+    "Dive Shop",
+    "Coral Lagoon",
+    "Overwater Bungalow"
+  ],
+  "people": [
+    "Astrid the animator",
+    "Vivian the vip influencer",
+    "Birgit the boat captain",
+    "Celia the chef",
+    "Della the disc jockey",
+    "Ena the entertainer",
+    "Flora the fire dancer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "jetski"
+    ],
+    [
+      1,
+      "next",
+      "surfboard"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "towel"
+    ],
+    [
+      5,
+      "on",
+      "towel"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    14,
+    24,
+    29,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "cart",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

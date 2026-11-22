@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".....b.ba..efb..b.be.....",
+  "roomNames": [
+    "Jail",
+    "Telegraph Office",
+    "Sheriff Office",
+    "Church"
+  ],
+  "people": [
+    "Viola the vet",
+    "Alma the auctioneer",
+    "Bella the banker",
+    "Cedric the cattle driver",
+    "Dmitri the deputy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "bed"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ],
+    [
+      24,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    3
+  ],
+  "hard": 8,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

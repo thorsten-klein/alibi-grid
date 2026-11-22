@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": ".bf.e..ab.b..b.be..e.....fb.aaf...f.",
+  "roomNames": [
+    "Galley",
+    "Specimen Bay",
+    "Sonar Room",
+    "Observation Dome",
+    "Conning Tower"
+  ],
+  "people": [
+    "Ada the aquanaut",
+    "Bea the bathymetry tech",
+    "Clara the captain",
+    "Dora the drill operator",
+    "Vera the vessel designer",
+    "Edith the electrical engineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    12,
+    22,
+    29,
+    31
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "bunk",
+      1
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 9,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

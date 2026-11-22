@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....b..f.bf...f.a.deb..a...a.....b.b..a....a..eb",
+  "roomNames": [
+    "Gatehouse",
+    "Great Hall",
+    "Armory",
+    "Courtyard",
+    "Chapel"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bea the bard",
+    "Celia the cupbearer",
+    "Della the dancer",
+    "Ena the envoy",
+    "Vivian the verger",
+    "Felix the farrier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "candles"
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    18,
+    21,
+    33,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      33,
+      40
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "swords",
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "nknkcck",
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

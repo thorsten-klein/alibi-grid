@@ -1,0 +1,85 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "..fbfc..b....b...b.......",
+  "roomNames": [
+    "Tasting Salon",
+    "Oak Barrel Cellar",
+    "Manor Terrace",
+    "Master Bedroom"
+  ],
+  "people": [
+    "Ada the agronomist",
+    "Vera the vintner",
+    "Bea the barrel cooper",
+    "Clara the cellar master",
+    "Dora the distributor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    13,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

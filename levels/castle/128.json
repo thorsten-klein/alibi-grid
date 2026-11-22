@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": ".a....d.....a.a......bcb.eaaac.....a.......e......ce......a..e..",
+  "roomNames": [
+    "Courtyard",
+    "Tower",
+    "Great Hall",
+    "Solar",
+    "Dungeon",
+    "Kitchen"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bruno the bard",
+    "Celia the cupbearer",
+    "Vivian the verger",
+    "Dexter the doorkeeper",
+    "Elias the envoy",
+    "Felix the farrier",
+    "Gus the glassmaker"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ],
+    [
+      7,
+      "next",
+      "swords"
+    ],
+    [
+      7,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    21,
+    31,
+    38,
+    42,
+    49,
+    59
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 22,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    3
+  ],
+  "rank": "kkkkcnnk",
+  "extra": true
+}

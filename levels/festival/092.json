@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": ".f.b.a.af....ca...bda.....a.d...f..b",
+  "roomNames": [
+    "Merch Pavilion",
+    "Port-a-Jon Alley",
+    "Beer Garden",
+    "Main Stage",
+    "First Aid Tent"
+  ],
+  "people": [
+    "Vince the vocal coach",
+    "Arthur the artist agent",
+    "Basil the bodyguard",
+    "Cedric the cameraman",
+    "Dmitri the disc jockey",
+    "Edgar the event producer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "window",
+      null
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "drums"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    15,
+    23,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

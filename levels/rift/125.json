@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000000002223333322233333444555554445555544455555",
+  "objects": "a.dd.....d.........a...ea.e.f......c........b..d..b.a..ab.....fb",
+  "roomNames": [
+    "Cave",
+    "Captain Cabin",
+    "Bank",
+    "Jail",
+    "Hide Tent",
+    "Great Hall"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Basil the bard",
+    "Vince the visionary",
+    "Cedric the chronicler",
+    "Dmitri the dreamer",
+    "Ena the engineer",
+    "Felix the fortune teller",
+    "Gwen the guardian"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "barrel"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "withBandit"
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    18,
+    30,
+    32,
+    43,
+    53,
+    60
+  ],
+  "doors": [
+    [
+      12,
+      20
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "trades",
+    "bandits"
+  ],
+  "trade": ".044....",
+  "tags": "....3.....31...0..4....................3........................",
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

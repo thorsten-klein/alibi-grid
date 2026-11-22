@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001133344555333445553334455533344555333",
+  "objects": "...........a.b.f.bb...d...e...c..........a....a...f...de....a...",
+  "roomNames": [
+    "Gas Catwalk",
+    "Cockpit Bridge",
+    "Starboard Gondola",
+    "Radio Cabin",
+    "Port Engine Gondola",
+    "Promenade Deck"
+  ],
+  "people": [
+    "Arthur the aeronaut",
+    "Basil the barman",
+    "Vince the vessel inventor",
+    "Cedric the captain",
+    "Dmitri the dirigible pilot",
+    "Edgar the engine mechanic",
+    "Frank the first officer",
+    "Gideon the gas bag inspector"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "armchair"
+    ],
+    [
+      5,
+      "next",
+      "column"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    20,
+    27,
+    39,
+    46,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "berth",
+      1
+    ],
+    [
+      "nextCount",
+      "ballast",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022223332222333444433344443334444",
+  "objects": ".f.......dfd....d.a............a.b..c..e....f..a.",
+  "roomNames": [
+    "Overwater Bungalow",
+    "Tiki Bar",
+    "Coconut Grove",
+    "Luau Grounds",
+    "Dive Shop"
+  ],
+  "people": [
+    "Arthur the activities director",
+    "Basil the bartender",
+    "Cedric the concierge",
+    "Vince the vacationer",
+    "Dmitri the divemaster",
+    "Edgar the excursion guide",
+    "Frank the fitness coach"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "towel"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "next",
+      "jetski"
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ]
+  ],
+  "solution": [
+    6,
+    7,
+    19,
+    23,
+    32,
+    38,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 17,
+  "extra": true
+}

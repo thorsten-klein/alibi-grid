@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "a.eba........a..f..b.ab....b....b....c....af..aae",
+  "roomNames": [
+    "Tailor Front",
+    "VIP Poker Den",
+    "Coat Check",
+    "Hidden Alleyway",
+    "Manager Office"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Viola the valued patron",
+    "Bella the bootlegger",
+    "Cora the card sharp",
+    "Daisy the distiller",
+    "Elsa the emcee",
+    "Fiona the forger"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "booth"
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "booth"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "booth"
+    ],
+    [
+      6,
+      "next",
+      "sax"
+    ],
+    [
+      6,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    19,
+    22,
+    31,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "booth",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

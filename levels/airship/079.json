@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333444333444",
+  "objects": "a...f.......a.b..d.........f.a.....e",
+  "roomNames": [
+    "Dining Saloon",
+    "Cargo Hold",
+    "Starboard Gondola",
+    "Radio Cabin",
+    "Port Engine Gondola"
+  ],
+  "people": [
+    "Alma the aeronaut",
+    "Bella the barman",
+    "Cora the captain",
+    "Viola the vessel inventor",
+    "Daisy the dirigible pilot",
+    "Elsa the engine mechanic"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "armchair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "winch"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    13,
+    21,
+    29,
+    32
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      32,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "luggage",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

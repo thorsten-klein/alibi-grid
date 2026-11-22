@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": ".f...ecd.b.....a....f.............bf",
+  "roomNames": [
+    "Cab Stand",
+    "Parlor Study",
+    "Apothecary",
+    "Tenement Attic",
+    "Thames Wharf"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Vince the vagabond",
+    "Basil the bowler hat seller",
+    "Cedric the chimney sweep",
+    "Dmitri the doctor",
+    "Edgar the errand boy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "fireplace"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "kiosk"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    13,
+    18,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

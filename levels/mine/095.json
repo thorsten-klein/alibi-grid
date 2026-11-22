@@ -1,0 +1,148 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333344433334443333444",
+  "objects": ".ed..a..fa...aba..b.a........f...be....b.....b..e",
+  "roomNames": [
+    "Main Drift",
+    "Smelting Oven",
+    "Shift Boss Office",
+    "Miners Mess",
+    "Assay Office"
+  ],
+  "people": [
+    "Arthur the axeman",
+    "Basil the blaster",
+    "Cedric the carpenter",
+    "Dmitri the dynamite handler",
+    "Edgar the hoist operator",
+    "Vince the venture capitalist",
+    "Frank the farrier"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "dynamite"
+    ],
+    [
+      1,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "next",
+      "dynamite"
+    ],
+    [
+      6,
+      "notRoom",
+      2
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    16,
+    26,
+    32,
+    41,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

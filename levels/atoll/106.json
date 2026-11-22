@@ -1,0 +1,123 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "......ebf...e...da..ee..cf...........ba.....d..ba",
+  "roomNames": [
+    "Tiki Bar",
+    "Overwater Bungalow",
+    "Dive Shop",
+    "Spa Pavilion",
+    "Luau Grounds"
+  ],
+  "people": [
+    "Vivian the vacationer",
+    "Astrid the activities director",
+    "Birgit the bartender",
+    "Celia the concierge",
+    "Della the divemaster",
+    "Ena the excursion guide",
+    "Flora the fitness coach"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "hammock"
+    ],
+    [
+      2,
+      "on",
+      "towel"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "towel"
+    ],
+    [
+      6,
+      "next",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    17,
+    26,
+    32,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

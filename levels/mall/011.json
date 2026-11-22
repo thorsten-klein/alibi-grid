@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344255333442553334425533344255",
+  "objects": "aeac..e....b...a......b..e..f.ba.eb.d.d.bd.bb.bb...aea.....dc..e",
+  "roomNames": [
+    "Record Store",
+    "Cinema Lobby",
+    "Security Office",
+    "Food Court",
+    "Department Store",
+    "Photo Studio"
+  ],
+  "people": [
+    "Arthur the arcade manager",
+    "Basil the barista",
+    "Cedric the cinema projectionist",
+    "Dmitri the department manager",
+    "Edgar the escalator mechanic",
+    "Frank the fry cook",
+    "Gideon the greeter",
+    "Vince the veteran mall owner"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "on",
+      "plasticchair"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "mannequin"
+    ],
+    [
+      3,
+      "on",
+      "photobench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      3
+    ],
+    [
+      6,
+      "next",
+      "gumball"
+    ],
+    [
+      7,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    20,
+    30,
+    35,
+    45,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "gumball",
+      2
+    ],
+    [
+      "nextCount",
+      "plasticchair",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "group": 1
+}

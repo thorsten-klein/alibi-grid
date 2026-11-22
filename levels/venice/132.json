@@ -1,0 +1,171 @@
+{
+  "size": 9,
+  "rooms": "001223333001223333001223333001224444001224444551224444551226666551226666551226666",
+  "objects": ".......cbbd..fb..e.a.e..f.abe.b......ba.a.c...aa....e.b.ab.....b.......fe....b.f.",
+  "roomNames": [
+    "Canal Balcony",
+    "Grand Ballroom",
+    "Servants Mezzanine",
+    "Palazzo Chapel",
+    "Gondola Dock",
+    "Armory",
+    "Courtyard"
+  ],
+  "people": [
+    "Astrid the alchemist",
+    "Birgit the boat builder",
+    "Celia the carnival poet",
+    "Della the diplomat",
+    "Vivian the visiting merchant",
+    "Ena the embroiderer",
+    "Flora the falconer",
+    "Grace the goldsmith",
+    "Hana the herald"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "daybed"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "maskstand"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "daybed"
+    ],
+    [
+      3,
+      "same",
+      8
+    ],
+    [
+      5,
+      "next",
+      "fountain"
+    ],
+    [
+      6,
+      "next",
+      "throne"
+    ],
+    [
+      7,
+      "next",
+      "maskstand"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    23,
+    30,
+    44,
+    51,
+    55,
+    70,
+    76
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

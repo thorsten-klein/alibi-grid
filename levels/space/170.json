@@ -1,0 +1,205 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112220000333322244443333222444433332225554444333355544443333555666677775556666777755566667777",
+  "objects": "...bf...e.b..e.f.ca.....ed..da....b.b...f....b.b..........afe..af...b.f.bb.c.bf.d.....c..e....db..a.fc.......b........d..",
+  "roomNames": [
+    "Comms",
+    "Cargo Bay",
+    "Engine Room",
+    "Med Bay",
+    "Observatory",
+    "Gym",
+    "Airlock",
+    "Bridge"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Viola the visitor",
+    "Bella the biologist",
+    "Celia the chemist",
+    "Dmitri the doctor",
+    "Ena the engineer",
+    "Felix the farmer",
+    "Greta the gunner",
+    "Hugo the hacker",
+    "Ines the intern",
+    "Jasper the janitor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "plant"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "console"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "next",
+      "console"
+    ],
+    [
+      7,
+      "next",
+      "pod"
+    ],
+    [
+      8,
+      "next",
+      "pod"
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "col",
+      0
+    ],
+    [
+      9,
+      "same",
+      10
+    ],
+    [
+      10,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    9,
+    18,
+    26,
+    38,
+    47,
+    61,
+    76,
+    79,
+    96,
+    99,
+    111
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      29,
+      40
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      56,
+      67
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      116,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      119,
+      "b"
+    ],
+    [
+      120,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 28,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 50,
+  "extra": true
+}

@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "..eb..c.....fc...............c..........bb....a.d",
+  "roomNames": [
+    "Team Garage B",
+    "Telemetry Room",
+    "VIP Balcony",
+    "Pit Lane",
+    "Hospitality Suite"
+  ],
+  "people": [
+    "Ada the apprentice",
+    "Bea the broadcast commentator",
+    "Clara the crew chief",
+    "Vera the vip team owner",
+    "Dora the data telemetry lead",
+    "Edith the electrician",
+    "Freya the flag marshal"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "col",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "col",
+      2
+    ],
+    [
+      6,
+      "next",
+      "bucket"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    18,
+    22,
+    34,
+    37,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "fuelrig",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

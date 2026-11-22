@@ -1,0 +1,124 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": "bcb......a......da....aa......d....b",
+  "roomNames": [
+    "Gym",
+    "Mess Hall",
+    "Airlock",
+    "Crew Quarters",
+    "Comms"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Birgit the botanist",
+    "Vivian the volunteer",
+    "Cedric the chemist",
+    "Dmitri the doctor",
+    "Elias the engineer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    17,
+    19,
+    28,
+    32
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "scope",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 20,
+  "group": 3
+}

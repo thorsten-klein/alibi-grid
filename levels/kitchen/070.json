@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".........a..ab.a.....b...",
+  "roomNames": [
+    "Main Dining Room",
+    "Saute Station",
+    "Hostess Foyer",
+    "Staff Locker"
+  ],
+  "people": [
+    "Albert the appetizer cook",
+    "Bruno the butcher",
+    "Carl the chocolatier",
+    "Victor the veteran restaurateur",
+    "Dexter the dessert chef"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "on",
+      "banquette"
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      23,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "stool",
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

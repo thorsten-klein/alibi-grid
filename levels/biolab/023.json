@@ -1,0 +1,213 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111222233333344444333333444443333334444455566666777555666667775556666677755566666777",
+  "objects": "f....d.e....fef....b...a...a....bae.....fb......ce......c.....bd...f.......e...b.b.....da.d.a.ed.....f..f.........f.....a",
+  "roomNames": [
+    "Cleanroom 2",
+    "Cryo Storage",
+    "Server Farm",
+    "Chemical Vault",
+    "Generator Core",
+    "Decon Airlock",
+    "Autopsy Suite",
+    "Centrifuge Bay"
+  ],
+  "people": [
+    "Arthur the algorithm engineer",
+    "Basil the bioethicist",
+    "Cedric the cryo technician",
+    "Vince the venture backer",
+    "Dmitri the data architect",
+    "Edgar the ecologist",
+    "Frank the forensic chemist",
+    "Gideon the guard",
+    "Henrik the hardware tech",
+    "Ivo the immunologist",
+    "Jonas the junior researcher"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "pod"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "next",
+      "rack"
+    ],
+    [
+      10,
+      "same",
+      8
+    ],
+    [
+      10,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    20,
+    27,
+    35,
+    45,
+    61,
+    73,
+    77,
+    96,
+    103,
+    120
+  ],
+  "doors": [
+    [
+      25,
+      26
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      41,
+      52
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      66,
+      77
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      75,
+      86
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      113,
+      "b"
+    ],
+    [
+      118,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 34,
+  "group": 2
+}

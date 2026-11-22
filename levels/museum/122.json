@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000022220000222233344455333444553334445533344455",
+  "objects": "....b.cc...e...d.a...b...c.e......b...f......b.b..f.e...a..fb..b",
+  "roomNames": [
+    "Vault",
+    "Gift Shop",
+    "Boiler Cellar",
+    "Restoration Lab",
+    "Medieval Hall",
+    "Greek Antiquities"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Vera the visiting donor",
+    "Bea the bookkeeper",
+    "Clara the conservator",
+    "Dora the docent",
+    "Edith the evaluator",
+    "Freya the floor warden",
+    "Greta the goldsmith"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      7
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "turnstile"
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    23,
+    24,
+    33,
+    46,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "cot",
+      5
+    ],
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

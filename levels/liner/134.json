@@ -1,0 +1,171 @@
+{
+  "size": 9,
+  "rooms": "000000111000000111222200111222200111333344444333344444333344444555566666555566666",
+  "objects": "cba...a..da........bc......c.........e...daa...db..b....c.ca...e..a...a.b.abba...",
+  "roomNames": [
+    "Dining Saloon",
+    "Turkish Bath",
+    "Grand Ballroom",
+    "Telegraph Cabin",
+    "Steerage Quarters",
+    "Stateroom A",
+    "Library"
+  ],
+  "people": [
+    "Vera the valet",
+    "Ada the aristocrat",
+    "Bea the bartender",
+    "Clara the chief engineer",
+    "Dora the doctor",
+    "Edith the envoy",
+    "Freya the fireman",
+    "Greta the governess",
+    "Hilda the heiress"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "berth"
+    ],
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "next",
+      "deckchair"
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "deckchair"
+    ],
+    [
+      7,
+      "next",
+      "deckchair"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "on",
+      "berth"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    18,
+    34,
+    40,
+    53,
+    59,
+    69,
+    75
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      10,
+      19
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 36,
+  "extra": true
+}

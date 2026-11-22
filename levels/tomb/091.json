@@ -1,0 +1,124 @@
+{
+  "size": 6,
+  "rooms": "000011000011222111222111334444334444",
+  "objects": ".fd.........a........eaa....ca..e.b.",
+  "roomNames": [
+    "Boat Pit",
+    "Burial Chamber",
+    "Antechamber",
+    "Workshop",
+    "Statue Hall"
+  ],
+  "people": [
+    "Vince the vizier",
+    "Alma the architect",
+    "Bella the boat builder",
+    "Cedric the carpenter",
+    "Dmitri the dancer",
+    "Edgar the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "rubble"
+    ],
+    [
+      5,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    13,
+    22,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      9,
+      15
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "C.....C....C.L.................C...C",
+  "extra": true
+}

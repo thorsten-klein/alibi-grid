@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122200112222222333222233344443334444",
+  "objects": "a.b..e.c...fbbf....a.......a...b..c..bb.c........",
+  "roomNames": [
+    "Garden Courtyard",
+    "Tea Pavilion",
+    "River Pagoda",
+    "Silk Stall",
+    "Calligraphy Shop"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Bruno the bamboo carver",
+    "Carl the cook",
+    "Dexter the dancer",
+    "Elias the elder",
+    "Felix the fan painter",
+    "Victor the visiting noble"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "cushion"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "next",
+      "lantern"
+    ],
+    [
+      5,
+      "col",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    17,
+    22,
+    28,
+    41,
+    46
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      33,
+      40
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "teacart",
+      0
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 25,
+  "extra": true
+}

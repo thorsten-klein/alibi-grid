@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": "a.e...d..ad......c.....a.",
+  "roomNames": [
+    "Daimyo Hall",
+    "Moon Balcony",
+    "Falconry Yard",
+    "Tea Ceremony Room"
+  ],
+  "people": [
+    "Arthur the artisan",
+    "Vince the visiting monk",
+    "Basil the bowyer",
+    "Cedric the cook",
+    "Dmitri the drummer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    11,
+    15,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

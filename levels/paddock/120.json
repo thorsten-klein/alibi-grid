@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222233332222333344422555444225554442255544422555",
+  "objects": ".a....b.........b.a.b..d..d.e.........b...........a...abae..f...",
+  "roomNames": [
+    "Fuel Storage",
+    "Drivers Lounge",
+    "Tire Bay",
+    "Team Garage B",
+    "Media Center",
+    "Team Garage A"
+  ],
+  "people": [
+    "Ada the aerodynamicist",
+    "Bea the brake tech",
+    "Clara the chief mechanic",
+    "Dora the driver",
+    "Edith the engine tuner",
+    "Freya the fuel specialist",
+    "Greta the gearbox tech",
+    "Vera the veteran champion"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "tires"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      6,
+      "next",
+      "bucket"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    19,
+    31,
+    37,
+    44,
+    49,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      11,
+      19
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      29,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "extra": true
+}

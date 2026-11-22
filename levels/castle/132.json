@@ -1,0 +1,156 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444555334445553344455533",
+  "objects": "ba.......e.....b.b.dbaa..dc..e..d..b.f.c.a...a.af....bca....c.ba",
+  "roomNames": [
+    "Dungeon",
+    "Throne Room",
+    "Kitchen",
+    "Armory",
+    "Smithy",
+    "Great Hall"
+  ],
+  "people": [
+    "Vivian the vintner",
+    "Alma the archer",
+    "Bea the baker",
+    "Cora the chronicler",
+    "Della the dancer",
+    "Elias the envoy",
+    "Frank the falconer",
+    "Greta the groom"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ],
+    [
+      6,
+      "next",
+      "urn"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    18,
+    27,
+    36,
+    46,
+    49,
+    63
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      57,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "cot",
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    2
+  ],
+  "rank": "kcnnccck",
+  "hard": 7,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

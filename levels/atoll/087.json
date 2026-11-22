@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223333224444224444",
+  "objects": ".ef.ebf...c.a..a...bce...f.....e...c",
+  "roomNames": [
+    "Tiki Bar",
+    "Open Beach",
+    "Spa Pavilion",
+    "Overwater Bungalow",
+    "Dive Shop"
+  ],
+  "people": [
+    "Ada the animator",
+    "Bea the boat captain",
+    "Clara the chef",
+    "Dora the disc jockey",
+    "Vera the vip influencer",
+    "Edith the entertainer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "surfboard"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "hammock"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    16,
+    19,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "towel",
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 24,
+  "extra": true
+}

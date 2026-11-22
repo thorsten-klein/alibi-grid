@@ -1,0 +1,86 @@
+{
+  "size": 4,
+  "rooms": "0000000011221122",
+  "objects": ".....a..........",
+  "roomNames": [
+    "Control Center",
+    "Centrifuge Bay",
+    "Cryo Storage"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Viola the virology head",
+    "Bella the biochemist",
+    "Cora the chief scientist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    8,
+    13
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

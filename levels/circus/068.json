@@ -1,0 +1,106 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".b.ab...b.....d.f.da.c...",
+  "roomNames": [
+    "Funhouse",
+    "Menagerie Tent",
+    "Fortune Tent",
+    "Ticket Booth"
+  ],
+  "people": [
+    "Arthur the acrobat",
+    "Basil the barker",
+    "Vince the ventriloquist",
+    "Cedric the clown",
+    "Dmitri the daredevil"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "crystal"
+    ],
+    [
+      4,
+      "next",
+      "cage"
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    11,
+    17,
+    23
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

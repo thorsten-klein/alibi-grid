@@ -1,0 +1,139 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "a.eba........a..f..b.ab....b....b....c....af..aae",
+  "roomNames": [
+    "Valley Terminal",
+    "Ski Patrol Shack",
+    "Glacier Overlook",
+    "Upper Engine Room",
+    "Staff Bunkhouse"
+  ],
+  "people": [
+    "Alma the alpine guide",
+    "Viola the visiting vip",
+    "Bella the billeter",
+    "Cora the cable splicer",
+    "Daisy the doctor",
+    "Elsa the excursionist",
+    "Fiona the first aider"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "bench"
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "winch"
+    ],
+    [
+      6,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    19,
+    22,
+    31,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "bench",
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

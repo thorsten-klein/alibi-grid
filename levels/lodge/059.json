@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".ba..a.......ea..a...b..c",
+  "roomNames": [
+    "Games Room",
+    "Ski Room",
+    "Boot Room",
+    "Lobby"
+  ],
+  "people": [
+    "Astrid the athlete",
+    "Bella the baker",
+    "Cedric the cook",
+    "Vera the vlogger",
+    "Dexter the driver"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "skis"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    11,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "extra": true
+}

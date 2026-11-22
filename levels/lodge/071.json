@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".f....c..d..d....bf.....f",
+  "roomNames": [
+    "Kitchen",
+    "Games Room",
+    "Boot Room",
+    "Lobby"
+  ],
+  "people": [
+    "Albert the athlete",
+    "Bea the bartender",
+    "Vince the vet",
+    "Cedric the cook",
+    "Dexter the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "wood"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "wood"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    13,
+    19,
+    21
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "extra": true
+}

@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".......bca.dc........d.f.",
+  "roomNames": [
+    "Saddling Boxes",
+    "Grandstand Terrace",
+    "Paddock Ring",
+    "Stewards Room"
+  ],
+  "people": [
+    "Alma the apprentice jockey",
+    "Bella the bookmaker",
+    "Cora the champion jockey",
+    "Viola the veteran horse owner",
+    "Daisy the derby steward"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "float"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "trophy"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "stablebench",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
+  "extra": true
+}

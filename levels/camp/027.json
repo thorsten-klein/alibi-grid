@@ -1,0 +1,118 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333333444444",
+  "objects": ".d..f.b.b......ca..b....c......e..aa",
+  "roomNames": [
+    "Flint Pit",
+    "Berry Grove",
+    "River Bank",
+    "Spring",
+    "Elder Hut"
+  ],
+  "people": [
+    "Alma the artist",
+    "Bella the builder",
+    "Viola the valley guide",
+    "Celia the carrier",
+    "Dmitri the dancer",
+    "Ena the elder"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "boulder"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    14,
+    21,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      29,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "0202.1",
+  "tags": "0.........2.1........2....2.........",
+  "hard": 4,
+  "hardest": 3,
+  "steps": 23,
+  "group": 3
+}

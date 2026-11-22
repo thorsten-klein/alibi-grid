@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "b.d..e..ecebdb.ec....a...",
+  "roomNames": [
+    "Server Farm",
+    "Autopsy Suite",
+    "Specimen Nursery",
+    "Cleanroom 1"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Basil the biochemist",
+    "Cedric the chief scientist",
+    "Vince the virology head",
+    "Dmitri the dna sequencer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "chamber",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "group": 1
+}

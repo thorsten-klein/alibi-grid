@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000022220000222233344455333444553334445533344455",
+  "objects": "....b.cc...e...d.a...b...c.e......b...f......b.b..f.e...a..fb..b",
+  "roomNames": [
+    "Water Sump",
+    "Mule Stables",
+    "Miners Mess",
+    "Smelting Oven",
+    "Shift Boss Office",
+    "Dynamite Magazine"
+  ],
+  "people": [
+    "Ada the assayer",
+    "Vera the vein claimant",
+    "Bea the blacksmith",
+    "Clara the cart driver",
+    "Dora the driller",
+    "Edith the engineer",
+    "Freya the foreman",
+    "Greta the geologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "orecart"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      7
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "drill"
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    23,
+    24,
+    33,
+    46,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      11,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      63,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      5
+    ],
+    [
+      "roomCount",
+      5,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

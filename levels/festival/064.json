@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "...bc.....f.b..fc..b...c.",
+  "roomNames": [
+    "Backstage VIP",
+    "Green Room",
+    "Merch Pavilion",
+    "Security Checkpoint"
+  ],
+  "people": [
+    "Ada the artist agent",
+    "Bea the bodyguard",
+    "Vera the vocal coach",
+    "Clara the cameraman",
+    "Dora the disc jockey"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "amp"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "lighttower",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

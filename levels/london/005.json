@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000002222333332222333332222444444555444444555666644555666644555",
+  "objects": ".d..b.......bc..a.............f.....ca..f....a....ae.....d..dc..b.a..cf..a....d.e",
+  "roomNames": [
+    "Tenement Attic",
+    "Opium Den",
+    "Thames Wharf",
+    "Cab Stand",
+    "Newsstand Corner",
+    "Mortuary",
+    "Cobblestone Alley"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the bowler hat seller",
+    "Cedric the chimney sweep",
+    "Dmitri the doctor",
+    "Edgar the errand boy",
+    "Frank the fishmonger",
+    "Gideon the grave robber",
+    "Vince the vagabond",
+    "Henrik the hawker"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "cot"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "next",
+      "armchair"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "hansom"
+    ],
+    [
+      7,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "col",
+      0
+    ],
+    [
+      8,
+      "next",
+      "armchair"
+    ]
+  ],
+  "solution": [
+    8,
+    12,
+    25,
+    33,
+    41,
+    46,
+    58,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      57,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "fireplace",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "group": 0
+}

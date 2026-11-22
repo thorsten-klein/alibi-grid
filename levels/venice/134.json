@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111222001111222333444222333444555333444555336666555336666555336666",
+  "objects": "..f....a...c...d.b.c......e..bf..d...f..bea.af...f.....d.bdafa...fba.....ec...d..",
+  "roomNames": [
+    "Canal Balcony",
+    "Mirrored Gallery",
+    "Armory",
+    "Gondola Dock",
+    "Private Boudoir",
+    "Mask Atelier",
+    "Palazzo Chapel"
+  ],
+  "people": [
+    "Albert the alchemist",
+    "Bruno the boat builder",
+    "Carl the carnival poet",
+    "Victor the visiting merchant",
+    "Dexter the diplomat",
+    "Elias the embroiderer",
+    "Felix the falconer",
+    "Gus the goldsmith",
+    "Hugo the herald"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "harpsichord"
+    ],
+    [
+      2,
+      "next",
+      "gondola"
+    ],
+    [
+      3,
+      "on",
+      "daybed"
+    ],
+    [
+      4,
+      "on",
+      "throne"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "harpsichord"
+    ],
+    [
+      5,
+      "next",
+      "maskstand"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "on",
+      "throne"
+    ],
+    [
+      7,
+      "next",
+      "maskstand"
+    ],
+    [
+      7,
+      "next",
+      "harpsichord"
+    ],
+    [
+      8,
+      "next",
+      "throne"
+    ]
+  ],
+  "solution": [
+    3,
+    14,
+    18,
+    29,
+    44,
+    46,
+    61,
+    69,
+    76
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      11,
+      20
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "nextCount",
+      "daybed",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 38,
+  "extra": true
+}

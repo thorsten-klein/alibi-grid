@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "011222011222033222033444033444033444",
+  "objects": "cba.aca.fe.....f...b....f..e...dafc.",
+  "roomNames": [
+    "Airlock",
+    "Gym",
+    "Crew Quarters",
+    "Hydroponics",
+    "Engine Room"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Victor the visitor",
+    "Bruno the biologist",
+    "Celia the captain",
+    "Della the driller",
+    "Elias the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "next",
+      "scope"
+    ],
+    [
+      5,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    16,
+    21,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      1
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

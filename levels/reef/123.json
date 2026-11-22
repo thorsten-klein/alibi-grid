@@ -1,0 +1,118 @@
+{
+  "size": 8,
+  "rooms": "0011112200111122001111220011112211133444111334441113344411133444",
+  "objects": ".........a.....aa..................f...a....a.ce...f..d....ecf..",
+  "roomNames": [
+    "Dock",
+    "Open Sea",
+    "Sloop",
+    "Frigate",
+    "Market"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Birgit the boatswain",
+    "Cora the cook",
+    "Vivian the vintner",
+    "Dmitri the deckhand",
+    "Edgar the engineer",
+    "Felix the first mate",
+    "Gus the gunner"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      4,
+      "next",
+      "anchor"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "cannon"
+    ],
+    [
+      7,
+      "same",
+      4
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    18,
+    24,
+    38,
+    43,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      31,
+      39
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 7,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

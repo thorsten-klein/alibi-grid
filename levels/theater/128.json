@@ -1,0 +1,137 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000111110002222200022222333445553334455533344555",
+  "objects": "....c.....a...a....fc........cbe....ac.......f......bc..a.ff.f.e",
+  "roomNames": [
+    "Orchestra Pit",
+    "Balcony",
+    "Stage",
+    "Wings",
+    "Foyer",
+    "Box Office"
+  ],
+  "people": [
+    "Arthur the agent",
+    "Vince the violinist",
+    "Basil the baritone",
+    "Celia the choreographer",
+    "Dexter the director",
+    "Elias the electrician",
+    "Fiona the flautist",
+    "Greta the ghost writer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "window"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    21,
+    30,
+    35,
+    47,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111223334455522333445552233344555223334466677777446667777744666",
+  "objects": "....b...afc..a..a.....a.a.....ef..c...ed..f.b.......f..b....e..a.f.eead...a.........dd..d......b....",
+  "roomNames": [
+    "Calligraphy Shop",
+    "Bell Tower",
+    "Silk Stall",
+    "Dragon Boat",
+    "Lantern Bridge",
+    "Noodle Court",
+    "Tea Pavilion",
+    "Garden Courtyard"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Bella the boatman",
+    "Cora the calligrapher",
+    "Daisy the drummer",
+    "Viola the village magistrate",
+    "Elsa the embroiderer",
+    "Fiona the firework master",
+    "Gwen the gong striker",
+    "Hazel the herbalist",
+    "Ines the instrument maker"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "cushion"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "teacart"
+    ],
+    [
+      4,
+      "next",
+      "gong"
+    ],
+    [
+      5,
+      "next",
+      "cushion"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "teacart"
+    ],
+    [
+      7,
+      "next",
+      "fireworks"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "fireworks"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    26,
+    32,
+    40,
+    54,
+    69,
+    75,
+    87,
+    98
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      67,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      20,
+      "l"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 9,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

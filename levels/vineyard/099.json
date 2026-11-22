@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".......fbb...f........df......bf.......b..dae.ec.",
+  "roomNames": [
+    "Wine Cave",
+    "Tasting Salon",
+    "Gatehouse",
+    "Manor Library",
+    "Master Bedroom"
+  ],
+  "people": [
+    "Arthur the apprentice",
+    "Vince the vineyard owner",
+    "Basil the bottler",
+    "Cedric the cook",
+    "Dmitri the driver",
+    "Edgar the enologist",
+    "Frank the fermenter"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "press"
+    ],
+    [
+      3,
+      "next",
+      "press"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    21,
+    33,
+    39,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 6,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

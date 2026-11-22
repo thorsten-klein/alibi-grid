@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "f....dbb.cda...b....b.ac..c...f..b...........ce..",
+  "roomNames": [
+    "Baggage Car",
+    "Sleeper C",
+    "Dining Car",
+    "Sleeper A",
+    "Sleeper B"
+  ],
+  "people": [
+    "Victor the violinist",
+    "Albert the attendant",
+    "Bea the banker",
+    "Celia the conductor",
+    "Dexter the diplomat",
+    "Ena the envoy",
+    "Freya the firefighter"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "suitcase"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      5,
+      "col",
+      5
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    17,
+    21,
+    34,
+    40,
+    43
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

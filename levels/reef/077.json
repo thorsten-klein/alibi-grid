@@ -1,0 +1,96 @@
+{
+  "size": 6,
+  "rooms": "000011000011000222000222333444333444",
+  "objects": ".....b.........c.a...d.c...fd.......",
+  "roomNames": [
+    "Open Sea",
+    "Brig",
+    "Galleon",
+    "Dock",
+    "Sea Cave"
+  ],
+  "people": [
+    "Astrid the admiral",
+    "Basil the barkeep",
+    "Carl the cook",
+    "Vince the voyager",
+    "Dmitri the diver",
+    "Elias the explorer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    17,
+    22,
+    26,
+    33
+  ],
+  "doors": [
+    [
+      10,
+      16
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233445555334455553344555533445555",
+  "objects": ".....fe.f.ff..effb..ace.f.feaeb..b.a..c..a..f..........c.b...d..",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Sheave Tower",
+    "Staff Bunkhouse",
+    "Valley Terminal",
+    "Observation Terrace",
+    "Ticket Hall"
+  ],
+  "people": [
+    "Albert the avalanche controller",
+    "Victor the veteran mountaineer",
+    "Bruno the brake operator",
+    "Carl the conductor",
+    "Dexter the dispatcher",
+    "Elias the electrical engineer",
+    "Felix the funicular driver",
+    "Gus the glaciologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "next",
+      "luggage"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "winch"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    18,
+    25,
+    37,
+    40,
+    54,
+    63
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
+  "group": 0
+}

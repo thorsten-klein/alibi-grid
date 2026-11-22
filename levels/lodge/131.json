@@ -1,0 +1,161 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000002223333322233333222444555224445552244455522",
+  "objects": ".ecfa..b.........b......ff..c.ac..b.e....d....b.....d.a.d..f....",
+  "roomNames": [
+    "Games Room",
+    "Ski Room",
+    "Terrace",
+    "Dining Hall",
+    "Suite",
+    "Kitchen"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Viola the vlogger",
+    "Bruno the bartender",
+    "Clara the cook",
+    "Dmitri the driver",
+    "Elias the explorer",
+    "Flora the fisher",
+    "Greta the glacier expert"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "tree"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "skis"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "wood"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    18,
+    27,
+    37,
+    40,
+    55,
+    60
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      57,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 18,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "extra": true
+}

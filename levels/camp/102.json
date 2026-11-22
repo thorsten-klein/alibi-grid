@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "..b.abf.a.b...d..e..fab....da....d...a.bebcfcd...",
+  "roomNames": [
+    "Flint Pit",
+    "River Bank",
+    "Painted Wall",
+    "Lookout Rock",
+    "Hunting Ground"
+  ],
+  "people": [
+    "Alma the acrobat",
+    "Birgit the builder",
+    "Clara the carver",
+    "Daisy the dancer",
+    "Edith the elder",
+    "Fiona the firekeeper",
+    "Vivian the valley guide"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "on",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    15,
+    23,
+    28,
+    41,
+    47
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "tree",
+      2
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "40..20.",
+  "tags": "...........02....................................",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

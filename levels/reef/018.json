@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001122001122001133443333443333443333",
+  "objects": "b...d.......fd.a....................",
+  "roomNames": [
+    "Sloop",
+    "Frigate",
+    "Sea Cave",
+    "Open Sea",
+    "Cove"
+  ],
+  "people": [
+    "Vivian the voyager",
+    "Arthur the armorer",
+    "Basil the barkeep",
+    "Cedric the captain",
+    "Della the deckhand",
+    "Ena the explorer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    16,
+    20,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
+  "group": 2
+}

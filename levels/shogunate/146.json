@@ -1,0 +1,195 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222000111222233445566773344556677334455667733445566773344556677",
+  "objects": ".....ad..ddb.b..e.......b.aa.b.f....c.eba...b.da.c..e...bbb..f..c.......e..f....aca.c..e..ba..c....a",
+  "roomNames": [
+    "Guard Gate",
+    "Falconry Yard",
+    "Moon Balcony",
+    "Armory",
+    "Tea Ceremony Room",
+    "Zen Garden",
+    "Sentry Tower",
+    "Ninja Loft"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the bushi warrior",
+    "Cedric the calligrapher",
+    "Dmitri the daimyo",
+    "Vince the veteran general",
+    "Edgar the envoy",
+    "Frank the falconer",
+    "Gideon the geisha",
+    "Henrik the hatamoto retainer",
+    "Ivo the inquisitor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "on",
+      "futon"
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "armor"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "futon"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "same",
+      6
+    ],
+    [
+      8,
+      "next",
+      "bonsai"
+    ],
+    [
+      9,
+      "next",
+      "tatami"
+    ]
+  ],
+  "solution": [
+    8,
+    11,
+    25,
+    30,
+    43,
+    54,
+    67,
+    79,
+    86,
+    92
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      42,
+      52
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      57,
+      58
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      69,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 34,
+  "extra": true
+}

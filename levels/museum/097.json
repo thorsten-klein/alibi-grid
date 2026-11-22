@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011220001122333344433334443333444",
+  "objects": "..b...bd..e.c..a...b.e.....b.eedb....aa..cad.c.d.",
+  "roomNames": [
+    "Egyptian Wing",
+    "Vault",
+    "Restoration Lab",
+    "Curator Study",
+    "Security Control"
+  ],
+  "people": [
+    "Ada the archaeologist",
+    "Bea the benefactor",
+    "Clara the curator",
+    "Dora the director",
+    "Vera the valuer",
+    "Edith the egyptologist",
+    "Freya the forger"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "statue"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      3,
+      "next",
+      "display"
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    20,
+    22,
+    33,
+    38,
+    46
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

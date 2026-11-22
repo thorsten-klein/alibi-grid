@@ -1,0 +1,80 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "d.bb..aa..c.a...",
+  "roomNames": [
+    "Bone Yard",
+    "Flint Pit",
+    "Berry Grove"
+  ],
+  "people": [
+    "Albert the artist",
+    "Victor the valley guide",
+    "Bruno the beekeeper",
+    "Celia the carver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      2,
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    8,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      7,
+      "r"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".31.",
+  "tags": ".....3..1.......",
+  "hard": 4,
+  "hardest": 3,
+  "steps": 16,
+  "group": 3
+}

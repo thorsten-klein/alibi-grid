@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".f...db.....fa..fa.e.d.a.",
+  "roomNames": [
+    "Foyer",
+    "Wings",
+    "Stage",
+    "Box Office"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Birgit the bass player",
+    "Vince the violinist",
+    "Celia the critic",
+    "Dmitri the dancer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "mirror"
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    14,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      9,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "d.a.a..a......a...........a.....ed.f.......fab...",
+  "roomNames": [
+    "Billiard Room",
+    "Gallery",
+    "Hall",
+    "Conservatory",
+    "Kitchen"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Bella the butler",
+    "Viola the valet",
+    "Celia the cook",
+    "Dexter the doctor",
+    "Elias the envoy",
+    "Frank the footman"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    27,
+    28,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      21,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      0
+    ],
+    [
+      "nextCount",
+      "chair",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 36,
+  "extra": true
+}

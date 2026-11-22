@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "bbcc.....f..abb..ac...b..",
+  "roomNames": [
+    "Reception Lobby",
+    "Overwater Bungalow",
+    "Spa Pavilion",
+    "Coral Lagoon"
+  ],
+  "people": [
+    "Arthur the activities director",
+    "Basil the bartender",
+    "Cedric the concierge",
+    "Vince the vacationer",
+    "Dmitri the divemaster"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "on",
+      "hammock"
+    ],
+    [
+      1,
+      "next",
+      "towel"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    11,
+    19,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

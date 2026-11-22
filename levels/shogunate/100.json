@@ -1,0 +1,144 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "..b...f.......f..fb.......f....d.fd..f.....a.....",
+  "roomNames": [
+    "Shrine",
+    "Armory",
+    "Zen Garden",
+    "Stables",
+    "Daimyo Hall"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bushi warrior",
+    "Viola the veteran general",
+    "Cora the calligrapher",
+    "Daisy the daimyo",
+    "Elsa the envoy",
+    "Fiona the falconer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "taiko"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      4
+    ],
+    [
+      3,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "taiko"
+    ],
+    [
+      6,
+      "next",
+      "tatami"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    20,
+    22,
+    28,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      16
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "taiko",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

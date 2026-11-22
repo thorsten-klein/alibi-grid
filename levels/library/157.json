@@ -1,0 +1,211 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112223333111122233334444555333344445553333444455566666447777666664477776666644777766666447777",
+  "objects": ".....b..d.db..f...b.e....a..bdb.cc.b.a.b...f..a......a......bb...f........c...a.a..a.a...f...b..c......a......a.a..c.....",
+  "roomNames": [
+    "Mosaic Gallery",
+    "Papyrus Vault",
+    "Courtyard Fountain",
+    "Philosopher Garden",
+    "Lecture Theater",
+    "Archivist Sanctum",
+    "Translation Chamber",
+    "Great Peristyle"
+  ],
+  "people": [
+    "Alma the archivist",
+    "Bella the bookbinder",
+    "Viola the veteran sage",
+    "Cora the cartographer",
+    "Daisy the doctor",
+    "Elsa the educator",
+    "Fiona the fanbearer",
+    "Gwen the geometer",
+    "Hazel the herbalist",
+    "Ines the interpreter",
+    "Juno the junior scribe"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "next",
+      "bust"
+    ],
+    [
+      2,
+      "col",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ],
+    [
+      8,
+      "next",
+      "bench"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "next",
+      "mat"
+    ],
+    [
+      10,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    21,
+    23,
+    41,
+    48,
+    58,
+    73,
+    86,
+    94,
+    104,
+    110
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      25,
+      36
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      41,
+      52
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      66,
+      77
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      74,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      109,
+      "r"
+    ],
+    [
+      117,
+      "b"
+    ],
+    [
+      118,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 5,
+  "steps": 36,
+  "extra": true
+}

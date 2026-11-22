@@ -1,0 +1,104 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "......c...e.b..aa.bd.d...",
+  "roomNames": [
+    "Painted Wall",
+    "Elder Hut",
+    "Berry Grove",
+    "Flint Pit"
+  ],
+  "people": [
+    "Vince the visionary",
+    "Alma the artist",
+    "Birgit the beekeeper",
+    "Cora the carrier",
+    "Dora the dancer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "leaves"
+    ],
+    [
+      2,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    11,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": "....2",
+  "tags": "....................3...2",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 17,
+  "extra": true
+}

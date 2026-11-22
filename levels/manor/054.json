@@ -1,0 +1,71 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....ff.......f..",
+  "roomNames": [
+    "Study",
+    "Billiard Room",
+    "Cellar"
+  ],
+  "people": [
+    "Alma the architect",
+    "Basil the banker",
+    "Vivian the valet",
+    "Cedric the cook"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "r"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".a..b....acb.....bfb..b.f",
+  "roomNames": [
+    "Cellar",
+    "Hall",
+    "Library",
+    "Kitchen"
+  ],
+  "people": [
+    "Viola the vicar",
+    "Ada the architect",
+    "Bruno the butler",
+    "Cedric the cook",
+    "Della the doctor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "clock"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "sofa",
+      1
+    ],
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

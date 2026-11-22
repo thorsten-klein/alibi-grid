@@ -1,0 +1,119 @@
+{
+  "size": 6,
+  "rooms": "000111000111223333223333224444224444",
+  "objects": "a....da..d...bd.b........f.a...da.cc",
+  "roomNames": [
+    "Airlock",
+    "Bridge",
+    "Cargo Bay",
+    "Mess Hall",
+    "Engine Room"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Bruno the botanist",
+    "Clara the chemist",
+    "Della the driller",
+    "Vivian the visitor",
+    "Edith the electrician"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "pod"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    13,
+    23,
+    28,
+    33
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      21,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "scope",
+      0
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "group": 1
+}

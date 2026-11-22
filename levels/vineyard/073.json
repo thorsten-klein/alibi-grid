@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0000000000111112223322233",
+  "objects": ".f....eaf.......c..bb.a.b",
+  "roomNames": [
+    "Bottling Line",
+    "Grape Press",
+    "Tasting Salon",
+    "Fermentation Hall"
+  ],
+  "people": [
+    "Alma the apprentice",
+    "Bella the bottler",
+    "Cora the cook",
+    "Daisy the driver",
+    "Viola the vineyard owner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    13,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      5,
+      10
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

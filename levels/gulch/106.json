@@ -1,0 +1,141 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112223333222333344444444444444",
+  "objects": "ab......c..d......b.eb.....b...b..b....ab...aa.b.",
+  "roomNames": [
+    "Bank",
+    "Corral",
+    "Sheriff Office",
+    "Hotel",
+    "Jail"
+  ],
+  "people": [
+    "Vince the vaquero",
+    "Ada the attorney",
+    "Bruno the banker",
+    "Cedric the cattle driver",
+    "Della the dancer",
+    "Elsa the editor",
+    "Felix the farrier"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      4,
+      "next",
+      "bed"
+    ],
+    [
+      5,
+      "bandit"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    19,
+    27,
+    32,
+    36,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "extra": true
+}

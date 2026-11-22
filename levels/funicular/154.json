@@ -1,0 +1,226 @@
+{
+  "size": 12,
+  "rooms": "001122222222001122222222001122222222001133344444001133344444001133344444001133344444555666677777555666677777555666688888555666688888555666688888",
+  "objects": "...c...e...bdb.......e..f.b.......da....b.....a........bac......cf.e..bf...d........d..c........a.......f.ed......e..cc..bd.....b.b..c.b....f.bd",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Funicular Car B",
+    "Sheave Tower",
+    "Observation Terrace",
+    "Transformer Vault",
+    "Ticket Hall",
+    "Valley Terminal",
+    "Staff Bunkhouse",
+    "Upper Engine Room"
+  ],
+  "people": [
+    "Arthur the alpine guide",
+    "Basil the billeter",
+    "Cedric the cable splicer",
+    "Dmitri the doctor",
+    "Edgar the excursionist",
+    "Vince the visiting vip",
+    "Frank the first aider",
+    "Gideon the gearbox tech",
+    "Henrik the hiker",
+    "Ivo the instructor",
+    "Jonas the junior patrol",
+    "Konrad the knot rigger"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "generator"
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "winch"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      6,
+      "next",
+      "generator"
+    ],
+    [
+      7,
+      "next",
+      "skirack"
+    ],
+    [
+      8,
+      "next",
+      "luggage"
+    ],
+    [
+      8,
+      "next",
+      "generator"
+    ],
+    [
+      9,
+      "same",
+      11
+    ],
+    [
+      10,
+      "next",
+      "skirack"
+    ],
+    [
+      10,
+      "next",
+      "stool"
+    ],
+    [
+      11,
+      "next",
+      "skirack"
+    ],
+    [
+      11,
+      "next",
+      "winch"
+    ]
+  ],
+  "solution": [
+    6,
+    15,
+    32,
+    40,
+    53,
+    70,
+    79,
+    85,
+    105,
+    108,
+    131,
+    134
+  ],
+  "doors": [
+    [
+      73,
+      74
+    ],
+    [
+      73,
+      85
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      75,
+      87
+    ],
+    [
+      29,
+      41
+    ],
+    [
+      31,
+      43
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      77,
+      89
+    ],
+    [
+      83,
+      95
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      90,
+      91
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      105,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      83,
+      "r"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      138,
+      "b"
+    ],
+    [
+      143,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "luggage",
+      3
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 35,
+  "extra": true
+}

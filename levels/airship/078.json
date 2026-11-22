@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111222333222333444444",
+  "objects": ".....f..aa..b...bf.c..be......a.a...",
+  "roomNames": [
+    "Galley",
+    "Smoking Lounge",
+    "Cargo Hold",
+    "Rigging Loft",
+    "Dining Saloon"
+  ],
+  "people": [
+    "Victor the vip diplomat",
+    "Albert the aristocrat",
+    "Bruno the boatswain",
+    "Carl the chief rigger",
+    "Dexter the doctor",
+    "Elias the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      2,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "on",
+      "berth"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    15,
+    22,
+    26,
+    35
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      26,
+      32
+    ],
+    [
+      29,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,250 @@
+{
+  "size": 12,
+  "rooms": "001122223333001122223333001122223333001122224444001155554444001155554444001155554444666655557777666655557777666655557777666688888888666688888888",
+  "objects": "..a.....ecbe...b..decb.c.a..bf.........ad...e..b.c.f......ccd....e.a.a..e.......ca..........c.b.ee...ea..e.ba..a.bc..ba...................da..da",
+  "roomNames": [
+    "Herb Garden",
+    "Cellar",
+    "Prior Cell",
+    "Scriptorium",
+    "Dormitory",
+    "Cloister Walk",
+    "Infirmary",
+    "Chapter House",
+    "Bell Tower"
+  ],
+  "people": [
+    "Astrid the almoner",
+    "Birgit the brewer",
+    "Celia the cantor",
+    "Della the document copyist",
+    "Vivian the vicar general",
+    "Ena the elder brother",
+    "Flora the friar",
+    "Grace the glass painter",
+    "Hana the hospitaler",
+    "Isla the inquisitor",
+    "Jutta the junior novice",
+    "Kai the keeper of keys"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "lectern"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "stall"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "col",
+      11
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "same",
+      10
+    ],
+    [
+      8,
+      "next",
+      "altar"
+    ],
+    [
+      8,
+      "next",
+      "reliquary"
+    ],
+    [
+      9,
+      "next",
+      "palliasse"
+    ],
+    [
+      10,
+      "col",
+      1
+    ],
+    [
+      11,
+      "row",
+      11
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    34,
+    41,
+    55,
+    69,
+    83,
+    87,
+    104,
+    112,
+    121,
+    134
+  ],
+  "doors": [
+    [
+      73,
+      74
+    ],
+    [
+      72,
+      84
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      43,
+      55
+    ],
+    [
+      35,
+      47
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      80,
+      92
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      113,
+      125
+    ],
+    [
+      123,
+      124
+    ],
+    [
+      116,
+      128
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      0
+    ],
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 6,
+  "steps": 27,
+  "group": 2
+}

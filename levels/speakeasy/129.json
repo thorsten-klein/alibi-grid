@@ -1,0 +1,172 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000112222000112222333444555333444555333444555666666555666666555",
+  "objects": "c..f...b.f....e.b..ad...c...ca.bb.a.f......b.b...d......a....e.........cc.d.b.bd.",
+  "roomNames": [
+    "Bar Counter",
+    "Coat Check",
+    "Private Booths",
+    "Tailor Front",
+    "Jazz Stage",
+    "Main Lounge",
+    "Hidden Alleyway"
+  ],
+  "people": [
+    "Arthur the accordionist",
+    "Basil the bartender",
+    "Cedric the crooner",
+    "Dmitri the drummer",
+    "Edgar the enforcer",
+    "Frank the flapper",
+    "Gideon the gangster",
+    "Vince the voice of syndicate",
+    "Henrik the horn player"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "roulette"
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "sax"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "booth"
+    ],
+    [
+      8,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    5,
+    15,
+    25,
+    35,
+    39,
+    46,
+    56,
+    63,
+    76
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,72 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "a......ca...b...",
+  "roomNames": [
+    "Billiard Room",
+    "Kitchen",
+    "Dining Room"
+  ],
+  "people": [
+    "Alma the architect",
+    "Bea the banker",
+    "Clara the colonel",
+    "Vince the valet"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    11,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
+  "extra": true
+}

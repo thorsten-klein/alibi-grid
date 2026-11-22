@@ -1,0 +1,188 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001111112222333333222233333322223333334455566677445556667744555666774455566677",
+  "objects": ".da....f..aad...a..d.........f.e..c.fb.....f....db......bf......fb.....faf..ecb...fadb.....e.d.d.e.c",
+  "roomNames": [
+    "Dishwashing Pit",
+    "Plating Line",
+    "Herb Garden",
+    "Saute Station",
+    "Wine Cellar",
+    "Staff Locker",
+    "Pastry Kitchen",
+    "Hostess Foyer"
+  ],
+  "people": [
+    "Arthur the apprentice chef",
+    "Basil the baker",
+    "Cedric the chef de cuisine",
+    "Dmitri the dishwasher",
+    "Edgar the expediter",
+    "Vince the vip dining critic",
+    "Frank the fishmonger",
+    "Gideon the garde manger",
+    "Henrik the host",
+    "Ivo the inspector"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "block"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "col",
+      7
+    ],
+    [
+      3,
+      "next",
+      "espresso"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "fridge"
+    ],
+    [
+      6,
+      "next",
+      "fridge"
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ],
+    [
+      8,
+      "next",
+      "banquette"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "next",
+      "cooktop"
+    ]
+  ],
+  "solution": [
+    9,
+    14,
+    27,
+    30,
+    45,
+    53,
+    61,
+    72,
+    86,
+    98
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      26,
+      36
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      87,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      89,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 25,
+  "extra": true
+}

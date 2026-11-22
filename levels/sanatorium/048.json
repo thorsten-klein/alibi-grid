@@ -1,0 +1,70 @@
+{
+  "size": 4,
+  "rooms": "0000000011112222",
+  "objects": "......a.f.f.....",
+  "roomNames": [
+    "Ward B",
+    "Solarium",
+    "Morgue"
+  ],
+  "people": [
+    "Arthur the attendant",
+    "Vince the visiting superintendent",
+    "Basil the bacteriologist",
+    "Cedric the caregiver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "next",
+      "wheelchair"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    9,
+    14
+  ],
+  "doors": [
+    [
+      4,
+      8
+    ],
+    [
+      9,
+      13
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}

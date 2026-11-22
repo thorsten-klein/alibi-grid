@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".a............af..f......",
+  "roomNames": [
+    "Server Farm",
+    "Centrifuge Bay",
+    "Breakroom",
+    "Cleanroom 1"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Vivian the virology head",
+    "Birgit the biochemist",
+    "Celia the chief scientist",
+    "Della the dna sequencer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    6,
+    13,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

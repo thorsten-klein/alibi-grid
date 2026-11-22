@@ -1,0 +1,192 @@
+{
+  "size": 10,
+  "rooms": "0000011122000001112200000111220000011122333344455533334445553333444555333344455566667777776666777777",
+  "objects": "...b.fa..e.cc...b..........db....e......cac.....c.af.bb........b....a....c...c.fac....b....b...e..b.",
+  "roomNames": [
+    "Solar",
+    "Dungeon",
+    "Kitchen",
+    "Gatehouse",
+    "Armory",
+    "Chapel",
+    "Throne Room",
+    "Smithy"
+  ],
+  "people": [
+    "Ada the archer",
+    "Bruno the bard",
+    "Carl the cupbearer",
+    "Dora the doorkeeper",
+    "Elsa the envoy",
+    "Freya the falconer",
+    "Gwen the glassmaker",
+    "Hazel the herald",
+    "Ines the innkeeper",
+    "Viola the verger"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "swords"
+    ],
+    [
+      2,
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "on",
+      "bench"
+    ],
+    [
+      5,
+      "on",
+      "cot"
+    ],
+    [
+      5,
+      "same",
+      7
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      5
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "next",
+      "cot"
+    ]
+  ],
+  "solution": [
+    0,
+    19,
+    28,
+    37,
+    41,
+    54,
+    65,
+    76,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      24,
+      25
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      78,
+      88
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      90,
+      "l"
+    ],
+    [
+      90,
+      "b"
+    ],
+    [
+      95,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    4
+  ],
+  "rank": "kckkckknkc",
+  "hard": 5,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

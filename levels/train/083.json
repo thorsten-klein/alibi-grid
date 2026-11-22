@@ -1,0 +1,112 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222333222333444444",
+  "objects": "c....d.e..a.a....f.d.......c.ebcada.",
+  "roomNames": [
+    "Guard's Van",
+    "Baggage Car",
+    "Galley",
+    "Bar Car",
+    "Observation Car"
+  ],
+  "people": [
+    "Arthur the accordionist",
+    "Birgit the bookseller",
+    "Clara the courier",
+    "Dexter the diplomat",
+    "Vince the vendor",
+    "Edgar the engineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "wine"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "col",
+      1
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    3,
+    8,
+    16,
+    18,
+    25,
+    35
+  ],
+  "doors": [
+    [
+      8,
+      9
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      25,
+      31
+    ],
+    [
+      27,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

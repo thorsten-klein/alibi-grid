@@ -1,0 +1,142 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": ".f.f.bb......eff..f.b.af.......e..fa..b....f....a",
+  "roomNames": [
+    "Armory",
+    "Kitchen",
+    "Solar",
+    "Gatehouse",
+    "Great Hall"
+  ],
+  "people": [
+    "Victor the vintner",
+    "Arthur the alchemist",
+    "Birgit the bard",
+    "Celia the cupbearer",
+    "Dmitri the doorkeeper",
+    "Elsa the envoy",
+    "Frank the falconer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "urn"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "door"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    19,
+    25,
+    29,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3
+  ],
+  "rank": "kkkknkk",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

@@ -1,0 +1,181 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222333444444333444444333555666333555666333555666333555666",
+  "objects": ".cb.........e.c....df..e..a...cc...............cf..eba...c.d..........f.ae.fb....",
+  "roomNames": [
+    "Stables",
+    "Gatehouse",
+    "Great Hall",
+    "Solar",
+    "Armory",
+    "Tower",
+    "Throne Room"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the baker",
+    "Carl the chronicler",
+    "Dmitri the dancer",
+    "Edgar the envoy",
+    "Frank the falconer",
+    "Gus the groom",
+    "Vivian the verger",
+    "Hugo the herald"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      8
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "notRoom",
+      4
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "next",
+      "candles"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      8,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    8,
+    13,
+    24,
+    28,
+    36,
+    50,
+    56,
+    66,
+    79
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    5
+  ],
+  "rank": "cncccnckc",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 23,
+  "group": 0
+}

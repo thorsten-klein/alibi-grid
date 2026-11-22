@@ -1,0 +1,169 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223331144433311444333114443335555533355555",
+  "objects": ".....ae.a..edbe.........d.d...e.....e..e..b...ad.e....a.d..f....",
+  "roomNames": [
+    "Church",
+    "Jail",
+    "Saloon",
+    "Hotel",
+    "Sheriff Office",
+    "Livery"
+  ],
+  "people": [
+    "Albert the attorney",
+    "Bella the banker",
+    "Cedric the cook",
+    "Daisy the deputy",
+    "Elias the editor",
+    "Fiona the farrier",
+    "Grace the gunsmith",
+    "Victor the vet"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      4
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "col",
+      7
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    16,
+    29,
+    35,
+    44,
+    55,
+    62
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "alone",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    5
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

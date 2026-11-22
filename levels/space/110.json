@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": ".b....c.e..f...f........ade..c...e.....c..e......",
+  "roomNames": [
+    "Mess Hall",
+    "Cargo Bay",
+    "Observatory",
+    "Gym",
+    "Airlock"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Bruno the botanist",
+    "Cedric the captain",
+    "Dora the driller",
+    "Vivian the visitor",
+    "Ena the electrician",
+    "Frank the flight officer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "console"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "console"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "console"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    17,
+    22,
+    28,
+    37,
+    46
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

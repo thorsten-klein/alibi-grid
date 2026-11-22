@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444444444444444455555555",
+  "objects": "...df.c...f.......b.....d................f.e.a...bcb.bfdaf......",
+  "roomNames": [
+    "Comms Array",
+    "Airlock Module",
+    "Water Reclamation",
+    "Solar Array Control",
+    "Habitat Quarters",
+    "Oxygen Scrubber"
+  ],
+  "people": [
+    "Vivian the visiting inspector",
+    "Astrid the agronomist",
+    "Birgit the biosphere tech",
+    "Celia the chemist",
+    "Della the doctor",
+    "Ena the electrician",
+    "Flora the farmer",
+    "Grace the ground controller"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "next",
+      "pod"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "rover"
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    19,
+    28,
+    33,
+    47,
+    53,
+    58
+  ],
+  "doors": [
+    [
+      19,
+      20
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      48,
+      56
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "rover",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 25,
+  "extra": true
+}

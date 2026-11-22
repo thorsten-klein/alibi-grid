@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "fb.......ddcf.cb.b....a..",
+  "roomNames": [
+    "Herb Garden",
+    "Prior Cell",
+    "Refectory",
+    "Cloister Walk"
+  ],
+  "people": [
+    "Arthur the abbot",
+    "Basil the bellringer",
+    "Cedric the cellarer",
+    "Vince the visiting cardinal",
+    "Dmitri the doorkeeper"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "palliasse"
+    ],
+    [
+      2,
+      "next",
+      "bellrope"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    6,
+    13,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "palliasse",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

@@ -1,0 +1,200 @@
+{
+  "size": 11,
+  "rooms": "0000112233300001122333000011223330000112233300001122333444455556664444555566644445555666444455556667777555566677775555666",
+  "objects": "....a.....ba.f..bbf.c..b......b.......bb......b.aab.f...af...afa..ca..ac.....c.df.db.ec...b.ad....db..f........ff.....d..",
+  "roomNames": [
+    "Corral",
+    "General Store",
+    "Mine",
+    "Church",
+    "Hotel",
+    "Livery",
+    "Sheriff Office",
+    "Telegraph Office"
+  ],
+  "people": [
+    "Albert the auctioneer",
+    "Bruno the blacksmith",
+    "Carl the cattle driver",
+    "Daisy the dancer",
+    "Edgar the engineer",
+    "Felix the farmer",
+    "Gideon the gambler",
+    "Hugo the homesteader",
+    "Ivo the innkeeper",
+    "Jasper the judge",
+    "Victor the vaquero"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "chair"
+    ],
+    [
+      2,
+      "withBandit"
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "horse"
+    ],
+    [
+      6,
+      "next",
+      "piano"
+    ],
+    [
+      7,
+      "next",
+      "chair"
+    ],
+    [
+      8,
+      "same",
+      5
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      9,
+      "same",
+      8
+    ],
+    [
+      10,
+      "next",
+      "cactus"
+    ]
+  ],
+  "solution": [
+    4,
+    11,
+    25,
+    35,
+    54,
+    61,
+    74,
+    78,
+    95,
+    104,
+    119
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      49,
+      60
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      51,
+      62
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      88,
+      99
+    ],
+    [
+      117,
+      118
+    ],
+    [
+      113,
+      114
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      110,
+      "l"
+    ],
+    [
+      112,
+      "b"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    1,
+    4
+  ],
+  "hard": 9,
+  "hardest": 8,
+  "steps": 35,
+  "extra": true
+}

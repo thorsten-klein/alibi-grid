@@ -1,0 +1,152 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022222222222222223333444433334444555544445555",
+  "objects": ".d..a.a.....c...cb...cb...fbd.f.ff.c..a.e.d.cbe......e......ba..",
+  "roomNames": [
+    "Breakroom",
+    "Chemical Vault",
+    "Autopsy Suite",
+    "Cleanroom 2",
+    "Centrifuge Bay",
+    "Generator Core"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Bea the biochemist",
+    "Clara the chief scientist",
+    "Dora the dna sequencer",
+    "Edith the epidemiologist",
+    "Vera the virology head",
+    "Freya the facility director",
+    "Greta the geneticist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "room",
+      1
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chamber"
+    ],
+    [
+      3,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "next",
+      "hood"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ],
+    [
+      5,
+      "next",
+      "chamber"
+    ],
+    [
+      6,
+      "next",
+      "centrifuge"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    19,
+    29,
+    36,
+    41,
+    48,
+    63
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

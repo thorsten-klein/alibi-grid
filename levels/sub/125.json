@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233334444333344443333555533335555",
+  "objects": "a.bb..b..a....ea...b..fa.e..a.e...c...e.c..b......c.f..a.ac..c..",
+  "roomNames": [
+    "Observation Dome",
+    "Specimen Bay",
+    "Pressure Airlock",
+    "Reactor Chamber",
+    "Torpedo Tube",
+    "Conning Tower"
+  ],
+  "people": [
+    "Astrid the aquanaut",
+    "Birgit the bathymetry tech",
+    "Celia the captain",
+    "Della the drill operator",
+    "Ena the electrical engineer",
+    "Flora the first officer",
+    "Vivian the vessel designer",
+    "Grace the geochemist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "freezer"
+    ],
+    [
+      7,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    27,
+    33,
+    46,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 35,
+  "extra": true
+}

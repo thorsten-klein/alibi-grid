@@ -1,0 +1,182 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000112222000112222333444566333444566333444566333555566333555566",
+  "objects": ".b.a........d.b...ac....f.......d......f.f...b....ba.a....c.....cc.c.b.....ffe..a",
+  "roomNames": [
+    "Scrutineering Shed",
+    "VIP Balcony",
+    "Pit Lane",
+    "Team Garage B",
+    "Team Garage A",
+    "Media Center",
+    "Tire Bay"
+  ],
+  "people": [
+    "Ada the aerodynamicist",
+    "Vera the veteran champion",
+    "Bea the brake tech",
+    "Clara the chief mechanic",
+    "Dora the driver",
+    "Edith the engine tuner",
+    "Freya the fuel specialist",
+    "Greta the gearbox tech",
+    "Hilda the head of team"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bucket"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bucket"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      8
+    ],
+    [
+      6,
+      "next",
+      "bucket"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "chassis"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "chassis"
+    ]
+  ],
+  "solution": [
+    7,
+    13,
+    23,
+    27,
+    42,
+    47,
+    62,
+    66,
+    73
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "hard": 10,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

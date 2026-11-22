@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": ".....e...dcdc...dc..caac............f..aa........",
+  "roomNames": [
+    "Smelting Oven",
+    "Tool Crib",
+    "Timber Storage",
+    "Water Sump",
+    "Main Drift"
+  ],
+  "people": [
+    "Astrid the axeman",
+    "Vivian the venture capitalist",
+    "Birgit the blaster",
+    "Celia the carpenter",
+    "Della the dynamite handler",
+    "Ena the hoist operator",
+    "Flora the farrier"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "dynamite"
+    ],
+    [
+      1,
+      "next",
+      "orecart"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "keg"
+    ],
+    [
+      5,
+      "on",
+      "keg"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    14,
+    24,
+    29,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

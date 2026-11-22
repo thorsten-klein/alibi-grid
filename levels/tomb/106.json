@@ -1,0 +1,119 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".......bb.b....b.e.e...ba.f.f.c.b...bd...e..d....",
+  "roomNames": [
+    "Boat Pit",
+    "Scribe Room",
+    "Granary",
+    "Burial Chamber",
+    "Shrine"
+  ],
+  "people": [
+    "Ada the architect",
+    "Basil the brewer",
+    "Vince the vizier",
+    "Celia the chanter",
+    "Dora the diviner",
+    "Edith the envoy",
+    "Frank the fanbearer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ],
+    [
+      5,
+      "next",
+      "rubble"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    16,
+    25,
+    29,
+    40,
+    48
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      12,
+      19
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "C........................L..............C........",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

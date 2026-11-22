@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000000000000000111222221112222233444555334445553344455533444555",
+  "objects": ".......ad.cf...adc...a.e...................f.....b...e.....a....",
+  "roomNames": [
+    "Backstage VIP",
+    "Mixing Tower",
+    "Main Stage",
+    "Guitar Tech Tent",
+    "Green Room",
+    "Port-a-Jon Alley"
+  ],
+  "people": [
+    "Alma the audio engineer",
+    "Bella the bass player",
+    "Cora the crew chief",
+    "Daisy the drummer",
+    "Elsa the electrician",
+    "Fiona the frontman",
+    "Gwen the guitarist",
+    "Viola the vip record exec"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "amp"
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      4
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      7
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    19,
+    28,
+    39,
+    46,
+    49,
+    56
+  ],
+  "doors": [
+    [
+      10,
+      18
+    ],
+    [
+      14,
+      22
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      60,
+      61
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "lighttower",
+      0
+    ],
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

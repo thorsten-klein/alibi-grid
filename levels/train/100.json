@@ -1,0 +1,127 @@
+{
+  "size": 6,
+  "rooms": "000000000000122334122334122334122334",
+  "objects": "...b...ab...d.......a.ea....a.af.ba.",
+  "roomNames": [
+    "Observation Car",
+    "Mail Car",
+    "Sleeper A",
+    "Bar Car",
+    "Guard's Van"
+  ],
+  "people": [
+    "Viola the vendor",
+    "Albert the accordionist",
+    "Bea the banker",
+    "Cedric the courier",
+    "Dora the diplomat",
+    "Ena the envoy"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "lamp"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    17,
+    20,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      35
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      1
+    ],
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 22,
+  "extra": true
+}

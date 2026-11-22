@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".aaf.e...dad..ca....b.bb.......f..a.f....f....b..",
+  "roomNames": [
+    "Members Bar",
+    "Grandstand Terrace",
+    "Weighing Room",
+    "Winner Enclosure",
+    "Jockeys Room"
+  ],
+  "people": [
+    "Albert the aristocrat",
+    "Victor the visiting royalty",
+    "Bruno the breeder",
+    "Carl the clerk of scales",
+    "Dexter the doper",
+    "Elias the owner envoy",
+    "Felix the form analyst"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "board"
+    ],
+    [
+      1,
+      "next",
+      "trophy"
+    ],
+    [
+      2,
+      "next",
+      "turfchair"
+    ],
+    [
+      3,
+      "on",
+      "stablebench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "haystack"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    32,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

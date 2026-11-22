@@ -1,0 +1,114 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".b..d.e...b..c.c.d..b....",
+  "roomNames": [
+    "General Store",
+    "Mine",
+    "Jail",
+    "Livery"
+  ],
+  "people": [
+    "Astrid the auctioneer",
+    "Bea the blacksmith",
+    "Carl the cattle driver",
+    "Vivian the vaquero",
+    "Dexter the deputy"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "cactus"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    12,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "cactus",
+      3
+    ],
+    [
+      "onCount",
+      "bed",
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    3
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

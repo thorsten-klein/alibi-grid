@@ -1,0 +1,127 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".b.......d...f......baf...bf....e.a.ba...b.bde.b.",
+  "roomNames": [
+    "Stables",
+    "Armory",
+    "Tea Ceremony Room",
+    "Kitchen",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Arthur the archer",
+    "Basil the bushi warrior",
+    "Cedric the calligrapher",
+    "Dmitri the daimyo",
+    "Vince the veteran general",
+    "Edgar the envoy",
+    "Frank the falconer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "col",
+      4
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "taiko"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "taiko"
+    ],
+    [
+      5,
+      "on",
+      "futon"
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    17,
+    21,
+    29,
+    41,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 17,
+  "extra": true
+}

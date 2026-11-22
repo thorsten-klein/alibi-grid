@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112223334444433344444333444443335555533355555",
+  "objects": "f.df.b.c.f..........ff...bb.cac..e......f.......f.eb......c.c...",
+  "roomNames": [
+    "Elder Hut",
+    "Berry Grove",
+    "Cave",
+    "Hide Tent",
+    "Spring",
+    "Fire Pit"
+  ],
+  "people": [
+    "Ada the artist",
+    "Bella the beekeeper",
+    "Cora the carver",
+    "Vince the visionary",
+    "Dexter the dancer",
+    "Elias the elk tamer",
+    "Freya the flute player",
+    "Gideon the grinder"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "boulder"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "tree"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "same",
+      6
+    ],
+    [
+      7,
+      "next",
+      "leaves"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    17,
+    29,
+    32,
+    44,
+    55,
+    59
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      47,
+      55
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "trades"
+  ],
+  "trade": "3..4.1..",
+  "tags": "...........33.........441.........3...0.....1.30................",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
+  "group": 1
+}

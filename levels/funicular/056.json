@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "...f....cae...a........fd",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Funicular Car B",
+    "Valley Terminal",
+    "Souvenir Kiosk"
+  ],
+  "people": [
+    "Ada the alpine guide",
+    "Bea the billeter",
+    "Clara the cable splicer",
+    "Dora the doctor",
+    "Vera the visiting vip"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "luggage"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".aaf.e...dad..ca....b.bb.......f..a.f....f....b..",
+  "roomNames": [
+    "Paddock Walkway",
+    "Media Center",
+    "Hospitality Suite",
+    "Pit Lane",
+    "VIP Balcony"
+  ],
+  "people": [
+    "Albert the aerodynamicist",
+    "Victor the veteran champion",
+    "Bruno the brake tech",
+    "Carl the chief mechanic",
+    "Dexter the driver",
+    "Elias the engine tuner",
+    "Felix the fuel specialist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "fuelrig"
+    ],
+    [
+      1,
+      "next",
+      "tires"
+    ],
+    [
+      2,
+      "next",
+      "bucket"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "toolbox"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    32,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

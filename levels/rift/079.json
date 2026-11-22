@@ -1,0 +1,127 @@
+{
+  "size": 6,
+  "rooms": "000011000011223333223333223444223444",
+  "objects": "a..c..f..e..fc.e.....a..........a...",
+  "roomNames": [
+    "Bank",
+    "Saloon",
+    "Captain Cabin",
+    "Burial Chamber",
+    "Shrine"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bella the bard",
+    "Cora the chronicler",
+    "Viola the voyager",
+    "Della the dreamer",
+    "Edith the explorer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "boulder"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    16,
+    21,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": ".....L..L.L.............C.C....C..L.",
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 18,
+  "extra": true
+}

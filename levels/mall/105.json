@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0011222001122200112220013333001333300144440014444",
+  "objects": "c.b..ab.b..ab.b.eda..a....e.ec..d.f....e..bd.d...",
+  "roomNames": [
+    "Atrium Fountain",
+    "Food Court",
+    "Department Store",
+    "Skate Shop",
+    "Cinema Lobby"
+  ],
+  "people": [
+    "Astrid the aerobics instructor",
+    "Birgit the boutique clerk",
+    "Celia the cashier",
+    "Vivian the visiting store inspector",
+    "Della the disc jockey",
+    "Ena the eyewear stylist",
+    "Flora the fashionista"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "photobench"
+    ],
+    [
+      1,
+      "next",
+      "gate"
+    ],
+    [
+      2,
+      "next",
+      "plasticchair"
+    ],
+    [
+      3,
+      "next",
+      "gumball"
+    ],
+    [
+      4,
+      "next",
+      "gumball"
+    ],
+    [
+      4,
+      "next",
+      "mannequin"
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    14,
+    25,
+    33,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      46,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 6,
+  "steps": 22,
+  "extra": true
+}

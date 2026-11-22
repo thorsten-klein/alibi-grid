@@ -1,0 +1,108 @@
+{
+  "size": 5,
+  "rooms": "0000000000111221112233333",
+  "objects": "...b.bc.bee..b..dd.d.e...",
+  "roomNames": [
+    "Scribe Room",
+    "Boat Pit",
+    "Antechamber",
+    "Shrine"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Vivian the vintner",
+    "Bea the brewer",
+    "Cora the carpenter",
+    "Daisy the diviner"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    11,
+    18,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      11
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      15,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..................L......",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 12,
+  "extra": true
+}

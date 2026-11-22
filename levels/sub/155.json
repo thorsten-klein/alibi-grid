@@ -1,0 +1,237 @@
+{
+  "size": 12,
+  "rooms": "000001111111000001111111000002222222333332222222333332222222444556666666444556666666444556666666444557777888444557777888444557777888444557777888",
+  "objects": ".a...c.d.b.......e..fc.a.b...b....d..f...d..c.d........b...b.b......c..............cc...b.e.c..f....a..aabfef.f.....fa.....a..e...b......a..e.da",
+  "roomNames": [
+    "Ballast Control",
+    "Pilot Cockpit",
+    "Sonar Room",
+    "Observation Dome",
+    "Torpedo Tube",
+    "Crew Quarters",
+    "Hydrothermal Lab",
+    "Pressure Airlock",
+    "Galley"
+  ],
+  "people": [
+    "Astrid the aquanaut",
+    "Birgit the bathymetry tech",
+    "Celia the captain",
+    "Della the drill operator",
+    "Ena the electrical engineer",
+    "Flora the first officer",
+    "Grace the geochemist",
+    "Vivian the vessel designer",
+    "Hana the hydrophone operator",
+    "Isla the instrument tech",
+    "Jutta the junior officer",
+    "Kai the kitchen chief"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "tank"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "freezer"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "room",
+      4
+    ],
+    [
+      6,
+      "next",
+      "bunk"
+    ],
+    [
+      7,
+      "next",
+      "bunk"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "freezer"
+    ],
+    [
+      9,
+      "next",
+      "freezer"
+    ],
+    [
+      9,
+      "next",
+      "bunk"
+    ],
+    [
+      10,
+      "next",
+      "valve"
+    ],
+    [
+      11,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    11,
+    19,
+    24,
+    38,
+    53,
+    66,
+    73,
+    87,
+    105,
+    118,
+    128,
+    136
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      40
+    ],
+    [
+      23,
+      35
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      59,
+      71
+    ],
+    [
+      48,
+      60
+    ],
+    [
+      51,
+      63
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      136,
+      137
+    ],
+    [
+      90,
+      102
+    ],
+    [
+      95,
+      107
+    ],
+    [
+      116,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      137,
+      "b"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "tank",
+      2
+    ]
+  ],
+  "hard": 11,
+  "hardest": 8,
+  "steps": 34,
+  "extra": true
+}

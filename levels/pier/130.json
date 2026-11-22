@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222001111222333333222333333444555544444555544666555544666555544666",
+  "objects": "b..b..............ae...a..e.a....f.e..acbef...f...fbd.d.....cbbea....b.......c...",
+  "roomNames": [
+    "Cotton Candy Stand",
+    "Carousel Pavilion",
+    "Arcade Alley",
+    "Souvenir Shack",
+    "Coaster Shed",
+    "Pier Edge",
+    "Fortune Booth"
+  ],
+  "people": [
+    "Arthur the arcade repairman",
+    "Basil the boardwalk walker",
+    "Cedric the caretaker",
+    "Dmitri the drifter",
+    "Vince the vagrant",
+    "Edgar the electrician",
+    "Frank the fortune teller",
+    "Gideon the ghost hunter",
+    "Henrik the historian"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "room",
+      2
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "notRoom",
+      5
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "generator"
+    ],
+    [
+      6,
+      "on",
+      "cart"
+    ],
+    [
+      7,
+      "next",
+      "horse"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    15,
+    20,
+    28,
+    36,
+    49,
+    62,
+    68,
+    75
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      36,
+      "l"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "horse",
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

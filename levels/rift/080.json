@@ -1,0 +1,129 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "..cbac..........f.......d....a.d....",
+  "roomNames": [
+    "Jail",
+    "Cave",
+    "Burial Chamber",
+    "Bank",
+    "Hide Tent"
+  ],
+  "people": [
+    "Ada the astronomer",
+    "Bruno the bookbinder",
+    "Cedric the chronicler",
+    "Vera the voyager",
+    "Dmitri the drifter",
+    "Elsa the engineer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "barrel"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    21,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "log",
+      0
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": ".......L....L........C..............",
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

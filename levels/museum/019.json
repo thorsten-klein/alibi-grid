@@ -1,0 +1,138 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "...e.....a..ec.......c..b.b...fbdb...d.c.....aa..",
+  "roomNames": [
+    "Grand Rotunda",
+    "Egyptian Wing",
+    "Boiler Cellar",
+    "Curator Study",
+    "Greek Antiquities"
+  ],
+  "people": [
+    "Vera the visiting donor",
+    "Ada the archivist",
+    "Bea the bookkeeper",
+    "Clara the conservator",
+    "Dora the docent",
+    "Edith the evaluator",
+    "Freya the floor warden"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      4,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "statue"
+    ],
+    [
+      5,
+      "notRoom",
+      0
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    20,
+    22,
+    33,
+    35,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      34,
+      41
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "sarcophagus",
+      2
+    ],
+    [
+      "nextCount",
+      "bench",
+      1
+    ]
+  ],
+  "tries": 5,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 22,
+  "group": 2
+}

@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220003333344433333444333334445555544455555",
+  "objects": "e....bafc...c....c.ba...a..b..d.a.b....a....db.........b....a.a.",
+  "roomNames": [
+    "Archivist Sanctum",
+    "Translation Chamber",
+    "Papyrus Vault",
+    "Scribes Hall",
+    "Great Peristyle",
+    "Observatory"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Victor the visiting philosopher",
+    "Bruno the botanist",
+    "Carl the chronicler",
+    "Dexter the dialectician",
+    "Elias the epigrapher",
+    "Felix the folklorist",
+    "Gus the grammarian"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "burner"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "mat"
+    ],
+    [
+      4,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    21,
+    28,
+    32,
+    41,
+    54,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      46,
+      54
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "cupboard",
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 32,
+  "extra": true
+}

@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333444333444",
+  "objects": "..b.......b...ab.c.d.ba.a...ab..a...",
+  "roomNames": [
+    "Bank",
+    "Corral",
+    "Hotel",
+    "Saloon",
+    "General Store"
+  ],
+  "people": [
+    "Arthur the attorney",
+    "Bea the blacksmith",
+    "Cora the cook",
+    "Daisy the dancer",
+    "Vera the vaquero",
+    "Edgar the engineer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      1,
+      "next",
+      "bed"
+    ],
+    [
+      2,
+      "next",
+      "cactus"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "bed"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    13,
+    21,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

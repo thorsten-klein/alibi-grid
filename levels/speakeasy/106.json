@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333344444444444444",
+  "objects": "bf...c.....c....e...eb...a.b..a....d..e..b....b..",
+  "roomNames": [
+    "Manager Office",
+    "Coat Check",
+    "Private Booths",
+    "Jazz Stage",
+    "Distillery"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Vera the valued patron",
+    "Bea the bootlegger",
+    "Clara the card sharp",
+    "Dora the distiller",
+    "Edith the emcee",
+    "Freya the forger"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "safe"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "booth"
+    ],
+    [
+      5,
+      "next",
+      "roulette"
+    ],
+    [
+      6,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    19,
+    27,
+    29,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "booth",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

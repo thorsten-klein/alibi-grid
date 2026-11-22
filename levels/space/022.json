@@ -1,0 +1,209 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122223333111444433331114444333311144443333111444455556666777555566667775555666677755556666777",
+  "objects": "...b...d...ddac...b..b....f.......b...b...de...ab.c.bb..e..e.....a...........ae......fb.a......d.feed..e.a.....ad.a..e.aa",
+  "roomNames": [
+    "Mess Hall",
+    "Comms",
+    "Lab",
+    "Bridge",
+    "Cargo Bay",
+    "Med Bay",
+    "Gym",
+    "Observatory"
+  ],
+  "people": [
+    "Arthur the analyst",
+    "Bella the biologist",
+    "Vera the visitor",
+    "Carl the captain",
+    "Dmitri the driller",
+    "Edgar the electrician",
+    "Flora the farmer",
+    "Gus the gunner",
+    "Hilda the hull technician",
+    "Ivy the intern",
+    "Jasper the journalist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      3,
+      "next",
+      "scope"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "console"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
+      "same",
+      3
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "plant"
+    ],
+    [
+      7,
+      "next",
+      "pod"
+    ],
+    [
+      8,
+      "next",
+      "scope"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      9,
+      "next",
+      "scope"
+    ],
+    [
+      10,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    0,
+    20,
+    28,
+    41,
+    49,
+    58,
+    73,
+    87,
+    89,
+    101,
+    114
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      24,
+      35
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      71,
+      82
+    ],
+    [
+      29,
+      40
+    ],
+    [
+      69,
+      80
+    ],
+    [
+      73,
+      84
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      106,
+      107
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      113,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 4,
+  "steps": 33,
+  "group": 2
+}

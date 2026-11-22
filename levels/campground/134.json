@@ -1,0 +1,179 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222233344222233344222233344555555444555555444666666666",
+  "objects": ".e..b..d.....c.....c..a.......af.a...c.......b..b..af..b..fd..a......ae.e.abba.e.",
+  "roomNames": [
+    "Arts Shed",
+    "Shower Block",
+    "Campfire Clearing",
+    "Canoe Dock",
+    "Director Office",
+    "Bunkhouse Beta",
+    "Mess Hall"
+  ],
+  "people": [
+    "Alma the arts counselor",
+    "Bella the bugler",
+    "Cora the cook",
+    "Daisy the director",
+    "Viola the visitor",
+    "Elsa the eagle scout",
+    "Fiona the first aid counselor",
+    "Gwen the guitar player",
+    "Hazel the hiker"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "next",
+      "table"
+    ],
+    [
+      2,
+      "on",
+      "chair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "board"
+    ],
+    [
+      6,
+      "next",
+      "fire"
+    ],
+    [
+      7,
+      "col",
+      2
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "window",
+      null
+    ],
+    [
+      8,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    22,
+    33,
+    39,
+    46,
+    61,
+    65,
+    80
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      26,
+      35
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      69,
+      78
+    ],
+    [
+      64,
+      73
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      78,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

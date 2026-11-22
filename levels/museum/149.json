@@ -1,0 +1,213 @@
+{
+  "size": 11,
+  "rooms": "0000001111100000011111000000111112222222333322222223333444555533334445555333344466667777444666677774446666777744466667777",
+  "objects": "..ab........d...d.ae...........a.ed.aaa..a....ba.b.da.....d.b.c....eb.............d.b..b...c..........d.a..b...b...bdab..",
+  "roomNames": [
+    "Greek Antiquities",
+    "Gift Shop",
+    "Vault",
+    "Medieval Hall",
+    "Grand Rotunda",
+    "Boiler Cellar",
+    "Loading Bay",
+    "Egyptian Wing"
+  ],
+  "people": [
+    "Alma the archaeologist",
+    "Bella the benefactor",
+    "Cora the curator",
+    "Daisy the director",
+    "Elsa the egyptologist",
+    "Fiona the forger",
+    "Gwen the guard",
+    "Hazel the historian",
+    "Viola the valuer",
+    "Ines the intern",
+    "Juno the janitor"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "on",
+      "cot"
+    ],
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "col",
+      9
+    ],
+    [
+      6,
+      "on",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "cot"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      0
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "next",
+      "bench"
+    ],
+    [
+      10,
+      "on",
+      "cot"
+    ],
+    [
+      10,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    3,
+    21,
+    23,
+    37,
+    50,
+    64,
+    68,
+    85,
+    88,
+    106,
+    115
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      25,
+      36
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      31,
+      42
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      45,
+      56
+    ],
+    [
+      49,
+      60
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      76,
+      87
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      112,
+      113
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      83,
+      84
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      43,
+      "r"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      87,
+      "r"
+    ],
+    [
+      111,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "hard": 7,
+  "hardest": 8,
+  "steps": 32,
+  "extra": true
+}

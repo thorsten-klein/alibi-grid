@@ -1,0 +1,181 @@
+{
+  "size": 9,
+  "rooms": "000111111000111111000111222333111222333333222333333222444555666444555666444555666",
+  "objects": "abc..b.c...e....a.e.aea.....eb......f....b...............b.a.bb..bb.b..dede......",
+  "roomNames": [
+    "Chapel",
+    "Dungeon",
+    "Armory",
+    "Throne Room",
+    "Gatehouse",
+    "Kitchen",
+    "Solar"
+  ],
+  "people": [
+    "Ada the archer",
+    "Birgit the baker",
+    "Carl the chronicler",
+    "Dexter the dancer",
+    "Elias the envoy",
+    "Fiona the farrier",
+    "Gwen the groom",
+    "Hazel the herald",
+    "Vince the verger"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "swords"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "on",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "next",
+      "candles"
+    ],
+    [
+      8,
+      "row",
+      8
+    ]
+  ],
+  "solution": [
+    3,
+    15,
+    23,
+    27,
+    37,
+    47,
+    61,
+    67,
+    80
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      16,
+      25
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      48,
+      57
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      76,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    5,
+    6
+  ],
+  "rank": "ckkckkknk",
+  "hard": 9,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

@@ -1,0 +1,95 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": ".............ec.....b.dd.",
+  "roomNames": [
+    "Treasury",
+    "Burial Chamber",
+    "Granary",
+    "Shrine"
+  ],
+  "people": [
+    "Albert the architect",
+    "Birgit the brewer",
+    "Victor the vintner",
+    "Cora the chanter",
+    "Dora the diviner"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      4,
+      "next",
+      "couch"
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    12,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....LLL.....C........L...",
+  "extra": true
+}

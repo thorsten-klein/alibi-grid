@@ -1,0 +1,133 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112223333222333344444444444444",
+  "objects": "bf...c.....c....e...eb...a.b..a....d..e..b....b..",
+  "roomNames": [
+    "Observation Dome",
+    "Torpedo Tube",
+    "Galley",
+    "Hydrothermal Lab",
+    "Pressure Airlock"
+  ],
+  "people": [
+    "Ada the acoustic analyst",
+    "Vera the vip expedition funder",
+    "Bea the biologist",
+    "Clara the chief diver",
+    "Dora the doctor",
+    "Edith the environmentalist",
+    "Freya the flight pilot"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "freezer"
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "valve"
+    ],
+    [
+      6,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    19,
+    27,
+    29,
+    39,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      31,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      6,
+      "r"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 5,
+  "steps": 30,
+  "extra": true
+}

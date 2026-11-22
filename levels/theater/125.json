@@ -1,0 +1,143 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122211113333111133334444555544445555",
+  "objects": ".ac............b.......a.....d..e.b..d.....bc.b......bf...e..c.f",
+  "roomNames": [
+    "Wings",
+    "Orchestra Pit",
+    "Dressing Room",
+    "Balcony",
+    "Box Office",
+    "Green Room"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Basil the bass player",
+    "Vera the violinist",
+    "Celia the choreographer",
+    "Della the director",
+    "Ena the extra",
+    "Frank the fan",
+    "Grace the guitarist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "same",
+      0
+    ],
+    [
+      4,
+      "next",
+      "rack"
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ],
+    [
+      7,
+      "next",
+      "rack"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    22,
+    26,
+    33,
+    45,
+    52,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333444433444433",
+  "objects": "e....d.a........dda.........acc..d..",
+  "roomNames": [
+    "Observatory",
+    "Courtyard Fountain",
+    "Map Archive",
+    "Papyrus Vault",
+    "Scribes Hall"
+  ],
+  "people": [
+    "Arthur the archivist",
+    "Basil the bookbinder",
+    "Vince the veteran sage",
+    "Cedric the cartographer",
+    "Dmitri the doctor",
+    "Edgar the educator"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "sphere"
+    ],
+    [
+      1,
+      "next",
+      "bench"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "cupboard"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    13,
+    18,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

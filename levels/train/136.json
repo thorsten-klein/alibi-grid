@@ -1,0 +1,146 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233344455333444553334445533344455",
+  "objects": "...b..f....d.c.fa......c.be....f.......c.f.........f.f....a.aeac",
+  "roomNames": [
+    "Dining Car",
+    "Bar Car",
+    "Corridor",
+    "Guard's Van",
+    "Sleeper B",
+    "Mail Car"
+  ],
+  "people": [
+    "Astrid the attendant",
+    "Birgit the bookseller",
+    "Cedric the courier",
+    "Dora the dentist",
+    "Edith the envoy",
+    "Vince the violinist",
+    "Flora the fiddler",
+    "Grace the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "suitcase"
+    ],
+    [
+      3,
+      "next",
+      "lamp"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "suitcase"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "on",
+      "seat"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    21,
+    27,
+    36,
+    46,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 27,
+  "extra": true
+}

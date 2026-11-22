@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0011111222001111122200333112220033311222003334444400333444445556667777555666777755566677775556667777",
+  "objects": "f.c..a..da..d..abf..ee........d.e..b.acd.fe..f..def...ef.d..d.......d.........f...fb.f.e.b.a...a....",
+  "roomNames": [
+    "Observatory",
+    "Mess Hall",
+    "Cargo Bay",
+    "Lab",
+    "Bridge",
+    "Engine Room",
+    "Crew Quarters",
+    "Hydroponics"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Vivian the volunteer",
+    "Bea the botanist",
+    "Carl the chemist",
+    "Dora the doctor",
+    "Ena the electrician",
+    "Felix the flight officer",
+    "Grace the gunner",
+    "Hazel the hull technician",
+    "Igor the instructor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      0,
+      "next",
+      "scope"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "console"
+    ],
+    [
+      3,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "next",
+      "scope"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "tank"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "tank"
+    ],
+    [
+      9,
+      "next",
+      "seat"
+    ]
+  ],
+  "solution": [
+    9,
+    15,
+    28,
+    36,
+    47,
+    53,
+    64,
+    72,
+    81,
+    90
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      51,
+      61
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      13,
+      23
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      92,
+      93
+    ],
+    [
+      85,
+      86
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      69,
+      "r"
+    ],
+    [
+      89,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 28,
+  "group": 3
+}

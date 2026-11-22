@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "........f.d........b..bbdd..d..e....",
+  "roomNames": [
+    "Decon Airlock",
+    "Cleanroom 1",
+    "Chemical Vault",
+    "Cleanroom 2",
+    "Generator Core"
+  ],
+  "people": [
+    "Victor the virology head",
+    "Albert the analyst",
+    "Bruno the biochemist",
+    "Carl the chief scientist",
+    "Dexter the dna sequencer",
+    "Elias the epidemiologist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "next",
+      "chamber"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "pod"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "centrifuge"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    22,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

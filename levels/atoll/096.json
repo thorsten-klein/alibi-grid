@@ -1,0 +1,124 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "b..a.a.a..b.cb.....a.....e...f....c.afc..adba....",
+  "roomNames": [
+    "Coral Lagoon",
+    "Overwater Bungalow",
+    "Coconut Grove",
+    "Open Beach",
+    "Luau Grounds"
+  ],
+  "people": [
+    "Astrid the activities director",
+    "Vivian the vacationer",
+    "Birgit the bartender",
+    "Celia the concierge",
+    "Della the divemaster",
+    "Ena the excursion guide",
+    "Flora the fitness coach"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      2,
+      "next",
+      "surfboard"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    19,
+    22,
+    32,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "towel",
+      5
+    ]
+  ],
+  "hard": 5,
+  "hardest": 7,
+  "steps": 19,
+  "extra": true
+}

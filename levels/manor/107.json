@@ -1,0 +1,140 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333444433344443334444",
+  "objects": ".ffad..c.b..e..c..ae.b........fd..b....f..c.b.d.b",
+  "roomNames": [
+    "Ballroom",
+    "Pantry",
+    "Billiard Room",
+    "Gallery",
+    "Hall"
+  ],
+  "people": [
+    "Vince the vicar",
+    "Arthur the author",
+    "Basil the banker",
+    "Cora the cook",
+    "Dexter the dealer",
+    "Edgar the editor",
+    "Flora the florist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "next",
+      "shelf"
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "clock"
+    ],
+    [
+      6,
+      "on",
+      "sofa"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    14,
+    25,
+    33,
+    38,
+    44
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      0
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "extra": true
+}

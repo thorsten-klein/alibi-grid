@@ -1,0 +1,126 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".e........d.f....ec.....e..a.....f...c.c...a....e",
+  "roomNames": [
+    "Mess Hall",
+    "Med Bay",
+    "Airlock",
+    "Comms",
+    "Cargo Bay"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Viola the volunteer",
+    "Bruno the biologist",
+    "Carl the chemist",
+    "Della the doctor",
+    "Edith the engineer",
+    "Frank the farmer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "console"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    20,
+    23,
+    31,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

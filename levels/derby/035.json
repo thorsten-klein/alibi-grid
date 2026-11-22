@@ -1,0 +1,69 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "....c.dfef.e...b",
+  "roomNames": [
+    "Jockeys Room",
+    "Grandstand Terrace",
+    "Vet Clinic"
+  ],
+  "people": [
+    "Ada the apprentice jockey",
+    "Bea the bookmaker",
+    "Vera the veteran horse owner",
+    "Clara the champion jockey"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "float"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "stablebench"
+    ]
+  ],
+  "solution": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "l"
+    ],
+    [
+      12,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 8,
+  "extra": true
+}

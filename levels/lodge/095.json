@@ -1,0 +1,113 @@
+{
+  "size": 6,
+  "rooms": "000011000011222111222111333444333444",
+  "objects": "..........b..afc..c.d.c.bbc.ab.d...e",
+  "roomNames": [
+    "Ski Room",
+    "Dining Hall",
+    "Suite",
+    "Sauna",
+    "Boot Room"
+  ],
+  "people": [
+    "Ada the athlete",
+    "Basil the bartender",
+    "Clara the cook",
+    "Vera the vlogger",
+    "Daisy the doctor",
+    "Ena the engineer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "skis"
+    ],
+    [
+      3,
+      "next",
+      "skis"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "next",
+      "fire"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    4,
+    9,
+    12,
+    23,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      12,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

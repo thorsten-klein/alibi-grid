@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "......cbcff....a",
+  "roomNames": [
+    "Shift Boss Office",
+    "Smelting Oven",
+    "Deep Winze"
+  ],
+  "people": [
+    "Albert the assayer",
+    "Bruno the blacksmith",
+    "Carl the cart driver",
+    "Victor the vein claimant"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ]
+  ],
+  "solution": [
+    2,
+    4,
+    11,
+    13
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "drill",
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 10,
+  "extra": true
+}

@@ -1,0 +1,173 @@
+{
+  "size": 9,
+  "rooms": "001112222001112222001112222000033444000033444555533444555533444555666666555666666",
+  "objects": ".......bafe.a.df.e.b..............a........b.c....c.fbe.........f.c.....c.a.e.fa.",
+  "roomNames": [
+    "Fireworks Barge",
+    "Garden Courtyard",
+    "Tea Pavilion",
+    "Calligraphy Shop",
+    "Dragon Boat",
+    "Shadow Stage",
+    "Noodle Court"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bea the boatman",
+    "Clara the calligrapher",
+    "Vera the village magistrate",
+    "Dora the drummer",
+    "Edith the embroiderer",
+    "Freya the firework master",
+    "Greta the gong striker",
+    "Hilda the herbalist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "teacart"
+    ],
+    [
+      2,
+      "on",
+      "cushion"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "lantern"
+    ],
+    [
+      5,
+      "next",
+      "teacart"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    3,
+    16,
+    19,
+    31,
+    41,
+    53,
+    60,
+    63,
+    74
+  ],
+  "doors": [
+    [
+      20,
+      29
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      62,
+      71
+    ],
+    [
+      57,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      72,
+      "b"
+    ],
+    [
+      72,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "teacart",
+      3
+    ],
+    [
+      "nextCount",
+      "cushion",
+      1
+    ]
+  ],
+  "hard": 6,
+  "hardest": 7,
+  "steps": 24,
+  "extra": true
+}

@@ -1,0 +1,85 @@
+{
+  "size": 5,
+  "rooms": "0011100111222112221133311",
+  "objects": "b....b.........b.a....c..",
+  "roomNames": [
+    "Market",
+    "Open Sea",
+    "Sea Cave",
+    "Galleon"
+  ],
+  "people": [
+    "Alma the admiral",
+    "Bruno the barkeep",
+    "Cora the captain",
+    "Vivian the voyager",
+    "Dexter the deckhand"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "hammock"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      4,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    3,
+    6,
+    10,
+    17,
+    24
+  ],
+  "doors": [
+    [
+      5,
+      10
+    ],
+    [
+      15,
+      20
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
+  "group": 0
+}

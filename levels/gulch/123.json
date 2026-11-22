@@ -1,0 +1,163 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111223331112233311122444455554444555544445555",
+  "objects": "..a.dd.......b.a..c..dea.bfbdb...c..b..f......d.bb..............",
+  "roomNames": [
+    "Livery",
+    "General Store",
+    "Mine",
+    "Sheriff Office",
+    "Barber",
+    "Church"
+  ],
+  "people": [
+    "Arthur the auctioneer",
+    "Bea the blacksmith",
+    "Clara the cattle driver",
+    "Dmitri the deputy",
+    "Elias the engineer",
+    "Freya the farmer",
+    "Gus the gambler",
+    "Vince the vet"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "bed"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "next",
+      "bed"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "next",
+      "bed"
+    ],
+    [
+      6,
+      "next",
+      "cactus"
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    19,
+    24,
+    34,
+    41,
+    54,
+    61
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "nextCount",
+      "cactus",
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    4
+  ],
+  "extra": true
+}

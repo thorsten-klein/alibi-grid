@@ -1,0 +1,123 @@
+{
+  "size": 7,
+  "rooms": "0001122000112200011223331122333444433344443334444",
+  "objects": "...b...a.....c..f..a..c.a.....cb..bee..d...d.....",
+  "roomNames": [
+    "Observation Dome",
+    "Torpedo Tube",
+    "Pilot Cockpit",
+    "Reactor Chamber",
+    "Pressure Airlock"
+  ],
+  "people": [
+    "Ada the aquanaut",
+    "Vera the vessel designer",
+    "Bea the bathymetry tech",
+    "Clara the captain",
+    "Dora the drill operator",
+    "Edith the electrical engineer",
+    "Freya the first officer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "bunk"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "valve"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    19,
+    21,
+    29,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      27,
+      34
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "valve",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

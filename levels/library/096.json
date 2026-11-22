@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....f.df.bf....a....ac...........bc....f.b..bc..",
+  "roomNames": [
+    "Map Archive",
+    "Mosaic Gallery",
+    "Scribes Hall",
+    "Papyrus Vault",
+    "Geometry Hall"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Bruno the botanist",
+    "Carl the chronicler",
+    "Victor the visiting philosopher",
+    "Dexter the dialectician",
+    "Elias the epigrapher",
+    "Felix the folklorist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "burner"
+    ],
+    [
+      2,
+      "next",
+      "sphere"
+    ],
+    [
+      4,
+      "on",
+      "mat"
+    ],
+    [
+      5,
+      "next",
+      "cupboard"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    12,
+    14,
+    25,
+    34,
+    36,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333333333333334444444",
+  "objects": "...be......a.ed.b...bba...e.c....b.ce...b...c..c.",
+  "roomNames": [
+    "Telemetry Room",
+    "Paddock Walkway",
+    "Pit Lane",
+    "Drivers Lounge",
+    "Fuel Storage"
+  ],
+  "people": [
+    "Arthur the apprentice",
+    "Basil the broadcast commentator",
+    "Cedric the crew chief",
+    "Dmitri the data telemetry lead",
+    "Edgar the electrician",
+    "Vince the vip team owner",
+    "Frank the flag marshal"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "fuelrig"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "fuelrig"
+    ],
+    [
+      3,
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "next",
+      "chassis"
+    ],
+    [
+      6,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    21,
+    29,
+    38,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      35,
+      42
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      47,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 3,
+  "steps": 23,
+  "extra": true
+}

@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0000000000111223332233322",
+  "objects": "..........cb.ad..f..b....",
+  "roomNames": [
+    "Open Sea",
+    "Tavern",
+    "Lighthouse",
+    "Dock"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Birgit the barkeep",
+    "Clara the cook",
+    "Vince the voyager",
+    "Dexter the diver"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      4,
+      "col",
+      1
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    12,
+    15,
+    21
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "edge",
+      null,
+      4
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

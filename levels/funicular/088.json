@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "fc.d.....b.bc.f...cf..eb..b...eb.b..",
+  "roomNames": [
+    "Funicular Car B",
+    "Observation Terrace",
+    "Ski Patrol Shack",
+    "Upper Engine Room",
+    "Staff Bunkhouse"
+  ],
+  "people": [
+    "Alma the alpine guide",
+    "Viola the visiting vip",
+    "Bella the billeter",
+    "Cora the cable splicer",
+    "Daisy the doctor",
+    "Elsa the excursionist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "winch"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "generator"
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "generator"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    16,
+    23,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

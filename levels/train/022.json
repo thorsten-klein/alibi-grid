@@ -1,0 +1,196 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333334444433333444445556677744555667774455566777445556677744",
+  "objects": "..b....d...dd..ed......d...ddf.be...a.....d......aa..f.a..b.a....d..a....a...............cceb...a.c.",
+  "roomNames": [
+    "Galley",
+    "Guard's Van",
+    "Sleeper B",
+    "Sleeper A",
+    "Mail Car",
+    "Dining Car",
+    "Corridor",
+    "Baggage Car"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Basil the banker",
+    "Clara the courier",
+    "Dora the diplomat",
+    "Victor the violinist",
+    "Elias the envoy",
+    "Fiona the firefighter",
+    "Gus the guard",
+    "Hugo the hairdresser",
+    "Ivy the importer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "next",
+      "crate"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "bunk"
+    ],
+    [
+      6,
+      "next",
+      "crate"
+    ],
+    [
+      7,
+      "next",
+      "crate"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "on",
+      "bunk"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    21,
+    38,
+    49,
+    57,
+    66,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

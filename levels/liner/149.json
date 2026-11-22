@@ -1,0 +1,220 @@
+{
+  "size": 11,
+  "rooms": "0011112222200111122222001111222220011112222233334445555333344455553333444555533334445555666666677776666666777766666667777",
+  "objects": ".d...ab.d........c.b.bdb.d.....ed.....b.f.......f....baf......c.....f.a...ba.........c.b...ae..f..ca.c...................",
+  "roomNames": [
+    "Boiler Room",
+    "Steerage Quarters",
+    "Library",
+    "Galley",
+    "Grand Ballroom",
+    "Telegraph Cabin",
+    "First Class Lounge",
+    "Promenade Deck"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Bea the boatswain",
+    "Clara the captain",
+    "Dora the deckhand",
+    "Edith the electrician",
+    "Vera the voyage sponsor",
+    "Freya the first mate",
+    "Greta the guest of honor",
+    "Hilda the helmsman",
+    "Ivy the immigrant",
+    "Jade the journalist"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "lifeboat"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "berth"
+    ],
+    [
+      1,
+      "next",
+      "lifeboat"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "lifeboat"
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "next",
+      "deckchair"
+    ],
+    [
+      6,
+      "next",
+      "piano"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "same",
+      4
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "same",
+      10
+    ],
+    [
+      10,
+      "next",
+      "piano"
+    ]
+  ],
+  "solution": [
+    9,
+    19,
+    28,
+    36,
+    44,
+    65,
+    73,
+    78,
+    93,
+    103,
+    112
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      35,
+      46
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      39,
+      50
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      80,
+      91
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      84,
+      95
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      10,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      112,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ],
+    [
+      119,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "deckchair",
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      1
+    ]
+  ],
+  "hard": 10,
+  "hardest": 8,
+  "steps": 35,
+  "extra": true
+}

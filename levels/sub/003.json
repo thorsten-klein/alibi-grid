@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "...........c..ba..da.......af......a......e..d...",
+  "roomNames": [
+    "Pilot Cockpit",
+    "Pressure Airlock",
+    "Galley",
+    "Sonar Room",
+    "Hydrothermal Lab"
+  ],
+  "people": [
+    "Ada the acoustic analyst",
+    "Bea the biologist",
+    "Clara the chief diver",
+    "Dora the doctor",
+    "Edith the environmentalist",
+    "Vera the vip expedition funder",
+    "Freya the flight pilot"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "room",
+      2
+    ],
+    [
+      4,
+      "next",
+      "freezer"
+    ],
+    [
+      5,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    20,
+    24,
+    29,
+    35,
+    46
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 15,
+  "group": 0
+}

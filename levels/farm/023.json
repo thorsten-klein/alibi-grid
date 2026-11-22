@@ -1,0 +1,226 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112220000111122233334445555333344455553333444555533334445555666666677776666666777766666667777",
+  "objects": "da...eb.....dae......b.ca...c.eb...ab..b.....af....bcbaf..c.......b......b...e.c..a...b..f...b..f..bf.aee.d..c..a..b.....",
+  "roomNames": [
+    "Tractor Garage",
+    "Hen House",
+    "Big Barn",
+    "Milking Shed",
+    "Tool Shed",
+    "Hayloft",
+    "Pig Pen",
+    "Farmhouse Kitchen"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barn hand",
+    "Cedric the cider presser",
+    "Dmitri the ditcher",
+    "Edgar the entomologist",
+    "Frank the farrier",
+    "Gideon the greenhouse tender",
+    "Henrik the horse trainer",
+    "Ivo the irrigation worker",
+    "Jonas the jumper trainer",
+    "Vince the veterinarian"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "scarecrow"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "rocker"
+    ],
+    [
+      2,
+      "next",
+      "tractor"
+    ],
+    [
+      3,
+      "on",
+      "rocker"
+    ],
+    [
+      3,
+      "next",
+      "bale"
+    ],
+    [
+      4,
+      "next",
+      "tractor"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "anvil"
+    ],
+    [
+      5,
+      "next",
+      "tractor"
+    ],
+    [
+      6,
+      "next",
+      "rocker"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "churn"
+    ],
+    [
+      9,
+      "next",
+      "anvil"
+    ],
+    [
+      10,
+      "next",
+      "churn"
+    ],
+    [
+      10,
+      "next",
+      "rocker"
+    ],
+    [
+      10,
+      "row",
+      10
+    ]
+  ],
+  "solution": [
+    1,
+    21,
+    22,
+    36,
+    51,
+    57,
+    75,
+    83,
+    93,
+    107,
+    114
+  ],
+  "doors": [
+    [
+      36,
+      37
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      79,
+      90
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "bale",
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

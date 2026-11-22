@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000000111111222233222233444433444433",
+  "objects": "........a.ada.........d.ac...b...f..",
+  "roomNames": [
+    "Terrace",
+    "Sauna",
+    "Fireside Lounge",
+    "Spa",
+    "Kitchen"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Bruno the baker",
+    "Cora the climber",
+    "Vince the vet",
+    "Della the doctor",
+    "Edgar the engineer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "skis"
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    15,
+    20,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

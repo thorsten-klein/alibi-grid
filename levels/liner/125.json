@@ -1,0 +1,178 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222000011222333445555333445555333445555333666666333666666",
+  "objects": "d.a.f....bf.a..ac....bfe.....cb...a....cee..d..b.a.a..........f.d.........cad....",
+  "roomNames": [
+    "Telegraph Cabin",
+    "First Class Lounge",
+    "Boiler Room",
+    "Steerage Quarters",
+    "Stateroom A",
+    "Promenade Deck",
+    "Turkish Bath"
+  ],
+  "people": [
+    "Victor the voyage sponsor",
+    "Albert the admiral",
+    "Bruno the boatswain",
+    "Carl the captain",
+    "Dexter the deckhand",
+    "Elias the electrician",
+    "Felix the first mate",
+    "Gus the guest of honor",
+    "Hugo the helmsman"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "deckchair"
+    ],
+    [
+      1,
+      "next",
+      "telegraph"
+    ],
+    [
+      2,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "next",
+      "deckchair"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "berth"
+    ],
+    [
+      5,
+      "next",
+      "berth"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "deckchair"
+    ],
+    [
+      7,
+      "next",
+      "deckchair"
+    ],
+    [
+      8,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    6,
+    14,
+    25,
+    27,
+    38,
+    46,
+    58,
+    66,
+    80
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      58,
+      67
+    ],
+    [
+      60,
+      69
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "berth",
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

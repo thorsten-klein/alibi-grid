@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": ".a..b....acb.....bfb..b.f",
+  "roomNames": [
+    "Armory",
+    "Grand Ballroom",
+    "Gondola Dock",
+    "Mask Atelier"
+  ],
+  "people": [
+    "Vince the visiting merchant",
+    "Arthur the alchemist",
+    "Basil the boat builder",
+    "Cedric the carnival poet",
+    "Dmitri the diplomat"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "throne"
+    ],
+    [
+      2,
+      "on",
+      "daybed"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "maskstand"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "daybed",
+      1
+    ],
+    [
+      "nextCount",
+      "daybed",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

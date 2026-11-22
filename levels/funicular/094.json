@@ -1,0 +1,143 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "b.........bcd.b...b.ebe........dd....a...bcb..a.d",
+  "roomNames": [
+    "Valley Terminal",
+    "Ski Patrol Shack",
+    "Transformer Vault",
+    "Souvenir Kiosk",
+    "Upper Engine Room"
+  ],
+  "people": [
+    "Arthur the alpine guide",
+    "Basil the billeter",
+    "Cedric the cable splicer",
+    "Dmitri the doctor",
+    "Edgar the excursionist",
+    "Frank the first aider",
+    "Vince the visiting vip"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "winch"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "winch"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    19,
+    23,
+    34,
+    35,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "generator",
+      2
+    ],
+    [
+      "nextCount",
+      "bench",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

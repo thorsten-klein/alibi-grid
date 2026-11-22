@@ -1,0 +1,79 @@
+{
+  "size": 4,
+  "rooms": "0011001100220022",
+  "objects": "..cba.f...e.ae.b",
+  "roomNames": [
+    "Fireside Lounge",
+    "Kitchen",
+    "Bar"
+  ],
+  "people": [
+    "Alma the athlete",
+    "Viola the vlogger",
+    "Bruno the baker",
+    "Clara the cook"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "door"
+    ]
+  ],
+  "solution": [
+    1,
+    4,
+    11,
+    14
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      6,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "chair",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "extra": true
+}

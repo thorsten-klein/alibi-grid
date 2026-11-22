@@ -1,0 +1,135 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112222333222233344443334444333",
+  "objects": ".......a....c.d...c.dd..d.c...ab......a.........c",
+  "roomNames": [
+    "Mine",
+    "Church",
+    "Jail",
+    "General Store",
+    "Saloon"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Bella the blacksmith",
+    "Cedric the cook",
+    "Victor the vaquero",
+    "Dexter the deputy",
+    "Elsa the editor",
+    "Freya the farmer"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "next",
+      "cactus"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "cactus"
+    ],
+    [
+      4,
+      "next",
+      "cactus"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      6,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    23,
+    28,
+    39,
+    43
+  ],
+  "doors": [
+    [
+      12,
+      19
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    3
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

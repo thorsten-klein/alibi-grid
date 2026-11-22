@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": "d.a.a..a......a...........a.....ed.f.......fab...",
+  "roomNames": [
+    "Specimen Nursery",
+    "Server Farm",
+    "Cleanroom 1",
+    "Control Center",
+    "Chemical Vault"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bruno the biochemist",
+    "Victor the virology head",
+    "Carl the chief scientist",
+    "Dexter the dna sequencer",
+    "Elias the epidemiologist",
+    "Felix the facility director"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "rack"
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    19,
+    27,
+    28,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      21,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 16,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      0
+    ],
+    [
+      "nextCount",
+      "stool",
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 3,
+  "steps": 36,
+  "extra": true
+}

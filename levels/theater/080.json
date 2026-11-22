@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211334444334444",
+  "objects": ".b...d..e.f.......da.....a..a...f...",
+  "roomNames": [
+    "Dressing Room",
+    "Costume Room",
+    "Orchestra Pit",
+    "Balcony",
+    "Foyer"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Birgit the bass player",
+    "Vera the violinist",
+    "Cora the choreographer",
+    "Dora the director",
+    "Elsa the electrician"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "next",
+      "light"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    14,
+    21,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

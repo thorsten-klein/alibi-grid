@@ -1,0 +1,146 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "...c...d...c......fccd.f..............d.a..a..e..",
+  "roomNames": [
+    "Hall of Pillars",
+    "Granary",
+    "Shrine",
+    "Boat Pit",
+    "Statue Hall"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Bea the brewer",
+    "Celia the chanter",
+    "Daisy the dancer",
+    "Victor the vintner",
+    "Elias the envoy",
+    "Flora the fisher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      2
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "room",
+      3
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "rubble"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    15,
+    24,
+    32,
+    35,
+    47
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      42,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "rubble",
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "......L.....L.........L.L....LL....L........L....",
+  "extra": true
+}

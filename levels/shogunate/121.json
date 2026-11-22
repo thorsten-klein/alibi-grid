@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233333333333333334444555544445555",
+  "objects": "fcfa.e.aea.bac......e......da...cc..e..b...b.c..b...d..a.dab..b.",
+  "roomNames": [
+    "Guard Gate",
+    "Zen Garden",
+    "Daimyo Hall",
+    "Moon Balcony",
+    "Kitchen",
+    "Falconry Yard"
+  ],
+  "people": [
+    "Arthur the artisan",
+    "Basil the bowyer",
+    "Cedric the cook",
+    "Dmitri the drummer",
+    "Edgar the embroiderer",
+    "Vince the visiting monk",
+    "Frank the foot soldier",
+    "Gideon the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "tatami"
+    ],
+    [
+      1,
+      "on",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "bonsai"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      4,
+      "col",
+      2
+    ],
+    [
+      5,
+      "next",
+      "armor"
+    ],
+    [
+      6,
+      "next",
+      "futon"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "shoji"
+    ]
+  ],
+  "solution": [
+    7,
+    11,
+    16,
+    29,
+    34,
+    46,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "tatami",
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

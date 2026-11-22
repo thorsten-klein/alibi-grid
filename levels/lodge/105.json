@@ -1,0 +1,146 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011112221111222333222233344443334444",
+  "objects": "....a...b..c.a..bab....b...f.....a.b............c",
+  "roomNames": [
+    "Bar",
+    "Lobby",
+    "Fireside Lounge",
+    "Dining Hall",
+    "Ski Room"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Bella the bartender",
+    "Carl the cook",
+    "Dora the driver",
+    "Ena the explorer",
+    "Felix the fisher",
+    "Vivian the vet"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      0,
+      "next",
+      "skis"
+    ],
+    [
+      1,
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "room",
+      2
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      3,
+      "next",
+      "sofa"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    19,
+    22,
+    30,
+    41,
+    42
+  ],
+  "doors": [
+    [
+      8,
+      15
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      34,
+      41
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      28,
+      "l"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "extra": true
+}

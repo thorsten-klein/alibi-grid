@@ -1,0 +1,226 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112220000111122233334445555333344455553333444555533334445555666666677776666666777766666667777",
+  "objects": "da...eb.....dae......b.ca...c.eb...ab..b.....af....bcbaf..c.......b......b...e.c..a...b..f...b..f..bf.aee.d..c..a..b.....",
+  "roomNames": [
+    "Prop Tent",
+    "Carousel",
+    "Big Top",
+    "Ringmaster Wagon",
+    "Sideshow Alley",
+    "Fortune Tent",
+    "Funhouse",
+    "Trapeze Rig"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the barker",
+    "Carl the clown",
+    "Dexter the daredevil",
+    "Elias the escape artist",
+    "Felix the fire eater",
+    "Gus the giant",
+    "Hugo the hypnotist",
+    "Igor the illusionist",
+    "Jasper the juggler",
+    "Victor the ventriloquist"
+  ],
+  "victim": 10,
+  "clues": [
+    [
+      0,
+      "next",
+      "cage"
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "on",
+      "mat"
+    ],
+    [
+      2,
+      "next",
+      "cannon"
+    ],
+    [
+      3,
+      "on",
+      "mat"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "cannon"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "crystal"
+    ],
+    [
+      5,
+      "next",
+      "cannon"
+    ],
+    [
+      6,
+      "next",
+      "mat"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "trunk"
+    ],
+    [
+      9,
+      "next",
+      "crystal"
+    ],
+    [
+      10,
+      "next",
+      "trunk"
+    ],
+    [
+      10,
+      "next",
+      "mat"
+    ],
+    [
+      10,
+      "row",
+      10
+    ]
+  ],
+  "solution": [
+    1,
+    21,
+    22,
+    36,
+    51,
+    57,
+    75,
+    83,
+    93,
+    107,
+    114
+  ],
+  "doors": [
+    [
+      36,
+      37
+    ],
+    [
+      33,
+      44
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      79,
+      90
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      116,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

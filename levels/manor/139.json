@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222220002222200022222333334443333344455555555",
+  "objects": "..ef......a..cbfda......cbaa........a...c..a........d....b...c..",
+  "roomNames": [
+    "Gallery",
+    "Billiard Room",
+    "Hall",
+    "Conservatory",
+    "Study",
+    "Cellar"
+  ],
+  "people": [
+    "Ada the author",
+    "Basil the banker",
+    "Celia the colonel",
+    "Daisy the dealer",
+    "Victor the vicar",
+    "Ena the envoy",
+    "Frank the florist",
+    "Greta the guest"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "shelf"
+    ],
+    [
+      7,
+      "on",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    28,
+    39,
+    45,
+    48,
+    57
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      51,
+      59
+    ],
+    [
+      55,
+      63
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      7,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      55,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

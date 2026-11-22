@@ -1,0 +1,125 @@
+{
+  "size": 6,
+  "rooms": "000000111222111222333344333344333344",
+  "objects": "..f....b..a.f...fa.............b.b..",
+  "roomNames": [
+    "Cave",
+    "Fort",
+    "Bank",
+    "Jail",
+    "Throne Room"
+  ],
+  "people": [
+    "Albert the astronomer",
+    "Vivian the voyager",
+    "Bella the bard",
+    "Clara the clockmaker",
+    "Dora the dreamer",
+    "Ena the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "clock"
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "bandit"
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    15,
+    22,
+    24,
+    32
+  ],
+  "doors": [
+    [
+      2,
+      8
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "bandits",
+    "glyphs"
+  ],
+  "tags": "......................L.C..L.C......",
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

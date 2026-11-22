@@ -1,0 +1,76 @@
+{
+  "size": 4,
+  "rooms": "0011001122222222",
+  "objects": "...bb..b..b.c.e.",
+  "roomNames": [
+    "Habitat Quarters",
+    "Medical Bay",
+    "Solar Array Control"
+  ],
+  "people": [
+    "Albert the astrobiologist",
+    "Bruno the botanist",
+    "Carl the commander",
+    "Victor the venture sponsor"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    8,
+    15
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "windows": [
+    [
+      14,
+      "b"
+    ],
+    [
+      15,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 10,
+  "extra": true
+}

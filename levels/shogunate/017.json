@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "c..a.....cffa......f...a.",
+  "roomNames": [
+    "Kitchen",
+    "Daimyo Hall",
+    "Ninja Loft",
+    "Sentry Tower"
+  ],
+  "people": [
+    "Alma the archer",
+    "Bella the bushi warrior",
+    "Viola the veteran general",
+    "Cora the calligrapher",
+    "Daisy the daimyo"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "tatami"
+    ],
+    [
+      1,
+      "next",
+      "armor"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "group": 2
+}

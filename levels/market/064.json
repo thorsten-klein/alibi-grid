@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "...bc.....f.b..fc..b...c.",
+  "roomNames": [
+    "Tea Pavilion",
+    "Fortune Teller",
+    "River Pagoda",
+    "Garden Courtyard"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bea the boatman",
+    "Vera the village magistrate",
+    "Clara the calligrapher",
+    "Dora the drummer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "cushion"
+    ],
+    [
+      3,
+      "next",
+      "lantern"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "teacart",
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

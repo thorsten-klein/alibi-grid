@@ -1,0 +1,206 @@
+{
+  "size": 11,
+  "rooms": "0000111122200001111222000011112220000333322244443333222444433332225554444333355544443333555666677775556666777755566667777",
+  "objects": "...bf...e.b..e.f.ca.....ed..da....b.b...f....b.b..........afe..af...b.f.bb.c.bf.d.....c..e....db..a.fc.......b........d..",
+  "roomNames": [
+    "Glacier Overlook",
+    "Souvenir Kiosk",
+    "Ski Patrol Shack",
+    "Observation Terrace",
+    "Transformer Vault",
+    "Staff Bunkhouse",
+    "Funicular Car B",
+    "Valley Terminal"
+  ],
+  "people": [
+    "Albert the alpine guide",
+    "Victor the visiting vip",
+    "Bruno the billeter",
+    "Carl the cable splicer",
+    "Dexter the doctor",
+    "Elias the excursionist",
+    "Felix the first aider",
+    "Gus the gearbox tech",
+    "Hugo the hiker",
+    "Igor the instructor",
+    "Jasper the junior patrol"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "generator"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "winch"
+    ],
+    [
+      2,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "next",
+      "generator"
+    ],
+    [
+      6,
+      "next",
+      "winch"
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ],
+    [
+      9,
+      "same",
+      7
+    ],
+    [
+      9,
+      "col",
+      0
+    ],
+    [
+      9,
+      "same",
+      10
+    ],
+    [
+      10,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    9,
+    18,
+    26,
+    38,
+    47,
+    61,
+    76,
+    79,
+    96,
+    99,
+    111
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      29,
+      40
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      85,
+      96
+    ],
+    [
+      56,
+      67
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      116,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      44,
+      "l"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      119,
+      "b"
+    ],
+    [
+      120,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 28,
+  "facts": [
+    [
+      "onCount",
+      "bench",
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 7,
+  "steps": 50,
+  "extra": true
+}

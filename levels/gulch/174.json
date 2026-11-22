@@ -1,0 +1,257 @@
+{
+  "size": 12,
+  "rooms": "000000001111000000001111222333001111222333001111222333444444222333444444555566667788555566667788555566667788555566667788555566667788555566667788",
+  "objects": "fdb....b....d.a.....fe.e.........f...b..d.bb.c.....da.....c........bd.a.f..b...e.f....e...aa......fdbc....b....cb.b.....e..c......bcd..b...d...f",
+  "roomNames": [
+    "Telegraph Office",
+    "Mine",
+    "Church",
+    "Saloon",
+    "Barber",
+    "Corral",
+    "Jail",
+    "Hotel",
+    "General Store"
+  ],
+  "people": [
+    "Ada the attorney",
+    "Victor the vet",
+    "Bea the banker",
+    "Celia the cook",
+    "Dmitri the deputy",
+    "Elias the editor",
+    "Felix the farmer",
+    "Gus the gunsmith",
+    "Hugo the homesteader",
+    "Igor the inventor",
+    "Juno the jailer",
+    "Kitty the knife thrower"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "bed"
+    ],
+    [
+      2,
+      "next",
+      "horse"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "cactus"
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "notRoom",
+      8
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      5,
+      "bandit"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      6,
+      "bandit"
+    ],
+    [
+      7,
+      "next",
+      "piano"
+    ],
+    [
+      8,
+      "notRoom",
+      6
+    ],
+    [
+      8,
+      "door"
+    ],
+    [
+      9,
+      "on",
+      "bed"
+    ],
+    [
+      9,
+      "alone"
+    ],
+    [
+      10,
+      "next",
+      "barrel"
+    ],
+    [
+      11,
+      "same",
+      7
+    ],
+    [
+      11,
+      "next",
+      "barrel"
+    ],
+    [
+      11,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    19,
+    32,
+    41,
+    59,
+    60,
+    82,
+    85,
+    105,
+    114,
+    122,
+    135
+  ],
+  "doors": [
+    [
+      43,
+      44
+    ],
+    [
+      14,
+      26
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      43,
+      55
+    ],
+    [
+      45,
+      57
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      62,
+      74
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      63,
+      75
+    ],
+    [
+      64,
+      76
+    ],
+    [
+      66,
+      78
+    ],
+    [
+      68,
+      80
+    ],
+    [
+      71,
+      83
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      84,
+      "l"
+    ],
+    [
+      107,
+      "r"
+    ],
+    [
+      135,
+      "b"
+    ],
+    [
+      143,
+      "r"
+    ]
+  ],
+  "tries": 26,
+  "facts": [
+    [
+      "nextCount",
+      "bed",
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 3,
+  "lawful": [
+    0,
+    6
+  ],
+  "hard": 10,
+  "hardest": 8,
+  "steps": 57,
+  "extra": true
+}

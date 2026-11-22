@@ -1,0 +1,102 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".b..b..e......ad.........",
+  "roomNames": [
+    "Deep Winze",
+    "Assay Office",
+    "Timber Storage",
+    "Shift Boss Office"
+  ],
+  "people": [
+    "Alma the axeman",
+    "Bella the blaster",
+    "Viola the venture capitalist",
+    "Cora the carpenter",
+    "Daisy the dynamite handler"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "keg"
+    ],
+    [
+      3,
+      "notRoom",
+      2
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    9,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      11,
+      12
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "dynamite",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 18,
+  "group": 3
+}

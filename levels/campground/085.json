@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211223344223344223344",
+  "objects": "....b...c..c....b....eaab...ec.a....",
+  "roomNames": [
+    "Lake Shore",
+    "Arts Shed",
+    "Archery Range",
+    "Campfire Clearing",
+    "Bunkhouse Beta"
+  ],
+  "people": [
+    "Arthur the archery instructor",
+    "Basil the boating coach",
+    "Cedric the camp counselor",
+    "Vince the veteran camp owner",
+    "Dmitri the drama coach",
+    "Edgar the ecology guide"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "table"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "col",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      1
+    ],
+    [
+      4,
+      "room",
+      3
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    15,
+    19,
+    26,
+    34
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "extra": true
+}

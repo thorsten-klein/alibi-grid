@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222001112220011133244455332444553324445533244455",
+  "objects": "..a.b...f..ca.b..cbf.b..e.a.b.......cba.af........c.a...c.fa....",
+  "roomNames": [
+    "Dormitory",
+    "Chapter House",
+    "Abbey Church",
+    "Cloister Walk",
+    "Scriptorium",
+    "Bell Tower"
+  ],
+  "people": [
+    "Astrid the abbot",
+    "Birgit the bellringer",
+    "Celia the cellarer",
+    "Della the doorkeeper",
+    "Ena the exorcist",
+    "Flora the forester",
+    "Vivian the visiting cardinal",
+    "Grace the gardener"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "palliasse"
+    ],
+    [
+      1,
+      "next",
+      "altar"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "palliasse"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "reliquary"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bellrope"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "stall"
+    ]
+  ],
+  "solution": [
+    6,
+    10,
+    21,
+    25,
+    39,
+    40,
+    51,
+    60
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "onCount",
+      "palliasse",
+      1
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 29,
+  "extra": true
+}

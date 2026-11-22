@@ -1,0 +1,118 @@
+{
+  "size": 5,
+  "rooms": "0011100111002223322233222",
+  "objects": "..a.b.fd.f...be.f..c....c",
+  "roomNames": [
+    "Hotel",
+    "Livery",
+    "Jail",
+    "Mine"
+  ],
+  "people": [
+    "Albert the auctioneer",
+    "Vera the vet",
+    "Basil the banker",
+    "Cedric the cattle driver",
+    "Della the deputy"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "notRoom",
+      3
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "door"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    2
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
+  "extra": true
+}

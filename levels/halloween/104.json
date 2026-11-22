@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".b...d....cf...b....a.aa.b...d.d.a.be..c..b.b..e.",
+  "roomNames": [
+    "Costume Ballroom",
+    "Apple Bobbing Hall",
+    "Witch Parlor",
+    "Front Porch",
+    "Occult Library"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the black cat breeder",
+    "Vera the veteran manor heir",
+    "Clara the costume designer",
+    "Dora the diviner",
+    "Edith the embalmer",
+    "Freya the fortune teller"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "swing"
+    ],
+    [
+      3,
+      "on",
+      "swing"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      6,
+      "notRoom",
+      2
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    19,
+    25,
+    30,
+    41,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      11,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "pumpkin",
+      0
+    ],
+    [
+      "nextCount",
+      "coffin",
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

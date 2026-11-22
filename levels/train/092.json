@@ -1,0 +1,124 @@
+{
+  "size": 6,
+  "rooms": "000011000011222011222011334444334444",
+  "objects": "..e...a..b..d....bb...d.d........cb.",
+  "roomNames": [
+    "Dining Car",
+    "Sleeper A",
+    "Sleeper C",
+    "Corridor",
+    "Mail Car"
+  ],
+  "people": [
+    "Arthur the accordionist",
+    "Vince the vendor",
+    "Bea the bookseller",
+    "Clara the courier",
+    "Dmitri the diplomat",
+    "Elias the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "next",
+      "bunk"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "suitcase"
+    ],
+    [
+      5,
+      "next",
+      "crate"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    16,
+    20,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

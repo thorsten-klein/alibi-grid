@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".aaf.e...dad..ca....b.bb.......f..a.f....f....b..",
+  "roomNames": [
+    "Kitchen",
+    "Records Archive",
+    "Operating Theater",
+    "Reception Hall",
+    "Morgue"
+  ],
+  "people": [
+    "Albert the attendant",
+    "Victor the visiting superintendent",
+    "Bruno the bacteriologist",
+    "Carl the caregiver",
+    "Dexter the dentist",
+    "Elias the examiner",
+    "Felix the forensic pathologist"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "xray"
+    ],
+    [
+      1,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "next",
+      "wheelchair"
+    ],
+    [
+      3,
+      "on",
+      "bed"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "archive"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    8,
+    17,
+    23,
+    32,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
+  "extra": true
+}

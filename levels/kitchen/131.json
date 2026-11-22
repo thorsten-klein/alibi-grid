@@ -1,0 +1,169 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222000011222334445566334445566334445566334445566334445566334445566",
+  "objects": "....b......f...d....ef.b......ea..bfd.....a.....c..a...b...caf....bba..ce..f.....",
+  "roomNames": [
+    "Main Dining Room",
+    "Herb Garden",
+    "Hostess Foyer",
+    "Pastry Kitchen",
+    "Chef Private Office",
+    "Walk In Cooler",
+    "Plating Line"
+  ],
+  "people": [
+    "Alma the apprentice chef",
+    "Bella the baker",
+    "Cora the chef de cuisine",
+    "Viola the vip dining critic",
+    "Daisy the dishwasher",
+    "Elsa the expediter",
+    "Fiona the fishmonger",
+    "Gwen the garde manger",
+    "Hazel the host"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "block"
+    ],
+    [
+      2,
+      "same",
+      1
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "cooktop"
+    ],
+    [
+      6,
+      "next",
+      "cooktop"
+    ],
+    [
+      6,
+      "next",
+      "banquette"
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ],
+    [
+      8,
+      "next",
+      "espresso"
+    ]
+  ],
+  "solution": [
+    0,
+    16,
+    26,
+    32,
+    40,
+    47,
+    57,
+    69,
+    73
+  ],
+  "doors": [
+    [
+      21,
+      22
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      45,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

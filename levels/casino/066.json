@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "...e...f.b.ee....f.d..ec.",
+  "roomNames": [
+    "Cashier Cage",
+    "Cocktail Bar",
+    "Valet Booth",
+    "Parking Garage"
+  ],
+  "people": [
+    "Alma the accountant",
+    "Bella the baccarat dealer",
+    "Viola the vip gambler",
+    "Cora the croupier",
+    "Daisy the dice inspector"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "table"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "wheel"
+    ],
+    [
+      4,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      15,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

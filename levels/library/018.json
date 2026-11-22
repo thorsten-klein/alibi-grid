@@ -1,0 +1,131 @@
+{
+  "size": 6,
+  "rooms": "000111000111223333223333224444224444",
+  "objects": ".....f.cbb...a..fb...f...f..f.c...aa",
+  "roomNames": [
+    "Geometry Hall",
+    "Great Peristyle",
+    "Lecture Theater",
+    "Papyrus Vault",
+    "Courtyard Fountain"
+  ],
+  "people": [
+    "Albert the archivist",
+    "Bruno the bookbinder",
+    "Carl the cartographer",
+    "Victor the veteran sage",
+    "Dexter the doctor",
+    "Elias the educator"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      1,
+      "on",
+      "mat"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      5,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    18,
+    29,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      20,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "onCount",
+      "mat",
+      1
+    ],
+    [
+      "furniture",
+      null,
+      3
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 20,
+  "group": 2
+}

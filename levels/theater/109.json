@@ -1,0 +1,130 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": ".fe....b..c......a..ba.c.........c.b.......d.....",
+  "roomNames": [
+    "Orchestra Pit",
+    "Lighting Booth",
+    "Prop Store",
+    "Stage",
+    "Box Office"
+  ],
+  "people": [
+    "Alma the agent",
+    "Viola the ventriloquist",
+    "Bella the bass player",
+    "Cora the critic",
+    "Dexter the dancer",
+    "Elsa the extra",
+    "Fiona the fan"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "piano"
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "col",
+      4
+    ],
+    [
+      5,
+      "same",
+      4
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    3,
+    9,
+    15,
+    27,
+    32,
+    40,
+    42
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "l"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "extra": true
+}

@@ -1,0 +1,119 @@
+{
+  "size": 6,
+  "rooms": "000011000011000011223344223344223344",
+  "objects": "fc.d.....b.bc.f...cf..eb..b...eb.b..",
+  "roomNames": [
+    "Airlock",
+    "Med Bay",
+    "Engine Room",
+    "Lab",
+    "Gym"
+  ],
+  "people": [
+    "Alma the astronaut",
+    "Vivian the visitor",
+    "Bella the biologist",
+    "Celia the captain",
+    "Dmitri the doctor",
+    "Ena the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "console"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "plant"
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    16,
+    23,
+    24,
+    31
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

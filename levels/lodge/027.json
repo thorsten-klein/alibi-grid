@@ -1,0 +1,131 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".f..bf...a...f...c......d.........daa...bae...d..",
+  "roomNames": [
+    "Kitchen",
+    "Fireside Lounge",
+    "Spa",
+    "Suite",
+    "Bar"
+  ],
+  "people": [
+    "Ada the athlete",
+    "Bella the bartender",
+    "Carl the cook",
+    "Dexter the doctor",
+    "Vivian the vet",
+    "Edith the explorer",
+    "Frank the fisher"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    10,
+    14,
+    26,
+    29,
+    41,
+    44
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ]
+  ],
+  "facts": [
+    [
+      "nextCount",
+      "wood",
+      1
+    ],
+    [
+      "alone",
+      null,
+      3
+    ]
+  ],
+  "tries": 6,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 23,
+  "group": 3
+}

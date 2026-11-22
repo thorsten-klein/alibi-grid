@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112222233333",
+  "objects": "b....f....a..b.....ac.ab.",
+  "roomNames": [
+    "Pharmacy",
+    "Operating Theater",
+    "Kitchen",
+    "Doctor Office"
+  ],
+  "people": [
+    "Arthur the anesthetist",
+    "Vince the victim of illness",
+    "Basil the biochemist",
+    "Cedric the chief surgeon",
+    "Dmitri the doctor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "bed"
+    ],
+    [
+      2,
+      "on",
+      "bed"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    7,
+    13,
+    16,
+    24
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      21
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      20,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

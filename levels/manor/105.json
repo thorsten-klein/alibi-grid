@@ -1,0 +1,136 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "........ad...................bc...db.....db...fe.",
+  "roomNames": [
+    "Pantry",
+    "Billiard Room",
+    "Kitchen",
+    "Chapel",
+    "Library"
+  ],
+  "people": [
+    "Ada the architect",
+    "Bea the banker",
+    "Vera the valet",
+    "Cora the colonel",
+    "Dora the doctor",
+    "Edgar the editor",
+    "Freya the florist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      5,
+      "same",
+      6
+    ],
+    [
+      6,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    5,
+    8,
+    14,
+    27,
+    32,
+    37,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      28,
+      35
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      0
+    ]
+  ],
+  "extra": true
+}

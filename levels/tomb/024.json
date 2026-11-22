@@ -1,0 +1,99 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".....eb..........c...b.c.",
+  "roomNames": [
+    "Granary",
+    "Workshop",
+    "Treasury",
+    "Boat Pit"
+  ],
+  "people": [
+    "Vera the vintner",
+    "Alma the astrologer",
+    "Bruno the brewer",
+    "Celia the chanter",
+    "Dora the diviner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "couch"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ],
+    [
+      14,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "urn",
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "C........L........L......",
+  "hard": 8,
+  "hardest": 4,
+  "steps": 21,
+  "group": 3
+}

@@ -1,0 +1,151 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112223331122233311222333114445555544455555",
+  "objects": "..b..c....ea.f.....ff...........d.ad..eb..e....a.c..baaf....d...",
+  "roomNames": [
+    "Gatehouse",
+    "Solar",
+    "Courtyard",
+    "Chapel",
+    "Throne Room",
+    "Dungeon"
+  ],
+  "people": [
+    "Albert the archer",
+    "Bea the bard",
+    "Cora the chronicler",
+    "Daisy the dancer",
+    "Elsa the envoy",
+    "Frank the farrier",
+    "Vivian the vintner",
+    "Grace the glassmaker"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "next",
+      "swords"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "cot"
+    ],
+    [
+      7,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    23,
+    26,
+    37,
+    44,
+    51,
+    62
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      17,
+      25
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      58,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3,
+    5
+  ],
+  "rank": "kkkcknkn",
+  "extra": true
+}

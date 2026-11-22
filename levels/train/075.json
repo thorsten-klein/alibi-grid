@@ -1,0 +1,107 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "...b..b......e........f..",
+  "roomNames": [
+    "Corridor",
+    "Bar Car",
+    "Sleeper B",
+    "Galley"
+  ],
+  "people": [
+    "Albert the accordionist",
+    "Bella the banker",
+    "Cedric the conductor",
+    "Vince the vendor",
+    "Dora the dentist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      3
+    ],
+    [
+      0,
+      "notRoom",
+      1
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    10,
+    16,
+    23
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "r"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      0
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222223332222233322222333444445554444455544444555",
+  "objects": "d.e....b.df.........ac...f............ac......d...........b.c...",
+  "roomNames": [
+    "Telegraph Office",
+    "Jail",
+    "Hotel",
+    "Mine",
+    "Corral",
+    "Saloon"
+  ],
+  "people": [
+    "Alma the auctioneer",
+    "Basil the banker",
+    "Vera the vet",
+    "Cora the cook",
+    "Della the deputy",
+    "Edith the editor",
+    "Flora the farmer",
+    "Gus the gunsmith"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "window"
+    ],
+    [
+      0,
+      "withBandit"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "next",
+      "horse"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "withBandit"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    5,
+    14,
+    18,
+    31,
+    33,
+    43,
+    52,
+    56
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      44,
+      45
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 10,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      2
+    ],
+    [
+      "nextCount",
+      "horse",
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 29,
+  "extra": true
+}

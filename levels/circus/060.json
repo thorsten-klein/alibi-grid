@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011223332233322333",
+  "objects": "...bb.fb..d.a.be.d.......",
+  "roomNames": [
+    "Dressing Trailer",
+    "Sideshow Alley",
+    "Big Top",
+    "Carousel"
+  ],
+  "people": [
+    "Ada the acrobat",
+    "Bea the barker",
+    "Vera the ventriloquist",
+    "Clara the clown",
+    "Dora the daredevil"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "crystal"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "mat"
+    ],
+    [
+      4,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    12,
+    19,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "r"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "corner",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 14,
+  "extra": true
+}

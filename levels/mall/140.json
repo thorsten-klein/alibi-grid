@@ -1,0 +1,190 @@
+{
+  "size": 10,
+  "rooms": "0001112222000111222200011133330001113333444444555544444455554466665555446666555566666677776666667777",
+  "objects": ".c.......c.f...c..f.........acca.b.efe..........a..........a.b..........d.c.d...d...d......f.df.b.d.",
+  "roomNames": [
+    "Skate Shop",
+    "Cinema Lobby",
+    "Food Court",
+    "Department Store",
+    "Toy Emporium",
+    "Security Office",
+    "Atrium Fountain",
+    "Record Store"
+  ],
+  "people": [
+    "Astrid the arcade manager",
+    "Birgit the barista",
+    "Celia the cinema projectionist",
+    "Della the department manager",
+    "Ena the escalator mechanic",
+    "Flora the fry cook",
+    "Vivian the veteran mall owner",
+    "Grace the greeter",
+    "Hana the hair stylist",
+    "Isla the ice cream scooper"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "room",
+      2
+    ],
+    [
+      1,
+      "next",
+      "mannequin"
+    ],
+    [
+      2,
+      "next",
+      "mannequin"
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "gate"
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      7,
+      "next",
+      "photobench"
+    ],
+    [
+      8,
+      "next",
+      "gumball"
+    ],
+    [
+      9,
+      "next",
+      "gumball"
+    ],
+    [
+      9,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    7,
+    12,
+    26,
+    38,
+    45,
+    50,
+    64,
+    71,
+    83,
+    99
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      79,
+      89
+    ],
+    [
+      95,
+      96
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      59,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "tries": 5,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

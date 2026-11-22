@@ -1,0 +1,154 @@
+{
+  "size": 8,
+  "rooms": "0001112200011122000111220001112233333333333333334444555544445555",
+  "objects": "fcfa.e.aea.bac......e......da...cc..e..b...b.c..b...d..a.dab..b.",
+  "roomNames": [
+    "Chapter House",
+    "Cloister Walk",
+    "Abbey Church",
+    "Dormitory",
+    "Cellar",
+    "Herb Garden"
+  ],
+  "people": [
+    "Arthur the almoner",
+    "Basil the brewer",
+    "Cedric the cantor",
+    "Dmitri the document copyist",
+    "Edgar the elder brother",
+    "Vince the vicar general",
+    "Frank the friar",
+    "Gideon the glass painter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "on",
+      "stall"
+    ],
+    [
+      1,
+      "on",
+      "palliasse"
+    ],
+    [
+      2,
+      "next",
+      "reliquary"
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      4,
+      "col",
+      2
+    ],
+    [
+      5,
+      "next",
+      "altar"
+    ],
+    [
+      6,
+      "next",
+      "palliasse"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "next",
+      "lectern"
+    ]
+  ],
+  "solution": [
+    7,
+    11,
+    16,
+    29,
+    34,
+    46,
+    49,
+    60
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      43,
+      51
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "stall",
+      1
+    ],
+    [
+      "alone",
+      null,
+      4
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

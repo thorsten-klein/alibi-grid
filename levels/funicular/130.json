@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000011222000011222333311222333311222444444555444444555444444555666666555666666555",
+  "objects": ".effd.......f......c....d.....f..a...f.f.....cc.........ba..c..a..c...c..b.b..a..",
+  "roomNames": [
+    "Transformer Vault",
+    "Funicular Car B",
+    "Observation Terrace",
+    "Ski Patrol Shack",
+    "Sheave Tower",
+    "Funicular Car A",
+    "Upper Engine Room"
+  ],
+  "people": [
+    "Astrid the alpine guide",
+    "Birgit the billeter",
+    "Vivian the visiting vip",
+    "Celia the cable splicer",
+    "Della the doctor",
+    "Ena the excursionist",
+    "Flora the first aider",
+    "Grace the gearbox tech",
+    "Hana the hiker"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "skirack"
+    ],
+    [
+      1,
+      "next",
+      "generator"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "same",
+      4
+    ],
+    [
+      7,
+      "next",
+      "winch"
+    ],
+    [
+      8,
+      "next",
+      "bench"
+    ],
+    [
+      8,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    26,
+    34,
+    40,
+    48,
+    56,
+    69,
+    72
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      21
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      31,
+      40
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      27,
+      36
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      9,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      53,
+      "r"
+    ],
+    [
+      75,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 25,
+  "extra": true
+}

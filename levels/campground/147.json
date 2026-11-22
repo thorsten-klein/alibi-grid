@@ -1,0 +1,215 @@
+{
+  "size": 11,
+  "rooms": "0000111111100001111111000011222220000112222233333322222333333222224444455666644444556666777775566667777755666677777556666",
+  "objects": "f.e.f..aee.c..d.a....b.f..a....cd.......b.dcc..a.d.c...a.a.c....cb..ca...a.e............a..e..f.aac......a...........d..c",
+  "roomNames": [
+    "Mess Hall",
+    "Counselor Cabin",
+    "Director Office",
+    "Archery Range",
+    "Infirmary",
+    "Bunkhouse Alpha",
+    "Shower Block",
+    "Campfire Clearing"
+  ],
+  "people": [
+    "Ada the archery instructor",
+    "Bea the boating coach",
+    "Clara the camp counselor",
+    "Dora the drama coach",
+    "Edith the ecology guide",
+    "Freya the fisher",
+    "Greta the groundskeeper",
+    "Hilda the head counselor",
+    "Ivy the instructor",
+    "Vera the veteran camp owner",
+    "Jade the junior counselor"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "chair"
+    ],
+    [
+      0,
+      "next",
+      "fire"
+    ],
+    [
+      1,
+      "next",
+      "fire"
+    ],
+    [
+      2,
+      "next",
+      "canoes"
+    ],
+    [
+      3,
+      "next",
+      "bunk"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "canoes"
+    ],
+    [
+      5,
+      "on",
+      "bunk"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "on",
+      "chair"
+    ],
+    [
+      10,
+      "row",
+      10
+    ],
+    [
+      10,
+      "col",
+      2
+    ]
+  ],
+  "solution": [
+    7,
+    20,
+    25,
+    41,
+    48,
+    65,
+    72,
+    78,
+    88,
+    104,
+    112
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      65,
+      76
+    ],
+    [
+      57,
+      68
+    ],
+    [
+      60,
+      71
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      81,
+      92
+    ],
+    [
+      116,
+      117
+    ],
+    [
+      92,
+      93
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      21,
+      "r"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      43,
+      "r"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      88,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "board",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 7,
+  "hardest": 3,
+  "steps": 38,
+  "extra": true
+}

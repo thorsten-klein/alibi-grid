@@ -1,0 +1,123 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "......ebf...e...da..ee..cf...........ba.....d..ba",
+  "roomNames": [
+    "Cockpit Bridge",
+    "Smoking Lounge",
+    "Port Engine Gondola",
+    "Radio Cabin",
+    "Galley"
+  ],
+  "people": [
+    "Vivian the vip diplomat",
+    "Astrid the aristocrat",
+    "Birgit the boatswain",
+    "Celia the chief rigger",
+    "Della the doctor",
+    "Ena the envoy",
+    "Flora the flight steward"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "on",
+      "berth"
+    ],
+    [
+      2,
+      "on",
+      "armchair"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "armchair"
+    ],
+    [
+      6,
+      "next",
+      "berth"
+    ]
+  ],
+  "solution": [
+    1,
+    7,
+    17,
+    26,
+    32,
+    37,
+    48
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

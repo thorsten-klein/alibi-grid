@@ -1,0 +1,117 @@
+{
+  "size": 7,
+  "rooms": "0000122000012200001223333122333312244441224444122",
+  "objects": "....a.d..d...cc.abc...a...b.e...ab.b........ebd..",
+  "roomNames": [
+    "Sentry Tower",
+    "Armory",
+    "Stables",
+    "Falconry Yard",
+    "Shrine"
+  ],
+  "people": [
+    "Vera the veteran general",
+    "Ada the archer",
+    "Bea the bushi warrior",
+    "Clara the calligrapher",
+    "Dora the daimyo",
+    "Edith the envoy",
+    "Freya the falconer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "next",
+      "futon"
+    ],
+    [
+      5,
+      "next",
+      "shoji"
+    ],
+    [
+      6,
+      "on",
+      "futon"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    15,
+    23,
+    34,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      29,
+      36
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "hard": 7,
+  "hardest": 5,
+  "steps": 18,
+  "extra": true
+}

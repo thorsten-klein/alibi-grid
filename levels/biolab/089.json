@@ -1,0 +1,110 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111222222333344333344",
+  "objects": ".fa.......d....ad.a...c...b........f",
+  "roomNames": [
+    "Cryo Storage",
+    "Server Farm",
+    "Cleanroom 2",
+    "Breakroom",
+    "Decon Airlock"
+  ],
+  "people": [
+    "Albert the analyst",
+    "Bruno the biochemist",
+    "Victor the virology head",
+    "Carl the chief scientist",
+    "Dexter the dna sequencer",
+    "Elias the epidemiologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    15,
+    19,
+    24,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "hard": 4,
+  "hardest": 3,
+  "steps": 17,
+  "extra": true
+}

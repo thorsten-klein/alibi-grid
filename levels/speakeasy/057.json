@@ -1,0 +1,92 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "c.f.bd.daa....d...debebe.",
+  "roomNames": [
+    "Hidden Alleyway",
+    "Tailor Front",
+    "Private Booths",
+    "Manager Office"
+  ],
+  "people": [
+    "Albert the accordionist",
+    "Victor the voice of syndicate",
+    "Bruno the bartender",
+    "Carl the crooner",
+    "Dexter the drummer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "booth"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "roulette"
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    10,
+    16,
+    22
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      0
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
+  "extra": true
+}

@@ -1,0 +1,161 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222233333222233333444433333444455555666655555666655555",
+  "objects": "b......ff...bb.....b.a..afc...fa.....e..c.....b......ae..b..a...b..b.....b..dbf.e",
+  "roomNames": [
+    "Tower",
+    "Solar",
+    "Kitchen",
+    "Courtyard",
+    "Throne Room",
+    "Armory",
+    "Gatehouse"
+  ],
+  "people": [
+    "Alma the alchemist",
+    "Bea the bard",
+    "Cedric the cupbearer",
+    "Viola the verger",
+    "Dexter the dancer",
+    "Edgar the envoy",
+    "Freya the farrier",
+    "Grace the groom",
+    "Hana the herald"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "urn"
+    ],
+    [
+      2,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "candles"
+    ],
+    [
+      8,
+      "window"
+    ]
+  ],
+  "solution": [
+    5,
+    16,
+    24,
+    27,
+    39,
+    46,
+    62,
+    67,
+    74
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      75,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 21,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      0
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1,
+    6
+  ],
+  "rank": "nnnkckccn",
+  "extra": true
+}

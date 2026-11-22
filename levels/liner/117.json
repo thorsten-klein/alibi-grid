@@ -1,0 +1,149 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022223333222233332222444455554444555544445555",
+  "objects": "d.e..dcf.....d...ac...d.ece....d....de.........c..f.f.ccbab.fc..",
+  "roomNames": [
+    "Steerage Quarters",
+    "Bridge",
+    "Promenade Deck",
+    "First Class Lounge",
+    "Stateroom A",
+    "Boiler Room"
+  ],
+  "people": [
+    "Arthur the admiral",
+    "Vince the voyage sponsor",
+    "Basil the boatswain",
+    "Cedric the captain",
+    "Dmitri the deckhand",
+    "Edgar the electrician",
+    "Frank the first mate",
+    "Gideon the guest of honor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "lifeboat"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "lifeboat"
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      6,
+      "next",
+      "luggage"
+    ],
+    [
+      7,
+      "next",
+      "deckchair"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    20,
+    29,
+    39,
+    46,
+    51,
+    58
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      18,
+      26
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      37,
+      45
+    ],
+    [
+      35,
+      43
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "telegraph",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 20,
+  "extra": true
+}

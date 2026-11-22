@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111333444333444",
+  "objects": ".ea.........d....aa.....b.a......ab.",
+  "roomNames": [
+    "Balcony",
+    "Lighting Booth",
+    "Bar",
+    "Box Office",
+    "Stage"
+  ],
+  "people": [
+    "Ada the agent",
+    "Bruno the bass player",
+    "Viola the violinist",
+    "Cedric the critic",
+    "Della the dancer",
+    "Elias the extra"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "seat"
+    ],
+    [
+      1,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "notRoom",
+      3
+    ],
+    [
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    15,
+    23,
+    28,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 19,
+  "extra": true
+}

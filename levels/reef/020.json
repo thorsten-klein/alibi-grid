@@ -1,0 +1,147 @@
+{
+  "size": 8,
+  "rooms": "0000000000000000000000001112233311122333444223334445555544455555",
+  "objects": ".........................ad.c.daa...cbb......ff...d...ddfd..aca.",
+  "roomNames": [
+    "Open Sea",
+    "Lighthouse",
+    "Galleon",
+    "Brig",
+    "Sloop",
+    "Sea Cave"
+  ],
+  "people": [
+    "Ada the admiral",
+    "Basil the boatswain",
+    "Cora the cook",
+    "Dmitri the diver",
+    "Elsa the engineer",
+    "Freya the fiddler",
+    "Victor the vintner",
+    "Gus the gold digger"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "anchor"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    22,
+    27,
+    32,
+    42,
+    49,
+    63
+  ],
+  "doors": [
+    [
+      34,
+      35
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      47,
+      55
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      24,
+      "l"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 7,
+  "hardest": 5,
+  "steps": 21,
+  "group": 2
+}

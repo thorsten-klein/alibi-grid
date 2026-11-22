@@ -1,0 +1,208 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000001122223333311222233333112222333344555553333445555566664455555666644777776666447777766664477777",
+  "objects": "...c.b..e...cb..a.......f.....f.cd.be.....b.a...d.e.cf.c...b.dfc.b.a...a...d....b..................dd..........ca.da...ae",
+  "roomNames": [
+    "Fruit Orchard",
+    "Big Barn",
+    "Root Cellar",
+    "Tractor Garage",
+    "Hen House",
+    "Farmstand",
+    "Grain Silo",
+    "Milking Shed"
+  ],
+  "people": [
+    "Arthur the apple picker",
+    "Vince the vineyard leaseholder",
+    "Basil the beekeeper",
+    "Cedric the cattle rancher",
+    "Dmitri the dairy maid",
+    "Edgar the equipment operator",
+    "Frank the farmer",
+    "Gideon the grain miller",
+    "Henrik the harvester",
+    "Ivo the inspector",
+    "Jonas the jam maker"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "tractor"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "anvil"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "bale"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "on",
+      "rocker"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "next",
+      "tractor"
+    ],
+    [
+      7,
+      "on",
+      "rocker"
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      9
+    ],
+    [
+      8,
+      "same",
+      10
+    ],
+    [
+      9,
+      "next",
+      "scarecrow"
+    ],
+    [
+      10,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    15,
+    29,
+    38,
+    44,
+    65,
+    74,
+    80,
+    97,
+    101,
+    116
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      26,
+      37
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      49,
+      60
+    ],
+    [
+      50,
+      61
+    ],
+    [
+      53,
+      64
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      83,
+      94
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      11,
+      "l"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      66,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      112,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "hard": 6,
+  "hardest": 7,
+  "steps": 25,
+  "extra": true
+}

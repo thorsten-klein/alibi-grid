@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "df.......e..f..cb...b.....a........d",
+  "roomNames": [
+    "Sheriff Office",
+    "Livery",
+    "Hotel",
+    "Corral",
+    "Saloon"
+  ],
+  "people": [
+    "Vivian the vet",
+    "Arthur the attorney",
+    "Birgit the banker",
+    "Cora the cook",
+    "Dora the deputy",
+    "Edith the editor"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "horse"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "bandit"
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "cactus"
+    ]
+  ],
+  "solution": [
+    5,
+    7,
+    14,
+    18,
+    27,
+    34
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    1
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233331111333311114444555544445555",
+  "objects": "d.b....e........df..d.bb.b...e.b.ac.d.dac...a...db....c..b.a.d..",
+  "roomNames": [
+    "Main Dining Room",
+    "Chef Private Office",
+    "Herb Garden",
+    "Dishwashing Pit",
+    "Walk In Cooler",
+    "Pastry Kitchen"
+  ],
+  "people": [
+    "Ada the appetizer cook",
+    "Bea the butcher",
+    "Clara the chocolatier",
+    "Dora the dessert chef",
+    "Edith the executive chef",
+    "Vera the veteran restaurateur",
+    "Freya the fromager",
+    "Greta the grill cook"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "block"
+    ],
+    [
+      2,
+      "next",
+      "espresso"
+    ],
+    [
+      3,
+      "on",
+      "banquette"
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "cooktop"
+    ],
+    [
+      7,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    21,
+    25,
+    32,
+    46,
+    55,
+    59
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      62,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ],
+    [
+      "nextCount",
+      "block",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
+  "group": 1
+}

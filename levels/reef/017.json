@@ -1,0 +1,87 @@
+{
+  "size": 5,
+  "rooms": "0011100111221112211122333",
+  "objects": "..........c..........e...",
+  "roomNames": [
+    "Frigate",
+    "Open Sea",
+    "Longboat",
+    "Dock"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Basil the boatswain",
+    "Cedric the cook",
+    "Vivian the vintner",
+    "Dmitri the diver"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "col",
+      3
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ]
+  ],
+  "solution": [
+    3,
+    7,
+    11,
+    15,
+    24
+  ],
+  "doors": [
+    [
+      6,
+      11
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 1,
+  "hardest": 5,
+  "steps": 12,
+  "group": 2
+}

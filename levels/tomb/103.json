@@ -1,0 +1,118 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....b......beb......ac...a.......efe.d..fa......",
+  "roomNames": [
+    "Scribe Room",
+    "Sun Court",
+    "Granary",
+    "Well Shaft",
+    "Shrine"
+  ],
+  "people": [
+    "Alma the architect",
+    "Vince the vintner",
+    "Birgit the brewer",
+    "Cora the chanter",
+    "Daisy the diviner",
+    "Elias the embalmer",
+    "Frank the fanbearer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      2,
+      "next",
+      "rubble"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "rubble"
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    20,
+    26,
+    31,
+    39,
+    43
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "......L.C......................C...........L.....",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

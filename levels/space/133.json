@@ -1,0 +1,144 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222211112222333322223333444455554444555544445555",
+  "objects": "..bfefc.fa.ea..b.a...ef......c.ced...a.....e..bbc....c.f.cba....",
+  "roomNames": [
+    "Bridge",
+    "Gym",
+    "Comms",
+    "Med Bay",
+    "Airlock",
+    "Observatory"
+  ],
+  "people": [
+    "Ada the analyst",
+    "Bea the biologist",
+    "Viola the volunteer",
+    "Carl the chemist",
+    "Dora the driller",
+    "Edith the engineer",
+    "Flora the farmer",
+    "Grace the geologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "plant"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "pod"
+    ],
+    [
+      5,
+      "next",
+      "tank"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "console"
+    ]
+  ],
+  "solution": [
+    2,
+    13,
+    19,
+    25,
+    38,
+    47,
+    52,
+    56
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      51,
+      52
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      15,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 2,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
+  "extra": true
+}

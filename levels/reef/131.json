@@ -1,0 +1,131 @@
+{
+  "size": 8,
+  "rooms": "0011111100111111001111112222111122221111333344443333444433334444",
+  "objects": "d.......bb......a.......fb......b.e.....fdeab..af.e...dabd...e.a",
+  "roomNames": [
+    "Dock",
+    "Open Sea",
+    "Lighthouse",
+    "Frigate",
+    "Sea Cave"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Bruno the boatswain",
+    "Carl the cook",
+    "Dexter the diver",
+    "Edgar the engineer",
+    "Flora the fiddler",
+    "Vera the vintner",
+    "Gideon the gold digger"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "cannon"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "map"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    16,
+    25,
+    38,
+    44,
+    55,
+    58
+  ],
+  "doors": [
+    [
+      16,
+      24
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      43,
+      44
+    ]
+  ],
+  "windows": [
+    [
+      32,
+      "l"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "sea"
+  ],
+  "sea": 1,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

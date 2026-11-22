@@ -1,0 +1,162 @@
+{
+  "size": 9,
+  "rooms": "000111222000111222000111222333334444333334444335556666335556666335556666335556666",
+  "objects": "..a..d..ff.......b...e....b.....c.ba...e...f....d.c..d..cb.....b.dd.a...f..afe...",
+  "roomNames": [
+    "Dining Hall",
+    "Boot Room",
+    "Lobby",
+    "Fireside Lounge",
+    "Sauna",
+    "Ski Room",
+    "Bar"
+  ],
+  "people": [
+    "Arthur the avalanche guard",
+    "Bella the bartender",
+    "Cora the cook",
+    "Dora the doctor",
+    "Victor the vlogger",
+    "Edgar the explorer",
+    "Flora the fisher",
+    "Gus the guide",
+    "Henrik the hotelier"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "tree"
+    ],
+    [
+      2,
+      "next",
+      "wood"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      5,
+      "next",
+      "fire"
+    ],
+    [
+      6,
+      "window"
+    ],
+    [
+      6,
+      "same",
+      8
+    ],
+    [
+      7,
+      "on",
+      "chair"
+    ],
+    [
+      8,
+      "same",
+      7
+    ]
+  ],
+  "solution": [
+    4,
+    12,
+    18,
+    29,
+    37,
+    52,
+    62,
+    68,
+    78
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      38,
+      47
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      49,
+      50
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "skis",
+      0
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 22,
+  "extra": true
+}

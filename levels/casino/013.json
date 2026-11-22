@@ -1,0 +1,203 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000222334444422233444442223344444222335555666777555566677755556667775555666777",
+  "objects": "........e..cec.....e............b..bac.....f..fa.a.b.....a............af.c.......d.......d..b....ae.",
+  "roomNames": [
+    "Cocktail Bar",
+    "Security Surveillance",
+    "Valet Booth",
+    "Main Casino Floor",
+    "Kitchen",
+    "High Roller Lounge",
+    "Parking Garage",
+    "Showgirl Dressing Room"
+  ],
+  "people": [
+    "Alma the accountant",
+    "Viola the vip gambler",
+    "Bella the baccarat dealer",
+    "Cora the croupier",
+    "Daisy the dice inspector",
+    "Elsa the entertainer",
+    "Fiona the floor manager",
+    "Gwen the gambler",
+    "Hazel the high roller",
+    "Ines the investigator"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "chaise"
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "stool"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "same",
+      6
+    ]
+  ],
+  "solution": [
+    6,
+    18,
+    24,
+    31,
+    49,
+    57,
+    60,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      16,
+      26
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      57,
+      67
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      50,
+      "l"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      93,
+      "b"
+    ],
+    [
+      99,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "wheel",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
+  "group": 1
+}

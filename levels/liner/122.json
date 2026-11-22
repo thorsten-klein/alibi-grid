@@ -1,0 +1,153 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+  "objects": "..b.b........af..b..cfa...bf..b..d....e.f.fea.b......da...a.c.b.",
+  "roomNames": [
+    "Turkish Bath",
+    "Boiler Room",
+    "Galley",
+    "Library",
+    "Stateroom A",
+    "Bridge"
+  ],
+  "people": [
+    "Arthur the aristocrat",
+    "Basil the bartender",
+    "Cedric the chief engineer",
+    "Dmitri the doctor",
+    "Edgar the envoy",
+    "Frank the fireman",
+    "Gideon the governess",
+    "Vince the valet"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "berth"
+    ],
+    [
+      2,
+      "on",
+      "deckchair"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "next",
+      "luggage"
+    ],
+    [
+      6,
+      "next",
+      "telegraph"
+    ],
+    [
+      7,
+      "next",
+      "lifeboat"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    28,
+    32,
+    41,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      30,
+      38
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      53,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      15,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 13,
+  "facts": [
+    [
+      "nextCount",
+      "lifeboat",
+      3
+    ],
+    [
+      "nextCount",
+      "luggage",
+      3
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 28,
+  "extra": true
+}

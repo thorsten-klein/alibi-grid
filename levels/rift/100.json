@@ -1,0 +1,109 @@
+{
+  "size": 7,
+  "rooms": "0000000111122211112223333222333322244442224444222",
+  "objects": "..a...bdc.....b.......c.b.....aa....e.a....b.....",
+  "roomNames": [
+    "Captain Cabin",
+    "Fort",
+    "Sea of Ages",
+    "Jail",
+    "Fire Pit"
+  ],
+  "people": [
+    "Alma the astronomer",
+    "Basil the bookbinder",
+    "Carl the chronicler",
+    "Della the dreamer",
+    "Elias the explorer",
+    "Felix the fortune teller",
+    "Vivian the visionary"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "log"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      4
+    ],
+    [
+      3,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    18,
+    21,
+    34,
+    37,
+    43
+  ],
+  "doors": [
+    [
+      2,
+      9
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      30,
+      37
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "ranks",
+    "sea"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "kncckcc",
+  "sea": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 16,
+  "extra": true
+}

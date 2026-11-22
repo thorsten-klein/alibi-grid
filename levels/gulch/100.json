@@ -1,0 +1,126 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": ".aa.de..a........da.eafe.a.defbc.b..",
+  "roomNames": [
+    "Hotel",
+    "Barber",
+    "Church",
+    "Bank",
+    "Telegraph Office"
+  ],
+  "people": [
+    "Astrid the auctioneer",
+    "Basil the blacksmith",
+    "Victor the vet",
+    "Celia the cattle driver",
+    "Daisy the deputy",
+    "Elsa the editor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      0,
+      "bandit"
+    ],
+    [
+      1,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "bed"
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    16,
+    18,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "cactus",
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    2
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

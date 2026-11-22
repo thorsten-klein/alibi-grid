@@ -1,0 +1,122 @@
+{
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "cd.c.d.d....c.d.ad...cd....ee...b..d",
+  "roomNames": [
+    "Boiler Cellar",
+    "Medieval Hall",
+    "Egyptian Wing",
+    "Loading Bay",
+    "Sculpture Court"
+  ],
+  "people": [
+    "Ada the archivist",
+    "Bea the bookkeeper",
+    "Clara the conservator",
+    "Vera the visiting donor",
+    "Dora the docent",
+    "Edith the evaluator"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "next",
+      "statue"
+    ],
+    [
+      2,
+      "next",
+      "sarcophagus"
+    ],
+    [
+      2,
+      "next",
+      "statue"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "window",
+      null
+    ],
+    [
+      5,
+      "col",
+      0
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    15,
+    23,
+    25,
+    30
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

@@ -1,0 +1,114 @@
+{
+  "size": 6,
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "........f.d........b..bbdd..d..e....",
+  "roomNames": [
+    "Makeup Room",
+    "Soundstage A",
+    "Green Room",
+    "Director Trailer",
+    "Catwalk"
+  ],
+  "people": [
+    "Victor the veteran producer",
+    "Albert the assistant director",
+    "Bruno the body double",
+    "Carl the choreographer",
+    "Dexter the diva",
+    "Elias the extra"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "light"
+    ],
+    [
+      1,
+      "next",
+      "boom"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "couch"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ]
+  ],
+  "solution": [
+    2,
+    9,
+    13,
+    22,
+    29,
+    30
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      34,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

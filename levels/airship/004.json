@@ -1,0 +1,142 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222222223333444433334444333344445555555555555555",
+  "objects": "..e.a..a..fb..db.....a....d.....ea...c.....e.....b....cc......f.",
+  "roomNames": [
+    "Galley",
+    "Port Engine Gondola",
+    "Promenade Deck",
+    "Smoking Lounge",
+    "Starboard Gondola",
+    "Cockpit Bridge"
+  ],
+  "people": [
+    "Ada the aeronaut",
+    "Bea the barman",
+    "Clara the captain",
+    "Dora the dirigible pilot",
+    "Edith the engine mechanic",
+    "Freya the first officer",
+    "Greta the gas bag inspector",
+    "Vera the vessel inventor"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "same",
+      1
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      1,
+      "col",
+      1
+    ],
+    [
+      2,
+      "next",
+      "armchair"
+    ],
+    [
+      3,
+      "next",
+      "column"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "next",
+      "ballast"
+    ],
+    [
+      6,
+      "next",
+      "berth"
+    ],
+    [
+      7,
+      "col",
+      4
+    ]
+  ],
+  "solution": [
+    0,
+    9,
+    22,
+    27,
+    39,
+    45,
+    50,
+    60
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      40,
+      48
+    ],
+    [
+      46,
+      54
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      55,
+      "r"
+    ],
+    [
+      59,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
+  "group": 0
+}

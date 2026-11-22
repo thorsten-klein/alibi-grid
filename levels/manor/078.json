@@ -1,0 +1,98 @@
+{
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": "..df..badd..e.aba........",
+  "roomNames": [
+    "Billiard Room",
+    "Conservatory",
+    "Kitchen",
+    "Cellar"
+  ],
+  "people": [
+    "Arthur the architect",
+    "Basil the butler",
+    "Celia the cook",
+    "Daisy the doctor",
+    "Vera the valet"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    5,
+    11,
+    18,
+    22
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      9,
+      "r"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 20,
+  "extra": true
+}

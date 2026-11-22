@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000011111000011111000011111222223333222223333224445566224445566224445566224445566",
+  "objects": ".e..........b.....afc..ecbb...cb.....a..e.fb.af.......f...a...a...fb..a..b....a..",
+  "roomNames": [
+    "Kitchen",
+    "Master Bedroom",
+    "Manor Terrace",
+    "Gatehouse",
+    "Wine Cave",
+    "Manor Library",
+    "Oak Barrel Cellar"
+  ],
+  "people": [
+    "Vera the vintner",
+    "Ada the agronomist",
+    "Bea the barrel cooper",
+    "Clara the cellar master",
+    "Dora the distributor",
+    "Edith the estate manager",
+    "Freya the field laborer",
+    "Greta the grape picker",
+    "Hilda the harvest coordinator"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "col",
+      5
+    ],
+    [
+      1,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "still"
+    ],
+    [
+      7,
+      "on",
+      "chair"
+    ],
+    [
+      8,
+      "room",
+      4
+    ],
+    [
+      8,
+      "next",
+      "still"
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    22,
+    29,
+    44,
+    51,
+    55,
+    70,
+    75
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      40,
+      49
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      78,
+      79
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      62,
+      "r"
+    ],
+    [
+      71,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "chair",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 26,
+  "extra": true
+}

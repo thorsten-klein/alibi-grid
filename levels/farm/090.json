@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222111222111334444334444",
+  "objects": "..ac.d..cd......bf..f.db.....b......",
+  "roomNames": [
+    "Pig Pen",
+    "Big Barn",
+    "Fruit Orchard",
+    "Tractor Garage",
+    "Hayloft"
+  ],
+  "people": [
+    "Alma the agronomist",
+    "Bella the barn hand",
+    "Cora the cider presser",
+    "Daisy the ditcher",
+    "Viola the veterinarian",
+    "Elsa the entomologist"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "on",
+      "bale"
+    ],
+    [
+      1,
+      "next",
+      "scarecrow"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "rocker"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    13,
+    18,
+    29,
+    33
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 16,
+  "extra": true
+}

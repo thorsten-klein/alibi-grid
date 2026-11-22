@@ -1,0 +1,145 @@
+{
+  "size": 8,
+  "rooms": "0000001100000011000000110000001122223333222233334444555544445555",
+  "objects": ".......e......b.....................a......a.ad..........a.a...f",
+  "roomNames": [
+    "Open Sea",
+    "Market",
+    "Frigate",
+    "Fort",
+    "Sloop",
+    "Longboat"
+  ],
+  "people": [
+    "Ada the armorer",
+    "Bruno the barkeep",
+    "Celia the cook",
+    "Dmitri the deckhand",
+    "Viola the vintner",
+    "Elsa the explorer",
+    "Flora the first mate",
+    "Gwen the gunner"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "hammock"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "col",
+      5
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      6,
+      "col",
+      3
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    18,
+    29,
+    39,
+    44,
+    51,
+    56
+  ],
+  "doors": [
+    [
+      30,
+      38
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      41,
+      49
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "r"
+    ],
+    [
+      32,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      56,
+      "l"
+    ],
+    [
+      61,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
+  "group": 0
+}

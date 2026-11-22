@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "..baaa........b.aff..ea.d",
+  "roomNames": [
+    "Saloon",
+    "Hotel",
+    "Corral",
+    "General Store"
+  ],
+  "people": [
+    "Viola the vet",
+    "Arthur the attorney",
+    "Basil the blacksmith",
+    "Clara the cattle driver",
+    "Della the dancer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "bandit"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "cactus"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    11,
+    15,
+    23
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      2
+    ]
+  ],
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 1,
+  "lawful": [
+    2
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
+  "extra": true
+}

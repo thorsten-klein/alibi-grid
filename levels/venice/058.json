@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0000000000111221112233333",
+  "objects": ".bc...a.a....a.a...c..e.c",
+  "roomNames": [
+    "Wine Cellar",
+    "Private Boudoir",
+    "Palazzo Chapel",
+    "Casino Ridotto"
+  ],
+  "people": [
+    "Ada the alchemist",
+    "Vera the visiting merchant",
+    "Bea the boat builder",
+    "Clara the carnival poet",
+    "Dora the diplomat"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "daybed"
+    ],
+    [
+      2,
+      "window",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      15,
+      20
+    ],
+    [
+      19,
+      24
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
+  "extra": true
+}

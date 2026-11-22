@@ -1,0 +1,155 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111223344442233444422334444555555555555555555555555",
+  "objects": "...df...c....da.......d...d.a.a.....ca..........................",
+  "roomNames": [
+    "Brig",
+    "Longboat",
+    "Tavern",
+    "Sloop",
+    "Galleon",
+    "Open Sea"
+  ],
+  "people": [
+    "Albert the admiral",
+    "Bruno the boatswain",
+    "Victor the voyager",
+    "Cedric the captain",
+    "Dmitri the deckhand",
+    "Ena the explorer",
+    "Felix the first mate",
+    "Greta the gold digger"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "anchor"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "alone"
+    ],
+    [
+      4,
+      "notRoom",
+      1
+    ],
+    [
+      5,
+      "col",
+      6
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      7,
+      "col",
+      3
+    ]
+  ],
+  "solution": [
+    0,
+    10,
+    21,
+    25,
+    39,
+    46,
+    52,
+    59
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      19,
+      20
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      16,
+      "l"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      24,
+      "l"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 5,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

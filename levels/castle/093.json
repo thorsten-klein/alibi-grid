@@ -1,0 +1,116 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122333111333444333444",
+  "objects": "cb..db.....d.db.d.....b..b.....b.a.b",
+  "roomNames": [
+    "Smithy",
+    "Kitchen",
+    "Armory",
+    "Dungeon",
+    "Chapel"
+  ],
+  "people": [
+    "Albert the archer",
+    "Bruno the baker",
+    "Viola the vintner",
+    "Celia the cupbearer",
+    "Dora the dancer",
+    "Elias the embroiderer"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    17,
+    19,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    1
+  ],
+  "rank": "nckckk",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

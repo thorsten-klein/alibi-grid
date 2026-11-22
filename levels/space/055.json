@@ -1,0 +1,88 @@
+{
+  "size": 5,
+  "rooms": "0011100111222223333333333",
+  "objects": "...f....cae...a........fd",
+  "roomNames": [
+    "Engine Room",
+    "Airlock",
+    "Bridge",
+    "Cargo Bay"
+  ],
+  "people": [
+    "Astrid the analyst",
+    "Birgit the botanist",
+    "Cora the captain",
+    "Della the doctor",
+    "Vera the visitor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      0,
+      "door"
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    2,
+    5,
+    14,
+    18,
+    21
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      12,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "r"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
+  "extra": true
+}

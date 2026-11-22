@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333444442222244444222225555666777555566677755556667775555666777",
+  "objects": "...........e..dfc.f..ebf..e..fe......a.e...aa.b..c.be..........b...f.f....bd....fd..d.c..e....a.....",
+  "roomNames": [
+    "Security Office",
+    "Record Store",
+    "Food Court",
+    "Service Corridors",
+    "Escalator Hub",
+    "Atrium Fountain",
+    "Photo Studio",
+    "Skate Shop"
+  ],
+  "people": [
+    "Ada the aerobics instructor",
+    "Bea the boutique clerk",
+    "Clara the cashier",
+    "Dora the disc jockey",
+    "Edith the eyewear stylist",
+    "Freya the fashionista",
+    "Greta the guard",
+    "Hilda the head of security",
+    "Vera the visiting store inspector",
+    "Ivy the informant"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "mannequin"
+    ],
+    [
+      1,
+      "next",
+      "photobench"
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "gate"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "plasticchair"
+    ],
+    [
+      4,
+      "next",
+      "photobench"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "on",
+      "photobench"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "on",
+      "photobench"
+    ],
+    [
+      7,
+      "next",
+      "gumball"
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "next",
+      "gate"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    20,
+    38,
+    41,
+    56,
+    63,
+    74,
+    87,
+    99
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      96,
+      97
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

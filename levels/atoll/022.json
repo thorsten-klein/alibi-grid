@@ -1,0 +1,200 @@
+{
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333334444433333444445556677744555667774455566777445556677744",
+  "objects": "..b....d...dd..ed......d...ddf.be...a.....d......aa..f.a..b.a....d..a....a...............cceb...a.c.",
+  "roomNames": [
+    "Coral Lagoon",
+    "Luau Grounds",
+    "Infinity Pool",
+    "Tiki Bar",
+    "Reception Lobby",
+    "Open Beach",
+    "Staff Quarters",
+    "Spa Pavilion"
+  ],
+  "people": [
+    "Arthur the animator",
+    "Basil the boat captain",
+    "Cedric the chef",
+    "Dmitri the disc jockey",
+    "Vince the vip influencer",
+    "Edgar the entertainer",
+    "Frank the fire dancer",
+    "Gideon the golf pro",
+    "Henrik the housekeeper",
+    "Ivo the instructor"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "next",
+      "idol"
+    ],
+    [
+      2,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "next",
+      "idol"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "hammock"
+    ],
+    [
+      6,
+      "next",
+      "idol"
+    ],
+    [
+      7,
+      "next",
+      "idol"
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      8,
+      "next",
+      "towel"
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "on",
+      "hammock"
+    ]
+  ],
+  "solution": [
+    0,
+    14,
+    21,
+    38,
+    49,
+    57,
+    66,
+    75,
+    83,
+    92
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      74,
+      75
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      20,
+      "l"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      93,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      0
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 30,
+  "group": 2
+}

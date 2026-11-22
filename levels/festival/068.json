@@ -1,0 +1,101 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": "..........bc.b.d......d.a",
+  "roomNames": [
+    "Security Checkpoint",
+    "Green Room",
+    "Merch Pavilion",
+    "Beer Garden"
+  ],
+  "people": [
+    "Astrid the artist agent",
+    "Birgit the bodyguard",
+    "Vivian the vocal coach",
+    "Celia the cameraman",
+    "Della the disc jockey"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      4
+    ],
+    [
+      1,
+      "next",
+      "amp"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      4,
+      "next",
+      "drums"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    12,
+    18,
+    20
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      21,
+      22
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "drums",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

@@ -1,0 +1,127 @@
+{
+  "size": 6,
+  "rooms": "000001000001222331222331444331444331",
+  "objects": "e..ba...a...d.......bd.b.c...cba.b..",
+  "roomNames": [
+    "Gatehouse",
+    "Stables",
+    "Smithy",
+    "Kitchen",
+    "Armory"
+  ],
+  "people": [
+    "Alma the archer",
+    "Vera the vintner",
+    "Bella the baker",
+    "Cedric the chronicler",
+    "Daisy the doorkeeper",
+    "Edith the embroiderer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "cot"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "on",
+      "cot"
+    ],
+    [
+      4,
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    2,
+    7,
+    16,
+    23,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      26,
+      27
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
+      "furniture",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0
+  ],
+  "rank": "kncccc",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

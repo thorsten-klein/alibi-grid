@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0112222011222201133330113333001144400114440011444",
+  "objects": ".a......eba..bb...b.dde..f......b.f....cb........",
+  "roomNames": [
+    "Promenade Deck",
+    "Rigging Loft",
+    "Cargo Hold",
+    "Radio Cabin",
+    "Cockpit Bridge"
+  ],
+  "people": [
+    "Arthur the aeronaut",
+    "Basil the barman",
+    "Cedric the captain",
+    "Dmitri the dirigible pilot",
+    "Edgar the engine mechanic",
+    "Vince the vessel inventor",
+    "Frank the first officer"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "armchair"
+    ],
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "alone",
+      null
+    ],
+    [
+      2,
+      "on",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "luggage"
+    ],
+    [
+      4,
+      "same",
+      0
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      6,
+      "row",
+      6
+    ]
+  ],
+  "solution": [
+    2,
+    11,
+    14,
+    26,
+    31,
+    36,
+    48
+  ],
+  "doors": [
+    [
+      22,
+      29
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      27,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      34,
+      "r"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "onCount",
+      "berth",
+      1
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ]
+  ],
+  "hard": 7,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

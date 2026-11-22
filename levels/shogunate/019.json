@@ -1,0 +1,143 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222333444433344443334444333",
+  "objects": "..f.f..........e.cd.bbaa...b..f.a........f..b....",
+  "roomNames": [
+    "Shrine",
+    "Moon Balcony",
+    "Tea Ceremony Room",
+    "Falconry Yard",
+    "Kitchen"
+  ],
+  "people": [
+    "Vivian the veteran general",
+    "Astrid the archer",
+    "Birgit the bushi warrior",
+    "Celia the calligrapher",
+    "Della the daimyo",
+    "Ena the envoy",
+    "Flora the falconer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "taiko"
+    ],
+    [
+      1,
+      "next",
+      "futon"
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "next",
+      "futon"
+    ],
+    [
+      6,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    13,
+    14,
+    23,
+    29,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      45,
+      46
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "shoji",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "bonsai",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 22,
+  "group": 2
+}

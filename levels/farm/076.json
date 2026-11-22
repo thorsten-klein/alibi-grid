@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "000111000111222233222233444433444433",
+  "objects": "b..ec..ae............f.dbf......ccbc",
+  "roomNames": [
+    "Farmstand",
+    "Milking Shed",
+    "Pig Pen",
+    "Hayloft",
+    "Hen House"
+  ],
+  "people": [
+    "Arthur the agronomist",
+    "Basil the barn hand",
+    "Vince the veterinarian",
+    "Cedric the cider presser",
+    "Dmitri the ditcher",
+    "Edgar the entomologist"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "rocker"
+    ]
+  ],
+  "solution": [
+    5,
+    6,
+    14,
+    19,
+    27,
+    34
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      27,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      11,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      32,
+      "b"
+    ],
+    [
+      35,
+      "r"
+    ]
+  ],
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

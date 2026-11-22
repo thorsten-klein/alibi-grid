@@ -1,0 +1,191 @@
+{
+  "size": 10,
+  "rooms": "0000011111000001111100000111112222233333222223333344444555664444455566444445556677777555667777755566",
+  "objects": "....ba.c.e.....f.f.a.b..cb.ced..acc..d....f...e.a.c...f...da....................b...ef.f......a..b.b",
+  "roomNames": [
+    "Security Surveillance",
+    "The Vault",
+    "Cocktail Bar",
+    "Main Casino Floor",
+    "Cashier Cage",
+    "Kitchen",
+    "Valet Booth",
+    "High Roller Lounge"
+  ],
+  "people": [
+    "Ada the armored driver",
+    "Bea the bartender",
+    "Clara the casino manager",
+    "Dora the dancer",
+    "Edith the electrician",
+    "Freya the fixer",
+    "Greta the guard",
+    "Hilda the hostess",
+    "Ivy the illusionist",
+    "Vera the vegas mogul"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "next",
+      "chaise"
+    ],
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "chaise"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "safe"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "table"
+    ]
+  ],
+  "solution": [
+    3,
+    18,
+    22,
+    31,
+    45,
+    59,
+    66,
+    74,
+    80,
+    97
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      32
+    ],
+    [
+      27,
+      37
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      70,
+      80
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      84,
+      85
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      89,
+      "r"
+    ],
+    [
+      96,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "safe",
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 3,
+  "steps": 28,
+  "group": 0
+}

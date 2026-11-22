@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0001100011222332223322233",
+  "objects": "d..b..b.b..a...c......b..",
+  "roomNames": [
+    "Statue Hall",
+    "Sun Court",
+    "Shrine",
+    "Granary"
+  ],
+  "people": [
+    "Arthur the astrologer",
+    "Bea the boat builder",
+    "Cedric the carpenter",
+    "Victor the vintner",
+    "Dmitri the diviner"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "notRoom",
+      1
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "urn"
+    ]
+  ],
+  "solution": [
+    4,
+    6,
+    13,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".......C.C...L...C.C.....",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

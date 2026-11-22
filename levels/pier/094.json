@@ -1,0 +1,129 @@
+{
+  "size": 7,
+  "rooms": "0012222001222200133330013333001144400114440011444",
+  "objects": "b.aa....da....eb..bc........da.b..............e..",
+  "roomNames": [
+    "Ferris Wheel Base",
+    "Arcade Alley",
+    "Fortune Booth",
+    "Boardwalk Plankway",
+    "Souvenir Shack"
+  ],
+  "people": [
+    "Alma the arcade repairman",
+    "Viola the vagrant",
+    "Bella the boardwalk walker",
+    "Cora the caretaker",
+    "Daisy the drifter",
+    "Elsa the electrician",
+    "Fiona the fortune teller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      2,
+      "next",
+      "horse"
+    ],
+    [
+      3,
+      "next",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "cart"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "same",
+      3
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    18,
+    22,
+    30,
+    38,
+    42
+  ],
+  "doors": [
+    [
+      43,
+      44
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      26,
+      33
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      7,
+      "l"
+    ],
+    [
+      43,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      0
+    ],
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 22,
+  "extra": true
+}

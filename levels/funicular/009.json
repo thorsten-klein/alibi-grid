@@ -1,0 +1,115 @@
+{
+  "size": 6,
+  "rooms": "000111000111222333222333222444222444",
+  "objects": "bcb.a.a......b..fda.d...de......d...",
+  "roomNames": [
+    "Ski Patrol Shack",
+    "Funicular Car A",
+    "Funicular Car B",
+    "Souvenir Kiosk",
+    "Glacier Overlook"
+  ],
+  "people": [
+    "Victor the visiting vip",
+    "Albert the alpine guide",
+    "Bruno the billeter",
+    "Carl the cable splicer",
+    "Dexter the doctor",
+    "Elias the excursionist"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "skirack"
+    ],
+    [
+      5,
+      "same",
+      2
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    13,
+    22,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 11,
+  "group": 1
+}

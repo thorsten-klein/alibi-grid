@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "fa...cd........eaf........b.add...cf",
+  "roomNames": [
+    "Costume Ballroom",
+    "Apple Bobbing Hall",
+    "Front Porch",
+    "Crypt",
+    "Cemetery Gate"
+  ],
+  "people": [
+    "Victor the visiting storyteller",
+    "Albert the actor",
+    "Bruno the baker",
+    "Carl the candy maker",
+    "Dexter the decorator",
+    "Elias the entertainer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "coffin"
+    ],
+    [
+      2,
+      "next",
+      "cauldron"
+    ],
+    [
+      3,
+      "next",
+      "tombstone"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "next",
+      "tombstone"
+    ],
+    [
+      5,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    14,
+    23,
+    24,
+    33
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ]
+  ],
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "tries": 0,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 15,
+  "extra": true
+}

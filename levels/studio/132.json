@@ -1,0 +1,171 @@
+{
+  "size": 9,
+  "rooms": "001223333001223333001223333001224444001224444551224444551226666551226666551226666",
+  "objects": ".......cbbd..fb..e.a.e..f.abe.b......ba.a.c...aa....e.b.ab.....b.......fe....b.f.",
+  "roomNames": [
+    "Editing Suite",
+    "Soundstage A",
+    "Studio Commissary",
+    "Screening Room",
+    "Director Trailer",
+    "Catwalk",
+    "Sound Booth"
+  ],
+  "people": [
+    "Astrid the actor",
+    "Birgit the boom operator",
+    "Celia the cinematographer",
+    "Della the director",
+    "Vivian the voice actor",
+    "Ena the editor",
+    "Flora the focus puller",
+    "Grace the grip",
+    "Hana the hairdresser"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "light"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "on",
+      "couch"
+    ],
+    [
+      3,
+      "same",
+      8
+    ],
+    [
+      5,
+      "next",
+      "trunk"
+    ],
+    [
+      6,
+      "next",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "light"
+    ],
+    [
+      8,
+      "door",
+      null
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    23,
+    30,
+    44,
+    51,
+    55,
+    70,
+    76
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      76,
+      77
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      53,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      27,
+      "l"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      63,
+      "l"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      79,
+      "b"
+    ]
+  ],
+  "tries": 6,
+  "facts": [
+    [
+      "roomCount",
+      5,
+      1
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "hard": 8,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

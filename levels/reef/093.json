@@ -1,0 +1,111 @@
+{
+  "size": 6,
+  "rooms": "000000111222111222333333333333333444",
+  "objects": ".........bc....bd................ca.",
+  "roomNames": [
+    "Sloop",
+    "Fort",
+    "Sea Cave",
+    "Open Sea",
+    "Galleon"
+  ],
+  "people": [
+    "Arthur the armorer",
+    "Vince the vintner",
+    "Bea the boatswain",
+    "Carl the cook",
+    "Dmitri the deckhand",
+    "Elsa the engineer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "col",
+      3
+    ],
+    [
+      5,
+      "window"
+    ]
+  ],
+  "solution": [
+    4,
+    7,
+    12,
+    20,
+    27,
+    35
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "r"
+    ],
+    [
+      11,
+      "r"
+    ],
+    [
+      33,
+      "b"
+    ],
+    [
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "extra": true
+}

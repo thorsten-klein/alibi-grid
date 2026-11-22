@@ -1,0 +1,137 @@
+{
+  "size": 7,
+  "rooms": "0000011000001122220112222011333444433344443334444",
+  "objects": "..d.b......b...ea........e.....a.ef.a.....fe..e..",
+  "roomNames": [
+    "Baggage Car",
+    "Mail Car",
+    "Dining Car",
+    "Observation Car",
+    "Lounge Car"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Vince the violinist",
+    "Bruno the banker",
+    "Cedric the conductor",
+    "Daisy the dentist",
+    "Elias the envoy",
+    "Felix the fiddler"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "crate"
+    ],
+    [
+      1,
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "lamp"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      6
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "next",
+      "lamp"
+    ]
+  ],
+  "solution": [
+    1,
+    12,
+    16,
+    27,
+    28,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      18,
+      19
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      24,
+      31
+    ],
+    [
+      30,
+      31
+    ]
+  ],
+  "windows": [
+    [
+      13,
+      "r"
+    ],
+    [
+      20,
+      "r"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "extra": true
+}

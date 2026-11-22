@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "roomNames": [
+    "Dormitory",
+    "Chapter House",
+    "Bell Tower",
+    "Cellar",
+    "Refectory"
+  ],
+  "people": [
+    "Albert the abbot",
+    "Bruno the bellringer",
+    "Carl the cellarer",
+    "Dexter the doorkeeper",
+    "Elias the exorcist",
+    "Felix the forester",
+    "Victor the visiting cardinal"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "stall"
+    ],
+    [
+      1,
+      "next",
+      "palliasse"
+    ],
+    [
+      2,
+      "next",
+      "altar"
+    ],
+    [
+      2,
+      "next",
+      "stall"
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "altar"
+    ],
+    [
+      5,
+      "next",
+      "stall"
+    ],
+    [
+      5,
+      "next",
+      "bellrope"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    19,
+    22,
+    32,
+    37,
+    42
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "l"
+    ],
+    [
+      35,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "doorCount",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 26,
+  "extra": true
+}

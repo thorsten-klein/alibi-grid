@@ -1,0 +1,117 @@
+{
+  "size": 6,
+  "rooms": "001111001111221334221334221334221334",
+  "objects": "....a.b.ba.........c..b....ef...acb.",
+  "roomNames": [
+    "Campfire Clearing",
+    "Director Office",
+    "Mess Hall",
+    "Lake Shore",
+    "Canoe Dock"
+  ],
+  "people": [
+    "Ada the archery instructor",
+    "Bea the boating coach",
+    "Vera the veteran camp owner",
+    "Clara the camp counselor",
+    "Dora the drama coach",
+    "Edith the ecology guide"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "chair"
+    ],
+    [
+      1,
+      "next",
+      "bunk"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "board"
+    ],
+    [
+      4,
+      "next",
+      "table"
+    ],
+    [
+      5,
+      "same",
+      0
+    ]
+  ],
+  "solution": [
+    5,
+    9,
+    12,
+    22,
+    25,
+    32
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      11,
+      17
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      32,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
+  "steps": 17,
+  "extra": true
+}

@@ -1,0 +1,125 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": ".....e...dcdc...dc..caac............f..aa........",
+  "roomNames": [
+    "Sleeper B",
+    "Mail Car",
+    "Observation Car",
+    "Galley",
+    "Lounge Car"
+  ],
+  "people": [
+    "Astrid the accordionist",
+    "Viola the violinist",
+    "Birgit the banker",
+    "Cora the courier",
+    "Della the diplomat",
+    "Edgar the envoy",
+    "Fiona the firefighter"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "lamp"
+    ],
+    [
+      1,
+      "next",
+      "suitcase"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "alone"
+    ]
+  ],
+  "solution": [
+    4,
+    13,
+    14,
+    24,
+    29,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      16,
+      17
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      29,
+      36
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "l"
+    ],
+    [
+      41,
+      "r"
+    ],
+    [
+      48,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "wine",
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 21,
+  "extra": true
+}

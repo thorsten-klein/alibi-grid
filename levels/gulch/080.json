@@ -1,0 +1,128 @@
+{
+  "size": 6,
+  "rooms": "001122001122001122331122334444334444",
+  "objects": "b.....b.c.f..f..c..d....ccf.ee.bef..",
+  "roomNames": [
+    "Jail",
+    "Bank",
+    "Mine",
+    "Barber",
+    "Saloon"
+  ],
+  "people": [
+    "Alma the auctioneer",
+    "Viola the vet",
+    "Birgit the banker",
+    "Cedric the cattle driver",
+    "Dora the dancer",
+    "Edgar the editor"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "on",
+      "bed"
+    ],
+    [
+      1,
+      "next",
+      "horse"
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "on",
+      "bed"
+    ],
+    [
+      5,
+      "bandit"
+    ]
+  ],
+  "solution": [
+    0,
+    11,
+    14,
+    22,
+    27,
+    31
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      25,
+      26
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "bandits"
+  ],
+  "bandits": 2,
+  "lawful": [
+    0
+  ],
+  "hard": 3,
+  "hardest": 4,
+  "steps": 16,
+  "extra": true
+}

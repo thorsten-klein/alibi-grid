@@ -1,0 +1,175 @@
+{
+  "size": 9,
+  "rooms": "000011122000011122000011122000011122333344444333344444335556666335556666335556666",
+  "objects": ".fa...b.c.a..f....ab..e....ee....e.b....e..c..f.cbbcd..cb....bea..........a...d..",
+  "roomNames": [
+    "Archivist Sanctum",
+    "Geometry Hall",
+    "Mosaic Gallery",
+    "Courtyard Fountain",
+    "Great Peristyle",
+    "Lecture Theater",
+    "Scribes Hall"
+  ],
+  "people": [
+    "Arthur the archivist",
+    "Basil the bookbinder",
+    "Cedric the cartographer",
+    "Vince the veteran sage",
+    "Dmitri the doctor",
+    "Edgar the educator",
+    "Frank the fanbearer",
+    "Gideon the geometer",
+    "Henrik the herbalist"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "bust"
+    ],
+    [
+      4,
+      "alone",
+      null
+    ],
+    [
+      5,
+      "next",
+      "burner"
+    ],
+    [
+      6,
+      "room",
+      5
+    ],
+    [
+      6,
+      "next",
+      "mat"
+    ],
+    [
+      7,
+      "next",
+      "cupboard"
+    ],
+    [
+      8,
+      "next",
+      "sphere"
+    ]
+  ],
+  "solution": [
+    5,
+    11,
+    26,
+    31,
+    42,
+    45,
+    57,
+    64,
+    79
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      53,
+      62
+    ],
+    [
+      76,
+      77
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      80,
+      "b"
+    ],
+    [
+      80,
+      "r"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      1
+    ],
+    [
+      "nextCount",
+      "bench",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

@@ -1,0 +1,173 @@
+{
+  "size": 9,
+  "rooms": "000000011000000011222233311222233311222233311444555666444555666444555666444555666",
+  "objects": "........c.d...e....f.a..f...a..ab..bc.d.b..f........a.......c..........c.bff....a",
+  "roomNames": [
+    "Noodle Court",
+    "Fortune Teller",
+    "Garden Courtyard",
+    "Calligraphy Shop",
+    "Shadow Stage",
+    "Fireworks Barge",
+    "River Pagoda"
+  ],
+  "people": [
+    "Vivian the visiting noble",
+    "Astrid the astrologer",
+    "Birgit the bamboo carver",
+    "Celia the cook",
+    "Della the dancer",
+    "Ena the elder",
+    "Flora the fan painter",
+    "Grace the guard",
+    "Hana the harbor guide"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "gong"
+    ],
+    [
+      2,
+      "same",
+      4
+    ],
+    [
+      3,
+      "next",
+      "fireworks"
+    ],
+    [
+      4,
+      "next",
+      "teacart"
+    ],
+    [
+      5,
+      "notRoom",
+      1
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      7,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "same",
+      5
+    ],
+    [
+      8,
+      "on",
+      "cushion"
+    ]
+  ],
+  "solution": [
+    3,
+    13,
+    25,
+    29,
+    44,
+    45,
+    59,
+    69,
+    73
+  ],
+  "doors": [
+    [
+      6,
+      7
+    ],
+    [
+      12,
+      21
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      43,
+      52
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      37,
+      46
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      42,
+      51
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      59,
+      60
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "r"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      79,
+      "b"
+    ],
+    [
+      80,
+      "b"
+    ]
+  ],
+  "tries": 8,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 35,
+  "group": 3
+}

@@ -1,0 +1,192 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222333344444433334444445555666666555566666655556677775555667777",
+  "objects": ".ce...f.b.b..d..dd.....dbfa...dd..b....ae....bbe.a..b.f.......b.c....bc..b...f.c.b...b.d...da.d.....",
+  "roomNames": [
+    "Main Dining Room",
+    "Staff Locker",
+    "Dishwashing Pit",
+    "Chef Private Office",
+    "Saute Station",
+    "Wine Cellar",
+    "Herb Garden",
+    "Hostess Foyer"
+  ],
+  "people": [
+    "Alma the appetizer cook",
+    "Bella the butcher",
+    "Cora the chocolatier",
+    "Daisy the dessert chef",
+    "Viola the veteran restaurateur",
+    "Elsa the executive chef",
+    "Fiona the fromager",
+    "Gwen the grill cook",
+    "Hazel the head sommelier",
+    "Ines the inventory manager"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "same",
+      3
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "next",
+      "block"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "banquette"
+    ],
+    [
+      6,
+      "next",
+      "cooktop"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      7,
+      "next",
+      "cooktop"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "block"
+    ],
+    [
+      9,
+      "col",
+      8
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    29,
+    32,
+    43,
+    51,
+    65,
+    74,
+    86,
+    98
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      55,
+      65
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      78,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      90,
+      "b"
+    ]
+  ],
+  "tries": 7,
+  "facts": [
+    [
+      "roomCount",
+      7,
+      2
+    ],
+    [
+      "nextCount",
+      "cooktop",
+      2
+    ],
+    [
+      "emptyRooms",
+      null,
+      3
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 28,
+  "extra": true
+}

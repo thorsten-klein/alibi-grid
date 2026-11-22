@@ -1,0 +1,134 @@
+{
+  "size": 7,
+  "rooms": "0000000000000011111112223333222333322244442224444",
+  "objects": ".f...d.a.ba..a..ef.a..a...c.c...........a..c...a.",
+  "roomNames": [
+    "Tractor Garage",
+    "Tool Shed",
+    "Fruit Orchard",
+    "Grain Silo",
+    "Milking Shed"
+  ],
+  "people": [
+    "Arthur the apple picker",
+    "Basil the beekeeper",
+    "Cedric the cattle rancher",
+    "Dmitri the dairy maid",
+    "Vince the vineyard leaseholder",
+    "Edgar the equipment operator",
+    "Frank the farmer"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "scarecrow"
+    ],
+    [
+      1,
+      "next",
+      "rocker"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "next",
+      "tractor"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "bale"
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    4,
+    8,
+    14,
+    27,
+    31,
+    40,
+    44
+  ],
+  "doors": [
+    [
+      13,
+      20
+    ],
+    [
+      15,
+      22
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      44,
+      "b"
+    ],
+    [
+      48,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "tractor",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 19,
+  "extra": true
+}

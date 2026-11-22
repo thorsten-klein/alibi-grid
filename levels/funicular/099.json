@@ -1,0 +1,122 @@
+{
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": ".......fbb...f........df......bf.......b..dae.ec.",
+  "roomNames": [
+    "Transformer Vault",
+    "Valley Terminal",
+    "Staff Bunkhouse",
+    "Ticket Hall",
+    "Observation Terrace"
+  ],
+  "people": [
+    "Arthur the avalanche controller",
+    "Vince the veteran mountaineer",
+    "Basil the brake operator",
+    "Cedric the conductor",
+    "Dmitri the dispatcher",
+    "Edgar the electrical engineer",
+    "Frank the funicular driver"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "next",
+      "skirack"
+    ],
+    [
+      3,
+      "next",
+      "skirack"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "winch"
+    ]
+  ],
+  "solution": [
+    2,
+    10,
+    15,
+    21,
+    33,
+    39,
+    48
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      25,
+      32
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      13,
+      "r"
+    ],
+    [
+      47,
+      "b"
+    ]
+  ],
+  "tries": 1,
+  "hard": 6,
+  "hardest": 4,
+  "steps": 23,
+  "extra": true
+}

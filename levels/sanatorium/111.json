@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111000222330002223300022233444555554445555544455555",
+  "objects": ".....f....f.......b.a..cb....a.........a....f.....ac.....b...e.d",
+  "roomNames": [
+    "Solarium",
+    "Pharmacy",
+    "Records Archive",
+    "Ward A",
+    "Morgue",
+    "Doctor Office"
+  ],
+  "people": [
+    "Albert the anesthetist",
+    "Bruno the biochemist",
+    "Carl the chief surgeon",
+    "Dexter the doctor",
+    "Elias the epidemiologist",
+    "Victor the victim of illness",
+    "Felix the first responder",
+    "Gus the groundskeeper"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "archive"
+    ],
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      3
+    ],
+    [
+      4,
+      "next",
+      "wheelchair"
+    ],
+    [
+      6,
+      "next",
+      "cart"
+    ],
+    [
+      7,
+      "next",
+      "bed"
+    ]
+  ],
+  "solution": [
+    6,
+    12,
+    18,
+    27,
+    37,
+    41,
+    55,
+    56
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      33,
+      41
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      15,
+      23
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      42,
+      43
+    ]
+  ],
+  "windows": [
+    [
+      48,
+      "l"
+    ],
+    [
+      56,
+      "b"
+    ],
+    [
+      61,
+      "b"
+    ],
+    [
+      62,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ],
+    [
+      "onCount",
+      "bed",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
+  "extra": true
+}

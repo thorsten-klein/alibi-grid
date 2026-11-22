@@ -1,0 +1,97 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112222233333",
+  "objects": "b........f..cf...e...a...",
+  "roomNames": [
+    "Cocktail Bar",
+    "High Roller Lounge",
+    "Main Casino Floor",
+    "Penthouse Suite"
+  ],
+  "people": [
+    "Victor the vegas mogul",
+    "Albert the armored driver",
+    "Bruno the bartender",
+    "Carl the casino manager",
+    "Dexter the dancer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      1,
+      "next",
+      "table"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "alone",
+      null
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    10,
+    19,
+    22
+  ],
+  "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      15,
+      20
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      21,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "table",
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 4,
+  "steps": 14,
+  "extra": true
+}

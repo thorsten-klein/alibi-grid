@@ -1,0 +1,100 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112233322333",
+  "objects": ".b.d....a.b.f..e....f.aae",
+  "roomNames": [
+    "Bridge",
+    "Lab",
+    "Med Bay",
+    "Comms"
+  ],
+  "people": [
+    "Alma the analyst",
+    "Bruno the botanist",
+    "Vivian the volunteer",
+    "Celia the chemist",
+    "Dora the doctor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "tank"
+    ]
+  ],
+  "solution": [
+    0,
+    8,
+    14,
+    17,
+    21
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "l"
+    ],
+    [
+      21,
+      "b"
+    ],
+    [
+      22,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

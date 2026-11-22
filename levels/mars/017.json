@@ -1,0 +1,96 @@
+{
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "d.....d.a....c.b..e..a..b",
+  "roomNames": [
+    "Medical Bay",
+    "Water Reclamation",
+    "Rover Bay",
+    "Solar Array Control"
+  ],
+  "people": [
+    "Astrid the astrobiologist",
+    "Birgit the botanist",
+    "Celia the commander",
+    "Vivian the venture sponsor",
+    "Della the drill operator"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "next",
+      "tank"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ]
+  ],
+  "solution": [
+    1,
+    8,
+    14,
+    17,
+    20
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      12,
+      17
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      24,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 20,
+  "group": 2
+}

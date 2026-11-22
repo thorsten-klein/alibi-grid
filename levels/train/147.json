@@ -1,0 +1,184 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222003333222003333222000033444000033444555533444555566666555566666",
+  "objects": "..b.......a.ead.........a......c...c...d.......fbacb.....af...a...cd.a.....cb....",
+  "roomNames": [
+    "Baggage Car",
+    "Galley",
+    "Sleeper C",
+    "Guard's Van",
+    "Sleeper B",
+    "Lounge Car",
+    "Dining Car"
+  ],
+  "people": [
+    "Arthur the accordionist",
+    "Bea the banker",
+    "Cedric the conductor",
+    "Dmitri the dentist",
+    "Ena the envoy",
+    "Vera the violinist",
+    "Freya the fiddler",
+    "Gideon the guard",
+    "Hugo the hatter"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "lamp"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "notRoom",
+      5
+    ],
+    [
+      6,
+      "on",
+      "seat"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "same",
+      8
+    ],
+    [
+      8,
+      "next",
+      "crate"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    25,
+    28,
+    41,
+    45,
+    57,
+    71,
+    76
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      14,
+      23
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      43
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      59,
+      68
+    ],
+    [
+      60,
+      69
+    ],
+    [
+      66,
+      67
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      1,
+      "t"
+    ],
+    [
+      35,
+      "r"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      72,
+      "l"
+    ]
+  ],
+  "tries": 1,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 21,
+  "facts": [
+    [
+      "nextCount",
+      "bunk",
+      1
+    ]
+  ],
+  "extra": true
+}

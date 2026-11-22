@@ -1,0 +1,221 @@
+{
+  "size": 11,
+  "rooms": "0000011111100000111111000001111110000011111122222333333222223333334455556666644555566666445555666664455557777744555577777",
+  "objects": "......c.ba.......b.afb....be..ae...bf.fad.fd.b....f...ec...e....a..........b.....e..a...a..e...b.cd.d...d....ffd.c.b...aa",
+  "roomNames": [
+    "Sheave Tower",
+    "Observation Terrace",
+    "Souvenir Kiosk",
+    "Ski Patrol Shack",
+    "Transformer Vault",
+    "Upper Engine Room",
+    "Funicular Car B",
+    "Staff Bunkhouse"
+  ],
+  "people": [
+    "Ada the avalanche controller",
+    "Bea the brake operator",
+    "Clara the conductor",
+    "Dora the dispatcher",
+    "Edith the electrical engineer",
+    "Freya the funicular driver",
+    "Greta the glaciologist",
+    "Vera the veteran mountaineer",
+    "Hilda the hotelier",
+    "Ivy the inspector",
+    "Jade the journalist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "winch"
+    ],
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      2,
+      "alone",
+      null
+    ],
+    [
+      3,
+      "same",
+      1
+    ],
+    [
+      3,
+      "on",
+      "bench"
+    ],
+    [
+      4,
+      "next",
+      "luggage"
+    ],
+    [
+      5,
+      "next",
+      "generator"
+    ],
+    [
+      5,
+      "alone",
+      null
+    ],
+    [
+      6,
+      "door",
+      null
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      8,
+      "next",
+      "generator"
+    ],
+    [
+      9,
+      "same",
+      10
+    ],
+    [
+      10,
+      "on",
+      "bench"
+    ]
+  ],
+  "solution": [
+    5,
+    21,
+    22,
+    39,
+    51,
+    58,
+    67,
+    79,
+    92,
+    107,
+    119
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      56,
+      67
+    ],
+    [
+      57,
+      68
+    ],
+    [
+      60,
+      71
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      115,
+      116
+    ],
+    [
+      97,
+      108
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      110,
+      "b"
+    ],
+    [
+      111,
+      "b"
+    ],
+    [
+      114,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 24,
+  "facts": [
+    [
+      "nextCount",
+      "skirack",
+      1
+    ],
+    [
+      "roomCount",
+      6,
+      0
+    ],
+    [
+      "onCount",
+      "bench",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 48,
+  "extra": true
+}

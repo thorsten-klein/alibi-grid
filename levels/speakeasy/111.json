@@ -1,0 +1,159 @@
+{
+  "size": 8,
+  "rooms": "0001111100011111222111112223333322233333444555554445555544455555",
+  "objects": ".......ba....ffa......b.ff.bb...c......c....ba...ccd.....bfc...d",
+  "roomNames": [
+    "Main Lounge",
+    "Tailor Front",
+    "VIP Poker Den",
+    "Jazz Stage",
+    "Hidden Alleyway",
+    "Distillery"
+  ],
+  "people": [
+    "Ada the accordionist",
+    "Bea the bartender",
+    "Clara the crooner",
+    "Dora the drummer",
+    "Edith the enforcer",
+    "Freya the flapper",
+    "Vera the voice of syndicate",
+    "Greta the gangster"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "door",
+      null
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "safe"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "next",
+      "sax"
+    ],
+    [
+      7,
+      "next",
+      "safe"
+    ]
+  ],
+  "solution": [
+    7,
+    10,
+    22,
+    29,
+    36,
+    43,
+    48,
+    57
+  ],
+  "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      32,
+      40
+    ],
+    [
+      39,
+      47
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      24,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      60,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "hard": 11,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

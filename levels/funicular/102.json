@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "bf...ea.f.bb...f...........ab.a..bcd..e.a.ba.....",
+  "roomNames": [
+    "Observation Terrace",
+    "Funicular Car A",
+    "Valley Terminal",
+    "Staff Bunkhouse",
+    "Souvenir Kiosk"
+  ],
+  "people": [
+    "Albert the alpine guide",
+    "Bruno the billeter",
+    "Victor the visiting vip",
+    "Carl the cable splicer",
+    "Dexter the doctor",
+    "Elias the excursionist",
+    "Felix the first aider"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "generator"
+    ],
+    [
+      1,
+      "next",
+      "luggage"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "window",
+      null
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "next",
+      "generator"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    19,
+    22,
+    28,
+    39,
+    45
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      25
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      30,
+      37
+    ],
+    [
+      38,
+      39
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      28,
+      "l"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 4,
+  "steps": 20,
+  "extra": true
+}

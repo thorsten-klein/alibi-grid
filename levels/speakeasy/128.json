@@ -1,0 +1,180 @@
+{
+  "size": 9,
+  "rooms": "000112222000112222000112222334445555334445555334445555334446666334446666334446666",
+  "objects": "b...cb.....f..b.ef...ea.....d.a...a....b..aba..a..c..b..a..a.bb.....d.e..f.b..a..",
+  "roomNames": [
+    "Hidden Alleyway",
+    "Main Lounge",
+    "Coat Check",
+    "Cold Storage",
+    "VIP Poker Den",
+    "Manager Office",
+    "Tailor Front"
+  ],
+  "people": [
+    "Alma the attorney",
+    "Bella the bootlegger",
+    "Viola the valued patron",
+    "Cora the card sharp",
+    "Daisy the distiller",
+    "Elsa the emcee",
+    "Fiona the forger",
+    "Gwen the gun runner",
+    "Hazel the hat check girl"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "on",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "safe"
+    ],
+    [
+      3,
+      "next",
+      "booth"
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "next",
+      "booth"
+    ],
+    [
+      5,
+      "next",
+      "stool"
+    ],
+    [
+      5,
+      "next",
+      "booth"
+    ],
+    [
+      5,
+      "col",
+      3
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "room",
+      3
+    ],
+    [
+      8,
+      "row",
+      8
+    ]
+  ],
+  "solution": [
+    5,
+    10,
+    24,
+    29,
+    43,
+    48,
+    58,
+    63,
+    80
+  ],
+  "doors": [
+    [
+      20,
+      21
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      50,
+      59
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "t"
+    ],
+    [
+      26,
+      "r"
+    ],
+    [
+      44,
+      "r"
+    ],
+    [
+      54,
+      "l"
+    ],
+    [
+      71,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "onCount",
+      "booth",
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 5,
+  "steps": 23,
+  "extra": true
+}

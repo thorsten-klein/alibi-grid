@@ -1,0 +1,251 @@
+{
+  "size": 12,
+  "rooms": "000111112222000111112222000111112222000111113333000444443333000444443333000444443333555666677777555666677777555666677777555666688888555666688888",
+  "objects": "......e..a....b...fda........a..f..db..baf..ba...d.e.a..b..c.e..a.........c.b.b.....ad...a.....e.....b.c.afc.....baa...a.f.....a...b.b.a........",
+  "roomNames": [
+    "Staff Quarters",
+    "Coconut Grove",
+    "Dive Shop",
+    "Luau Grounds",
+    "Reception Lobby",
+    "Open Beach",
+    "Coral Lagoon",
+    "Tiki Bar",
+    "Yacht Marina"
+  ],
+  "people": [
+    "Astrid the animator",
+    "Birgit the boat captain",
+    "Vivian the vip influencer",
+    "Celia the chef",
+    "Della the disc jockey",
+    "Ena the entertainer",
+    "Flora the fire dancer",
+    "Grace the golf pro",
+    "Hana the housekeeper",
+    "Isla the instructor",
+    "Jutta the jeweller",
+    "Kai the kitchen hand"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "next",
+      "towel"
+    ],
+    [
+      0,
+      "alone",
+      null
+    ],
+    [
+      1,
+      "notRoom",
+      6
+    ],
+    [
+      2,
+      "next",
+      "idol"
+    ],
+    [
+      3,
+      "next",
+      "hammock"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "next",
+      "hammock"
+    ],
+    [
+      5,
+      "col",
+      9
+    ],
+    [
+      6,
+      "on",
+      "hammock"
+    ],
+    [
+      6,
+      "alone",
+      null
+    ],
+    [
+      7,
+      "door",
+      null
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "alone",
+      null
+    ],
+    [
+      9,
+      "on",
+      "towel"
+    ],
+    [
+      9,
+      "next",
+      "surfboard"
+    ],
+    [
+      10,
+      "next",
+      "hammock"
+    ],
+    [
+      11,
+      "notRoom",
+      3
+    ],
+    [
+      11,
+      "col",
+      8
+    ],
+    [
+      11,
+      "alone",
+      null
+    ]
+  ],
+  "solution": [
+    10,
+    15,
+    31,
+    37,
+    48,
+    69,
+    76,
+    90,
+    98,
+    119,
+    125,
+    140
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      73,
+      85
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      35,
+      47
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      80,
+      92
+    ],
+    [
+      78,
+      90
+    ],
+    [
+      79,
+      91
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      138,
+      139
+    ],
+    [
+      115,
+      127
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      12,
+      "l"
+    ],
+    [
+      108,
+      "l"
+    ],
+    [
+      139,
+      "b"
+    ],
+    [
+      142,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "roomCount",
+      6,
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 10,
+  "steps": 42,
+  "extra": true
+}

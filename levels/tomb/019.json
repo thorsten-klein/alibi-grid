@@ -1,0 +1,185 @@
+{
+  "size": 9,
+  "rooms": "001111222001111222001111222001111222333344444333344444333344444555666666555666666",
+  "objects": "...d........a...d........d.f.........e.ca...a..ce..e....b.bb....................e",
+  "roomNames": [
+    "Shrine",
+    "Burial Chamber",
+    "Sun Court",
+    "Scribe Room",
+    "Boat Pit",
+    "Statue Hall",
+    "Hall of Pillars"
+  ],
+  "people": [
+    "Albert the architect",
+    "Birgit the brewer",
+    "Celia the chanter",
+    "Dexter the dancer",
+    "Edith the envoy",
+    "Vivian the vintner",
+    "Frank the fisher",
+    "Grace the guard",
+    "Hilda the herder"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "row",
+      0
+    ],
+    [
+      0,
+      "same",
+      2
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "jar"
+    ],
+    [
+      3,
+      "room",
+      2
+    ],
+    [
+      4,
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "rubble"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "notRoom",
+      6
+    ]
+  ],
+  "solution": [
+    1,
+    13,
+    18,
+    35,
+    41,
+    52,
+    57,
+    69,
+    74
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      28,
+      37
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      29,
+      38
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
+      42
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      61,
+      70
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      71,
+      "r"
+    ],
+    [
+      77,
+      "b"
+    ],
+    [
+      78,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "statue",
+      0
+    ],
+    [
+      "emptyRooms",
+      null,
+      0
+    ],
+    [
+      "windowCount",
+      null,
+      0
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": ".......C.........................................L..C.......L....................",
+  "hard": 5,
+  "hardest": 3,
+  "steps": 31,
+  "group": 2
+}

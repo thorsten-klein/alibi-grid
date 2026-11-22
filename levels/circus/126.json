@@ -1,0 +1,177 @@
+{
+  "size": 9,
+  "rooms": "000001111000001111000001111223333444223333444225555444225555444666666444666666444",
+  "objects": "a.a....c.bf...f.b.....a...a...e......e..a..e.b.a..d....a..b...db...c.......cb..fe",
+  "roomNames": [
+    "Menagerie Tent",
+    "Prop Tent",
+    "Hay Barn",
+    "Dressing Trailer",
+    "Trapeze Rig",
+    "Ticket Booth",
+    "Big Top"
+  ],
+  "people": [
+    "Albert the acrobat",
+    "Bruno the barker",
+    "Carl the clown",
+    "Dexter the daredevil",
+    "Elias the escape artist",
+    "Felix the fire eater",
+    "Gus the giant",
+    "Victor the ventriloquist",
+    "Hugo the hypnotist"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "next",
+      "mat"
+    ],
+    [
+      1,
+      "next",
+      "mat"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "crystal"
+    ],
+    [
+      3,
+      "same",
+      5
+    ],
+    [
+      4,
+      "on",
+      "chair"
+    ],
+    [
+      5,
+      "next",
+      "cage"
+    ],
+    [
+      6,
+      "next",
+      "cage"
+    ],
+    [
+      7,
+      "row",
+      7
+    ],
+    [
+      8,
+      "next",
+      "cannon"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    19,
+    34,
+    40,
+    53,
+    59,
+    66,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      19,
+      28
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      37,
+      38
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      54,
+      63
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      39,
+      48
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      56,
+      65
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      77,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 9,
+  "hardest": 7,
+  "steps": 22,
+  "extra": true
+}

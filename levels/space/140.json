@@ -1,0 +1,152 @@
+{
+  "size": 8,
+  "rooms": "0011122200111222001112220011122233334444333344443333555533335555",
+  "objects": "a.bb..b..a....ea...b..fa.e..a.e...c...e.c..b......c.f..a.ac..c..",
+  "roomNames": [
+    "Gym",
+    "Cargo Bay",
+    "Mess Hall",
+    "Observatory",
+    "Comms",
+    "Bridge"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Birgit the botanist",
+    "Clara the captain",
+    "Della the doctor",
+    "Ena the engineer",
+    "Frank the flight officer",
+    "Vera the visitor",
+    "Gwen the geologist"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "on",
+      "pod"
+    ],
+    [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "tank"
+    ],
+    [
+      7,
+      "window"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    20,
+    27,
+    33,
+    46,
+    53,
+    63
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      36
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      45,
+      53
+    ]
+  ],
+  "windows": [
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      47,
+      "r"
+    ],
+    [
+      63,
+      "r"
+    ],
+    [
+      63,
+      "b"
+    ]
+  ],
+  "tries": 14,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      2
+    ]
+  ],
+  "hard": 7,
+  "hardest": 5,
+  "steps": 35,
+  "extra": true
+}

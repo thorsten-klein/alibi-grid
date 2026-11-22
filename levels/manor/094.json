@@ -1,0 +1,129 @@
+{
+  "size": 6,
+  "rooms": "000000111111223333223333224444224444",
+  "objects": "........c.....c..a..f...a...........",
+  "roomNames": [
+    "Gallery",
+    "Kitchen",
+    "Pantry",
+    "Hall",
+    "Billiard Room"
+  ],
+  "people": [
+    "Arthur the author",
+    "Bea the butler",
+    "Viola the vicar",
+    "Cora the cook",
+    "Daisy the doctor",
+    "Ena the editor"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      2,
+      "next",
+      "shelf"
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      5,
+      "next",
+      "chair"
+    ]
+  ],
+  "solution": [
+    1,
+    10,
+    15,
+    23,
+    26,
+    30
+  ],
+  "doors": [
+    [
+      0,
+      6
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      23,
+      29
+    ]
+  ],
+  "windows": [
+    [
+      2,
+      "t"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "shelf",
+      1
+    ],
+    [
+      "nextCount",
+      "chair",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 3,
+  "steps": 21,
+  "extra": true
+}

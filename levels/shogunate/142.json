@@ -1,0 +1,210 @@
+{
+  "size": 10,
+  "rooms": "0000111222000011122200001112223333111222333311122244445566664444556666444455666644445577774444557777",
+  "objects": "ab......b..ed.c..a..c....b..bf.d..b.......f.c...caacd.aa.fe..b......b.d.ae..c....f...a...b.e.e...c..",
+  "roomNames": [
+    "Falconry Yard",
+    "Ninja Loft",
+    "Armory",
+    "Guard Gate",
+    "Sentry Tower",
+    "Moon Balcony",
+    "Stables",
+    "Zen Garden"
+  ],
+  "people": [
+    "Astrid the archer",
+    "Birgit the bushi warrior",
+    "Celia the calligrapher",
+    "Della the daimyo",
+    "Ena the envoy",
+    "Flora the falconer",
+    "Grace the geisha",
+    "Hana the hatamoto retainer",
+    "Isla the inquisitor",
+    "Vivian the veteran general"
+  ],
+  "victim": 9,
+  "clues": [
+    [
+      0,
+      "on",
+      "tatami"
+    ],
+    [
+      1,
+      "window",
+      null
+    ],
+    [
+      2,
+      "next",
+      "tatami"
+    ],
+    [
+      2,
+      "next",
+      "futon"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "door",
+      null
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "on",
+      "tatami"
+    ],
+    [
+      5,
+      "door",
+      null
+    ],
+    [
+      6,
+      "col",
+      4
+    ],
+    [
+      7,
+      "next",
+      "futon"
+    ],
+    [
+      7,
+      "next",
+      "taiko"
+    ],
+    [
+      8,
+      "next",
+      "futon"
+    ],
+    [
+      8,
+      "door",
+      null
+    ],
+    [
+      9,
+      "next",
+      "bonsai"
+    ]
+  ],
+  "solution": [
+    0,
+    19,
+    27,
+    33,
+    46,
+    55,
+    64,
+    71,
+    88,
+    92
+  ],
+  "doors": [
+    [
+      23,
+      24
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      95,
+      96
+    ],
+    [
+      78,
+      88
+    ]
+  ],
+  "windows": [
+    [
+      19,
+      "r"
+    ],
+    [
+      30,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      95,
+      "b"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ],
+    [
+      "onCount",
+      "futon",
+      0
+    ]
+  ],
+  "hard": 9,
+  "hardest": 6,
+  "steps": 27,
+  "extra": true
+}

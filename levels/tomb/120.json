@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111000001112222211122222111333334443333344455555555",
+  "objects": ".a.....e............f..e.f...f...f.b..a....f.a..b.fa....d..bc..a",
+  "roomNames": [
+    "Shrine",
+    "Burial Chamber",
+    "Treasury",
+    "Hall of Pillars",
+    "Statue Hall",
+    "Sun Court"
+  ],
+  "people": [
+    "Astrid the architect",
+    "Bella the boat builder",
+    "Cora the chanter",
+    "Della the diviner",
+    "Elias the embalmer",
+    "Frank the fanbearer",
+    "Vivian the vintner",
+    "Gwen the goldsmith"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "jar"
+    ],
+    [
+      3,
+      "next",
+      "rubble"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "jar"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      7,
+      "next",
+      "statue"
+    ]
+  ],
+  "solution": [
+    2,
+    14,
+    21,
+    31,
+    32,
+    44,
+    51,
+    57
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      19,
+      27
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      38,
+      46
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      52,
+      60
+    ],
+    [
+      55,
+      63
+    ]
+  ],
+  "windows": [
+    [
+      5,
+      "t"
+    ],
+    [
+      6,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ]
+  ],
+  "tries": 0,
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "..L......C....C......C..........L...........C..........C..L.....",
+  "hard": 3,
+  "hardest": 6,
+  "steps": 19,
+  "extra": true
+}

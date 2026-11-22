@@ -1,0 +1,150 @@
+{
+  "size": 8,
+  "rooms": "0000111100001111222222222222222233344455333444553334445533344455",
+  "objects": "..f........fba.d........bb.....cb..b......a.ff.............c.b..",
+  "roomNames": [
+    "Flint Pit",
+    "Hide Tent",
+    "Cave",
+    "Lookout Rock",
+    "Bone Yard",
+    "Painted Wall"
+  ],
+  "people": [
+    "Astrid the artist",
+    "Birgit the beekeeper",
+    "Vince the valley guide",
+    "Carl the carver",
+    "Dmitri the dancer",
+    "Ena the elk tamer",
+    "Freya the flute player",
+    "Gwen the guard"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "window"
+    ],
+    [
+      3,
+      "next",
+      "boulder"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      5
+    ],
+    [
+      5,
+      "next",
+      "log"
+    ],
+    [
+      6,
+      "next",
+      "boulder"
+    ],
+    [
+      7,
+      "door"
+    ]
+  ],
+  "solution": [
+    7,
+    8,
+    20,
+    30,
+    34,
+    41,
+    51,
+    61
+  ],
+  "doors": [
+    [
+      11,
+      12
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      13,
+      21
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      29,
+      37
+    ],
+    [
+      31,
+      39
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      61,
+      62
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      31,
+      "r"
+    ],
+    [
+      48,
+      "l"
+    ]
+  ],
+  "tries": 12,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "furniture",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "trades"
+  ],
+  "trade": ".0..000.",
+  "tags": "..........................3..........1.4.0....4....0............",
+  "hard": 5,
+  "hardest": 5,
+  "steps": 33,
+  "extra": true
+}

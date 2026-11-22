@@ -1,0 +1,128 @@
+{
+  "size": 7,
+  "rooms": "0001111000111100022220002222333222233344443334444",
+  "objects": ".e.f.a..d...d..b....fb..ad.f....a..f...a.b.ae..f.",
+  "roomNames": [
+    "Solarium",
+    "Reception Hall",
+    "Boiler Room",
+    "Operating Theater",
+    "Hydrotherapy Room"
+  ],
+  "people": [
+    "Vivian the victim of illness",
+    "Astrid the anesthetist",
+    "Birgit the biochemist",
+    "Celia the chief surgeon",
+    "Della the doctor",
+    "Ena the epidemiologist",
+    "Flora the first responder"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "xray"
+    ],
+    [
+      1,
+      "next",
+      "cart"
+    ],
+    [
+      2,
+      "next",
+      "wheelchair"
+    ],
+    [
+      3,
+      "next",
+      "bed"
+    ],
+    [
+      4,
+      "door",
+      null
+    ],
+    [
+      5,
+      "next",
+      "bed"
+    ],
+    [
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    0,
+    13,
+    17,
+    22,
+    30,
+    40,
+    46
+  ],
+  "doors": [
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      23,
+      30
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      32,
+      39
+    ],
+    [
+      37,
+      38
+    ]
+  ],
+  "windows": [
+    [
+      6,
+      "r"
+    ],
+    [
+      42,
+      "l"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      45,
+      "b"
+    ]
+  ],
+  "tries": 15,
+  "facts": [
+    [
+      "nextCount",
+      "bed",
+      2
+    ]
+  ],
+  "hard": 6,
+  "hardest": 4,
+  "steps": 32,
+  "extra": true
+}

@@ -1,0 +1,193 @@
+{
+  "size": 10,
+  "rooms": "0000001111000000111122222211112222221111333334444433333444443333355666777775566677777556667777755666",
+  "objects": ".............cd.b..fd..b..d.......ee.ad.....fd....c.b.a..ca..ebc..ab.f...d.....eafa......f...c.....f",
+  "roomNames": [
+    "Dining Car",
+    "Guard's Van",
+    "Baggage Car",
+    "Bar Car",
+    "Sleeper B",
+    "Corridor",
+    "Mail Car",
+    "Sleeper C"
+  ],
+  "people": [
+    "Astrid the accordionist",
+    "Bella the banker",
+    "Celia the courier",
+    "Vivian the violinist",
+    "Dora the diplomat",
+    "Elsa the envoy",
+    "Freya the firefighter",
+    "Gus the governor",
+    "Hugo the hatter",
+    "Igor the inspector"
+  ],
+  "victim": 3,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      1,
+      "next",
+      "wine"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "on",
+      "bunk"
+    ],
+    [
+      3,
+      "col",
+      2
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "on",
+      "bunk"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "next",
+      "seat"
+    ],
+    [
+      8,
+      "next",
+      "wine"
+    ],
+    [
+      9,
+      "same",
+      8
+    ],
+    [
+      9,
+      "next",
+      "suitcase"
+    ]
+  ],
+  "solution": [
+    5,
+    18,
+    23,
+    32,
+    41,
+    59,
+    67,
+    76,
+    80,
+    94
+  ],
+  "doors": [
+    [
+      15,
+      16
+    ],
+    [
+      11,
+      21
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      60,
+      70
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      94,
+      95
+    ]
+  ],
+  "windows": [
+    [
+      9,
+      "t"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      49,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      97,
+      "b"
+    ]
+  ],
+  "tries": 9,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 31,
+  "extra": true
+}

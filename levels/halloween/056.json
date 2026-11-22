@@ -1,0 +1,90 @@
+{
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": "f.a.a.c.a....da...a.b..e.",
+  "roomNames": [
+    "Cemetery Gate",
+    "Occult Library",
+    "Black Cat Alley",
+    "Haunted Conservatory"
+  ],
+  "people": [
+    "Viola the veteran manor heir",
+    "Alma the astrologer",
+    "Bella the black cat breeder",
+    "Cora the costume designer",
+    "Daisy the diviner"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "on",
+      "coffin"
+    ],
+    [
+      1,
+      "next",
+      "tombstone"
+    ],
+    [
+      2,
+      "notRoom",
+      2
+    ],
+    [
+      3,
+      "next",
+      "coffin"
+    ],
+    [
+      4,
+      "next",
+      "swing"
+    ]
+  ],
+  "solution": [
+    2,
+    8,
+    10,
+    19,
+    21
+  ],
+  "doors": [
+    [
+      12,
+      13
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      14,
+      "r"
+    ],
+    [
+      20,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 15,
+  "extra": true
+}

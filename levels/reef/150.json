@@ -1,0 +1,163 @@
+{
+  "size": 10,
+  "rooms": "0000000000000000000000000011110000001111222000333322200033332220003333444000555544400055554440005555",
+  "objects": "............................c.......c...cbd.....e.........a..a.......e..........e.......bd........a.",
+  "roomNames": [
+    "Open Sea",
+    "Galleon",
+    "Dock",
+    "Longboat",
+    "Market",
+    "Frigate"
+  ],
+  "people": [
+    "Astrid the admiral",
+    "Bella the barkeep",
+    "Cedric the cook",
+    "Dora the deckhand",
+    "Elsa the explorer",
+    "Freya the fiddler",
+    "Vince the voyager",
+    "Gwen the gold digger",
+    "Hazel the harpooner",
+    "Ivy the island guide"
+  ],
+  "victim": 6,
+  "clues": [
+    [
+      0,
+      "room",
+      0
+    ],
+    [
+      0,
+      "col",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      5
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "anchor"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "next",
+      "anchor"
+    ],
+    [
+      7,
+      "next",
+      "hammock"
+    ],
+    [
+      8,
+      "col",
+      4
+    ],
+    [
+      9,
+      "next",
+      "crate"
+    ]
+  ],
+  "solution": [
+    2,
+    15,
+    23,
+    37,
+    46,
+    50,
+    61,
+    78,
+    84,
+    99
+  ],
+  "doors": [
+    [
+      37,
+      47
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      66,
+      76
+    ]
+  ],
+  "windows": [
+    [
+      39,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ],
+    [
+      80,
+      "l"
+    ],
+    [
+      91,
+      "b"
+    ],
+    [
+      99,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ],
+    [
+      "nextCount",
+      "crate",
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 0,
+  "hard": 7,
+  "hardest": 4,
+  "steps": 31,
+  "extra": true
+}

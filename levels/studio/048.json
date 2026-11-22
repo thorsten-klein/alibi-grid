@@ -1,0 +1,70 @@
+{
+  "size": 4,
+  "rooms": "0122012201220122",
+  "objects": ".......d........",
+  "roomNames": [
+    "Prop Armory",
+    "Catwalk",
+    "Soundstage A"
+  ],
+  "people": [
+    "Ada the actor",
+    "Vera the voice actor",
+    "Bea the boom operator",
+    "Clara the cinematographer"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "door",
+      null
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "boom"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ]
+  ],
+  "solution": [
+    1,
+    6,
+    11,
+    12
+  ],
+  "doors": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      2,
+      "t"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 9,
+  "extra": true
+}

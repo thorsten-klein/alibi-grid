@@ -1,0 +1,121 @@
+{
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "dd..d..a...ade....bab.b....d......bc",
+  "roomNames": [
+    "Guard Gate",
+    "Armory",
+    "Tea Ceremony Room",
+    "Shrine",
+    "Ninja Loft"
+  ],
+  "people": [
+    "Vince the visiting monk",
+    "Arthur the artisan",
+    "Basil the bowyer",
+    "Cedric the cook",
+    "Dmitri the drummer",
+    "Edgar the embroiderer"
+  ],
+  "victim": 0,
+  "clues": [
+    [
+      0,
+      "next",
+      "shoji"
+    ],
+    [
+      1,
+      "on",
+      "tatami"
+    ],
+    [
+      2,
+      "notRoom",
+      4
+    ],
+    [
+      3,
+      "next",
+      "tatami"
+    ],
+    [
+      4,
+      "next",
+      "futon"
+    ],
+    [
+      5,
+      "window",
+      null
+    ]
+  ],
+  "solution": [
+    3,
+    11,
+    14,
+    18,
+    28,
+    31
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      33,
+      34
+    ]
+  ],
+  "windows": [
+    [
+      17,
+      "r"
+    ],
+    [
+      23,
+      "r"
+    ],
+    [
+      31,
+      "b"
+    ],
+    [
+      33,
+      "b"
+    ]
+  ],
+  "tries": 5,
+  "facts": [
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
+  "group": 2
+}

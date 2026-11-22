@@ -1,0 +1,158 @@
+{
+  "size": 8,
+  "rooms": "0000011100000111222221112222233322222333444555334445553344455533",
+  "objects": ".b.c...a.b......d...fd.b....ba.b.f...a..bf..f....e...beb...b...c",
+  "roomNames": [
+    "Fortune Teller",
+    "Calligraphy Shop",
+    "Lantern Bridge",
+    "Tea Pavilion",
+    "Garden Courtyard",
+    "Bell Tower"
+  ],
+  "people": [
+    "Ada the astrologer",
+    "Bea the bamboo carver",
+    "Clara the cook",
+    "Dora the dancer",
+    "Edith the elder",
+    "Vera the visiting noble",
+    "Freya the fan painter",
+    "Greta the guard"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "next",
+      "stool"
+    ],
+    [
+      1,
+      "next",
+      "lantern"
+    ],
+    [
+      2,
+      "door",
+      null
+    ],
+    [
+      3,
+      "on",
+      "stool"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "next",
+      "cushion"
+    ],
+    [
+      5,
+      "on",
+      "cushion"
+    ],
+    [
+      6,
+      "next",
+      "teacart"
+    ],
+    [
+      7,
+      "next",
+      "gong"
+    ]
+  ],
+  "solution": [
+    6,
+    11,
+    18,
+    29,
+    39,
+    40,
+    52,
+    57
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      10,
+      18
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      23,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      34,
+      42
+    ],
+    [
+      36,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      50,
+      51
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "l"
+    ],
+    [
+      58,
+      "b"
+    ],
+    [
+      63,
+      "r"
+    ]
+  ],
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "nextCount",
+      "gong",
+      1
+    ]
+  ],
+  "hard": 12,
+  "hardest": 6,
+  "steps": 24,
+  "extra": true
+}

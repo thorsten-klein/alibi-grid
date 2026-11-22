@@ -1,0 +1,69 @@
+{
+  "size": 4,
+  "rooms": "0011001122112211",
+  "objects": "f...b...bc.c.f.b",
+  "roomNames": [
+    "Radio Cabin",
+    "Stateroom Alpha",
+    "Cargo Hold"
+  ],
+  "people": [
+    "Ada the aeronaut",
+    "Bea the barman",
+    "Vera the vessel inventor",
+    "Clara the captain"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "window",
+      null
+    ],
+    [
+      1,
+      "next",
+      "berth"
+    ],
+    [
+      3,
+      "next",
+      "luggage"
+    ]
+  ],
+  "solution": [
+    3,
+    5,
+    10,
+    12
+  ],
+  "doors": [
+    [
+      5,
+      6
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      15,
+      "b"
+    ]
+  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 10,
+  "extra": true
+}
