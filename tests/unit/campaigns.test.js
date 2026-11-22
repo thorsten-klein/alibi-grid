@@ -11,7 +11,10 @@ import { deduce, trialCount, caseScore } from '../../js/hints.js';
 import { DIFFICULTY, difficultyIndex, campaignCaseName, fitsLimit } from '../../js/generator.js';
 import { plainT } from './helpers.js';
 
-for (const c of CAMPAIGNS) {
+const [shardIndex, shardTotal] = (process.env.TEST_SHARD || '1/1').split('/').map(Number);
+const campaigns = CAMPAIGNS.filter((_, i) => (i % shardTotal) === (shardIndex - 1));
+
+for (const c of campaigns) {
   const theme = themeById(c.theme);
   const blocking = blockingSet(theme);
   test(`${c.theme}: every case is unique and deducible`, () => {
