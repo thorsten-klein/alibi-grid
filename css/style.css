@@ -1741,6 +1741,7 @@ a.topbar-title:focus-visible { outline: 2px solid var(--accent); outline-offset:
   border-top: 1px solid var(--line);
 }
 
-/* Extra cases: buttons to show one difficulty. */
-.extra-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+/* Extra cases: buttons to show one difficulty and one size. */
+.extra-filter, .size-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.extra-filter:has(+ .size-filter) { margin-bottom: 6px; }
 .chip.filter { padding: 4px 12px; }

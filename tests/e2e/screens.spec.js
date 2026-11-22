@@ -356,3 +356,23 @@ test('extra cases: buttons show only one difficulty, and the choice is kept', as
   await page.locator('details.case-group').last().locator('.extra-filter button', { hasText: 'All' }).click();
   await expect(page.locator('details.case-group').last().locator('.case-card')).toHaveCount(all);
 });
+
+test('extra cases: buttons show only one board size, and both filters combine', async ({ page }) => {
+  await page.goto('/index.html#/c/manor');
+  const extra = () => page.locator('details.case-group').last();
+  const all = await extra().locator('.case-card').count();
+  await expect(extra().locator('.size-filter button').first()).toHaveText(`All sizes (${all})`);
+  const second = extra().locator('.size-filter button').nth(1);
+  const label = (await second.textContent()).replace(/ \(\d+\)$/, '');
+  await second.click();
+  await expect(extra().locator('.size-filter button[aria-pressed="true"]')).toContainText(label);
+  const n = await extra().locator('.case-card').count();
+  await expect(extra().locator('.size-filter button[aria-pressed="true"]')).toHaveText(`${label} (${n})`);
+  for (const s of await extra().locator('.case-card .case-size').all()) await expect(s).toContainText(label);
+  // The difficulty "All" count now keeps the size filter.
+  await expect(extra().locator('.extra-filter button').first()).toHaveText(`All (${n})`);
+  await page.reload();
+  await expect(extra().locator('.size-filter button[aria-pressed="true"]')).toContainText(label);
+  await extra().locator('.size-filter button', { hasText: 'All sizes' }).click();
+  await expect(extra().locator('.case-card')).toHaveCount(all);
+});
