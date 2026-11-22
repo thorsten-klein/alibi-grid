@@ -7705,6 +7705,186 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": "bb..........e......cf.f.e",
+    "roomNames": [
+     "Kitchen",
+     "Pantry",
+     "Conservatory",
+     "Chapel"
+    ],
+    "people": [
+     "Astrid the author",
+     "Bella the butler",
+     "Victor the valet",
+     "Cedric the colonel",
+     "Dmitri the doctor"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "on",
+      "sofa"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "clock"
+     ],
+     [
+      4,
+      "next",
+      "plant"
+     ]
+    ],
+    "solution": [
+     0,
+     6,
+     14,
+     17,
+     23
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      12,
+      13
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      10,
+      "l"
+     ],
+     [
+      23,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 11,
+    "facts": [
+     [
+      "nextCount",
+      "plant",
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222112223322233",
+    "objects": ".......b.bfa.d.....ad.fbf",
+    "roomNames": [
+     "Billiard Room",
+     "Kitchen",
+     "Hall",
+     "Pantry"
+    ],
+    "people": [
+     "Vera the vicar",
+     "Arthur the author",
+     "Bruno the butler",
+     "Cedric the cook",
+     "Dexter the doctor"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "same",
+      2
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     12,
+     15,
+     21
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      12,
+      13
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      5,
+      "l"
+     ],
+     [
+      9,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 11,
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0011100111223332233322333",
     "objects": "fb.......ddcf.cb.b....a..",
     "roomNames": [
@@ -8374,6 +8554,201 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 3,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111222332223322233",
+    "objects": "......d.b....f....f.c..b.",
+    "roomNames": [
+     "Study",
+     "Chapel",
+     "Billiard Room",
+     "Cellar"
+    ],
+    "people": [
+     "Albert the author",
+     "Victor the valet",
+     "Bella the banker",
+     "Carl the cook",
+     "Dexter the dealer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "window"
+     ],
+     [
+      4,
+      "next",
+      "clock"
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     11,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "r"
+     ],
+     [
+      15,
+      "l"
+     ],
+     [
+      19,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 14,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      1
+     ],
+     [
+      "nextCount",
+      "shelf",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112223322233",
+    "objects": "a..b...ceb.f..f...beb.fa.",
+    "roomNames": [
+     "Billiard Room",
+     "Ballroom",
+     "Dining Room",
+     "Pantry"
+    ],
+    "people": [
+     "Ada the architect",
+     "Vince the valet",
+     "Bruno the banker",
+     "Carl the cook",
+     "Dmitri the dealer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      2,
+      "next",
+      "shelf"
+     ],
+     [
+      3,
+      "next",
+      "sofa"
+     ],
+     [
+      4,
+      "on",
+      "chair"
+     ]
+    ],
+    "solution": [
+     1,
+     9,
+     12,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      11,
+      16
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "r"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      20,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 13,
+    "facts": [
+     [
+      "nextCount",
+      "clock",
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -9592,6 +9967,236 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "001122001122001122001122333344333344",
+    "objects": ".c...c...a...bb.a...bb......c.......",
+    "roomNames": [
+     "Conservatory",
+     "Study",
+     "Dining Room",
+     "Cellar",
+     "Chapel"
+    ],
+    "people": [
+     "Arthur the architect",
+     "Basil the butler",
+     "Clara the colonel",
+     "Dmitri the dealer",
+     "Viola the valet",
+     "Edith the editor"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "next",
+      "shelf"
+     ],
+     [
+      1,
+      "next",
+      "sofa"
+     ],
+     [
+      2,
+      "on",
+      "chair"
+     ],
+     [
+      3,
+      "same",
+      2
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "window"
+     ]
+    ],
+    "solution": [
+     2,
+     7,
+     16,
+     23,
+     27,
+     30
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      12,
+      "l"
+     ],
+     [
+      30,
+      "b"
+     ],
+     [
+      33,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111002222002222333444333444",
+    "objects": ".b..bbeb...a..a.f..bf..ca..cb.efd...",
+    "roomNames": [
+     "Study",
+     "Cellar",
+     "Chapel",
+     "Hall",
+     "Conservatory"
+    ],
+    "people": [
+     "Ada the author",
+     "Basil the butler",
+     "Cora the cook",
+     "Viola the vicar",
+     "Dora the doctor",
+     "Elias the editor"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "next",
+      "plant"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "shelf"
+     ],
+     [
+      2,
+      "next",
+      "clock"
+     ],
+     [
+      3,
+      "next",
+      "clock"
+     ],
+     [
+      4,
+      "next",
+      "clock"
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     0,
+     8,
+     17,
+     21,
+     25,
+     34
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      29,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "001111001111000222000222333444333444",
     "objects": "ad............eb...db..d...ecac.a.df",
     "roomNames": [
@@ -10269,6 +10874,260 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 3,
     "steps": 17,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111000111223344223344223344",
+    "objects": ".b.a.dbd....e...afb.aaa.aa.c...c..dc",
+    "roomNames": [
+     "Kitchen",
+     "Billiard Room",
+     "Ballroom",
+     "Chapel",
+     "Gallery"
+    ],
+    "people": [
+     "Astrid the author",
+     "Basil the butler",
+     "Clara the cook",
+     "Della the dealer",
+     "Viola the vicar",
+     "Edgar the editor"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "piano"
+     ],
+     [
+      1,
+      "next",
+      "clock"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "alone"
+     ]
+    ],
+    "solution": [
+     4,
+     11,
+     15,
+     18,
+     25,
+     32
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      13,
+      19
+     ],
+     [
+      14,
+      20
+     ],
+     [
+      15,
+      21
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      30,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      3
+     ],
+     [
+      "onCount",
+      "chair",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111002222332222334444334444",
+    "objects": "df...bff......a.................e.a.",
+    "roomNames": [
+     "Kitchen",
+     "Study",
+     "Library",
+     "Ballroom",
+     "Dining Room"
+    ],
+    "people": [
+     "Arthur the architect",
+     "Vince the valet",
+     "Bea the banker",
+     "Carl the colonel",
+     "Dmitri the dealer",
+     "Elias the envoy"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      3,
+      "col",
+      0
+     ],
+     [
+      3,
+      "same",
+      4
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "window"
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     16,
+     18,
+     25,
+     35
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      8,
+      14
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      25,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      11,
+      "r"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      35,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
+    "facts": [
+     [
+      "nextCount",
+      "plant",
+      0
+     ],
+     [
+      "nextCount",
+      "chair",
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -10991,6 +11850,260 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0001111000111100022220002222333444433344443334444",
+    "objects": ".e...b.a..d.e..eb....b.......a..b...cfb..........",
+    "roomNames": [
+     "Pantry",
+     "Chapel",
+     "Gallery",
+     "Library",
+     "Dining Room"
+    ],
+    "people": [
+     "Viola the vicar",
+     "Astrid the author",
+     "Bella the banker",
+     "Carl the colonel",
+     "Dora the dealer",
+     "Edgar the envoy",
+     "Felix the florist"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "col",
+      3
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "same",
+      6
+     ],
+     [
+      6,
+      "next",
+      "clock"
+     ]
+    ],
+    "solution": [
+     6,
+     11,
+     17,
+     26,
+     29,
+     35,
+     44
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      13,
+      20
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      21,
+      "l"
+     ],
+     [
+      34,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222333222233344443334444333",
+    "objects": "........ad...................bc...db.....db...fe.",
+    "roomNames": [
+     "Pantry",
+     "Billiard Room",
+     "Kitchen",
+     "Chapel",
+     "Library"
+    ],
+    "people": [
+     "Ada the architect",
+     "Bea the banker",
+     "Vera the valet",
+     "Cora the colonel",
+     "Dora the doctor",
+     "Edgar the editor",
+     "Freya the florist"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "col",
+      0
+     ],
+     [
+      3,
+      "next",
+      "piano"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "same",
+      6
+     ],
+     [
+      6,
+      "col",
+      3
+     ]
+    ],
+    "solution": [
+     5,
+     8,
+     14,
+     27,
+     32,
+     37,
+     45
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      16,
+      23
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      20,
+      27
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      28,
+      35
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      7,
+      "l"
+     ],
+     [
+      20,
+      "r"
+     ],
+     [
+      43,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
+    "facts": [
+     [
+      "nextCount",
+      "sofa",
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0001111000111100011112223333222333322244442224444",
     "objects": ".b.......d...f......baf...bf....e.a.ba...b.bde.b.",
     "roomNames": [
@@ -11112,6 +12225,284 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 3,
     "steps": 17,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011122221112222111333444433344443334444",
+    "objects": ".ffad..c.b..e..c..ae.b........fd..b....f..c.b.d.b",
+    "roomNames": [
+     "Ballroom",
+     "Pantry",
+     "Billiard Room",
+     "Gallery",
+     "Hall"
+    ],
+    "people": [
+     "Vince the vicar",
+     "Arthur the author",
+     "Basil the banker",
+     "Cora the cook",
+     "Dexter the dealer",
+     "Edgar the editor",
+     "Flora the florist"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      4
+     ],
+     [
+      1,
+      "next",
+      "shelf"
+     ],
+     [
+      2,
+      "next",
+      "shelf"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "clock"
+     ],
+     [
+      6,
+      "on",
+      "sofa"
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     6,
+     8,
+     14,
+     25,
+     33,
+     38,
+     44
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      7,
+      14
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      27,
+      "r"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      43,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 18,
+    "facts": [
+     [
+      "nextCount",
+      "plant",
+      0
+     ],
+     [
+      "corner",
+      null,
+      4
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000000000000011112221111222333224433322443332244",
+    "objects": ".....c.b...e..ba.....d.fc.b..aa.a.cb.e..b.....b..",
+    "roomNames": [
+     "Pantry",
+     "Kitchen",
+     "Library",
+     "Cellar",
+     "Gallery"
+    ],
+    "people": [
+     "Viola the valet",
+     "Ada the author",
+     "Bea the butler",
+     "Celia the cook",
+     "Della the doctor",
+     "Elsa the editor",
+     "Felix the florist"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "shelf"
+     ],
+     [
+      1,
+      "next",
+      "plant"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "on",
+      "sofa"
+     ],
+     [
+      4,
+      "same",
+      3
+     ],
+     [
+      5,
+      "on",
+      "sofa"
+     ],
+     [
+      6,
+      "same",
+      5
+     ],
+     [
+      6,
+      "next",
+      "plant"
+     ]
+    ],
+    "solution": [
+     6,
+     10,
+     15,
+     26,
+     32,
+     35,
+     44
+    ],
+    "doors": [
+     [
+      8,
+      15
+     ],
+     [
+      11,
+      18
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      21,
+      28
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      27,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      41,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 23,
+    "facts": [
+     [
+      "corner",
+      null,
+      2
+     ],
+     [
+      "windowCount",
+      null,
+      0
+     ],
+     [
+      "doorCount",
+      null,
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -13377,6 +14768,305 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0000111100001111222211112222111133344555333445553334455533344555",
+    "objects": "..b...a.....b...f....e.d....b........cad.c................b.....",
+    "roomNames": [
+     "Kitchen",
+     "Ballroom",
+     "Conservatory",
+     "Gallery",
+     "Billiard Room",
+     "Pantry"
+    ],
+    "people": [
+     "Albert the author",
+     "Birgit the banker",
+     "Vince the vicar",
+     "Clara the cook",
+     "Dora the dealer",
+     "Elsa the editor",
+     "Fiona the footman",
+     "Grace the gardener"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "piano"
+     ],
+     [
+      3,
+      "next",
+      "clock"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      5,
+      "same",
+      4
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      7,
+      "on",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     7,
+     9,
+     22,
+     24,
+     36,
+     43,
+     53,
+     58
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      11,
+      19
+     ],
+     [
+      27,
+      28
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      60,
+      61
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      16,
+      "l"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      58,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 23,
+    "facts": [
+     [
+      "roomCount",
+      4,
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000011100000111222331112223333322233333444455554444555544445555",
+    "objects": "....a.......e.d.........b..b.b........e.e.....fed.a.b..a..e.....",
+    "roomNames": [
+     "Chapel",
+     "Hall",
+     "Billiard Room",
+     "Conservatory",
+     "Library",
+     "Kitchen"
+    ],
+    "people": [
+     "Arthur the author",
+     "Bea the butler",
+     "Cora the cook",
+     "Vera the valet",
+     "Dexter the dealer",
+     "Edgar the envoy",
+     "Fiona the florist",
+     "Greta the gardener"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "room",
+      1
+     ],
+     [
+      1,
+      "next",
+      "plant"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "next",
+      "sofa"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "next",
+      "clock"
+     ],
+     [
+      6,
+      "next",
+      "clock"
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ],
+     [
+      7,
+      "next",
+      "piano"
+     ]
+    ],
+    "solution": [
+     7,
+     11,
+     18,
+     25,
+     36,
+     45,
+     54,
+     56
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      9,
+      17
+     ],
+     [
+      11,
+      19
+     ],
+     [
+      23,
+      31
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      32,
+      40
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      38,
+      46
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      31,
+      "r"
+     ],
+     [
+      40,
+      "l"
+     ],
+     [
+      62,
+      "b"
+     ],
+     [
+      63,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0011122200111222001112220011122233344444333444443335555533355555",
     "objects": "....fb.....cc...b..f.b.....d.ba.b.....c.fd.aa.....a....a...cbc..",
     "roomNames": [
@@ -13684,6 +15374,153 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 5,
     "steps": 25,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001122200011222000112220001122233344455333444553334445533344455",
+    "objects": ".....f.ea...ba....a....b....ea..bde.dbfa.....ddd.b..df..d.bcc...",
+    "roomNames": [
+     "Kitchen",
+     "Hall",
+     "Chapel",
+     "Study",
+     "Ballroom",
+     "Cellar"
+    ],
+    "people": [
+     "Alma the author",
+     "Viola the vicar",
+     "Birgit the banker",
+     "Clara the cook",
+     "Dexter the doctor",
+     "Elsa the envoy",
+     "Freya the footman",
+     "Greta the gardener"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "clock"
+     ],
+     [
+      2,
+      "on",
+      "chair"
+     ],
+     [
+      3,
+      "next",
+      "plant"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "piano"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "next",
+      "shelf"
+     ]
+    ],
+    "solution": [
+     6,
+     12,
+     18,
+     27,
+     32,
+     41,
+     55,
+     61
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      24,
+      32
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      37,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      56,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 24,
+    "facts": [
+     [
+      "nextCount",
+      "clock",
+      2
+     ],
+     [
+      "roomCount",
+      1,
+      2
+     ],
+     [
+      "furniture",
+      null,
+      3
+     ]
+    ],
     "extra": true
    },
    {
@@ -14004,6 +15841,156 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 8,
     "steps": 18,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001122200011222000112220001122233334444333344443333555533335555",
+    "objects": "......a.a..f.c.........f..f.c...........a....b.d...c.....d......",
+    "roomNames": [
+     "Conservatory",
+     "Gallery",
+     "Kitchen",
+     "Dining Room",
+     "Ballroom",
+     "Pantry"
+    ],
+    "people": [
+     "Albert the architect",
+     "Bella the butler",
+     "Carl the colonel",
+     "Dexter the dealer",
+     "Ena the envoy",
+     "Freya the florist",
+     "Gideon the guest",
+     "Vivian the valet"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "on",
+      "chair"
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "next",
+      "shelf"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "on",
+      "sofa"
+     ],
+     [
+      6,
+      "notRoom",
+      2
+     ],
+     [
+      7,
+      "window"
+     ]
+    ],
+    "solution": [
+     6,
+     10,
+     16,
+     27,
+     33,
+     45,
+     55,
+     60
+    ],
+    "doors": [
+     [
+      18,
+      19
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      43,
+      44
+     ],
+     [
+      51,
+      52
+     ],
+     [
+      46,
+      54
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      7,
+      "r"
+     ],
+     [
+      31,
+      "r"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 25,
+    "facts": [
+     [
+      "nextCount",
+      "chair",
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -15530,6 +17517,690 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 5,
     "steps": 22,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011222000011222000011222333311222333311222333344555333344555666644555666644555",
+    "objects": "b..f...d.....b....a.ef.........f.d.e...........a.b...bb....f....d...fc.a.........",
+    "roomNames": [
+     "Chapel",
+     "Study",
+     "Gallery",
+     "Ballroom",
+     "Library",
+     "Cellar",
+     "Billiard Room"
+    ],
+    "people": [
+     "Alma the architect",
+     "Birgit the butler",
+     "Clara the colonel",
+     "Dexter the dealer",
+     "Ena the editor",
+     "Felix the footman",
+     "Vince the valet",
+     "Gus the guest",
+     "Hazel the housekeeper"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "piano"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "plant"
+     ],
+     [
+      3,
+      "next",
+      "piano"
+     ],
+     [
+      3,
+      "next",
+      "plant"
+     ],
+     [
+      4,
+      "next",
+      "clock"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ],
+     [
+      6,
+      "col",
+      2
+     ],
+     [
+      7,
+      "door"
+     ],
+     [
+      8,
+      "next",
+      "clock"
+     ]
+    ],
+    "solution": [
+     6,
+     10,
+     26,
+     34,
+     40,
+     45,
+     56,
+     66,
+     77
+    ],
+    "doors": [
+     [
+      21,
+      22
+     ],
+     [
+      19,
+      28
+     ],
+     [
+      32,
+      33
+     ],
+     [
+      39,
+      40
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      43,
+      52
+     ],
+     [
+      48,
+      49
+     ],
+     [
+      54,
+      63
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      66,
+      67
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      8,
+      "r"
+     ],
+     [
+      62,
+      "r"
+     ],
+     [
+      79,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 28,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      3
+     ],
+     [
+      "roomCount",
+      3,
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000112233000112233000112233000112233000112233444555555444555555444556666444556666",
+    "objects": "b........baee..cad..a..d.........dc.a...d.c.abd...cb...b..b..ac.ef....c...a...eb.",
+    "roomNames": [
+     "Billiard Room",
+     "Pantry",
+     "Library",
+     "Chapel",
+     "Cellar",
+     "Conservatory",
+     "Study"
+    ],
+    "people": [
+     "Astrid the author",
+     "Vivian the vicar",
+     "Birgit the banker",
+     "Cedric the cook",
+     "Dmitri the dealer",
+     "Ena the editor",
+     "Fiona the footman",
+     "Gideon the gardener",
+     "Henrik the housekeeper"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "shelf"
+     ],
+     [
+      1,
+      "next",
+      "sofa"
+     ],
+     [
+      1,
+      "next",
+      "plant"
+     ],
+     [
+      2,
+      "next",
+      "sofa"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "on",
+      "chair"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "chair"
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ],
+     [
+      6,
+      "next",
+      "clock"
+     ],
+     [
+      7,
+      "room",
+      6
+     ],
+     [
+      8,
+      "door"
+     ]
+    ],
+    "solution": [
+     6,
+     10,
+     18,
+     30,
+     44,
+     52,
+     56,
+     68,
+     76
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      37,
+      46
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      40,
+      49
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      42,
+      51
+     ],
+     [
+      44,
+      53
+     ],
+     [
+      56,
+      57
+     ],
+     [
+      76,
+      77
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "t"
+     ],
+     [
+      9,
+      "l"
+     ],
+     [
+      27,
+      "l"
+     ],
+     [
+      53,
+      "r"
+     ],
+     [
+      77,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 21,
+    "facts": [
+     [
+      "onCount",
+      "chair",
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000111111000111111000112222000112222333334444333334444333334444555556666555556666",
+    "objects": ".a.ea..b.......e.e.aad...a..ee.b..b..cbf......f...e..c....b..aaf.b.........e.....",
+    "roomNames": [
+     "Library",
+     "Ballroom",
+     "Chapel",
+     "Gallery",
+     "Dining Room",
+     "Kitchen",
+     "Cellar"
+    ],
+    "people": [
+     "Astrid the author",
+     "Vince the valet",
+     "Bella the banker",
+     "Carl the colonel",
+     "Della the doctor",
+     "Elias the envoy",
+     "Felix the florist",
+     "Greta the gardener",
+     "Hugo the heir"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "sofa"
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "same",
+      2
+     ],
+     [
+      4,
+      "next",
+      "clock"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "clock"
+     ],
+     [
+      6,
+      "same",
+      5
+     ],
+     [
+      6,
+      "col",
+      0
+     ],
+     [
+      7,
+      "on",
+      "sofa"
+     ],
+     [
+      8,
+      "col",
+      1
+     ]
+    ],
+    "solution": [
+     8,
+     16,
+     24,
+     32,
+     40,
+     48,
+     54,
+     65,
+     73
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      28,
+      37
+     ],
+     [
+      16,
+      25
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      35,
+      44
+     ],
+     [
+      49,
+      50
+     ],
+     [
+      55,
+      64
+     ],
+     [
+      60,
+      69
+     ],
+     [
+      67,
+      68
+     ]
+    ],
+    "windows": [
+     [
+      8,
+      "t"
+     ],
+     [
+      9,
+      "l"
+     ],
+     [
+      75,
+      "b"
+     ],
+     [
+      76,
+      "b"
+     ],
+     [
+      79,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
+    "facts": [
+     [
+      "alone",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000001111000001111000002222333332222333334444333334444555556666555556666555556666",
+    "objects": "...e........b.......f..e....cb...a......c.a..b.ff..d....b.........a....ebc...c...",
+    "roomNames": [
+     "Dining Room",
+     "Conservatory",
+     "Pantry",
+     "Chapel",
+     "Billiard Room",
+     "Hall",
+     "Library"
+    ],
+    "people": [
+     "Astrid the architect",
+     "Birgit the banker",
+     "Cedric the colonel",
+     "Daisy the doctor",
+     "Elias the envoy",
+     "Victor the valet",
+     "Fiona the florist",
+     "Gideon the guest",
+     "Hazel the heir"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "plant"
+     ],
+     [
+      1,
+      "col",
+      5
+     ],
+     [
+      2,
+      "next",
+      "sofa"
+     ],
+     [
+      2,
+      "next",
+      "clock"
+     ],
+     [
+      3,
+      "on",
+      "sofa"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "room",
+      4
+     ],
+     [
+      5,
+      "on",
+      "sofa"
+     ],
+     [
+      6,
+      "notRoom",
+      1
+     ],
+     [
+      7,
+      "next",
+      "shelf"
+     ],
+     [
+      8,
+      "row",
+      8
+     ],
+     [
+      8,
+      "col",
+      7
+     ]
+    ],
+    "solution": [
+     4,
+     14,
+     21,
+     29,
+     44,
+     45,
+     60,
+     64,
+     79
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      22,
+      23
+     ],
+     [
+      20,
+      29
+     ],
+     [
+      17,
+      26
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      35,
+      44
+     ],
+     [
+      40,
+      41
+     ],
+     [
+      48,
+      57
+     ],
+     [
+      50,
+      59
+     ],
+     [
+      58,
+      59
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      35,
+      "r"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      63,
+      "l"
+     ],
+     [
+      72,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 24,
+    "facts": [
+     [
+      "onCount",
+      "chair",
+      0
+     ]
+    ],
     "extra": true
    },
    {
@@ -30426,6 +33097,180 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111222332223322233",
+    "objects": ".bff...c..e.b...ffc......",
+    "roomNames": [
+     "Lounge Car",
+     "Sleeper A",
+     "Baggage Car",
+     "Dining Car"
+    ],
+    "people": [
+     "Ada the accordionist",
+     "Birgit the banker",
+     "Cora the courier",
+     "Vivian the violinist",
+     "Dexter the diplomat"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "next",
+      "bunk"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "on",
+      "bunk"
+     ],
+     [
+      4,
+      "col",
+      3
+     ]
+    ],
+    "solution": [
+     0,
+     6,
+     12,
+     19,
+     23
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      17,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      15,
+      "l"
+     ],
+     [
+      20,
+      "l"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": "f...b..a.....a....cadec.a",
+    "roomNames": [
+     "Bar Car",
+     "Galley",
+     "Lounge Car",
+     "Guard's Van"
+    ],
+    "people": [
+     "Ada the accordionist",
+     "Basil the bookseller",
+     "Viola the violinist",
+     "Clara the conductor",
+     "Della the diplomat"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "window"
+     ],
+     [
+      4,
+      "next",
+      "suitcase"
+     ]
+    ],
+    "solution": [
+     1,
+     9,
+     12,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      17,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      15,
+      "l"
+     ],
+     [
+      22,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 12,
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0011100111001112233322333",
     "objects": "..c.f...........ec....f..",
     "roomNames": [
@@ -30901,6 +33746,192 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 4,
     "steps": 17,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": "b..c.abe..b..e..........f",
+    "roomNames": [
+     "Sleeper C",
+     "Baggage Car",
+     "Lounge Car",
+     "Observation Car"
+    ],
+    "people": [
+     "Ada the attendant",
+     "Bella the bookseller",
+     "Cora the courier",
+     "Vivian the vendor",
+     "Dora the dentist"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "next",
+      "bunk"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "notRoom",
+      1
+     ]
+    ],
+    "solution": [
+     1,
+     8,
+     14,
+     17,
+     20
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      17,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      14,
+      "r"
+     ],
+     [
+      15,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
+    "facts": [
+     [
+      "onCount",
+      "seat",
+      0
+     ],
+     [
+      "windowCount",
+      null,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111222222222233333",
+    "objects": "..a....c........babb..a.e",
+    "roomNames": [
+     "Baggage Car",
+     "Mail Car",
+     "Observation Car",
+     "Dining Car"
+    ],
+    "people": [
+     "Albert the attendant",
+     "Bella the bookseller",
+     "Cora the conductor",
+     "Vera the violinist",
+     "Dmitri the dentist"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "seat"
+     ],
+     [
+      4,
+      "on",
+      "seat"
+     ]
+    ],
+    "solution": [
+     4,
+     5,
+     11,
+     18,
+     22
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      19,
+      24
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      20,
+      "b"
+     ],
+     [
+      20,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
     "extra": true
    },
    {
@@ -31888,6 +34919,227 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "000111000111222333222333444444444444",
+    "objects": "f.cc.abc..f.fbec....a...b.d...f..db.",
+    "roomNames": [
+     "Dining Car",
+     "Corridor",
+     "Mail Car",
+     "Sleeper C",
+     "Baggage Car"
+    ],
+    "people": [
+     "Alma the accordionist",
+     "Bea the bookseller",
+     "Cedric the conductor",
+     "Dexter the dentist",
+     "Viola the vendor",
+     "Elias the engineer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "suitcase"
+     ],
+     [
+      1,
+      "next",
+      "wine"
+     ],
+     [
+      2,
+      "next",
+      "lamp"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "crate"
+     ],
+     [
+      5,
+      "col",
+      2
+     ]
+    ],
+    "solution": [
+     4,
+     11,
+     13,
+     18,
+     27,
+     32
+    ],
+    "doors": [
+     [
+      8,
+      9
+     ],
+     [
+      8,
+      14
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      22,
+      28
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      0,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      34,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111000111222333222333444444",
+    "objects": "c....d.e..a.a....f.d.......c.ebcada.",
+    "roomNames": [
+     "Guard's Van",
+     "Baggage Car",
+     "Galley",
+     "Bar Car",
+     "Observation Car"
+    ],
+    "people": [
+     "Arthur the accordionist",
+     "Birgit the bookseller",
+     "Clara the courier",
+     "Dexter the diplomat",
+     "Vince the vendor",
+     "Edgar the engineer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "wine"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "col",
+      1
+     ],
+     [
+      5,
+      "next",
+      "seat"
+     ]
+    ],
+    "solution": [
+     3,
+     8,
+     16,
+     18,
+     25,
+     35
+    ],
+    "doors": [
+     [
+      8,
+      9
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      25,
+      31
+     ],
+     [
+      27,
+      33
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      29,
+      "r"
+     ],
+     [
+      30,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "001111001111001111222333222333444444",
     "objects": ".....f..aa..b...bf.c..be......a.a...",
     "roomNames": [
@@ -32481,6 +35733,244 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 4,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000000111111223333223333224444224444",
+    "objects": "ad.........bba..f.a.b..bbd.a..bb..f.",
+    "roomNames": [
+     "Sleeper B",
+     "Sleeper A",
+     "Sleeper C",
+     "Corridor",
+     "Observation Car"
+    ],
+    "people": [
+     "Arthur the attendant",
+     "Bella the banker",
+     "Clara the courier",
+     "Dora the diplomat",
+     "Victor the violinist",
+     "Elias the engineer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "bunk"
+     ],
+     [
+      3,
+      "next",
+      "seat"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      5,
+      "col",
+      2
+     ]
+    ],
+    "solution": [
+     3,
+     6,
+     17,
+     19,
+     28,
+     32
+    ],
+    "doors": [
+     [
+      0,
+      6
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      20,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      11,
+      "r"
+     ],
+     [
+      12,
+      "l"
+     ],
+     [
+      29,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 20,
+    "facts": [
+     [
+      "onCount",
+      "seat",
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001122001122001122333344333344333344",
+    "objects": "b..bbb.d....c..f..f..ab.a...........",
+    "roomNames": [
+     "Lounge Car",
+     "Galley",
+     "Baggage Car",
+     "Guard's Van",
+     "Sleeper B"
+    ],
+    "people": [
+     "Ada the accordionist",
+     "Vivian the violinist",
+     "Bella the banker",
+     "Carl the conductor",
+     "Dora the dentist",
+     "Edgar the envoy"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "window"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "wine"
+     ],
+     [
+      4,
+      "col",
+      3
+     ],
+     [
+      5,
+      "next",
+      "seat"
+     ]
+    ],
+    "solution": [
+     2,
+     11,
+     16,
+     19,
+     27,
+     30
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      13,
+      19
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      15,
+      21
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      11,
+      "r"
+     ],
+     [
+      31,
+      "b"
+     ],
+     [
+      33,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 19,
+    "facts": [
+     [
+      "nextCount",
+      "crate",
+      0
+     ],
+     [
+      "roomCount",
+      2,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -34197,6 +37687,274 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0000011000001122220112222011333444433344443334444",
+    "objects": "..d.b......b...ea........e.....a.ef.a.....fe..e..",
+    "roomNames": [
+     "Baggage Car",
+     "Mail Car",
+     "Dining Car",
+     "Observation Car",
+     "Lounge Car"
+    ],
+    "people": [
+     "Ada the accordionist",
+     "Vince the violinist",
+     "Bruno the banker",
+     "Cedric the conductor",
+     "Daisy the dentist",
+     "Elias the envoy",
+     "Felix the fiddler"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "crate"
+     ],
+     [
+      1,
+      "notRoom",
+      0
+     ],
+     [
+      2,
+      "on",
+      "seat"
+     ],
+     [
+      2,
+      "next",
+      "lamp"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "col",
+      6
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "next",
+      "lamp"
+     ]
+    ],
+    "solution": [
+     1,
+     12,
+     16,
+     27,
+     28,
+     39,
+     45
+    ],
+    "doors": [
+     [
+      18,
+      19
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      25,
+      32
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "windows": [
+     [
+      13,
+      "r"
+     ],
+     [
+      20,
+      "r"
+     ],
+     [
+      44,
+      "b"
+     ],
+     [
+      47,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "furniture",
+      null,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001122000112200011223331122333444433344443334444",
+    "objects": "..c..ca.c..a.....bddb.ae.a.f..d...........c....d.",
+    "roomNames": [
+     "Guard's Van",
+     "Observation Car",
+     "Bar Car",
+     "Sleeper B",
+     "Sleeper A"
+    ],
+    "people": [
+     "Ada the attendant",
+     "Bea the bookseller",
+     "Carl the courier",
+     "Daisy the dentist",
+     "Edith the engineer",
+     "Vera the vendor",
+     "Flora the fiddler"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "seat"
+     ],
+     [
+      1,
+      "next",
+      "seat"
+     ],
+     [
+      1,
+      "window"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "on",
+      "seat"
+     ],
+     [
+      4,
+      "notRoom",
+      3
+     ],
+     [
+      5,
+      "next",
+      "crate"
+     ],
+     [
+      6,
+      "col",
+      2
+     ]
+    ],
+    "solution": [
+     4,
+     13,
+     14,
+     22,
+     31,
+     40,
+     44
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      16,
+      23
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      25,
+      32
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      37,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "r"
+     ],
+     [
+      13,
+      "r"
+     ],
+     [
+      43,
+      "b"
+     ],
+     [
+      48,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "crate",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0001122000112200011220001122333344433334443333444",
     "objects": "..b...bd..e.c..a...b.e.....b.eedb....aa..cad.c.d.",
     "roomNames": [
@@ -34575,6 +38333,256 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 6,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100000002223333222333322244442224444",
+    "objects": "f.a..c.f...cf.b.b...aa.a.f..b.....ebbe.........ae",
+    "roomNames": [
+     "Lounge Car",
+     "Galley",
+     "Observation Car",
+     "Sleeper B",
+     "Corridor"
+    ],
+    "people": [
+     "Arthur the accordionist",
+     "Birgit the banker",
+     "Cedric the courier",
+     "Vivian the vendor",
+     "Della the diplomat",
+     "Ena the engineer",
+     "Flora the fiddler"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "same",
+      1
+     ],
+     [
+      1,
+      "next",
+      "wine"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "wine"
+     ],
+     [
+      4,
+      "next",
+      "wine"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "on",
+      "bunk"
+     ],
+     [
+      6,
+      "door"
+     ]
+    ],
+    "solution": [
+     3,
+     13,
+     15,
+     26,
+     32,
+     35,
+     44
+    ],
+    "doors": [
+     [
+      12,
+      19
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      44,
+      45
+     ],
+     [
+      32,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      42,
+      "b"
+     ],
+     [
+      46,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100022220002222333344433334443333444",
+    "objects": "f....dbb.cda...b....b.ac..c...f..b...........ce..",
+    "roomNames": [
+     "Baggage Car",
+     "Sleeper C",
+     "Dining Car",
+     "Sleeper A",
+     "Sleeper B"
+    ],
+    "people": [
+     "Victor the violinist",
+     "Albert the attendant",
+     "Bea the banker",
+     "Celia the conductor",
+     "Dexter the diplomat",
+     "Ena the envoy",
+     "Freya the firefighter"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "suitcase"
+     ],
+     [
+      1,
+      "on",
+      "seat"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "bunk"
+     ],
+     [
+      5,
+      "next",
+      "bunk"
+     ],
+     [
+      5,
+      "col",
+      5
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     2,
+     11,
+     17,
+     21,
+     34,
+     40,
+     43
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      16,
+      17
+     ],
+     [
+      21,
+      28
+     ],
+     [
+      10,
+      17
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      13,
+      "r"
+     ],
+     [
+      45,
+      "b"
+     ],
+     [
+      47,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -36316,6 +40324,317 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0000111100001111000011112222333322223333444225554442255544422555",
+    "objects": "f..ad.c.ce....aa...b..a......afc..c.a..d..bb.........e....f...b.",
+    "roomNames": [
+     "Guard's Van",
+     "Galley",
+     "Sleeper C",
+     "Observation Car",
+     "Baggage Car",
+     "Lounge Car"
+    ],
+    "people": [
+     "Alma the attendant",
+     "Basil the bookseller",
+     "Cedric the conductor",
+     "Dexter the dentist",
+     "Vince the vendor",
+     "Elias the engineer",
+     "Felix the fiddler",
+     "Greta the governor"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "crate"
+     ],
+     [
+      1,
+      "on",
+      "seat"
+     ],
+     [
+      1,
+      "next",
+      "suitcase"
+     ],
+     [
+      2,
+      "same",
+      1
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "suitcase"
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "wine"
+     ],
+     [
+      7,
+      "row",
+      7
+     ]
+    ],
+    "solution": [
+     5,
+     14,
+     20,
+     25,
+     35,
+     47,
+     50,
+     56
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      17,
+      25
+     ],
+     [
+      22,
+      30
+     ],
+     [
+      35,
+      36
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      60,
+      61
+     ],
+     [
+      38,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      31,
+      "r"
+     ],
+     [
+      40,
+      "l"
+     ],
+     [
+      55,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 21,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111222211112222333322223333444445554444455544444555",
+    "objects": "b.e.e........a.f...............a.......deb..c...c...........e.f.",
+    "roomNames": [
+     "Lounge Car",
+     "Sleeper A",
+     "Observation Car",
+     "Corridor",
+     "Sleeper B",
+     "Mail Car"
+    ],
+    "people": [
+     "Albert the accordionist",
+     "Basil the bookseller",
+     "Carl the conductor",
+     "Dexter the dentist",
+     "Victor the vendor",
+     "Edgar the engineer",
+     "Fiona the fiddler",
+     "Grace the guard"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "wine"
+     ],
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "next",
+      "lamp"
+     ],
+     [
+      2,
+      "same",
+      0
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "col",
+      1
+     ],
+     [
+      4,
+      "notRoom",
+      3
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "col",
+      3
+     ],
+     [
+      7,
+      "same",
+      6
+     ],
+     [
+      7,
+      "next",
+      "suitcase"
+     ]
+    ],
+    "solution": [
+     7,
+     12,
+     22,
+     25,
+     34,
+     45,
+     51,
+     56
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      8,
+      16
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      21,
+      29
+     ],
+     [
+      27,
+      28
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      38,
+      46
+     ],
+     [
+      52,
+      53
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      0,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      61,
+      "b"
+     ],
+     [
+      63,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      3
+     ],
+     [
+      "nextCount",
+      "seat",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0001112200011122000111220001112233333333333333334444555544445555",
     "objects": "..c.....a.a.....f...c.....b.b...f.ab.f.d...d...da.c....ee.....de",
     "roomNames": [
@@ -36454,6 +40773,312 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 6,
     "steps": 22,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000000000000000111122221111222233344555333445553334455533344555",
+    "objects": "..f.af...bfba........f.....a....a.f....ca.df.b.e.e..c.......ed..",
+    "roomNames": [
+     "Sleeper C",
+     "Sleeper A",
+     "Baggage Car",
+     "Bar Car",
+     "Observation Car",
+     "Sleeper B"
+    ],
+    "people": [
+     "Alma the accordionist",
+     "Viola the violinist",
+     "Bea the banker",
+     "Cora the conductor",
+     "Della the dentist",
+     "Edgar the engineer",
+     "Fiona the fiddler",
+     "Gwen the governor"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "wine"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "same",
+      2
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "next",
+      "suitcase"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "same",
+      5
+     ],
+     [
+      7,
+      "next",
+      "crate"
+     ]
+    ],
+    "solution": [
+     7,
+     13,
+     18,
+     25,
+     32,
+     44,
+     51,
+     62
+    ],
+    "doors": [
+     [
+      10,
+      18
+     ],
+     [
+      15,
+      23
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      24,
+      32
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      34,
+      35
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      7,
+      "r"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      15,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 18,
+    "facts": [
+     [
+      "nextCount",
+      "lamp",
+      0
+     ],
+     [
+      "nextCount",
+      "seat",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001112200011122000111220001112233344555333445553334455533344555",
+    "objects": ".b.c.........e.b...bce..b....d..........f...a.e....d..cfc....d..",
+    "roomNames": [
+     "Guard's Van",
+     "Observation Car",
+     "Dining Car",
+     "Sleeper B",
+     "Sleeper A",
+     "Mail Car"
+    ],
+    "people": [
+     "Astrid the attendant",
+     "Bruno the banker",
+     "Cedric the courier",
+     "Dmitri the dentist",
+     "Ena the engineer",
+     "Fiona the firefighter",
+     "Victor the violinist",
+     "Gideon the governor"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "next",
+      "bunk"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "crate"
+     ],
+     [
+      5,
+      "next",
+      "seat"
+     ],
+     [
+      6,
+      "next",
+      "suitcase"
+     ],
+     [
+      7,
+      "next",
+      "wine"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     18,
+     30,
+     36,
+     43,
+     53,
+     63
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      30,
+      38
+     ],
+     [
+      42,
+      43
+     ],
+     [
+      36,
+      37
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "t"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      55,
+      "r"
+     ],
+     [
+      59,
+      "b"
+     ],
+     [
+      63,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 24,
+    "facts": [
+     [
+      "nextCount",
+      "bunk",
+      2
+     ],
+     [
+      "roomCount",
+      1,
+      0
+     ]
+    ],
     "extra": true
    },
    {
@@ -38601,6 +43226,365 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000011111000011111000011111222333444222333444222333444555333444555666666555666666",
+    "objects": "...b..c..........fb..b..f..ff.c...f...c...a....b......ab..a.......e...e...eac....",
+    "roomNames": [
+     "Corridor",
+     "Sleeper A",
+     "Dining Car",
+     "Bar Car",
+     "Guard's Van",
+     "Sleeper C",
+     "Baggage Car"
+    ],
+    "people": [
+     "Ada the attendant",
+     "Bruno the banker",
+     "Celia the conductor",
+     "Dora the dentist",
+     "Edith the engineer",
+     "Fiona the fiddler",
+     "Gwen the governor",
+     "Vince the violinist",
+     "Hana the hairdresser"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      2
+     ],
+     [
+      2,
+      "on",
+      "bunk"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "same",
+      3
+     ],
+     [
+      5,
+      "next",
+      "seat"
+     ],
+     [
+      6,
+      "same",
+      3
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      6,
+      "col",
+      7
+     ],
+     [
+      8,
+      "next",
+      "lamp"
+     ]
+    ],
+    "solution": [
+     1,
+     11,
+     18,
+     33,
+     44,
+     49,
+     61,
+     68,
+     75
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      21,
+      30
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      25,
+      34
+     ],
+     [
+      47,
+      48
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      32,
+      33
+     ],
+     [
+      56,
+      57
+     ],
+     [
+      59,
+      68
+     ],
+     [
+      62,
+      71
+     ],
+     [
+      65,
+      66
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      26,
+      "r"
+     ],
+     [
+      45,
+      "l"
+     ],
+     [
+      76,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 21,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111000011111223333444223333444223333444223355555666655555666655555",
+    "objects": ".bb.b.....f..f......ab.e.d..c...e..bd..f.c...e.......c...a..a...f..........e..ca.",
+    "roomNames": [
+     "Corridor",
+     "Baggage Car",
+     "Observation Car",
+     "Sleeper A",
+     "Dining Car",
+     "Bar Car",
+     "Guard's Van"
+    ],
+    "people": [
+     "Albert the attendant",
+     "Basil the bookseller",
+     "Clara the conductor",
+     "Vince the violinist",
+     "Daisy the diplomat",
+     "Elsa the envoy",
+     "Felix the fiddler",
+     "Greta the guard",
+     "Hana the hatter"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "next",
+      "bunk"
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "next",
+      "lamp"
+     ],
+     [
+      2,
+      "next",
+      "crate"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "wine"
+     ],
+     [
+      4,
+      "next",
+      "suitcase"
+     ],
+     [
+      5,
+      "next",
+      "lamp"
+     ],
+     [
+      6,
+      "next",
+      "lamp"
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      7,
+      "next",
+      "seat"
+     ],
+     [
+      8,
+      "next",
+      "suitcase"
+     ]
+    ],
+    "solution": [
+     3,
+     17,
+     24,
+     29,
+     40,
+     46,
+     54,
+     70,
+     77
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      21,
+      30
+     ],
+     [
+      23,
+      32
+     ],
+     [
+      25,
+      34
+     ],
+     [
+      28,
+      29
+     ],
+     [
+      55,
+      64
+     ],
+     [
+      32,
+      33
+     ],
+     [
+      50,
+      59
+     ],
+     [
+      57,
+      66
+     ],
+     [
+      53,
+      62
+     ],
+     [
+      75,
+      76
+     ]
+    ],
+    "windows": [
+     [
+      8,
+      "t"
+     ],
+     [
+      26,
+      "r"
+     ],
+     [
+      72,
+      "b"
+     ],
+     [
+      74,
+      "b"
+     ],
+     [
+      78,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000011222000011222333311222333311222333311222444455555444455555444466666444466666",
     "objects": "....f.b.d..ce..e.f..b..c..e..d...cb..dbaa..e...........b.ba....aea..f..b....e.dd.",
     "roomNames": [
@@ -38769,6 +43753,190 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "001111222001111222003333222003333222000033444000033444555533444555566666555566666",
+    "objects": "..b.......a.ead.........a......c...c...d.......fbacb.....af...a...cd.a.....cb....",
+    "roomNames": [
+     "Baggage Car",
+     "Galley",
+     "Sleeper C",
+     "Guard's Van",
+     "Sleeper B",
+     "Lounge Car",
+     "Dining Car"
+    ],
+    "people": [
+     "Arthur the accordionist",
+     "Bea the banker",
+     "Cedric the conductor",
+     "Dmitri the dentist",
+     "Ena the envoy",
+     "Vera the violinist",
+     "Freya the fiddler",
+     "Gideon the guard",
+     "Hugo the hatter"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "col",
+      6
+     ],
+     [
+      1,
+      "next",
+      "lamp"
+     ],
+     [
+      2,
+      "same",
+      0
+     ],
+     [
+      2,
+      "next",
+      "seat"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "notRoom",
+      5
+     ],
+     [
+      6,
+      "on",
+      "seat"
+     ],
+     [
+      6,
+      "door"
+     ],
+     [
+      7,
+      "same",
+      8
+     ],
+     [
+      8,
+      "next",
+      "crate"
+     ]
+    ],
+    "solution": [
+     6,
+     11,
+     25,
+     28,
+     41,
+     45,
+     57,
+     71,
+     76
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      28,
+      29
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      14,
+      23
+     ],
+     [
+      32,
+      33
+     ],
+     [
+      34,
+      43
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      57,
+      58
+     ],
+     [
+      59,
+      68
+     ],
+     [
+      60,
+      69
+     ],
+     [
+      66,
+      67
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      1,
+      "t"
+     ],
+     [
+      35,
+      "r"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      72,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "bunk",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000011111000011111000022222333322222333344555333344555666644555666644555666644555",
     "objects": "e.d.fe.a.a..b.da..b......ac..c.f....fd......d...c...........b.....a.e..bb.ec...b.",
     "roomNames": [
@@ -38931,6 +44099,179 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 5,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000111222000111222000111222333111222333111222444444555444444555666655555666655555",
+    "objects": "....c....b.....c...........fb..d..f....b.d.c..a....d................b....c...ea..",
+    "roomNames": [
+     "Sleeper C",
+     "Corridor",
+     "Dining Car",
+     "Guard's Van",
+     "Lounge Car",
+     "Galley",
+     "Observation Car"
+    ],
+    "people": [
+     "Astrid the accordionist",
+     "Basil the banker",
+     "Clara the conductor",
+     "Della the dentist",
+     "Edgar the envoy",
+     "Flora the fiddler",
+     "Vera the vendor",
+     "Grace the governor",
+     "Hugo the hairdresser"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      0,
+      "col",
+      8
+     ],
+     [
+      1,
+      "on",
+      "bunk"
+     ],
+     [
+      2,
+      "next",
+      "wine"
+     ],
+     [
+      3,
+      "next",
+      "bunk"
+     ],
+     [
+      4,
+      "next",
+      "suitcase"
+     ],
+     [
+      5,
+      "on",
+      "seat"
+     ],
+     [
+      7,
+      "on",
+      "bunk"
+     ],
+     [
+      7,
+      "next",
+      "lamp"
+     ],
+     [
+      8,
+      "door"
+     ],
+     [
+      8,
+      "alone"
+     ]
+    ],
+    "solution": [
+     8,
+     9,
+     25,
+     29,
+     42,
+     46,
+     58,
+     68,
+     75
+    ],
+    "doors": [
+     [
+      20,
+      21
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      29,
+      30
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      44,
+      53
+     ],
+     [
+      37,
+      46
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      56,
+      65
+     ],
+     [
+      75,
+      76
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      26,
+      "r"
+     ],
+     [
+      79,
+      "b"
+     ],
+     [
+      80,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 24,
+    "facts": [
+     [
+      "roomCount",
+      0,
+      1
+     ],
+     [
+      "roomCount",
+      4,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -52708,6 +58049,199 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111001112223322233",
+    "objects": ".........b.b.a.f.c..bdcdb",
+    "roomNames": [
+     "Airlock",
+     "Cargo Bay",
+     "Observatory",
+     "Mess Hall"
+    ],
+    "people": [
+     "Arthur the analyst",
+     "Bea the biologist",
+     "Vera the visitor",
+     "Clara the chemist",
+     "Dexter the doctor"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "next",
+      "pod"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "seat"
+     ],
+     [
+      3,
+      "next",
+      "scope"
+     ],
+     [
+      4,
+      "on",
+      "pod"
+     ]
+    ],
+    "solution": [
+     4,
+     6,
+     12,
+     18,
+     20
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      11,
+      16
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      1,
+      "t"
+     ],
+     [
+      15,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0000011111111112233322333",
+    "objects": ".......a.a.........fd.af.",
+    "roomNames": [
+     "Airlock",
+     "Crew Quarters",
+     "Med Bay",
+     "Bridge"
+    ],
+    "people": [
+     "Alma the astronaut",
+     "Victor the volunteer",
+     "Bella the biologist",
+     "Cora the chemist",
+     "Dmitri the doctor"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "room",
+      0
+     ],
+     [
+      1,
+      "on",
+      "seat"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "tank"
+     ]
+    ],
+    "solution": [
+     3,
+     7,
+     10,
+     16,
+     24
+    ],
+    "doors": [
+     [
+      2,
+      7
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      14,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
+    "facts": [
+     [
+      "furniture",
+      null,
+      1
+     ],
+     [
+      "nextCount",
+      "scope",
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0001100011222332223322233",
     "objects": "...e..b........b.ae..dbc.",
     "roomNames": [
@@ -53061,6 +58595,100 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 3,
     "steps": 14,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011000112233322333",
+    "objects": "......ce....b...e...caf.c",
+    "roomNames": [
+     "Cargo Bay",
+     "Airlock",
+     "Comms",
+     "Observatory"
+    ],
+    "people": [
+     "Victor the volunteer",
+     "Astrid the analyst",
+     "Bruno the biologist",
+     "Cedric the captain",
+     "Dmitri the driller"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "on",
+      "pod"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "console"
+     ]
+    ],
+    "solution": [
+     1,
+     9,
+     12,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      5,
+      "l"
+     ],
+     [
+      10,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 15,
+    "facts": [
+     [
+      "furniture",
+      null,
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -53538,6 +59166,106 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 3,
     "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111223332233322333",
+    "objects": "..c.ece.c.b...a..de....b.",
+    "roomNames": [
+     "Gym",
+     "Lab",
+     "Hydroponics",
+     "Med Bay"
+    ],
+    "people": [
+     "Arthur the astronaut",
+     "Bea the biologist",
+     "Celia the chemist",
+     "Dexter the doctor",
+     "Victor the visitor"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "next",
+      "plant"
+     ],
+     [
+      1,
+      "next",
+      "console"
+     ],
+     [
+      2,
+      "next",
+      "plant"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "pod"
+     ]
+    ],
+    "solution": [
+     1,
+     9,
+     13,
+     15,
+     22
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      11,
+      12
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      4,
+      "r"
+     ],
+     [
+      20,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 15,
+    "facts": [
+     [
+      "touch",
+      null,
+      0
+     ]
+    ],
     "extra": true
    },
    {
@@ -54075,6 +59803,265 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "000011000011223333223333224444224444",
+    "objects": "b..........bb.d.......bbb.c.....b..c",
+    "roomNames": [
+     "Gym",
+     "Hydroponics",
+     "Crew Quarters",
+     "Mess Hall",
+     "Lab"
+    ],
+    "people": [
+     "Alma the astronaut",
+     "Birgit the botanist",
+     "Cedric the chemist",
+     "Della the driller",
+     "Elsa the engineer",
+     "Vera the visitor"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "notRoom",
+      1
+     ],
+     [
+      2,
+      "next",
+      "pod"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "console"
+     ],
+     [
+      4,
+      "door"
+     ]
+    ],
+    "solution": [
+     2,
+     10,
+     17,
+     19,
+     27,
+     30
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      21,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      29,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
+    "facts": [
+     [
+      "roomCount",
+      0,
+      1
+     ],
+     [
+      "nextCount",
+      "console",
+      1
+     ],
+     [
+      "furniture",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001122001122001122334422334422334422",
+    "objects": ".d....d..ba..bb.c....f.d.be........a",
+    "roomNames": [
+     "Mess Hall",
+     "Comms",
+     "Cargo Bay",
+     "Gym",
+     "Airlock"
+    ],
+    "people": [
+     "Ada the analyst",
+     "Birgit the biologist",
+     "Clara the captain",
+     "Vera the volunteer",
+     "Dora the doctor",
+     "Elsa the electrician"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "next",
+      "seat"
+     ],
+     [
+      2,
+      "same",
+      0
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "on",
+      "pod"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "same",
+      1
+     ],
+     [
+      5,
+      "door"
+     ]
+    ],
+    "solution": [
+     3,
+     11,
+     14,
+     18,
+     25,
+     34
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      15,
+      21
+     ],
+     [
+      33,
+      34
+     ],
+     [
+      25,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      30,
+      "l"
+     ],
+     [
+      32,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
+    "facts": [
+     [
+      "onCount",
+      "pod",
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "011222011222033222033444033444033444",
     "objects": "cba.aca.fe.....f...b....f..e...dafc.",
     "roomNames": [
@@ -54540,6 +60527,122 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "001111001111002222002222334444334444",
+    "objects": ".b.ce.fe..ebf........b......fecb.de.",
+    "roomNames": [
+     "Lab",
+     "Crew Quarters",
+     "Cargo Bay",
+     "Hydroponics",
+     "Gym"
+    ],
+    "people": [
+     "Vera the visitor",
+     "Arthur the astronaut",
+     "Bella the biologist",
+     "Cora the chemist",
+     "Dora the doctor",
+     "Edgar the engineer"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "console"
+     ],
+     [
+      1,
+      "next",
+      "plant"
+     ],
+     [
+      2,
+      "window"
+     ],
+     [
+      3,
+      "same",
+      2
+     ],
+     [
+      4,
+      "same",
+      5
+     ],
+     [
+      5,
+      "on",
+      "pod"
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     17,
+     22,
+     24,
+     31
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      25,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      17,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      35,
+      "b"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 17,
+    "facts": [
+     [
+      "doorCount",
+      null,
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000111000111000111223344223344223344",
     "objects": "..bb..d..b..........a..ae......bed.b",
     "roomNames": [
@@ -54772,6 +60875,131 @@ const CAMPAIGNS = [
     "hard": 0,
     "hardest": 2,
     "steps": 14,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000011000011222211222211333344333344",
+    "objects": "....e....e..af...afa....ca.e...ccab.",
+    "roomNames": [
+     "Gym",
+     "Airlock",
+     "Cargo Bay",
+     "Engine Room",
+     "Comms"
+    ],
+    "people": [
+     "Vera the volunteer",
+     "Alma the analyst",
+     "Birgit the botanist",
+     "Clara the captain",
+     "Dmitri the doctor",
+     "Edgar the electrician"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      1
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "seat"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "console"
+     ]
+    ],
+    "solution": [
+     0,
+     7,
+     17,
+     20,
+     28,
+     33
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      8,
+      14
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      27,
+      28
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      6,
+      "l"
+     ],
+     [
+      30,
+      "b"
+     ],
+     [
+      31,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 20,
+    "facts": [
+     [
+      "nextCount",
+      "seat",
+      1
+     ],
+     [
+      "corner",
+      null,
+      3
+     ],
+     [
+      "furniture",
+      null,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -56509,6 +62737,250 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0000111000011100001112222333222233344443334444333",
+    "objects": "....a.f......f...b...f........f..d.d..b.e..b.....",
+    "roomNames": [
+     "Comms",
+     "Bridge",
+     "Gym",
+     "Hydroponics",
+     "Mess Hall"
+    ],
+    "people": [
+     "Arthur the astronaut",
+     "Bella the biologist",
+     "Viola the volunteer",
+     "Carl the chemist",
+     "Daisy the driller",
+     "Edgar the electrician",
+     "Frank the farmer"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "col",
+      0
+     ],
+     [
+      3,
+      "next",
+      "scope"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "next",
+      "tank"
+     ],
+     [
+      5,
+      "next",
+      "scope"
+     ],
+     [
+      6,
+      "same",
+      5
+     ]
+    ],
+    "solution": [
+     4,
+     7,
+     20,
+     26,
+     31,
+     36,
+     44
+    ],
+    "doors": [
+     [
+      17,
+      18
+     ],
+     [
+      16,
+      23
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      29,
+      36
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      6,
+      "r"
+     ],
+     [
+      42,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 19,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011100001112222333222233344443334444333",
+    "objects": ".a..b.a.a...eba..c..fe..b..b..........a......e..d",
+    "roomNames": [
+     "Bridge",
+     "Engine Room",
+     "Hydroponics",
+     "Mess Hall",
+     "Med Bay"
+    ],
+    "people": [
+     "Astrid the astronaut",
+     "Bea the biologist",
+     "Carl the captain",
+     "Della the driller",
+     "Edith the electrician",
+     "Victor the volunteer",
+     "Felix the flight officer"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "on",
+      "pod"
+     ],
+     [
+      1,
+      "next",
+      "console"
+     ],
+     [
+      2,
+      "col",
+      2
+     ],
+     [
+      3,
+      "next",
+      "plant"
+     ],
+     [
+      4,
+      "next",
+      "pod"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "col",
+      5
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     4,
+     10,
+     16,
+     22,
+     34,
+     40,
+     42
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      16,
+      23
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      28,
+      35
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      21,
+      "l"
+     ],
+     [
+      46,
+      "b"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0000111000011122221112222111333344433334443333444",
     "objects": "......b..e......e.....fe...d.f.e.....e....b..cc..",
     "roomNames": [
@@ -56740,6 +63212,267 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 4,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011122221112222111333344433334443333444",
+    "objects": "bdaaaa.bfa...c.a...ae.........f.....eb.e..cef...e",
+    "roomNames": [
+     "Mess Hall",
+     "Observatory",
+     "Hydroponics",
+     "Med Bay",
+     "Bridge"
+    ],
+    "people": [
+     "Ada the astronaut",
+     "Bea the botanist",
+     "Clara the chemist",
+     "Dmitri the doctor",
+     "Elsa the electrician",
+     "Felix the farmer",
+     "Vera the visitor"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "col",
+      4
+     ],
+     [
+      1,
+      "next",
+      "tank"
+     ],
+     [
+      2,
+      "on",
+      "seat"
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "notRoom",
+      1
+     ],
+     [
+      4,
+      "notRoom",
+      1
+     ],
+     [
+      5,
+      "on",
+      "pod"
+     ],
+     [
+      5,
+      "next",
+      "plant"
+     ],
+     [
+      6,
+      "next",
+      "plant"
+     ]
+    ],
+    "solution": [
+     4,
+     7,
+     15,
+     24,
+     34,
+     37,
+     47
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      8,
+      15
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      25,
+      32
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      31,
+      32
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      6,
+      "r"
+     ],
+     [
+      44,
+      "b"
+     ],
+     [
+      46,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222333222233344443334444333",
+    "objects": ".b....c.e..f...f........ade..c...e.....c..e......",
+    "roomNames": [
+     "Mess Hall",
+     "Cargo Bay",
+     "Observatory",
+     "Gym",
+     "Airlock"
+    ],
+    "people": [
+     "Alma the analyst",
+     "Bruno the botanist",
+     "Cedric the captain",
+     "Dora the driller",
+     "Vivian the visitor",
+     "Ena the electrician",
+     "Frank the flight officer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "console"
+     ],
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "console"
+     ],
+     [
+      4,
+      "window"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "next",
+      "console"
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     5,
+     13,
+     17,
+     22,
+     28,
+     37,
+     46
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      30,
+      37
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "l"
+     ],
+     [
+      14,
+      "l"
+     ],
+     [
+      28,
+      "l"
+     ],
+     [
+      45,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 18,
     "extra": true
    },
    {
@@ -58773,6 +65506,303 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001111100011111000222220002222200022222333445553334455533344555",
+    "objects": "bbbb....f.c..........b..c...a.acb......ee..f.....b......b......a",
+    "roomNames": [
+     "Crew Quarters",
+     "Bridge",
+     "Engine Room",
+     "Lab",
+     "Airlock",
+     "Hydroponics"
+    ],
+    "people": [
+     "Astrid the astronaut",
+     "Basil the botanist",
+     "Cora the chemist",
+     "Dexter the driller",
+     "Edith the engineer",
+     "Fiona the flight officer",
+     "Gus the gunner",
+     "Viola the visitor"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "next",
+      "pod"
+     ],
+     [
+      1,
+      "next",
+      "pod"
+     ],
+     [
+      1,
+      "next",
+      "tank"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "console"
+     ],
+     [
+      3,
+      "next",
+      "seat"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "same",
+      2
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "col",
+      6
+     ],
+     [
+      7,
+      "on",
+      "pod"
+     ]
+    ],
+    "solution": [
+     4,
+     9,
+     23,
+     27,
+     37,
+     42,
+     54,
+     56
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      34,
+      42
+     ],
+     [
+      15,
+      23
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      39,
+      47
+     ],
+     [
+      50,
+      51
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      6,
+      "t"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      57,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 20,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
+    "objects": ".f...bf.c.c....a....bc.............caad............a............",
+    "roomNames": [
+     "Engine Room",
+     "Bridge",
+     "Crew Quarters",
+     "Hydroponics",
+     "Airlock",
+     "Mess Hall"
+    ],
+    "people": [
+     "Viola the visitor",
+     "Arthur the astronaut",
+     "Bea the botanist",
+     "Celia the captain",
+     "Della the driller",
+     "Edith the engineer",
+     "Freya the farmer",
+     "Gwen the geologist"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "seat"
+     ],
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "next",
+      "tank"
+     ],
+     [
+      2,
+      "window"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "scope"
+     ],
+     [
+      5,
+      "room",
+      5
+     ],
+     [
+      6,
+      "on",
+      "seat"
+     ],
+     [
+      7,
+      "same",
+      6
+     ],
+     [
+      7,
+      "window"
+     ]
+    ],
+    "solution": [
+     7,
+     14,
+     16,
+     25,
+     37,
+     44,
+     51,
+     58
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      19,
+      27
+     ],
+     [
+      21,
+      29
+     ],
+     [
+      27,
+      28
+     ],
+     [
+      34,
+      42
+     ],
+     [
+      38,
+      46
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      16,
+      "l"
+     ],
+     [
+      58,
+      "b"
+     ],
+     [
+      61,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0000111100001111000011112222333322223333444444444444444455555555",
     "objects": "...df.c...f.......b.....d................f.e.a...bcb.bfdaf......",
     "roomNames": [
@@ -59063,6 +66093,316 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 5,
     "steps": 20,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000000000000000111122221111222233444555334445553344455533444555",
+    "objects": "d...bc...d..a..b.b.......a....c.f.e.....f.......bb.be.......fd..",
+    "roomNames": [
+     "Crew Quarters",
+     "Mess Hall",
+     "Engine Room",
+     "Airlock",
+     "Observatory",
+     "Comms"
+    ],
+    "people": [
+     "Albert the analyst",
+     "Birgit the biologist",
+     "Cedric the captain",
+     "Dexter the driller",
+     "Elsa the engineer",
+     "Freya the flight officer",
+     "Grace the gunner",
+     "Vera the visitor"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "same",
+      0
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "seat"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "plant"
+     ],
+     [
+      5,
+      "room",
+      5
+     ],
+     [
+      6,
+      "on",
+      "pod"
+     ],
+     [
+      6,
+      "next",
+      "tank"
+     ]
+    ],
+    "solution": [
+     7,
+     14,
+     20,
+     26,
+     35,
+     45,
+     48,
+     57
+    ],
+    "doors": [
+     [
+      10,
+      18
+     ],
+     [
+      12,
+      20
+     ],
+     [
+      27,
+      28
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      26,
+      34
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      33,
+      34
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      40,
+      "l"
+     ],
+     [
+      57,
+      "b"
+     ],
+     [
+      59,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 26,
+    "facts": [
+     [
+      "onCount",
+      "seat",
+      0
+     ],
+     [
+      "nextCount",
+      "seat",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111000022220000222233344455333444553334445533344455",
+    "objects": "...c..a......fd...f.edd.........b....fa....a.....c....b.e.....b.",
+    "roomNames": [
+     "Comms",
+     "Gym",
+     "Engine Room",
+     "Cargo Bay",
+     "Airlock",
+     "Crew Quarters"
+    ],
+    "people": [
+     "Alma the astronaut",
+     "Birgit the biologist",
+     "Clara the captain",
+     "Dora the doctor",
+     "Ena the engineer",
+     "Viola the volunteer",
+     "Flora the flight officer",
+     "Gideon the geologist"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "seat"
+     ],
+     [
+      1,
+      "next",
+      "tank"
+     ],
+     [
+      2,
+      "next",
+      "tank"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "on",
+      "pod"
+     ],
+     [
+      5,
+      "next",
+      "console"
+     ],
+     [
+      6,
+      "on",
+      "pod"
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      7,
+      "alone"
+     ]
+    ],
+    "solution": [
+     7,
+     10,
+     19,
+     28,
+     32,
+     41,
+     54,
+     61
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      24,
+      32
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      15,
+      23
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      50,
+      51
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 3,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "tank",
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -61077,6 +68417,371 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000001111000001111000001111222223333222223333222223333444555666444555666444555666",
+    "objects": ".......ba...b.c.....d.abfb...........cd......bb.f.........db.....aa....cb..ab....",
+    "roomNames": [
+     "Lab",
+     "Airlock",
+     "Hydroponics",
+     "Crew Quarters",
+     "Med Bay",
+     "Engine Room",
+     "Mess Hall"
+    ],
+    "people": [
+     "Alma the analyst",
+     "Basil the botanist",
+     "Cedric the captain",
+     "Dora the driller",
+     "Elias the electrician",
+     "Vivian the visitor",
+     "Freya the farmer",
+     "Greta the geologist",
+     "Hugo the hull technician"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "notRoom",
+      6
+     ],
+     [
+      2,
+      "next",
+      "pod"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "notRoom",
+      6
+     ],
+     [
+      4,
+      "col",
+      7
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "next",
+      "tank"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      6,
+      "col",
+      1
+     ],
+     [
+      7,
+      "on",
+      "seat"
+     ],
+     [
+      7,
+      "door"
+     ],
+     [
+      8,
+      "alone"
+     ]
+    ],
+    "solution": [
+     5,
+     9,
+     26,
+     31,
+     43,
+     47,
+     55,
+     66,
+     78
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      20,
+      29
+     ],
+     [
+      26,
+      35
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      48,
+      57
+     ],
+     [
+      50,
+      59
+     ],
+     [
+      53,
+      62
+     ],
+     [
+      65,
+      66
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      75,
+      "b"
+     ],
+     [
+      80,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 22,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111222211111222233333222233333445556666445556666445556666445556666",
+    "objects": ".e.c.c........ee..c...bea...c.cc...............ba.ad.c.f.........b....e.bac.b.f..",
+    "roomNames": [
+     "Airlock",
+     "Comms",
+     "Bridge",
+     "Crew Quarters",
+     "Med Bay",
+     "Hydroponics",
+     "Engine Room"
+    ],
+    "people": [
+     "Alma the astronaut",
+     "Bea the biologist",
+     "Clara the captain",
+     "Dexter the doctor",
+     "Edgar the engineer",
+     "Flora the farmer",
+     "Gideon the gunner",
+     "Victor the volunteer",
+     "Henrik the hull technician"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "next",
+      "console"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "room",
+      2
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "col",
+      6
+     ],
+     [
+      4,
+      "next",
+      "console"
+     ],
+     [
+      5,
+      "next",
+      "seat"
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "tank"
+     ],
+     [
+      7,
+      "notRoom",
+      3
+     ],
+     [
+      8,
+      "next",
+      "plant"
+     ],
+     [
+      8,
+      "next",
+      "tank"
+     ]
+    ],
+    "solution": [
+     8,
+     12,
+     19,
+     33,
+     40,
+     47,
+     54,
+     68,
+     79
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      10,
+      19
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      23,
+      32
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      36,
+      45
+     ],
+     [
+      39,
+      48
+     ],
+     [
+      40,
+      49
+     ],
+     [
+      44,
+      53
+     ],
+     [
+      73,
+      74
+     ],
+     [
+      49,
+      50
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      27,
+      "l"
+     ],
+     [
+      35,
+      "r"
+     ],
+     [
+      77,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 27,
+    "facts": [
+     [
+      "roomCount",
+      5,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000011222000011222333311222333311222444444555444444555444444555666666555666666555",
     "objects": ".effd.......f......c....d.....f..a...f.f.....cc.........ba..c..a..c...c..b.b..a..",
     "roomNames": [
@@ -61420,6 +69125,178 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 6,
     "steps": 25,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000111111000111111000111111222333444222333444222333444222333444555555666555555666",
+    "objects": "....c.a...c...ef..ac....a..b....ab......d..a.a......a.eb......baad.....c.....b..f",
+    "roomNames": [
+     "Lab",
+     "Comms",
+     "Crew Quarters",
+     "Gym",
+     "Engine Room",
+     "Airlock",
+     "Hydroponics"
+    ],
+    "people": [
+     "Arthur the analyst",
+     "Bella the botanist",
+     "Carl the captain",
+     "Dexter the driller",
+     "Elsa the engineer",
+     "Flora the farmer",
+     "Gideon the gunner",
+     "Victor the visitor",
+     "Henrik the hacker"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "next",
+      "console"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "on",
+      "seat"
+     ],
+     [
+      5,
+      "next",
+      "scope"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "same",
+      4
+     ],
+     [
+      7,
+      "next",
+      "pod"
+     ],
+     [
+      8,
+      "next",
+      "seat"
+     ]
+    ],
+    "solution": [
+     8,
+     11,
+     18,
+     30,
+     43,
+     49,
+     60,
+     68,
+     73
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      21,
+      30
+     ],
+     [
+      26,
+      35
+     ],
+     [
+      47,
+      48
+     ],
+     [
+      56,
+      65
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      59,
+      68
+     ],
+     [
+      61,
+      70
+     ],
+     [
+      77,
+      78
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      8,
+      "t"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      45,
+      "l"
+     ],
+     [
+      77,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 5,
+    "steps": 23,
+    "facts": [
+     [
+      "nextCount",
+      "scope",
+      1
+     ],
+     [
+      "roomCount",
+      3,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -74892,6 +82769,204 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111222332223322233",
+    "objects": "a......ea...c.......d.c.c",
+    "roomNames": [
+     "Orchestra Pit",
+     "Stage",
+     "Costume Room",
+     "Bar"
+    ],
+    "people": [
+     "Victor the ventriloquist",
+     "Astrid the author",
+     "Birgit the baritone",
+     "Carl the choreographer",
+     "Dmitri the director"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "rack"
+     ],
+     [
+      1,
+      "window"
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "next",
+      "mirror"
+     ],
+     [
+      4,
+      "next",
+      "piano"
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     11,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      9,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011000112233322333",
+    "objects": "dd...e...b.c..b.b.e...be.",
+    "roomNames": [
+     "Orchestra Pit",
+     "Box Office",
+     "Stage",
+     "Lighting Booth"
+    ],
+    "people": [
+     "Alma the author",
+     "Vivian the ventriloquist",
+     "Bella the bass player",
+     "Celia the choreographer",
+     "Dmitri the director"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "mirror"
+     ],
+     [
+      1,
+      "on",
+      "sofa"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "same",
+      3
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     13,
+     16,
+     20
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      11,
+      16
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      20,
+      "l"
+     ],
+     [
+      20,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      2
+     ],
+     [
+      "nextCount",
+      "sofa",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0001100011000112233322333",
     "objects": "e..a..a.....b....a.d..e..",
     "roomNames": [
@@ -75560,6 +83635,188 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 3,
     "steps": 15,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112223322233",
+    "objects": "e.cb..b..d..d............",
+    "roomNames": [
+     "Wings",
+     "Orchestra Pit",
+     "Bar",
+     "Stage"
+    ],
+    "people": [
+     "Alma the agent",
+     "Bruno the bass player",
+     "Cora the critic",
+     "Vera the violinist",
+     "Dexter the dancer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "on",
+      "sofa"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "mirror"
+     ],
+     [
+      4,
+      "window"
+     ]
+    ],
+    "solution": [
+     3,
+     6,
+     14,
+     17,
+     20
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      11,
+      16
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      20,
+      "l"
+     ],
+     [
+      24,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112223322233",
+    "objects": "a...db..fba....d.d...a.a.",
+    "roomNames": [
+     "Stage",
+     "Dressing Room",
+     "Lighting Booth",
+     "Costume Room"
+    ],
+    "people": [
+     "Albert the author",
+     "Bella the baritone",
+     "Carl the choreographer",
+     "Vera the ventriloquist",
+     "Dexter the dancer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "on",
+      "sofa"
+     ],
+     [
+      2,
+      "next",
+      "seat"
+     ],
+     [
+      4,
+      "on",
+      "seat"
+     ]
+    ],
+    "solution": [
+     2,
+     5,
+     11,
+     19,
+     23
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      4,
+      "r"
+     ],
+     [
+      21,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
+    "facts": [
+     [
+      "touch",
+      null,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -76552,6 +84809,241 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "000000000000111222111222333444333444",
+    "objects": "..d...f...a..bb...d..cbbc...e..f....",
+    "roomNames": [
+     "Wings",
+     "Orchestra Pit",
+     "Foyer",
+     "Balcony",
+     "Green Room"
+    ],
+    "people": [
+     "Astrid the author",
+     "Basil the bass player",
+     "Cedric the critic",
+     "Viola the violinist",
+     "Daisy the director",
+     "Edgar the extra"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "mirror"
+     ],
+     [
+      2,
+      "next",
+      "piano"
+     ],
+     [
+      4,
+      "next",
+      "light"
+     ],
+     [
+      5,
+      "row",
+      5
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     15,
+     23,
+     25,
+     30
+    ],
+    "doors": [
+     [
+      6,
+      12
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      31,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
+    "facts": [
+     [
+      "doorCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001122001122001122334444334444334444",
+    "objects": "....a.....c.....f...bf...e.d...c..b.",
+    "roomNames": [
+     "Costume Room",
+     "Green Room",
+     "Wings",
+     "Prop Store",
+     "Box Office"
+    ],
+    "people": [
+     "Alma the agent",
+     "Basil the bass player",
+     "Clara the choreographer",
+     "Dexter the director",
+     "Victor the violinist",
+     "Elias the electrician"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "on",
+      "seat"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "notRoom",
+      1
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "room",
+      3
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "mirror"
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     13,
+     18,
+     29,
+     33
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      14,
+      20
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      19,
+      20
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      12,
+      "l"
+     ],
+     [
+      31,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000111000111222111222111333444333444",
     "objects": ".ea.........d....aa.....b.a......ab.",
     "roomNames": [
@@ -76785,6 +85277,242 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 3,
     "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111222233222233444433444433",
+    "objects": ".e..fa.b.........b.aa.d.....aef.....",
+    "roomNames": [
+     "Costume Room",
+     "Box Office",
+     "Foyer",
+     "Prop Store",
+     "Lighting Booth"
+    ],
+    "people": [
+     "Albert the author",
+     "Bruno the baritone",
+     "Cedric the choreographer",
+     "Della the dancer",
+     "Vivian the ventriloquist",
+     "Elias the electrician"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "rack"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "on",
+      "sofa"
+     ],
+     [
+      3,
+      "next",
+      "seat"
+     ],
+     [
+      4,
+      "next",
+      "light"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "light"
+     ]
+    ],
+    "solution": [
+     2,
+     10,
+     17,
+     21,
+     24,
+     31
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      6,
+      "l"
+     ],
+     [
+      24,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 16,
+    "facts": [
+     [
+      "onCount",
+      "seat",
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000011000011223333223333224444224444",
+    "objects": "..........c....ca..d...f.....ba....d",
+    "roomNames": [
+     "Bar",
+     "Costume Room",
+     "Box Office",
+     "Green Room",
+     "Stage"
+    ],
+    "people": [
+     "Albert the agent",
+     "Basil the baritone",
+     "Clara the choreographer",
+     "Dora the director",
+     "Elsa the electrician",
+     "Victor the violinist"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "col",
+      3
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "mirror"
+     ],
+     [
+      4,
+      "on",
+      "sofa"
+     ],
+     [
+      5,
+      "next",
+      "mirror"
+     ]
+    ],
+    "solution": [
+     3,
+     7,
+     14,
+     18,
+     29,
+     34
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      20,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      23,
+      "r"
+     ],
+     [
+      30,
+      "l"
+     ],
+     [
+      32,
+      "b"
+     ],
+     [
+      34,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
     "extra": true
    },
    {
@@ -78373,6 +87101,251 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0000111000011100001112222333222233344443334444333",
+    "objects": "........b.....b..cdc.................f....abbd..d",
+    "roomNames": [
+     "Dressing Room",
+     "Balcony",
+     "Prop Store",
+     "Foyer",
+     "Lighting Booth"
+    ],
+    "people": [
+     "Arthur the agent",
+     "Basil the bass player",
+     "Clara the choreographer",
+     "Della the dancer",
+     "Vince the ventriloquist",
+     "Ena the electrician",
+     "Freya the flautist"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      0
+     ],
+     [
+      1,
+      "next",
+      "mirror"
+     ],
+     [
+      2,
+      "next",
+      "piano"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      4,
+      "col",
+      3
+     ],
+     [
+      5,
+      "next",
+      "light"
+     ],
+     [
+      6,
+      "next",
+      "mirror"
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     6,
+     11,
+     16,
+     21,
+     31,
+     36,
+     47
+    ],
+    "doors": [
+     [
+      17,
+      18
+     ],
+     [
+      14,
+      21
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      28,
+      35
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "t"
+     ],
+     [
+      14,
+      "l"
+     ],
+     [
+      34,
+      "r"
+     ],
+     [
+      46,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222333222233344443334444333",
+    "objects": "b.........d.fa.b.afe...........a.....bac.d..e....",
+    "roomNames": [
+     "Foyer",
+     "Wings",
+     "Costume Room",
+     "Stage",
+     "Lighting Booth"
+    ],
+    "people": [
+     "Albert the agent",
+     "Basil the baritone",
+     "Clara the critic",
+     "Dora the dancer",
+     "Edgar the extra",
+     "Flora the fan",
+     "Vera the ventriloquist"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "light"
+     ],
+     [
+      1,
+      "next",
+      "sofa"
+     ],
+     [
+      2,
+      "on",
+      "sofa"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "mirror"
+     ],
+     [
+      5,
+      "next",
+      "rack"
+     ],
+     [
+      6,
+      "row",
+      6
+     ]
+    ],
+    "solution": [
+     5,
+     7,
+     15,
+     24,
+     34,
+     37,
+     46
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      31,
+      38
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      6,
+      "r"
+     ],
+     [
+      20,
+      "r"
+     ],
+     [
+      45,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0000000000000011111112222133222213344441334444133",
     "objects": "c...a...d..e..fb.d.a..a..b.b..b.e..bcbd...b....ef",
     "roomNames": [
@@ -78488,6 +87461,136 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 3,
     "steps": 20,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222333222233344443334444333",
+    "objects": ".fe....b..c......a..ba.c.........c.b.......d.....",
+    "roomNames": [
+     "Orchestra Pit",
+     "Lighting Booth",
+     "Prop Store",
+     "Stage",
+     "Box Office"
+    ],
+    "people": [
+     "Alma the agent",
+     "Viola the ventriloquist",
+     "Bella the bass player",
+     "Cora the critic",
+     "Dexter the dancer",
+     "Elsa the extra",
+     "Fiona the fan"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "piano"
+     ],
+     [
+      1,
+      "next",
+      "rack"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      3,
+      "same",
+      5
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      5,
+      "same",
+      4
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     3,
+     9,
+     15,
+     27,
+     32,
+     40,
+     42
+    ],
+    "doors": [
+     [
+      16,
+      17
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      20,
+      27
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      31,
+      38
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "l"
+     ],
+     [
+      28,
+      "l"
+     ],
+     [
+      46,
+      "b"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "nextCount",
+      "sofa",
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -78615,6 +87718,137 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 3,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011100001112223333222333322244442224444",
+    "objects": "acac...cb....a...ee..cd.a.........e.............c",
+    "roomNames": [
+     "Foyer",
+     "Lighting Booth",
+     "Costume Room",
+     "Orchestra Pit",
+     "Balcony"
+    ],
+    "people": [
+     "Vera the violinist",
+     "Astrid the author",
+     "Bea the bass player",
+     "Clara the critic",
+     "Della the director",
+     "Edith the extra",
+     "Fiona the fan"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "on",
+      "seat"
+     ],
+     [
+      2,
+      "next",
+      "piano"
+     ],
+     [
+      3,
+      "on",
+      "seat"
+     ],
+     [
+      4,
+      "same",
+      3
+     ],
+     [
+      5,
+      "notRoom",
+      0
+     ],
+     [
+      6,
+      "same",
+      5
+     ],
+     [
+      6,
+      "door"
+     ]
+    ],
+    "solution": [
+     5,
+     13,
+     14,
+     24,
+     32,
+     36,
+     44
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      44,
+      45
+     ],
+     [
+      34,
+      41
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      34,
+      "r"
+     ],
+     [
+      35,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 16,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -80202,6 +89436,293 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001112200011122000111220001112233344455333444553334445533344455",
+    "objects": "dce.......bc..ca...b.f..f...a...ad.f.....ab............d..ab..dc",
+    "roomNames": [
+     "Prop Store",
+     "Costume Room",
+     "Box Office",
+     "Dressing Room",
+     "Stage",
+     "Bar"
+    ],
+    "people": [
+     "Viola the violinist",
+     "Albert the agent",
+     "Basil the baritone",
+     "Clara the choreographer",
+     "Daisy the dancer",
+     "Edgar the electrician",
+     "Fiona the fan",
+     "Greta the ghost writer"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "on",
+      "seat"
+     ],
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "light"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "sofa"
+     ],
+     [
+      5,
+      "next",
+      "seat"
+     ],
+     [
+      6,
+      "next",
+      "mirror"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "on",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     4,
+     15,
+     17,
+     29,
+     34,
+     40,
+     54,
+     59
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      26,
+      34
+     ],
+     [
+      29,
+      30
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      34,
+      35
+     ],
+     [
+      37,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      56,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001122200011222000112220001122211113333111133334444555544445555",
+    "objects": ".ac............b.......a.....d..e.b..d.....bc.b......bf...e..c.f",
+    "roomNames": [
+     "Wings",
+     "Orchestra Pit",
+     "Dressing Room",
+     "Balcony",
+     "Box Office",
+     "Green Room"
+    ],
+    "people": [
+     "Astrid the agent",
+     "Basil the bass player",
+     "Vera the violinist",
+     "Celia the choreographer",
+     "Della the director",
+     "Ena the extra",
+     "Frank the fan",
+     "Grace the guitarist"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "next",
+      "seat"
+     ],
+     [
+      1,
+      "on",
+      "sofa"
+     ],
+     [
+      1,
+      "next",
+      "seat"
+     ],
+     [
+      2,
+      "next",
+      "seat"
+     ],
+     [
+      3,
+      "same",
+      0
+     ],
+     [
+      4,
+      "next",
+      "rack"
+     ],
+     [
+      4,
+      "next",
+      "sofa"
+     ],
+     [
+      5,
+      "next",
+      "piano"
+     ],
+     [
+      6,
+      "next",
+      "sofa"
+     ],
+     [
+      7,
+      "next",
+      "rack"
+     ]
+    ],
+    "solution": [
+     0,
+     15,
+     22,
+     26,
+     33,
+     45,
+     52,
+     59
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      28,
+      29
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      42,
+      50
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      44,
+      52
+     ],
+     [
+      51,
+      52
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      7,
+      "r"
+     ],
+     [
+      15,
+      "r"
+     ],
+     [
+      55,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0011122200111222001112223311122233444222334445553344455533444555",
     "objects": "....eb...a.c...a...a.......bccac.a....bb.f..c.....b.a.e.c.d.....",
     "roomNames": [
@@ -80349,6 +89870,299 @@ const CAMPAIGNS = [
     ],
     "hard": 8,
     "hardest": 6,
+    "steps": 22,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000000000000000111122221111222233344555333445553334455533344555",
+    "objects": "....f..f.c...b...eb..ec......b...b.c.b.b...........e..d..bbe...a",
+    "roomNames": [
+     "Stage",
+     "Bar",
+     "Green Room",
+     "Dressing Room",
+     "Orchestra Pit",
+     "Balcony"
+    ],
+    "people": [
+     "Astrid the agent",
+     "Bea the baritone",
+     "Vera the ventriloquist",
+     "Carl the choreographer",
+     "Dmitri the dancer",
+     "Edgar the extra",
+     "Flora the fan",
+     "Greta the guitarist"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "col",
+      3
+     ],
+     [
+      2,
+      "next",
+      "rack"
+     ],
+     [
+      3,
+      "on",
+      "sofa"
+     ],
+     [
+      3,
+      "next",
+      "rack"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "mirror"
+     ],
+     [
+      6,
+      "window"
+     ],
+     [
+      7,
+      "on",
+      "seat"
+     ]
+    ],
+    "solution": [
+     2,
+     11,
+     20,
+     29,
+     33,
+     46,
+     48,
+     63
+    ],
+    "doors": [
+     [
+      9,
+      17
+     ],
+     [
+      12,
+      20
+     ],
+     [
+      27,
+      28
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      36,
+      37
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      48,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 23,
+    "facts": [
+     [
+      "emptyRooms",
+      null,
+      2
+     ],
+     [
+      "nextCount",
+      "rack",
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001111100011111000111110002222200022222333445553334455533344555",
+    "objects": "....c.....a...a....fc........cbe....ac.......f......bc..a.ff.f.e",
+    "roomNames": [
+     "Orchestra Pit",
+     "Balcony",
+     "Stage",
+     "Wings",
+     "Foyer",
+     "Box Office"
+    ],
+    "people": [
+     "Arthur the agent",
+     "Vince the violinist",
+     "Basil the baritone",
+     "Celia the choreographer",
+     "Dexter the director",
+     "Elias the electrician",
+     "Fiona the flautist",
+     "Greta the ghost writer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "seat"
+     ],
+     [
+      1,
+      "window"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "on",
+      "sofa"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "window"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "next",
+      "sofa"
+     ],
+     [
+      7,
+      "alone"
+     ]
+    ],
+    "solution": [
+     2,
+     8,
+     21,
+     30,
+     35,
+     47,
+     49,
+     60
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      34,
+      35
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      19,
+      27
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      38,
+      46
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      56,
+      "b"
+     ],
+     [
+      61,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 4,
+    "hardest": 4,
     "steps": 22,
     "extra": true
    },
@@ -82484,6 +92298,338 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000001111000001111000001111222223333222223333445555666445555666445555666445555666",
+    "objects": ".....d....ad.d.b....c.b.......b........cd.....ebd...b.........d..f.....aaa......d",
+    "roomNames": [
+     "Costume Room",
+     "Box Office",
+     "Wings",
+     "Orchestra Pit",
+     "Prop Store",
+     "Foyer",
+     "Stage"
+    ],
+    "people": [
+     "Ada the agent",
+     "Bella the bass player",
+     "Cedric the critic",
+     "Della the director",
+     "Edith the electrician",
+     "Frank the fan",
+     "Greta the ghost writer",
+     "Vivian the violinist",
+     "Hugo the harpist"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "next",
+      "mirror"
+     ],
+     [
+      1,
+      "next",
+      "sofa"
+     ],
+     [
+      2,
+      "next",
+      "piano"
+     ],
+     [
+      3,
+      "col",
+      8
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "next",
+      "light"
+     ],
+     [
+      8,
+      "window"
+     ]
+    ],
+    "solution": [
+     4,
+     14,
+     19,
+     35,
+     43,
+     51,
+     54,
+     66,
+     74
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      21,
+      30
+     ],
+     [
+      23,
+      32
+     ],
+     [
+      40,
+      41
+     ],
+     [
+      36,
+      45
+     ],
+     [
+      39,
+      48
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      42,
+      51
+     ],
+     [
+      55,
+      56
+     ],
+     [
+      77,
+      78
+     ]
+    ],
+    "windows": [
+     [
+      8,
+      "t"
+     ],
+     [
+      53,
+      "r"
+     ],
+     [
+      63,
+      "l"
+     ],
+     [
+      74,
+      "b"
+     ],
+     [
+      80,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "roomCount",
+      6,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000111111000111111000112222000112222333334444333334444555556666555556666555556666",
+    "objects": "..dc.......e...e.....d...a.b..a......b.....ec......ff.....cf..........a..ab..ca.e",
+    "roomNames": [
+     "Prop Store",
+     "Wings",
+     "Box Office",
+     "Stage",
+     "Green Room",
+     "Dressing Room",
+     "Foyer"
+    ],
+    "people": [
+     "Arthur the author",
+     "Bella the bass player",
+     "Carl the choreographer",
+     "Daisy the dancer",
+     "Vera the violinist",
+     "Ena the extra",
+     "Flora the flautist",
+     "Gus the guitarist",
+     "Hugo the harpist"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "col",
+      7
+     ],
+     [
+      1,
+      "next",
+      "mirror"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      2,
+      "col",
+      5
+     ],
+     [
+      3,
+      "same",
+      2
+     ],
+     [
+      4,
+      "next",
+      "sofa"
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "col",
+      2
+     ],
+     [
+      7,
+      "next",
+      "seat"
+     ],
+     [
+      8,
+      "door"
+     ]
+    ],
+    "solution": [
+     7,
+     12,
+     23,
+     33,
+     36,
+     46,
+     56,
+     71,
+     76
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      29,
+      38
+     ],
+     [
+      15,
+      24
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      32,
+      41
+     ],
+     [
+      49,
+      50
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      53,
+      62
+     ],
+     [
+      76,
+      77
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      45,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 22,
+    "facts": [
+     [
+      "corner",
+      null,
+      3
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "001122333001122333001122333001122333001144444001144444555566666555566666555566666",
     "objects": ".........f.bd.ee.cd.....e.d..f.df.............ab.....f...........aecc..e.........",
     "roomNames": [
@@ -83013,6 +93159,343 @@ const CAMPAIGNS = [
     "hard": 5,
     "hardest": 7,
     "steps": 27,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000001111000001111000001111222223333222223333445556666445556666445556666445556666",
+    "objects": "b.b.bb...b.....d....d.bf....bc...ca.d....b....a...............a.d...f..f.b.....f.",
+    "roomNames": [
+     "Lighting Booth",
+     "Prop Store",
+     "Costume Room",
+     "Stage",
+     "Green Room",
+     "Balcony",
+     "Wings"
+    ],
+    "people": [
+     "Arthur the agent",
+     "Birgit the bass player",
+     "Victor the ventriloquist",
+     "Cedric the critic",
+     "Della the director",
+     "Elias the extra",
+     "Felix the flautist",
+     "Gus the guitarist",
+     "Henrik the hairdresser"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "on",
+      "sofa"
+     ],
+     [
+      1,
+      "next",
+      "light"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "same",
+      7
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      6,
+      "same",
+      8
+     ],
+     [
+      7,
+      "next",
+      "light"
+     ],
+     [
+      8,
+      "on",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     2,
+     14,
+     22,
+     35,
+     39,
+     51,
+     54,
+     70,
+     73
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      26,
+      35
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      37,
+      46
+     ],
+     [
+      40,
+      49
+     ],
+     [
+      43,
+      52
+     ],
+     [
+      55,
+      56
+     ],
+     [
+      76,
+      77
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      72,
+      "l"
+     ],
+     [
+      72,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 24,
+    "facts": [
+     [
+      "doorCount",
+      null,
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000000000111111111111111111222222333222222333445555333445555666445555666445555666",
+    "objects": ".a.......f..b.....b.....e...af.....ac...f...e.b...a.fab..b....bd..f.b.....ef.c...",
+    "roomNames": [
+     "Stage",
+     "Green Room",
+     "Balcony",
+     "Costume Room",
+     "Wings",
+     "Lighting Booth",
+     "Box Office"
+    ],
+    "people": [
+     "Astrid the author",
+     "Basil the baritone",
+     "Cedric the choreographer",
+     "Daisy the dancer",
+     "Elsa the extra",
+     "Felix the flautist",
+     "Victor the ventriloquist",
+     "Gwen the ghost writer",
+     "Hazel the harpist"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "col",
+      3
+     ],
+     [
+      1,
+      "next",
+      "light"
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "notRoom",
+      3
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      3,
+      "col",
+      5
+     ],
+     [
+      4,
+      "room",
+      3
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ],
+     [
+      7,
+      "next",
+      "light"
+     ],
+     [
+      7,
+      "next",
+      "sofa"
+     ],
+     [
+      8,
+      "col",
+      7
+     ]
+    ],
+    "solution": [
+     3,
+     10,
+     26,
+     32,
+     42,
+     45,
+     56,
+     67,
+     79
+    ],
+    "doors": [
+     [
+      4,
+      13
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      25,
+      34
+     ],
+     [
+      32,
+      33
+     ],
+     [
+      36,
+      45
+     ],
+     [
+      38,
+      47
+     ],
+     [
+      50,
+      51
+     ],
+     [
+      51,
+      60
+     ],
+     [
+      64,
+      65
+     ],
+     [
+      68,
+      69
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      53,
+      "r"
+     ],
+     [
+      63,
+      "l"
+     ],
+     [
+      75,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 23,
+    "facts": [
+     [
+      "onCount",
+      "sofa",
+      0
+     ],
+     [
+      "roomCount",
+      6,
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -97073,6 +107556,198 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111223332233322333",
+    "objects": ".ba..a.......ea..a...b..c",
+    "roomNames": [
+     "Games Room",
+     "Ski Room",
+     "Boot Room",
+     "Lobby"
+    ],
+    "people": [
+     "Astrid the athlete",
+     "Bella the baker",
+     "Cedric the cook",
+     "Vera the vlogger",
+     "Dexter the driver"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      0
+     ],
+     [
+      1,
+      "on",
+      "chair"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      4,
+      "next",
+      "skis"
+     ]
+    ],
+    "solution": [
+     2,
+     5,
+     11,
+     19,
+     23
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      11,
+      12
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      1,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 12,
+    "facts": [
+     [
+      "nextCount",
+      "chair",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0000000000111112223322233",
+    "objects": "..a...d...aca.b..b...b..b",
+    "roomNames": [
+     "Suite",
+     "Boot Room",
+     "Bar",
+     "Fireside Lounge"
+    ],
+    "people": [
+     "Arthur the avalanche guard",
+     "Victor the vlogger",
+     "Bea the bartender",
+     "Carl the cook",
+     "Dora the driver"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      2,
+      "on",
+      "chair"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "notRoom",
+      0
+     ],
+     [
+      4,
+      "on",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     3,
+     9,
+     12,
+     15,
+     21
+    ],
+    "doors": [
+     [
+      6,
+      11
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      17,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "l"
+     ],
+     [
+      19,
+      "r"
+     ],
+     [
+      24,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0001100011000112222233333",
     "objects": "..da.db.....a.....a.f.d..",
     "roomNames": [
@@ -97445,6 +108120,97 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 4,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": "..da.a.d..f......b..aa..d",
+    "roomNames": [
+     "Suite",
+     "Bar",
+     "Kitchen",
+     "Sauna"
+    ],
+    "people": [
+     "Alma the athlete",
+     "Bella the baker",
+     "Victor the vlogger",
+     "Celia the cook",
+     "Della the doctor"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "on",
+      "chair"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      4,
+      "window"
+     ],
+     [
+      4,
+      "alone"
+     ]
+    ],
+    "solution": [
+     4,
+     5,
+     12,
+     16,
+     23
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      12,
+      13
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      20,
+      "l"
+     ],
+     [
+      23,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 12,
     "extra": true
    },
    {
@@ -97924,6 +108690,101 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 3,
     "steps": 15,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112233322333",
+    "objects": ".f....c..d..d....bf.....f",
+    "roomNames": [
+     "Kitchen",
+     "Games Room",
+     "Boot Room",
+     "Lobby"
+    ],
+    "people": [
+     "Albert the athlete",
+     "Bea the bartender",
+     "Vince the vet",
+     "Cedric the cook",
+     "Dexter the doctor"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "next",
+      "wood"
+     ],
+     [
+      1,
+      "col",
+      2
+     ],
+     [
+      3,
+      "next",
+      "wood"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "door"
+     ]
+    ],
+    "solution": [
+     0,
+     7,
+     13,
+     19,
+     21
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      11,
+      16
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      14,
+      "r"
+     ],
+     [
+      19,
+      "r"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 14,
+    "facts": [
+     [
+      "emptyRooms",
+      null,
+      0
+     ]
+    ],
     "extra": true
    },
    {
@@ -99206,6 +110067,239 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "000011000011222211222211333444333444",
+    "objects": "ed..........a....d..a...f..f.ae..b..",
+    "roomNames": [
+     "Suite",
+     "Bar",
+     "Sauna",
+     "Spa",
+     "Fireside Lounge"
+    ],
+    "people": [
+     "Arthur the athlete",
+     "Bella the bartender",
+     "Cora the climber",
+     "Dmitri the driver",
+     "Edith the explorer",
+     "Viola the vet"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "fire"
+     ],
+     [
+      1,
+      "next",
+      "tree"
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "wood"
+     ],
+     [
+      5,
+      "next",
+      "chair"
+     ]
+    ],
+    "solution": [
+     2,
+     6,
+     13,
+     21,
+     28,
+     35
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      32,
+      33
+     ]
+    ],
+    "windows": [
+     [
+      12,
+      "l"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      32,
+      "b"
+     ],
+     [
+      33,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000000000000111122111122333344333344",
+    "objects": "f...bf...a.c...a...f.c...ab.fa....d.",
+    "roomNames": [
+     "Fireside Lounge",
+     "Ski Room",
+     "Games Room",
+     "Lobby",
+     "Terrace"
+    ],
+    "people": [
+     "Alma the athlete",
+     "Bea the bartender",
+     "Carl the cook",
+     "Dmitri the doctor",
+     "Elsa the explorer",
+     "Viola the vet"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "wood"
+     ],
+     [
+      1,
+      "on",
+      "chair"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "on",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     4,
+     9,
+     12,
+     23,
+     26,
+     31
+    ],
+    "doors": [
+     [
+      7,
+      13
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      27,
+      28
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      11,
+      "r"
+     ],
+     [
+      34,
+      "b"
+     ],
+     [
+      35,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 18,
+    "facts": [
+     [
+      "nextCount",
+      "skis",
+      0
+     ],
+     [
+      "nextCount",
+      "wood",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000111000111222111222111333444333444",
     "objects": "...ea.c..f.....d...b...a...a.....b.d",
     "roomNames": [
@@ -99546,6 +110640,124 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 4,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111000111222222333444333444",
+    "objects": "......df.f.dc..f..........d..fa.eb..",
+    "roomNames": [
+     "Fireside Lounge",
+     "Ski Room",
+     "Spa",
+     "Games Room",
+     "Bar"
+    ],
+    "people": [
+     "Victor the vlogger",
+     "Albert the avalanche guard",
+     "Bruno the bartender",
+     "Cora the cook",
+     "Dora the driver",
+     "Elsa the engineer"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "wood"
+     ],
+     [
+      2,
+      "next",
+      "wood"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "sofa"
+     ],
+     [
+      5,
+      "alone"
+     ]
+    ],
+    "solution": [
+     1,
+     8,
+     16,
+     23,
+     27,
+     30
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      13,
+      19
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      23,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 15,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      1
+     ]
+    ],
     "extra": true
    },
    {
@@ -100134,6 +111346,119 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 3,
     "steps": 14,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000011000011222111222111333444333444",
+    "objects": "..........b..afc..c.d.c.bbc.ab.d...e",
+    "roomNames": [
+     "Ski Room",
+     "Dining Hall",
+     "Suite",
+     "Sauna",
+     "Boot Room"
+    ],
+    "people": [
+     "Ada the athlete",
+     "Basil the bartender",
+     "Clara the cook",
+     "Vera the vlogger",
+     "Daisy the doctor",
+     "Ena the engineer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "skis"
+     ],
+     [
+      3,
+      "next",
+      "skis"
+     ],
+     [
+      4,
+      "on",
+      "sofa"
+     ],
+     [
+      4,
+      "next",
+      "fire"
+     ],
+     [
+      5,
+      "next",
+      "fire"
+     ]
+    ],
+    "solution": [
+     4,
+     9,
+     12,
+     23,
+     25,
+     32
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      12,
+      "l"
+     ],
+     [
+      29,
+      "r"
+     ],
+     [
+      34,
+      "b"
+     ],
+     [
+      35,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
     "extra": true
    },
    {
@@ -101110,6 +112435,411 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0011222001122200112220011222333344433334443333444",
+    "objects": ".......d..d.ad......bc....a.....d......fae.......",
+    "roomNames": [
+     "Kitchen",
+     "Boot Room",
+     "Sauna",
+     "Lobby",
+     "Fireside Lounge"
+    ],
+    "people": [
+     "Albert the athlete",
+     "Birgit the baker",
+     "Cedric the cook",
+     "Dora the driver",
+     "Elias the engineer",
+     "Freya the forester",
+     "Vince the vlogger"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "on",
+      "chair"
+     ],
+     [
+      2,
+      "next",
+      "skis"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "window"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "wood"
+     ]
+    ],
+    "solution": [
+     2,
+     12,
+     14,
+     22,
+     34,
+     38,
+     46
+    ],
+    "doors": [
+     [
+      15,
+      16
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      10,
+      11
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      27,
+      34
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      21,
+      "l"
+     ],
+     [
+      34,
+      "r"
+     ],
+     [
+      47,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
+    "facts": [
+     [
+      "nextCount",
+      "skis",
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000000000000011112221111222333222233344443334444",
+    "objects": "....a...b..c.a..bab....b...f.....a.b............c",
+    "roomNames": [
+     "Bar",
+     "Lobby",
+     "Fireside Lounge",
+     "Dining Hall",
+     "Ski Room"
+    ],
+    "people": [
+     "Arthur the avalanche guard",
+     "Bella the bartender",
+     "Carl the cook",
+     "Dora the driver",
+     "Ena the explorer",
+     "Felix the fisher",
+     "Vivian the vet"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "on",
+      "chair"
+     ],
+     [
+      0,
+      "next",
+      "skis"
+     ],
+     [
+      1,
+      "next",
+      "skis"
+     ],
+     [
+      2,
+      "room",
+      2
+     ],
+     [
+      2,
+      "next",
+      "sofa"
+     ],
+     [
+      3,
+      "next",
+      "sofa"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "sofa"
+     ]
+    ],
+    "solution": [
+     4,
+     10,
+     19,
+     22,
+     30,
+     41,
+     42
+    ],
+    "doors": [
+     [
+      8,
+      15
+     ],
+     [
+      13,
+      20
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      34,
+      41
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      28,
+      "l"
+     ],
+     [
+      44,
+      "b"
+     ],
+     [
+      46,
+      "b"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      2
+     ],
+     [
+      "roomCount",
+      2,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0011122001112200111220013322444332244433224443322",
+    "objects": "e.b......ac.a.....a.c..d...d..aaad...be.ae..e....",
+    "roomNames": [
+     "Sauna",
+     "Dining Hall",
+     "Ski Room",
+     "Spa",
+     "Kitchen"
+    ],
+    "people": [
+     "Vivian the vet",
+     "Astrid the athlete",
+     "Bruno the bartender",
+     "Cedric the cook",
+     "Dexter the driver",
+     "Edith the engineer",
+     "Flora the fisher"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      2,
+      "next",
+      "fire"
+     ],
+     [
+      3,
+      "same",
+      4
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "window"
+     ],
+     [
+      6,
+      "next",
+      "tree"
+     ]
+    ],
+    "solution": [
+     5,
+     8,
+     16,
+     24,
+     32,
+     35,
+     48
+    ],
+    "doors": [
+     [
+      8,
+      9
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      32,
+      33
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "windows": [
+     [
+      14,
+      "l"
+     ],
+     [
+      35,
+      "l"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      43,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 15,
+    "facts": [
+     [
+      "nextCount",
+      "tree",
+      1
+     ],
+     [
+      "roomCount",
+      0,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0001111000111100022220002222333444433344443334444",
     "objects": "d..b.....efd....b..c.........a......b.....a.add..",
     "roomNames": [
@@ -101358,6 +113088,138 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 5,
     "steps": 19,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222333222233344443334444333",
+    "objects": "...aa.........ec.f....ce....fe.......c...ba.....a",
+    "roomNames": [
+     "Kitchen",
+     "Lobby",
+     "Suite",
+     "Terrace",
+     "Ski Room"
+    ],
+    "people": [
+     "Albert the athlete",
+     "Viola the vlogger",
+     "Basil the bartender",
+     "Clara the climber",
+     "Daisy the doctor",
+     "Elsa the engineer",
+     "Frank the fisher"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      2,
+      "col",
+      6
+     ],
+     [
+      3,
+      "next",
+      "skis"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      5,
+      "next",
+      "skis"
+     ],
+     [
+      6,
+      "door"
+     ],
+     [
+      6,
+      "window"
+     ]
+    ],
+    "solution": [
+     2,
+     12,
+     20,
+     21,
+     32,
+     36,
+     45
+    ],
+    "doors": [
+     [
+      16,
+      17
+     ],
+     [
+      14,
+      21
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      30,
+      37
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      21,
+      "l"
+     ],
+     [
+      35,
+      "l"
+     ],
+     [
+      43,
+      "b"
+     ],
+     [
+      45,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 16,
     "extra": true
    },
    {
@@ -103100,6 +114962,316 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0000111100001111000011112223333322233333222333334445555544455555",
+    "objects": "...d......fa.....d.d...acbf.e..edcce.....ea..b.d..........b.....",
+    "roomNames": [
+     "Lobby",
+     "Ski Room",
+     "Spa",
+     "Bar",
+     "Suite",
+     "Terrace"
+    ],
+    "people": [
+     "Ada the avalanche guard",
+     "Vivian the vlogger",
+     "Bruno the baker",
+     "Carl the cook",
+     "Dora the doctor",
+     "Elsa the explorer",
+     "Freya the forester",
+     "Greta the glacier expert"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "fire"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "tree"
+     ],
+     [
+      3,
+      "col",
+      6
+     ],
+     [
+      4,
+      "next",
+      "fire"
+     ],
+     [
+      5,
+      "next",
+      "tree"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "window"
+     ]
+    ],
+    "solution": [
+     4,
+     13,
+     18,
+     30,
+     39,
+     40,
+     51,
+     57
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      18,
+      26
+     ],
+     [
+      19,
+      27
+     ],
+     [
+      23,
+      31
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      40,
+      48
+     ],
+     [
+      47,
+      55
+     ],
+     [
+      58,
+      59
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      57,
+      "b"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "wood",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001112200011122000111220003333300033333444555554445555544444444",
+    "objects": ".......a...a.a.e......a..........f..d...f....dcf.b.........b....",
+    "roomNames": [
+     "Lobby",
+     "Sauna",
+     "Suite",
+     "Boot Room",
+     "Dining Hall",
+     "Games Room"
+    ],
+    "people": [
+     "Albert the avalanche guard",
+     "Vera the vet",
+     "Birgit the baker",
+     "Clara the climber",
+     "Dexter the driver",
+     "Elsa the engineer",
+     "Frank the fisher",
+     "Greta the guide"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "col",
+      7
+     ],
+     [
+      4,
+      "next",
+      "wood"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "wood"
+     ],
+     [
+      6,
+      "room",
+      5
+     ],
+     [
+      7,
+      "same",
+      5
+     ]
+    ],
+    "solution": [
+     6,
+     8,
+     21,
+     31,
+     34,
+     41,
+     51,
+     60
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      34,
+      42
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      21,
+      29
+     ],
+     [
+      22,
+      30
+     ],
+     [
+      38,
+      46
+     ],
+     [
+      55,
+      63
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      48,
+      "l"
+     ],
+     [
+      62,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 22,
+    "facts": [
+     [
+      "onCount",
+      "sofa",
+      0
+     ],
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0000011100000111000001112223334422233344222333442225555522255555",
     "objects": "b.....fba....f...dcf.c..c..c.b.......e...f.e..a.......e.b....b.a",
     "roomNames": [
@@ -103853,6 +116025,318 @@ const CAMPAIGNS = [
     "hard": 7,
     "hardest": 6,
     "steps": 22,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111222211112222111133444555334445553344455533444555",
+    "objects": "......b..ea........f.b.........a..........b......f.......caa..c.",
+    "roomNames": [
+     "Bar",
+     "Dining Hall",
+     "Spa",
+     "Suite",
+     "Sauna",
+     "Terrace"
+    ],
+    "people": [
+     "Astrid the avalanche guard",
+     "Bruno the baker",
+     "Clara the climber",
+     "Della the driver",
+     "Edith the engineer",
+     "Victor the vet",
+     "Freya the fisher",
+     "Gus the glacier expert"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "sofa"
+     ],
+     [
+      0,
+      "col",
+      7
+     ],
+     [
+      1,
+      "same",
+      0
+     ],
+     [
+      2,
+      "on",
+      "sofa"
+     ],
+     [
+      3,
+      "notRoom",
+      5
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "next",
+      "sofa"
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ],
+     [
+      7,
+      "window"
+     ]
+    ],
+    "solution": [
+     7,
+     12,
+     21,
+     25,
+     38,
+     43,
+     50,
+     56
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      11,
+      19
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      24,
+      32
+     ],
+     [
+      26,
+      34
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      36,
+      37
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      56,
+      "b"
+     ],
+     [
+      62,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "corner",
+      null,
+      2
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000011100000111000002223333322233333222444555224445552244455522",
+    "objects": ".ecfa..b.........b......ff..c.ac..b.e....d....b.....d.a.d..f....",
+    "roomNames": [
+     "Games Room",
+     "Ski Room",
+     "Terrace",
+     "Dining Hall",
+     "Suite",
+     "Kitchen"
+    ],
+    "people": [
+     "Alma the athlete",
+     "Viola the vlogger",
+     "Bruno the bartender",
+     "Clara the cook",
+     "Dmitri the driver",
+     "Elias the explorer",
+     "Flora the fisher",
+     "Greta the glacier expert"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "sofa"
+     ],
+     [
+      1,
+      "next",
+      "tree"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "skis"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "fire"
+     ],
+     [
+      6,
+      "same",
+      4
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ],
+     [
+      7,
+      "next",
+      "wood"
+     ]
+    ],
+    "solution": [
+     6,
+     9,
+     18,
+     27,
+     37,
+     40,
+     55,
+     60
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      18,
+      26
+     ],
+     [
+      15,
+      23
+     ],
+     [
+      36,
+      37
+     ],
+     [
+      37,
+      45
+     ],
+     [
+      34,
+      42
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      50,
+      51
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      55,
+      "r"
+     ],
+     [
+      57,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 18,
+    "facts": [
+     [
+      "furniture",
+      null,
+      0
+     ],
+     [
+      "doorCount",
+      null,
+      2
+     ],
+     [
+      "edge",
+      null,
+      4
+     ]
+    ],
     "extra": true
    },
    {
@@ -105404,6 +117888,351 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000011222000011222333311222333311222445555666445555666445555666444444666444444666",
+    "objects": "...........b.....c.....da.e.....c....a.eda..f..e.b.b.b......f........b...d..e..cd",
+    "roomNames": [
+     "Fireside Lounge",
+     "Lobby",
+     "Ski Room",
+     "Games Room",
+     "Dining Hall",
+     "Sauna",
+     "Kitchen"
+    ],
+    "people": [
+     "Alma the avalanche guard",
+     "Vivian the vet",
+     "Bella the baker",
+     "Clara the climber",
+     "Dexter the doctor",
+     "Elsa the explorer",
+     "Fiona the fisher",
+     "Gideon the glacier expert",
+     "Hana the hotelier"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      2,
+      "col",
+      1
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "col",
+      2
+     ],
+     [
+      4,
+      "on",
+      "chair"
+     ],
+     [
+      5,
+      "next",
+      "wood"
+     ],
+     [
+      6,
+      "next",
+      "sofa"
+     ],
+     [
+      7,
+      "next",
+      "skis"
+     ],
+     [
+      8,
+      "window"
+     ]
+    ],
+    "solution": [
+     3,
+     9,
+     19,
+     29,
+     41,
+     53,
+     58,
+     70,
+     78
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      12,
+      21
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      32,
+      41
+     ],
+     [
+      34,
+      43
+     ],
+     [
+      27,
+      36
+     ],
+     [
+      30,
+      39
+     ],
+     [
+      46,
+      47
+     ],
+     [
+      68,
+      69
+     ],
+     [
+      50,
+      51
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      1,
+      "t"
+     ],
+     [
+      63,
+      "l"
+     ],
+     [
+      78,
+      "b"
+     ],
+     [
+      79,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 27,
+    "facts": [
+     [
+      "nextCount",
+      "wood",
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000112222000112222000112222000112222333344444333344444333355555666655555666655555",
+    "objects": ".c...e...f..a....d......df..ea.b.d..f......d..a...a...d......be..........ddfa....",
+    "roomNames": [
+     "Fireside Lounge",
+     "Sauna",
+     "Terrace",
+     "Kitchen",
+     "Lobby",
+     "Dining Hall",
+     "Spa"
+    ],
+    "people": [
+     "Alma the athlete",
+     "Basil the bartender",
+     "Cedric the climber",
+     "Dmitri the doctor",
+     "Edith the engineer",
+     "Freya the forester",
+     "Gideon the guide",
+     "Hazel the hotelier",
+     "Vivian the vet"
+    ],
+    "victim": 8,
+    "clues": [
+     [
+      0,
+      "next",
+      "tree"
+     ],
+     [
+      1,
+      "same",
+      0
+     ],
+     [
+      1,
+      "next",
+      "tree"
+     ],
+     [
+      1,
+      "col",
+      5
+     ],
+     [
+      2,
+      "next",
+      "wood"
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "next",
+      "tree"
+     ],
+     [
+      4,
+      "next",
+      "wood"
+     ],
+     [
+      5,
+      "next",
+      "chair"
+     ],
+     [
+      6,
+      "next",
+      "tree"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     6,
+     14,
+     18,
+     29,
+     37,
+     49,
+     61,
+     66,
+     80
+    ],
+    "doors": [
+     [
+      20,
+      21
+     ],
+     [
+      29,
+      38
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      30,
+      39
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      34,
+      43
+     ],
+     [
+      39,
+      40
+     ],
+     [
+      57,
+      58
+     ],
+     [
+      57,
+      66
+     ],
+     [
+      51,
+      60
+     ],
+     [
+      66,
+      67
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      9,
+      "l"
+     ],
+     [
+      27,
+      "l"
+     ],
+     [
+      72,
+      "b"
+     ],
+     [
+      76,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000001111000001111222221111222223333222223333444444555444444555666666555666666555",
     "objects": "ac..a..bf.......d..badb..a..c...c..a.e........ac..e....fce..ac..ac........e......",
     "roomNames": [
@@ -105581,6 +118410,347 @@ const CAMPAIGNS = [
     "hard": 7,
     "hardest": 7,
     "steps": 29,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111000011111222233444222233444222233444222233444555533666555533666",
+    "objects": "ec..dcbd........a......af......a...d...cb......bbdb...f...........b....cc.a..bf..",
+    "roomNames": [
+     "Suite",
+     "Boot Room",
+     "Terrace",
+     "Fireside Lounge",
+     "Spa",
+     "Dining Hall",
+     "Ski Room"
+    ],
+    "people": [
+     "Arthur the avalanche guard",
+     "Birgit the baker",
+     "Celia the cook",
+     "Dexter the doctor",
+     "Elsa the explorer",
+     "Freya the forester",
+     "Viola the vet",
+     "Grace the glacier expert",
+     "Hugo the hotelier"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "fire"
+     ],
+     [
+      1,
+      "next",
+      "fire"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      4,
+      "next",
+      "sofa"
+     ],
+     [
+      4,
+      "next",
+      "skis"
+     ],
+     [
+      5,
+      "col",
+      6
+     ],
+     [
+      6,
+      "next",
+      "sofa"
+     ],
+     [
+      7,
+      "next",
+      "skis"
+     ],
+     [
+      8,
+      "next",
+      "wood"
+     ]
+    ],
+    "solution": [
+     8,
+     13,
+     19,
+     32,
+     38,
+     51,
+     57,
+     63,
+     79
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      19,
+      28
+     ],
+     [
+      23,
+      32
+     ],
+     [
+      24,
+      33
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      55,
+      64
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      75,
+      76
+     ],
+     [
+      68,
+      69
+     ],
+     [
+      60,
+      69
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      72,
+      "l"
+     ],
+     [
+      79,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 24,
+    "facts": [
+     [
+      "roomCount",
+      0,
+      1
+     ]
+    ],
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000001111000001111000001111222223333222223333222223333445555666445555666445555666",
+    "objects": ".........d....dc......d.fe.f...d...a.......ae.......e.f..ee.bccb....b..d........a",
+    "roomNames": [
+     "Lobby",
+     "Fireside Lounge",
+     "Bar",
+     "Boot Room",
+     "Dining Hall",
+     "Spa",
+     "Sauna"
+    ],
+    "people": [
+     "Alma the avalanche guard",
+     "Bella the baker",
+     "Cedric the cook",
+     "Vivian the vlogger",
+     "Dmitri the driver",
+     "Edith the engineer",
+     "Felix the forester",
+     "Gus the glacier expert",
+     "Hazel the hotelier"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      2
+     ],
+     [
+      0,
+      "same",
+      1
+     ],
+     [
+      1,
+      "next",
+      "fire"
+     ],
+     [
+      2,
+      "next",
+      "fire"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "fire"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "col",
+      0
+     ],
+     [
+      6,
+      "next",
+      "skis"
+     ],
+     [
+      7,
+      "next",
+      "tree"
+     ],
+     [
+      7,
+      "next",
+      "sofa"
+     ],
+     [
+      8,
+      "on",
+      "chair"
+     ]
+    ],
+    "solution": [
+     2,
+     10,
+     23,
+     30,
+     43,
+     45,
+     60,
+     67,
+     80
+    ],
+    "doors": [
+     [
+      22,
+      23
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      23,
+      32
+     ],
+     [
+      31,
+      32
+     ],
+     [
+      46,
+      55
+     ],
+     [
+      49,
+      58
+     ],
+     [
+      50,
+      59
+     ],
+     [
+      53,
+      62
+     ],
+     [
+      64,
+      65
+     ],
+     [
+      68,
+      69
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      53,
+      "r"
+     ],
+     [
+      62,
+      "r"
+     ],
+     [
+      63,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 3,
+    "steps": 28,
+    "facts": [
+     [
+      "roomCount",
+      6,
+      2
+     ]
+    ],
     "extra": true
    },
    {
@@ -119946,6 +133116,192 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0001100011000112223322233",
+    "objects": "b.a.......eb.ba.b..a.....",
+    "roomNames": [
+     "Armory",
+     "Courtyard",
+     "Tower",
+     "Gatehouse"
+    ],
+    "people": [
+     "Vince the verger",
+     "Astrid the archer",
+     "Bruno the baker",
+     "Carl the cupbearer",
+     "Dmitri the doorkeeper"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "on",
+      "bench"
+     ],
+     [
+      1,
+      "next",
+      "bench"
+     ],
+     [
+      2,
+      "on",
+      "cot"
+     ],
+     [
+      3,
+      "window"
+     ],
+     [
+      4,
+      "alone"
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     11,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      17,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      15,
+      "l"
+     ],
+     [
+      24,
+      "b"
+     ],
+     [
+      24,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     1
+    ],
+    "rank": "cnccc",
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112233322333",
+    "objects": "e....d........eb.........",
+    "roomNames": [
+     "Gatehouse",
+     "Solar",
+     "Stables",
+     "Dungeon"
+    ],
+    "people": [
+     "Alma the archer",
+     "Bella the bard",
+     "Carl the cupbearer",
+     "Dora the dancer",
+     "Vera the verger"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "col",
+      3
+     ],
+     [
+      1,
+      "next",
+      "swords"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "on",
+      "cot"
+     ]
+    ],
+    "solution": [
+     3,
+     9,
+     12,
+     15,
+     21
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      16,
+      17
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "l"
+     ],
+     [
+      22,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     1
+    ],
+    "rank": "nnkck",
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0011100111222332223322233",
     "objects": "b.a....cabca.....d.c.e...",
     "roomNames": [
@@ -120640,6 +133996,208 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 4,
     "steps": 11,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0000011111223332233322333",
+    "objects": "c...c...b..c....b.a.a....",
+    "roomNames": [
+     "Great Hall",
+     "Solar",
+     "Chapel",
+     "Throne Room"
+    ],
+    "people": [
+     "Albert the alchemist",
+     "Birgit the baker",
+     "Vera the vintner",
+     "Clara the cupbearer",
+     "Dora the doorkeeper"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "notRoom",
+      0
+     ],
+     [
+      3,
+      "next",
+      "bench"
+     ],
+     [
+      4,
+      "next",
+      "bench"
+     ],
+     [
+      4,
+      "row",
+      4
+     ]
+    ],
+    "solution": [
+     2,
+     6,
+     14,
+     15,
+     23
+    ],
+    "doors": [
+     [
+      2,
+      7
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      19,
+      "r"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     3
+    ],
+    "rank": "kckck",
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112223322233",
+    "objects": "b.e...a..d.....ba..c...a.",
+    "roomNames": [
+     "Courtyard",
+     "Dungeon",
+     "Solar",
+     "Great Hall"
+    ],
+    "people": [
+     "Ada the archer",
+     "Vivian the vintner",
+     "Bruno the bard",
+     "Celia the cupbearer",
+     "Daisy the doorkeeper"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "next",
+      "candles"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "on",
+      "cot"
+     ],
+     [
+      4,
+      "next",
+      "bench"
+     ]
+    ],
+    "solution": [
+     1,
+     8,
+     12,
+     15,
+     24
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "l"
+     ],
+     [
+      20,
+      "l"
+     ],
+     [
+      21,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 12,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      1
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     1
+    ],
+    "rank": "cnkkc",
     "extra": true
    },
    {
@@ -121739,6 +135297,245 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "001122001122001122333444333444333444",
+    "objects": ".........fd..a.c...b......f.e.bfd.a.",
+    "roomNames": [
+     "Great Hall",
+     "Dungeon",
+     "Courtyard",
+     "Solar",
+     "Kitchen"
+    ],
+    "people": [
+     "Ada the archer",
+     "Bea the bard",
+     "Cora the chronicler",
+     "Viola the vintner",
+     "Daisy the dancer",
+     "Elias the embroiderer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "urn"
+     ],
+     [
+      2,
+      "on",
+      "bench"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "next",
+      "swords"
+     ],
+     [
+      5,
+      "next",
+      "urn"
+     ]
+    ],
+    "solution": [
+     3,
+     8,
+     13,
+     22,
+     29,
+     30
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      14,
+      20
+     ],
+     [
+      15,
+      21
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      32,
+      33
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      33,
+      "b"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     1
+    ],
+    "rank": "kncckk",
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111022222022222333444333444",
+    "objects": ".fd.a..b..c.....fc..b..d......bbac..",
+    "roomNames": [
+     "Kitchen",
+     "Stables",
+     "Courtyard",
+     "Tower",
+     "Great Hall"
+    ],
+    "people": [
+     "Vince the vintner",
+     "Astrid the archer",
+     "Birgit the baker",
+     "Cora the cupbearer",
+     "Dexter the dancer",
+     "Elsa the embroiderer"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "notRoom",
+      0
+     ],
+     [
+      3,
+      "next",
+      "cot"
+     ],
+     [
+      3,
+      "col",
+      3
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "same",
+      4
+     ]
+    ],
+    "solution": [
+     0,
+     8,
+     13,
+     21,
+     28,
+     35
+    ],
+    "doors": [
+     [
+      8,
+      9
+     ],
+     [
+      18,
+      19
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      32,
+      33
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      30,
+      "l"
+     ],
+     [
+      31,
+      "b"
+     ],
+     [
+      34,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     4
+    ],
+    "rank": "ckcckn",
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000011000011223311223311224444224444",
     "objects": "......d.d.....dd...........d.f.b.b..",
     "roomNames": [
@@ -122603,6 +136400,128 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "000000111111111222111222333444333444",
+    "objects": "......a.............e..e........e.e.",
+    "roomNames": [
+     "Dungeon",
+     "Chapel",
+     "Courtyard",
+     "Armory",
+     "Great Hall"
+    ],
+    "people": [
+     "Alma the archer",
+     "Bruno the baker",
+     "Vince the vintner",
+     "Cora the chronicler",
+     "Dexter the dancer",
+     "Edgar the envoy"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      1
+     ],
+     [
+      0,
+      "col",
+      5
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "swords"
+     ]
+    ],
+    "solution": [
+     5,
+     8,
+     16,
+     21,
+     24,
+     31
+    ],
+    "doors": [
+     [
+      3,
+      9
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      6,
+      "l"
+     ],
+     [
+      30,
+      "b"
+     ],
+     [
+      34,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
+    "facts": [
+     [
+      "emptyRooms",
+      null,
+      1
+     ],
+     [
+      "furniture",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     2
+    ],
+    "rank": "ccknck",
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "001122001122001122333111333444333444",
     "objects": "cb..db.....d.db.d.....b..b.....b.a.b",
     "roomNames": [
@@ -122843,6 +136762,122 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 5,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111222333222333444433444433",
+    "objects": "......c.fe.a..b...bd.cab.bc.....b...",
+    "roomNames": [
+     "Gatehouse",
+     "Courtyard",
+     "Armory",
+     "Tower",
+     "Dungeon"
+    ],
+    "people": [
+     "Arthur the archer",
+     "Bella the baker",
+     "Carl the cupbearer",
+     "Della the dancer",
+     "Viola the vintner",
+     "Ena the embroiderer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "swords"
+     ],
+     [
+      1,
+      "next",
+      "barrel"
+     ],
+     [
+      2,
+      "on",
+      "cot"
+     ],
+     [
+      3,
+      "on",
+      "bench"
+     ],
+     [
+      4,
+      "next",
+      "cot"
+     ],
+     [
+      5,
+      "alone"
+     ]
+    ],
+    "solution": [
+     3,
+     7,
+     14,
+     22,
+     29,
+     30
+    ],
+    "doors": [
+     [
+      8,
+      9
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      29,
+      "r"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 15,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     4
+    ],
+    "rank": "cckckn",
     "extra": true
    },
    {
@@ -124099,6 +138134,251 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0001122000112200011223334422333442233344223334422",
+    "objects": "....ba....bc..f..cee.e...f...da....b...b.de....b.",
+    "roomNames": [
+     "Smithy",
+     "Dungeon",
+     "Kitchen",
+     "Throne Room",
+     "Armory"
+    ],
+    "people": [
+     "Arthur the alchemist",
+     "Victor the verger",
+     "Birgit the baker",
+     "Cedric the cupbearer",
+     "Della the dancer",
+     "Elias the envoy",
+     "Freya the farrier"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "barrel"
+     ],
+     [
+      2,
+      "next",
+      "urn"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "candles"
+     ],
+     [
+      5,
+      "on",
+      "cot"
+     ],
+     [
+      6,
+      "window"
+     ]
+    ],
+    "solution": [
+     4,
+     9,
+     15,
+     24,
+     34,
+     35,
+     47
+    ],
+    "doors": [
+     [
+      16,
+      17
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      11,
+      12
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      37,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      13,
+      "r"
+     ],
+     [
+      28,
+      "l"
+     ],
+     [
+      47,
+      "b"
+     ],
+     [
+      48,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     3
+    ],
+    "rank": "cckccnc",
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100022220002222333444433344443334444",
+    "objects": "c...ea.b.c...a.e.....b...b..a....ce....ba..fd.d..",
+    "roomNames": [
+     "Tower",
+     "Armory",
+     "Solar",
+     "Kitchen",
+     "Great Hall"
+    ],
+    "people": [
+     "Astrid the archer",
+     "Basil the baker",
+     "Cora the cupbearer",
+     "Dmitri the dancer",
+     "Elsa the envoy",
+     "Frank the farrier",
+     "Victor the vintner"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "barrel"
+     ],
+     [
+      1,
+      "on",
+      "bench"
+     ],
+     [
+      2,
+      "next",
+      "cot"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "bench"
+     ],
+     [
+      5,
+      "on",
+      "cot"
+     ],
+     [
+      5,
+      "next",
+      "bench"
+     ],
+     [
+      6,
+      "next",
+      "bench"
+     ]
+    ],
+    "solution": [
+     2,
+     13,
+     14,
+     24,
+     29,
+     39,
+     47
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      13,
+      20
+     ],
+     [
+      27,
+      34
+     ],
+     [
+      37,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      42,
+      "l"
+     ],
+     [
+      43,
+      "b"
+     ],
+     [
+      48,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 17,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     3
+    ],
+    "rank": "ccccnkk",
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0001122000112200011223331122333444433344443334444",
     "objects": "......b.dc...daab..b...c.....b........f.cd.....ad",
     "roomNames": [
@@ -124370,6 +138650,134 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 4,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0011222001122200112220011222333344433334443333444",
+    "objects": "c..aa...e......a.cf.cb........c....c....b...bdc..",
+    "roomNames": [
+     "Stables",
+     "Solar",
+     "Great Hall",
+     "Tower",
+     "Armory"
+    ],
+    "people": [
+     "Arthur the archer",
+     "Bella the bard",
+     "Carl the chronicler",
+     "Della the dancer",
+     "Ena the envoy",
+     "Fiona the farrier",
+     "Vivian the vintner"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "swords"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "next",
+      "barrel"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "barrel"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      5,
+      "next",
+      "candles"
+     ]
+    ],
+    "solution": [
+     1,
+     12,
+     16,
+     27,
+     32,
+     38,
+     42
+    ],
+    "doors": [
+     [
+      22,
+      23
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      34,
+      "r"
+     ],
+     [
+      35,
+      "l"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      47,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 17,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     4
+    ],
+    "rank": "kkccnkc",
     "extra": true
    },
    {
@@ -124781,6 +139189,140 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 4,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001122000112200011220001122333333333344443334444",
+    "objects": "...........f.ea.....c.f....b.bc.bb........b..e.f.",
+    "roomNames": [
+     "Solar",
+     "Stables",
+     "Gatehouse",
+     "Tower",
+     "Armory"
+    ],
+    "people": [
+     "Astrid the alchemist",
+     "Bella the bard",
+     "Cedric the chronicler",
+     "Viola the verger",
+     "Daisy the doorkeeper",
+     "Ena the envoy",
+     "Flora the farrier"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "next",
+      "swords"
+     ],
+     [
+      1,
+      "next",
+      "bench"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "same",
+      6
+     ],
+     [
+      5,
+      "next",
+      "barrel"
+     ],
+     [
+      6,
+      "next",
+      "cot"
+     ]
+    ],
+    "solution": [
+     6,
+     7,
+     17,
+     26,
+     32,
+     37,
+     43
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      27,
+      34
+     ],
+     [
+      32,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      1,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      7,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 19,
+    "facts": [
+     [
+      "onCount",
+      "cot",
+      1
+     ],
+     [
+      "corner",
+      null,
+      2
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     2
+    ],
+    "rank": "kcckkcc",
     "extra": true
    },
    {
@@ -125887,6 +140429,299 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0000011100000111000001112223331122233311222333114445555544455555",
+    "objects": "..b..c....ea.f.....ff...........d.ad..eb..e....a.c..baaf....d...",
+    "roomNames": [
+     "Gatehouse",
+     "Solar",
+     "Courtyard",
+     "Chapel",
+     "Throne Room",
+     "Dungeon"
+    ],
+    "people": [
+     "Albert the archer",
+     "Bea the bard",
+     "Cora the chronicler",
+     "Daisy the dancer",
+     "Elsa the envoy",
+     "Frank the farrier",
+     "Vivian the vintner",
+     "Grace the glassmaker"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "next",
+      "swords"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "bench"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "same",
+      5
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "next",
+      "cot"
+     ],
+     [
+      7,
+      "next",
+      "bench"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     23,
+     26,
+     37,
+     44,
+     51,
+     62
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      17,
+      25
+     ],
+     [
+      20,
+      28
+     ],
+     [
+      29,
+      30
+     ],
+     [
+      47,
+      55
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      41,
+      49
+     ],
+     [
+      44,
+      52
+     ],
+     [
+      58,
+      59
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      40,
+      "l"
+     ],
+     [
+      56,
+      "l"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 18,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     3,
+     5
+    ],
+    "rank": "kkkcknkn",
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001111100011111000111112223333322233333222334445555544455555444",
+    "objects": ".fa....a..ab.dc.....cce.c......e..........d......be...f....b...f",
+    "roomNames": [
+     "Gatehouse",
+     "Great Hall",
+     "Chapel",
+     "Smithy",
+     "Throne Room",
+     "Stables"
+    ],
+    "people": [
+     "Astrid the archer",
+     "Bella the baker",
+     "Carl the cupbearer",
+     "Dmitri the doorkeeper",
+     "Vivian the vintner",
+     "Elias the embroiderer",
+     "Freya the farrier",
+     "Greta the groom"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "candles"
+     ],
+     [
+      1,
+      "on",
+      "bench"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "notRoom",
+      2
+     ],
+     [
+      3,
+      "next",
+      "swords"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "on",
+      "cot"
+     ]
+    ],
+    "solution": [
+     5,
+     10,
+     17,
+     30,
+     36,
+     40,
+     55,
+     59
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      16,
+      24
+     ],
+     [
+      22,
+      30
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      40,
+      48
+     ],
+     [
+      37,
+      45
+     ],
+     [
+      43,
+      51
+     ],
+     [
+      52,
+      53
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "r"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      63,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 21,
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     0,
+     2
+    ],
+    "rank": "cnnkcncc",
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0001111100011111000222220002222200022222333445553334455533344555",
     "objects": "a.e........f..b.fe....c.fccf..d...b.fb...........caacac..c...c..",
     "roomNames": [
@@ -126314,6 +141149,156 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+    "objects": ".a....d.....a.a......bcb.eaaac.....a.......e......ce......a..e..",
+    "roomNames": [
+     "Courtyard",
+     "Tower",
+     "Great Hall",
+     "Solar",
+     "Dungeon",
+     "Kitchen"
+    ],
+    "people": [
+     "Ada the archer",
+     "Bruno the bard",
+     "Celia the cupbearer",
+     "Vivian the verger",
+     "Dexter the doorkeeper",
+     "Elias the envoy",
+     "Felix the farrier",
+     "Gus the glassmaker"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "next",
+      "barrel"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "barrel"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "next",
+      "barrel"
+     ],
+     [
+      7,
+      "next",
+      "swords"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     21,
+     31,
+     38,
+     42,
+     49,
+     59
+    ],
+    "doors": [
+     [
+      26,
+      27
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      12,
+      13
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      30,
+      38
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      60,
+      61
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      48,
+      "l"
+     ],
+     [
+      56,
+      "b"
+     ],
+     [
+      57,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 22,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      2
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     0,
+     3
+    ],
+    "rank": "kkkkcnnk",
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0011122200111222001112220011122200111222333445553334455533344555",
     "objects": "ca.....f..dd......ae.fd.d..........c.ae....cf..b.a.b.ed..adf..fd",
     "roomNames": [
@@ -126461,6 +141446,161 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 4,
     "steps": 19,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111000011110000111122334444223344442233555522335555",
+    "objects": "c.b.c..ca....aa......f.d.c....c.f.....ead.b.e..b.......dacd..f..",
+    "roomNames": [
+     "Dungeon",
+     "Gatehouse",
+     "Throne Room",
+     "Tower",
+     "Armory",
+     "Kitchen"
+    ],
+    "people": [
+     "Albert the alchemist",
+     "Basil the bard",
+     "Clara the cupbearer",
+     "Daisy the doorkeeper",
+     "Edgar the embroiderer",
+     "Fiona the farrier",
+     "Vera the vintner",
+     "Greta the groom"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "bench"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "next",
+      "bench"
+     ],
+     [
+      3,
+      "next",
+      "barrel"
+     ],
+     [
+      4,
+      "next",
+      "cot"
+     ],
+     [
+      5,
+      "next",
+      "candles"
+     ],
+     [
+      6,
+      "next",
+      "candles"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     5,
+     11,
+     16,
+     31,
+     34,
+     41,
+     54,
+     60
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      26,
+      34
+     ],
+     [
+      30,
+      38
+     ],
+     [
+      57,
+      58
+     ],
+     [
+      35,
+      36
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      45,
+      53
+     ]
+    ],
+    "windows": [
+     [
+      24,
+      "l"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      56,
+      "l"
+     ],
+     [
+      59,
+      "b"
+     ],
+     [
+      61,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 18,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     3,
+     5
+    ],
+    "rank": "ckcckcnn",
     "extra": true
    },
    {
@@ -127889,6 +143029,347 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000001111000001111000001111222333333222333333222444444555444444555666666555666666",
+    "objects": "..ce...d...e.de......bc...b.b...c....d.c..b.....df.....b.....b.ca.a...c..d.......",
+    "roomNames": [
+     "Chapel",
+     "Tower",
+     "Armory",
+     "Dungeon",
+     "Great Hall",
+     "Kitchen",
+     "Solar"
+    ],
+    "people": [
+     "Alma the archer",
+     "Bea the bard",
+     "Cora the chronicler",
+     "Dexter the doorkeeper",
+     "Edgar the envoy",
+     "Vera the verger",
+     "Freya the falconer",
+     "Gwen the groom",
+     "Hilda the herald"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "candles"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      0
+     ],
+     [
+      2,
+      "same",
+      1
+     ],
+     [
+      3,
+      "next",
+      "barrel"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "next",
+      "urn"
+     ],
+     [
+      6,
+      "on",
+      "cot"
+     ],
+     [
+      7,
+      "on",
+      "bench"
+     ],
+     [
+      8,
+      "col",
+      8
+     ]
+    ],
+    "solution": [
+     6,
+     9,
+     19,
+     31,
+     38,
+     50,
+     61,
+     66,
+     80
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      25,
+      34
+     ],
+     [
+      38,
+      39
+     ],
+     [
+      47,
+      48
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      44,
+      53
+     ],
+     [
+      56,
+      57
+     ],
+     [
+      62,
+      71
+     ],
+     [
+      65,
+      66
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      53,
+      "r"
+     ],
+     [
+      72,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 21,
+    "facts": [
+     [
+      "onCount",
+      "cot",
+      1
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     0,
+     1
+    ],
+    "rank": "nnnkckcck",
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111000011111222233333222233333444433333444455555666655555666655555",
+    "objects": "b......ff...bb.....b.a..afc...fa.....e..c.....b......ae..b..a...b..b.....b..dbf.e",
+    "roomNames": [
+     "Tower",
+     "Solar",
+     "Kitchen",
+     "Courtyard",
+     "Throne Room",
+     "Armory",
+     "Gatehouse"
+    ],
+    "people": [
+     "Alma the alchemist",
+     "Bea the bard",
+     "Cedric the cupbearer",
+     "Viola the verger",
+     "Dexter the dancer",
+     "Edgar the envoy",
+     "Freya the farrier",
+     "Grace the groom",
+     "Hana the herald"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "same",
+      1
+     ],
+     [
+      1,
+      "next",
+      "urn"
+     ],
+     [
+      2,
+      "on",
+      "bench"
+     ],
+     [
+      4,
+      "next",
+      "urn"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "same",
+      7
+     ],
+     [
+      7,
+      "next",
+      "candles"
+     ],
+     [
+      8,
+      "window"
+     ]
+    ],
+    "solution": [
+     5,
+     16,
+     24,
+     27,
+     39,
+     46,
+     62,
+     67,
+     74
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      19,
+      28
+     ],
+     [
+      24,
+      33
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      37,
+      46
+     ],
+     [
+      48,
+      49
+     ],
+     [
+      50,
+      59
+     ],
+     [
+      57,
+      58
+     ],
+     [
+      57,
+      66
+     ],
+     [
+      75,
+      76
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      26,
+      "r"
+     ],
+     [
+      74,
+      "b"
+     ],
+     [
+      78,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "barrel",
+      0
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     1,
+     6
+    ],
+    "rank": "nnnkckccn",
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000111111000111111000002222000002222333445555333445555333446666333446666333446666",
     "objects": "db...dfe.e....f.d..........f..b....e........c...b..acb..c.baa.....a..fa.cc....e.b",
     "roomNames": [
@@ -128215,6 +143696,187 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 6,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000111222000111222000111222000111222000111222334445555334445555334446666334446666",
+    "objects": "a.cc....b..fb......afc.........c.cdf..da.adbc.....bc......fbbf..e.f....e...b..e..",
+    "roomNames": [
+     "Gatehouse",
+     "Courtyard",
+     "Armory",
+     "Great Hall",
+     "Dungeon",
+     "Smithy",
+     "Solar"
+    ],
+    "people": [
+     "Ada the archer",
+     "Bella the bard",
+     "Cedric the cupbearer",
+     "Dora the doorkeeper",
+     "Edgar the embroiderer",
+     "Viola the verger",
+     "Flora the falconer",
+     "Greta the glassmaker",
+     "Hazel the herbalist"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "barrel"
+     ],
+     [
+      0,
+      "same",
+      3
+     ],
+     [
+      1,
+      "col",
+      6
+     ],
+     [
+      2,
+      "next",
+      "barrel"
+     ],
+     [
+      3,
+      "next",
+      "candles"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      6,
+      "on",
+      "cot"
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      7,
+      "next",
+      "swords"
+     ],
+     [
+      8,
+      "on",
+      "cot"
+     ]
+    ],
+    "solution": [
+     1,
+     15,
+     22,
+     29,
+     36,
+     53,
+     59,
+     70,
+     75
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      36,
+      45
+     ],
+     [
+      38,
+      47
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      39,
+      48
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      43,
+      52
+     ],
+     [
+      46,
+      47
+     ],
+     [
+      49,
+      50
+     ],
+     [
+      67,
+      68
+     ],
+     [
+      62,
+      71
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      0,
+      "l"
+     ],
+     [
+      6,
+      "t"
+     ],
+     [
+      72,
+      "l"
+     ],
+     [
+      77,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 24,
+    "facts": [
+     [
+      "roomCount",
+      6,
+      1
+     ],
+     [
+      "roomCount",
+      5,
+      2
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     4,
+     5
+    ],
+    "rank": "ccckknkck",
     "extra": true
    },
    {
@@ -128570,6 +144232,189 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 6,
     "steps": 26,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000112222000112222000112222000112222333445555333445555333446666333446666333446666",
+    "objects": "....b.f..be...ac..c......a..e.....f.....b....d.......ca....eb.a...af.d.ea...c....",
+    "roomNames": [
+     "Tower",
+     "Gatehouse",
+     "Smithy",
+     "Chapel",
+     "Courtyard",
+     "Throne Room",
+     "Great Hall"
+    ],
+    "people": [
+     "Alma the archer",
+     "Bella the bard",
+     "Vivian the verger",
+     "Cora the cupbearer",
+     "Dmitri the doorkeeper",
+     "Elsa the embroiderer",
+     "Flora the falconer",
+     "Greta the glassmaker",
+     "Hazel the herbalist"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "next",
+      "cot"
+     ],
+     [
+      1,
+      "room",
+      2
+     ],
+     [
+      2,
+      "next",
+      "swords"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "cot"
+     ],
+     [
+      7,
+      "next",
+      "swords"
+     ],
+     [
+      7,
+      "next",
+      "candles"
+     ],
+     [
+      8,
+      "on",
+      "bench"
+     ],
+     [
+      8,
+      "alone"
+     ]
+    ],
+    "solution": [
+     3,
+     17,
+     19,
+     29,
+     40,
+     51,
+     61,
+     68,
+     72
+    ],
+    "doors": [
+     [
+      29,
+      30
+     ],
+     [
+      28,
+      37
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      34,
+      43
+     ],
+     [
+      56,
+      57
+     ],
+     [
+      40,
+      41
+     ],
+     [
+      67,
+      68
+     ],
+     [
+      50,
+      59
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      6,
+      "t"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      74,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 26,
+    "facts": [
+     [
+      "roomCount",
+      6,
+      2
+     ],
+     [
+      "corner",
+      null,
+      4
+     ],
+     [
+      "apart",
+      "rank"
+     ]
+    ],
+    "rules": [
+     "ranks"
+    ],
+    "court": [
+     1,
+     6
+    ],
+    "rank": "nkckkcknk",
     "extra": true
    },
    {
@@ -142074,6 +157919,197 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111002223322233222",
+    "objects": "f.a..................d.b.",
+    "roomNames": [
+     "Workshop",
+     "Treasury",
+     "Scribe Room",
+     "Sun Court"
+    ],
+    "people": [
+     "Ada the architect",
+     "Viola the vizier",
+     "Bella the boat builder",
+     "Celia the carpenter",
+     "Della the diviner"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "stool"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "statue"
+     ],
+     [
+      4,
+      "next",
+      "couch"
+     ]
+    ],
+    "solution": [
+     3,
+     7,
+     10,
+     16,
+     24
+    ],
+    "doors": [
+     [
+      6,
+      7
+     ],
+     [
+      11,
+      12
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      9,
+      "r"
+     ],
+     [
+      21,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": ".....L....L.C...........L",
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011223332233322333",
+    "objects": ".............ec.....b.dd.",
+    "roomNames": [
+     "Treasury",
+     "Burial Chamber",
+     "Granary",
+     "Shrine"
+    ],
+    "people": [
+     "Albert the architect",
+     "Birgit the brewer",
+     "Victor the vintner",
+     "Cora the chanter",
+     "Dora the diviner"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "rubble"
+     ],
+     [
+      4,
+      "next",
+      "couch"
+     ]
+    ],
+    "solution": [
+     4,
+     5,
+     12,
+     18,
+     21
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      11,
+      12
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      15,
+      "l"
+     ],
+     [
+      23,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 13,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "....LLL.....C........L...",
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0001100011000112222233333",
     "objects": "..c.e.....b.c.d...e.....f",
     "roomNames": [
@@ -143135,6 +159171,208 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0001100011223332233322333",
+    "objects": "...b..fc.b.e......e......",
+    "roomNames": [
+     "Shrine",
+     "Workshop",
+     "Granary",
+     "Well Shaft"
+    ],
+    "people": [
+     "Astrid the astrologer",
+     "Bruno the boat builder",
+     "Carl the carpenter",
+     "Dora the dancer",
+     "Viola the vizier"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "jar"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "rubble"
+     ]
+    ],
+    "solution": [
+     2,
+     5,
+     14,
+     16,
+     23
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      9,
+      14
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      20,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
+    "facts": [
+     [
+      "edge",
+      null,
+      4
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "..C.LC......LL..L......C.",
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222112223322233",
+    "objects": "fd..a.a.c.......d......b.",
+    "roomNames": [
+     "Hall of Pillars",
+     "Shrine",
+     "Treasury",
+     "Workshop"
+    ],
+    "people": [
+     "Alma the astrologer",
+     "Basil the boat builder",
+     "Carl the chanter",
+     "Della the dancer",
+     "Vince the vizier"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "statue"
+     ],
+     [
+      1,
+      "next",
+      "stool"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "statue"
+     ]
+    ],
+    "solution": [
+     2,
+     9,
+     10,
+     18,
+     21
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      12,
+      13
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      17,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      10,
+      "l"
+     ],
+     [
+      20,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      1
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "..........C......LL..C...",
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0011100111222332223322233",
     "objects": "a.bb...c...e.c...f..c.dc.",
     "roomNames": [
@@ -143930,6 +160168,251 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 4,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000000000000111223111223444223444223",
+    "objects": "b.b..a.b.d....e.......c..ea.....b...",
+    "roomNames": [
+     "Shrine",
+     "Workshop",
+     "Hall of Pillars",
+     "Treasury",
+     "Statue Hall"
+    ],
+    "people": [
+     "Astrid the architect",
+     "Birgit the brewer",
+     "Cora the carpenter",
+     "Dexter the diviner",
+     "Ena the envoy",
+     "Vivian the vintner"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "on",
+      "stool"
+     ],
+     [
+      1,
+      "same",
+      0
+     ],
+     [
+      2,
+      "next",
+      "rubble"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "window"
+     ],
+     [
+      5,
+      "next",
+      "stool"
+     ]
+    ],
+    "solution": [
+     5,
+     10,
+     13,
+     21,
+     24,
+     32
+    ],
+    "doors": [
+     [
+      7,
+      13
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      28,
+      29
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      30,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
+    "facts": [
+     [
+      "nextCount",
+      "statue",
+      1
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": ".............L.C....................",
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000000000000111222111222333444333444",
+    "objects": "f....a......ecea.e.a....eb...eb....b",
+    "roomNames": [
+     "Sun Court",
+     "Antechamber",
+     "Well Shaft",
+     "Shrine",
+     "Workshop"
+    ],
+    "people": [
+     "Ada the architect",
+     "Victor the vintner",
+     "Bea the boat builder",
+     "Cedric the chanter",
+     "Dexter the dancer",
+     "Edith the envoy"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "on",
+      "stool"
+     ],
+     [
+      1,
+      "notRoom",
+      2
+     ],
+     [
+      2,
+      "notRoom",
+      1
+     ],
+     [
+      2,
+      "next",
+      "rubble"
+     ],
+     [
+      3,
+      "next",
+      "rubble"
+     ],
+     [
+      4,
+      "next",
+      "couch"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "alone"
+     ]
+    ],
+    "solution": [
+     5,
+     7,
+     16,
+     18,
+     26,
+     33
+    ],
+    "doors": [
+     [
+      6,
+      12
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      30,
+      "b"
+     ],
+     [
+      30,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": ".......C.C...........C....L.........",
     "extra": true
    },
    {
@@ -144990,6 +161473,250 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 4,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111002222332244332244332244",
+    "objects": "..........b..........bbd.a...fe.a..b",
+    "roomNames": [
+     "Sun Court",
+     "Burial Chamber",
+     "Treasury",
+     "Workshop",
+     "Shrine"
+    ],
+    "people": [
+     "Astrid the astrologer",
+     "Bruno the boat builder",
+     "Cedric the chanter",
+     "Vince the vizier",
+     "Della the diviner",
+     "Ena the embalmer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "col",
+      1
+     ],
+     [
+      1,
+      "same",
+      0
+     ],
+     [
+      2,
+      "next",
+      "couch"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "stool"
+     ],
+     [
+      5,
+      "on",
+      "couch"
+     ]
+    ],
+    "solution": [
+     1,
+     6,
+     15,
+     22,
+     26,
+     35
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      16,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      18,
+      "l"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 18,
+    "facts": [
+     [
+      "roomCount",
+      4,
+      2
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "L..CC....C...L....C.................",
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000011000011222111222111334444334444",
+    "objects": ".fd.........a........eaa....ca..e.b.",
+    "roomNames": [
+     "Boat Pit",
+     "Burial Chamber",
+     "Antechamber",
+     "Workshop",
+     "Statue Hall"
+    ],
+    "people": [
+     "Vince the vizier",
+     "Alma the architect",
+     "Bella the boat builder",
+     "Cedric the carpenter",
+     "Dmitri the dancer",
+     "Edgar the envoy"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "statue"
+     ],
+     [
+      1,
+      "notRoom",
+      3
+     ],
+     [
+      2,
+      "next",
+      "stool"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "rubble"
+     ],
+     [
+      5,
+      "same",
+      4
+     ]
+    ],
+    "solution": [
+     3,
+     6,
+     13,
+     22,
+     26,
+     35
+    ],
+    "doors": [
+     [
+      9,
+      15
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      14,
+      15
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      25,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      12,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 14,
+    "facts": [
+     [
+      "doorCount",
+      null,
+      3
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "C.....C....C.L.................C...C",
     "extra": true
    },
    {
@@ -146109,6 +162836,269 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0001111000111100011112223344222334422233442223344",
+    "objects": ".dbb.....a..bdd.....eee.......b..c.........e.....",
+    "roomNames": [
+     "Scribe Room",
+     "Sun Court",
+     "Treasury",
+     "Workshop",
+     "Hall of Pillars"
+    ],
+    "people": [
+     "Arthur the architect",
+     "Bella the brewer",
+     "Vivian the vintner",
+     "Cora the carpenter",
+     "Dexter the diviner",
+     "Edith the envoy",
+     "Felix the fisher"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "next",
+      "couch"
+     ],
+     [
+      1,
+      "next",
+      "stool"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "rubble"
+     ],
+     [
+      5,
+      "window"
+     ],
+     [
+      6,
+      "same",
+      4
+     ],
+     [
+      6,
+      "row",
+      6
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     19,
+     24,
+     28,
+     41,
+     44
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      16,
+      23
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      46,
+      47
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      14,
+      "l"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      47,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "....C....................................L..C....",
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011100001112223333222333322244442224444",
+    "objects": "........a.ac..e...f.b.aa..bde..d...b...c...db...c",
+    "roomNames": [
+     "Antechamber",
+     "Boat Pit",
+     "Well Shaft",
+     "Hall of Pillars",
+     "Granary"
+    ],
+    "people": [
+     "Ada the architect",
+     "Bruno the brewer",
+     "Carl the carpenter",
+     "Dmitri the diviner",
+     "Elias the embalmer",
+     "Felix the fanbearer",
+     "Vera the vizier"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "on",
+      "stool"
+     ],
+     [
+      2,
+      "next",
+      "rubble"
+     ],
+     [
+      3,
+      "next",
+      "rubble"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "same",
+      3
+     ],
+     [
+      5,
+      "col",
+      6
+     ],
+     [
+      6,
+      "col",
+      4
+     ]
+    ],
+    "solution": [
+     5,
+     10,
+     15,
+     21,
+     30,
+     41,
+     46
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      14,
+      21
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      20,
+      27
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      37,
+      38
+     ],
+     [
+      31,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "l"
+     ],
+     [
+      46,
+      "b"
+     ],
+     [
+      47,
+      "b"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 20,
+    "facts": [
+     [
+      "nextCount",
+      "statue",
+      0
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": ".....................C........C......L.......C...",
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0001111000111100011112223333222333322244442224444",
     "objects": ".....b......beb......ac...a.......efe.d..fa......",
     "roomNames": [
@@ -146223,6 +163213,133 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 3,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011100001112222333222233344443334444333",
+    "objects": "...cba.....c.....b...a.c.f...b.fb.......d.b......",
+    "roomNames": [
+     "Boat Pit",
+     "Statue Hall",
+     "Sun Court",
+     "Granary",
+     "Antechamber"
+    ],
+    "people": [
+     "Astrid the astrologer",
+     "Vera the vintner",
+     "Bella the boat builder",
+     "Cora the carpenter",
+     "Daisy the dancer",
+     "Edgar the envoy",
+     "Fiona the fanbearer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "on",
+      "couch"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "next",
+      "jar"
+     ],
+     [
+      4,
+      "next",
+      "statue"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      5,
+      "same",
+      6
+     ],
+     [
+      6,
+      "col",
+      2
+     ]
+    ],
+    "solution": [
+     4,
+     13,
+     14,
+     24,
+     33,
+     36,
+     44
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      15,
+      22
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      29,
+      36
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      34,
+      "r"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      42,
+      "b"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 18,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      2
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "L.............L.........L...........C............",
     "extra": true
    },
    {
@@ -146846,6 +163963,152 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 5,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100022220002222333444433344443334444",
+    "objects": "...c...d...c......fccd.f..............d.a..a..e..",
+    "roomNames": [
+     "Hall of Pillars",
+     "Granary",
+     "Shrine",
+     "Boat Pit",
+     "Statue Hall"
+    ],
+    "people": [
+     "Albert the astrologer",
+     "Bea the brewer",
+     "Celia the chanter",
+     "Daisy the dancer",
+     "Victor the vintner",
+     "Elias the envoy",
+     "Flora the fisher"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      2
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "notRoom",
+      1
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      5,
+      "room",
+      3
+     ],
+     [
+      6,
+      "next",
+      "stool"
+     ],
+     [
+      6,
+      "next",
+      "rubble"
+     ]
+    ],
+    "solution": [
+     6,
+     9,
+     15,
+     24,
+     32,
+     35,
+     47
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      16,
+      17
+     ],
+     [
+      21,
+      28
+     ],
+     [
+      13,
+      20
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "windows": [
+     [
+      13,
+      "r"
+     ],
+     [
+      34,
+      "r"
+     ],
+     [
+      42,
+      "b"
+     ],
+     [
+      42,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
+    "facts": [
+     [
+      "touch",
+      null,
+      1
+     ],
+     [
+      "nextCount",
+      "rubble",
+      1
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "......L.....L.........L.L....LL....L........L....",
     "extra": true
    },
    {
@@ -148218,6 +165481,301 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001122200011222000112220001122233344455333444553334445533344455",
+    "objects": "..f......c.ab........b.cf...e.....d...dd..e.b..............e...d",
+    "roomNames": [
+     "Boat Pit",
+     "Burial Chamber",
+     "Statue Hall",
+     "Well Shaft",
+     "Workshop",
+     "Scribe Room"
+    ],
+    "people": [
+     "Vera the vizier",
+     "Ada the architect",
+     "Birgit the boat builder",
+     "Carl the carpenter",
+     "Dexter the diviner",
+     "Elsa the embalmer",
+     "Fiona the fisher",
+     "Grace the guard"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "next",
+      "urn"
+     ],
+     [
+      2,
+      "next",
+      "stool"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "next",
+      "couch"
+     ],
+     [
+      5,
+      "window"
+     ],
+     [
+      6,
+      "same",
+      5
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      7,
+      "row",
+      7
+     ]
+    ],
+    "solution": [
+     5,
+     15,
+     19,
+     26,
+     36,
+     40,
+     49,
+     62
+    ],
+    "doors": [
+     [
+      18,
+      19
+     ],
+     [
+      24,
+      32
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      34,
+      35
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      16,
+      "l"
+     ],
+     [
+      40,
+      "l"
+     ],
+     [
+      56,
+      "b"
+     ],
+     [
+      59,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 24,
+    "facts": [
+     [
+      "nextCount",
+      "jar",
+      0
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "........C....L.....LC...............L...........................",
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0011122200111222001112220011122233444555334445553344455533444555",
+    "objects": "........bba....e..e.c....ba..c..d.b.dc.bd......c.e.a.de..d......",
+    "roomNames": [
+     "Statue Hall",
+     "Shrine",
+     "Hall of Pillars",
+     "Treasury",
+     "Burial Chamber",
+     "Sun Court"
+    ],
+    "people": [
+     "Astrid the architect",
+     "Bruno the boat builder",
+     "Clara the chanter",
+     "Daisy the dancer",
+     "Ena the envoy",
+     "Felix the fisher",
+     "Gus the goldsmith",
+     "Vera the vintner"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "next",
+      "couch"
+     ],
+     [
+      2,
+      "window"
+     ],
+     [
+      3,
+      "on",
+      "stool"
+     ],
+     [
+      4,
+      "next",
+      "couch"
+     ],
+     [
+      4,
+      "next",
+      "statue"
+     ],
+     [
+      5,
+      "next",
+      "statue"
+     ],
+     [
+      6,
+      "next",
+      "rubble"
+     ],
+     [
+      7,
+      "next",
+      "statue"
+     ]
+    ],
+    "solution": [
+     6,
+     12,
+     16,
+     26,
+     35,
+     41,
+     55,
+     61
+    ],
+    "doors": [
+     [
+      17,
+      18
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      27,
+      35
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      57,
+      58
+     ],
+     [
+      36,
+      37
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      16,
+      "l"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      47,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "...C........C...L..............L.......................C........",
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0001122200011222000112220001122233444555334445553344455533444555",
     "objects": ".e...f...a.e.a...caf..........acc...f.............d....ac...b...",
     "roomNames": [
@@ -148518,6 +166076,305 @@ const CAMPAIGNS = [
     "hard": 10,
     "hardest": 5,
     "steps": 25,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000011100000111000001112222233322222333444553334445555544455555",
+    "objects": "d...cb.b.....e..a..a..e........a..c...e..e..a.....c...a..b.a..b.",
+    "roomNames": [
+     "Granary",
+     "Shrine",
+     "Hall of Pillars",
+     "Treasury",
+     "Well Shaft",
+     "Boat Pit"
+    ],
+    "people": [
+     "Astrid the architect",
+     "Bea the boat builder",
+     "Vera the vizier",
+     "Carl the chanter",
+     "Della the dancer",
+     "Elsa the envoy",
+     "Felix the fanbearer",
+     "Gus the guard"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "on",
+      "couch"
+     ],
+     [
+      1,
+      "next",
+      "urn"
+     ],
+     [
+      3,
+      "same",
+      4
+     ],
+     [
+      4,
+      "col",
+      0
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "couch"
+     ],
+     [
+      7,
+      "next",
+      "couch"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     5,
+     12,
+     17,
+     27,
+     32,
+     47,
+     54,
+     58
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      18,
+      26
+     ],
+     [
+      22,
+      30
+     ],
+     [
+      36,
+      37
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      47,
+      55
+     ],
+     [
+      58,
+      59
+     ]
+    ],
+    "windows": [
+     [
+      15,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      31,
+      "r"
+     ],
+     [
+      58,
+      "b"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 25,
+    "facts": [
+     [
+      "nextCount",
+      "urn",
+      2
+     ],
+     [
+      "nextCount",
+      "stool",
+      1
+     ],
+     [
+      "onCount",
+      "stool",
+      1
+     ]
+    ],
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "..........L.C..............CL...CC.C.........C.LC.........L.....",
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001122200011222000112220001122233344444333444443335555533355555",
+    "objects": "..a......c..ce..ab....ef.a.e.d..fee.e..c.d...ce.........a..e....",
+    "roomNames": [
+     "Statue Hall",
+     "Burial Chamber",
+     "Granary",
+     "Shrine",
+     "Sun Court",
+     "Workshop"
+    ],
+    "people": [
+     "Albert the architect",
+     "Bruno the brewer",
+     "Carl the carpenter",
+     "Dmitri the dancer",
+     "Vivian the vizier",
+     "Edith the embalmer",
+     "Frank the fisher",
+     "Grace the guard"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "stool"
+     ],
+     [
+      2,
+      "next",
+      "rubble"
+     ],
+     [
+      2,
+      "next",
+      "statue"
+     ],
+     [
+      3,
+      "next",
+      "stool"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      5,
+      "col",
+      4
+     ],
+     [
+      6,
+      "next",
+      "statue"
+     ],
+     [
+      7,
+      "alone"
+     ]
+    ],
+    "solution": [
+     3,
+     10,
+     21,
+     24,
+     38,
+     44,
+     49,
+     63
+    ],
+    "doors": [
+     [
+      18,
+      19
+     ],
+     [
+      24,
+      32
+     ],
+     [
+      28,
+      29
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      34,
+      35
+     ],
+     [
+      50,
+      51
+     ],
+     [
+      46,
+      54
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      61,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "...LC.....C.............C..........L..C.....C....L..............",
     "extra": true
    },
    {
@@ -150580,6 +168437,337 @@ const CAMPAIGNS = [
     "hard": 10,
     "hardest": 6,
     "steps": 27,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011122000011122000011122000011122333344444333344444335556666335556666335556666",
+    "objects": ".....faab......c.b........eae..fa......a...eb...b......af........b...d...dbe...a.",
+    "roomNames": [
+     "Granary",
+     "Scribe Room",
+     "Antechamber",
+     "Burial Chamber",
+     "Shrine",
+     "Well Shaft",
+     "Workshop"
+    ],
+    "people": [
+     "Arthur the architect",
+     "Basil the boat builder",
+     "Cedric the chanter",
+     "Dmitri the dancer",
+     "Ena the envoy",
+     "Freya the fanbearer",
+     "Vera the vizier",
+     "Grace the goldsmith",
+     "Hazel the herder"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "next",
+      "urn"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "on",
+      "stool"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "col",
+      1
+     ],
+     [
+      5,
+      "next",
+      "couch"
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      6,
+      "col",
+      7
+     ],
+     [
+      7,
+      "alone"
+     ],
+     [
+      8,
+      "next",
+      "stool"
+     ]
+    ],
+    "solution": [
+     3,
+     14,
+     20,
+     27,
+     37,
+     53,
+     61,
+     67,
+     78
+    ],
+    "doors": [
+     [
+      30,
+      31
+     ],
+     [
+      27,
+      36
+     ],
+     [
+      33,
+      34
+     ],
+     [
+      32,
+      41
+     ],
+     [
+      34,
+      43
+     ],
+     [
+      48,
+      49
+     ],
+     [
+      73,
+      74
+     ],
+     [
+      49,
+      58
+     ],
+     [
+      51,
+      60
+     ],
+     [
+      58,
+      59
+     ]
+    ],
+    "windows": [
+     [
+      9,
+      "l"
+     ],
+     [
+      63,
+      "l"
+     ],
+     [
+      72,
+      "b"
+     ],
+     [
+      75,
+      "b"
+     ],
+     [
+      80,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 5,
+    "steps": 25,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "...C.................L...............L............C..........C.....L.........CC.L",
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111000011111222233333222233333222244555666644555666644555666644555",
+    "objects": ".afffbb.c.bba..f......a...a.............b.............a..ef.f.bcf.c......c...b...",
+    "roomNames": [
+     "Statue Hall",
+     "Scribe Room",
+     "Hall of Pillars",
+     "Workshop",
+     "Shrine",
+     "Treasury",
+     "Well Shaft"
+    ],
+    "people": [
+     "Albert the architect",
+     "Bea the boat builder",
+     "Clara the carpenter",
+     "Della the diviner",
+     "Vince the vizier",
+     "Ena the embalmer",
+     "Fiona the fanbearer",
+     "Gus the goldsmith",
+     "Hana the harpist"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "on",
+      "couch"
+     ],
+     [
+      1,
+      "next",
+      "jar"
+     ],
+     [
+      1,
+      "col",
+      7
+     ],
+     [
+      2,
+      "next",
+      "stool"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "notRoom",
+      3
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "col",
+      0
+     ],
+     [
+      6,
+      "next",
+      "rubble"
+     ],
+     [
+      7,
+      "next",
+      "jar"
+     ],
+     [
+      8,
+      "door"
+     ]
+    ],
+    "solution": [
+     6,
+     16,
+     23,
+     35,
+     37,
+     45,
+     56,
+     67,
+     75
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      21,
+      30
+     ],
+     [
+      24,
+      33
+     ],
+     [
+      39,
+      40
+     ],
+     [
+      48,
+      49
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      42,
+      51
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      75,
+      76
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      8,
+      "r"
+     ],
+     [
+      62,
+      "r"
+     ],
+     [
+      71,
+      "r"
+     ],
+     [
+      80,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 22,
+    "rules": [
+     "glyphs"
+    ],
+    "tags": "C.......................L..........L......L..C..........C.............L..........",
     "extra": true
    },
    {
@@ -165034,6 +183222,197 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111221112233322333",
+    "objects": ".........f.f.....be..a.b.",
+    "roomNames": [
+     "Cave",
+     "Spring",
+     "Berry Grove",
+     "Fire Pit"
+    ],
+    "people": [
+     "Astrid the artist",
+     "Viola the valley guide",
+     "Birgit the beekeeper",
+     "Celia the carver",
+     "Dora the dancer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "next",
+      "bones"
+     ],
+     [
+      2,
+      "next",
+      "bones"
+     ],
+     [
+      3,
+      "next",
+      "log"
+     ],
+     [
+      4,
+      "next",
+      "leaves"
+     ]
+    ],
+    "solution": [
+     2,
+     8,
+     10,
+     16,
+     24
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      11,
+      12
+     ],
+     [
+      14,
+      19
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      9,
+      "r"
+     ],
+     [
+      22,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 12,
+    "rules": [
+     "trades"
+    ],
+    "trade": "..13.",
+    "tags": "....1.....1..............",
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111001112223322233",
+    "objects": ".d....c.d.......a.fcbf...",
+    "roomNames": [
+     "Hunting Ground",
+     "Flint Pit",
+     "Painted Wall",
+     "Lookout Rock"
+    ],
+    "people": [
+     "Alma the artist",
+     "Basil the builder",
+     "Celia the carver",
+     "Viola the valley guide",
+     "Dora the drummer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "col",
+      4
+     ],
+     [
+      1,
+      "next",
+      "fire"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      4,
+      "on",
+      "leaves"
+     ]
+    ],
+    "solution": [
+     4,
+     7,
+     13,
+     16,
+     20
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      9,
+      "r"
+     ],
+     [
+      22,
+      "b"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
+    "rules": [
+     "trades"
+    ],
+    "trade": "4...3",
+    "tags": "...24......3..2..........",
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0000011111111112223322233",
     "objects": "c..bcb..d....a......ab...",
     "roomNames": [
@@ -165314,6 +183693,97 @@ const CAMPAIGNS = [
     "hard": 0,
     "hardest": 2,
     "steps": 12,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011223332233322333",
+    "objects": "...e....c..ab...afd......",
+    "roomNames": [
+     "Spring",
+     "Elder Hut",
+     "River Bank",
+     "Lookout Rock"
+    ],
+    "people": [
+     "Ada the acrobat",
+     "Bruno the builder",
+     "Celia the carver",
+     "Dora the drummer",
+     "Viola the visionary"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "leaves"
+     ],
+     [
+      3,
+      "alone"
+     ]
+    ],
+    "solution": [
+     4,
+     6,
+     13,
+     15,
+     22
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      11,
+      12
+     ]
+    ],
+    "windows": [
+     [
+      20,
+      "l"
+     ],
+     [
+      22,
+      "b"
+     ],
+     [
+      24,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 15,
+    "rules": [
+     "trades"
+    ],
+    "trade": "1..41",
+    "tags": "....11.........4....4.1..",
     "extra": true
    },
    {
@@ -165808,6 +184278,101 @@ const CAMPAIGNS = [
     "hard": 5,
     "hardest": 3,
     "steps": 20,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": ".....ec..ad.a.......ac...",
+    "roomNames": [
+     "Lookout Rock",
+     "Painted Wall",
+     "Cave",
+     "River Bank"
+    ],
+    "people": [
+     "Alma the artist",
+     "Basil the beekeeper",
+     "Celia the carver",
+     "Daisy the drummer",
+     "Vince the visionary"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "tree"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "boulder"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     13,
+     16,
+     22
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 16,
+    "facts": [
+     [
+      "onCount",
+      "log",
+      1
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "23..3",
+    "tags": "......................3.0",
     "extra": true
    },
    {
@@ -166759,6 +185324,240 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "001111001111002222002222333344333344",
+    "objects": "a..a......c...b.....ea.e..........ef",
+    "roomNames": [
+     "Hide Tent",
+     "Berry Grove",
+     "Hunting Ground",
+     "Spring",
+     "Bone Yard"
+    ],
+    "people": [
+     "Ada the artist",
+     "Bea the builder",
+     "Carl the carver",
+     "Della the drummer",
+     "Edith the elk tamer",
+     "Vivian the visionary"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "next",
+      "log"
+     ],
+     [
+      1,
+      "next",
+      "boulder"
+     ],
+     [
+      2,
+      "same",
+      0
+     ],
+     [
+      3,
+      "next",
+      "log"
+     ],
+     [
+      4,
+      "col",
+      3
+     ],
+     [
+      5,
+      "row",
+      5
+     ]
+    ],
+    "solution": [
+     1,
+     11,
+     12,
+     22,
+     27,
+     32
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      8,
+      14
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      22,
+      28
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      11,
+      "r"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
+    "rules": [
+     "trades"
+    ],
+    "trade": "2.....",
+    "tags": ".2............................1.....",
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111223333223333224444224444",
+    "objects": "bbb.c..e...f..cb...aa.ff..a.a..aed.f",
+    "roomNames": [
+     "Berry Grove",
+     "Bone Yard",
+     "Elder Hut",
+     "Fire Pit",
+     "River Bank"
+    ],
+    "people": [
+     "Alma the acrobat",
+     "Bea the beekeeper",
+     "Cora the carver",
+     "Dexter the dancer",
+     "Vivian the visionary",
+     "Edgar the elk tamer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "same",
+      1
+     ],
+     [
+      1,
+      "next",
+      "leaves"
+     ],
+     [
+      2,
+      "next",
+      "bones"
+     ],
+     [
+      3,
+      "next",
+      "leaves"
+     ],
+     [
+      4,
+      "next",
+      "tree"
+     ],
+     [
+      5,
+      "next",
+      "fire"
+     ]
+    ],
+    "solution": [
+     1,
+     6,
+     17,
+     21,
+     26,
+     34
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      25,
+      26
+     ],
+     [
+      23,
+      29
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      30,
+      "b"
+     ],
+     [
+      35,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 14,
+    "rules": [
+     "trades"
+    ],
+    "trade": ".....1",
+    "tags": ".....4.......................14...1.",
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000000111222111222113344113344113344",
     "objects": "....d........a.f..................f.",
     "roomNames": [
@@ -167242,6 +186041,246 @@ const CAMPAIGNS = [
     "hard": 8,
     "hardest": 4,
     "steps": 24,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001122001122001122334444334444334444",
+    "objects": "da...........aa..bc...b..f...dedac.a",
+    "roomNames": [
+     "Fire Pit",
+     "Bone Yard",
+     "Hide Tent",
+     "River Bank",
+     "Lookout Rock"
+    ],
+    "people": [
+     "Arthur the artist",
+     "Bruno the beekeeper",
+     "Cora the carrier",
+     "Dora the drummer",
+     "Edgar the elk tamer",
+     "Vince the valley guide"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "next",
+      "log"
+     ],
+     [
+      2,
+      "next",
+      "log"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "tree"
+     ]
+    ],
+    "solution": [
+     4,
+     7,
+     15,
+     20,
+     24,
+     35
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      12,
+      18
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      14,
+      20
+     ],
+     [
+      17,
+      23
+     ],
+     [
+      19,
+      20
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      32,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 15,
+    "facts": [
+     [
+      "nextCount",
+      "leaves",
+      0
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "..143.",
+    "tags": "...1..3..3.....1....4...3.4.........",
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111222233222233444333444333",
+    "objects": "fad...b.c.e.....af..d.e.ad...aaa...f",
+    "roomNames": [
+     "Flint Pit",
+     "River Bank",
+     "Lookout Rock",
+     "Berry Grove",
+     "Fire Pit"
+    ],
+    "people": [
+     "Albert the artist",
+     "Birgit the beekeeper",
+     "Clara the carver",
+     "Dmitri the drummer",
+     "Vivian the visionary",
+     "Edgar the elk tamer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "bones"
+     ],
+     [
+      1,
+      "next",
+      "tree"
+     ],
+     [
+      2,
+      "next",
+      "fire"
+     ],
+     [
+      3,
+      "next",
+      "bones"
+     ],
+     [
+      4,
+      "next",
+      "tree"
+     ],
+     [
+      5,
+      "alone"
+     ]
+    ],
+    "solution": [
+     1,
+     9,
+     14,
+     23,
+     28,
+     30
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      32,
+      33
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      29,
+      "r"
+     ]
+    ],
+    "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
+    "facts": [
+     [
+      "furniture",
+      null,
+      2
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "3101..",
+    "tags": ".........1..3.0...0....1............",
     "extra": true
    },
    {
@@ -168893,6 +187932,268 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0000111000011122221112222111333444433344443334444",
+    "objects": "..a......bb.bb..ac.d.a....d....a....f.e..da.a.ec.",
+    "roomNames": [
+     "River Bank",
+     "Cave",
+     "Elder Hut",
+     "Hide Tent",
+     "Fire Pit"
+    ],
+    "people": [
+     "Victor the visionary",
+     "Astrid the artist",
+     "Bella the builder",
+     "Clara the carrier",
+     "Dora the drummer",
+     "Elias the elder",
+     "Fiona the firekeeper"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "next",
+      "leaves"
+     ],
+     [
+      1,
+      "next",
+      "leaves"
+     ],
+     [
+      2,
+      "next",
+      "boulder"
+     ],
+     [
+      3,
+      "next",
+      "fire"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "fire"
+     ],
+     [
+      5,
+      "next",
+      "log"
+     ],
+     [
+      6,
+      "row",
+      6
+     ]
+    ],
+    "solution": [
+     5,
+     8,
+     16,
+     25,
+     34,
+     35,
+     45
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      8,
+      15
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      26,
+      33
+     ],
+     [
+      21,
+      28
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      42,
+      "b"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 16,
+    "rules": [
+     "trades"
+    ],
+    "trade": "2424.02",
+    "tags": "........4.....3..........4.3.....................",
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000000000000011122221112222333344433334443333444",
+    "objects": "..d...d...d.e.......aaf.............cb...f.b..a..",
+    "roomNames": [
+     "Cave",
+     "Bone Yard",
+     "Flint Pit",
+     "Hunting Ground",
+     "Spring"
+    ],
+    "people": [
+     "Alma the artist",
+     "Bruno the builder",
+     "Cora the carrier",
+     "Dexter the dancer",
+     "Edgar the elk tamer",
+     "Vince the valley guide",
+     "Flora the flute player"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      2
+     ],
+     [
+      1,
+      "next",
+      "fire"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "bones"
+     ],
+     [
+      3,
+      "col",
+      5
+     ],
+     [
+      4,
+      "room",
+      4
+     ],
+     [
+      6,
+      "next",
+      "leaves"
+     ]
+    ],
+    "solution": [
+     4,
+     9,
+     15,
+     26,
+     34,
+     38,
+     42
+    ],
+    "doors": [
+     [
+      9,
+      16
+     ],
+     [
+      10,
+      17
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      25,
+      32
+     ],
+     [
+      38,
+      39
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      27,
+      "r"
+     ],
+     [
+      28,
+      "l"
+     ],
+     [
+      44,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 18,
+    "facts": [
+     [
+      "roomCount",
+      4,
+      1
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": ".13..4.",
+    "tags": ".........1..................1.........4..........",
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0112222011222201133330113333000000044444444444444",
     "objects": "...............b...ac..c..f.b.fd...d......ab.....",
     "roomNames": [
@@ -169140,6 +188441,269 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 3,
     "steps": 20,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222333222233344443334444333",
+    "objects": "......c...c..db.c......f.....bd...f.db...a.dec...",
+    "roomNames": [
+     "Painted Wall",
+     "Berry Grove",
+     "Lookout Rock",
+     "Hunting Ground",
+     "Flint Pit"
+    ],
+    "people": [
+     "Astrid the acrobat",
+     "Bruno the builder",
+     "Cedric the carrier",
+     "Dmitri the drummer",
+     "Edgar the elk tamer",
+     "Frank the firekeeper",
+     "Vivian the valley guide"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "col",
+      5
+     ],
+     [
+      4,
+      "next",
+      "fire"
+     ],
+     [
+      5,
+      "next",
+      "fire"
+     ],
+     [
+      6,
+      "next",
+      "log"
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     14,
+     26,
+     31,
+     37,
+     48
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      14,
+      21
+     ],
+     [
+      17,
+      24
+     ],
+     [
+      20,
+      27
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      31,
+      38
+     ],
+     [
+      45,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      28,
+      "l"
+     ],
+     [
+      35,
+      "l"
+     ],
+     [
+      42,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 18,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": ".20.2.0",
+    "tags": "...2...3...0...................2................0",
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112223333222333322244442224444",
+    "objects": "...b......e.a.....f.f.....b.........e..bee...b..a",
+    "roomNames": [
+     "Bone Yard",
+     "Lookout Rock",
+     "Spring",
+     "Flint Pit",
+     "River Bank"
+    ],
+    "people": [
+     "Ada the artist",
+     "Viola the visionary",
+     "Bella the builder",
+     "Cedric the carrier",
+     "Della the drummer",
+     "Ena the elder",
+     "Fiona the flute player"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "on",
+      "leaves"
+     ],
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "col",
+      2
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "leaves"
+     ],
+     [
+      5,
+      "next",
+      "tree"
+     ],
+     [
+      6,
+      "on",
+      "log"
+     ]
+    ],
+    "solution": [
+     3,
+     8,
+     16,
+     21,
+     33,
+     39,
+     48
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      14,
+      21
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      23,
+      24
+     ],
+     [
+      37,
+      38
+     ],
+     [
+      33,
+      40
+     ]
+    ],
+    "windows": [
+     [
+      20,
+      "r"
+     ],
+     [
+      34,
+      "r"
+     ],
+     [
+      43,
+      "b"
+     ],
+     [
+      44,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 20,
+    "facts": [
+     [
+      "nextCount",
+      "leaves",
+      1
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "4..00.0",
+    "tags": "3....................0.4....4....0..........1.3..",
     "extra": true
    },
    {
@@ -170604,6 +190168,310 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+    "objects": "..a......a..e...a.c..........d......a....ad..b..e......eadbd....",
+    "roomNames": [
+     "Bone Yard",
+     "Fire Pit",
+     "Hide Tent",
+     "Painted Wall",
+     "Berry Grove",
+     "Cave"
+    ],
+    "people": [
+     "Ada the artist",
+     "Birgit the builder",
+     "Celia the carver",
+     "Victor the valley guide",
+     "Della the drummer",
+     "Ena the elder",
+     "Frank the firekeeper",
+     "Greta the grinder"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "fire"
+     ],
+     [
+      4,
+      "next",
+      "log"
+     ],
+     [
+      5,
+      "on",
+      "leaves"
+     ],
+     [
+      6,
+      "next",
+      "fire"
+     ],
+     [
+      7,
+      "on",
+      "leaves"
+     ],
+     [
+      7,
+      "next",
+      "fire"
+     ]
+    ],
+    "solution": [
+     0,
+     15,
+     20,
+     30,
+     35,
+     45,
+     49,
+     58
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      42,
+      43
+     ],
+     [
+      60,
+      61
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      32,
+      "l"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      56,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 16,
+    "rules": [
+     "trades"
+    ],
+    "trade": ".0.22032",
+    "tags": "...........1.3.0..............2..0.2....0..2.......1.2..........",
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000011100000111000001112222211122222111333445553334455533344555",
+    "objects": ".....b.b.f....aa...a..b..af.....b..b.ba.f.e...a.df......b.ea..a.",
+    "roomNames": [
+     "Lookout Rock",
+     "Cave",
+     "Spring",
+     "Painted Wall",
+     "Hunting Ground",
+     "Hide Tent"
+    ],
+    "people": [
+     "Alma the acrobat",
+     "Bruno the builder",
+     "Cedric the carver",
+     "Dora the drummer",
+     "Elias the elk tamer",
+     "Fiona the flute player",
+     "Gus the guard",
+     "Vivian the valley guide"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "col",
+      2
+     ],
+     [
+      1,
+      "on",
+      "log"
+     ],
+     [
+      2,
+      "notRoom",
+      3
+     ],
+     [
+      3,
+      "on",
+      "log"
+     ],
+     [
+      3,
+      "next",
+      "bones"
+     ],
+     [
+      4,
+      "next",
+      "leaves"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      6,
+      "col",
+      5
+     ],
+     [
+      7,
+      "next",
+      "log"
+     ]
+    ],
+    "solution": [
+     2,
+     14,
+     16,
+     25,
+     36,
+     43,
+     53,
+     63
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      19,
+      27
+     ],
+     [
+      28,
+      29
+     ],
+     [
+      37,
+      45
+     ],
+     [
+      32,
+      40
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      24,
+      "l"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      55,
+      "r"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "bones",
+      1
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": ".0.41...",
+    "tags": "1...........03......................1....3......................",
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0001122200011222000113330001133300011333444455554444555544445555",
     "objects": "d.....f.....f.accdda..........a...cbfd.......b..b.a....f..b..a..",
     "roomNames": [
@@ -171050,6 +190918,318 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 4,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111000011112233444422334444223344442233555522335555",
+    "objects": "..c..f.........ef...e......a..b.a....a..e...f.....d.a....e..f...",
+    "roomNames": [
+     "Painted Wall",
+     "Lookout Rock",
+     "Flint Pit",
+     "Elder Hut",
+     "Berry Grove",
+     "Fire Pit"
+    ],
+    "people": [
+     "Alma the acrobat",
+     "Bella the builder",
+     "Cora the carrier",
+     "Viola the visionary",
+     "Dexter the dancer",
+     "Edgar the elk tamer",
+     "Freya the firekeeper",
+     "Gideon the grinder"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "same",
+      0
+     ],
+     [
+      2,
+      "next",
+      "tree"
+     ],
+     [
+      3,
+      "notRoom",
+      3
+     ],
+     [
+      4,
+      "on",
+      "log"
+     ],
+     [
+      4,
+      "next",
+      "tree"
+     ],
+     [
+      5,
+      "window"
+     ],
+     [
+      6,
+      "door"
+     ],
+     [
+      7,
+      "next",
+      "fire"
+     ]
+    ],
+    "solution": [
+     1,
+     11,
+     21,
+     28,
+     32,
+     47,
+     54,
+     58
+    ],
+    "doors": [
+     [
+      19,
+      20
+     ],
+     [
+      16,
+      24
+     ],
+     [
+      18,
+      26
+     ],
+     [
+      23,
+      31
+     ],
+     [
+      49,
+      50
+     ],
+     [
+      43,
+      44
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      46,
+      54
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      57,
+      "b"
+     ],
+     [
+      62,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 19,
+    "facts": [
+     [
+      "furniture",
+      null,
+      1
+     ],
+     [
+      "doorCount",
+      null,
+      1
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": ".0.4.120",
+    "tags": "........2..0.......2..4...........4..........1.1...........4....",
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000111100001111000011112222233322222333444455554444555544445555",
+    "objects": "....da.e....bfc......d.faaf...e....ac.a..cc..b.a.e...bbca.a..bcd",
+    "roomNames": [
+     "Lookout Rock",
+     "Hide Tent",
+     "Cave",
+     "Bone Yard",
+     "Elder Hut",
+     "Spring"
+    ],
+    "people": [
+     "Albert the acrobat",
+     "Bea the builder",
+     "Clara the carrier",
+     "Victor the visionary",
+     "Dexter the drummer",
+     "Elias the elk tamer",
+     "Flora the firekeeper",
+     "Gwen the guard"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "on",
+      "log"
+     ],
+     [
+      0,
+      "next",
+      "fire"
+     ],
+     [
+      1,
+      "next",
+      "bones"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "tree"
+     ],
+     [
+      4,
+      "on",
+      "log"
+     ],
+     [
+      5,
+      "next",
+      "boulder"
+     ],
+     [
+      6,
+      "next",
+      "tree"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     5,
+     12,
+     17,
+     31,
+     38,
+     40,
+     50,
+     59
+    ],
+    "doors": [
+     [
+      19,
+      20
+     ],
+     [
+      16,
+      24
+     ],
+     [
+      20,
+      28
+     ],
+     [
+      23,
+      31
+     ],
+     [
+      36,
+      37
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      36,
+      44
+     ],
+     [
+      38,
+      46
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "windows": [
+     [
+      7,
+      "r"
+     ],
+     [
+      15,
+      "r"
+     ],
+     [
+      16,
+      "l"
+     ],
+     [
+      39,
+      "r"
+     ],
+     [
+      56,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 22,
+    "facts": [
+     [
+      "roomCount",
+      5,
+      0
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "0.....31",
+    "tags": "...0.......................0...............0......3.............",
     "extra": true
    },
    {
@@ -172635,6 +192815,179 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000011122000011122000011122000011122333334444333334444555556666555556666555556666",
+    "objects": ".a.beb........db..e..............a..ab...e.....d.......c..........ae...b....b..a.",
+    "roomNames": [
+     "Hide Tent",
+     "Berry Grove",
+     "Painted Wall",
+     "Lookout Rock",
+     "Cave",
+     "Elder Hut",
+     "Fire Pit"
+    ],
+    "people": [
+     "Albert the artist",
+     "Basil the beekeeper",
+     "Clara the carver",
+     "Daisy the drummer",
+     "Vera the valley guide",
+     "Elias the elder",
+     "Flora the flute player",
+     "Grace the grinder",
+     "Hana the hide tanner"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "on",
+      "leaves"
+     ],
+     [
+      0,
+      "next",
+      "tree"
+     ],
+     [
+      1,
+      "room",
+      2
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "same",
+      2
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "on",
+      "leaves"
+     ],
+     [
+      5,
+      "next",
+      "fire"
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "next",
+      "log"
+     ],
+     [
+      8,
+      "row",
+      8
+     ]
+    ],
+    "solution": [
+     5,
+     17,
+     22,
+     33,
+     37,
+     48,
+     61,
+     65,
+     72
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      27,
+      36
+     ],
+     [
+      6,
+      7
+     ],
+     [
+      31,
+      40
+     ],
+     [
+      33,
+      42
+     ],
+     [
+      35,
+      44
+     ],
+     [
+      40,
+      41
+     ],
+     [
+      46,
+      55
+     ],
+     [
+      50,
+      59
+     ],
+     [
+      67,
+      68
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      75,
+      "b"
+     ],
+     [
+      78,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 22,
+    "facts": [
+     [
+      "nextCount",
+      "leaves",
+      0
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "..41.....",
+    "tags": "..........2.....1...2........2.10.....4...................1....1.................",
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000011122000011122000011122000011122333344444333344444333344444555566666555566666",
     "objects": ".da..fd.f....b......a..c........b..a.....c.........cc...b.f.ac.b.eb.b..a.a.c..a..",
     "roomNames": [
@@ -172795,6 +193148,337 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 8,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000001111000001111000001111222223333222223333444444555444444555666644555666644555",
+    "objects": "..eccba..e.cbde.aac........d..b.b.ad..bdb......b....da........b.....beb......eb..",
+    "roomNames": [
+     "Painted Wall",
+     "Hunting Ground",
+     "Spring",
+     "Lookout Rock",
+     "Cave",
+     "Elder Hut",
+     "River Bank"
+    ],
+    "people": [
+     "Arthur the artist",
+     "Bea the beekeeper",
+     "Cedric the carrier",
+     "Dmitri the drummer",
+     "Edith the elder",
+     "Frank the flute player",
+     "Greta the grinder",
+     "Vera the valley guide",
+     "Hilda the hornblower"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "next",
+      "boulder"
+     ],
+     [
+      2,
+      "next",
+      "leaves"
+     ],
+     [
+      3,
+      "next",
+      "leaves"
+     ],
+     [
+      3,
+      "next",
+      "log"
+     ],
+     [
+      4,
+      "next",
+      "fire"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "door"
+     ],
+     [
+      8,
+      "next",
+      "leaves"
+     ]
+    ],
+    "solution": [
+     0,
+     10,
+     21,
+     33,
+     38,
+     49,
+     59,
+     71,
+     79
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      24,
+      33
+     ],
+     [
+      40,
+      41
+     ],
+     [
+      40,
+      49
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      43,
+      52
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      54,
+      63
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      73,
+      "b"
+     ],
+     [
+      76,
+      "b"
+     ],
+     [
+      80,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 20,
+    "rules": [
+     "trades"
+    ],
+    "trade": "..4..12.2",
+    "tags": ".....................4...............1........4.11.........2.....4........0....2.",
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111000022222333322222333322222333344555333344555666644555666644555",
+    "objects": "c....e.c..c.a.ab....ec....f.cb......acfa.....edea..b.....f........bb.e..e.c..ea..",
+    "roomNames": [
+     "Spring",
+     "Berry Grove",
+     "Hide Tent",
+     "Bone Yard",
+     "Fire Pit",
+     "Cave",
+     "Elder Hut"
+    ],
+    "people": [
+     "Alma the artist",
+     "Basil the beekeeper",
+     "Celia the carver",
+     "Daisy the dancer",
+     "Edith the elk tamer",
+     "Freya the firekeeper",
+     "Gideon the grinder",
+     "Hazel the hide tanner",
+     "Vivian the visionary"
+    ],
+    "victim": 8,
+    "clues": [
+     [
+      0,
+      "next",
+      "tree"
+     ],
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "same",
+      4
+     ],
+     [
+      3,
+      "next",
+      "log"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      4,
+      "col",
+      7
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "door"
+     ],
+     [
+      7,
+      "next",
+      "leaves"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     4,
+     9,
+     24,
+     30,
+     43,
+     53,
+     59,
+     65,
+     73
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      13,
+      22
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      41,
+      50
+     ],
+     [
+      44,
+      53
+     ],
+     [
+      57,
+      58
+     ],
+     [
+      56,
+      65
+     ],
+     [
+      59,
+      60
+     ],
+     [
+      66,
+      67
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      6,
+      "t"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      74,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 21,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      1
+     ],
+     [
+      "onCount",
+      "log",
+      0
+     ]
+    ],
+    "rules": [
+     "trades"
+    ],
+    "trade": "4..03.4.3",
+    "tags": "....4...........1..1.............4.........3...........0...43..3......0..........",
     "extra": true
    },
    {
@@ -187479,6 +208163,215 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0011100111001112233322333",
+    "objects": "....f..f..a..a.b....f....",
+    "roomNames": [
+     "Livery",
+     "General Store",
+     "Saloon",
+     "Sheriff Office"
+    ],
+    "people": [
+     "Ada the attorney",
+     "Bea the banker",
+     "Cedric the cook",
+     "Vivian the vaquero",
+     "Dexter the dancer"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "same",
+      2
+     ],
+     [
+      1,
+      "next",
+      "horse"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "col",
+      2
+     ],
+     [
+      4,
+      "bandit"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     11,
+     17,
+     23
+    ],
+    "doors": [
+     [
+      11,
+      12
+     ],
+     [
+      11,
+      16
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      10,
+      "l"
+     ],
+     [
+      24,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 12,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 1,
+    "lawful": [
+     0
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": "....d..e..d...d..c.a.....",
+    "roomNames": [
+     "Barber",
+     "Sheriff Office",
+     "Church",
+     "Livery"
+    ],
+    "people": [
+     "Arthur the auctioneer",
+     "Viola the vet",
+     "Bella the blacksmith",
+     "Cora the cook",
+     "Dmitri the deputy"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "bandit"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "cactus"
+     ],
+     [
+      3,
+      "on",
+      "chair"
+     ],
+     [
+      4,
+      "next",
+      "barrel"
+     ]
+    ],
+    "solution": [
+     1,
+     5,
+     13,
+     19,
+     22
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      5,
+      10
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "r"
+     ],
+     [
+      9,
+      "r"
+     ],
+     [
+      23,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "nextCount",
+      "cactus",
+      2
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 1,
+    "lawful": [
+     2
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0011100111222332223322233",
     "objects": "...a........e.f.cab...f..",
     "roomNames": [
@@ -187879,6 +208772,216 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 4,
     "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011222332223322233",
+    "objects": "c....a.....deae.e...e....",
+    "roomNames": [
+     "Saloon",
+     "Sheriff Office",
+     "Bank",
+     "Livery"
+    ],
+    "people": [
+     "Viola the vaquero",
+     "Arthur the attorney",
+     "Bella the banker",
+     "Celia the cook",
+     "Dora the deputy"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "next",
+      "piano"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      4,
+      "withBandit"
+     ]
+    ],
+    "solution": [
+     3,
+     9,
+     10,
+     17,
+     21
+    ],
+    "doors": [
+     [
+      2,
+      3
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      19,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 13,
+    "facts": [
+     [
+      "onCount",
+      "chair",
+      0
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 1,
+    "lawful": [
+     1
+    ],
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111222332223322233",
+    "objects": "....daa....a.a......f..e.",
+    "roomNames": [
+     "Sheriff Office",
+     "Livery",
+     "Jail",
+     "Church"
+    ],
+    "people": [
+     "Arthur the auctioneer",
+     "Vivian the vet",
+     "Basil the blacksmith",
+     "Carl the cattle driver",
+     "Della the deputy"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "on",
+      "chair"
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "next",
+      "piano"
+     ],
+     [
+      4,
+      "next",
+      "piano"
+     ]
+    ],
+    "solution": [
+     1,
+     5,
+     12,
+     18,
+     24
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      6,
+      11
+     ],
+     [
+      7,
+      12
+     ],
+     [
+      8,
+      13
+     ],
+     [
+      12,
+      13
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      9,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 1,
+    "lawful": [
+     0
+    ],
     "extra": true
    },
    {
@@ -189718,6 +210821,268 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "001111001111002222002222334444334444",
+    "objects": ".......b........d..ca...c.a.b...c..d",
+    "roomNames": [
+     "Bank",
+     "Jail",
+     "Hotel",
+     "Sheriff Office",
+     "Livery"
+    ],
+    "people": [
+     "Victor the vaquero",
+     "Arthur the attorney",
+     "Bruno the blacksmith",
+     "Carl the cattle driver",
+     "Dora the deputy",
+     "Edgar the engineer"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "col",
+      4
+     ],
+     [
+      2,
+      "next",
+      "bed"
+     ],
+     [
+      2,
+      "next",
+      "barrel"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      4,
+      "bandit"
+     ],
+     [
+      5,
+      "next",
+      "barrel"
+     ]
+    ],
+    "solution": [
+     3,
+     10,
+     13,
+     23,
+     26,
+     30
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      19,
+      20
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      31,
+      32
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      35,
+      "b"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 18,
+    "facts": [
+     [
+      "nextCount",
+      "bed",
+      1
+     ],
+     [
+      "roomCount",
+      3,
+      1
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     3
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001122001122001122334422334444334444",
+    "objects": "...a...f.....f....e...............fa",
+    "roomNames": [
+     "Church",
+     "Corral",
+     "Sheriff Office",
+     "Livery",
+     "Hotel"
+    ],
+    "people": [
+     "Astrid the auctioneer",
+     "Bruno the banker",
+     "Cora the cattle driver",
+     "Dmitri the deputy",
+     "Victor the vet",
+     "Ena the editor"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "window"
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      5,
+      "alone"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     17,
+     20,
+     28,
+     31
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      13,
+      19
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      15,
+      21
+     ],
+     [
+      21,
+      22
+     ],
+     [
+      19,
+      20
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      6,
+      "l"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
+    "facts": [
+     [
+      "furniture",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     0
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000111000111222333222333222444222444",
     "objects": "aeda.......d....c.a.ce.......b..a...",
     "roomNames": [
@@ -190361,6 +211726,272 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 4,
     "steps": 16,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111002222002222334444334444",
+    "objects": "b...c.eac....b.a.......b........f...",
+    "roomNames": [
+     "Mine",
+     "Bank",
+     "Church",
+     "Livery",
+     "Hotel"
+    ],
+    "people": [
+     "Albert the auctioneer",
+     "Vera the vet",
+     "Bruno the banker",
+     "Cora the cattle driver",
+     "Dmitri the deputy",
+     "Edith the editor"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "next",
+      "barrel"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "window"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "next",
+      "horse"
+     ],
+     [
+      5,
+      "row",
+      5
+     ]
+    ],
+    "solution": [
+     2,
+     10,
+     13,
+     23,
+     24,
+     33
+    ],
+    "doors": [
+     [
+      7,
+      8
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      10,
+      16
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      25,
+      26
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      29,
+      "r"
+     ],
+     [
+      30,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 3,
+    "steps": 21,
+    "facts": [
+     [
+      "alone",
+      null,
+      4
+     ],
+     [
+      "furniture",
+      null,
+      2
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     2
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111222233222233444433444433",
+    "objects": ".dbe.c......da.a...a.ea..f.b.......c",
+    "roomNames": [
+     "Jail",
+     "Sheriff Office",
+     "Saloon",
+     "Barber",
+     "Livery"
+    ],
+    "people": [
+     "Victor the vaquero",
+     "Arthur the auctioneer",
+     "Bella the blacksmith",
+     "Celia the cattle driver",
+     "Della the dancer",
+     "Edgar the editor"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "on",
+      "bed"
+     ],
+     [
+      1,
+      "bandit"
+     ],
+     [
+      2,
+      "next",
+      "cactus"
+     ],
+     [
+      3,
+      "on",
+      "chair"
+     ],
+     [
+      4,
+      "same",
+      5
+     ],
+     [
+      5,
+      "door"
+     ]
+    ],
+    "solution": [
+     2,
+     11,
+     13,
+     22,
+     24,
+     33
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      6,
+      12
+     ],
+     [
+      8,
+      14
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      33,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      5,
+      "r"
+     ],
+     [
+      12,
+      "l"
+     ],
+     [
+      24,
+      "l"
+     ]
+    ],
+    "tries": 2,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
+    "facts": [
+     [
+      "roomCount",
+      3,
+      1
+     ],
+     [
+      "roomCount",
+      1,
+      2
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     4
+    ],
     "extra": true
    },
    {
@@ -191812,6 +213443,425 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0000111000011122221112222111333333344444444444444",
+    "objects": "..ae...d...c.....a.......b.......bb..............",
+    "roomNames": [
+     "Telegraph Office",
+     "General Store",
+     "Livery",
+     "Hotel",
+     "Corral"
+    ],
+    "people": [
+     "Ada the attorney",
+     "Bella the banker",
+     "Carl the cook",
+     "Daisy the dancer",
+     "Elias the editor",
+     "Felix the farrier",
+     "Victor the vet"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "col",
+      2
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "col",
+      4
+     ],
+     [
+      6,
+      "col",
+      6
+     ]
+    ],
+    "solution": [
+     5,
+     10,
+     14,
+     23,
+     29,
+     39,
+     48
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      10,
+      17
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      25,
+      32
+     ],
+     [
+      22,
+      29
+     ],
+     [
+      34,
+      41
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      6,
+      "r"
+     ],
+     [
+      13,
+      "r"
+     ],
+     [
+      20,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      1
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     0
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000000000000011112221111222333444433344443334444",
+    "objects": ".fa.c......aef.....f..a...b.aab.b.....ef.....a...",
+    "roomNames": [
+     "Telegraph Office",
+     "Bank",
+     "Saloon",
+     "Church",
+     "Barber"
+    ],
+    "people": [
+     "Astrid the auctioneer",
+     "Bea the blacksmith",
+     "Clara the cattle driver",
+     "Della the dancer",
+     "Elsa the engineer",
+     "Fiona the farrier",
+     "Vince the vaquero"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      1,
+      "next",
+      "horse"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "bed"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "bed"
+     ],
+     [
+      5,
+      "next",
+      "bed"
+     ],
+     [
+      5,
+      "bandit"
+     ],
+     [
+      6,
+      "next",
+      "horse"
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ]
+    ],
+    "solution": [
+     3,
+     8,
+     14,
+     27,
+     33,
+     37,
+     46
+    ],
+    "doors": [
+     [
+      7,
+      14
+     ],
+     [
+      13,
+      20
+     ],
+     [
+      24,
+      25
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      24,
+      31
+     ],
+     [
+      27,
+      34
+     ],
+     [
+      30,
+      31
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      21,
+      "l"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      48,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 19,
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     4
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011122221112223333222333344444444444444",
+    "objects": "ab......c..d......b.eb.....b...b..b....ab...aa.b.",
+    "roomNames": [
+     "Bank",
+     "Corral",
+     "Sheriff Office",
+     "Hotel",
+     "Jail"
+    ],
+    "people": [
+     "Vince the vaquero",
+     "Ada the attorney",
+     "Bruno the banker",
+     "Cedric the cattle driver",
+     "Della the dancer",
+     "Elsa the editor",
+     "Felix the farrier"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      1,
+      "next",
+      "barrel"
+     ],
+     [
+      2,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "on",
+      "bed"
+     ],
+     [
+      4,
+      "next",
+      "bed"
+     ],
+     [
+      5,
+      "bandit"
+     ],
+     [
+      6,
+      "window"
+     ]
+    ],
+    "solution": [
+     3,
+     9,
+     19,
+     27,
+     32,
+     36,
+     42
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      7,
+      14
+     ],
+     [
+      17,
+      18
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      30,
+      37
+     ],
+     [
+      31,
+      38
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      14,
+      "l"
+     ],
+     [
+      20,
+      "r"
+     ],
+     [
+      42,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 3,
+    "steps": 15,
+    "facts": [
+     [
+      "nextCount",
+      "barrel",
+      1
+     ],
+     [
+      "roomCount",
+      2,
+      0
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     0
+    ],
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0000111000011122221112222111333344433334443333444",
     "objects": ".b..c...cf.d...e.a.b....ecb..f...fd.d..f....f..b.",
     "roomNames": [
@@ -192222,6 +214272,141 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 3,
     "steps": 22,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001111000111100011112222222222222233333334444444",
+    "objects": "....beb.......dfaf....b.a....f...b.c.....bc....a.",
+    "roomNames": [
+     "Bank",
+     "Saloon",
+     "Corral",
+     "Livery",
+     "Sheriff Office"
+    ],
+    "people": [
+     "Alma the attorney",
+     "Vera the vet",
+     "Basil the banker",
+     "Cora the cattle driver",
+     "Daisy the dancer",
+     "Edgar the editor",
+     "Freya the farmer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "col",
+      1
+     ],
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "on",
+      "chair"
+     ],
+     [
+      4,
+      "same",
+      3
+     ],
+     [
+      5,
+      "notRoom",
+      0
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ]
+    ],
+    "solution": [
+     1,
+     12,
+     20,
+     24,
+     28,
+     37,
+     46
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      14,
+      21
+     ],
+     [
+      19,
+      26
+     ],
+     [
+      31,
+      38
+     ],
+     [
+      39,
+      46
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      42,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 21,
+    "facts": [
+     [
+      "doorCount",
+      null,
+      1
+     ],
+     [
+      "furniture",
+      null,
+      1
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     2
+    ],
     "extra": true
    },
    {
@@ -193876,6 +216061,169 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001112200011122000111223331112233311122444455554444555544445555",
+    "objects": "..a.dd.......b.a..c..dea.bfbdb...c..b..f......d.bb..............",
+    "roomNames": [
+     "Livery",
+     "General Store",
+     "Mine",
+     "Sheriff Office",
+     "Barber",
+     "Church"
+    ],
+    "people": [
+     "Arthur the auctioneer",
+     "Bea the blacksmith",
+     "Clara the cattle driver",
+     "Dmitri the deputy",
+     "Elias the engineer",
+     "Freya the farmer",
+     "Gus the gambler",
+     "Vince the vet"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      1,
+      "next",
+      "bed"
+     ],
+     [
+      1,
+      "bandit"
+     ],
+     [
+      2,
+      "next",
+      "bed"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "bed"
+     ],
+     [
+      4,
+      "same",
+      3
+     ],
+     [
+      4,
+      "next",
+      "barrel"
+     ],
+     [
+      5,
+      "next",
+      "bed"
+     ],
+     [
+      6,
+      "next",
+      "cactus"
+     ]
+    ],
+    "solution": [
+     7,
+     12,
+     19,
+     24,
+     34,
+     41,
+     54,
+     61
+    ],
+    "doors": [
+     [
+      18,
+      19
+     ],
+     [
+      18,
+      26
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      26,
+      27
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      37,
+      45
+     ],
+     [
+      39,
+      47
+     ],
+     [
+      32,
+      40
+     ],
+     [
+      43,
+      44
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      8,
+      "l"
+     ],
+     [
+      32,
+      "l"
+     ],
+     [
+      55,
+      "r"
+     ],
+     [
+      63,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "nextCount",
+      "cactus",
+      2
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     4
+    ],
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0000111100001111000011112222333322223333444455554444555544445555",
     "objects": "b.f.df........d..c..d..cbc..b..b..c...b..c.c.aac................",
     "roomNames": [
@@ -194026,6 +216374,172 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 5,
     "steps": 20,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000011100000111000001112222333322223333222244445555444455554444",
+    "objects": "ec..a.f.............b....c.bc..a.c......ea.b...a..a..e.......a.d",
+    "roomNames": [
+     "General Store",
+     "Saloon",
+     "Jail",
+     "Sheriff Office",
+     "Hotel",
+     "Church"
+    ],
+    "people": [
+     "Astrid the auctioneer",
+     "Bea the banker",
+     "Vivian the vaquero",
+     "Cora the cook",
+     "Dexter the deputy",
+     "Elsa the editor",
+     "Felix the farmer",
+     "Grace the gunsmith"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "on",
+      "chair"
+     ],
+     [
+      1,
+      "next",
+      "horse"
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "notRoom",
+      0
+     ],
+     [
+      3,
+      "on",
+      "chair"
+     ],
+     [
+      4,
+      "withBandit"
+     ],
+     [
+      5,
+      "next",
+      "chair"
+     ],
+     [
+      5,
+      "next",
+      "bed"
+     ],
+     [
+      5,
+      "bandit"
+     ],
+     [
+      6,
+      "bandit"
+     ],
+     [
+      7,
+      "row",
+      7
+     ]
+    ],
+    "solution": [
+     4,
+     14,
+     21,
+     31,
+     35,
+     42,
+     48,
+     57
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      16,
+      24
+     ],
+     [
+      20,
+      28
+     ],
+     [
+      21,
+      29
+     ],
+     [
+      27,
+      28
+     ],
+     [
+      43,
+      44
+     ],
+     [
+      41,
+      49
+     ],
+     [
+      39,
+      47
+     ],
+     [
+      59,
+      60
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      15,
+      "r"
+     ],
+     [
+      47,
+      "r"
+     ],
+     [
+      58,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
+    "facts": [
+     [
+      "nextCount",
+      "chair",
+      1
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     0
+    ],
     "extra": true
    },
    {
@@ -194183,6 +216697,157 @@ const CAMPAIGNS = [
     "hard": 7,
     "hardest": 6,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0011122200111222001112220011122200111222333445553334455533344555",
+    "objects": ".a..a..b...c.....a.b..ce..bb..bcc...a..b.....a.......c..aa.f....",
+    "roomNames": [
+     "Livery",
+     "Corral",
+     "Telegraph Office",
+     "Saloon",
+     "Church",
+     "Barber"
+    ],
+    "people": [
+     "Albert the auctioneer",
+     "Vera the vet",
+     "Basil the blacksmith",
+     "Cora the cook",
+     "Daisy the deputy",
+     "Edgar the engineer",
+     "Felix the farrier",
+     "Gus the gunsmith"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      2,
+      "next",
+      "barrel"
+     ],
+     [
+      3,
+      "on",
+      "bed"
+     ],
+     [
+      4,
+      "on",
+      "bed"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "door"
+     ],
+     [
+      6,
+      "withBandit"
+     ],
+     [
+      7,
+      "next",
+      "horse"
+     ],
+     [
+      7,
+      "window"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     21,
+     30,
+     39,
+     42,
+     51,
+     60
+    ],
+    "doors": [
+     [
+      25,
+      26
+     ],
+     [
+      33,
+      41
+     ],
+     [
+      36,
+      37
+     ],
+     [
+      34,
+      42
+     ],
+     [
+      35,
+      43
+     ],
+     [
+      39,
+      47
+     ],
+     [
+      58,
+      59
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      0,
+      "l"
+     ],
+     [
+      15,
+      "r"
+     ],
+     [
+      56,
+      "l"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 1,
+    "hardest": 4,
+    "steps": 20,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      0
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 2,
+    "lawful": [
+     0
+    ],
     "extra": true
    },
    {
@@ -196301,6 +218966,185 @@ const CAMPAIGNS = [
     "hard": 7,
     "hardest": 8,
     "steps": 21,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000011111000011111220011111220033444220033444220033444555336666555336666555336666",
+    "objects": "...be....b..b.......ba.d.e..b........a..e..b..c.dd....b.ba.....c...a..b.fdc.ef...",
+    "roomNames": [
+     "Church",
+     "Telegraph Office",
+     "Livery",
+     "Hotel",
+     "Saloon",
+     "Sheriff Office",
+     "Corral"
+    ],
+    "people": [
+     "Alma the auctioneer",
+     "Bruno the blacksmith",
+     "Celia the cattle driver",
+     "Victor the vet",
+     "Dmitri the dancer",
+     "Edgar the engineer",
+     "Frank the farrier",
+     "Grace the gunsmith",
+     "Hana the homesteader"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "piano"
+     ],
+     [
+      2,
+      "next",
+      "cactus"
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "on",
+      "bed"
+     ],
+     [
+      4,
+      "next",
+      "cactus"
+     ],
+     [
+      5,
+      "next",
+      "barrel"
+     ],
+     [
+      6,
+      "next",
+      "cactus"
+     ],
+     [
+      6,
+      "next",
+      "chair"
+     ],
+     [
+      7,
+      "next",
+      "bed"
+     ],
+     [
+      8,
+      "alone"
+     ]
+    ],
+    "solution": [
+     5,
+     16,
+     24,
+     28,
+     39,
+     45,
+     58,
+     65,
+     80
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      10,
+      19
+     ],
+     [
+      30,
+      31
+     ],
+     [
+      47,
+      56
+     ],
+     [
+      22,
+      31
+     ],
+     [
+      25,
+      34
+     ],
+     [
+      46,
+      55
+     ],
+     [
+      41,
+      42
+     ],
+     [
+      74,
+      75
+     ],
+     [
+      67,
+      68
+     ],
+     [
+      51,
+      60
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      5,
+      "t"
+     ],
+     [
+      27,
+      "l"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      53,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 5,
+    "steps": 20,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      3
+     ]
+    ],
+    "rules": [
+     "bandits"
+    ],
+    "bandits": 3,
+    "lawful": [
+     0,
+     2
+    ],
     "extra": true
    },
    {
@@ -210409,6 +233253,167 @@ const CAMPAIGNS = [
    },
    {
     "size": 5,
+    "rooms": "0001122211222113331133311",
+    "objects": "......ba....b....f.......",
+    "roomNames": [
+     "Brig",
+     "Open Sea",
+     "Frigate",
+     "Sloop"
+    ],
+    "people": [
+     "Alma the admiral",
+     "Bella the boatswain",
+     "Victor the voyager",
+     "Cedric the cook",
+     "Daisy the diver"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "col",
+      4
+     ],
+     [
+      1,
+      "next",
+      "stool"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "next",
+      "cannon"
+     ]
+    ],
+    "solution": [
+     4,
+     6,
+     10,
+     18,
+     22
+    ],
+    "doors": [
+     [
+      0,
+      5
+     ],
+     [
+      10,
+      15
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      5,
+      "l"
+     ],
+     [
+      10,
+      "l"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 11,
+    "rules": [
+     "sea"
+    ],
+    "sea": 1,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011000220002233333",
+    "objects": "....e.............aff...f",
+    "roomNames": [
+     "Open Sea",
+     "Market",
+     "Fort",
+     "Galleon"
+    ],
+    "people": [
+     "Alma the admiral",
+     "Bea the boatswain",
+     "Vivian the voyager",
+     "Clara the cook",
+     "Dmitri the deckhand"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "col",
+      0
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "cannon"
+     ]
+    ],
+    "solution": [
+     0,
+     7,
+     14,
+     18,
+     21
+    ],
+    "doors": [
+     [
+      8,
+      13
+     ],
+     [
+      18,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      4,
+      "r"
+     ],
+     [
+      24,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 13,
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 5,
     "rooms": "0011100222002220033300333",
     "objects": "...a....b...a...........a",
     "roomNames": [
@@ -210584,6 +233589,103 @@ const CAMPAIGNS = [
     "hard": 0,
     "hardest": 1,
     "steps": 12,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0011100111221112233322333",
+    "objects": ".....a...............b..f",
+    "roomNames": [
+     "Tavern",
+     "Open Sea",
+     "Cove",
+     "Longboat"
+    ],
+    "people": [
+     "Ada the admiral",
+     "Bella the boatswain",
+     "Carl the captain",
+     "Victor the voyager",
+     "Della the deckhand"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "col",
+      3
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "hammock"
+     ],
+     [
+      4,
+      "row",
+      4
+     ]
+    ],
+    "solution": [
+     2,
+     8,
+     14,
+     16,
+     20
+    ],
+    "doors": [
+     [
+      6,
+      11
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      15,
+      "l"
+     ],
+     [
+      21,
+      "b"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 13,
+    "facts": [
+     [
+      "edge",
+      null,
+      3
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 1,
     "extra": true
    },
    {
@@ -211694,6 +234796,211 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "000000000000000111000111222333222333",
+    "objects": "...............b.....c.fc.d...be....",
+    "roomNames": [
+     "Open Sea",
+     "Lighthouse",
+     "Brig",
+     "Tavern"
+    ],
+    "people": [
+     "Alma the armorer",
+     "Bruno the barkeep",
+     "Cedric the cook",
+     "Dexter the deckhand",
+     "Elsa the explorer",
+     "Vivian the vintner"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "col",
+      2
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      1
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "next",
+      "anchor"
+     ],
+     [
+      4,
+      "door"
+     ],
+     [
+      5,
+      "col",
+      3
+     ]
+    ],
+    "solution": [
+     2,
+     7,
+     12,
+     22,
+     29,
+     33
+    ],
+    "doors": [
+     [
+      23,
+      29
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      24,
+      "l"
+     ],
+     [
+      30,
+      "l"
+     ],
+     [
+      35,
+      "r"
+     ],
+     [
+      35,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000000000000000000112233112233112233",
+    "objects": "......................dfbf.b..babd..",
+    "roomNames": [
+     "Open Sea",
+     "Sea Cave",
+     "Tavern",
+     "Cove"
+    ],
+    "people": [
+     "Albert the admiral",
+     "Bea the boatswain",
+     "Cedric the captain",
+     "Daisy the diver",
+     "Victor the vintner",
+     "Edgar the engineer"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "col",
+      3
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      5
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "notRoom",
+      0
+     ],
+     [
+      5,
+      "next",
+      "hammock"
+     ]
+    ],
+    "solution": [
+     3,
+     11,
+     16,
+     20,
+     24,
+     31
+    ],
+    "doors": [
+     [
+      25,
+      26
+     ],
+     [
+      27,
+      28
+     ]
+    ],
+    "windows": [
+     [
+      23,
+      "r"
+     ],
+     [
+      30,
+      "b"
+     ],
+     [
+      31,
+      "b"
+     ],
+     [
+      33,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
+    "facts": [
+     [
+      "nextCount",
+      "cannon",
+      2
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000000000000111100222200333444333444",
     "objects": "..................f.c...e...a.b.....",
     "roomNames": [
@@ -212325,6 +235632,117 @@ const CAMPAIGNS = [
     "hard": 1,
     "hardest": 4,
     "steps": 17,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000000111222111222333333333333333444",
+    "objects": ".........bc....bd................ca.",
+    "roomNames": [
+     "Sloop",
+     "Fort",
+     "Sea Cave",
+     "Open Sea",
+     "Galleon"
+    ],
+    "people": [
+     "Arthur the armorer",
+     "Vince the vintner",
+     "Bea the boatswain",
+     "Carl the cook",
+     "Dmitri the deckhand",
+     "Elsa the engineer"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "door"
+     ],
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "col",
+      0
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "col",
+      3
+     ],
+     [
+      5,
+      "window"
+     ]
+    ],
+    "solution": [
+     4,
+     7,
+     12,
+     20,
+     27,
+     35
+    ],
+    "doors": [
+     [
+      0,
+      6
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      14,
+      15
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "r"
+     ],
+     [
+      11,
+      "r"
+     ],
+     [
+      33,
+      "b"
+     ],
+     [
+      35,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
+    "facts": [
+     [
+      "touch",
+      null,
+      1
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 3,
     "extra": true
    },
    {
@@ -213608,6 +237026,227 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0001111000111122211112221111333111133344443334444",
+    "objects": "................b....a.a.....e......b..ca.bbe..a.",
+    "roomNames": [
+     "Galleon",
+     "Open Sea",
+     "Lighthouse",
+     "Sloop",
+     "Frigate"
+    ],
+    "people": [
+     "Ada the admiral",
+     "Bella the boatswain",
+     "Cora the cook",
+     "Daisy the diver",
+     "Elias the engineer",
+     "Fiona the fiddler",
+     "Vince the voyager"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "col",
+      5
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "next",
+      "hammock"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "col",
+      4
+     ],
+     [
+      4,
+      "next",
+      "map"
+     ],
+     [
+      5,
+      "next",
+      "anchor"
+     ]
+    ],
+    "solution": [
+     5,
+     13,
+     15,
+     25,
+     30,
+     38,
+     42
+    ],
+    "doors": [
+     [
+      9,
+      16
+     ],
+     [
+      23,
+      30
+     ],
+     [
+      44,
+      45
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      7,
+      "l"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      47,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 18,
+    "facts": [
+     [
+      "nextCount",
+      "stool",
+      0
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 1,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001122000112200011223333333333333333344443334444",
+    "objects": "......f..a.....de.ea...................af....cb..",
+    "roomNames": [
+     "Frigate",
+     "Dock",
+     "Market",
+     "Open Sea",
+     "Galleon"
+    ],
+    "people": [
+     "Vivian the vintner",
+     "Albert the armorer",
+     "Bella the barkeep",
+     "Cedric the captain",
+     "Dexter the diver",
+     "Edgar the explorer",
+     "Flora the fiddler"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      1,
+      "next",
+      "map"
+     ],
+     [
+      2,
+      "next",
+      "stool"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "col",
+      2
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "col",
+      1
+     ],
+     [
+      6,
+      "next",
+      "hammock"
+     ]
+    ],
+    "solution": [
+     3,
+     11,
+     20,
+     21,
+     30,
+     36,
+     47
+    ],
+    "doors": [
+     [
+      9,
+      10
+     ],
+     [
+      18,
+      19
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      41,
+      "r"
+     ],
+     [
+      48,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
+    "rules": [
+     "sea"
+    ],
+    "sea": 3,
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0001111000111100011112222111222211133334443333444",
     "objects": ".....................a..e..........f.bfb....fdc.e",
     "roomNames": [
@@ -213851,6 +237490,122 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 5,
     "steps": 17,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0000111000011100001112203333220333322000002200000",
+    "objects": ".............b........f........d.a........f......",
+    "roomNames": [
+     "Open Sea",
+     "Market",
+     "Longboat",
+     "Dock"
+    ],
+    "people": [
+     "Ada the admiral",
+     "Vera the voyager",
+     "Bella the boatswain",
+     "Cora the captain",
+     "Daisy the diver",
+     "Elsa the explorer",
+     "Fiona the fiddler"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "col",
+      3
+     ],
+     [
+      1,
+      "next",
+      "hammock"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "same",
+      6
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "row",
+      6
+     ]
+    ],
+    "solution": [
+     3,
+     12,
+     18,
+     23,
+     28,
+     41,
+     43
+    ],
+    "doors": [
+     [
+      20,
+      27
+     ]
+    ],
+    "windows": [
+     [
+      13,
+      "r"
+     ],
+     [
+      28,
+      "l"
+     ],
+     [
+      35,
+      "l"
+     ],
+     [
+      42,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "nextCount",
+      "stool",
+      0
+     ],
+     [
+      "doorCount",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
     "extra": true
    },
    {
@@ -215114,6 +238869,295 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0001112200011122000111220001112200003333000033330000444400004444",
+    "objects": "......bb....c.........b.....bb.c.....a.........a............e..c",
+    "roomNames": [
+     "Open Sea",
+     "Sloop",
+     "Market",
+     "Lighthouse",
+     "Frigate"
+    ],
+    "people": [
+     "Ada the admiral",
+     "Bea the barkeep",
+     "Cora the captain",
+     "Dora the diver",
+     "Edgar the engineer",
+     "Freya the first mate",
+     "Gus the gold digger",
+     "Vera the voyager"
+    ],
+    "victim": 7,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "next",
+      "anchor"
+     ],
+     [
+      1,
+      "col",
+      5
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "on",
+      "hammock"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      4,
+      "col",
+      1
+     ],
+     [
+      5,
+      "col",
+      0
+     ],
+     [
+      6,
+      "next",
+      "anchor"
+     ],
+     [
+      7,
+      "row",
+      7
+     ]
+    ],
+    "solution": [
+     2,
+     13,
+     19,
+     28,
+     33,
+     40,
+     55,
+     62
+    ],
+    "doors": [
+     [
+      29,
+      30
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      45,
+      53
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      7,
+      "r"
+     ],
+     [
+      15,
+      "r"
+     ],
+     [
+      31,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 19,
+    "facts": [
+     [
+      "edge",
+      null,
+      4
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0001122200011222000112223333322233333222444422224444222244442222",
+    "objects": "a.................a.e....a..e......b....a..a......b.............",
+    "roomNames": [
+     "Lighthouse",
+     "Tavern",
+     "Open Sea",
+     "Cove",
+     "Market"
+    ],
+    "people": [
+     "Astrid the armorer",
+     "Birgit the barkeep",
+     "Carl the cook",
+     "Viola the voyager",
+     "Daisy the deckhand",
+     "Elsa the explorer",
+     "Felix the fiddler",
+     "Grace the gold digger"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      0,
+      "col",
+      6
+     ],
+     [
+      1,
+      "alone"
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "next",
+      "stool"
+     ],
+     [
+      4,
+      "next",
+      "hammock"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "next",
+      "stool"
+     ],
+     [
+      6,
+      "next",
+      "hammock"
+     ],
+     [
+      7,
+      "col",
+      5
+     ]
+    ],
+    "solution": [
+     6,
+     9,
+     23,
+     24,
+     34,
+     44,
+     51,
+     61
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      17,
+      25
+     ],
+     [
+      19,
+      27
+     ],
+     [
+      32,
+      40
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      3,
+      "t"
+     ],
+     [
+      56,
+      "l"
+     ],
+     [
+      58,
+      "b"
+     ],
+     [
+      59,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "windowCount",
+      null,
+      0
+     ],
+     [
+      "doorCount",
+      null,
+      0
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 2,
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0001111100011111111111111112222211122222334444553344445533444455",
     "objects": ".a...........................d...........c.......b...d.bf.......",
     "roomNames": [
@@ -216068,6 +240112,133 @@ const CAMPAIGNS = [
    },
    {
     "size": 8,
+    "rooms": "0000011100000111000001110000222200002222000022223333444433334444",
+    "objects": ".............a.a............a..a....b..b.....ec.cd.bfac...ccfae.",
+    "roomNames": [
+     "Open Sea",
+     "Dock",
+     "Cove",
+     "Brig",
+     "Frigate"
+    ],
+    "people": [
+     "Alma the admiral",
+     "Bruno the boatswain",
+     "Clara the cook",
+     "Vera the voyager",
+     "Della the diver",
+     "Edith the engineer",
+     "Felix the fiddler",
+     "Grace the gunner"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      3
+     ],
+     [
+      2,
+      "col",
+      2
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      5,
+      "next",
+      "anchor"
+     ],
+     [
+      6,
+      "on",
+      "stool"
+     ],
+     [
+      7,
+      "next",
+      "crate"
+     ]
+    ],
+    "solution": [
+     4,
+     11,
+     18,
+     30,
+     32,
+     47,
+     53,
+     57
+    ],
+    "doors": [
+     [
+      21,
+      29
+     ],
+     [
+      47,
+      55
+     ],
+     [
+      51,
+      52
+     ]
+    ],
+    "windows": [
+     [
+      6,
+      "t"
+     ],
+     [
+      15,
+      "r"
+     ],
+     [
+      23,
+      "r"
+     ],
+     [
+      56,
+      "b"
+     ],
+     [
+      60,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 22,
+    "facts": [
+     [
+      "roomCount",
+      1,
+      0
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 8,
     "rooms": "0000111100001111223344442233444422334444555555555555555555555555",
     "objects": "...df...c....da.......d...d.a.a.....ca..........................",
     "roomNames": [
@@ -216940,6 +241111,319 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000111222000111222000111333000111333444111111444111111555666611555666611555666611",
+    "objects": "b.d....d..f.....ad......e....e...............b...........b.......b.b.....f.e.....",
+    "roomNames": [
+     "Lighthouse",
+     "Open Sea",
+     "Fort",
+     "Cove",
+     "Tavern",
+     "Sea Cave",
+     "Brig"
+    ],
+    "people": [
+     "Ada the admiral",
+     "Bella the boatswain",
+     "Cedric the cook",
+     "Vivian the vintner",
+     "Daisy the diver",
+     "Edith the explorer",
+     "Frank the fiddler",
+     "Gideon the gunner",
+     "Hazel the harbor pilot"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "next",
+      "crate"
+     ],
+     [
+      2,
+      "notRoom",
+      0
+     ],
+     [
+      3,
+      "next",
+      "map"
+     ],
+     [
+      4,
+      "next",
+      "hammock"
+     ],
+     [
+      5,
+      "col",
+      7
+     ],
+     [
+      5,
+      "alone"
+     ],
+     [
+      6,
+      "col",
+      1
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "door"
+     ],
+     [
+      8,
+      "same",
+      7
+     ],
+     [
+      8,
+      "col",
+      5
+     ]
+    ],
+    "solution": [
+     4,
+     11,
+     26,
+     33,
+     36,
+     52,
+     55,
+     66,
+     77
+    ],
+    "doors": [
+     [
+      27,
+      36
+     ],
+     [
+      16,
+      25
+     ],
+     [
+      45,
+      54
+     ],
+     [
+      65,
+      66
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      6,
+      "t"
+     ],
+     [
+      9,
+      "l"
+     ],
+     [
+      27,
+      "l"
+     ],
+     [
+      35,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      0
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 1,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "001112222001112222001113333001113333000000044000000044000000044000555544000555544",
+    "objects": "......b........b.d..f..a..a....e.adb.......b........d........................d.c.",
+    "roomNames": [
+     "Open Sea",
+     "Longboat",
+     "Galleon",
+     "Fort",
+     "Lighthouse",
+     "Cove"
+    ],
+    "people": [
+     "Arthur the armorer",
+     "Bruno the barkeep",
+     "Clara the captain",
+     "Della the deckhand",
+     "Edgar the explorer",
+     "Felix the first mate",
+     "Gus the gold digger",
+     "Hugo the harpooner",
+     "Viola the voyager"
+    ],
+    "victim": 8,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      0
+     ],
+     [
+      0,
+      "col",
+      2
+     ],
+     [
+      1,
+      "on",
+      "hammock"
+     ],
+     [
+      2,
+      "col",
+      1
+     ],
+     [
+      3,
+      "next",
+      "stool"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      4,
+      "col",
+      3
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "col",
+      0
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "next",
+      "anchor"
+     ],
+     [
+      8,
+      "col",
+      8
+     ]
+    ],
+    "solution": [
+     2,
+     15,
+     19,
+     32,
+     39,
+     45,
+     58,
+     70,
+     80
+    ],
+    "doors": [
+     [
+      4,
+      5
+     ],
+     [
+      22,
+      23
+     ],
+     [
+      17,
+      26
+     ],
+     [
+      35,
+      44
+     ],
+     [
+      78,
+      79
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      4,
+      "t"
+     ],
+     [
+      8,
+      "r"
+     ],
+     [
+      26,
+      "r"
+     ],
+     [
+      76,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 22,
+    "facts": [
+     [
+      "corner",
+      null,
+      3
+     ],
+     [
+      "roomCount",
+      3,
+      1
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "000111222000111222000111222000111222000000333000000333000000333444400555444400555",
     "objects": ".......ad.....d.........aaa........f......cd...........................e.c.b...a.",
     "roomNames": [
@@ -217515,6 +241999,166 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 4,
     "steps": 25,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000000000111222222111222222333444455333444455333444455444444444444444444444444444",
+    "objects": "....ad...b.a.......cd......a.f.....cd.......c.......c............................",
+    "roomNames": [
+     "Galleon",
+     "Brig",
+     "Dock",
+     "Tavern",
+     "Open Sea",
+     "Cove"
+    ],
+    "people": [
+     "Albert the armorer",
+     "Bruno the boatswain",
+     "Celia the cook",
+     "Dora the deckhand",
+     "Vera the vintner",
+     "Edgar the explorer",
+     "Frank the fiddler",
+     "Grace the gunner",
+     "Hilda the harbor pilot"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "col",
+      1
+     ],
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "col",
+      3
+     ],
+     [
+      1,
+      "same",
+      2
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      2,
+      "col",
+      6
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      5,
+      "window"
+     ],
+     [
+      6,
+      "row",
+      6
+     ],
+     [
+      6,
+      "col",
+      8
+     ],
+     [
+      7,
+      "col",
+      5
+     ],
+     [
+      8,
+      "row",
+      8
+     ]
+    ],
+    "solution": [
+     1,
+     12,
+     24,
+     31,
+     38,
+     45,
+     62,
+     68,
+     79
+    ],
+    "doors": [
+     [
+      0,
+      9
+     ],
+     [
+      7,
+      16
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      25,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      9,
+      "l"
+     ],
+     [
+      17,
+      "r"
+     ],
+     [
+      45,
+      "l"
+     ]
+    ],
+    "tries": 1,
+    "hard": 5,
+    "hardest": 4,
+    "steps": 21,
+    "facts": [
+     [
+      "nextCount",
+      "anchor",
+      0
+     ]
+    ],
+    "rules": [
+     "sea"
+    ],
+    "sea": 4,
     "extra": true
    },
    {
@@ -229799,6 +254443,187 @@ const CAMPAIGNS = [
    {
     "size": 5,
     "rooms": "0000000000111221112233322",
+    "objects": "...........f....b.ff..b.f",
+    "roomNames": [
+     "Sea of Ages",
+     "Shrine",
+     "Fire Pit",
+     "Hide Tent"
+    ],
+    "people": [
+     "Albert the archivist",
+     "Bea the bookbinder",
+     "Cedric the chronicler",
+     "Victor the voyager",
+     "Dexter the drifter"
+    ],
+    "victim": 3,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      3
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      4,
+      "alone"
+     ]
+    ],
+    "solution": [
+     4,
+     8,
+     12,
+     16,
+     20
+    ],
+    "doors": [
+     [
+      12,
+      13
+     ],
+     [
+      15,
+      20
+     ],
+     [
+      22,
+      23
+     ]
+    ],
+    "windows": [
+     [
+      20,
+      "b"
+     ],
+     [
+      23,
+      "b"
+     ],
+     [
+      24,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 16,
+    "facts": [
+     [
+      "onCount",
+      "log",
+      1
+     ]
+    ],
+    "rules": [
+     "trades",
+     "sea"
+    ],
+    "trade": "1.1.3",
+    "tags": "............1..1....31...",
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0001100011000112233322333",
+    "objects": "....f..........ecea.....c",
+    "roomNames": [
+     "Sea of Ages",
+     "Cave",
+     "Burial Chamber",
+     "Fort"
+    ],
+    "people": [
+     "Astrid the astronomer",
+     "Bea the bard",
+     "Cora the chronicler",
+     "Dora the drifter",
+     "Victor the visionary"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "next",
+      "clock"
+     ],
+     [
+      1,
+      "col",
+      0
+     ],
+     [
+      2,
+      "row",
+      2
+     ],
+     [
+      3,
+      "next",
+      "statue"
+     ]
+    ],
+    "solution": [
+     3,
+     5,
+     11,
+     19,
+     22
+    ],
+    "doors": [
+     [
+      13,
+      18
+     ],
+     [
+      16,
+      17
+     ]
+    ],
+    "windows": [
+     [
+      4,
+      "t"
+     ],
+     [
+      20,
+      "l"
+     ],
+     [
+      23,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 14,
+    "rules": [
+     "trades",
+     "sea"
+    ],
+    "trade": "4.1..",
+    "tags": "...4...................4.",
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0000000000111221112233322",
     "objects": "...........d.b........a.a",
     "roomNames": [
      "Sea of Ages",
@@ -230230,6 +255055,93 @@ const CAMPAIGNS = [
     "hard": 2,
     "hardest": 4,
     "steps": 13,
+    "extra": true
+   },
+   {
+    "size": 5,
+    "rooms": "0000000000111112233322333",
+    "objects": "................b.ef..b.a",
+    "roomNames": [
+     "Sea of Ages",
+     "Hide Tent",
+     "Bank",
+     "Captain Cabin"
+    ],
+    "people": [
+     "Astrid the archivist",
+     "Birgit the bard",
+     "Cora the clockmaker",
+     "Dmitri the dreamer",
+     "Victor the voyager"
+    ],
+    "victim": 4,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "col",
+      4
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      3,
+      "next",
+      "log"
+     ]
+    ],
+    "solution": [
+     0,
+     9,
+     11,
+     17,
+     23
+    ],
+    "doors": [
+     [
+      11,
+      16
+     ],
+     [
+      13,
+      18
+     ],
+     [
+      16,
+      17
+     ]
+    ],
+    "windows": [
+     [
+      20,
+      "b"
+     ],
+     [
+      21,
+      "b"
+     ],
+     [
+      23,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 13,
+    "rules": [
+     "trades",
+     "sea"
+    ],
+    "trade": "44..0",
+    "tags": ".....................1.0.",
+    "sea": 0,
     "extra": true
    },
    {
@@ -231037,6 +255949,259 @@ const CAMPAIGNS = [
    },
    {
     "size": 6,
+    "rooms": "001122001122001122001122333344333344",
+    "objects": ".....b.........b...b.....b...bf..bad",
+    "roomNames": [
+     "Saloon",
+     "Fort",
+     "Burial Chamber",
+     "Cave",
+     "Jail"
+    ],
+    "people": [
+     "Astrid the archivist",
+     "Basil the bard",
+     "Vivian the visionary",
+     "Cedric the clockmaker",
+     "Daisy the drifter",
+     "Ena the engineer"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "room",
+      1
+     ],
+     [
+      1,
+      "window"
+     ],
+     [
+      2,
+      "next",
+      "log"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "next",
+      "barrel"
+     ],
+     [
+      5,
+      "next",
+      "log"
+     ],
+     [
+      5,
+      "bandit"
+     ]
+    ],
+    "solution": [
+     3,
+     6,
+     13,
+     22,
+     29,
+     32
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      15,
+      16
+     ],
+     [
+      21,
+      27
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      27,
+      28
+     ]
+    ],
+    "windows": [
+     [
+      2,
+      "t"
+     ],
+     [
+      6,
+      "l"
+     ],
+     [
+      29,
+      "r"
+     ],
+     [
+      31,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 1,
+    "hardest": 3,
+    "steps": 14,
+    "facts": [
+     [
+      "onCount",
+      "chair",
+      0
+     ]
+    ],
+    "rules": [
+     "bandits",
+     "glyphs"
+    ],
+    "tags": "...LL.C.....C.........LC............",
+    "bandits": 2,
+    "lawful": [
+     2
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "001111001111001222001222333444333444",
+    "objects": ".....db....f.fc.ad....bef..a..c....e",
+    "roomNames": [
+     "Hide Tent",
+     "Cave",
+     "Jail",
+     "Burial Chamber",
+     "Fort"
+    ],
+    "people": [
+     "Vera the visionary",
+     "Ada the archivist",
+     "Bea the bard",
+     "Cora the chronicler",
+     "Dexter the dreamer",
+     "Edgar the explorer"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "window"
+     ],
+     [
+      1,
+      "next",
+      "clock"
+     ],
+     [
+      2,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "bandit"
+     ],
+     [
+      4,
+      "next",
+      "boulder"
+     ],
+     [
+      5,
+      "next",
+      "statue"
+     ]
+    ],
+    "solution": [
+     2,
+     10,
+     15,
+     18,
+     29,
+     31
+    ],
+    "doors": [
+     [
+      13,
+      14
+     ],
+     [
+      18,
+      24
+     ],
+     [
+      20,
+      21
+     ],
+     [
+      20,
+      26
+     ],
+     [
+      23,
+      29
+     ],
+     [
+      32,
+      33
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      6,
+      "l"
+     ],
+     [
+      33,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 16,
+    "facts": [
+     [
+      "nextCount",
+      "boulder",
+      1
+     ]
+    ],
+    "rules": [
+     "bandits",
+     "glyphs"
+    ],
+    "tags": "...............L.............L.L....",
+    "bandits": 2,
+    "lawful": [
+     1
+    ],
+    "extra": true
+   },
+   {
+    "size": 6,
     "rooms": "000011000011222233222233444433444433",
     "objects": "....c...c.....d...b..bac.ca.e.d.....",
     "roomNames": [
@@ -231800,6 +256965,134 @@ const CAMPAIGNS = [
     "hard": 5,
     "hardest": 4,
     "steps": 14,
+    "extra": true
+   },
+   {
+    "size": 6,
+    "rooms": "000111000111223344223344223344223344",
+    "objects": ".....cb...db....f....df............e",
+    "roomNames": [
+     "Fort",
+     "Hide Tent",
+     "Fire Pit",
+     "Great Hall",
+     "Captain Cabin"
+    ],
+    "people": [
+     "Arthur the astronomer",
+     "Bella the bard",
+     "Celia the chronicler",
+     "Dmitri the drifter",
+     "Edgar the engineer",
+     "Vivian the voyager"
+    ],
+    "victim": 5,
+    "clues": [
+     [
+      0,
+      "bandit"
+     ],
+     [
+      1,
+      "door"
+     ],
+     [
+      2,
+      "same",
+      3
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "row",
+      4
+     ]
+    ],
+    "solution": [
+     3,
+     8,
+     12,
+     19,
+     29,
+     34
+    ],
+    "doors": [
+     [
+      8,
+      9
+     ],
+     [
+      7,
+      13
+     ],
+     [
+      8,
+      14
+     ],
+     [
+      9,
+      15
+     ],
+     [
+      11,
+      17
+     ],
+     [
+      13,
+      14
+     ],
+     [
+      21,
+      22
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      2,
+      "t"
+     ],
+     [
+      11,
+      "r"
+     ],
+     [
+      33,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 4,
+    "hardest": 4,
+    "steps": 17,
+    "facts": [
+     [
+      "nextCount",
+      "clock",
+      0
+     ],
+     [
+      "corner",
+      null,
+      4
+     ]
+    ],
+    "rules": [
+     "bandits",
+     "glyphs"
+    ],
+    "tags": ".CL.C...L.........LC..............C.",
+    "bandits": 2,
+    "lawful": [
+     0
+    ],
     "extra": true
    },
    {
@@ -233913,6 +259206,221 @@ const CAMPAIGNS = [
    },
    {
     "size": 7,
+    "rooms": "0000111000011122222223333333444333344433334443333",
+    "objects": ".dab......c.b.b..daaa.......cbc.....e.......d....",
+    "roomNames": [
+     "Cave",
+     "Throne Room",
+     "Fire Pit",
+     "Sea of Ages",
+     "Jail"
+    ],
+    "people": [
+     "Arthur the astronomer",
+     "Bella the bookbinder",
+     "Celia the clockmaker",
+     "Dora the drifter",
+     "Elias the explorer",
+     "Freya the falconer",
+     "Victor the visionary"
+    ],
+    "victim": 6,
+    "clues": [
+     [
+      0,
+      "next",
+      "chair"
+     ],
+     [
+      1,
+      "on",
+      "log"
+     ],
+     [
+      2,
+      "next",
+      "log"
+     ],
+     [
+      3,
+      "col",
+      4
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      5,
+      "next",
+      "barrel"
+     ]
+    ],
+    "solution": [
+     3,
+     12,
+     15,
+     25,
+     34,
+     37,
+     42
+    ],
+    "doors": [
+     [
+      10,
+      11
+     ],
+     [
+      7,
+      14
+     ],
+     [
+      11,
+      18
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      0,
+      "l"
+     ],
+     [
+      43,
+      "b"
+     ],
+     [
+      44,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 1,
+    "steps": 16,
+    "rules": [
+     "ranks",
+     "sea"
+    ],
+    "court": [
+     1
+    ],
+    "rank": "knccccc",
+    "sea": 3,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0001122000112211111221111122331144433114443311444",
+    "objects": "e.......e...db.............aab....cf.......a.....",
+    "roomNames": [
+     "Captain Cabin",
+     "Sea of Ages",
+     "Great Hall",
+     "Throne Room",
+     "Fort"
+    ],
+    "people": [
+     "Alma the astronomer",
+     "Bella the bookbinder",
+     "Vera the visionary",
+     "Clara the clockmaker",
+     "Daisy the dreamer",
+     "Edgar the explorer",
+     "Fiona the fortune teller"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "notRoom",
+      0
+     ],
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "on",
+      "log"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "on",
+      "log"
+     ],
+     [
+      5,
+      "col",
+      3
+     ],
+     [
+      6,
+      "next",
+      "clock"
+     ]
+    ],
+    "solution": [
+     4,
+     13,
+     19,
+     23,
+     29,
+     38,
+     42
+    ],
+    "doors": [
+     [
+      27,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "t"
+     ],
+     [
+      20,
+      "r"
+     ],
+     [
+      35,
+      "l"
+     ],
+     [
+      48,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 15,
+    "rules": [
+     "ranks",
+     "sea"
+    ],
+    "court": [
+     2
+    ],
+    "rank": "kkkccck",
+    "sea": 1,
+    "extra": true
+   },
+   {
+    "size": 7,
     "rooms": "0000000111122211112223333222333322244442224444222",
     "objects": "af.cb...a.....e.b....c........a.....c............",
     "roomNames": [
@@ -234380,6 +259888,126 @@ const CAMPAIGNS = [
     "hard": 3,
     "hardest": 3,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 7,
+    "rooms": "0011222001122200112223333333333333333344443334444",
+    "objects": ".........fdd..d..bc...................a.ad...dabb",
+    "roomNames": [
+     "Fire Pit",
+     "Hide Tent",
+     "Bank",
+     "Sea of Ages",
+     "Cave"
+    ],
+    "people": [
+     "Alma the archivist",
+     "Birgit the bookbinder",
+     "Vivian the visionary",
+     "Cedric the chronicler",
+     "Della the drifter",
+     "Elias the explorer",
+     "Flora the fortune teller"
+    ],
+    "victim": 2,
+    "clues": [
+     [
+      0,
+      "col",
+      5
+     ],
+     [
+      1,
+      "next",
+      "barrel"
+     ],
+     [
+      2,
+      "col",
+      1
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "col",
+      4
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "on",
+      "chair"
+     ],
+     [
+      6,
+      "alone"
+     ]
+    ],
+    "solution": [
+     5,
+     7,
+     15,
+     27,
+     32,
+     38,
+     44
+    ],
+    "doors": [
+     [
+      1,
+      2
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "windows": [
+     [
+      13,
+      "r"
+     ],
+     [
+      14,
+      "l"
+     ],
+     [
+      45,
+      "b"
+     ],
+     [
+      48,
+      "b"
+     ]
+    ],
+    "tries": 1,
+    "hard": 0,
+    "hardest": 2,
+    "steps": 19,
+    "facts": [
+     [
+      "nextCount",
+      "statue",
+      0
+     ]
+    ],
+    "rules": [
+     "ranks",
+     "sea"
+    ],
+    "court": [
+     2
+    ],
+    "rank": "ncckckc",
+    "sea": 3,
     "extra": true
    },
    {
@@ -235517,6 +261145,168 @@ const CAMPAIGNS = [
     "hard": 6,
     "hardest": 6,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 8,
+    "rooms": "0000011100000111111111112222222233344555333445553334455533344555",
+    "objects": "a.bc....b..d.c...d........ac......b.d.b....a....a..e.a..dc.a..b.",
+    "roomNames": [
+     "Bank",
+     "Fort",
+     "Great Hall",
+     "Burial Chamber",
+     "Cave",
+     "Captain Cabin"
+    ],
+    "people": [
+     "Albert the astronomer",
+     "Vivian the visionary",
+     "Bea the bard",
+     "Cedric the chronicler",
+     "Dora the dreamer",
+     "Elsa the explorer",
+     "Fiona the fortune teller",
+     "Gwen the gladiator"
+    ],
+    "victim": 1,
+    "clues": [
+     [
+      0,
+      "alone"
+     ],
+     [
+      0,
+      "bandit"
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      1,
+      "col",
+      7
+     ],
+     [
+      2,
+      "bandit"
+     ],
+     [
+      3,
+      "next",
+      "chair"
+     ],
+     [
+      3,
+      "door"
+     ],
+     [
+      4,
+      "next",
+      "barrel"
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "next",
+      "log"
+     ],
+     [
+      6,
+      "same",
+      5
+     ],
+     [
+      6,
+      "on",
+      "chair"
+     ],
+     [
+      7,
+      "door"
+     ]
+    ],
+    "solution": [
+     4,
+     15,
+     22,
+     25,
+     35,
+     42,
+     48,
+     61
+    ],
+    "doors": [
+     [
+      11,
+      19
+     ],
+     [
+      16,
+      24
+     ],
+     [
+      25,
+      33
+     ],
+     [
+      28,
+      36
+     ],
+     [
+      31,
+      39
+     ],
+     [
+      34,
+      35
+     ],
+     [
+      60,
+      61
+     ]
+    ],
+    "windows": [
+     [
+      0,
+      "l"
+     ],
+     [
+      6,
+      "t"
+     ],
+     [
+      7,
+      "t"
+     ],
+     [
+      56,
+      "l"
+     ],
+     [
+      63,
+      "b"
+     ]
+    ],
+    "tries": 2,
+    "hard": 2,
+    "hardest": 4,
+    "steps": 21,
+    "rules": [
+     "trades",
+     "bandits"
+    ],
+    "trade": "202..011",
+    "tags": "....2.4......................................................1.4",
+    "bandits": 2,
+    "lawful": [
+     3
+    ],
     "extra": true
    },
    {
@@ -237435,6 +263225,288 @@ const CAMPAIGNS = [
    },
    {
     "size": 9,
+    "rooms": "000011222000011222000011222333334444333334444444444444444444444555555444555555444",
+    "objects": ".....d..............c...b..f...e..................................bea...d...ab...",
+    "roomNames": [
+     "Great Hall",
+     "Hide Tent",
+     "Cave",
+     "Throne Room",
+     "Sea of Ages",
+     "Fort"
+    ],
+    "people": [
+     "Vince the visionary",
+     "Ada the astronomer",
+     "Bruno the bookbinder",
+     "Carl the clockmaker",
+     "Della the drifter",
+     "Edith the engineer",
+     "Frank the fortune teller",
+     "Grace the guardian",
+     "Hana the herald"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      1,
+      "col",
+      3
+     ],
+     [
+      2,
+      "door"
+     ],
+     [
+      2,
+      "alone"
+     ],
+     [
+      3,
+      "next",
+      "clock"
+     ],
+     [
+      3,
+      "alone"
+     ],
+     [
+      4,
+      "row",
+      4
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      5,
+      "col",
+      8
+     ],
+     [
+      6,
+      "alone"
+     ],
+     [
+      7,
+      "col",
+      6
+     ],
+     [
+      8,
+      "on",
+      "log"
+     ]
+    ],
+    "solution": [
+     2,
+     12,
+     22,
+     28,
+     43,
+     53,
+     54,
+     69,
+     77
+    ],
+    "doors": [
+     [
+      3,
+      4
+     ],
+     [
+      18,
+      27
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      22,
+      31
+     ]
+    ],
+    "windows": [
+     [
+      3,
+      "t"
+     ],
+     [
+      72,
+      "l"
+     ],
+     [
+      72,
+      "b"
+     ],
+     [
+      73,
+      "b"
+     ],
+     [
+      75,
+      "b"
+     ]
+    ],
+    "tries": 0,
+    "hard": 2,
+    "hardest": 3,
+    "steps": 23,
+    "facts": [
+     [
+      "roomCount",
+      2,
+      0
+     ]
+    ],
+    "rules": [
+     "glyphs",
+     "sea"
+    ],
+    "tags": "LLC.......C.C.......................C......................................L.....",
+    "sea": 4,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "011002222011002222011002222011003333011003333011003333000000000000000000444444444",
+    "objects": ".b....b.................af........d.........e.a....aa....................ecd.ff.d",
+    "roomNames": [
+     "Sea of Ages",
+     "Captain Cabin",
+     "Hide Tent",
+     "Fire Pit",
+     "Bank"
+    ],
+    "people": [
+     "Victor the voyager",
+     "Astrid the archivist",
+     "Bella the bookbinder",
+     "Cora the clockmaker",
+     "Daisy the drifter",
+     "Elias the engineer",
+     "Frank the fortune teller",
+     "Grace the gladiator",
+     "Hazel the historian"
+    ],
+    "victim": 0,
+    "clues": [
+     [
+      0,
+      "on",
+      "log"
+     ],
+     [
+      1,
+      "notRoom",
+      0
+     ],
+     [
+      1,
+      "row",
+      1
+     ],
+     [
+      2,
+      "next",
+      "clock"
+     ],
+     [
+      3,
+      "row",
+      3
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "on",
+      "chair"
+     ],
+     [
+      6,
+      "col",
+      1
+     ],
+     [
+      7,
+      "row",
+      7
+     ],
+     [
+      7,
+      "col",
+      3
+     ],
+     [
+      8,
+      "next",
+      "boulder"
+     ]
+    ],
+    "solution": [
+     6,
+     11,
+     26,
+     32,
+     40,
+     52,
+     55,
+     66,
+     72
+    ],
+    "doors": [
+     [
+      25,
+      34
+     ]
+    ],
+    "windows": [
+     [
+      5,
+      "t"
+     ],
+     [
+      8,
+      "r"
+     ],
+     [
+      44,
+      "r"
+     ],
+     [
+      53,
+      "r"
+     ],
+     [
+      80,
+      "r"
+     ]
+    ],
+    "tries": 0,
+    "hard": 3,
+    "hardest": 4,
+    "steps": 20,
+    "rules": [
+     "glyphs",
+     "sea"
+    ],
+    "tags": "..C........L.....C..............C.......................................L........",
+    "sea": 0,
+    "extra": true
+   },
+   {
+    "size": 9,
     "rooms": "001111111001111111001111111001111111222221111222221111334445555334445555334445555",
     "objects": "ba.................a.......b.........ae.d.....d.a.....f.b.......b.a....eb.......b",
     "roomNames": [
@@ -237588,6 +263660,148 @@ const CAMPAIGNS = [
     "hard": 4,
     "hardest": 4,
     "steps": 23,
+    "extra": true
+   },
+   {
+    "size": 9,
+    "rooms": "000111111000111111000112222333112222333111111333111111444115555444115555444115555",
+    "objects": "...........d...........bb.b......ae.bc.......fb.......a.d...f.dfe......c..d....c.",
+    "roomNames": [
+     "Jail",
+     "Sea of Ages",
+     "Fire Pit",
+     "Bank",
+     "Throne Room",
+     "Cave"
+    ],
+    "people": [
+     "Alma the archivist",
+     "Bruno the bookbinder",
+     "Clara the chronicler",
+     "Della the drifter",
+     "Edith the engineer",
+     "Fiona the falconer",
+     "Gwen the gladiator",
+     "Hugo the historian",
+     "Victor the visionary"
+    ],
+    "victim": 8,
+    "clues": [
+     [
+      0,
+      "row",
+      0
+     ],
+     [
+      0,
+      "col",
+      3
+     ],
+     [
+      1,
+      "next",
+      "barrel"
+     ],
+     [
+      2,
+      "on",
+      "log"
+     ],
+     [
+      3,
+      "next",
+      "log"
+     ],
+     [
+      4,
+      "col",
+      6
+     ],
+     [
+      4,
+      "alone"
+     ],
+     [
+      5,
+      "row",
+      5
+     ],
+     [
+      6,
+      "next",
+      "clock"
+     ],
+     [
+      6,
+      "next",
+      "barrel"
+     ],
+     [
+      7,
+      "next",
+      "boulder"
+     ]
+    ],
+    "solution": [
+     3,
+     10,
+     23,
+     27,
+     42,
+     49,
+     61,
+     65,
+     80
+    ],
+    "doors": [
+     [
+      18,
+      27
+     ],
+     [
+      46,
+      55
+     ]
+    ],
+    "windows": [
+     [
+      1,
+      "t"
+     ],
+     [
+      36,
+      "l"
+     ],
+     [
+      45,
+      "l"
+     ],
+     [
+      77,
+      "b"
+     ],
+     [
+      80,
+      "r"
+     ]
+    ],
+    "tries": 1,
+    "hard": 4,
+    "hardest": 5,
+    "steps": 21,
+    "facts": [
+     [
+      "roomCount",
+      5,
+      2
+     ]
+    ],
+    "rules": [
+     "glyphs",
+     "sea"
+    ],
+    "tags": "...................CL...............................................L........LC..",
+    "sea": 1,
     "extra": true
    },
    {
@@ -250381,23 +276595,42 @@ function renderMaker(fromCase = false) {
   }
 }
 
-// Difficulty filter for the extra cases: -1 shows all, else an index into DIFFICULTY.
+// Filters for the extra cases: one difficulty and one board size.
+// -1 shows all. Difficulty: an index into DIFFICULTY. Size: the board size.
+const sizesOf = items => [...new Set(items.map(([lv]) => lv.size))].sort((a, b) => a - b);
 const extraPick = () => getSetting('extraFilter', -1);
-const shownExtra = lv => extraPick() < 0 || difficultyIndex(lv.tries) === extraPick();
+// A size this campaign does not have shows all.
+const sizePick = items => {
+  const s = getSetting('extraSize', -1);
+  return sizesOf(items).includes(s) ? s : -1;
+};
+const fitsDifficulty = (lv, d = extraPick()) => d < 0 || difficultyIndex(lv.tries) === d;
+const fitsSize = (lv, s) => s < 0 || lv.size === s;
+const shownExtra = (lv, items) => fitsDifficulty(lv) && fitsSize(lv, sizePick(items));
 function extraFilter(items) {
-  const count = d => items.filter(([lv]) => difficultyIndex(lv.tries) === d).length;
-  const button = (d, label) => el(`button.chip.filter${extraPick() === d ? '.on' : ''}`, {
-    type: 'button', 'aria-pressed': String(extraPick() === d),
+  const size = sizePick(items);
+  const button = (on, label, pick) => el(`button.chip.filter${on ? '.on' : ''}`, {
+    type: 'button', 'aria-pressed': String(on),
     onclick: () => {
-      setSetting('extraFilter', d);
+      pick();
       const y = window.scrollY;
       void route();
       window.scrollTo(0, y);
     },
   }, label);
-  return el('div.extra-filter', { role: 'group', 'aria-label': 'Show extra cases of one difficulty' },
-    button(-1, `All (${items.length})`),
-    DIFFICULTY.map((d, k) => button(k, `${d.name} (${count(k)})`)));
+  // Each count keeps the other filter.
+  const bySize = items.filter(([lv]) => fitsSize(lv, size));
+  const byDifficulty = items.filter(([lv]) => fitsDifficulty(lv));
+  const level = (d, label) => button(extraPick() === d, `${label} (${bySize.filter(([lv]) => fitsDifficulty(lv, d)).length})`,
+    () => setSetting('extraFilter', d));
+  const sized = (s, label) => button(size === s, `${label} (${byDifficulty.filter(([lv]) => fitsSize(lv, s)).length})`,
+    () => setSetting('extraSize', s));
+  return [
+    el('div.extra-filter', { role: 'group', 'aria-label': 'Show extra cases of one difficulty' },
+      level(-1, 'All'), DIFFICULTY.map((d, k) => level(k, d.name))),
+    el('div.size-filter', { role: 'group', 'aria-label': 'Show extra cases of one board size' },
+      sized(-1, 'All sizes'), sizesOf(items).map(s => sized(s, `${s} × ${s}`))),
+  ];
 }
 
 // The special rules of a campaign as a list. '' without rules
@@ -250442,9 +276675,9 @@ function renderCampaign(theme) {
         el('h2', {}, groupTitle(g)),
         el('span.case-group-info', {},
           `${items.filter(([lv]) => isClosed(loadLevel(levelKey(theme.id, lv)))).length} / ${items.length} solved`)),
-      // Extra cases have every difficulty: buttons show only one.
+      // Extra cases have every difficulty and size: buttons show only one.
       g === 'extra' ? extraFilter(items) : '',
-      el('ol.cases', {}, items.filter(([lv]) => g !== 'extra' || shownExtra(lv)).map(([lv, i]) => {
+      el('ol.cases', {}, items.filter(([lv]) => g !== 'extra' || shownExtra(lv, items)).map(([lv, i]) => {
         const state = loadLevel(levelKey(theme.id, lv));
         const status = caseStatus(state);
         // A box in the corner closes (or opens) a case by hand. It sits next to the

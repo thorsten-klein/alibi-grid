@@ -141,6 +141,7 @@ It makes the cases in parallel. A case it can not make in time is left out:
 ```sh
 node tools/generate.mjs           # fill missing cases (also rebuilds the bundle)
 node tools/generate.mjs --extra   # make more extra cases (20 on 4×4 down to 3 on 12×12, per campaign)
+node tools/generate.mjs --extra --sizes 5,6 --groups 0,1 --count 200   # 200 extra cases of these sizes and difficulties
 node tools/bundle.mjs             # rebuild js/bundle.js after editing js/
 node tools/check.mjs              # check all levels and that the bundle is fresh
 ```
