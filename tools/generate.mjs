@@ -55,7 +55,12 @@ if (!isMainThread) {
       const extra = g === 'extra';
       const base = d === null ? 50000000 : 300000000 + 10000000 * d;
       const s = 1000 * (ti + 1) + n + seed + (extra ? base + 100000 * k : 100000 * g);
-      const tries = d !== null ? DIFFICULTY[d] : extra ? { min: 0, max: Infinity } : DIFFICULTY[g];
+      let tries = DIFFICULTY[g];
+      if (d !== null) {
+        tries = DIFFICULTY[d];
+      } else if (extra) {
+        tries = { min: 0, max: Infinity };
+      }
       const level = makeLevel(theme, n, s, rules, null, { tries, timeLimit });
       raw = extra ? { ...encodeLevel(theme, level), extra: true } : { ...encodeLevel(theme, level), group: g };
     } catch { /* none found in time */ }
