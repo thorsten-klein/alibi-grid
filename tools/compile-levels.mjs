@@ -34,15 +34,16 @@ export function readCampaigns() {
 export function compileLevels(campaigns = readCampaigns()) {
   const lines = ['// Made from levels/. Do not edit by hand.', 'export const CAMPAIGNS = ['];
   for (const c of campaigns) {
-    lines.push('  {');
-    lines.push(`    "theme": ${JSON.stringify(c.theme)},`);
-    lines.push('    "levels": [');
+    lines.push(
+      '  {',
+      `    "theme": ${JSON.stringify(c.theme)},`,
+      '    "levels": [',
+    );
     for (let i = 0; i < c.levels.length; i++) {
       const comma = i === c.levels.length - 1 ? '' : ',';
       lines.push(`      ${JSON.stringify(c.levels[i])}${comma}`);
     }
-    lines.push('    ]');
-    lines.push('  },');
+    lines.push('    ]', '  },');
   }
   lines.push('];\n');
   return lines.join('\n');
