@@ -7100,7 +7100,7 @@ const tradeById = id => TRADES.find(t => t.id === id);
 const SEA = { icon: '🌊' };
 const LAWFUL = { icon: '⭐', name: 'star room' };
 
-const makeRoles = list => Object.fromEntries('ABCDEFGHIJKV'.split('').map((k, i) => [k, list[i]]));
+const makeRoles = str => Object.fromEntries('ABCDEFGHIJKV'.split('').map((k, i) => [k, str.split(',')[i].split('/')]));
 
 const THEMES = [
   {
@@ -7122,12 +7122,7 @@ const THEMES = [
       plant: { icon: "🪴", name: "plant" },
       clock: { icon: "🕰️", name: "grandfather clock" },
     },
-    roles: makeRoles([
-      ["author", "architect"], ["butler", "banker"], ["cook", "colonel"],
-      ["doctor", "dealer"], ["editor", "envoy"], ["florist", "footman"],
-      ["gardener", "guest"], ["heir", "housekeeper"], ["illustrator", "inspector"],
-      ["jeweller", "judge"], ["knitter", "keeper"], ["valet", "vicar"],
-    ]),
+    roles: makeRoles('author/architect,butler/banker,cook/colonel,doctor/dealer,editor/envoy,florist/footman,gardener/guest,heir/housekeeper,illustrator/inspector,jeweller/judge,knitter/keeper,valet/vicar'),
   },
   {
     id: 'train',
@@ -7148,12 +7143,7 @@ const THEMES = [
       lamp: { icon: "🏮", name: "lantern" },
       wine: { icon: "🍷", name: "wine rack" },
     },
-    roles: makeRoles([
-      ["attendant", "accordionist"], ["bookseller", "banker"], ["courier", "conductor"],
-      ["diplomat", "dentist"], ["engineer", "envoy"], ["fiddler", "firefighter"],
-      ["guard", "governor"], ["hairdresser", "hatter"], ["inspector", "importer"],
-      ["journalist", "jockey"], ["knife grinder", "kitchen hand"], ["violinist", "vendor"],
-    ]),
+    roles: makeRoles('attendant/accordionist,bookseller/banker,courier/conductor,diplomat/dentist,engineer/envoy,fiddler/firefighter,guard/governor,hairdresser/hatter,inspector/importer,journalist/jockey,knife grinder/kitchen hand,violinist/vendor'),
   },
   {
     id: 'space',
@@ -7174,12 +7164,7 @@ const THEMES = [
       plant: { icon: "🌱", name: "plant tray" },
       tank: { icon: "🛢️", name: "fuel tank" },
     },
-    roles: makeRoles([
-      ["astronaut", "analyst"], ["biologist", "botanist"], ["chemist", "captain"],
-      ["doctor", "driller"], ["engineer", "electrician"], ["farmer", "flight officer"],
-      ["geologist", "gunner"], ["hacker", "hull technician"], ["instructor", "intern"],
-      ["janitor", "journalist"], ["keeper", "kitchen chief"], ["volunteer", "visitor"],
-    ]),
+    roles: makeRoles('astronaut/analyst,biologist/botanist,chemist/captain,doctor/driller,engineer/electrician,farmer/flight officer,geologist/gunner,hacker/hull technician,instructor/intern,janitor/journalist,keeper/kitchen chief,volunteer/visitor'),
   },
   {
     id: 'theater',
@@ -7200,12 +7185,7 @@ const THEMES = [
       rack: { icon: "👗", name: "costume rack" },
       light: { icon: "💡", name: "spotlight" },
     },
-    roles: makeRoles([
-      ["author", "agent"], ["baritone", "bass player"], ["critic", "choreographer"],
-      ["director", "dancer"], ["electrician", "extra"], ["flautist", "fan"],
-      ["guitarist", "ghost writer"], ["hairdresser", "harpist"], ["impresario", "illusionist"],
-      ["juggler", "jester"], ["keyboardist", "kettle drummer"], ["violinist", "ventriloquist"],
-    ]),
+    roles: makeRoles('author/agent,baritone/bass player,critic/choreographer,director/dancer,electrician/extra,flautist/fan,guitarist/ghost writer,hairdresser/harpist,impresario/illusionist,juggler/jester,keyboardist/kettle drummer,violinist/ventriloquist'),
   },
   {
     id: 'lodge',
@@ -7226,12 +7206,7 @@ const THEMES = [
       tree: { icon: "🌲", name: "pine tree" },
       wood: { icon: "🪵", name: "woodpile" },
     },
-    roles: makeRoles([
-      ["athlete", "avalanche guard"], ["bartender", "baker"], ["cook", "climber"],
-      ["doctor", "driver"], ["explorer", "engineer"], ["forester", "fisher"],
-      ["guide", "glacier expert"], ["hotelier", "hiker"], ["instructor", "ice climber"],
-      ["journalist", "jogger"], ["kayaker", "knitter"], ["vet", "vlogger"],
-    ]),
+    roles: makeRoles('athlete/avalanche guard,bartender/baker,cook/climber,doctor/driver,explorer/engineer,forester/fisher,guide/glacier expert,hotelier/hiker,instructor/ice climber,journalist/jogger,kayaker/knitter,vet/vlogger'),
   },
   {
     id: 'castle',
@@ -7253,12 +7228,7 @@ const THEMES = [
       swords: { icon: "🗡️", name: "weapon rack" },
       urn: { icon: "🏺", name: "urn" },
     },
-    roles: makeRoles([
-      ["archer", "alchemist"], ["baker", "bard"], ["cupbearer", "chronicler"],
-      ["dancer", "doorkeeper"], ["envoy", "embroiderer"], ["falconer", "farrier"],
-      ["groom", "glassmaker"], ["herbalist", "herald"], ["innkeeper", "illuminator"],
-      ["jester", "juggler"], ["kennel keeper", "keykeeper"], ["vintner", "verger"],
-    ]),
+    roles: makeRoles('archer/alchemist,baker/bard,cupbearer/chronicler,dancer/doorkeeper,envoy/embroiderer,falconer/farrier,groom/glassmaker,herbalist/herald,innkeeper/illuminator,jester/juggler,kennel keeper/keykeeper,vintner/verger'),
   },
   {
     id: 'tomb',
@@ -7280,12 +7250,7 @@ const THEMES = [
       rubble: { icon: "🪨", name: "pile of rubble" },
       jar: { icon: "🏺", name: "jar" },
     },
-    roles: makeRoles([
-      ["architect", "astrologer"], ["brewer", "boat builder"], ["chanter", "carpenter"],
-      ["diviner", "dancer"], ["embalmer", "envoy"], ["fanbearer", "fisher"],
-      ["guard", "goldsmith"], ["harpist", "herder"], ["inspector", "incense maker"],
-      ["jeweller", "juggler"], ["keeper", "kohl maker"], ["vizier", "vintner"],
-    ]),
+    roles: makeRoles('architect/astrologer,brewer/boat builder,chanter/carpenter,diviner/dancer,embalmer/envoy,fanbearer/fisher,guard/goldsmith,harpist/herder,inspector/incense maker,jeweller/juggler,keeper/kohl maker,vizier/vintner'),
   },
   {
     id: 'camp',
@@ -7307,12 +7272,7 @@ const THEMES = [
       tree: { icon: "🌳", name: "tree" },
       bones: { icon: "🦴", name: "pile of bones" },
     },
-    roles: makeRoles([
-      ["artist", "acrobat"], ["builder", "beekeeper"], ["carrier", "carver"],
-      ["drummer", "dancer"], ["elder", "elk tamer"], ["firekeeper", "flute player"],
-      ["guard", "grinder"], ["hornblower", "hide tanner"], ["ice cutter", "idol carver"],
-      ["joker", "jumper"], ["keeper", "knot tier"], ["visionary", "valley guide"],
-    ]),
+    roles: makeRoles('artist/acrobat,builder/beekeeper,carrier/carver,drummer/dancer,elder/elk tamer,firekeeper/flute player,guard/grinder,hornblower/hide tanner,ice cutter/idol carver,joker/jumper,keeper/knot tier,visionary/valley guide'),
   },
   {
     id: 'gulch',
@@ -7334,12 +7294,7 @@ const THEMES = [
       piano: { icon: "🎹", name: "piano" },
       horse: { icon: "🐎", name: "horse" },
     },
-    roles: makeRoles([
-      ["auctioneer", "attorney"], ["banker", "blacksmith"], ["cattle driver", "cook"],
-      ["dancer", "deputy"], ["editor", "engineer"], ["farrier", "farmer"],
-      ["gambler", "gunsmith"], ["hatmaker", "homesteader"], ["innkeeper", "inventor"],
-      ["jailer", "judge"], ["knife thrower", "keg maker"], ["vet", "vaquero"],
-    ]),
+    roles: makeRoles('auctioneer/attorney,banker/blacksmith,cattle driver/cook,dancer/deputy,editor/engineer,farrier/farmer,gambler/gunsmith,hatmaker/homesteader,innkeeper/inventor,jailer/judge,knife thrower/keg maker,vet/vaquero'),
   },
   {
     id: 'reef',
@@ -7362,12 +7317,7 @@ const THEMES = [
       map: { icon: "🗺️", name: "map table" },
       cannon: { icon: "💣", name: "pile of cannonballs" },
     },
-    roles: makeRoles([
-      ["armorer", "admiral"], ["boatswain", "barkeep"], ["captain", "cook"],
-      ["deckhand", "diver"], ["explorer", "engineer"], ["first mate", "fiddler"],
-      ["gunner", "gold digger"], ["harbor pilot", "harpooner"], ["islander", "island guide"],
-      ["jailbird", "jeweller"], ["knot maker", "kettle cook"], ["voyager", "vintner"],
-    ]),
+    roles: makeRoles('armorer/admiral,boatswain/barkeep,captain/cook,deckhand/diver,explorer/engineer,first mate/fiddler,gunner/gold digger,harbor pilot/harpooner,islander/island guide,jailbird/jeweller,knot maker/kettle cook,voyager/vintner'),
   },
   {
     id: 'rift',
@@ -7400,12 +7350,7 @@ const THEMES = [
       boulder: { icon: "🪨", name: "boulder" },
       clock: { icon: "🕰️", name: "clock" },
     },
-    roles: makeRoles([
-      ["archivist", "astronomer"], ["bard", "bookbinder"], ["chronicler", "clockmaker"],
-      ["drifter", "dreamer"], ["engineer", "explorer"], ["fortune teller", "falconer"],
-      ["gladiator", "guardian"], ["historian", "herald"], ["inventor", "illusionist"],
-      ["jester", "juggler"], ["keeper", "kite maker"], ["voyager", "visionary"],
-    ]),
+    roles: makeRoles('archivist/astronomer,bard/bookbinder,chronicler/clockmaker,drifter/dreamer,engineer/explorer,fortune teller/falconer,gladiator/guardian,historian/herald,inventor/illusionist,jester/juggler,keeper/kite maker,voyager/visionary'),
   },
   {
     id: 'farm',
@@ -7426,12 +7371,7 @@ const THEMES = [
       churn: { icon: "🥛", name: "milk churn" },
       anvil: { icon: "🔨", name: "anvil" },
     },
-    roles: makeRoles([
-      ["apple picker", "agronomist"], ["beekeeper", "barn hand"], ["cattle rancher", "cider presser"],
-      ["dairy maid", "ditcher"], ["equipment operator", "entomologist"], ["farmer", "farrier"],
-      ["grain miller", "greenhouse tender"], ["harvester", "horse trainer"], ["inspector", "irrigation worker"],
-      ["jam maker", "jumper trainer"], ["kennel master", "knife sharpener"], ["vineyard leaseholder", "veterinarian"],
-    ]),
+    roles: makeRoles('apple picker/agronomist,beekeeper/barn hand,cattle rancher/cider presser,dairy maid/ditcher,equipment operator/entomologist,farmer/farrier,grain miller/greenhouse tender,harvester/horse trainer,inspector/irrigation worker,jam maker/jumper trainer,kennel master/knife sharpener,vineyard leaseholder/veterinarian'),
   },
   {
     id: 'atoll',
@@ -7452,12 +7392,7 @@ const THEMES = [
       jetski: { icon: "🚤", name: "jet ski" },
       cart: { icon: "🍹", name: "cocktail cart" },
     },
-    roles: makeRoles([
-      ["activities director", "animator"], ["bartender", "boat captain"], ["concierge", "chef"],
-      ["divemaster", "disc jockey"], ["excursion guide", "entertainer"], ["fitness coach", "fire dancer"],
-      ["guest of honor", "golf pro"], ["hotel manager", "housekeeper"], ["island pilot", "instructor"],
-      ["jet ski renter", "jeweller"], ["kayak instructor", "kitchen hand"], ["vacationer", "vip influencer"],
-    ]),
+    roles: makeRoles('activities director/animator,bartender/boat captain,concierge/chef,divemaster/disc jockey,excursion guide/entertainer,fitness coach/fire dancer,guest of honor/golf pro,hotel manager/housekeeper,island pilot/instructor,jet ski renter/jeweller,kayak instructor/kitchen hand,vacationer/vip influencer'),
   },
   {
     id: 'speakeasy',
@@ -7478,12 +7413,7 @@ const THEMES = [
       roulette: { icon: "🎰", name: "roulette table" },
       safe: { icon: "🗄️", name: "iron safe" },
     },
-    roles: makeRoles([
-      ["accordionist", "attorney"], ["bartender", "bootlegger"], ["crooner", "card sharp"],
-      ["drummer", "distiller"], ["enforcer", "emcee"], ["flapper", "forger"],
-      ["gangster", "gun runner"], ["horn player", "hat check girl"], ["informant", "inspector"],
-      ["jazz pianist", "journalist"], ["kingpin", "key keeper"], ["voice of syndicate", "valued patron"],
-    ]),
+    roles: makeRoles('accordionist/attorney,bartender/bootlegger,crooner/card sharp,drummer/distiller,enforcer/emcee,flapper/forger,gangster/gun runner,horn player/hat check girl,informant/inspector,jazz pianist/journalist,kingpin/key keeper,voice of syndicate/valued patron'),
   },
   {
     id: 'circus',
@@ -7504,12 +7434,7 @@ const THEMES = [
       trunk: { icon: "🎪", name: "juggling trunk" },
       crystal: { icon: "🔮", name: "crystal ball table" },
     },
-    roles: makeRoles([
-      ["acrobat", "animal tamer"], ["barker", "balloon artist"], ["clown", "contortionist"],
-      ["daredevil", "drummer"], ["escape artist", "electrician"], ["fire eater", "fortune teller"],
-      ["giant", "gymnast"], ["hypnotist", "horse trickster"], ["illusionist", "iron jaw"],
-      ["juggler", "jester"], ["knife thrower", "key holder"], ["ventriloquist", "veteran ringmaster"],
-    ]),
+    roles: makeRoles('acrobat/animal tamer,barker/balloon artist,clown/contortionist,daredevil/drummer,escape artist/electrician,fire eater/fortune teller,giant/gymnast,hypnotist/horse trickster,illusionist/iron jaw,juggler/jester,knife thrower/key holder,ventriloquist/veteran ringmaster'),
   },
   {
     id: 'liner',
@@ -7530,12 +7455,7 @@ const THEMES = [
       telegraph: { icon: "🧭", name: "ship telegraph" },
       luggage: { icon: "🧳", name: "luggage stack" },
     },
-    roles: makeRoles([
-      ["admiral", "aristocrat"], ["boatswain", "bartender"], ["captain", "chief engineer"],
-      ["deckhand", "doctor"], ["electrician", "envoy"], ["first mate", "fireman"],
-      ["guest of honor", "governess"], ["helmsman", "heiress"], ["immigrant", "inspector"],
-      ["journalist", "jeweller"], ["kitchen chief", "kettle tender"], ["voyage sponsor", "valet"],
-    ]),
+    roles: makeRoles('admiral/aristocrat,boatswain/bartender,captain/chief engineer,deckhand/doctor,electrician/envoy,first mate/fireman,guest of honor/governess,helmsman/heiress,immigrant/inspector,journalist/jeweller,kitchen chief/kettle tender,voyage sponsor/valet'),
   },
   {
     id: 'studio',
@@ -7556,12 +7476,7 @@ const THEMES = [
       trunk: { icon: "👗", name: "costume trunk" },
       light: { icon: "💡", name: "spotlight tower" },
     },
-    roles: makeRoles([
-      ["actor", "assistant director"], ["boom operator", "body double"], ["cinematographer", "choreographer"],
-      ["director", "diva"], ["editor", "extra"], ["focus puller", "fashion designer"],
-      ["grip", "gaffer"], ["hairdresser", "headliner"], ["ingenue", "intimacy coordinator"],
-      ["journalist", "juvenile lead"], ["key grip", "kitchen caterer"], ["voice actor", "veteran producer"],
-    ]),
+    roles: makeRoles('actor/assistant director,boom operator/body double,cinematographer/choreographer,director/diva,editor/extra,focus puller/fashion designer,grip/gaffer,hairdresser/headliner,ingenue/intimacy coordinator,journalist/juvenile lead,key grip/kitchen caterer,voice actor/veteran producer'),
   },
   {
     id: 'museum',
@@ -7582,12 +7497,7 @@ const THEMES = [
       display: { icon: "💎", name: "display case" },
       turnstile: { icon: "🚧", name: "turnstile" },
     },
-    roles: makeRoles([
-      ["archaeologist", "archivist"], ["benefactor", "bookkeeper"], ["curator", "conservator"],
-      ["director", "docent"], ["egyptologist", "evaluator"], ["forger", "floor warden"],
-      ["guard", "goldsmith"], ["historian", "heist mastermind"], ["intern", "iconographer"],
-      ["janitor", "jeweller"], ["key master", "keepsake seller"], ["valuer", "visiting donor"],
-    ]),
+    roles: makeRoles('archaeologist/archivist,benefactor/bookkeeper,curator/conservator,director/docent,egyptologist/evaluator,forger/floor warden,guard/goldsmith,historian/heist mastermind,intern/iconographer,janitor/jeweller,key master/keepsake seller,valuer/visiting donor'),
   },
   {
     id: 'vineyard',
@@ -7608,12 +7518,7 @@ const THEMES = [
       rack: { icon: "🍷", name: "bottle rack" },
       still: { icon: "🛢️", name: "copper still" },
     },
-    roles: makeRoles([
-      ["agronomist", "apprentice"], ["barrel cooper", "bottler"], ["cellar master", "cook"],
-      ["distributor", "driver"], ["estate manager", "enologist"], ["field laborer", "fermenter"],
-      ["grape picker", "groundskeeper"], ["harvest coordinator", "hostess"], ["importer", "inspector"],
-      ["jug filler", "journalist"], ["kitchen chief", "keg cooper"], ["vintner", "vineyard owner"],
-    ]),
+    roles: makeRoles('agronomist/apprentice,barrel cooper/bottler,cellar master/cook,distributor/driver,estate manager/enologist,field laborer/fermenter,grape picker/groundskeeper,harvest coordinator/hostess,importer/inspector,jug filler/journalist,kitchen chief/keg cooper,vintner/vineyard owner'),
   },
   {
     id: 'sanatorium',
@@ -7634,12 +7539,7 @@ const THEMES = [
       xray: { icon: "☢️", name: "x-ray machine" },
       archive: { icon: "🗄️", name: "filing cabinet" },
     },
-    roles: makeRoles([
-      ["anesthetist", "attendant"], ["biochemist", "bacteriologist"], ["chief surgeon", "caregiver"],
-      ["doctor", "dentist"], ["epidemiologist", "examiner"], ["first responder", "forensic pathologist"],
-      ["groundskeeper", "gerontologist"], ["head nurse", "hospitalier"], ["intern", "inspector"],
-      ["janitor", "journalist"], ["kinship visitor", "kitchen aide"], ["victim of illness", "visiting superintendent"],
-    ]),
+    roles: makeRoles('anesthetist/attendant,biochemist/bacteriologist,chief surgeon/caregiver,doctor/dentist,epidemiologist/examiner,first responder/forensic pathologist,groundskeeper/gerontologist,head nurse/hospitalier,intern/inspector,janitor/journalist,kinship visitor/kitchen aide,victim of illness/visiting superintendent'),
   },
   {
     id: 'casino',
@@ -7660,12 +7560,7 @@ const THEMES = [
       safe: { icon: "💰", name: "cash safe" },
       table: { icon: "🃏", name: "card table" },
     },
-    roles: makeRoles([
-      ["accountant", "armored driver"], ["baccarat dealer", "bartender"], ["croupier", "casino manager"],
-      ["dice inspector", "dancer"], ["entertainer", "electrician"], ["floor manager", "fixer"],
-      ["gambler", "guard"], ["high roller", "hostess"], ["investigator", "illusionist"],
-      ["janitor", "jockey"], ["kitchen hand", "key holder"], ["vip gambler", "vegas mogul"],
-    ]),
+    roles: makeRoles('accountant/armored driver,baccarat dealer/bartender,croupier/casino manager,dice inspector/dancer,entertainer/electrician,floor manager/fixer,gambler/guard,high roller/hostess,investigator/illusionist,janitor/jockey,kitchen hand/key holder,vip gambler/vegas mogul'),
   },
   {
     id: 'biolab',
@@ -7686,12 +7581,7 @@ const THEMES = [
       centrifuge: { icon: "🌀", name: "centrifuge" },
       rack: { icon: "🖥️", name: "server rack" },
     },
-    roles: makeRoles([
-      ["analyst", "algorithm engineer"], ["biochemist", "bioethicist"], ["chief scientist", "cryo technician"],
-      ["dna sequencer", "data architect"], ["epidemiologist", "ecologist"], ["facility director", "forensic chemist"],
-      ["geneticist", "guard"], ["hazard responder", "hardware tech"], ["intern", "immunologist"],
-      ["janitor", "junior researcher"], ["keycard admin", "kinetic specialist"], ["virology head", "venture backer"],
-    ]),
+    roles: makeRoles('analyst/algorithm engineer,biochemist/bioethicist,chief scientist/cryo technician,dna sequencer/data architect,epidemiologist/ecologist,facility director/forensic chemist,geneticist/guard,hazard responder/hardware tech,intern/immunologist,janitor/junior researcher,keycard admin/kinetic specialist,virology head/venture backer'),
   },
   {
     id: 'pier',
@@ -7712,12 +7602,7 @@ const THEMES = [
       automaton: { icon: "🔮", name: "fortune automaton" },
       generator: { icon: "⚙️", name: "broken generator" },
     },
-    roles: makeRoles([
-      ["arcade repairman", "antiquarian"], ["boardwalk walker", "barker"], ["caretaker", "cotton candy vendor"],
-      ["drifter", "daredevil"], ["electrician", "urban explorer"], ["fortune teller", "fisherman"],
-      ["ghost hunter", "groundskeeper"], ["historian", "hobo"], ["investigator", "insurer"],
-      ["juggler", "junk dealer"], ["key keeper", "kayaker"], ["vagrant", "venture developer"],
-    ]),
+    roles: makeRoles('arcade repairman/antiquarian,boardwalk walker/barker,caretaker/cotton candy vendor,drifter/daredevil,electrician/urban explorer,fortune teller/fisherman,ghost hunter/groundskeeper,historian/hobo,investigator/insurer,juggler/junk dealer,key keeper/kayaker,vagrant/venture developer'),
   },
   {
     id: 'sub',
@@ -7738,12 +7623,7 @@ const THEMES = [
       valve: { icon: "⚙️", name: "pressure valve" },
       freezer: { icon: "🧊", name: "specimen freezer" },
     },
-    roles: makeRoles([
-      ["aquanaut", "acoustic analyst"], ["bathymetry tech", "biologist"], ["captain", "chief diver"],
-      ["drill operator", "doctor"], ["electrical engineer", "environmentalist"], ["first officer", "flight pilot"],
-      ["geochemist", "gyro tech"], ["hydrophone operator", "helmsman"], ["instrument tech", "intern"],
-      ["junior officer", "journeyman"], ["kitchen chief", "kinetic engineer"], ["vessel designer", "vip expedition funder"],
-    ]),
+    roles: makeRoles('aquanaut/acoustic analyst,bathymetry tech/biologist,captain/chief diver,drill operator/doctor,electrical engineer/environmentalist,first officer/flight pilot,geochemist/gyro tech,hydrophone operator/helmsman,instrument tech/intern,junior officer/journeyman,kitchen chief/kinetic engineer,vessel designer/vip expedition funder'),
   },
   {
     id: 'paddock',
@@ -7764,12 +7644,7 @@ const THEMES = [
       fuelrig: { icon: "⛽", name: "fuel rig" },
       toolbox: { icon: "🧰", name: "tool cabinet" },
     },
-    roles: makeRoles([
-      ["aerodynamicist", "apprentice"], ["brake tech", "broadcast commentator"], ["chief mechanic", "crew chief"],
-      ["driver", "data telemetry lead"], ["engine tuner", "electrician"], ["fuel specialist", "flag marshal"],
-      ["gearbox tech", "grid coordinator"], ["head of team", "hospitality host"], ["inspector", "international steward"],
-      ["journalist", "jack operator"], ["karting prodigy", "kitchen chef"], ["veteran champion", "vip team owner"],
-    ]),
+    roles: makeRoles('aerodynamicist/apprentice,brake tech/broadcast commentator,chief mechanic/crew chief,driver/data telemetry lead,engine tuner/electrician,fuel specialist/flag marshal,gearbox tech/grid coordinator,head of team/hospitality host,inspector/international steward,journalist/jack operator,karting prodigy/kitchen chef,veteran champion/vip team owner'),
   },
   {
     id: 'kitchen',
@@ -7790,12 +7665,7 @@ const THEMES = [
       espresso: { icon: "☕", name: "espresso machine" },
       fridge: { icon: "🧊", name: "industrial fridge" },
     },
-    roles: makeRoles([
-      ["apprentice chef", "appetizer cook"], ["baker", "butcher"], ["chef de cuisine", "chocolatier"],
-      ["dishwasher", "dessert chef"], ["expediter", "executive chef"], ["fishmonger", "fromager"],
-      ["garde manger", "grill cook"], ["host", "head sommelier"], ["inspector", "inventory manager"],
-      ["junior cook", "jam maker"], ["kitchen porter", "knife sharpener"], ["vip dining critic", "veteran restaurateur"],
-    ]),
+    roles: makeRoles('apprentice chef/appetizer cook,baker/butcher,chef de cuisine/chocolatier,dishwasher/dessert chef,expediter/executive chef,fishmonger/fromager,garde manger/grill cook,host/head sommelier,inspector/inventory manager,junior cook/jam maker,kitchen porter/knife sharpener,vip dining critic/veteran restaurateur'),
   },
   {
     id: 'abbey',
@@ -7816,12 +7686,7 @@ const THEMES = [
       reliquary: { icon: "🏺", name: "reliquary" },
       bellrope: { icon: "🔔", name: "bell rope" },
     },
-    roles: makeRoles([
-      ["abbot", "almoner"], ["bellringer", "brewer"], ["cellarer", "cantor"],
-      ["doorkeeper", "document copyist"], ["exorcist", "elder brother"], ["forester", "friar"],
-      ["gardener", "glass painter"], ["herbalist", "hospitaler"], ["illuminator", "inquisitor"],
-      ["journeyman mason", "junior novice"], ["kitchener", "keeper of keys"], ["visiting cardinal", "vicar general"],
-    ]),
+    roles: makeRoles('abbot/almoner,bellringer/brewer,cellarer/cantor,doorkeeper/document copyist,exorcist/elder brother,forester/friar,gardener/glass painter,herbalist/hospitaler,illuminator/inquisitor,journeyman mason/junior novice,kitchener/keeper of keys,visiting cardinal/vicar general'),
   },
   {
     id: 'campground',
@@ -7842,12 +7707,7 @@ const THEMES = [
       fire: { icon: "🔥", name: "fire ring" },
       board: { icon: "📋", name: "bulletin board" },
     },
-    roles: makeRoles([
-      ["archery instructor", "arts counselor"], ["boating coach", "bugler"], ["camp counselor", "cook"],
-      ["drama coach", "director"], ["ecology guide", "eagle scout"], ["fisher", "first aid counselor"],
-      ["groundskeeper", "guitar player"], ["head counselor", "hiker"], ["instructor", "intern"],
-      ["junior counselor", "jumper"], ["kayak guide", "kitchen helper"], ["veteran camp owner", "visitor"],
-    ]),
+    roles: makeRoles('archery instructor/arts counselor,boating coach/bugler,camp counselor/cook,drama coach/director,ecology guide/eagle scout,fisher/first aid counselor,groundskeeper/guitar player,head counselor/hiker,instructor/intern,junior counselor/jumper,kayak guide/kitchen helper,veteran camp owner/visitor'),
   },
   {
     id: 'mars',
@@ -7868,12 +7728,7 @@ const THEMES = [
       drill: { icon: "⚙️", name: "rock drill" },
       tower: { icon: "🌱", name: "hydroponic tower" },
     },
-    roles: makeRoles([
-      ["astrobiologist", "agronomist"], ["botanist", "biosphere tech"], ["commander", "chemist"],
-      ["drill operator", "doctor"], ["environmental engineer", "electrician"], ["flight specialist", "farmer"],
-      ["geologist", "ground controller"], ["habitat architect", "hydroponics chief"], ["it specialist", "instrument mechanic"],
-      ["janitor", "junior colonist"], ["kinetic operator", "kitchen hand"], ["venture sponsor", "visiting inspector"],
-    ]),
+    roles: makeRoles('astrobiologist/agronomist,botanist/biosphere tech,commander/chemist,drill operator/doctor,environmental engineer/electrician,flight specialist/farmer,geologist/ground controller,habitat architect/hydroponics chief,it specialist/instrument mechanic,janitor/junior colonist,kinetic operator/kitchen hand,venture sponsor/visiting inspector'),
   },
   {
     id: 'london',
@@ -7894,12 +7749,7 @@ const THEMES = [
       fireplace: { icon: "🔥", name: "chimney hearth" },
       kiosk: { icon: "📰", name: "news kiosk" },
     },
-    roles: makeRoles([
-      ["apothecary", "aristocrat"], ["blackmailer", "bowler hat seller"], ["constable", "chimney sweep"],
-      ["detective", "doctor"], ["engraver", "errand boy"], ["forger", "fishmonger"],
-      ["gentlemen valet", "grave robber"], ["hansom cabbie", "hawker"], ["informer", "inspector"],
-      ["jeweller", "journalist"], ["knife sharpener", "keg tapster"], ["victim of nobility", "vagabond"],
-    ]),
+    roles: makeRoles('apothecary/aristocrat,blackmailer/bowler hat seller,constable/chimney sweep,detective/doctor,engraver/errand boy,forger/fishmonger,gentlemen valet/grave robber,hansom cabbie/hawker,informer/inspector,jeweller/journalist,knife sharpener/keg tapster,victim of nobility/vagabond'),
   },
   {
     id: 'market',
@@ -7920,12 +7770,7 @@ const THEMES = [
       gong: { icon: "🔔", name: "gong stand" },
       teacart: { icon: "🍵", name: "tea cart" },
     },
-    roles: makeRoles([
-      ["acrobat", "astrologer"], ["boatman", "bamboo carver"], ["calligrapher", "cook"],
-      ["drummer", "dancer"], ["embroiderer", "elder"], ["firework master", "fan painter"],
-      ["gong striker", "guard"], ["herbalist", "harbor guide"], ["instrument maker", "imperial envoy"],
-      ["jade carver", "juggler"], ["kite maker", "kitchen cook"], ["village magistrate", "visiting noble"],
-    ]),
+    roles: makeRoles('acrobat/astrologer,boatman/bamboo carver,calligrapher/cook,drummer/dancer,embroiderer/elder,firework master/fan painter,gong striker/guard,herbalist/harbor guide,instrument maker/imperial envoy,jade carver/juggler,kite maker/kitchen cook,village magistrate/visiting noble'),
   },
   {
     id: 'venice',
@@ -7946,12 +7791,7 @@ const THEMES = [
       fountain: { icon: "⛲", name: "marble fountain" },
       maskstand: { icon: "🎭", name: "mask display" },
     },
-    roles: makeRoles([
-      ["aristocrat", "alchemist"], ["barcarolle singer", "boat builder"], ["courtesan", "carnival poet"],
-      ["doge", "diplomat"], ["envoy", "embroiderer"], ["fencing master", "falconer"],
-      ["gondolier", "goldsmith"], ["harlequin", "herald"], ["inquisitor", "illusionist"],
-      ["jester", "jeweller"], ["knight of malta", "key master"], ["venetian senator", "visiting merchant"],
-    ]),
+    roles: makeRoles('aristocrat/alchemist,barcarolle singer/boat builder,courtesan/carnival poet,doge/diplomat,envoy/embroiderer,fencing master/falconer,gondolier/goldsmith,harlequin/herald,inquisitor/illusionist,jester/jeweller,knight of malta/key master,venetian senator/visiting merchant'),
   },
   {
     id: 'mine',
@@ -7972,12 +7812,7 @@ const THEMES = [
       dynamite: { icon: "🧨", name: "dynamite crate" },
       drill: { icon: "⛏️", name: "rock drill" },
     },
-    roles: makeRoles([
-      ["assayer", "axeman"], ["blacksmith", "blaster"], ["cart driver", "carpenter"],
-      ["driller", "dynamite handler"], ["engineer", "hoist operator"], ["foreman", "farrier"],
-      ["geologist", "gold panner"], ["hoistman", "healer"], ["inspector", "iron worker"],
-      ["jackhammer man", "junior skinner"], ["keg maker", "kitchen cook"], ["vein claimant", "venture capitalist"],
-    ]),
+    roles: makeRoles('assayer/axeman,blacksmith/blaster,cart driver/carpenter,driller/dynamite handler,engineer/hoist operator,foreman/farrier,geologist/gold panner,hoistman/healer,inspector/iron worker,jackhammer man/junior skinner,keg maker/kitchen cook,vein claimant/venture capitalist'),
   },
   {
     id: 'funicular',
@@ -7998,12 +7833,7 @@ const THEMES = [
       generator: { icon: "🛢️", name: "generator unit" },
       luggage: { icon: "🧳", name: "luggage cart" },
     },
-    roles: makeRoles([
-      ["avalanche controller", "alpine guide"], ["brake operator", "billeter"], ["conductor", "cable splicer"],
-      ["dispatcher", "doctor"], ["electrical engineer", "excursionist"], ["funicular driver", "first aider"],
-      ["glaciologist", "gearbox tech"], ["hotelier", "hiker"], ["inspector", "instructor"],
-      ["journalist", "junior patrol"], ["kitchen cook", "knot rigger"], ["veteran mountaineer", "visiting vip"],
-    ]),
+    roles: makeRoles('avalanche controller/alpine guide,brake operator/billeter,conductor/cable splicer,dispatcher/doctor,electrical engineer/excursionist,funicular driver/first aider,glaciologist/gearbox tech,hotelier/hiker,inspector/instructor,journalist/junior patrol,kitchen cook/knot rigger,veteran mountaineer/visiting vip'),
   },
   {
     id: 'library',
@@ -8024,12 +7854,7 @@ const THEMES = [
       bust: { icon: "🗿", name: "marble bust" },
       burner: { icon: "🏺", name: "incense burner" },
     },
-    roles: makeRoles([
-      ["astronomer", "archivist"], ["botanist", "bookbinder"], ["chronicler", "cartographer"],
-      ["dialectician", "doctor"], ["epigrapher", "educator"], ["folklorist", "fanbearer"],
-      ["grammarian", "geometer"], ["historian", "herbalist"], ["illuminator", "interpreter"],
-      ["jurist", "junior scribe"], ["keeper of scrolls", "knot reader"], ["visiting philosopher", "veteran sage"],
-    ]),
+    roles: makeRoles('astronomer/archivist,botanist/bookbinder,chronicler/cartographer,dialectician/doctor,epigrapher/educator,folklorist/fanbearer,grammarian/geometer,historian/herbalist,illuminator/interpreter,jurist/junior scribe,keeper of scrolls/knot reader,visiting philosopher/veteran sage'),
   },
   {
     id: 'festival',
@@ -8050,12 +7875,7 @@ const THEMES = [
       roadcase: { icon: "📦", name: "road case" },
       lighttower: { icon: "💡", name: "light tower" },
     },
-    roles: makeRoles([
-      ["audio engineer", "artist agent"], ["bass player", "bodyguard"], ["crew chief", "cameraman"],
-      ["drummer", "disc jockey"], ["electrician", "event producer"], ["frontman", "fan president"],
-      ["guitarist", "groupie coordinator"], ["headliner", "head of security"], ["instrument tech", "influencer"],
-      ["journalist", "junior stagehand"], ["keyboardist", "key grip"], ["vip record exec", "vocal coach"],
-    ]),
+    roles: makeRoles('audio engineer/artist agent,bass player/bodyguard,crew chief/cameraman,drummer/disc jockey,electrician/event producer,frontman/fan president,guitarist/groupie coordinator,headliner/head of security,instrument tech/influencer,journalist/junior stagehand,keyboardist/key grip,vip record exec/vocal coach'),
   },
   {
     id: 'shogunate',
@@ -8076,12 +7896,7 @@ const THEMES = [
       bonsai: { icon: "🪴", name: "bonsai table" },
       taiko: { icon: "🥁", name: "taiko drum" },
     },
-    roles: makeRoles([
-      ["archer", "artisan"], ["bushi warrior", "bowyer"], ["calligrapher", "cook"],
-      ["daimyo", "drummer"], ["envoy", "embroiderer"], ["falconer", "foot soldier"],
-      ["geisha", "guard"], ["hatamoto retainer", "herbalist"], ["inquisitor", "iron smith"],
-      ["jester", "junior samurai"], ["kendo master", "kitchen hand"], ["veteran general", "visiting monk"],
-    ]),
+    roles: makeRoles('archer/artisan,bushi warrior/bowyer,calligrapher/cook,daimyo/drummer,envoy/embroiderer,falconer/foot soldier,geisha/guard,hatamoto retainer/herbalist,inquisitor/iron smith,jester/junior samurai,kendo master/kitchen hand,veteran general/visiting monk'),
   },
   {
     id: 'airship',
@@ -8102,12 +7917,7 @@ const THEMES = [
       winch: { icon: "⚙️", name: "mooring winch" },
       luggage: { icon: "🧳", name: "luggage pile" },
     },
-    roles: makeRoles([
-      ["aeronaut", "aristocrat"], ["barman", "boatswain"], ["captain", "chief rigger"],
-      ["dirigible pilot", "doctor"], ["engine mechanic", "envoy"], ["first officer", "flight steward"],
-      ["gas bag inspector", "ground crew chief"], ["helmsman", "hostess"], ["instrument tech", "industrialist"],
-      ["journalist", "junior steward"], ["kitchen chef", "knot rigger"], ["vessel inventor", "vip diplomat"],
-    ]),
+    roles: makeRoles('aeronaut/aristocrat,barman/boatswain,captain/chief rigger,dirigible pilot/doctor,engine mechanic/envoy,first officer/flight steward,gas bag inspector/ground crew chief,helmsman/hostess,instrument tech/industrialist,journalist/junior steward,kitchen chef/knot rigger,vessel inventor/vip diplomat'),
   },
   {
     id: 'mall',
@@ -8128,12 +7938,7 @@ const THEMES = [
       gate: { icon: "🚧", name: "security gate" },
       mannequin: { icon: "👗", name: "clothing mannequin" },
     },
-    roles: makeRoles([
-      ["arcade manager", "aerobics instructor"], ["barista", "boutique clerk"], ["cinema projectionist", "cashier"],
-      ["department manager", "disc jockey"], ["escalator mechanic", "eyewear stylist"], ["fry cook", "fashionista"],
-      ["greeter", "guard"], ["hair stylist", "head of security"], ["ice cream scooper", "informant"],
-      ["janitor", "jewel kiosk seller"], ["key cutter", "kitchen hand"], ["veteran mall owner", "visiting store inspector"],
-    ]),
+    roles: makeRoles('arcade manager/aerobics instructor,barista/boutique clerk,cinema projectionist/cashier,department manager/disc jockey,escalator mechanic/eyewear stylist,fry cook/fashionista,greeter/guard,hair stylist/head of security,ice cream scooper/informant,janitor/jewel kiosk seller,key cutter/kitchen hand,veteran mall owner/visiting store inspector'),
   },
   {
     id: 'derby',
@@ -8154,12 +7959,7 @@ const THEMES = [
       board: { icon: "📊", name: "bookmaker board" },
       haystack: { icon: "🌾", name: "hay bale stack" },
     },
-    roles: makeRoles([
-      ["apprentice jockey", "aristocrat"], ["bookmaker", "breeder"], ["champion jockey", "clerk of scales"],
-      ["derby steward", "doper"], ["equine therapist", "owner envoy"], ["farrier", "form analyst"],
-      ["groom", "groundskeeper"], ["horse trainer", "head stableman"], ["inspector", "investor"],
-      ["jockey", "judge"], ["kennel master", "kitchen caterer"], ["veteran horse owner", "visiting royalty"],
-    ]),
+    roles: makeRoles('apprentice jockey/aristocrat,bookmaker/breeder,champion jockey/clerk of scales,derby steward/doper,equine therapist/owner envoy,farrier/form analyst,groom/groundskeeper,horse trainer/head stableman,inspector/investor,jockey/judge,kennel master/kitchen caterer,veteran horse owner/visiting royalty'),
   },
   {
     id: 'halloween',
@@ -8180,12 +7980,7 @@ const THEMES = [
       cauldron: { icon: "🍲", name: "cauldron" },
       web: { icon: "🕸️", name: "spider web" },
     },
-    roles: makeRoles([
-      ["astrologer", "actor"], ["black cat breeder", "baker"], ["costume designer", "candy maker"],
-      ["diviner", "decorator"], ["embalmer", "entertainer"], ["fortune teller", "florist"],
-      ["ghost enthusiast", "gravedigger"], ["haunted house host", "herbalist"], ["illusionist", "investigator"],
-      ["juggler", "jack-o-lantern carver"], ["keepsake collector", "key keeper"], ["veteran manor heir", "visiting storyteller"],
-    ]),
+    roles: makeRoles('astrologer/actor,black cat breeder/baker,costume designer/candy maker,diviner/decorator,embalmer/entertainer,fortune teller/florist,ghost enthusiast/gravedigger,haunted house host/herbalist,illusionist/investigator,juggler/jack-o-lantern carver,keepsake collector/key keeper,veteran manor heir/visiting storyteller'),
   },
 ];
 
