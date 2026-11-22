@@ -1,8 +1,8 @@
 // Run the tests with coverage and require 100%.
-// Run: npm run coverage                 everything here: unit, browser, merge
-//      node tests/coverage.mjs unit     unit tests (tests/unit) -> coverage/parts/unit
-//      node tests/coverage.mjs e2e 2/4  browser tests (tests/e2e), shard 2 of 4 -> coverage/parts/e2e-2
-//      node tests/coverage.mjs merge    one report from all parts in coverage/; fails below 100%
+// Run: npm run coverage                  everything here: unit, browser, merge
+//      node tests/coverage.mjs unit 2/4  unit tests (tests/unit), shard 2 of 4 -> coverage/parts/unit-2
+//      node tests/coverage.mjs e2e 2/4   browser tests (tests/e2e), shard 2 of 4 -> coverage/parts/e2e-2
+//      node tests/coverage.mjs merge     one report from all parts in coverage/; fails below 100%
 // The GitHub workflow runs the parts in parallel jobs and merges them at the end.
 // UNIT_ONLY=1 skips the browser tests (faster while writing unit tests).
 
@@ -14,11 +14,16 @@ import { coverageOptions } from './coverage-options.js';
 const run = (cmd, args, env = {}) => spawnSync(cmd, args, { stdio: 'inherit', env: { ...process.env, ...env } }).status ?? 1;
 const part = name => ({ ...coverageOptions, outputDir: `coverage/parts/${name}`, reports: ['raw'] });
 
-async function unit() {
-  const dir = 'coverage/parts/unit';
+async function unit(shard = '1/1') {
+  const name = shard === '1/1' || !shard ? 'unit' : `unit-${shard.split('/')[0]}`;
+  const dir = `coverage/parts/${name}`;
   rmSync(dir, { recursive: true, force: true });
-  const status = run(process.execPath, ['--test', 'tests/unit/*.test.js'], { NODE_V8_COVERAGE: `${dir}-v8` });
-  const report = new CoverageReport(part('unit'));
+  const status = run(
+    process.execPath,
+    ['--test', 'tests/unit/*.test.js'],
+    { NODE_V8_COVERAGE: `${dir}-v8`, TEST_SHARD: shard }
+  );
+  const report = new CoverageReport(part(name));
   await report.addFromDir(`${dir}-v8`);
   await report.generate();
   rmSync(`${dir}-v8`, { recursive: true, force: true });
@@ -46,7 +51,7 @@ async function merge() {
 
 const [cmd, arg] = process.argv.slice(2);
 let status;
-if (cmd === 'unit') status = await unit();
+if (cmd === 'unit') status = await unit(arg);
 else if (cmd === 'e2e') status = await e2e(arg);
 else if (cmd === 'merge') status = await merge();
 else {
