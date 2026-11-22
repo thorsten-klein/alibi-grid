@@ -1,122 +1,118 @@
 {
   "size": 6,
-  "rooms": "001111001111223333223333224444224444",
-  "objects": "......e................e...d......ef",
+  "rooms": "000011000011222211222211333444333444",
+  "objects": "ed..........a....d..a...f..f.ae..b..",
   "roomNames": [
-    "Ski Room",
+    "Suite",
     "Bar",
+    "Sauna",
     "Spa",
-    "Boot Room",
-    "Suite"
+    "Fireside Lounge"
   ],
   "people": [
-    "Astrid the avalanche guard",
-    "Bea the bartender",
-    "Carl the climber",
-    "Vivian the vlogger",
-    "Dexter the doctor",
-    "Edgar the explorer"
+    "Arthur the athlete",
+    "Bella the bartender",
+    "Cora the climber",
+    "Dmitri the driver",
+    "Edith the explorer",
+    "Viola the vet"
   ],
-  "victim": 3,
+  "victim": 5,
   "clues": [
     [
       0,
-      "row",
-      0
+      "next",
+      "fire"
     ],
     [
       1,
-      "col",
-      5
+      "next",
+      "tree"
     ],
     [
       2,
-      "col",
+      "same",
       3
     ],
     [
       3,
-      "row",
-      3
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door"
     ],
     [
       4,
-      "col",
-      1
+      "next",
+      "wood"
     ],
     [
       5,
-      "row",
-      5
+      "next",
+      "chair"
     ]
   ],
   "solution": [
-    4,
-    11,
-    15,
-    20,
-    25,
-    30
+    2,
+    6,
+    13,
+    21,
+    28,
+    35
   ],
   "doors": [
     [
-      7,
-      8
+      9,
+      10
     ],
     [
-      6,
-      12
+      9,
+      15
     ],
     [
-      8,
-      14
-    ],
-    [
-      13,
-      14
-    ],
-    [
-      31,
-      32
+      21,
+      22
     ],
     [
       23,
       29
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      32,
+      33
     ]
   ],
   "windows": [
     [
-      0,
+      12,
       "l"
     ],
     [
-      1,
-      "t"
-    ],
-    [
-      5,
+      17,
       "r"
     ],
     [
-      23,
-      "r"
-    ]
-  ],
-  "tries": 2,
-  "facts": [
-    [
-      "touch",
-      null,
-      3
+      32,
+      "b"
     ],
     [
-      "nextCount",
-      "tree",
-      0
+      33,
+      "b"
     ]
   ],
-  "hard": 1,
+  "tries": 0,
+  "hard": 2,
   "hardest": 4,
-  "steps": 15,
+  "steps": 14,
   "extra": true
 }

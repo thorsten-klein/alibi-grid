@@ -1,114 +1,88 @@
 {
-  "size": 8,
-  "rooms": "0001122200011222000112223333322233333222444445554444455544444555",
-  "objects": "....df..e..c....a.a....a..e.c..bc...b.f...bf.c.........d..a.....",
+  "size": 7,
+  "rooms": "0000111000011122222222222222333444433344443334444",
+  "objects": ".......b.....c.....f..a..aae.dcafdcca...f....e.ab",
   "roomNames": [
-    "Cargo Bay",
+    "Gym",
+    "Crew Quarters",
+    "Lab",
     "Hydroponics",
-    "Observatory",
-    "Mess Hall",
-    "Airlock",
-    "Comms"
+    "Bridge"
   ],
   "people": [
-    "Arthur the analyst",
-    "Vince the visitor",
-    "Bella the botanist",
-    "Cedric the captain",
-    "Dmitri the driller",
-    "Elias the electrician",
-    "Flora the flight officer",
-    "Grace the gunner"
+    "Victor the visitor",
+    "Albert the astronaut",
+    "Bea the botanist",
+    "Cora the chemist",
+    "Dora the doctor",
+    "Edith the engineer",
+    "Fiona the flight officer"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "next",
-      "scope"
+      1,
+      "door"
     ],
     [
-      1,
-      "next",
-      "seat"
-    ],
-    [
-      1,
-      "row",
+      2,
+      "col",
       1
     ],
     [
       2,
+      "same",
+      3
+    ],
+    [
+      3,
       "next",
       "seat"
     ],
     [
-      3,
+      4,
       "alone"
-    ],
-    [
-      4,
-      "next",
-      "pod"
-    ],
-    [
-      4,
-      "door"
     ],
     [
       5,
       "next",
-      "tank"
+      "seat"
     ],
     [
       6,
       "next",
-      "console"
-    ],
-    [
-      7,
-      "notRoom",
-      2
+      "pod"
     ]
   ],
   "solution": [
-    3,
-    10,
-    17,
-    24,
-    39,
-    44,
-    53,
-    62
+    6,
+    11,
+    15,
+    23,
+    28,
+    38,
+    47
   ],
   "doors": [
     [
-      18,
+      10,
+      11
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      12,
       19
     ],
     [
-      18,
-      26
-    ],
-    [
-      4,
-      5
-    ],
-    [
-      20,
-      28
-    ],
-    [
-      28,
+      22,
       29
     ],
     [
-      39,
-      47
-    ],
-    [
-      34,
-      42
+      24,
+      31
     ],
     [
       44,
@@ -121,32 +95,28 @@
       "t"
     ],
     [
-      4,
+      6,
       "t"
     ],
     [
-      16,
+      35,
       "l"
     ],
     [
-      32,
+      42,
       "l"
-    ],
-    [
-      57,
-      "b"
     ]
   ],
-  "tries": 4,
+  "tries": 10,
   "facts": [
     [
-      "nextCount",
-      "scope",
+      "emptyRooms",
+      null,
       1
     ]
   ],
-  "hard": 3,
-  "hardest": 3,
-  "steps": 25,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 27,
   "extra": true
 }

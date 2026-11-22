@@ -1,25 +1,26 @@
 {
   "size": 5,
-  "rooms": "0001100011000112233322333",
-  "objects": "bd..df...a.c.....f......c",
+  "rooms": "0011100111222223333333333",
+  "objects": "dd.....ab.fb...fe....e.d.",
   "roomNames": [
-    "Spring",
-    "Hide Tent",
-    "Painted Wall",
-    "Lookout Rock"
+    "Hunting Ground",
+    "River Bank",
+    "Elder Hut",
+    "Cave"
   ],
   "people": [
-    "Ada the artist",
-    "Basil the beekeeper",
-    "Cedric the carrier",
-    "Della the drummer",
-    "Vince the visionary"
+    "Arthur the acrobat",
+    "Birgit the builder",
+    "Celia the carver",
+    "Vivian the visionary",
+    "Dora the dancer"
   ],
-  "victim": 4,
+  "victim": 3,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "leaves"
     ],
     [
       1,
@@ -28,72 +29,62 @@
     ],
     [
       2,
-      "door"
+      "next",
+      "leaves"
     ],
     [
-      3,
+      4,
       "next",
-      "boulder"
+      "bones"
     ]
   ],
   "solution": [
-    0,
+    3,
     6,
-    13,
+    12,
     19,
-    22
+    20
   ],
   "doors": [
     [
-      2,
-      3
+      6,
+      7
     ],
     [
-      10,
-      15
+      6,
+      11
     ],
     [
-      12,
-      17
+      7,
+      12
     ],
     [
-      13,
-      18
-    ],
-    [
-      16,
-      17
+      14,
+      19
     ]
   ],
   "windows": [
-    [
-      0,
-      "t"
-    ],
     [
       1,
       "t"
     ],
     [
-      15,
-      "l"
-    ]
-  ],
-  "tries": 2,
-  "facts": [
+      23,
+      "b"
+    ],
     [
-      "touch",
-      null,
-      1
+      24,
+      "r"
     ]
   ],
+  "tries": 1,
   "rules": [
     "trades"
   ],
-  "trade": "2..23",
-  "tags": ".......4...............2.",
-  "hard": 1,
+  "trade": "04200",
+  "tags": ".....44..2..2......00....",
+  "hard": 3,
   "hardest": 3,
-  "steps": 13,
+  "steps": 15,
   "extra": true
 }

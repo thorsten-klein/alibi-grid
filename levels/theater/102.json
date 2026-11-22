@@ -1,123 +1,130 @@
 {
   "size": 7,
-  "rooms": "0001111000111100022220002222333444433344443334444",
-  "objects": "b.c...a.a......b.c.f..a.c..fc.b.......b.d.c.a....",
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "b...b...a...aa..a.ebe.cbde...e......d...........f",
   "roomNames": [
-    "Dressing Room",
+    "Box Office",
+    "Prop Store",
     "Costume Room",
-    "Orchestra Pit",
     "Balcony",
-    "Box Office"
+    "Orchestra Pit"
   ],
   "people": [
-    "Albert the author",
-    "Bella the bass player",
-    "Celia the choreographer",
-    "Vince the ventriloquist",
-    "Dora the dancer",
-    "Edith the electrician",
-    "Flora the fan"
+    "Victor the ventriloquist",
+    "Albert the agent",
+    "Birgit the baritone",
+    "Carl the critic",
+    "Della the director",
+    "Ena the electrician",
+    "Frank the flautist"
   ],
-  "victim": 3,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "room",
-      0
-    ],
-    [
       1,
-      "col",
-      4
+      "on",
+      "seat"
     ],
     [
       2,
-      "next",
-      "light"
+      "on",
+      "seat"
+    ],
+    [
+      2,
+      "alone"
     ],
     [
       3,
-      "row",
-      3
+      "next",
+      "piano"
     ],
     [
       4,
-      "door"
+      "next",
+      "mirror"
+    ],
+    [
+      4,
+      "alone"
     ],
     [
       5,
-      "same",
-      4
+      "door"
     ],
     [
       6,
       "next",
-      "sofa"
+      "mirror"
     ]
   ],
   "solution": [
-    0,
-    11,
-    20,
-    26,
-    30,
-    36,
-    45
+    5,
+    13,
+    16,
+    21,
+    31,
+    39,
+    43
   ],
   "doors": [
     [
-      2,
-      3
+      17,
+      18
     ],
     [
       16,
-      17
+      23
     ],
     [
-      22,
-      29
+      17,
+      24
     ],
     [
-      10,
-      17
-    ],
-    [
-      25,
-      32
+      18,
+      25
     ],
     [
       30,
       31
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      32,
+      39
     ]
   ],
   "windows": [
     [
-      6,
+      5,
+      "t"
+    ],
+    [
+      41,
       "r"
     ],
     [
-      7,
-      "l"
-    ],
-    [
-      13,
-      "r"
-    ],
-    [
-      43,
+      47,
       "b"
+    ],
+    [
+      48,
+      "r"
     ]
   ],
-  "tries": 4,
+  "tries": 0,
   "facts": [
     [
-      "onCount",
-      "sofa",
-      2
+      "nextCount",
+      "rack",
+      1
     ]
   ],
-  "hard": 3,
-  "hardest": 4,
+  "hard": 8,
+  "hardest": 5,
   "steps": 19,
   "extra": true
 }

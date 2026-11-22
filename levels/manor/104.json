@@ -1,73 +1,63 @@
 {
   "size": 7,
   "rooms": "0001111000111100022220002222333444433344443334444",
-  "objects": "....aab.e.....f..c..a.ad..c...ac..a..bb.....f....",
+  "objects": ".e...b.a..d.e..eb....b.......a..b...cfb..........",
   "roomNames": [
+    "Pantry",
     "Chapel",
-    "Kitchen",
     "Gallery",
-    "Ballroom",
+    "Library",
     "Dining Room"
   ],
   "people": [
-    "Alma the architect",
-    "Bea the banker",
-    "Cora the colonel",
-    "Daisy the dealer",
-    "Ena the envoy",
-    "Frank the footman",
-    "Victor the valet"
+    "Viola the vicar",
+    "Astrid the author",
+    "Bella the banker",
+    "Carl the colonel",
+    "Dora the dealer",
+    "Edgar the envoy",
+    "Felix the florist"
   ],
-  "victim": 6,
+  "victim": 0,
   "clues": [
-    [
-      0,
-      "next",
-      "chair"
-    ],
     [
       1,
       "next",
-      "sofa"
+      "piano"
     ],
     [
       2,
-      "next",
-      "shelf"
-    ],
-    [
-      2,
-      "next",
-      "chair"
+      "col",
+      3
     ],
     [
       3,
-      "alone"
+      "row",
+      3
     ],
     [
       4,
-      "next",
-      "shelf"
+      "door"
     ],
     [
       5,
-      "next",
-      "chair"
+      "same",
+      6
     ],
     [
-      5,
+      6,
       "next",
       "clock"
     ]
   ],
   "solution": [
-    3,
-    13,
-    19,
-    22,
-    32,
-    37,
-    42
+    6,
+    11,
+    17,
+    26,
+    29,
+    35,
+    44
   ],
   "doors": [
     [
@@ -79,25 +69,29 @@
       24
     ],
     [
-      23,
-      30
+      22,
+      29
     ],
     [
-      10,
-      17
+      13,
+      20
     ],
     [
-      25,
-      32
+      24,
+      31
     ],
     [
-      37,
-      38
+      30,
+      31
     ]
   ],
   "windows": [
     [
-      4,
+      3,
+      "t"
+    ],
+    [
+      5,
       "t"
     ],
     [
@@ -105,29 +99,20 @@
       "l"
     ],
     [
-      35,
-      "l"
-    ],
-    [
-      45,
-      "b"
+      34,
+      "r"
     ]
   ],
-  "tries": 4,
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
   "facts": [
     [
-      "edge",
+      "windowCount",
       null,
-      3
-    ],
-    [
-      "doorCount",
-      null,
-      3
+      0
     ]
   ],
-  "hard": 5,
-  "hardest": 5,
-  "steps": 26,
   "extra": true
 }

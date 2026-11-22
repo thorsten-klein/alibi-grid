@@ -1,58 +1,57 @@
 {
   "size": 6,
   "rooms": "000011000011000011223344223344223344",
-  "objects": "....e....e.a.c.ab..f..d.a..c.......d",
+  "objects": "dd.b.db.......bff.b..............f.e",
   "roomNames": [
-    "Dining Room",
-    "Gallery",
-    "Conservatory",
-    "Study",
-    "Cellar"
+    "Kitchen",
+    "Hall",
+    "Pantry",
+    "Library",
+    "Conservatory"
   ],
   "people": [
-    "Alma the author",
-    "Victor the valet",
-    "Birgit the butler",
-    "Cora the colonel",
-    "Della the doctor",
-    "Ena the envoy"
+    "Ada the architect",
+    "Bella the banker",
+    "Carl the cook",
+    "Vince the vicar",
+    "Dmitri the dealer",
+    "Elsa the editor"
   ],
-  "victim": 1,
+  "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "chair"
+      "on",
+      "sofa"
     ],
     [
-      0,
+      1,
       "next",
-      "plant"
+      "piano"
     ],
     [
       2,
-      "next",
-      "plant"
-    ],
-    [
-      3,
-      "next",
-      "clock"
-    ],
-    [
-      4,
       "door"
     ],
     [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
       5,
-      "window"
+      "next",
+      "plant"
     ]
   ],
   "solution": [
-    5,
+    3,
     7,
-    15,
-    18,
+    12,
+    23,
     26,
     34
   ],
@@ -62,54 +61,54 @@
       10
     ],
     [
-      13,
-      19
+      12,
+      18
     ],
     [
-      14,
-      20
+      15,
+      21
     ],
     [
       17,
       23
     ],
     [
-      25,
-      26
+      19,
+      20
     ],
     [
-      33,
-      34
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      1,
+      4,
       "t"
     ],
     [
-      11,
+      5,
       "r"
     ],
     [
-      24,
-      "l"
+      30,
+      "b"
     ],
     [
-      34,
+      33,
       "b"
     ]
   ],
   "tries": 0,
   "facts": [
     [
-      "nextCount",
-      "shelf",
-      2
+      "roomCount",
+      1,
+      0
     ]
   ],
-  "hard": 2,
-  "hardest": 3,
-  "steps": 15,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 18,
   "extra": true
 }

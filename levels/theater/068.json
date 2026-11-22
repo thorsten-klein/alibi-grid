@@ -1,103 +1,105 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": ".b.ab...b.....d.f.da.c...",
+  "rooms": "0001100011000112233322333",
+  "objects": "dd...e...b.c..b.b.e...be.",
   "roomNames": [
-    "Costume Room",
     "Orchestra Pit",
     "Box Office",
-    "Prop Store"
+    "Stage",
+    "Lighting Booth"
   ],
   "people": [
-    "Alma the agent",
-    "Basil the bass player",
-    "Viola the violinist",
-    "Carl the critic",
-    "Della the dancer"
+    "Alma the author",
+    "Vivian the ventriloquist",
+    "Bella the bass player",
+    "Celia the choreographer",
+    "Dmitri the director"
   ],
-  "victim": 2,
+  "victim": 1,
   "clues": [
     [
       0,
       "next",
-      "seat"
-    ],
-    [
-      1,
-      "alone"
-    ],
-    [
-      2,
-      "door"
-    ],
-    [
-      3,
-      "next",
-      "light"
-    ],
-    [
-      4,
-      "next",
       "mirror"
     ],
     [
-      4,
+      1,
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
       "door"
+    ],
+    [
+      4,
+      "same",
+      3
     ]
   ],
   "solution": [
-    4,
-    5,
-    11,
-    17,
-    23
+    2,
+    9,
+    13,
+    16,
+    20
   ],
   "doors": [
     [
-      6,
-      7
-    ],
-    [
-      6,
-      11
-    ],
-    [
       7,
-      12
+      8
     ],
     [
-      8,
-      13
+      11,
+      16
     ],
     [
-      22,
-      23
+      12,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      3,
+      2,
       "t"
     ],
     [
-      9,
-      "r"
+      20,
+      "l"
     ],
     [
-      10,
-      "l"
+      20,
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
   "facts": [
     [
-      "doorCount",
-      null,
+      "roomCount",
+      2,
       2
+    ],
+    [
+      "nextCount",
+      "sofa",
+      1
     ]
   ],
-  "hard": 1,
-  "hardest": 3,
-  "steps": 15,
   "extra": true
 }

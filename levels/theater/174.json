@@ -1,0 +1,217 @@
+{
+  "size": 11,
+  "rooms": "0000000000000000000000111122233331111222333311112223333111122233334442222555544422225555444666655554446666777744466667777",
+  "objects": "......ec.fa.......f..a.a.....f.cb...a.c...cf...........ac.d.......b......e..b....b....bd.d..b..d...ba.bf...ef.......e.d.c",
+  "roomNames": [
+    "Bar",
+    "Dressing Room",
+    "Green Room",
+    "Prop Store",
+    "Lighting Booth",
+    "Balcony",
+    "Orchestra Pit",
+    "Box Office"
+  ],
+  "people": [
+    "Albert the agent",
+    "Bea the bass player",
+    "Celia the critic",
+    "Dmitri the dancer",
+    "Vera the ventriloquist",
+    "Edgar the extra",
+    "Freya the flautist",
+    "Grace the ghost writer",
+    "Hilda the harpist",
+    "Isla the illusionist",
+    "Jutta the juggler"
+  ],
+  "victim": 4,
+  "clues": [
+    [
+      0,
+      "next",
+      "rack"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      2,
+      "col",
+      6
+    ],
+    [
+      3,
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "next",
+      "piano"
+    ],
+    [
+      5,
+      "on",
+      "seat"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
+      "next",
+      "rack"
+    ],
+    [
+      7,
+      "col",
+      2
+    ],
+    [
+      8,
+      "on",
+      "sofa"
+    ],
+    [
+      8,
+      "same",
+      10
+    ],
+    [
+      9,
+      "next",
+      "piano"
+    ],
+    [
+      9,
+      "next",
+      "light"
+    ],
+    [
+      10,
+      "next",
+      "sofa"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    28,
+    40,
+    53,
+    55,
+    74,
+    79,
+    92,
+    109,
+    113
+  ],
+  "doors": [
+    [
+      11,
+      22
+    ],
+    [
+      16,
+      27
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      55,
+      66
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      83,
+      94
+    ],
+    [
+      62,
+      73
+    ],
+    [
+      101,
+      102
+    ],
+    [
+      94,
+      95
+    ],
+    [
+      96,
+      107
+    ],
+    [
+      116,
+      117
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      21,
+      "r"
+    ],
+    [
+      33,
+      "l"
+    ],
+    [
+      43,
+      "r"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      98,
+      "r"
+    ],
+    [
+      116,
+      "b"
+    ]
+  ],
+  "tries": 4,
+  "facts": [
+    [
+      "nextCount",
+      "sofa",
+      1
+    ]
+  ],
+  "hard": 5,
+  "hardest": 8,
+  "steps": 29,
+  "extra": true
+}

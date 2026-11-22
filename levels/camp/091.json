@@ -1,38 +1,37 @@
 {
   "size": 6,
-  "rooms": "000011000011222211222211334444334444",
-  "objects": ".f.bc..d..d..a...cb........b.......c",
+  "rooms": "001122001122001122334444334444334444",
+  "objects": "da...........aa..bc...b..f...dedac.a",
   "roomNames": [
-    "Spring",
+    "Fire Pit",
+    "Bone Yard",
     "Hide Tent",
-    "Lookout Rock",
     "River Bank",
-    "Flint Pit"
+    "Lookout Rock"
   ],
   "people": [
-    "Vera the valley guide",
-    "Astrid the artist",
-    "Bruno the builder",
-    "Cora the carver",
-    "Della the dancer",
-    "Elias the elk tamer"
+    "Arthur the artist",
+    "Bruno the beekeeper",
+    "Cora the carrier",
+    "Dora the drummer",
+    "Edgar the elk tamer",
+    "Vince the valley guide"
   ],
-  "victim": 0,
+  "victim": 5,
   "clues": [
     [
       0,
-      "next",
-      "bones"
+      "door"
     ],
     [
       1,
       "next",
-      "leaves"
+      "log"
     ],
     [
       2,
       "next",
-      "fire"
+      "log"
     ],
     [
       3,
@@ -40,89 +39,77 @@
     ],
     [
       4,
-      "door"
-    ],
-    [
-      5,
-      "alone"
+      "next",
+      "tree"
     ]
   ],
   "solution": [
-    0,
-    9,
-    16,
+    4,
+    7,
+    15,
     20,
-    29,
-    31
+    24,
+    35
   ],
   "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      12,
+      18
+    ],
     [
       3,
       4
     ],
     [
-      6,
-      12
+      14,
+      20
     ],
     [
-      21,
-      22
+      17,
+      23
     ],
     [
-      23,
-      29
-    ],
-    [
-      18,
-      24
-    ],
-    [
-      20,
-      26
-    ],
-    [
-      25,
-      26
+      19,
+      20
     ]
   ],
   "windows": [
     [
-      0,
+      2,
       "t"
     ],
     [
-      17,
+      4,
+      "t"
+    ],
+    [
+      5,
       "r"
     ],
     [
-      30,
-      "l"
-    ],
-    [
-      33,
+      32,
       "b"
     ]
   ],
-  "tries": 8,
+  "tries": 2,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
   "facts": [
     [
-      "touch",
-      null,
+      "nextCount",
+      "leaves",
       0
-    ],
-    [
-      "roomCount",
-      4,
-      1
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": "32..0.",
-  "tags": "3........2...................0....2.",
-  "hard": 5,
-  "hardest": 3,
-  "steps": 21,
+  "trade": "..143.",
+  "tags": "...1..3..3.....1....4...3.4.........",
   "extra": true
 }

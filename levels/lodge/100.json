@@ -1,119 +1,118 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100011112222333222233344443334444333",
-  "objects": "....b.ab...fd...d.b...f.............a....ae...a..",
+  "size": 6,
+  "rooms": "000111000111222333222333444333444333",
+  "objects": "bf..cb.....b.db......b....b.b......b",
   "roomNames": [
-    "Sauna",
-    "Games Room",
+    "Lobby",
+    "Terrace",
     "Boot Room",
     "Bar",
-    "Dining Hall"
+    "Spa"
   ],
   "people": [
-    "Albert the athlete",
-    "Bruno the baker",
-    "Cedric the cook",
-    "Viola the vet",
-    "Daisy the doctor",
-    "Elias the engineer",
-    "Frank the fisher"
+    "Alma the avalanche guard",
+    "Birgit the bartender",
+    "Carl the climber",
+    "Dexter the driver",
+    "Edgar the engineer",
+    "Viola the vet"
   ],
-  "victim": 3,
+  "victim": 5,
   "clues": [
     [
       0,
-      "on",
-      "chair"
+      "next",
+      "wood"
     ],
     [
       1,
       "door"
     ],
     [
-      2,
-      "same",
-      1
+      1,
+      "alone"
     ],
     [
-      3,
+      2,
       "door"
     ],
     [
+      3,
+      "alone"
+    ],
+    [
       4,
-      "col",
-      4
-    ],
-    [
-      5,
-      "on",
-      "chair"
-    ],
-    [
-      6,
-      "same",
-      5
+      "next",
+      "sofa"
     ]
   ],
   "solution": [
-    6,
+    2,
     9,
-    14,
-    26,
-    32,
-    36,
-    45
+    17,
+    18,
+    25,
+    34
   ],
   "doors": [
     [
-      9,
-      10
+      8,
+      9
     ],
     [
-      16,
-      23
+      6,
+      12
     ],
     [
-      17,
-      24
+      11,
+      17
     ],
     [
-      19,
+      20,
+      21
+    ],
+    [
+      20,
       26
     ],
     [
-      31,
-      32
-    ],
-    [
-      29,
-      36
-    ],
-    [
-      45,
-      46
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
-      13,
+      5,
       "r"
     ],
     [
-      34,
-      "r"
+      6,
+      "l"
     ],
     [
-      42,
+      31,
+      "b"
+    ],
+    [
+      33,
       "b"
     ]
   ],
-  "tries": 4,
-  "hard": 5,
-  "hardest": 6,
-  "steps": 20,
+  "tries": 17,
+  "facts": [
+    [
+      "edge",
+      null,
+      4
+    ],
+    [
+      "nextCount",
+      "fire",
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 32,
   "extra": true
 }

@@ -1,99 +1,101 @@
 {
   "size": 6,
-  "rooms": "001111001111111122111122333322333322",
-  "objects": "......b.........c.....a....d..c.....",
+  "rooms": "000000000000000111000111222333222333",
+  "objects": "...............b.....c.fc.d...be....",
   "roomNames": [
-    "Tavern",
     "Open Sea",
-    "Dock",
-    "Galleon"
+    "Lighthouse",
+    "Brig",
+    "Tavern"
   ],
   "people": [
-    "Arthur the admiral",
-    "Birgit the boatswain",
+    "Alma the armorer",
+    "Bruno the barkeep",
     "Cedric the cook",
-    "Daisy the diver",
-    "Vera the voyager",
-    "Edgar the explorer"
+    "Dexter the deckhand",
+    "Elsa the explorer",
+    "Vivian the vintner"
   ],
-  "victim": 4,
+  "victim": 5,
   "clues": [
     [
       0,
-      "alone"
+      "col",
+      2
     ],
     [
       1,
-      "on",
-      "hammock"
+      "row",
+      1
+    ],
+    [
+      1,
+      "col",
+      1
     ],
     [
       2,
-      "col",
-      3
+      "row",
+      2
     ],
     [
       3,
-      "on",
-      "stool"
+      "next",
+      "anchor"
+    ],
+    [
+      4,
+      "door"
     ],
     [
       5,
-      "next",
-      "anchor"
+      "col",
+      3
     ]
   ],
   "solution": [
     2,
-    6,
-    15,
+    7,
+    12,
     22,
     29,
-    31
+    33
   ],
   "doors": [
     [
-      33,
-      34
+      23,
+      29
+    ],
+    [
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      24,
+      "l"
     ],
     [
       30,
-      "b"
+      "l"
     ],
     [
-      32,
-      "b"
+      35,
+      "r"
     ],
     [
-      33,
+      35,
       "b"
     ]
   ],
-  "tries": 1,
-  "facts": [
-    [
-      "corner",
-      null,
-      2
-    ],
-    [
-      "nextCount",
-      "crate",
-      0
-    ]
-  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
   "rules": [
     "sea"
   ],
-  "sea": 1,
-  "hard": 3,
-  "hardest": 3,
-  "steps": 18,
+  "sea": 0,
   "extra": true
 }

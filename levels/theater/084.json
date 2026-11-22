@@ -1,116 +1,112 @@
 {
   "size": 6,
-  "rooms": "001122001122001122000333444333444333",
-  "objects": ".b...........d.......b.....a.b..e..a",
+  "rooms": "000000111111111111223344223344223344",
+  "objects": "...d.d.c.......e..a..ab....c.f..b...",
   "roomNames": [
-    "Green Room",
-    "Foyer",
-    "Bar",
+    "Dressing Room",
     "Lighting Booth",
-    "Wings"
+    "Stage",
+    "Costume Room",
+    "Box Office"
   ],
   "people": [
-    "Astrid the agent",
-    "Basil the bass player",
-    "Clara the critic",
-    "Viola the violinist",
-    "Dmitri the director",
-    "Ena the extra"
+    "Arthur the agent",
+    "Bella the bass player",
+    "Cora the critic",
+    "Dora the director",
+    "Edith the electrician",
+    "Victor the ventriloquist"
   ],
-  "victim": 3,
+  "victim": 5,
   "clues": [
     [
       0,
-      "on",
-      "sofa"
-    ],
-    [
-      0,
-      "alone"
-    ],
-    [
-      1,
-      "room",
-      2
-    ],
-    [
-      2,
-      "door"
-    ],
-    [
-      3,
       "col",
       4
     ],
     [
-      4,
-      "next",
-      "sofa"
+      1,
+      "window"
     ],
     [
-      5,
-      "alone"
+      1,
+      "same",
+      2
+    ],
+    [
+      2,
+      "next",
+      "rack"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "door"
     ]
   ],
   "solution": [
-    1,
+    4,
     11,
     14,
-    22,
-    27,
+    21,
+    25,
     30
   ],
   "doors": [
     [
+      3,
+      9
+    ],
+    [
       13,
-      14
+      19
     ],
     [
-      20,
-      21
+      14,
+      20
     ],
     [
-      20,
+      16,
+      22
+    ],
+    [
+      25,
       26
     ],
     [
-      9,
-      10
-    ],
-    [
-      15,
-      21
-    ],
-    [
-      17,
-      23
-    ],
-    [
-      32,
-      33
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      3,
-      "t"
-    ],
-    [
-      6,
+      0,
       "l"
     ],
     [
-      23,
+      11,
       "r"
     ],
     [
-      31,
+      32,
+      "b"
+    ],
+    [
+      35,
       "b"
     ]
   ],
-  "tries": 1,
-  "hard": 1,
-  "hardest": 3,
-  "steps": 13,
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
   "extra": true
 }

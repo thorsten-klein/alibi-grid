@@ -1,47 +1,39 @@
 {
-  "size": 12,
-  "rooms": "000000111222000000111222000000111222334444111222334444555555334444555555334444555555333336667777333336667777333336667777888886667777888886667777",
-  "objects": "aebba..e..ca..b.....b..d...........c.......f..b.a...b..ec....d......aed.c.a..a...d..a.......b..cff...e....b.aaf.........a..f.a.eb....baeb.e.c.a.",
+  "size": 10,
+  "rooms": "0000111111000011111100001122220000112222333333222233333344445556664444555666777755566677775556667777",
+  "objects": ".d.af..b.d.......ae..db.......f.eb..f...a.a.e......f..da...fd.f..aa..eeb.ca................d.ccb....",
   "roomNames": [
-    "Berry Grove",
-    "Bone Yard",
-    "Painted Wall",
     "Lookout Rock",
+    "Elder Hut",
+    "River Bank",
+    "Painted Wall",
+    "Berry Grove",
     "Cave",
-    "Hide Tent",
-    "Flint Pit",
     "Hunting Ground",
-    "Spring"
+    "Bone Yard"
   ],
   "people": [
-    "Astrid the acrobat",
-    "Bea the beekeeper",
-    "Vera the visionary",
-    "Cedric the carrier",
-    "Della the dancer",
-    "Edgar the elder",
-    "Fiona the flute player",
-    "Greta the grinder",
+    "Arthur the artist",
+    "Bruno the builder",
+    "Clara the carver",
+    "Dexter the drummer",
+    "Edgar the elk tamer",
+    "Felix the flute player",
+    "Greta the guard",
     "Hazel the hide tanner",
-    "Isla the ice cutter",
-    "Jasper the joker",
-    "Kitty the keeper"
+    "Ivy the ice cutter",
+    "Viola the valley guide"
   ],
-  "victim": 2,
+  "victim": 9,
   "clues": [
     [
       0,
+      "window"
+    ],
+    [
+      1,
       "next",
       "log"
-    ],
-    [
-      1,
-      "next",
-      "tree"
-    ],
-    [
-      1,
-      "alone"
     ],
     [
       2,
@@ -49,198 +41,158 @@
     ],
     [
       3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
       "alone"
     ],
     [
-      4,
-      "on",
-      "log"
-    ],
-    [
-      4,
-      "same",
-      8
-    ],
-    [
       5,
       "next",
-      "boulder"
-    ],
-    [
-      5,
-      "next",
-      "tree"
+      "bones"
     ],
     [
       6,
       "next",
-      "fire"
+      "log"
+    ],
+    [
+      6,
+      "alone"
     ],
     [
       7,
-      "door"
+      "next",
+      "tree"
     ],
     [
       8,
-      "same",
-      7
+      "door"
     ],
     [
       9,
-      "row",
-      9
-    ],
-    [
-      10,
-      "room",
-      7
-    ],
-    [
-      11,
-      "on",
-      "leaves"
-    ],
-    [
-      11,
-      "next",
-      "log"
+      "window"
     ]
   ],
   "solution": [
-    5,
-    19,
-    26,
-    45,
-    48,
-    68,
-    82,
-    88,
-    99,
-    114,
-    131,
-    133
+    2,
+    13,
+    24,
+    35,
+    49,
+    50,
+    67,
+    71,
+    86,
+    98
   ],
   "doors": [
     [
-      17,
-      18
+      23,
+      24
     ],
     [
-      25,
-      37
-    ],
-    [
-      26,
-      38
-    ],
-    [
-      20,
-      21
-    ],
-    [
-      41,
+      32,
       42
     ],
     [
-      44,
+      16,
+      26
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      46,
       56
     ],
     [
-      47,
-      59
+      55,
+      56
     ],
     [
-      76,
-      88
+      52,
+      62
     ],
     [
-      112,
-      113
+      54,
+      64
     ],
     [
-      110,
-      122
+      65,
+      66
     ],
     [
-      77,
-      78
+      66,
+      76
     ],
     [
-      77,
-      89
+      92,
+      93
     ],
     [
-      79,
-      91
-    ],
-    [
-      80,
-      92
-    ],
-    [
-      127,
-      128
-    ],
-    [
-      124,
-      125
+      85,
+      86
     ]
   ],
   "windows": [
     [
-      3,
+      0,
       "t"
     ],
     [
-      7,
+      2,
       "t"
     ],
     [
-      12,
-      "l"
+      5,
+      "t"
     ],
     [
-      71,
+      6,
+      "t"
+    ],
+    [
+      9,
       "r"
     ],
     [
-      133,
-      "b"
-    ],
-    [
-      138,
-      "b"
-    ],
-    [
-      141,
+      98,
       "b"
     ]
   ],
-  "tries": 38,
+  "tries": 5,
   "facts": [
     [
-      "nextCount",
-      "bones",
-      0
-    ],
-    [
-      "nextCount",
-      "leaves",
-      3
-    ],
-    [
       "onCount",
-      "log",
+      "leaves",
+      1
+    ],
+    [
+      "roomCount",
+      7,
       2
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": ".0.3.30.0..2",
-  "tags": "............0......0.......2.............3...3.3............3............0........0................0..1............1...2........................",
-  "hard": 7,
-  "hardest": 4,
-  "steps": 79,
+  "trade": "3...2..2..",
+  "tags": "1.3.....1..................................2..1.....4....4..............4....1.....13............1..",
+  "hard": 11,
+  "hardest": 9,
+  "steps": 33,
   "extra": true
 }

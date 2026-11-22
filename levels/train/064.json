@@ -1,88 +1,88 @@
 {
   "size": 5,
-  "rooms": "0011100111001112233322333",
-  "objects": "..c.f...........ec....f..",
+  "rooms": "0011100111222332223322233",
+  "objects": ".bff...c..e.b...ffc......",
   "roomNames": [
-    "Mail Car",
-    "Sleeper C",
-    "Sleeper B",
-    "Baggage Car"
+    "Lounge Car",
+    "Sleeper A",
+    "Baggage Car",
+    "Dining Car"
   ],
   "people": [
-    "Ada the attendant",
+    "Ada the accordionist",
+    "Birgit the banker",
+    "Cora the courier",
     "Vivian the violinist",
-    "Bruno the banker",
-    "Cedric the courier",
-    "Dora the dentist"
+    "Dexter the diplomat"
   ],
-  "victim": 1,
+  "victim": 3,
   "clues": [
     [
       0,
-      "row",
-      0
+      "next",
+      "bunk"
     ],
     [
       1,
-      "next",
-      "suitcase"
+      "door"
     ],
     [
       2,
-      "col",
-      3
-    ],
-    [
-      3,
-      "alone"
+      "on",
+      "bunk"
     ],
     [
       4,
-      "door"
+      "col",
+      3
     ]
   ],
   "solution": [
     0,
-    7,
-    13,
+    6,
+    12,
     19,
-    21
+    23
   ],
   "doors": [
     [
-      1,
-      2
+      6,
+      7
     ],
     [
-      11,
-      16
+      5,
+      10
     ],
     [
-      12,
-      17
+      7,
+      12
     ],
     [
-      21,
-      22
+      9,
+      14
+    ],
+    [
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      15,
+      "l"
     ],
     [
-      3,
-      "t"
+      20,
+      "l"
     ],
     [
       24,
-      "r"
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "hard": 1,
   "hardest": 3,
-  "steps": 12,
+  "steps": 13,
   "extra": true
 }

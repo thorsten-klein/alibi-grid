@@ -1,42 +1,37 @@
 {
   "size": 6,
-  "rooms": "000011000011222211222211333444333444",
-  "objects": "....a...d.fad.ecf.ee....ceb.a....df.",
+  "rooms": "000000000000111222111222333444333444",
+  "objects": "..d...f...a..bb...d..cbbc...e..f....",
   "roomNames": [
     "Wings",
-    "Costume Room",
-    "Bar",
-    "Lighting Booth",
-    "Orchestra Pit"
+    "Orchestra Pit",
+    "Foyer",
+    "Balcony",
+    "Green Room"
   ],
   "people": [
-    "Arthur the agent",
-    "Bruno the bass player",
-    "Victor the violinist",
-    "Cedric the choreographer",
-    "Dora the director",
-    "Ena the extra"
+    "Astrid the author",
+    "Basil the bass player",
+    "Cedric the critic",
+    "Viola the violinist",
+    "Daisy the director",
+    "Edgar the extra"
   ],
-  "victim": 2,
+  "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "seat"
+      "window"
     ],
     [
       1,
-      "door"
-    ],
-    [
-      2,
       "next",
       "mirror"
     ],
     [
-      3,
+      2,
       "next",
-      "rack"
+      "piano"
     ],
     [
       4,
@@ -44,59 +39,48 @@
       "light"
     ],
     [
-      4,
-      "door"
-    ],
-    [
       5,
-      "alone"
+      "row",
+      5
     ]
   ],
   "solution": [
-    5,
-    9,
-    13,
-    20,
-    28,
+    4,
+    8,
+    15,
+    23,
+    25,
     30
   ],
   "doors": [
-    [
-      9,
-      10
-    ],
     [
       6,
       12
     ],
     [
-      15,
-      16
-    ],
-    [
-      22,
-      28
+      11,
+      17
     ],
     [
       20,
-      26
+      21
+    ],
+    [
+      18,
+      24
     ],
     [
       21,
       27
     ],
     [
-      32,
-      33
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      2,
+      4,
       "t"
     ],
     [
@@ -104,25 +88,24 @@
       "r"
     ],
     [
-      32,
+      18,
+      "l"
+    ],
+    [
+      31,
       "b"
     ]
   ],
-  "tries": 3,
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
   "facts": [
     [
-      "alone",
+      "doorCount",
       null,
-      4
-    ],
-    [
-      "nextCount",
-      "mirror",
-      2
+      0
     ]
   ],
-  "hard": 4,
-  "hardest": 4,
-  "steps": 18,
   "extra": true
 }

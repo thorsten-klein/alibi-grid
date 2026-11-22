@@ -1,48 +1,43 @@
 {
-  "size": 12,
-  "rooms": "000111122222000111122222000111122222000111133333444444433333444444433333444444433333555566777888555566777888555566777888555566777888555566777888",
-  "objects": "......a...c......bb..c...b.............cb...c.b..f..fd.f.b..fc..a....b......a..e..bfb..a...d...b.......c.da...e..f............c.....b.c...a.....",
+  "size": 9,
+  "rooms": "000011111000011111000011111222233344222233344222233344555555444555555444666666666",
+  "objects": ".e..b..d.....c.....c..a.......af.a...c.......b..b..af..b..fd..a......ae.e.abba.e.",
   "roomNames": [
-    "Observation Car",
-    "Lounge Car",
-    "Bar Car",
-    "Sleeper C",
     "Galley",
-    "Guard's Van",
+    "Mail Car",
+    "Baggage Car",
+    "Observation Car",
+    "Corridor",
     "Sleeper B",
-    "Dining Car",
-    "Mail Car"
+    "Dining Car"
   ],
   "people": [
-    "Ada the accordionist",
-    "Bruno the bookseller",
-    "Cora the conductor",
-    "Dmitri the dentist",
+    "Astrid the attendant",
+    "Bella the banker",
+    "Clara the conductor",
+    "Della the diplomat",
+    "Vince the vendor",
     "Elias the envoy",
-    "Freya the fiddler",
-    "Greta the guard",
-    "Henrik the hatter",
-    "Igor the inspector",
-    "Jasper the journalist",
-    "Kira the kitchen hand",
-    "Viola the vendor"
+    "Felix the firefighter",
+    "Gideon the governor",
+    "Hana the hatter"
   ],
-  "victim": 11,
+  "victim": 4,
   "clues": [
     [
       0,
-      "on",
-      "seat"
+      "next",
+      "lamp"
     ],
     [
       1,
-      "row",
-      1
+      "next",
+      "suitcase"
     ],
     [
       2,
-      "same",
-      0
+      "on",
+      "seat"
     ],
     [
       3,
@@ -51,184 +46,129 @@
     [
       4,
       "next",
-      "wine"
+      "seat"
     ],
     [
       5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "wine"
+    ],
+    [
+      6,
       "next",
       "lamp"
     ],
     [
-      6,
-      "next",
-      "seat"
+      7,
+      "col",
+      2
     ],
     [
-      6,
+      7,
       "alone"
     ],
     [
-      7,
-      "on",
-      "bunk"
-    ],
-    [
-      7,
-      "same",
-      8
+      8,
+      "window"
     ],
     [
       8,
-      "row",
-      8
-    ],
-    [
-      8,
-      "col",
-      1
-    ],
-    [
-      9,
-      "next",
-      "seat"
-    ],
-    [
-      10,
-      "same",
-      7
-    ],
-    [
-      11,
-      "row",
-      11
+      "alone"
     ]
   ],
   "solution": [
-    6,
-    23,
-    28,
-    38,
-    56,
-    67,
-    77,
-    84,
-    97,
-    118,
-    123,
-    141
+    0,
+    14,
+    22,
+    33,
+    39,
+    46,
+    61,
+    65,
+    80
   ],
   "doors": [
     [
-      38,
-      39
+      21,
+      22
     ],
     [
-      37,
-      49
+      21,
+      30
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      26,
+      35
     ],
     [
       30,
       31
     ],
     [
-      42,
-      43
+      46,
+      55
     ],
     [
-      40,
-      52
+      51,
+      60
     ],
     [
-      32,
-      44
+      49,
+      58
     ],
     [
-      78,
-      79
+      68,
+      69
     ],
     [
-      80,
-      92
+      69,
+      78
     ],
     [
-      83,
-      95
-    ],
-    [
-      75,
-      87
-    ],
-    [
-      77,
-      89
-    ],
-    [
-      78,
-      90
-    ],
-    [
-      135,
-      136
-    ],
-    [
-      113,
-      114
-    ],
-    [
-      116,
-      117
+      64,
+      73
     ]
   ],
   "windows": [
     [
-      10,
-      "t"
-    ],
-    [
-      83,
-      "r"
-    ],
-    [
-      96,
+      27,
       "l"
     ],
     [
-      107,
+      44,
       "r"
     ],
     [
-      108,
+      54,
       "l"
     ],
     [
-      139,
+      78,
       "b"
     ],
     [
-      142,
-      "b"
+      80,
+      "r"
     ]
   ],
-  "tries": 1,
+  "tries": 9,
   "facts": [
     [
-      "nextCount",
-      "lamp",
-      1
-    ],
-    [
       "roomCount",
-      4,
+      0,
       1
-    ],
-    [
-      "furniture",
-      null,
-      2
     ]
   ],
-  "hard": 8,
-  "hardest": 8,
-  "steps": 31,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 26,
   "extra": true
 }

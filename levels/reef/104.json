@@ -1,34 +1,34 @@
 {
   "size": 7,
-  "rooms": "0001111000111100011112221111222111133344443334444",
-  "objects": "..a.....a............b.b............a..b...bcf.e.",
+  "rooms": "0000000000000011110001111000223344422334442233444",
+  "objects": "...............e..............f......bb.d....d.b.",
   "roomNames": [
-    "Cove",
     "Open Sea",
+    "Sea Cave",
+    "Fort",
     "Sloop",
-    "Tavern",
-    "Dock"
+    "Galleon"
   ],
   "people": [
-    "Vince the vintner",
-    "Albert the armorer",
-    "Birgit the barkeep",
-    "Cora the captain",
-    "Della the deckhand",
-    "Elsa the engineer",
-    "Freya the first mate"
+    "Albert the admiral",
+    "Bea the boatswain",
+    "Celia the captain",
+    "Dora the diver",
+    "Edgar the explorer",
+    "Vera the voyager",
+    "Felix the first mate"
   ],
-  "victim": 0,
+  "victim": 5,
   "clues": [
     [
       0,
       "col",
-      1
+      4
     ],
     [
       1,
-      "next",
-      "stool"
+      "row",
+      1
     ],
     [
       2,
@@ -36,94 +36,85 @@
       2
     ],
     [
-      3,
-      "col",
-      0
+      2,
+      "alone"
     ],
     [
       3,
-      "alone"
+      "door"
     ],
     [
       4,
-      "alone"
+      "notRoom",
+      0
     ],
     [
-      5,
+      4,
       "col",
       6
     ],
     [
+      5,
+      "row",
+      5
+    ],
+    [
       6,
-      "next",
-      "map"
+      "window"
     ]
   ],
   "solution": [
-    1,
-    9,
+    4,
+    10,
     19,
-    21,
-    31,
-    41,
-    46
+    23,
+    34,
+    36,
+    42
   ],
   "doors": [
     [
-      16,
-      23
+      21,
+      28
+    ],
+    [
+      23,
+      30
     ],
     [
       29,
-      36
+      30
     ],
     [
-      44,
-      45
+      45,
+      46
     ]
   ],
   "windows": [
     [
-      0,
+      14,
       "l"
     ],
     [
-      2,
-      "t"
-    ],
-    [
-      43,
+      42,
       "b"
     ],
     [
-      45,
+      46,
+      "b"
+    ],
+    [
+      48,
       "b"
     ]
   ],
-  "facts": [
-    [
-      "emptyRooms",
-      null,
-      1
-    ],
-    [
-      "corner",
-      null,
-      3
-    ],
-    [
-      "nextCount",
-      "map",
-      1
-    ]
-  ],
+  "tries": 0,
   "rules": [
     "sea"
   ],
-  "sea": 1,
-  "tries": 3,
-  "hard": 3,
-  "hardest": 5,
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
   "steps": 17,
   "extra": true
 }

@@ -1,227 +1,166 @@
 {
-  "size": 11,
-  "rooms": "0000111222200001112222333311122223333111222233334444444333344444445555444444455556666777555566667775555666677755556666777",
-  "objects": ".c.ab.ae.c.......c.daa..c..e.f..b.abc....b.a...d.c...ce.....bc.f..fa.a..b......a..........a..b.....a.d.......c..e.b.a.ca.",
+  "size": 9,
+  "rooms": "000111111000111111000111111000223333000223333000223333445555666445555666445555666",
+  "objects": "f.c.a..b...daab.............e.....edc...b....fb...a.............ee.bf...bbe.e..d.",
   "roomNames": [
+    "Workshop",
     "Well Shaft",
-    "Scribe Room",
-    "Treasury",
+    "Statue Hall",
     "Boat Pit",
-    "Sun Court",
-    "Burial Chamber",
     "Granary",
-    "Shrine"
+    "Hall of Pillars",
+    "Sun Court"
   ],
   "people": [
-    "Astrid the architect",
-    "Bruno the boat builder",
-    "Clara the carpenter",
+    "Astrid the astrologer",
+    "Basil the boat builder",
+    "Viola the vizier",
+    "Cora the carpenter",
     "Dexter the dancer",
-    "Elsa the embalmer",
-    "Freya the fanbearer",
-    "Vince the vizier",
-    "Greta the goldsmith",
-    "Hugo the herder",
-    "Ivo the inspector",
-    "Juno the jeweller"
+    "Elias the embalmer",
+    "Fiona the fisher",
+    "Grace the guard",
+    "Hana the harpist"
   ],
-  "victim": 6,
+  "victim": 2,
   "clues": [
     [
       0,
-      "next",
-      "stool"
-    ],
-    [
-      0,
-      "next",
-      "urn"
-    ],
-    [
-      0,
-      "alone"
+      "window"
     ],
     [
       1,
+      "on",
+      "stool"
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
       "next",
       "rubble"
     ],
     [
-      2,
-      "next",
-      "stool"
-    ],
-    [
-      2,
-      "next",
-      "urn"
-    ],
-    [
-      3,
-      "on",
-      "couch"
-    ],
-    [
-      3,
-      "next",
-      "stool"
-    ],
-    [
       4,
-      "door"
-    ],
-    [
-      4,
-      "same",
-      5
+      "window"
     ],
     [
       5,
+      "same",
+      4
+    ],
+    [
+      6,
       "next",
       "jar"
     ],
     [
-      6,
-      "on",
-      "stool"
-    ],
-    [
       7,
-      "col",
-      4
-    ],
-    [
-      8,
       "next",
       "couch"
     ],
     [
-      9,
-      "next",
-      "urn"
+      7,
+      "alone"
     ],
     [
-      10,
-      "next",
-      "stool"
+      8,
+      "door"
     ]
   ],
   "solution": [
-    10,
-    16,
-    23,
-    35,
-    51,
-    64,
-    69,
-    81,
-    94,
-    107,
-    110
+    3,
+    13,
+    19,
+    29,
+    44,
+    52,
+    59,
+    63,
+    78
   ],
   "doors": [
     [
-      14,
-      15
+      20,
+      21
     ],
     [
-      12,
-      23
+      38,
+      39
     ],
     [
-      28,
-      29
-    ],
-    [
-      25,
-      26
-    ],
-    [
-      39,
-      50
-    ],
-    [
-      40,
-      51
+      45,
+      54
     ],
     [
       47,
-      48
+      56
     ],
     [
-      58,
-      69
+      22,
+      31
     ],
     [
-      69,
-      70
+      24,
+      33
     ],
     [
-      72,
-      83
+      49,
+      50
     ],
     [
-      75,
-      86
+      49,
+      58
     ],
     [
-      91,
-      92
+      50,
+      59
     ],
     [
-      84,
-      85
+      53,
+      62
+    ],
+    [
+      73,
+      74
+    ],
+    [
+      77,
+      78
     ]
   ],
   "windows": [
     [
-      1,
+      3,
       "t"
     ],
     [
-      2,
+      5,
       "t"
     ],
     [
-      4,
-      "t"
-    ],
-    [
-      7,
-      "t"
-    ],
-    [
-      32,
-      "r"
-    ],
-    [
-      66,
+      27,
       "l"
     ],
     [
-      120,
+      44,
+      "r"
+    ],
+    [
+      79,
       "b"
     ]
   ],
-  "tries": 35,
-  "facts": [
-    [
-      "roomCount",
-      4,
-      2
-    ],
-    [
-      "roomCount",
-      1,
-      1
-    ]
-  ],
+  "tries": 14,
   "rules": [
     "glyphs"
   ],
-  "tags": "L.................L....C...........................C.....................C.......C......................L.....C..........",
-  "hard": 9,
-  "hardest": 7,
-  "steps": 56,
+  "tags": "......................L..........L.........................L...L.....C.C.........",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 34,
   "extra": true
 }

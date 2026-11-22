@@ -1,59 +1,56 @@
 {
   "size": 5,
-  "rooms": "0001100011223332233322333",
-  "objects": ".b..d.e...b..c.c.d..b....",
+  "rooms": "0000011111222332223322233",
+  "objects": ".a...b.e...ffbd.e.fd..f..",
   "roomNames": [
-    "General Store",
+    "Saloon",
+    "Telegraph Office",
     "Mine",
-    "Jail",
-    "Livery"
+    "Corral"
   ],
   "people": [
-    "Astrid the auctioneer",
-    "Bea the blacksmith",
-    "Carl the cattle driver",
-    "Vivian the vaquero",
+    "Astrid the attorney",
+    "Birgit the banker",
+    "Cedric the cook",
+    "Victor the vaquero",
     "Dexter the deputy"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "notRoom",
-      2
-    ],
-    [
-      0,
-      "alone"
+      "on",
+      "chair"
     ],
     [
       1,
-      "next",
-      "cactus"
-    ],
-    [
-      1,
-      "alone"
-    ],
-    [
-      2,
       "door"
     ],
     [
-      4,
+      2,
       "bandit"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "next",
+      "cactus"
     ]
   ],
   "solution": [
-    0,
-    9,
-    12,
-    18,
-    21
+    1,
+    8,
+    10,
+    17,
+    24
   ],
   "doors": [
     [
-      7,
+      3,
       8
     ],
     [
@@ -61,54 +58,38 @@
       10
     ],
     [
-      7,
-      12
-    ],
-    [
       8,
       13
     ],
     [
-      11,
-      12
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      2,
+      0,
       "t"
     ],
     [
-      14,
-      "r"
+      5,
+      "l"
     ],
     [
       20,
-      "l"
+      "b"
     ]
   ],
-  "tries": 4,
-  "facts": [
-    [
-      "nextCount",
-      "cactus",
-      3
-    ],
-    [
-      "onCount",
-      "bed",
-      0
-    ]
-  ],
+  "tries": 2,
   "rules": [
     "bandits"
   ],
   "bandits": 1,
   "lawful": [
-    3
+    1
   ],
   "hard": 2,
   "hardest": 4,
-  "steps": 17,
+  "steps": 14,
   "extra": true
 }

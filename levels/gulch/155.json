@@ -1,71 +1,69 @@
 {
-  "size": 12,
-  "rooms": "001111222222001111222222001111222222001111222222333333444444333333444444333333444444555666778888555666778888555666778888555666778888555666778888",
-  "objects": "e.cece......a..ba....ad...b................b.f..a.......a.b...e...ff..ef...a.a.......c.....ff.f..a.b...a..cd.b..af..f.e......a..ae...b...a......",
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122444001112244400111224445556666777555666677755566667775556666777",
+  "objects": "bb....a.......e......b.e...fd.f........ed...e..c..aa....a.e...b.cddb.b..e....f.bbb......f...b.acc...",
   "roomNames": [
-    "Saloon",
-    "Bank",
+    "Telegraph Office",
     "Hotel",
+    "Sheriff Office",
+    "Bank",
+    "Livery",
     "Church",
     "Jail",
-    "Livery",
-    "Barber",
-    "Corral",
-    "Sheriff Office"
+    "Corral"
   ],
   "people": [
-    "Vera the vaquero",
-    "Arthur the auctioneer",
-    "Bea the blacksmith",
-    "Carl the cook",
-    "Dexter the dancer",
-    "Elsa the editor",
-    "Flora the farrier",
-    "Gideon the gunsmith",
+    "Astrid the auctioneer",
+    "Basil the blacksmith",
+    "Victor the vet",
+    "Celia the cook",
+    "Dora the deputy",
+    "Elias the editor",
+    "Freya the farmer",
+    "Gus the gambler",
     "Hilda the hatmaker",
-    "Ivy the inventor",
-    "Juno the jailer",
-    "Kai the knife thrower"
+    "Ivo the innkeeper"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
       0,
-      "col",
-      6
+      "next",
+      "piano"
     ],
     [
-      1,
-      "on",
-      "chair"
+      0,
+      "withBandit"
     ],
     [
       1,
       "next",
-      "cactus"
+      "chair"
     ],
     [
       2,
-      "on",
-      "bed"
-    ],
-    [
-      2,
-      "bandit"
+      "row",
+      2
     ],
     [
       3,
-      "alone"
+      "row",
+      3
     ],
     [
       4,
-      "same",
-      5
+      "next",
+      "barrel"
+    ],
+    [
+      4,
+      "row",
+      4
     ],
     [
       5,
       "next",
-      "chair"
+      "barrel"
     ],
     [
       6,
@@ -74,18 +72,11 @@
     ],
     [
       7,
-      "next",
-      "horse"
+      "alone"
     ],
     [
       8,
-      "on",
-      "bed"
-    ],
-    [
-      9,
-      "on",
-      "bed"
+      "window"
     ],
     [
       9,
@@ -93,114 +84,99 @@
       "chair"
     ],
     [
-      10,
-      "on",
-      "chair"
-    ],
-    [
-      11,
+      9,
       "window"
     ]
   ],
   "solution": [
-    6,
-    21,
-    26,
-    36,
-    52,
-    65,
+    4,
+    16,
+    25,
+    32,
+    48,
+    57,
+    61,
     79,
-    95,
-    99,
-    109,
-    128,
-    142
+    80,
+    93
   ],
   "doors": [
     [
-      25,
-      26
+      11,
+      12
     ],
     [
-      36,
-      48
+      50,
+      60
     ],
     [
-      41,
-      42
+      14,
+      15
     ],
     [
-      39,
-      51
-    ],
-    [
-      47,
-      59
+      52,
+      62
     ],
     [
       53,
-      54
+      63
     ],
     [
-      73,
-      85
+      6,
+      7
     ],
     [
-      77,
-      89
+      46,
+      47
     ],
     [
-      78,
-      90
+      55,
+      65
     ],
     [
-      80,
-      92
+      27,
+      37
     ],
     [
-      110,
-      111
+      59,
+      69
     ],
     [
-      125,
-      126
+      72,
+      73
     ],
     [
-      115,
-      116
+      66,
+      67
     ]
   ],
   "windows": [
     [
-      35,
+      1,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      29,
       "r"
     ],
     [
-      71,
-      "r"
+      60,
+      "l"
     ],
     [
-      138,
+      80,
+      "l"
+    ],
+    [
+      93,
       "b"
-    ],
-    [
-      140,
-      "b"
-    ],
-    [
-      142,
-      "b"
-    ],
-    [
-      143,
-      "b"
-    ],
-    [
-      143,
-      "r"
     ]
   ],
-  "tries": 8,
+  "tries": 7,
   "facts": [
     [
       "roomCount",
@@ -216,8 +192,8 @@
     5,
     6
   ],
-  "hard": 8,
-  "hardest": 8,
-  "steps": 37,
+  "hard": 7,
+  "hardest": 5,
+  "steps": 33,
   "extra": true
 }

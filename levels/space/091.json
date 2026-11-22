@@ -1,123 +1,129 @@
 {
   "size": 6,
-  "rooms": "000111000111000111223344223344223344",
-  "objects": "d.a...b...b.......a...f......aa..ba.",
+  "rooms": "001111001111002233002233002244002244",
+  "objects": "........bbeaa.ae...aba..d..cb.ab...e",
   "roomNames": [
+    "Hydroponics",
+    "Gym",
+    "Med Bay",
     "Airlock",
-    "Engine Room",
-    "Cargo Bay",
-    "Observatory",
     "Crew Quarters"
   ],
   "people": [
-    "Ada the astronaut",
-    "Basil the botanist",
-    "Cedric the chemist",
-    "Dexter the driller",
-    "Elias the electrician",
-    "Viola the visitor"
+    "Astrid the astronaut",
+    "Bruno the botanist",
+    "Vera the visitor",
+    "Celia the captain",
+    "Dora the driller",
+    "Edgar the electrician"
   ],
-  "victim": 5,
+  "victim": 2,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
       "next",
       "pod"
     ],
     [
+      1,
+      "next",
+      "seat"
+    ],
+    [
       2,
-      "alone"
+      "door"
     ],
     [
       3,
-      "door"
+      "alone"
     ],
     [
       4,
       "next",
-      "tank"
+      "console"
     ],
     [
       5,
       "next",
-      "seat"
+      "plant"
     ]
   ],
   "solution": [
     3,
-    11,
-    14,
-    18,
-    28,
-    31
+    6,
+    13,
+    23,
+    26,
+    34
   ],
   "doors": [
     [
-      14,
-      15
+      7,
+      8
     ],
     [
-      12,
-      18
+      13,
+      14
     ],
     [
-      14,
-      20
+      8,
+      14
     ],
     [
-      15,
-      21
+      11,
+      17
     ],
     [
-      17,
-      23
+      21,
+      22
     ],
     [
-      19,
-      20
+      27,
+      28
     ],
     [
-      33,
-      34
+      22,
+      28
     ]
   ],
   "windows": [
     [
-      3,
-      "t"
-    ],
-    [
-      24,
-      "l"
-    ],
-    [
-      30,
-      "l"
-    ],
-    [
-      35,
+      5,
       "r"
+    ],
+    [
+      18,
+      "l"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
     ]
   ],
-  "tries": 8,
+  "tries": 3,
   "facts": [
     [
-      "onCount",
-      "seat",
-      1
+      "emptyRooms",
+      null,
+      0
     ],
     [
-      "roomCount",
-      0,
-      1
+      "nextCount",
+      "scope",
+      0
+    ],
+    [
+      "nextCount",
+      "pod",
+      3
     ]
   ],
-  "hard": 7,
+  "hard": 5,
   "hardest": 4,
-  "steps": 25,
+  "steps": 18,
   "extra": true
 }

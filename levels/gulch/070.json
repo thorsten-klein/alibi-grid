@@ -1,118 +1,99 @@
 {
   "size": 5,
-  "rooms": "0011100111002223322233222",
-  "objects": "..a.b.fd.f...be.f..c....c",
+  "rooms": "0001100011223332233322333",
+  "objects": ".....d...a....d.....aa...",
   "roomNames": [
-    "Hotel",
-    "Livery",
-    "Jail",
-    "Mine"
+    "Barber",
+    "Sheriff Office",
+    "Mine",
+    "Telegraph Office"
   ],
   "people": [
-    "Albert the auctioneer",
-    "Vera the vet",
+    "Astrid the attorney",
     "Basil the banker",
-    "Cedric the cattle driver",
-    "Della the deputy"
+    "Cora the cook",
+    "Vera the vaquero",
+    "Dexter the deputy"
   ],
-  "victim": 1,
+  "victim": 3,
   "clues": [
     [
       0,
-      "bandit"
-    ],
-    [
-      1,
-      "door"
-    ],
-    [
-      1,
       "withBandit"
     ],
     [
-      2,
-      "notRoom",
-      3
+      1,
+      "on",
+      "chair"
     ],
     [
       2,
-      "notRoom",
-      2
+      "door"
     ],
     [
       3,
-      "alone"
-    ],
-    [
-      4,
       "next",
-      "horse"
+      "chair"
     ],
     [
       4,
-      "door"
+      "col",
+      0
     ]
   ],
   "solution": [
-    4,
-    8,
-    10,
-    17,
-    21
+    3,
+    9,
+    12,
+    16,
+    20
   ],
   "doors": [
     [
-      6,
-      7
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
+      14
     ],
     [
       11,
       12
-    ],
-    [
-      11,
-      16
-    ],
-    [
-      8,
-      13
-    ],
-    [
-      21,
-      22
     ]
   ],
   "windows": [
     [
-      3,
-      "t"
+      4,
+      "r"
     ],
     [
-      14,
-      "r"
+      23,
+      "b"
     ],
     [
       24,
       "b"
     ]
   ],
-  "tries": 5,
-  "facts": [
-    [
-      "emptyRooms",
-      null,
-      0
-    ]
-  ],
+  "tries": 3,
   "rules": [
     "bandits"
   ],
   "bandits": 1,
   "lawful": [
-    2
+    3
   ],
-  "hard": 4,
-  "hardest": 4,
-  "steps": 18,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
   "extra": true
 }

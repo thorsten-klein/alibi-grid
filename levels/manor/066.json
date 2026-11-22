@@ -1,64 +1,65 @@
 {
   "size": 5,
-  "rooms": "0011100111223332233322333",
-  "objects": "fb.......ddcf.cb.b....a..",
+  "rooms": "0001100011222332223322233",
+  "objects": "bb..........e......cf.f.e",
   "roomNames": [
-    "Conservatory",
+    "Kitchen",
     "Pantry",
-    "Dining Room",
-    "Study"
+    "Conservatory",
+    "Chapel"
   ],
   "people": [
-    "Albert the author",
+    "Astrid the author",
     "Bella the butler",
-    "Cora the cook",
-    "Viola the valet",
-    "Daisy the dealer"
+    "Victor the valet",
+    "Cedric the colonel",
+    "Dmitri the doctor"
   ],
-  "victim": 3,
+  "victim": 2,
   "clues": [
     [
       0,
-      "door"
-    ],
-    [
-      1,
-      "next",
+      "on",
       "sofa"
     ],
     [
-      2,
+      1,
+      "door"
+    ],
+    [
+      3,
       "next",
       "clock"
     ],
     [
       4,
-      "window"
+      "next",
+      "plant"
     ]
   ],
   "solution": [
-    2,
+    0,
     6,
-    13,
-    19,
-    20
+    14,
+    17,
+    23
   ],
   "doors": [
     [
-      1,
-      2
+      7,
+      8
     ],
     [
       6,
       11
     ],
     [
-      9,
-      14
+      8,
+      13
     ],
     [
-      11,
-      12
+      12,
+      13
     ]
   ],
   "windows": [
@@ -67,24 +68,24 @@
       "t"
     ],
     [
-      9,
-      "r"
+      10,
+      "l"
     ],
     [
-      20,
+      23,
       "b"
     ]
   ],
-  "tries": 1,
-  "facts": [
-    [
-      "onCount",
-      "sofa",
-      0
-    ]
-  ],
+  "tries": 0,
   "hard": 1,
   "hardest": 3,
-  "steps": 14,
+  "steps": 11,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      2
+    ]
+  ],
   "extra": true
 }

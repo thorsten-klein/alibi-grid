@@ -1,130 +1,98 @@
 {
-  "size": 6,
-  "rooms": "000111000111000222333222333444333444",
-  "objects": ".a.d......e...e..a...af...b.a.f..b.a",
+  "size": 5,
+  "rooms": "0000000000111223332233322",
+  "objects": "............c.....e..b...",
   "roomNames": [
-    "Hide Tent",
-    "Fire Pit",
-    "Jail",
+    "Sea of Ages",
     "Bank",
-    "Burial Chamber"
+    "Jail",
+    "Fort"
   ],
   "people": [
-    "Alma the archivist",
-    "Bella the bard",
-    "Cedric the clockmaker",
-    "Daisy the dreamer",
-    "Viola the voyager",
-    "Ena the explorer"
+    "Ada the astronomer",
+    "Basil the bookbinder",
+    "Clara the clockmaker",
+    "Viola the visionary",
+    "Della the drifter"
   ],
-  "victim": 4,
+  "victim": 3,
   "clues": [
     [
       0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
       "alone"
     ],
     [
-      1,
-      "door"
-    ],
-    [
-      1,
-      "bandit"
-    ],
-    [
-      2,
-      "next",
-      "chair"
-    ],
-    [
-      2,
-      "door"
-    ],
-    [
-      3,
-      "door"
-    ],
-    [
-      5,
-      "next",
-      "log"
+      4,
+      "window"
     ]
   ],
   "solution": [
-    5,
+    0,
     8,
-    15,
-    19,
-    24,
-    34
+    14,
+    16,
+    22
   ],
   "doors": [
     [
-      8,
-      9
+      12,
+      13
     ],
     [
-      14,
-      15
+      12,
+      17
     ],
     [
-      13,
-      19
-    ],
-    [
-      10,
-      16
-    ],
-    [
-      20,
-      21
-    ],
-    [
-      21,
-      27
-    ],
-    [
-      26,
-      27
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
-      0,
-      "l"
-    ],
-    [
-      5,
+      14,
       "r"
     ],
     [
-      34,
+      22,
+      "b"
+    ],
+    [
+      24,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 2,
   "facts": [
     [
-      "windowCount",
+      "touch",
       null,
-      2
+      1
+    ],
+    [
+      "roomCount",
+      1,
+      0
     ]
   ],
   "rules": [
-    "bandits",
-    "glyphs"
+    "trades",
+    "sea"
   ],
-  "tags": "................L.................L.",
-  "bandits": 2,
-  "lawful": [
-    3
-  ],
-  "hard": 5,
-  "hardest": 5,
-  "steps": 20,
+  "trade": ".2...",
+  "tags": ".............4......0...4",
+  "sea": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
   "extra": true
 }

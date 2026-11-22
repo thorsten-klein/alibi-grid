@@ -1,38 +1,43 @@
 {
-  "size": 10,
-  "rooms": "0000111122000011112200001111220000111122333334442233333444225555544422555554442266666777776666677777",
-  "objects": ".....b.bc....ee.....d.b..b..ca.f.......e.e.....aaba.c.e...b.b..a.........af.e..c..a.f......f....fb.c",
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222333334455333334455333334455666664455666664455",
+  "objects": ".a.cb..ae........b..eb.....be.....f.fc.e..d...b.f....cb....f....d........d..c....",
   "roomNames": [
-    "Armory",
-    "Gatehouse",
+    "Stables",
     "Tower",
     "Chapel",
     "Solar",
     "Dungeon",
-    "Stables",
-    "Throne Room"
+    "Armory",
+    "Courtyard"
   ],
   "people": [
-    "Ada the alchemist",
-    "Birgit the bard",
+    "Alma the alchemist",
+    "Basil the baker",
     "Cora the cupbearer",
     "Della the doorkeeper",
-    "Ena the envoy",
-    "Felix the farrier",
-    "Grace the glassmaker",
-    "Hana the herbalist",
-    "Vivian the vintner",
-    "Igor the illuminator"
+    "Vivian the verger",
+    "Elias the envoy",
+    "Frank the farrier",
+    "Grace the groom",
+    "Hugo the herald"
   ],
-  "victim": 8,
+  "victim": 4,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "bench"
     ],
     [
       1,
-      "alone"
+      "next",
+      "bench"
+    ],
+    [
+      1,
+      "next",
+      "cot"
     ],
     [
       2,
@@ -40,13 +45,8 @@
       "cot"
     ],
     [
-      2,
-      "alone"
-    ],
-    [
       3,
-      "next",
-      "swords"
+      "door"
     ],
     [
       4,
@@ -55,147 +55,121 @@
     ],
     [
       5,
+      "on",
+      "cot"
+    ],
+    [
+      6,
       "next",
       "barrel"
     ],
     [
-      6,
-      "on",
-      "bench"
-    ],
-    [
-      6,
-      "door"
-    ],
-    [
       7,
-      "next",
-      "bench"
-    ],
-    [
-      8,
-      "next",
-      "cot"
-    ],
-    [
-      8,
       "door"
     ],
     [
-      9,
-      "door"
+      8,
+      "same",
+      7
     ]
   ],
   "solution": [
-    9,
-    10,
-    26,
-    38,
-    44,
-    51,
-    63,
-    72,
-    87,
-    95
+    6,
+    16,
+    18,
+    32,
+    40,
+    46,
+    62,
+    66,
+    74
   ],
   "doors": [
     [
-      13,
-      14
+      29,
+      30
+    ],
+    [
+      28,
+      37
     ],
     [
       32,
+      33
+    ],
+    [
+      30,
+      39
+    ],
+    [
+      32,
+      41
+    ],
+    [
+      33,
       42
     ],
     [
-      17,
-      18
-    ],
-    [
       34,
-      44
+      43
     ],
     [
-      35,
-      45
+      49,
+      50
     ],
     [
-      47,
-      48
+      57,
+      66
     ],
     [
-      78,
-      88
+      51,
+      52
     ],
     [
-      44,
-      45
-    ],
-    [
-      53,
-      63
-    ],
-    [
-      74,
-      75
-    ],
-    [
-      77,
-      87
-    ],
-    [
-      72,
-      82
-    ],
-    [
-      94,
-      95
+      67,
+      68
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      3,
+      7,
       "t"
     ],
     [
       9,
-      "t"
+      "l"
     ],
     [
-      69,
+      53,
       "r"
     ],
     [
-      79,
-      "r"
+      77,
+      "b"
     ],
     [
-      96,
+      80,
       "b"
     ]
   ],
-  "tries": 16,
+  "tries": 2,
   "facts": [
     [
       "nextCount",
-      "candles",
-      1
+      "barrel",
+      2
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    1,
-    3
+    3,
+    6
   ],
-  "rank": "cckcknccck",
-  "hard": 7,
+  "rank": "kcccknknn",
+  "hard": 10,
   "hardest": 6,
-  "steps": 39,
+  "steps": 28,
   "extra": true
 }

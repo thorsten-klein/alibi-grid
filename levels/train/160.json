@@ -1,53 +1,50 @@
 {
-  "size": 12,
-  "rooms": "000011112222000011112222000011112222000011112222000011112222333344444555333344444555333344444555666667778888666667778888666667778888666667778888",
-  "objects": "..be..d...a.....a.......fea......b..b..b..b.bb.......b.....a.....c.....c.a..d.....a.b....a........c....b.d..f.b.de..e.....e.a....a.b.f.cc...c..e",
+  "size": 10,
+  "rooms": "0001122333000112233300011223330001122333444445555544444555556666655555666667777766666777776666677777",
+  "objects": ".e...f.b.aba.........bc..bc..a......d.cde.fe.bf...fe..f..defa.db....a...e...dfd........c.fce.ac.....",
   "roomNames": [
-    "Mail Car",
-    "Guard's Van",
-    "Galley",
-    "Bar Car",
     "Sleeper B",
-    "Corridor",
+    "Galley",
     "Dining Car",
-    "Sleeper A",
-    "Lounge Car"
+    "Mail Car",
+    "Corridor",
+    "Bar Car",
+    "Lounge Car",
+    "Baggage Car"
   ],
   "people": [
-    "Alma the attendant",
-    "Viola the violinist",
-    "Birgit the bookseller",
-    "Celia the courier",
-    "Della the diplomat",
-    "Ena the engineer",
+    "Arthur the attendant",
+    "Basil the banker",
+    "Cora the courier",
+    "Della the dentist",
+    "Elias the envoy",
     "Fiona the fiddler",
-    "Gwen the guard",
-    "Hugo the hairdresser",
-    "Igor the inspector",
-    "Jade the jockey",
-    "Kitty the kitchen hand"
+    "Gideon the guard",
+    "Victor the vendor",
+    "Hazel the hatter",
+    "Ines the importer"
   ],
-  "victim": 1,
+  "victim": 7,
   "clues": [
     [
       0,
-      "same",
-      2
-    ],
-    [
-      1,
       "next",
       "lamp"
     ],
     [
-      2,
-      "row",
-      2
+      1,
+      "room",
+      3
     ],
     [
-      3,
-      "on",
-      "bunk"
+      2,
+      "same",
+      0
+    ],
+    [
+      2,
+      "next",
+      "seat"
     ],
     [
       3,
@@ -55,21 +52,27 @@
     ],
     [
       4,
-      "door"
+      "next",
+      "crate"
+    ],
+    [
+      4,
+      "next",
+      "wine"
     ],
     [
       5,
       "next",
-      "suitcase"
+      "crate"
     ],
     [
       5,
-      "door"
+      "row",
+      5
     ],
     [
       6,
-      "same",
-      7
+      "door"
     ],
     [
       7,
@@ -78,160 +81,111 @@
     ],
     [
       7,
-      "door"
-    ],
-    [
-      8,
-      "next",
-      "crate"
+      "col",
+      0
     ],
     [
       8,
       "same",
-      10
+      9
     ],
     [
       9,
-      "next",
-      "wine"
-    ],
-    [
-      9,
-      "next",
-      "bunk"
-    ],
-    [
-      10,
-      "next",
-      "lamp"
-    ],
-    [
-      11,
-      "next",
-      "wine"
+      "col",
+      9
     ]
   ],
   "solution": [
-    7,
-    15,
-    29,
-    45,
-    50,
-    66,
-    80,
-    88,
-    106,
-    109,
-    131,
-    132
+    2,
+    18,
+    21,
+    33,
+    47,
+    56,
+    64,
+    70,
+    85,
+    99
   ],
   "doors": [
     [
-      3,
-      4
+      12,
+      13
     ],
     [
-      50,
-      62
+      30,
+      40
     ],
     [
-      7,
-      8
+      14,
+      15
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      35,
+      45
+    ],
+    [
+      38,
+      48
     ],
     [
       54,
-      66
+      55
     ],
     [
-      56,
-      68
+      51,
+      61
     ],
     [
-      57,
-      69
+      64,
+      65
     ],
     [
-      63,
-      64
+      65,
+      75
     ],
     [
-      84,
-      96
-    ],
-    [
-      68,
-      69
-    ],
-    [
-      88,
-      100
-    ],
-    [
-      91,
-      103
-    ],
-    [
-      92,
-      104
-    ],
-    [
-      95,
-      107
-    ],
-    [
-      100,
-      101
-    ],
-    [
-      127,
-      128
+      74,
+      75
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
       3,
       "t"
     ],
     [
-      6,
+      4,
       "t"
     ],
     [
-      11,
+      59,
       "r"
     ],
     [
-      108,
-      "l"
+      93,
+      "b"
     ],
     [
-      120,
-      "l"
+      95,
+      "b"
     ],
     [
-      133,
+      96,
       "b"
     ]
   ],
-  "tries": 10,
-  "facts": [
-    [
-      "roomCount",
-      7,
-      0
-    ],
-    [
-      "corner",
-      null,
-      3
-    ]
-  ],
-  "hard": 7,
-  "hardest": 9,
-  "steps": 36,
+  "tries": 5,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 27,
   "extra": true
 }

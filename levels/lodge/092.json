@@ -1,40 +1,42 @@
 {
   "size": 6,
-  "rooms": "000111000111222333222333444333444333",
-  "objects": "bf..cb.....b.db......b....b.b......b",
+  "rooms": "000111000111000111222333222333222444",
+  "objects": ".f.fb...f........b..be..b...........",
   "roomNames": [
-    "Lobby",
-    "Terrace",
-    "Boot Room",
     "Bar",
-    "Spa"
+    "Terrace",
+    "Lobby",
+    "Ski Room",
+    "Boot Room"
   ],
   "people": [
+    "Victor the vlogger",
     "Alma the avalanche guard",
-    "Birgit the bartender",
-    "Carl the climber",
-    "Dexter the driver",
-    "Edgar the engineer",
-    "Viola the vet"
+    "Basil the bartender",
+    "Clara the climber",
+    "Daisy the driver",
+    "Elsa the engineer"
   ],
-  "victim": 5,
+  "victim": 0,
   "clues": [
     [
       0,
+      "window"
+    ],
+    [
+      1,
+      "room",
+      1
+    ],
+    [
+      1,
       "next",
-      "wood"
-    ],
-    [
-      1,
-      "door"
-    ],
-    [
-      1,
-      "alone"
+      "sofa"
     ],
     [
       2,
-      "door"
+      "next",
+      "wood"
     ],
     [
       3,
@@ -42,17 +44,20 @@
     ],
     [
       4,
-      "next",
-      "sofa"
+      "window"
+    ],
+    [
+      5,
+      "door"
     ]
   ],
   "solution": [
-    2,
-    9,
-    17,
-    18,
-    25,
-    34
+    0,
+    10,
+    14,
+    19,
+    29,
+    33
   ],
   "doors": [
     [
@@ -60,59 +65,54 @@
       9
     ],
     [
-      6,
-      12
+      12,
+      18
     ],
     [
-      11,
-      17
+      15,
+      21
     ],
     [
       20,
       21
     ],
     [
-      20,
-      26
+      32,
+      33
     ],
     [
-      26,
-      27
+      28,
+      34
     ]
   ],
   "windows": [
     [
-      5,
-      "r"
+      0,
+      "t"
     ],
     [
-      6,
+      18,
       "l"
     ],
     [
-      31,
-      "b"
+      29,
+      "r"
     ],
     [
-      33,
-      "b"
+      30,
+      "l"
     ]
   ],
-  "tries": 17,
+  "tries": 2,
   "facts": [
     [
-      "edge",
-      null,
-      4
-    ],
-    [
-      "nextCount",
-      "fire",
+      "onCount",
+      "sofa",
       0
     ]
   ],
-  "hard": 2,
-  "hardest": 3,
-  "steps": 32,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 20,
   "extra": true
 }

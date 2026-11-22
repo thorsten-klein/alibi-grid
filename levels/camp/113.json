@@ -1,146 +1,116 @@
 {
-  "size": 8,
-  "rooms": "0001112200011122000111220001112233334444333344443333555533335555",
-  "objects": ".e..e.cbc.e..cce...........afbe.d.d.e........b.b..e.dfbf....b...",
+  "size": 7,
+  "rooms": "0001111000111100022220002222333333333344443334444",
+  "objects": ".e...f.......d.........b....ebc...ba.....af..c...",
   "roomNames": [
+    "Elder Hut",
     "Hunting Ground",
     "Painted Wall",
     "Lookout Rock",
-    "Elder Hut",
-    "Cave",
-    "River Bank"
+    "Hide Tent"
   ],
   "people": [
-    "Ada the acrobat",
-    "Viola the visionary",
-    "Bruno the beekeeper",
+    "Vera the visionary",
+    "Arthur the artist",
+    "Birgit the builder",
     "Cora the carver",
-    "Dexter the drummer",
-    "Edgar the elk tamer",
-    "Frank the flute player",
-    "Gus the grinder"
+    "Della the dancer",
+    "Edith the elk tamer",
+    "Felix the firekeeper"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
-    [
-      0,
-      "alone"
-    ],
     [
       1,
       "next",
-      "boulder"
+      "fire"
     ],
     [
       2,
+      "window"
+    ],
+    [
+      3,
       "next",
       "leaves"
     ],
     [
-      2,
-      "door"
-    ],
-    [
-      3,
-      "window"
-    ],
-    [
       4,
-      "door"
+      "col",
+      4
     ],
     [
       5,
-      "col",
-      3
+      "same",
+      4
     ],
     [
       6,
-      "on",
-      "leaves"
-    ],
-    [
-      7,
-      "window"
+      "next",
+      "log"
     ]
   ],
   "solution": [
-    0,
+    3,
     12,
-    21,
-    31,
-    33,
-    43,
-    54,
-    58
+    14,
+    22,
+    32,
+    37,
+    48
   ],
   "doors": [
     [
-      18,
-      19
+      9,
+      10
     ],
     [
-      25,
-      33
+      16,
+      17
     ],
     [
-      21,
-      22
+      22,
+      29
+    ],
+    [
+      13,
+      20
     ],
     [
       27,
-      35
+      34
     ],
     [
-      28,
-      36
-    ],
-    [
-      30,
-      38
-    ],
-    [
-      35,
-      36
-    ],
-    [
-      51,
-      52
-    ],
-    [
-      46,
-      54
+      33,
+      40
     ]
   ],
   "windows": [
     [
-      3,
-      "t"
-    ],
-    [
-      5,
-      "t"
-    ],
-    [
-      31,
-      "r"
-    ],
-    [
-      32,
+      0,
       "l"
     ],
     [
-      58,
+      14,
+      "l"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      43,
       "b"
     ]
   ],
-  "tries": 2,
+  "tries": 3,
   "rules": [
     "trades"
   ],
-  "trade": ".4.221.1",
-  "tags": ".......................3.......2...........1....................",
-  "hard": 2,
-  "hardest": 4,
-  "steps": 21,
+  "trade": "1.14.4.",
+  "tags": "...1.....0.3..1.........................1..4..3..",
+  "hard": 4,
+  "hardest": 3,
+  "steps": 20,
   "extra": true
 }

@@ -1,59 +1,49 @@
 {
-  "size": 8,
-  "rooms": "0001111100011111111111111112222211122222334444553344445533444455",
-  "objects": ".a...........................d...........c.......b...d.bf.......",
+  "size": 7,
+  "rooms": "0001111000111122233332223333444333344433334443333",
+  "objects": "....a....f....e.a....bf.............e.....bd.....",
   "roomNames": [
+    "Dock",
     "Market",
+    "Fort",
     "Open Sea",
-    "Sloop",
-    "Brig",
-    "Galleon",
-    "Dock"
+    "Frigate"
   ],
   "people": [
-    "Arthur the admiral",
-    "Bruno the boatswain",
-    "Cedric the cook",
-    "Daisy the deckhand",
-    "Ena the explorer",
-    "Felix the first mate",
-    "Gideon the gunner",
-    "Vivian the voyager"
+    "Vince the vintner",
+    "Ada the armorer",
+    "Bea the boatswain",
+    "Carl the cook",
+    "Dmitri the diver",
+    "Elias the engineer",
+    "Frank the first mate"
   ],
-  "victim": 7,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "on",
-      "stool"
-    ],
-    [
       1,
-      "alone"
+      "col",
+      5
     ],
     [
       2,
-      "row",
-      2
+      "next",
+      "cannon"
     ],
     [
       3,
-      "row",
-      3
-    ],
-    [
-      3,
-      "col",
-      3
+      "on",
+      "hammock"
     ],
     [
       4,
-      "same",
-      3
+      "row",
+      4
     ],
     [
       5,
-      "door"
+      "col",
+      6
     ],
     [
       5,
@@ -66,69 +56,60 @@
     ]
   ],
   "solution": [
-    1,
+    3,
+    12,
     15,
-    16,
-    27,
-    37,
-    46,
-    52,
-    58
+    21,
+    32,
+    41,
+    44
   ],
   "doors": [
     [
-      36,
-      44
+      9,
+      10
     ],
     [
-      38,
-      46
+      7,
+      14
     ],
     [
-      49,
-      50
-    ],
-    [
-      45,
-      46
+      23,
+      30
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      1,
+      2,
       "t"
     ],
     [
-      56,
+      3,
+      "t"
+    ],
+    [
+      7,
       "l"
     ],
     [
-      57,
-      "b"
-    ],
-    [
-      60,
-      "b"
+      21,
+      "l"
     ]
   ],
-  "tries": 1,
+  "tries": 2,
   "facts": [
     [
-      "nextCount",
-      "crate",
+      "windowCount",
+      null,
       2
     ]
   ],
   "rules": [
     "sea"
   ],
-  "sea": 1,
-  "hard": 4,
-  "hardest": 5,
-  "steps": 23,
+  "sea": 3,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
   "extra": true
 }

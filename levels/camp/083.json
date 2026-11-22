@@ -1,33 +1,27 @@
 {
   "size": 6,
-  "rooms": "000000000000111222111222333444333444",
-  "objects": ".......ba......bc.fc.e......decbad..",
+  "rooms": "000000000000122333122333122444122444",
+  "objects": "f....a.f..fac..e.a.d..aa..eac.....a.",
   "roomNames": [
-    "Lookout Rock",
+    "River Bank",
+    "Hunting Ground",
     "Flint Pit",
-    "Hide Tent",
-    "Berry Grove",
-    "Fire Pit"
+    "Fire Pit",
+    "Painted Wall"
   ],
   "people": [
-    "Vivian the visionary",
-    "Albert the acrobat",
-    "Bella the beekeeper",
-    "Cora the carver",
-    "Dexter the drummer",
+    "Victor the valley guide",
+    "Ada the acrobat",
+    "Bruno the beekeeper",
+    "Cedric the carver",
+    "Dmitri the drummer",
     "Edith the elk tamer"
   ],
   "victim": 0,
   "clues": [
     [
-      0,
-      "next",
-      "leaves"
-    ],
-    [
       1,
-      "on",
-      "log"
+      "door"
     ],
     [
       2,
@@ -35,60 +29,60 @@
     ],
     [
       3,
+      "on",
+      "log"
+    ],
+    [
+      4,
       "next",
       "boulder"
     ],
     [
-      4,
-      "door"
-    ],
-    [
       5,
-      "same",
-      4
+      "window"
     ]
   ],
   "solution": [
     1,
-    8,
-    12,
+    11,
+    14,
     22,
     27,
-    35
+    30
   ],
   "doors": [
+    [
+      6,
+      12
+    ],
     [
       7,
       13
     ],
     [
-      9,
-      15
-    ],
-    [
-      14,
-      15
+      11,
+      17
     ],
     [
       18,
-      24
+      19
     ],
     [
-      21,
-      27
+      20,
+      21
     ],
     [
-      26,
-      27
+      32,
+      33
+    ],
+    [
+      23,
+      29
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
-      2,
+      4,
       "t"
     ],
     [
@@ -96,25 +90,29 @@
       "l"
     ],
     [
-      33,
+      30,
+      "b"
+    ],
+    [
+      35,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "onCount",
-      "leaves",
-      0
+      "furniture",
+      null,
+      3
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": "143.3.",
-  "tags": ".1...11...343.............3.........",
+  "trade": ".1..40",
+  "tags": "...4.........4..4..............0....",
   "hard": 5,
-  "hardest": 4,
-  "steps": 19,
+  "hardest": 6,
+  "steps": 21,
   "extra": true
 }

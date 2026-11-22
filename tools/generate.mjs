@@ -10,6 +10,9 @@
 //              A case that no longer fits a group becomes an extra case.
 //   --extra    make only extra cases: per campaign and size as many as EXTRA_PER_SIZE
 //              says, of any difficulty, with other seeds (add --seed to make more)
+//   --groups   with --extra: only these difficulties (indexes into DIFFICULTY, like 0,1)
+//   --count    with --extra: stop after this many new cases, spread over campaigns,
+//              sizes and difficulties (like --extra --sizes 5,6 --groups 0,1 --count 200)
 //   --also     another levels file (like an old js/levels.js): its cases are
 //              added the same way. Use --sizes 0 to only merge, without new cases.
 //
@@ -43,15 +46,23 @@ const EXTRA_PER_SIZE = { 4: 20, 5: 18, 6: 16, 7: 14, 8: 12, 9: 9, 10: 7, 11: 5, 
 
 if (!isMainThread) {
   // g: a group (index into DIFFICULTY), or 'extra' (any difficulty; k: its number).
-  parentPort.on('message', ({ ti, li, g, k = 0, timeLimit, seed }) => {
+  // d: with --groups, the difficulty an extra case must have.
+  parentPort.on('message', ({ ti, li, g, k = 0, d = null, timeLimit, seed }) => {
     const theme = THEMES[ti], n = SIZES[li];
     const rules = theme.mix ? theme.mix[li] : theme.rules || [];
     const t0 = Date.now();
     let raw = null;
     try {
       const extra = g === 'extra';
-      const s = 1000 * (ti + 1) + n + seed + (extra ? 50000000 + 100000 * k : 100000 * g);
-      const level = makeLevel(theme, n, s, rules, null, { tries: extra ? { min: 0, max: Infinity } : DIFFICULTY[g], timeLimit });
+      const base = d === null ? 50000000 : 300000000 + 10000000 * d;
+      const s = 1000 * (ti + 1) + n + seed + (extra ? base + 100000 * k : 100000 * g);
+      let tries = DIFFICULTY[g];
+      if (d !== null) {
+        tries = DIFFICULTY[d];
+      } else if (extra) {
+        tries = { min: 0, max: Infinity };
+      }
+      const level = makeLevel(theme, n, s, rules, null, { tries, timeLimit });
       raw = extra ? { ...encodeLevel(theme, level), extra: true } : { ...encodeLevel(theme, level), group: g };
     } catch { /* none found in time */ }
     parentPort.postMessage({ ti, li, g, raw, ms: Date.now() - t0 });
@@ -113,7 +124,16 @@ if (!isMainThread) {
   // Order: holes first (a missing size below a size the group already has),
   // then small boards before big ones, so the campaigns fill up fast.
   const jobs = [];
-  if (process.argv.includes('--extra')) {
+  const count = Number(arg('--count')) || Infinity;
+  if (process.argv.includes('--extra') && arg('--groups')) {
+    // Round by round, one case per campaign, size and difficulty, until --count is made.
+    const groups = arg('--groups').split(',').map(Number);
+    const slots = THEMES.length * only.length * groups.length;
+    const rounds = Number.isFinite(count) ? Math.ceil(count / slots) + 2 : 1; // spare rounds for misses
+    for (let k = 0; k < rounds; k++) for (const d of groups) THEMES.forEach((_, ti) => SIZES.forEach((n, li) => {
+      if (only.includes(n)) jobs.push({ ti, li, g: 'extra', k, d, hole: false });
+    }));
+  } else if (process.argv.includes('--extra')) {
     THEMES.forEach((_, ti) => SIZES.forEach((n, li) => {
       if (only.includes(n)) for (let k = 0; k < EXTRA_PER_SIZE[n]; k++) jobs.push({ ti, li, g: 'extra', k, hole: false });
     }));
@@ -122,10 +142,11 @@ if (!isMainThread) {
     const hole = SIZES.some((_, lj) => lj > li && results.has(key(ti, g, lj)));
     jobs.push({ ti, li, g, hole });
   }));
-  jobs.sort((a, b) => b.hole - a.hole || a.li - b.li || String(a.g).localeCompare(String(b.g)));
+  // With --count the round order stays, so each round is spread out.
+  if (!Number.isFinite(count)) jobs.sort((a, b) => b.hole - a.hole || a.li - b.li || String(a.g).localeCompare(String(b.g)));
   console.log(`${jobs.filter(j => j.hole).length} holes first, then ${jobs.filter(j => !j.hole).length} more`);
   const total = jobs.length;
-  let done = 0, missing = 0;
+  let done = 0, missing = 0, added = 0, asked = 0;
 
   // Write levels/ (then js/levels.js and the bundle) with all cases so far, after every new case.
   // A run that stops early keeps its work, and the next run reuses it.
@@ -153,7 +174,9 @@ if (!isMainThread) {
     for (let w = 0; w < Math.min(workers, jobs.length); w++) {
       const worker = new Worker(new URL(import.meta.url));
       const next = () => {
-        const job = jobs.shift();
+        // --count: no new job once enough cases are made or on the way.
+        const job = asked - done + added < count ? jobs.shift() : null;
+        if (job) asked++;
         if (!job) {
           worker.terminate();
           running--;
@@ -166,7 +189,7 @@ if (!isMainThread) {
         done++;
         // A new extra case counts only if it is not there already.
         if (raw && g === 'extra') {
-          if (!seen.has(id(raw))) { seen.add(id(raw)); extras[ti].push(raw); extras[ti].sort((a, b) => a.size - b.size || a.tries - b.tries); save(); }
+          if (!seen.has(id(raw))) { seen.add(id(raw)); added++; extras[ti].push(raw); extras[ti].sort((a, b) => a.size - b.size || a.tries - b.tries); save(); }
         } else if (raw) { results.set(key(ti, g, li), raw); save(); } else missing++;
         const name = `${THEMES[ti].id} ${g === 'extra' ? 'Extra' : DIFFICULTY[g].name} ${SIZES[li]}x${SIZES[li]}`;
         const info = raw ? `${raw.tries} tries, ${raw.clues.length} clues` : 'NONE';

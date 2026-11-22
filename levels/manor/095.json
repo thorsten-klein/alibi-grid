@@ -1,121 +1,107 @@
 {
-  "size": 7,
-  "rooms": "0000111000011122221112222111333344433334443333444",
-  "objects": ".........b..e.b...ab.......a..ff.aea....bb....a..",
+  "size": 6,
+  "rooms": "000111000111000111222222333344333344",
+  "objects": ".fa.......d....ad.a...c...b........f",
   "roomNames": [
-    "Ballroom",
+    "Dining Room",
+    "Gallery",
     "Library",
-    "Kitchen",
-    "Cellar",
-    "Conservatory"
+    "Pantry",
+    "Ballroom"
   ],
   "people": [
-    "Ada the architect",
-    "Vivian the vicar",
-    "Birgit the butler",
-    "Cedric the colonel",
-    "Dmitri the dealer",
-    "Ena the envoy",
-    "Frank the florist"
+    "Ada the author",
+    "Bella the butler",
+    "Victor the vicar",
+    "Celia the cook",
+    "Daisy the dealer",
+    "Elsa the envoy"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
-      "next",
-      "sofa"
+      "on",
+      "chair"
     ],
     [
       1,
-      "next",
-      "plant"
+      "window"
     ],
     [
       2,
       "on",
-      "sofa"
-    ],
-    [
-      2,
-      "next",
       "chair"
     ],
     [
       3,
-      "door"
-    ],
-    [
-      4,
       "next",
       "chair"
     ],
     [
-      5,
-      "next",
-      "plant"
+      4,
+      "alone"
     ],
     [
-      6,
-      "row",
-      6
+      5,
+      "door"
     ]
   ],
   "solution": [
     2,
     11,
+    15,
     19,
     24,
-    28,
-    41,
-    43
+    34
   ],
   "doors": [
     [
-      3,
-      4
+      2,
+      3
     ],
     [
-      7,
-      14
+      14,
+      20
     ],
     [
-      17,
-      18
+      16,
+      22
     ],
     [
-      25,
-      32
+      20,
+      26
     ],
     [
-      24,
-      31
+      23,
+      29
     ],
     [
-      38,
-      39
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
-    ],
-    [
-      4,
-      "t"
-    ],
-    [
-      35,
+      0,
       "l"
     ],
     [
-      41,
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      35,
       "r"
     ]
   ],
-  "tries": 0,
-  "hard": 6,
-  "hardest": 5,
-  "steps": 19,
+  "tries": 1,
+  "hard": 4,
+  "hardest": 3,
+  "steps": 17,
   "extra": true
 }

@@ -1,66 +1,64 @@
 {
-  "size": 12,
-  "rooms": "000111122222000111122222000111122222000111133333444444433333444444433333444444433333556666777888556666777888556666777888556666777888556666777888",
-  "objects": "ff...dbe.....a....b.....e.......f........c.d.fff...bfb.....b...f...f..aefcc...bae...a..f..b..ec..b..a.....da.c....b......a.a.b..b..d.a....c.e...",
+  "size": 10,
+  "rooms": "0000111111000011111122223333332222333333222244443322224444335555444444555544444466666777776666677777",
+  "objects": ".bb.a.b.a.......e.f.f...fa.be..f...........fc.d.....a...a...e....f..............bcb.b..da..c.....cd.",
   "roomNames": [
     "Chapel",
-    "Great Hall",
-    "Solar",
-    "Courtyard",
-    "Kitchen",
+    "Dungeon",
+    "Throne Room",
+    "Stables",
     "Smithy",
     "Tower",
-    "Throne Room",
-    "Dungeon"
+    "Kitchen",
+    "Courtyard"
   ],
   "people": [
-    "Albert the archer",
+    "Astrid the alchemist",
+    "Viola the verger",
     "Bella the baker",
-    "Carl the chronicler",
-    "Vivian the vintner",
-    "Dexter the dancer",
-    "Elias the envoy",
-    "Felix the falconer",
-    "Gus the glassmaker",
-    "Henrik the herbalist",
-    "Ivo the innkeeper",
-    "Jade the jester",
-    "Konrad the keykeeper"
+    "Carl the cupbearer",
+    "Daisy the doorkeeper",
+    "Elsa the envoy",
+    "Felix the farrier",
+    "Gideon the groom",
+    "Hugo the herald",
+    "Ivy the innkeeper"
   ],
-  "victim": 3,
+  "victim": 1,
   "clues": [
     [
       0,
-      "alone"
-    ],
-    [
-      1,
       "on",
       "bench"
     ],
     [
-      2,
+      0,
       "next",
-      "barrel"
+      "urn"
+    ],
+    [
+      2,
+      "door"
     ],
     [
       3,
-      "window"
+      "notRoom",
+      7
     ],
     [
       4,
       "same",
-      5
+      2
     ],
     [
       5,
       "next",
-      "swords"
+      "barrel"
     ],
     [
       5,
       "same",
-      6
+      7
     ],
     [
       6,
@@ -68,154 +66,111 @@
     ],
     [
       7,
-      "same",
-      11
-    ],
-    [
-      8,
-      "next",
-      "cot"
-    ],
-    [
-      8,
       "door"
+    ],
+    [
+      8,
+      "col",
+      5
     ],
     [
       9,
       "next",
-      "bench"
-    ],
-    [
-      10,
-      "next",
-      "candles"
-    ],
-    [
-      11,
-      "row",
-      11
-    ],
-    [
-      11,
-      "col",
-      4
+      "cot"
     ]
   ],
   "solution": [
-    11,
-    13,
-    29,
+    8,
+    19,
+    22,
     36,
-    57,
-    68,
-    79,
-    86,
-    102,
-    111,
-    130,
-    136
+    41,
+    54,
+    63,
+    77,
+    85,
+    90
   ],
   "doors": [
     [
-      2,
-      3
+      13,
+      14
     ],
     [
-      38,
-      50
+      12,
+      22
     ],
     [
-      30,
-      31
+      17,
+      27
     ],
     [
-      42,
-      43
+      33,
+      34
     ],
     [
-      42,
-      54
-    ],
-    [
-      32,
+      43,
       44
     ],
     [
-      54,
-      55
+      53,
+      63
     ],
     [
-      79,
-      91
+      34,
+      44
     ],
     [
-      81,
-      93
+      63,
+      64
     ],
     [
-      72,
+      74,
       84
     ],
     [
-      75,
+      77,
       87
     ],
     [
-      78,
-      90
+      70,
+      80
     ],
     [
-      133,
-      134
-    ],
-    [
-      101,
-      102
-    ],
-    [
-      140,
-      141
+      94,
+      95
     ]
   ],
   "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      4,
+      "t"
+    ],
     [
       6,
       "t"
     ],
     [
-      36,
-      "l"
+      7,
+      "t"
     ],
     [
-      48,
-      "l"
+      9,
+      "t"
     ],
     [
-      59,
-      "r"
-    ],
-    [
-      84,
-      "l"
-    ],
-    [
-      96,
-      "l"
-    ],
-    [
-      107,
-      "r"
+      95,
+      "b"
     ]
   ],
   "facts": [
     [
-      "corner",
-      null,
-      4
-    ],
-    [
       "roomCount",
-      0,
+      1,
       2
     ]
   ],
@@ -223,14 +178,13 @@
     "ranks"
   ],
   "court": [
-    1,
     2,
     6
   ],
-  "rank": "nkkkckknknkn",
-  "tries": 5,
-  "hard": 10,
-  "hardest": 9,
-  "steps": 39,
+  "rank": "kcncnccckn",
+  "tries": 0,
+  "hard": 4,
+  "hardest": 7,
+  "steps": 24,
   "extra": true
 }

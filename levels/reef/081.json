@@ -1,52 +1,46 @@
 {
   "size": 6,
-  "rooms": "001222001222001222333222333222333444",
-  "objects": "..............b.....b.........ab...d",
+  "rooms": "000000000000111100111100222233222233",
+  "objects": "............d.....ee.............a..",
   "roomNames": [
-    "Sloop",
-    "Brig",
     "Open Sea",
-    "Sea Cave",
-    "Frigate"
+    "Frigate",
+    "Galleon",
+    "Dock"
   ],
   "people": [
-    "Arthur the admiral",
-    "Basil the barkeep",
-    "Cedric the cook",
-    "Vera the vintner",
-    "Dmitri the deckhand",
-    "Elias the explorer"
+    "Albert the admiral",
+    "Basil the boatswain",
+    "Celia the captain",
+    "Dora the deckhand",
+    "Vince the vintner",
+    "Edith the engineer"
   ],
-  "victim": 3,
+  "victim": 4,
   "clues": [
     [
       0,
-      "notRoom",
-      0
-    ],
-    [
-      0,
-      "row",
-      0
-    ],
-    [
-      1,
       "alone"
     ],
     [
-      2,
+      1,
       "row",
-      2
+      1
+    ],
+    [
+      1,
+      "col",
+      3
     ],
     [
       2,
       "col",
-      4
+      5
     ],
     [
       3,
-      "next",
-      "hammock"
+      "notRoom",
+      1
     ],
     [
       3,
@@ -55,76 +49,70 @@
     ],
     [
       4,
-      "notRoom",
-      0
-    ],
-    [
-      4,
-      "alone"
+      "col",
+      1
     ],
     [
       5,
-      "door"
+      "col",
+      0
     ]
   ],
   "solution": [
-    5,
-    6,
-    16,
-    19,
-    27,
-    32
+    2,
+    9,
+    17,
+    22,
+    25,
+    30
   ],
   "doors": [
     [
-      7,
-      8
+      18,
+      24
     ],
     [
-      13,
-      19
-    ],
-    [
-      14,
-      20
-    ],
-    [
-      32,
-      33
+      33,
+      34
     ]
   ],
   "windows": [
-    [
-      1,
-      "t"
-    ],
-    [
-      2,
-      "t"
-    ],
     [
       24,
       "l"
     ],
     [
+      29,
+      "r"
+    ],
+    [
       35,
       "r"
+    ],
+    [
+      35,
+      "b"
     ]
   ],
   "tries": 0,
   "facts": [
     [
-      "edge",
+      "corner",
       null,
-      3
+      2
+    ],
+    [
+      "doorCount",
+      null,
+      0
     ]
   ],
   "rules": [
     "sea"
   ],
-  "sea": 2,
-  "hard": 1,
-  "hardest": 3,
-  "steps": 15,
+  "sea": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
   "extra": true
 }

@@ -1,115 +1,105 @@
 {
-  "size": 6,
-  "rooms": "001111001111001111223344223344223344",
-  "objects": "fa...cd........eaf........b.add...cf",
+  "size": 5,
+  "rooms": "0000011222112223333333333",
+  "objects": "d.bc...ea..cff.....c.a...",
   "roomNames": [
-    "Ski Room",
-    "Spa",
-    "Games Room",
-    "Kitchen",
-    "Terrace"
+    "Suite",
+    "Lobby",
+    "Dining Hall",
+    "Fireside Lounge"
   ],
   "people": [
+    "Ada the athlete",
+    "Basil the baker",
+    "Celia the climber",
     "Vivian the vlogger",
-    "Arthur the avalanche guard",
-    "Birgit the baker",
-    "Clara the climber",
-    "Della the driver",
-    "Edith the engineer"
+    "Daisy the driver"
   ],
-  "victim": 0,
+  "victim": 3,
   "clues": [
     [
+      0,
+      "door"
+    ],
+    [
       1,
-      "next",
+      "on",
       "chair"
     ],
     [
       2,
-      "next",
-      "tree"
-    ],
-    [
-      3,
-      "next",
-      "fire"
-    ],
-    [
-      3,
-      "door"
+      "notRoom",
+      0
     ],
     [
       4,
-      "next",
-      "fire"
-    ],
-    [
-      5,
-      "door"
+      "col",
+      2
     ]
   ],
   "solution": [
     4,
-    7,
-    14,
-    23,
-    24,
-    33
+    8,
+    10,
+    16,
+    22
   ],
   "doors": [
     [
-      13,
-      14
+      0,
+      5
     ],
     [
-      13,
+      4,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      10,
+      15
+    ],
+    [
+      14,
       19
-    ],
-    [
-      15,
-      21
-    ],
-    [
-      17,
-      23
-    ],
-    [
-      31,
-      32
-    ],
-    [
-      33,
-      34
     ]
   ],
   "windows": [
     [
-      0,
+      3,
       "t"
     ],
     [
-      5,
-      "t"
-    ],
-    [
-      29,
+      19,
       "r"
     ],
     [
-      30,
-      "l"
+      21,
+      "b"
     ]
   ],
   "facts": [
     [
-      "furniture",
+      "touch",
       null,
+      1
+    ],
+    [
+      "onCount",
+      "chair",
+      1
+    ],
+    [
+      "nextCount",
+      "sofa",
       0
     ]
   ],
-  "tries": 0,
-  "hard": 4,
-  "hardest": 4,
-  "steps": 15,
+  "tries": 4,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
   "extra": true
 }

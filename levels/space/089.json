@@ -1,32 +1,31 @@
 {
   "size": 6,
-  "rooms": "000111000111222233222233444433444433",
-  "objects": "...a...e.b..bae..b..c...d..ef..b..a.",
+  "rooms": "001111001111000222000222333444333444",
+  "objects": ".....b..d......a...f..bcfbbccaff....",
   "roomNames": [
-    "Lab",
+    "Comms",
+    "Med Bay",
+    "Cargo Bay",
     "Bridge",
-    "Gym",
-    "Airlock",
-    "Engine Room"
+    "Airlock"
   ],
   "people": [
-    "Viola the volunteer",
-    "Albert the analyst",
-    "Bruno the botanist",
-    "Cedric the chemist",
-    "Della the doctor",
-    "Elias the engineer"
+    "Astrid the analyst",
+    "Bea the biologist",
+    "Vera the visitor",
+    "Clara the chemist",
+    "Della the driller",
+    "Elias the electrician"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
       0,
-      "next",
-      "plant"
+      "window"
     ],
     [
       1,
-      "window"
+      "alone"
     ],
     [
       2,
@@ -34,85 +33,82 @@
     ],
     [
       3,
-      "next",
+      "on",
       "pod"
     ],
     [
       4,
-      "alone"
+      "on",
+      "pod"
     ],
     [
       5,
-      "on",
-      "seat"
+      "same",
+      4
     ]
   ],
   "solution": [
-    1,
-    6,
-    15,
-    23,
-    26,
-    34
+    0,
+    9,
+    17,
+    22,
+    25,
+    32
   ],
   "doors": [
     [
-      8,
-      9
+      1,
+      2
     ],
     [
-      8,
-      14
-    ],
-    [
-      9,
+      14,
       15
-    ],
-    [
-      11,
-      17
-    ],
-    [
-      15,
-      16
     ],
     [
       19,
       25
     ],
     [
-      27,
-      28
+      11,
+      17
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      6,
-      "l"
+      0,
+      "t"
     ],
     [
-      17,
+      23,
       "r"
     ],
     [
-      34,
+      31,
       "b"
     ],
     [
-      35,
-      "r"
+      33,
+      "b"
     ]
   ],
-  "tries": 7,
+  "tries": 2,
   "facts": [
     [
-      "roomCount",
-      2,
-      1
+      "furniture",
+      null,
+      2
     ]
   ],
-  "hard": 2,
-  "hardest": 3,
-  "steps": 19,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
   "extra": true
 }

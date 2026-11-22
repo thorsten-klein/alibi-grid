@@ -1,118 +1,102 @@
 {
-  "size": 8,
-  "rooms": "0000001100000011222200112222001133344555333445553334455533344555",
-  "objects": "...a..........a..eeaa.effd.ca.c..d.ab.fb....f..d....aa.b.c.b....",
+  "size": 7,
+  "rooms": "0000111000011122221112222111333344433334443333444",
+  "objects": "a.......b.b.be....df............b..a.ebb.f..f....",
   "roomNames": [
-    "Box Office",
-    "Dressing Room",
+    "Costume Room",
     "Bar",
-    "Orchestra Pit",
-    "Green Room",
-    "Balcony"
+    "Lighting Booth",
+    "Box Office",
+    "Wings"
   ],
   "people": [
-    "Vince the violinist",
-    "Ada the agent",
+    "Ada the author",
     "Bea the bass player",
-    "Carl the critic",
-    "Dora the director",
-    "Ena the extra",
-    "Freya the fan",
-    "Gus the guitarist"
+    "Carl the choreographer",
+    "Victor the ventriloquist",
+    "Dexter the director",
+    "Edith the electrician",
+    "Frank the fan"
   ],
-  "victim": 0,
+  "victim": 3,
   "clues": [
     [
-      1,
-      "next",
-      "seat"
+      0,
+      "alone"
     ],
     [
       1,
-      "row",
-      1
+      "next",
+      "sofa"
+    ],
+    [
+      1,
+      "col",
+      2
     ],
     [
       2,
       "door"
     ],
     [
-      2,
-      "same",
-      3
-    ],
-    [
       3,
-      "next",
-      "mirror"
+      "row",
+      3
     ],
     [
       4,
       "next",
-      "mirror"
+      "sofa"
     ],
     [
       5,
-      "same",
-      7
+      "on",
+      "sofa"
     ],
     [
       6,
-      "on",
-      "seat"
+      "same",
+      4
     ],
     [
-      7,
+      6,
       "next",
-      "sofa"
+      "light"
     ]
   ],
   "solution": [
-    1,
-    12,
-    19,
-    26,
-    32,
-    46,
-    53,
-    63
+    4,
+    9,
+    14,
+    22,
+    33,
+    38,
+    48
   ],
   "doors": [
     [
-      5,
-      6
+      10,
+      11
     ],
     [
-      19,
-      20
+      7,
+      14
     ],
     [
-      28,
-      36
-    ],
-    [
-      29,
-      37
-    ],
-    [
-      30,
-      38
-    ],
-    [
-      26,
-      34
+      24,
+      25
     ],
     [
       27,
-      35
+      34
     ],
     [
-      58,
-      59
+      21,
+      28
     ],
     [
-      52,
-      53
+      45,
+      46
     ]
   ],
   "windows": [
@@ -121,25 +105,28 @@
       "l"
     ],
     [
-      8,
-      "l"
+      3,
+      "t"
     ],
     [
-      16,
-      "l"
+      27,
+      "r"
     ],
     [
-      56,
-      "b"
-    ],
-    [
-      60,
+      42,
       "b"
     ]
   ],
-  "tries": 7,
-  "hard": 4,
-  "hardest": 4,
-  "steps": 28,
+  "tries": 4,
+  "facts": [
+    [
+      "edge",
+      null,
+      3
+    ]
+  ],
+  "hard": 3,
+  "hardest": 5,
+  "steps": 22,
   "extra": true
 }

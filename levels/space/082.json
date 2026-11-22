@@ -1,40 +1,41 @@
 {
   "size": 6,
-  "rooms": "001111001111000222000222333444333444",
-  "objects": ".....b..d......a...f..bcfbbccaff....",
+  "rooms": "001122001122001122334422334422334422",
+  "objects": ".d....d..ba..bb.c....f.d.be........a",
   "roomNames": [
+    "Mess Hall",
     "Comms",
-    "Med Bay",
     "Cargo Bay",
-    "Bridge",
+    "Gym",
     "Airlock"
   ],
   "people": [
-    "Astrid the analyst",
-    "Bea the biologist",
-    "Vera the visitor",
-    "Clara the chemist",
-    "Della the driller",
-    "Elias the electrician"
+    "Ada the analyst",
+    "Birgit the biologist",
+    "Clara the captain",
+    "Vera the volunteer",
+    "Dora the doctor",
+    "Elsa the electrician"
   ],
-  "victim": 2,
+  "victim": 3,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
-      "alone"
-    ],
-    [
-      2,
       "door"
     ],
     [
+      1,
+      "next",
+      "seat"
+    ],
+    [
+      2,
+      "same",
+      0
+    ],
+    [
       3,
-      "on",
-      "pod"
+      "door"
     ],
     [
       4,
@@ -42,73 +43,81 @@
       "pod"
     ],
     [
+      4,
+      "door"
+    ],
+    [
       5,
       "same",
-      4
+      1
+    ],
+    [
+      5,
+      "door"
     ]
   ],
   "solution": [
-    0,
-    9,
-    17,
-    22,
+    3,
+    11,
+    14,
+    18,
     25,
-    32
+    34
   ],
   "doors": [
     [
-      1,
-      2
+      7,
+      8
     ],
     [
-      14,
-      15
+      12,
+      18
     ],
     [
-      19,
-      25
+      3,
+      4
     ],
     [
-      11,
-      17
+      15,
+      21
     ],
     [
-      23,
-      29
+      33,
+      34
     ],
     [
-      26,
-      27
+      25,
+      26
     ]
   ],
   "windows": [
     [
-      0,
+      3,
       "t"
     ],
     [
-      23,
+      17,
       "r"
     ],
     [
-      31,
-      "b"
+      30,
+      "l"
     ],
     [
-      33,
+      32,
       "b"
     ]
   ],
-  "tries": 2,
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 14,
   "facts": [
     [
-      "furniture",
-      null,
+      "onCount",
+      "pod",
       2
     ]
   ],
-  "hard": 0,
-  "hardest": 2,
-  "steps": 14,
   "extra": true
 }

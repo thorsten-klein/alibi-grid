@@ -1,51 +1,57 @@
 {
   "size": 7,
-  "rooms": "0000111000011100001112222333222233344443334444333",
-  "objects": "...f..........a...b...d..a..a....ce..bc.e....c.c.",
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "dd.........b..c.....fbb.f.d.....dac.f..cf.......c",
   "roomNames": [
-    "Terrace",
-    "Bar",
     "Lobby",
+    "Bar",
     "Sauna",
-    "Spa"
+    "Kitchen",
+    "Suite"
   ],
   "people": [
-    "Arthur the avalanche guard",
-    "Bea the bartender",
-    "Cedric the climber",
-    "Vera the vlogger",
-    "Della the doctor",
-    "Edith the explorer",
+    "Albert the avalanche guard",
+    "Bella the baker",
+    "Cora the cook",
+    "Dexter the doctor",
+    "Edgar the engineer",
+    "Viola the vet",
     "Fiona the fisher"
   ],
-  "victim": 3,
+  "victim": 5,
   "clues": [
     [
       0,
-      "window"
+      "door"
     ],
     [
       1,
-      "col",
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "same",
       1
     ],
     [
       2,
-      "on",
+      "next",
       "sofa"
     ],
     [
-      4,
-      "alone"
-    ],
-    [
-      5,
+      3,
       "next",
-      "tree"
+      "fire"
     ],
     [
-      6,
-      "window"
+      3,
+      "door"
+    ],
+    [
+      4,
+      "next",
+      "fire"
     ],
     [
       6,
@@ -53,67 +59,67 @@
     ]
   ],
   "solution": [
-    2,
-    8,
-    18,
-    26,
-    31,
+    3,
+    7,
+    15,
+    25,
+    33,
     41,
-    42
+    44
   ],
   "doors": [
     [
-      3,
-      4
+      2,
+      3
     ],
     [
-      14,
-      21
+      16,
+      17
     ],
     [
-      19,
-      26
+      23,
+      30
     ],
     [
-      24,
-      25
+      10,
+      17
     ],
     [
-      28,
-      35
+      25,
+      32
     ],
     [
-      38,
-      39
+      30,
+      31
     ]
   ],
   "windows": [
     [
-      2,
+      0,
       "t"
     ],
     [
-      7,
-      "l"
-    ],
-    [
-      34,
+      6,
       "r"
     ],
     [
-      42,
-      "b"
+      6,
+      "t"
+    ],
+    [
+      20,
+      "r"
     ]
   ],
-  "tries": 4,
+  "tries": 0,
   "facts": [
     [
       "roomCount",
-      4,
-      1
+      0,
+      2
     ]
   ],
-  "hard": 3,
+  "hard": 6,
   "hardest": 5,
   "steps": 18,
   "extra": true

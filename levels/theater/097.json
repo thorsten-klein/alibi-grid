@@ -1,125 +1,127 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100022220002222333444433344443334444",
-  "objects": ".......b..f.cd.d.b..b.f...d.d..a.........aea...fc",
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "....e...........ae........b..e...b..",
   "roomNames": [
-    "Balcony",
-    "Wings",
-    "Green Room",
     "Prop Store",
-    "Foyer"
+    "Dressing Room",
+    "Orchestra Pit",
+    "Balcony",
+    "Stage"
   ],
   "people": [
-    "Alma the agent",
-    "Bea the baritone",
+    "Ada the agent",
+    "Bella the bass player",
     "Celia the critic",
-    "Della the dancer",
-    "Elias the extra",
-    "Freya the fan",
-    "Viola the ventriloquist"
+    "Vince the violinist",
+    "Dmitri the dancer",
+    "Elias the extra"
   ],
-  "victim": 6,
+  "victim": 3,
   "clues": [
     [
       0,
-      "window"
+      "alone"
     ],
     [
       1,
       "door"
     ],
     [
+      1,
+      "alone"
+    ],
+    [
       2,
-      "on",
-      "sofa"
+      "next",
+      "rack"
     ],
     [
-      3,
-      "same",
-      2
-    ],
-    [
-      3,
+      2,
       "door"
     ],
     [
       4,
-      "alone"
+      "next",
+      "sofa"
     ],
     [
       5,
       "next",
-      "seat"
+      "rack"
     ]
   ],
   "solution": [
     0,
-    9,
-    20,
-    24,
-    29,
-    40,
-    46
+    8,
+    16,
+    21,
+    25,
+    35
   ],
   "doors": [
     [
-      9,
-      10
+      7,
+      8
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      10,
+      16
+    ],
+    [
+      20,
+      26
     ],
     [
       23,
-      24
-    ],
-    [
-      22,
       29
     ],
     [
-      12,
-      19
-    ],
-    [
-      24,
-      31
-    ],
-    [
-      44,
-      45
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      0,
+      1,
       "t"
     ],
     [
-      5,
-      "t"
+      11,
+      "r"
     ],
     [
-      21,
+      18,
       "l"
     ],
     [
-      41,
-      "r"
+      30,
+      "l"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
   "facts": [
     [
-      "nextCount",
-      "piano",
-      0
+      "roomCount",
+      3,
+      1
     ],
     [
-      "nextCount",
-      "light",
-      2
+      "onCount",
+      "seat",
+      1
     ]
   ],
-  "hard": 5,
-  "hardest": 5,
-  "steps": 24,
+  "hard": 6,
+  "hardest": 6,
+  "steps": 22,
   "extra": true
 }

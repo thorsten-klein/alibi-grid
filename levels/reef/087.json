@@ -1,104 +1,112 @@
 {
   "size": 6,
-  "rooms": "001111001111000022000022330000330000",
-  "objects": "....b....bd......f....d..e..........",
+  "rooms": "000000000000111100222200333444333444",
+  "objects": "..................f.c...e...a.b.....",
   "roomNames": [
     "Open Sea",
-    "Longboat",
-    "Fort",
+    "Sloop",
+    "Lighthouse",
+    "Sea Cave",
     "Frigate"
   ],
   "people": [
-    "Arthur the armorer",
-    "Viola the vintner",
-    "Bea the barkeep",
-    "Cora the cook",
-    "Dexter the diver",
-    "Ena the explorer"
+    "Astrid the admiral",
+    "Birgit the boatswain",
+    "Celia the captain",
+    "Dora the deckhand",
+    "Victor the voyager",
+    "Elias the explorer"
   ],
-  "victim": 1,
+  "victim": 4,
   "clues": [
     [
       0,
-      "row",
-      0
+      "col",
+      4
     ],
     [
       1,
-      "on",
-      "hammock"
+      "row",
+      1
     ],
     [
       2,
-      "row",
-      2
+      "door"
     ],
     [
       3,
-      "next",
-      "crate"
-    ],
-    [
-      4,
-      "alone"
-    ],
-    [
-      5,
-      "next",
-      "map"
-    ],
-    [
-      5,
       "row",
-      5
+      3
+    ],
+    [
+      5,
+      "on",
+      "hammock"
     ]
   ],
   "solution": [
-    2,
-    9,
-    12,
+    4,
+    7,
+    15,
     23,
-    28,
-    31
+    26,
+    30
   ],
   "doors": [
     [
-      10,
-      16
+      15,
+      21
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      3,
-      "t"
+      18,
+      "l"
     ],
     [
-      4,
-      "t"
+      24,
+      "l"
     ],
     [
-      23,
-      "r"
-    ],
-    [
-      30,
+      31,
       "b"
+    ],
+    [
+      35,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 1,
   "facts": [
     [
-      "onCount",
-      "hammock",
-      1
+      "touch",
+      null,
+      0
+    ],
+    [
+      "doorCount",
+      null,
+      2
     ]
   ],
   "rules": [
     "sea"
   ],
   "sea": 0,
-  "hard": 1,
-  "hardest": 4,
-  "steps": 17,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
   "extra": true
 }

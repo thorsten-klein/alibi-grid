@@ -1,26 +1,30 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "...e...f.b.ee....f.d..ec.",
+  "rooms": "0001100011222332223322233",
+  "objects": "..da.a.d..f......b..aa..d",
   "roomNames": [
-    "Ski Room",
-    "Games Room",
-    "Spa",
-    "Terrace"
+    "Suite",
+    "Bar",
+    "Kitchen",
+    "Sauna"
   ],
   "people": [
-    "Albert the athlete",
-    "Basil the bartender",
-    "Vera the vlogger",
-    "Cora the cook",
-    "Daisy the doctor"
+    "Alma the athlete",
+    "Bella the baker",
+    "Victor the vlogger",
+    "Celia the cook",
+    "Della the doctor"
   ],
   "victim": 2,
   "clues": [
     [
       0,
-      "next",
-      "wood"
+      "alone"
+    ],
+    [
+      1,
+      "on",
+      "chair"
     ],
     [
       1,
@@ -29,67 +33,59 @@
     [
       3,
       "next",
-      "skis"
+      "chair"
     ],
     [
       4,
-      "next",
-      "tree"
+      "window"
+    ],
+    [
+      4,
+      "alone"
     ]
   ],
   "solution": [
-    2,
+    4,
     5,
-    14,
-    18,
-    21
+    12,
+    16,
+    23
   ],
   "doors": [
     [
+      2,
+      3
+    ],
+    [
       6,
-      7
-    ],
-    [
-      5,
-      10
-    ],
-    [
-      7,
-      12
+      11
     ],
     [
       9,
       14
     ],
     [
-      17,
-      18
+      12,
+      13
     ]
   ],
   "windows": [
     [
-      9,
-      "r"
+      0,
+      "t"
     ],
     [
-      15,
+      20,
       "l"
     ],
     [
-      19,
-      "r"
+      23,
+      "b"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "corner",
-      null,
-      3
-    ]
-  ],
+  "tries": 1,
   "hard": 2,
-  "hardest": 3,
-  "steps": 14,
+  "hardest": 4,
+  "steps": 12,
   "extra": true
 }

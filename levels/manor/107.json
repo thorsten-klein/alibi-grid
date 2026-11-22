@@ -1,24 +1,24 @@
 {
   "size": 7,
-  "rooms": "0000111000011100001112222333222233344443334444333",
-  "objects": "a..a.........e..e.ef.be..a.......e.d..a........b.",
+  "rooms": "0000111000011122221112222111333444433344443334444",
+  "objects": ".ffad..c.b..e..c..ae.b........fd..b....f..c.b.d.b",
   "roomNames": [
-    "Study",
-    "Gallery",
+    "Ballroom",
     "Pantry",
-    "Kitchen",
-    "Billiard Room"
+    "Billiard Room",
+    "Gallery",
+    "Hall"
   ],
   "people": [
-    "Alma the author",
+    "Vince the vicar",
+    "Arthur the author",
     "Basil the banker",
-    "Carl the cook",
-    "Viola the valet",
-    "Daisy the doctor",
-    "Ena the envoy",
-    "Frank the florist"
+    "Cora the cook",
+    "Dexter the dealer",
+    "Edgar the editor",
+    "Flora the florist"
   ],
-  "victim": 3,
+  "victim": 0,
   "clues": [
     [
       0,
@@ -26,109 +26,115 @@
       4
     ],
     [
-      0,
-      "next",
-      "chair"
-    ],
-    [
       1,
       "next",
-      "plant"
+      "shelf"
     ],
     [
       2,
       "next",
-      "clock"
+      "shelf"
+    ],
+    [
+      2,
+      "door"
     ],
     [
       3,
-      "on",
-      "sofa"
+      "next",
+      "chair"
     ],
     [
       4,
-      "notRoom",
-      4
+      "door"
     ],
     [
       5,
       "next",
+      "clock"
+    ],
+    [
+      6,
+      "on",
       "sofa"
     ],
     [
       6,
-      "col",
-      1
+      "alone"
     ]
   ],
   "solution": [
-    2,
-    11,
-    20,
-    21,
-    31,
-    40,
-    43
+    6,
+    8,
+    14,
+    25,
+    33,
+    38,
+    44
   ],
   "doors": [
+    [
+      10,
+      11
+    ],
+    [
+      7,
+      14
+    ],
     [
       17,
       18
     ],
     [
-      17,
-      24
+      26,
+      33
     ],
     [
-      20,
-      27
+      22,
+      29
     ],
     [
       24,
-      25
+      31
     ],
     [
-      29,
-      36
-    ],
-    [
-      45,
-      46
+      44,
+      45
     ]
   ],
   "windows": [
     [
-      3,
+      2,
       "t"
     ],
     [
-      4,
-      "t"
-    ],
-    [
-      13,
+      27,
       "r"
     ],
     [
-      14,
-      "l"
-    ]
-  ],
-  "tries": 7,
-  "facts": [
-    [
-      "roomCount",
-      4,
-      1
+      41,
+      "r"
     ],
     [
-      "nextCount",
-      "clock",
-      1
+      43,
+      "b"
     ]
   ],
-  "hard": 4,
-  "hardest": 4,
-  "steps": 20,
+  "tries": 1,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      0
+    ],
+    [
+      "corner",
+      null,
+      4
+    ]
+  ],
   "extra": true
 }

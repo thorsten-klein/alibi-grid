@@ -1,87 +1,81 @@
 {
   "size": 6,
-  "rooms": "000111000111222111222111333444333444",
-  "objects": ".ea.........d....aa.....b.a......ab.",
+  "rooms": "000000000000111222111222333444333444",
+  "objects": ".b...ab.ba...bca...bb...cb..a.c.....",
   "roomNames": [
-    "Balcony",
-    "Lighting Booth",
+    "Foyer",
     "Bar",
-    "Box Office",
-    "Stage"
+    "Stage",
+    "Orchestra Pit",
+    "Costume Room"
   ],
   "people": [
-    "Ada the agent",
-    "Bruno the bass player",
-    "Viola the violinist",
-    "Cedric the critic",
-    "Della the dancer",
-    "Elias the extra"
+    "Astrid the agent",
+    "Basil the baritone",
+    "Carl the choreographer",
+    "Della the director",
+    "Edith the extra",
+    "Vera the violinist"
   ],
-  "victim": 2,
+  "victim": 5,
   "clues": [
     [
       0,
-      "on",
-      "seat"
+      "same",
+      1
     ],
     [
       1,
-      "next",
-      "rack"
+      "on",
+      "sofa"
     ],
     [
       2,
-      "door"
+      "window"
     ],
     [
       3,
-      "next",
-      "seat"
+      "door"
     ],
     [
       4,
-      "notRoom",
-      3
+      "on",
+      "sofa"
     ],
     [
       4,
       "next",
-      "sofa"
-    ],
-    [
-      5,
-      "next",
-      "sofa"
+      "piano"
     ]
   ],
   "solution": [
-    2,
-    7,
-    15,
-    23,
-    28,
-    30
+    4,
+    6,
+    17,
+    21,
+    25,
+    32
   ],
   "doors": [
     [
-      2,
-      3
+      8,
+      14
     ],
     [
-      7,
-      13
+      10,
+      16
     ],
     [
-      14,
-      15
+      20,
+      21
+    ],
+    [
+      18,
+      24
     ],
     [
       23,
       29
-    ],
-    [
-      19,
-      25
     ],
     [
       26,
@@ -90,32 +84,32 @@
   ],
   "windows": [
     [
-      5,
-      "r"
+      0,
+      "t"
     ],
     [
-      6,
+      0,
       "l"
     ],
     [
-      18,
-      "l"
+      17,
+      "r"
     ],
     [
-      29,
-      "r"
+      31,
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "edge",
-      null,
-      3
+      "roomCount",
+      2,
+      2
     ]
   ],
-  "hard": 6,
-  "hardest": 4,
-  "steps": 19,
+  "hard": 2,
+  "hardest": 5,
+  "steps": 17,
   "extra": true
 }

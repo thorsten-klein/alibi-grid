@@ -1,0 +1,157 @@
+{
+  "size": 10,
+  "rooms": "0001122222000112222200011333440001133344333333334433333333443333556666333355666633335566663333556666",
+  "objects": ".....d.......b.a..a.d.c.........d.....b...................db....dc.........c..fa.....c..e.........a.",
+  "roomNames": [
+    "Brig",
+    "Lighthouse",
+    "Galleon",
+    "Open Sea",
+    "Sea Cave",
+    "Frigate",
+    "Longboat"
+  ],
+  "people": [
+    "Astrid the armorer",
+    "Basil the barkeep",
+    "Clara the captain",
+    "Dora the diver",
+    "Elias the explorer",
+    "Freya the first mate",
+    "Gideon the gold digger",
+    "Vince the voyager",
+    "Hilda the harbor pilot",
+    "Isla the islander"
+  ],
+  "victim": 7,
+  "clues": [
+    [
+      0,
+      "window"
+    ],
+    [
+      1,
+      "next",
+      "stool"
+    ],
+    [
+      2,
+      "next",
+      "crate"
+    ],
+    [
+      3,
+      "on",
+      "hammock"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      0
+    ],
+    [
+      5,
+      "row",
+      5
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "next",
+      "cannon"
+    ],
+    [
+      8,
+      "alone"
+    ],
+    [
+      9,
+      "col",
+      5
+    ]
+  ],
+  "solution": [
+    3,
+    17,
+    21,
+    38,
+    40,
+    54,
+    66,
+    79,
+    82,
+    95
+  ],
+  "doors": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      58,
+      68
+    ],
+    [
+      65,
+      66
+    ]
+  ],
+  "windows": [
+    [
+      3,
+      "t"
+    ],
+    [
+      5,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      19,
+      "r"
+    ],
+    [
+      59,
+      "r"
+    ],
+    [
+      99,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "sea"
+  ],
+  "sea": 3,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 28,
+  "extra": true
+}

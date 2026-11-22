@@ -1,116 +1,131 @@
 {
   "size": 6,
-  "rooms": "001111001111223333223333224444224444",
-  "objects": ".f....b...e..ba.f..a.ead...aaaa..be.",
+  "rooms": "000111000111222111222111334444334444",
+  "objects": ".cb..f.bc.ab..bb.c.....b..........f.",
   "roomNames": [
-    "Kitchen",
-    "Chapel",
+    "Tower",
     "Dungeon",
     "Courtyard",
-    "Tower"
+    "Smithy",
+    "Great Hall"
   ],
   "people": [
-    "Arthur the archer",
-    "Basil the bard",
+    "Albert the alchemist",
+    "Bruno the baker",
     "Clara the cupbearer",
-    "Dora the doorkeeper",
-    "Vince the verger",
-    "Edgar the envoy"
+    "Della the doorkeeper",
+    "Victor the vintner",
+    "Edith the embroiderer"
   ],
   "victim": 4,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "bench"
     ],
     [
       1,
-      "next",
-      "urn"
-    ],
-    [
-      2,
       "next",
       "cot"
     ],
     [
+      2,
+      "on",
+      "cot"
+    ],
+    [
       3,
-      "next",
-      "bench"
+      "on",
+      "cot"
+    ],
+    [
+      3,
+      "door"
     ],
     [
       4,
-      "on",
-      "bench"
+      "row",
+      4
     ],
     [
       5,
-      "next",
-      "swords"
+      "door"
     ]
   ],
   "solution": [
-    3,
-    7,
-    12,
-    20,
-    28,
-    35
+    4,
+    9,
+    14,
+    23,
+    24,
+    31
   ],
   "doors": [
     [
-      7,
-      8
+      2,
+      3
     ],
     [
-      7,
-      13
-    ],
-    [
-      9,
-      15
-    ],
-    [
-      13,
+      8,
       14
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      20,
+      26
     ],
     [
       31,
       32
-    ],
-    [
-      21,
-      27
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      0,
+      "l"
     ],
     [
-      3,
-      "t"
-    ],
-    [
-      11,
+      29,
       "r"
     ],
     [
-      30,
+      33,
+      "b"
+    ],
+    [
+      34,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "facts": [
+    [
+      "nextCount",
+      "barrel",
+      1
+    ]
+  ],
   "rules": [
     "ranks"
   ],
   "court": [
-    3
+    1
   ],
-  "rank": "cccncc",
-  "hard": 3,
-  "hardest": 3,
-  "steps": 14,
+  "rank": "nnckkk",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 21,
   "extra": true
 }

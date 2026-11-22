@@ -1,125 +1,133 @@
 {
   "size": 6,
-  "rooms": "000000111222111222333344333344333344",
-  "objects": "..f....b..a.f...fa.............b.b..",
+  "rooms": "001111001111002222332222334444334444",
+  "objects": "..d..db......d....ae....a.......f..a",
   "roomNames": [
-    "Cave",
     "Fort",
     "Bank",
-    "Jail",
-    "Throne Room"
+    "Shrine",
+    "Throne Room",
+    "Captain Cabin"
   ],
   "people": [
-    "Albert the astronomer",
+    "Ada the astronomer",
+    "Bruno the bookbinder",
+    "Cedric the clockmaker",
     "Vivian the voyager",
-    "Bella the bard",
-    "Clara the clockmaker",
-    "Dora the dreamer",
-    "Ena the engineer"
+    "Daisy the dreamer",
+    "Edgar the engineer"
   ],
-  "victim": 1,
+  "victim": 3,
   "clues": [
     [
       0,
       "next",
-      "clock"
+      "barrel"
     ],
     [
       1,
-      "next",
-      "chair"
+      "col",
+      2
     ],
     [
       2,
-      "door"
-    ],
-    [
-      3,
-      "door"
-    ],
-    [
-      3,
       "bandit"
     ],
     [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
       4,
-      "col",
-      0
+      "next",
+      "boulder"
     ],
     [
       5,
       "next",
-      "log"
+      "chair"
     ]
   ],
   "solution": [
-    1,
-    11,
-    15,
-    22,
-    24,
-    32
+    3,
+    8,
+    16,
+    23,
+    25,
+    30
   ],
   "doors": [
     [
-      2,
-      8
-    ],
-    [
-      5,
-      11
-    ],
-    [
-      14,
-      15
+      1,
+      2
     ],
     [
       13,
-      19
+      14
     ],
     [
-      15,
-      21
+      12,
+      18
     ],
     [
-      16,
-      22
+      11,
+      17
     ],
     [
-      21,
-      22
+      19,
+      20
+    ],
+    [
+      23,
+      29
+    ],
+    [
+      31,
+      32
     ]
   ],
   "windows": [
     [
-      17,
-      "r"
+      4,
+      "t"
     ],
     [
-      23,
-      "r"
+      5,
+      "t"
     ],
     [
-      33,
+      18,
+      "l"
+    ],
+    [
+      31,
       "b"
-    ],
-    [
-      35,
-      "r"
     ]
   ],
-  "tries": 3,
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
   "rules": [
     "bandits",
     "glyphs"
   ],
-  "tags": "......................L.C..L.C......",
+  "tags": "...............L....C..C............",
   "bandits": 2,
   "lawful": [
-    2
+    1
   ],
-  "hard": 4,
-  "hardest": 4,
+  "hard": 0,
+  "hardest": 2,
   "steps": 16,
   "extra": true
 }

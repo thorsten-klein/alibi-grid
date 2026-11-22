@@ -1,23 +1,23 @@
 {
   "size": 6,
-  "rooms": "001122001122001122001122333344333344",
-  "objects": "ce.c.............b.a...a.b..b..eb..d",
+  "rooms": "001111001111223333223333224444224444",
+  "objects": ".f....b...e..ba.f..a.ead...aaaa..be.",
   "roomNames": [
-    "Solar",
-    "Armory",
+    "Kitchen",
     "Chapel",
-    "Great Hall",
-    "Gatehouse"
+    "Dungeon",
+    "Courtyard",
+    "Tower"
   ],
   "people": [
-    "Ada the archer",
-    "Bea the bard",
-    "Vince the vintner",
-    "Clara the chronicler",
+    "Arthur the archer",
+    "Basil the bard",
+    "Clara the cupbearer",
     "Dora the doorkeeper",
+    "Vince the verger",
     "Edgar the envoy"
   ],
-  "victim": 2,
+  "victim": 4,
   "clues": [
     [
       0,
@@ -26,20 +26,22 @@
     [
       1,
       "next",
-      "barrel"
+      "urn"
     ],
     [
       2,
       "next",
-      "bench"
+      "cot"
     ],
     [
       3,
-      "alone"
+      "next",
+      "bench"
     ],
     [
       4,
-      "door"
+      "on",
+      "bench"
     ],
     [
       5,
@@ -48,74 +50,67 @@
     ]
   ],
   "solution": [
-    4,
-    9,
-    17,
-    18,
-    25,
-    32
+    3,
+    7,
+    12,
+    20,
+    28,
+    35
   ],
   "doors": [
     [
-      19,
-      20
+      7,
+      8
     ],
     [
-      19,
-      25
+      7,
+      13
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
     ],
     [
       21,
-      22
-    ],
-    [
-      20,
-      26
-    ],
-    [
-      22,
-      28
-    ],
-    [
-      27,
-      28
+      27
     ]
   ],
   "windows": [
     [
-      4,
+      1,
       "t"
     ],
     [
-      30,
-      "l"
+      3,
+      "t"
+    ],
+    [
+      11,
+      "r"
     ],
     [
       30,
       "b"
-    ],
-    [
-      31,
-      "b"
     ]
   ],
-  "tries": 3,
-  "facts": [
-    [
-      "windowCount",
-      null,
-      1
-    ]
-  ],
+  "tries": 1,
   "rules": [
     "ranks"
   ],
   "court": [
-    1
+    3
   ],
-  "rank": "cncccc",
-  "hard": 2,
-  "hardest": 4,
-  "steps": 18,
+  "rank": "cccncc",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 14,
   "extra": true
 }

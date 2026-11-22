@@ -1,34 +1,33 @@
 {
   "size": 7,
   "rooms": "0000111000011122221112222111333444433344443334444",
-  "objects": "dc...a..e...a..ac.a.....d.......b....a.....b..bed",
+  "objects": "..b........f....d.ba.b..be....fb.d.acf.a.......f.",
   "roomNames": [
-    "Saloon",
+    "Barber",
     "Church",
-    "Corral",
-    "Jail",
-    "Sheriff Office"
+    "Saloon",
+    "Sheriff Office",
+    "Corral"
   ],
   "people": [
-    "Arthur the auctioneer",
-    "Birgit the blacksmith",
-    "Celia the cook",
-    "Della the dancer",
-    "Ena the editor",
-    "Victor the vaquero",
-    "Flora the farrier"
+    "Albert the attorney",
+    "Basil the blacksmith",
+    "Cora the cook",
+    "Daisy the dancer",
+    "Vince the vaquero",
+    "Elsa the editor",
+    "Frank the farrier"
   ],
-  "victim": 5,
+  "victim": 4,
   "clues": [
     [
       0,
-      "row",
-      0
+      "next",
+      "bed"
     ],
     [
       1,
-      "col",
-      6
+      "bandit"
     ],
     [
       2,
@@ -36,8 +35,9 @@
       "chair"
     ],
     [
-      2,
-      "withBandit"
+      3,
+      "next",
+      "bed"
     ],
     [
       3,
@@ -45,32 +45,36 @@
     ],
     [
       4,
-      "on",
-      "bed"
-    ],
-    [
-      5,
       "next",
       "bed"
     ],
     [
+      4,
+      "door"
+    ],
+    [
       5,
-      "row",
-      5
+      "next",
+      "horse"
+    ],
+    [
+      5,
+      "next",
+      "chair"
     ],
     [
       6,
       "next",
-      "bed"
+      "horse"
     ]
   ],
   "solution": [
     3,
-    13,
-    19,
-    21,
+    7,
+    20,
+    22,
     32,
-    36,
+    40,
     44
   ],
   "doors": [
@@ -79,54 +83,59 @@
       11
     ],
     [
-      10,
-      17
+      8,
+      15
     ],
     [
-      17,
-      18
+      24,
+      25
     ],
     [
-      27,
-      34
+      25,
+      32
     ],
     [
-      23,
-      30
+      22,
+      29
     ],
     [
       24,
       31
     ],
     [
-      37,
-      38
+      30,
+      31
     ]
   ],
   "windows": [
     [
-      6,
-      "t"
-    ],
-    [
-      7,
+      28,
       "l"
     ],
     [
-      35,
+      42,
       "l"
     ],
     [
-      43,
+      46,
+      "b"
+    ],
+    [
+      48,
       "b"
     ]
   ],
-  "tries": 4,
+  "tries": 0,
   "facts": [
     [
-      "nextCount",
-      "barrel",
+      "windowCount",
+      null,
       0
+    ],
+    [
+      "roomCount",
+      0,
+      2
     ]
   ],
   "rules": [
@@ -136,8 +145,8 @@
   "lawful": [
     4
   ],
-  "hard": 2,
-  "hardest": 4,
-  "steps": 19,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 17,
   "extra": true
 }

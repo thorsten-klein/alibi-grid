@@ -1,222 +1,192 @@
 {
-  "size": 12,
-  "rooms": "000000011111000000011111000000011111222222233333222222233333222222233333444455556666444455556666444455557777444455557777888855557777888855557777",
-  "objects": "e..........dbd...dc...b.ee.adca.d..f.e..b.bb.....afbe..bba.............e.bf.......b........c..a...c....dbc..a......a..a....c..f...d.bd.c.bd.aa.e",
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222333344445533334444553333444455333344445566667777776666777777",
+  "objects": ".b..f.c....a..a....f......f..............ea.......e...b.a......bfbfc....bd.b.....a....d.da...a..eb.a",
   "roomNames": [
-    "Library",
-    "Chapel",
-    "Kitchen",
-    "Gallery",
-    "Study",
     "Hall",
+    "Study",
+    "Dining Room",
+    "Gallery",
+    "Pantry",
+    "Library",
     "Cellar",
-    "Conservatory",
-    "Ballroom"
+    "Billiard Room"
   ],
   "people": [
-    "Ada the architect",
-    "Victor the vicar",
-    "Bella the butler",
+    "Astrid the architect",
+    "Birgit the butler",
     "Cedric the colonel",
-    "Della the dealer",
-    "Edith the editor",
+    "Daisy the dealer",
+    "Elsa the envoy",
     "Frank the florist",
-    "Gideon the guest",
-    "Hana the housekeeper",
-    "Ivy the illustrator",
-    "Jutta the jeweller",
-    "Konrad the keeper"
+    "Gwen the gardener",
+    "Hazel the heir",
+    "Viola the vicar",
+    "Isla the inspector"
   ],
-  "victim": 1,
+  "victim": 8,
   "clues": [
     [
       0,
-      "window"
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "same",
+      0
     ],
     [
       2,
-      "next",
-      "plant"
+      "row",
+      2
     ],
     [
       3,
-      "window"
+      "next",
+      "clock"
     ],
     [
-      4,
-      "same",
-      3
+      3,
+      "door"
     ],
     [
       4,
       "door"
     ],
     [
-      4,
-      "same",
-      5
+      5,
+      "col",
+      9
     ],
     [
-      5,
+      6,
       "next",
       "plant"
     ],
     [
-      6,
-      "on",
-      "sofa"
+      7,
+      "next",
+      "clock"
     ],
     [
       7,
-      "door"
-    ],
-    [
-      8,
       "next",
-      "shelf"
-    ],
-    [
-      8,
-      "door"
-    ],
-    [
-      9,
-      "next",
-      "chair"
-    ],
-    [
-      10,
-      "same",
-      8
-    ],
-    [
-      11,
-      "on",
       "sofa"
     ],
     [
-      11,
+      8,
+      "next",
+      "sofa"
+    ],
+    [
+      8,
       "next",
       "piano"
+    ],
+    [
+      9,
+      "window"
     ]
   ],
   "solution": [
-    9,
-    19,
-    26,
+    1,
+    13,
+    28,
     36,
-    54,
-    64,
-    82,
+    42,
+    59,
+    60,
+    74,
     87,
-    104,
-    109,
-    131,
-    137
+    95
   ],
   "doors": [
     [
-      30,
-      31
+      23,
+      24
     ],
     [
-      30,
+      32,
       42
     ],
     [
-      31,
-      43
+      36,
+      37
     ],
     [
-      54,
-      55
+      36,
+      46
     ],
     [
-      61,
-      73
+      37,
+      47
     ],
     [
-      65,
-      77
+      38,
+      48
     ],
     [
-      67,
-      79
+      73,
+      74
     ],
     [
-      69,
+      71,
       81
     ],
     [
-      87,
+      57,
+      58
+    ],
+    [
+      76,
+      86
+    ],
+    [
+      78,
       88
     ],
     [
-      111,
-      123
-    ],
-    [
-      91,
-      92
-    ],
-    [
-      115,
-      116
-    ],
-    [
-      135,
-      136
-    ],
-    [
-      92,
-      104
+      93,
+      94
     ]
   ],
   "windows": [
     [
-      9,
+      3,
       "t"
     ],
     [
-      11,
-      "r"
+      4,
+      "t"
     ],
     [
-      36,
+      20,
       "l"
     ],
     [
-      72,
+      90,
       "l"
     ],
     [
-      132,
+      95,
       "b"
     ],
     [
-      136,
-      "b"
-    ],
-    [
-      138,
+      97,
       "b"
     ]
   ],
-  "tries": 5,
+  "tries": 0,
   "facts": [
     [
-      "touch",
-      null,
-      0
-    ],
-    [
-      "nextCount",
-      "sofa",
+      "roomCount",
+      2,
       1
     ]
   ],
-  "hard": 11,
-  "hardest": 10,
-  "steps": 42,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 23,
   "extra": true
 }

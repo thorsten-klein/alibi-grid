@@ -1,115 +1,96 @@
 {
-  "size": 6,
-  "rooms": "000111000111222233222233444433444433",
-  "objects": "ed.b.b...ac...ce.......fe..bd.c.....",
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "..d..c....a.d.c......d...",
   "roomNames": [
-    "Sun Court",
     "Granary",
+    "Shrine",
     "Workshop",
-    "Well Shaft",
-    "Shrine"
+    "Well Shaft"
   ],
   "people": [
-    "Albert the architect",
-    "Bea the boat builder",
-    "Cedric the carpenter",
-    "Della the diviner",
-    "Elias the envoy",
-    "Victor the vintner"
+    "Astrid the astrologer",
+    "Vince the vizier",
+    "Basil the boat builder",
+    "Clara the chanter",
+    "Della the dancer"
   ],
-  "victim": 5,
+  "victim": 1,
   "clues": [
     [
       0,
-      "on",
-      "couch"
-    ],
-    [
-      1,
       "alone"
     ],
     [
-      2,
-      "door"
-    ],
-    [
-      3,
+      1,
       "next",
-      "rubble"
+      "statue"
+    ],
+    [
+      2,
+      "next",
+      "urn"
     ],
     [
       3,
-      "door"
+      "window"
     ],
     [
       4,
       "next",
-      "rubble"
+      "statue"
     ]
   ],
   "solution": [
-    5,
-    6,
-    16,
-    21,
-    25,
-    32
+    1,
+    7,
+    13,
+    19,
+    20
   ],
   "doors": [
     [
-      8,
-      9
-    ],
-    [
-      8,
-      14
-    ],
-    [
-      9,
-      15
+      11,
+      12
     ],
     [
       10,
-      16
+      15
     ],
     [
-      21,
-      22
+      12,
+      17
     ],
     [
-      18,
-      24
+      13,
+      18
     ],
     [
-      33,
-      34
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      2,
-      "t"
+      0,
+      "l"
     ],
     [
-      5,
+      19,
       "r"
     ],
     [
-      29,
-      "r"
-    ],
-    [
-      31,
+      20,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 4,
   "rules": [
     "glyphs"
   ],
-  "tags": "......L..............L...C..........",
-  "hard": 1,
-  "hardest": 4,
-  "steps": 16,
+  "tags": ".L.....C.......LC.LLL....",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 14,
   "extra": true
 }

@@ -1,56 +1,60 @@
 {
   "size": 5,
-  "rooms": "0011100111223332233322333",
-  "objects": ".fbf...d......b.....e..cf",
+  "rooms": "0001100011222332223322233",
+  "objects": "bb...b..d.a.........ec..f",
   "roomNames": [
     "Jail",
-    "Telegraph Office",
-    "Corral",
-    "Saloon"
+    "Hotel",
+    "Church",
+    "Corral"
   ],
   "people": [
-    "Albert the attorney",
-    "Victor the vaquero",
-    "Bella the banker",
-    "Carl the cattle driver",
-    "Dmitri the dancer"
+    "Ada the auctioneer",
+    "Vince the vet",
+    "Bruno the banker",
+    "Celia the cook",
+    "Dexter the dancer"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
       "door"
     ],
     [
+      1,
+      "on",
+      "bed"
+    ],
+    [
       2,
-      "withBandit"
+      "next",
+      "chair"
     ],
     [
       3,
-      "next",
-      "horse"
+      "withBandit"
     ],
     [
       4,
-      "next",
-      "piano"
+      "door"
+    ],
+    [
+      4,
+      "bandit"
     ]
   ],
   "solution": [
     2,
-    8,
-    10,
+    5,
+    11,
     19,
-    21
+    23
   ],
   "doors": [
     [
-      1,
-      2
+      2,
+      3
     ],
     [
       6,
@@ -61,22 +65,22 @@
       13
     ],
     [
-      16,
-      17
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      1,
+      0,
       "t"
     ],
     [
-      2,
-      "t"
+      21,
+      "b"
     ],
     [
-      3,
-      "t"
+      22,
+      "b"
     ]
   ],
   "tries": 1,
@@ -85,10 +89,10 @@
   ],
   "bandits": 1,
   "lawful": [
-    3
+    2
   ],
-  "hard": 1,
+  "hard": 4,
   "hardest": 4,
-  "steps": 13,
+  "steps": 15,
   "extra": true
 }

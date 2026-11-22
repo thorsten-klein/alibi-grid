@@ -1,52 +1,52 @@
 {
   "size": 7,
-  "rooms": "0001122000112200011220001122333444433344443334444",
-  "objects": "........b..a....d....e..bb.b..c...............db.",
+  "rooms": "0000111000011100001112222333222233344443334444333",
+  "objects": ".e........d.f....ec.....e..a.....f...c.c...a....e",
   "roomNames": [
+    "Mess Hall",
+    "Med Bay",
+    "Airlock",
     "Comms",
-    "Crew Quarters",
-    "Lab",
-    "Engine Room",
     "Cargo Bay"
   ],
   "people": [
-    "Alma the astronaut",
-    "Basil the biologist",
-    "Cora the chemist",
-    "Dmitri the doctor",
-    "Victor the volunteer",
-    "Elsa the electrician",
-    "Flora the farmer"
+    "Albert the analyst",
+    "Viola the volunteer",
+    "Bruno the biologist",
+    "Carl the chemist",
+    "Della the doctor",
+    "Edith the engineer",
+    "Frank the farmer"
   ],
-  "victim": 4,
+  "victim": 1,
   "clues": [
     [
       0,
-      "room",
+      "row",
       0
     ],
     [
-      0,
+      1,
       "next",
-      "pod"
-    ],
-    [
-      1,
-      "door"
-    ],
-    [
-      1,
-      "alone"
+      "plant"
     ],
     [
       2,
-      "next",
-      "seat"
+      "door"
     ],
     [
       3,
-      "on",
-      "pod"
+      "next",
+      "plant"
+    ],
+    [
+      4,
+      "same",
+      3
+    ],
+    [
+      4,
+      "door"
     ],
     [
       5,
@@ -55,73 +55,72 @@
     ],
     [
       6,
-      "next",
-      "pod"
+      "window"
     ]
   ],
   "solution": [
-    1,
-    12,
-    18,
-    24,
-    28,
-    37,
-    48
+    0,
+    8,
+    20,
+    23,
+    31,
+    40,
+    46
   ],
   "doors": [
     [
-      2,
-      3
+      10,
+      11
     ],
     [
-      22,
-      29
+      15,
+      22
     ],
     [
-      11,
-      12
+      20,
+      27
     ],
     [
-      25,
-      32
+      24,
+      25
     ],
     [
-      26,
-      33
+      31,
+      38
     ],
     [
-      30,
-      31
+      45,
+      46
     ]
   ],
   "windows": [
     [
-      0,
+      5,
       "t"
-    ],
-    [
-      41,
-      "r"
     ],
     [
       42,
       "l"
     ],
     [
-      43,
+      46,
       "b"
+    ],
+    [
+      48,
+      "r"
     ]
   ],
-  "tries": 3,
+  "tries": 0,
   "facts": [
     [
-      "corner",
-      null,
-      3
+      "nextCount",
+      "seat",
+      0
     ]
   ],
   "hard": 6,
   "hardest": 4,
-  "steps": 22,
+  "steps": 19,
   "extra": true
 }

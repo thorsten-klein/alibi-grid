@@ -1,40 +1,38 @@
 {
-  "size": 11,
-  "rooms": "0000011122200000111222000001112220000011122233334455555333344555553333445555533334466666777744666667777446666677774466666",
-  "objects": ".e........a..a..........dc..c........b........b.bb.b.b.b...c..f.d..f......a..e..b.......cf..baaa..b...cac.fca.dce..fae.e.",
+  "size": 9,
+  "rooms": "000011122000011122000011122333444422333444422333444422555444422555666666555666666",
+  "objects": "..c.....d..fb...f....a......a.........b.f..a.ab......aeb.b..a.b.bfb.e............",
   "roomNames": [
-    "Armory",
-    "Kitchen",
-    "Stables",
     "Gatehouse",
-    "Courtyard",
-    "Tower",
+    "Solar",
+    "Smithy",
+    "Great Hall",
+    "Stables",
     "Throne Room",
-    "Dungeon"
+    "Tower"
   ],
   "people": [
-    "Ada the alchemist",
-    "Bea the baker",
-    "Cedric the cupbearer",
-    "Dexter the dancer",
-    "Elias the envoy",
-    "Flora the falconer",
-    "Grace the groom",
-    "Hugo the herbalist",
+    "Alma the alchemist",
+    "Bea the bard",
+    "Cora the chronicler",
+    "Daisy the dancer",
+    "Edith the embroiderer",
     "Victor the verger",
-    "Ines the illuminator",
-    "Jonas the jester"
+    "Flora the farrier",
+    "Gwen the groom",
+    "Hugo the herald"
   ],
-  "victim": 8,
+  "victim": 5,
   "clues": [
     [
       0,
-      "alone"
+      "next",
+      "candles"
     ],
     [
       1,
-      "room",
-      2
+      "next",
+      "urn"
     ],
     [
       1,
@@ -43,171 +41,145 @@
     ],
     [
       2,
-      "next",
-      "barrel"
-    ],
-    [
-      3,
-      "next",
-      "candles"
-    ],
-    [
-      4,
-      "next",
-      "cot"
-    ],
-    [
-      5,
-      "next",
-      "cot"
-    ],
-    [
-      6,
-      "door"
-    ],
-    [
-      6,
-      "same",
-      7
-    ],
-    [
-      7,
-      "next",
-      "swords"
-    ],
-    [
-      7,
-      "door"
-    ],
-    [
-      8,
-      "next",
-      "barrel"
-    ],
-    [
-      9,
-      "next",
-      "barrel"
-    ],
-    [
-      10,
       "on",
       "bench"
     ],
     [
-      10,
+      3,
+      "door"
+    ],
+    [
+      3,
+      "same",
+      6
+    ],
+    [
+      4,
+      "next",
+      "bench"
+    ],
+    [
+      6,
+      "next",
+      "bench"
+    ],
+    [
+      7,
       "next",
       "swords"
+    ],
+    [
+      8,
+      "next",
+      "cot"
     ]
   ],
   "solution": [
     7,
-    20,
-    26,
-    35,
-    54,
-    60,
-    69,
-    78,
-    96,
-    99,
-    116
+    17,
+    21,
+    33,
+    36,
+    47,
+    59,
+    67,
+    73
   ],
   "doors": [
     [
-      26,
+      21,
+      22
+    ],
+    [
+      18,
       27
     ],
     [
-      36,
-      47
-    ],
-    [
-      37,
-      48
-    ],
-    [
-      29,
+      21,
       30
     ],
     [
+      15,
+      16
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      62,
+      71
+    ],
+    [
       38,
-      49
+      39
     ],
     [
-      40,
-      51
+      46,
+      55
     ],
     [
-      42,
-      53
-    ],
-    [
-      69,
-      70
-    ],
-    [
-      78,
-      89
+      56,
+      57
     ],
     [
       60,
-      61
+      69
     ],
     [
-      104,
-      105
-    ],
-    [
-      91,
-      92
-    ],
-    [
-      75,
-      86
+      74,
+      75
     ]
   ],
   "windows": [
     [
-      1,
+      0,
       "t"
     ],
     [
-      21,
+      9,
+      "l"
+    ],
+    [
+      35,
       "r"
     ],
     [
-      22,
-      "l"
-    ],
-    [
-      65,
+      53,
       "r"
     ],
     [
-      77,
+      54,
       "l"
-    ],
-    [
-      99,
-      "l"
-    ],
-    [
-      117,
-      "b"
     ]
   ],
-  "tries": 3,
+  "tries": 5,
+  "facts": [
+    [
+      "roomCount",
+      0,
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
   "rules": [
     "ranks"
   ],
   "court": [
-    0,
-    5
+    4,
+    6
   ],
-  "rank": "kcknnckkccc",
-  "hard": 11,
-  "hardest": 8,
+  "rank": "kccnkckkc",
+  "hard": 6,
+  "hardest": 4,
   "steps": 30,
   "extra": true
 }

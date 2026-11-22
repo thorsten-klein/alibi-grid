@@ -1,198 +1,164 @@
 {
-  "size": 12,
-  "rooms": "000011122222000011122222000011122222333311122222333311144444333311144444335554446666335554446666335554446666335554447777888888887777888888887777",
-  "objects": ".bb....b.a......bf...b...b.d...e.......d.....b.b.....d..a....a.................d.fa..d...d.af.cbb..deff.a.f...a.....e.a.....d....f...bd....ecdda",
+  "size": 10,
+  "rooms": "0001122222000112222200011222220001122222333334444433333444443333344444555566677755556667775555666777",
+  "objects": "b..a.....a....a...b..e.ac...e.......d.e.a.....a..e.ea..c................ec....a.b...b.a...ed.f......",
   "roomNames": [
-    "Lobby",
     "Ski Room",
-    "Fireside Lounge",
-    "Spa",
-    "Boot Room",
-    "Games Room",
+    "Lobby",
     "Terrace",
-    "Suite",
-    "Kitchen"
+    "Sauna",
+    "Spa",
+    "Bar",
+    "Kitchen",
+    "Games Room"
   ],
   "people": [
-    "Arthur the athlete",
-    "Bruno the bartender",
-    "Clara the cook",
-    "Della the doctor",
+    "Ada the athlete",
+    "Bea the bartender",
+    "Clara the climber",
+    "Dmitri the doctor",
     "Elsa the explorer",
     "Fiona the forester",
     "Gideon the guide",
-    "Henrik the hotelier",
-    "Ines the instructor",
-    "Juno the journalist",
-    "Viola the vet",
-    "Klaus the kayaker"
+    "Vince the vlogger",
+    "Hugo the hiker",
+    "Ines the instructor"
   ],
-  "victim": 10,
+  "victim": 7,
   "clues": [
     [
       0,
-      "on",
-      "sofa"
-    ],
-    [
-      0,
-      "alone"
-    ],
-    [
-      1,
       "same",
       2
     ],
     [
+      1,
+      "next",
+      "chair"
+    ],
+    [
       2,
-      "next",
-      "tree"
+      "same",
+      1
     ],
     [
-      3,
-      "next",
-      "sofa"
-    ],
-    [
-      3,
-      "row",
-      3
-    ],
-    [
-      4,
+      2,
       "next",
       "fire"
     ],
     [
+      3,
+      "notRoom",
+      6
+    ],
+    [
+      3,
+      "next",
+      "chair"
+    ],
+    [
       4,
-      "door"
+      "next",
+      "tree"
+    ],
+    [
+      4,
+      "alone"
     ],
     [
       5,
-      "room",
-      1
-    ],
-    [
-      6,
-      "door"
+      "col",
+      4
     ],
     [
       6,
       "same",
-      9
+      5
+    ],
+    [
+      6,
+      "row",
+      6
     ],
     [
       7,
-      "on",
-      "chair"
+      "next",
+      "tree"
     ],
     [
       7,
-      "alone"
+      "door"
     ],
     [
       8,
-      "next",
-      "chair"
-    ],
-    [
-      9,
       "next",
       "tree"
     ],
     [
       9,
-      "door"
-    ],
-    [
-      10,
-      "next",
-      "fire"
-    ],
-    [
-      11,
-      "next",
-      "sofa"
+      "window"
     ]
   ],
   "solution": [
-    1,
-    23,
-    32,
-    46,
-    51,
-    66,
-    74,
-    91,
-    105,
-    112,
-    125,
-    132
+    7,
+    19,
+    26,
+    33,
+    48,
+    54,
+    60,
+    71,
+    82,
+    95
   ],
   "doors": [
     [
-      3,
-      4
+      2,
+      3
     ],
     [
-      27,
-      39
+      31,
+      41
     ],
     [
-      6,
-      7
+      4,
+      5
     ],
     [
-      51,
-      52
+      34,
+      44
     ],
     [
-      54,
-      55
+      37,
+      47
     ],
     [
       64,
-      76
+      65
     ],
     [
-      44,
-      56
+      61,
+      71
     ],
     [
-      62,
+      64,
       74
     ],
     [
-      109,
-      121
+      66,
+      76
     ],
     [
-      112,
-      113
+      69,
+      79
     ],
     [
-      71,
-      83
+      83,
+      84
     ],
     [
-      115,
-      116
-    ],
-    [
-      115,
-      127
-    ],
-    [
-      110,
-      122
-    ],
-    [
-      107,
-      119
-    ],
-    [
-      127,
-      128
+      86,
+      87
     ]
   ],
   "windows": [
@@ -201,45 +167,46 @@
       "t"
     ],
     [
-      9,
-      "t"
+      20,
+      "l"
     ],
     [
-      11,
-      "t"
+      40,
+      "l"
     ],
     [
-      35,
+      89,
       "r"
     ],
     [
-      48,
-      "l"
+      91,
+      "b"
     ],
     [
-      96,
-      "l"
-    ],
-    [
-      134,
+      95,
       "b"
     ]
   ],
-  "tries": 15,
+  "tries": 3,
   "facts": [
     [
-      "nextCount",
-      "tree",
+      "corner",
+      null,
       2
     ],
     [
       "nextCount",
       "fire",
-      3
+      1
+    ],
+    [
+      "furniture",
+      null,
+      0
     ]
   ],
-  "hard": 5,
-  "hardest": 9,
-  "steps": 45,
+  "hard": 9,
+  "hardest": 8,
+  "steps": 31,
   "extra": true
 }

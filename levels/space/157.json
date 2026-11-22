@@ -1,226 +1,195 @@
 {
-  "size": 12,
-  "rooms": "000111222222000111222222000111222222000111222222333333444444333333444444333333444444555666677777555666677777555666677777555666688888555666688888",
-  "objects": "b.....cab.........e.b.......d.e..ce....a.f..cdd.a....bb..b...fa.........c..f.....d.b..a.....e.b.......bba......ebe..acc...b....a..ea....b....dca",
+  "size": 10,
+  "rooms": "0000112222000011222200001133330000113333000011333344445566664444556666444455777744445577774444557777",
+  "objects": "..f....b...e..a...a....f....aa.d...cff....aea..b..daa.c..........e.b...a.cd.eeb.fb.e.b..ced.....bbda",
   "roomNames": [
-    "Hydroponics",
-    "Observatory",
-    "Bridge",
-    "Crew Quarters",
+    "Cargo Bay",
     "Airlock",
-    "Lab",
+    "Med Bay",
     "Comms",
-    "Mess Hall",
-    "Gym"
+    "Lab",
+    "Engine Room",
+    "Hydroponics",
+    "Bridge"
   ],
   "people": [
-    "Alma the analyst",
-    "Bea the botanist",
-    "Victor the volunteer",
-    "Clara the captain",
-    "Dmitri the doctor",
-    "Elsa the engineer",
-    "Fiona the flight officer",
-    "Gideon the geologist",
-    "Henrik the hacker",
-    "Ivy the instructor",
-    "Juno the journalist",
-    "Konrad the kitchen chief"
+    "Albert the astronaut",
+    "Bella the botanist",
+    "Cedric the captain",
+    "Dora the driller",
+    "Elias the engineer",
+    "Vince the volunteer",
+    "Freya the flight officer",
+    "Grace the gunner",
+    "Hugo the hull technician",
+    "Ivy the intern"
   ],
-  "victim": 2,
+  "victim": 5,
   "clues": [
     [
       0,
       "next",
-      "console"
-    ],
-    [
-      0,
-      "same",
-      1
+      "plant"
     ],
     [
       1,
-      "on",
-      "pod"
-    ],
-    [
-      2,
-      "col",
-      2
-    ],
-    [
-      3,
       "door"
     ],
     [
-      4,
+      2,
       "same",
-      5
+      3
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      3,
+      "next",
+      "tank"
+    ],
+    [
+      4,
+      "on",
+      "seat"
     ],
     [
       5,
+      "next",
+      "seat"
+    ],
+    [
+      6,
       "next",
       "scope"
     ],
     [
-      6,
-      "col",
-      10
-    ],
-    [
       7,
-      "same",
-      11
+      "next",
+      "pod"
     ],
     [
       8,
-      "row",
-      8
+      "next",
+      "scope"
     ],
     [
-      9,
+      8,
       "next",
       "pod"
     ],
     [
       9,
-      "next",
-      "plant"
+      "on",
+      "pod"
     ],
     [
-      10,
+      9,
       "next",
-      "plant"
-    ],
-    [
-      11,
-      "col",
-      5
+      "scope"
     ]
   ],
   "solution": [
-    7,
-    20,
+    1,
+    15,
     26,
-    37,
-    59,
-    69,
-    82,
-    88,
-    96,
-    114,
-    123,
-    137
+    38,
+    42,
+    53,
+    60,
+    79,
+    84,
+    97
   ],
   "doors": [
     [
-      38,
-      39
+      23,
+      24
     ],
     [
-      37,
-      49
+      42,
+      52
     ],
     [
-      41,
-      42
+      15,
+      16
     ],
     [
-      41,
-      53
+      25,
+      26
     ],
     [
-      45,
+      44,
+      54
+    ],
+    [
+      19,
+      29
+    ],
+    [
+      47,
       57
     ],
     [
-      65,
-      66
+      63,
+      64
     ],
     [
-      73,
-      85
+      55,
+      56
     ],
     [
-      75,
-      87
+      95,
+      96
     ],
     [
-      78,
-      90
-    ],
-    [
-      79,
-      91
-    ],
-    [
-      98,
-      99
-    ],
-    [
-      90,
-      91
-    ],
-    [
-      126,
-      127
-    ],
-    [
-      116,
-      128
+      67,
+      77
     ]
   ],
   "windows": [
     [
-      5,
+      2,
       "t"
     ],
     [
-      47,
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      40,
+      "l"
+    ],
+    [
+      59,
       "r"
     ],
     [
-      60,
-      "l"
-    ],
-    [
-      72,
-      "l"
-    ],
-    [
-      84,
-      "l"
-    ],
-    [
-      132,
-      "l"
-    ],
-    [
-      135,
+      91,
       "b"
     ]
   ],
+  "tries": 3,
   "facts": [
     [
-      "nextCount",
-      "tank",
-      0
+      "furniture",
+      null,
+      2
     ],
     [
       "roomCount",
-      5,
-      1
-    ],
-    [
-      "onCount",
-      "pod",
-      1
+      7,
+      2
     ]
   ],
-  "tries": 8,
-  "hard": 10,
-  "hardest": 10,
-  "steps": 35,
+  "hard": 8,
+  "hardest": 6,
+  "steps": 24,
   "extra": true
 }

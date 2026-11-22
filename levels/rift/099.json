@@ -1,92 +1,98 @@
 {
   "size": 7,
-  "rooms": "0000111000011122223332222333444222244422224442222",
-  "objects": ".ae..bfc...ecf....e.d.......a.c......b......a....",
+  "rooms": "0001122000112200011223333222333322244442224444222",
+  "objects": "....b...b.....aefbe....b...................fa....",
   "roomNames": [
-    "Bank",
+    "Saloon",
     "Burial Chamber",
     "Sea of Ages",
-    "Saloon",
+    "Bank",
     "Captain Cabin"
   ],
   "people": [
-    "Arthur the archivist",
-    "Birgit the bookbinder",
-    "Carl the clockmaker",
-    "Della the drifter",
+    "Vince the voyager",
+    "Astrid the astronomer",
+    "Bella the bard",
+    "Celia the clockmaker",
+    "Dexter the drifter",
     "Elsa the explorer",
-    "Viola the voyager",
-    "Felix the falconer"
+    "Flora the falconer"
   ],
-  "victim": 5,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "on",
-      "log"
-    ],
-    [
       1,
-      "col",
-      3
+      "notRoom",
+      4
     ],
     [
       2,
-      "notRoom",
-      0
-    ],
-    [
-      3,
       "next",
       "boulder"
     ],
     [
+      3,
+      "door"
+    ],
+    [
       4,
       "col",
-      6
+      1
     ],
     [
       5,
-      "col",
-      0
+      "alone"
     ],
     [
       6,
-      "on",
-      "chair"
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      5
     ]
   ],
   "solution": [
-    5,
-    10,
-    15,
-    25,
-    34,
+    4,
+    13,
+    17,
+    23,
+    29,
     35,
-    44
+    47
   ],
   "doors": [
     [
-      3,
-      4
+      9,
+      10
     ],
     [
-      12,
-      19
+      16,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      30,
+      37
     ]
   ],
   "windows": [
     [
-      5,
+      3,
       "t"
     ],
     [
-      13,
-      "r"
+      28,
+      "l"
     ],
     [
-      20,
-      "r"
+      42,
+      "l"
     ],
     [
       44,
@@ -96,9 +102,14 @@
   "tries": 0,
   "facts": [
     [
-      "onCount",
-      "chair",
-      1
+      "roomCount",
+      0,
+      0
+    ],
+    [
+      "nextCount",
+      "log",
+      0
     ]
   ],
   "rules": [
@@ -106,12 +117,12 @@
     "sea"
   ],
   "court": [
-    1
+    3
   ],
-  "rank": "nkckcck",
+  "rank": "ccknkkc",
   "sea": 2,
-  "hard": 0,
-  "hardest": 2,
-  "steps": 15,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 20,
   "extra": true
 }

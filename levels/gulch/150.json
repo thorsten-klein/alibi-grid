@@ -1,45 +1,33 @@
 {
-  "size": 11,
-  "rooms": "0000011111100000111111002221111110022233333300222333333002223333334455556666644555566666445555666664455557777744555577777",
-  "objects": "....dd..c...a...dac.....bff...caf.c.....d............f.b...aba.b......b.....e...fb..c..a...f....d.ac.b.....cf.a....a..eff",
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222334455555334455555334455555334466666334466666",
+  "objects": "..d...f.e....e......e.a.dd..a.df.d..f.e..a.a..ddf.a..d......a..e.c..b.......c...b",
   "roomNames": [
-    "Hotel",
-    "Jail",
-    "Telegraph Office",
-    "Bank",
-    "General Store",
     "Corral",
     "Church",
-    "Barber"
+    "Barber",
+    "General Store",
+    "Hotel",
+    "Telegraph Office",
+    "Mine"
   ],
   "people": [
-    "Ada the attorney",
-    "Basil the banker",
-    "Cedric the cook",
-    "Vince the vet",
-    "Daisy the dancer",
-    "Ena the editor",
-    "Frank the farmer",
-    "Gideon the gunsmith",
-    "Hilda the homesteader",
-    "Ines the inventor",
-    "Jutta the judge"
+    "Arthur the attorney",
+    "Bea the blacksmith",
+    "Cora the cook",
+    "Dora the dancer",
+    "Elias the engineer",
+    "Felix the farmer",
+    "Viola the vaquero",
+    "Grace the gunsmith",
+    "Hilda the homesteader"
   ],
-  "victim": 3,
+  "victim": 6,
   "clues": [
     [
       0,
       "next",
-      "chair"
-    ],
-    [
-      0,
-      "bandit"
-    ],
-    [
-      1,
-      "on",
-      "chair"
+      "piano"
     ],
     [
       1,
@@ -47,33 +35,46 @@
       "cactus"
     ],
     [
+      1,
+      "door"
+    ],
+    [
       2,
-      "row",
-      2
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "next",
+      "piano"
     ],
     [
       3,
-      "next",
-      "horse"
+      "alone"
+    ],
+    [
+      3,
+      "bandit"
     ],
     [
       4,
-      "door"
+      "on",
+      "chair"
+    ],
+    [
+      4,
+      "col",
+      5
     ],
     [
       5,
       "next",
-      "bed"
+      "horse"
     ],
     [
       6,
       "next",
-      "bed"
-    ],
-    [
-      6,
-      "same",
-      8
+      "chair"
     ],
     [
       7,
@@ -82,132 +83,93 @@
     ],
     [
       8,
-      "same",
-      10
-    ],
-    [
-      9,
-      "next",
-      "horse"
-    ],
-    [
-      10,
-      "next",
-      "chair"
+      "alone"
     ]
   ],
   "solution": [
-    1,
-    17,
-    22,
-    42,
-    46,
-    62,
-    69,
-    85,
-    93,
-    109,
-    114
+    4,
+    11,
+    19,
+    35,
+    41,
+    45,
+    61,
+    66,
+    78
   ],
   "doors": [
     [
-      4,
-      5
+      11,
+      12
     ],
     [
-      45,
-      46
+      28,
+      37
     ],
     [
-      55,
-      66
+      29,
+      38
     ],
     [
-      26,
-      27
+      14,
+      15
     ],
     [
       30,
+      39
+    ],
+    [
+      32,
       41
     ],
     [
-      48,
-      49
+      33,
+      42
     ],
     [
-      59,
-      70
+      73,
+      74
+    ],
+    [
+      57,
+      58
+    ],
+    [
+      75,
+      76
     ],
     [
       60,
-      71
-    ],
-    [
-      62,
-      73
-    ],
-    [
-      100,
-      101
-    ],
-    [
-      71,
-      72
-    ],
-    [
-      104,
-      105
-    ],
-    [
-      96,
-      107
+      69
     ]
   ],
   "windows": [
     [
-      2,
+      1,
       "t"
     ],
     [
-      10,
-      "t"
-    ],
-    [
-      33,
-      "l"
-    ],
-    [
-      77,
-      "l"
-    ],
-    [
-      99,
-      "l"
-    ],
-    [
-      112,
+      72,
       "b"
     ],
     [
-      117,
+      72,
+      "l"
+    ],
+    [
+      73,
+      "b"
+    ],
+    [
+      79,
       "b"
     ]
   ],
-  "tries": 25,
+  "tries": 10,
   "facts": [
     [
-      "roomCount",
-      4,
-      0
-    ],
-    [
-      "roomCount",
-      6,
-      1
-    ],
-    [
       "nextCount",
-      "horse",
+      "piano",
       3
     ]
   ],
@@ -216,11 +178,11 @@
   ],
   "bandits": 3,
   "lawful": [
-    6,
-    7
+    1,
+    6
   ],
-  "hard": 8,
-  "hardest": 6,
-  "steps": 48,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 28,
   "extra": true
 }

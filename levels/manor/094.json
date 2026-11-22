@@ -1,28 +1,33 @@
 {
   "size": 6,
-  "rooms": "000111000111222233222233444433444433",
-  "objects": ".ea.bb.d....b.ef..ac......b..d.a.b..",
+  "rooms": "000000111111223333223333224444224444",
+  "objects": "........c.....c..a..f...a...........",
   "roomNames": [
+    "Gallery",
+    "Kitchen",
+    "Pantry",
     "Hall",
-    "Library",
-    "Dining Room",
-    "Chapel",
-    "Study"
+    "Billiard Room"
   ],
   "people": [
-    "Arthur the architect",
-    "Bella the banker",
-    "Clara the colonel",
-    "Dora the dealer",
-    "Ena the editor",
-    "Victor the valet"
+    "Arthur the author",
+    "Bea the butler",
+    "Viola the vicar",
+    "Cora the cook",
+    "Daisy the doctor",
+    "Ena the editor"
   ],
-  "victim": 5,
+  "victim": 2,
   "clues": [
     [
       0,
-      "same",
-      1
+      "notRoom",
+      4
+    ],
+    [
+      1,
+      "notRoom",
+      4
     ],
     [
       1,
@@ -35,89 +40,90 @@
     ],
     [
       3,
-      "alone"
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "door"
     ],
     [
       4,
-      "on",
-      "sofa"
+      "door"
     ],
     [
       5,
-      "window"
+      "next",
+      "chair"
     ]
   ],
   "solution": [
-    5,
-    9,
-    13,
-    22,
+    1,
+    10,
+    15,
+    23,
     26,
     30
   ],
   "doors": [
     [
-      2,
-      3
+      0,
+      6
     ],
     [
-      8,
-      14
-    ],
-    [
-      9,
-      15
+      7,
+      13
     ],
     [
       10,
       16
     ],
     [
-      21,
-      22
+      13,
+      14
     ],
     [
-      19,
-      25
+      25,
+      26
     ],
     [
-      33,
-      34
+      23,
+      29
     ]
   ],
   "windows": [
     [
-      4,
+      2,
       "t"
-    ],
-    [
-      12,
-      "l"
     ],
     [
       17,
       "r"
     ],
     [
-      30,
+      18,
       "l"
+    ],
+    [
+      29,
+      "r"
     ]
   ],
-  "tries": 7,
+  "tries": 1,
   "facts": [
     [
-      "furniture",
-      null,
-      2
+      "nextCount",
+      "shelf",
+      1
     ],
     [
       "nextCount",
-      "piano",
-      0
+      "chair",
+      2
     ]
   ],
-  "hard": 5,
+  "hard": 6,
   "hardest": 3,
-  "steps": 23,
+  "steps": 21,
   "extra": true
 }

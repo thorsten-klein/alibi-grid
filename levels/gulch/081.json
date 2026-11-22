@@ -1,27 +1,28 @@
 {
   "size": 6,
-  "rooms": "000000111111222233222233444433444433",
-  "objects": "...f..ea........a.c........b...d.fe.",
+  "rooms": "000111000111222233222233444433444433",
+  "objects": "......d..a............d....c..c.b...",
   "roomNames": [
-    "Church",
-    "Bank",
-    "Barber",
     "General Store",
-    "Sheriff Office"
+    "Mine",
+    "Sheriff Office",
+    "Corral",
+    "Bank"
   ],
   "people": [
     "Astrid the attorney",
-    "Bella the banker",
-    "Vivian the vet",
-    "Celia the cook",
-    "Dmitri the deputy",
-    "Edith the editor"
+    "Basil the banker",
+    "Vince the vaquero",
+    "Celia the cattle driver",
+    "Dora the deputy",
+    "Elsa the engineer"
   ],
   "victim": 2,
   "clues": [
     [
       0,
-      "alone"
+      "notRoom",
+      3
     ],
     [
       0,
@@ -29,21 +30,29 @@
     ],
     [
       1,
-      "alone"
+      "door"
     ],
     [
       2,
-      "col",
-      3
+      "door"
     ],
     [
       3,
       "door"
     ],
     [
+      3,
+      "row",
+      3
+    ],
+    [
       4,
       "next",
-      "piano"
+      "barrel"
+    ],
+    [
+      4,
+      "window"
     ],
     [
       5,
@@ -51,21 +60,25 @@
     ]
   ],
   "solution": [
-    1,
+    2,
     11,
     15,
-    20,
-    28,
-    30
+    19,
+    24,
+    34
   ],
   "doors": [
     [
-      3,
+      8,
       9
     ],
     [
       6,
       12
+    ],
+    [
+      9,
+      15
     ],
     [
       11,
@@ -76,8 +89,8 @@
       16
     ],
     [
-      20,
-      26
+      19,
+      25
     ],
     [
       27,
@@ -86,38 +99,28 @@
   ],
   "windows": [
     [
-      0,
+      2,
       "t"
     ],
     [
-      5,
-      "r"
+      24,
+      "l"
     ],
     [
-      30,
+      31,
       "b"
     ],
     [
-      35,
-      "r"
+      34,
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "alone",
-      null,
-      4
-    ],
-    [
-      "windowCount",
-      null,
-      1
-    ],
-    [
-      "nextCount",
-      "horse",
-      0
+      "roomCount",
+      2,
+      2
     ]
   ],
   "rules": [
@@ -127,8 +130,8 @@
   "lawful": [
     1
   ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 21,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
   "extra": true
 }

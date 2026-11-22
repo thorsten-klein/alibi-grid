@@ -1,240 +1,192 @@
 {
-  "size": 12,
-  "rooms": "000011122222000011122222000011122222000011122222333444455555333444455555333444455555333444455555666677888888666677888888666677888888666677888888",
-  "objects": "bb.......bbdc....af..c....d..b.............b..b..ffa.b...bfe.b.......a....e..b.b........bbad..d.c...ae...f.cf.....b...e.bb...b.....a..b.d..aeadd",
+  "size": 10,
+  "rooms": "0000001111000000111122222333332222233333222223333344445555554444555555444455666677777766667777776666",
+  "objects": "b.............f....a.cb.e..aab.bb..bbd...d..b.d...d.....dfc.d.f.e.b.c....c......b.......ad..a..a....",
   "roomNames": [
-    "Baggage Car",
-    "Bar Car",
-    "Sleeper A",
-    "Sleeper C",
-    "Sleeper B",
     "Galley",
-    "Guard's Van",
     "Mail Car",
-    "Corridor"
+    "Sleeper A",
+    "Lounge Car",
+    "Bar Car",
+    "Observation Car",
+    "Sleeper B",
+    "Sleeper C"
   ],
   "people": [
-    "Albert the attendant",
-    "Bruno the bookseller",
-    "Cora the courier",
-    "Vera the vendor",
-    "Daisy the dentist",
-    "Edgar the engineer",
+    "Ada the attendant",
+    "Birgit the bookseller",
+    "Cora the conductor",
+    "Dora the dentist",
+    "Edgar the envoy",
     "Flora the fiddler",
-    "Gus the guard",
-    "Hazel the hatter",
-    "Ivo the importer",
-    "Jonas the journalist",
-    "Kitty the knife grinder"
+    "Gideon the guard",
+    "Victor the vendor",
+    "Hilda the hairdresser",
+    "Ivy the importer"
   ],
-  "victim": 3,
+  "victim": 7,
   "clues": [
     [
       0,
-      "on",
-      "bunk"
-    ],
-    [
-      0,
-      "next",
-      "suitcase"
+      "window"
     ],
     [
       1,
-      "next",
-      "crate"
+      "alone"
     ],
     [
       2,
-      "same",
-      1
-    ],
-    [
-      2,
-      "next",
-      "suitcase"
-    ],
-    [
-      3,
       "on",
-      "bunk"
-    ],
-    [
-      4,
-      "door"
-    ],
-    [
-      5,
-      "next",
       "seat"
     ],
     [
-      6,
-      "same",
-      5
-    ],
-    [
-      6,
-      "next",
-      "bunk"
-    ],
-    [
-      7,
+      2,
       "same",
       4
     ],
     [
-      7,
-      "on",
+      3,
+      "same",
+      2
+    ],
+    [
+      4,
+      "next",
       "bunk"
     ],
     [
-      8,
-      "next",
-      "wine"
+      5,
+      "col",
+      1
+    ],
+    [
+      6,
+      "col",
+      9
     ],
     [
       8,
-      "next",
-      "suitcase"
+      "same",
+      9
     ],
     [
       9,
-      "next",
-      "suitcase"
-    ],
-    [
-      10,
-      "next",
-      "lamp"
-    ],
-    [
-      11,
-      "next",
-      "bunk"
+      "on",
+      "seat"
     ]
   ],
   "solution": [
-    9,
-    14,
-    24,
-    43,
-    53,
-    63,
-    78,
-    88,
-    106,
-    119,
-    128,
-    133
+    7,
+    13,
+    28,
+    36,
+    45,
+    51,
+    69,
+    70,
+    84,
+    92
   ],
   "doors": [
     [
-      3,
-      4
+      5,
+      6
     ],
     [
-      37,
-      49
+      11,
+      21
     ],
     [
-      39,
-      51
+      15,
+      25
     ],
     [
-      6,
-      7
+      17,
+      27
     ],
     [
-      41,
+      24,
+      25
+    ],
+    [
+      43,
       53
     ],
     [
-      47,
-      59
+      44,
+      54
     ],
     [
-      74,
-      75
+      48,
+      58
     ],
     [
-      86,
-      98
+      63,
+      64
     ],
     [
-      54,
-      55
+      71,
+      81
     ],
     [
-      87,
-      99
+      67,
+      77
     ],
     [
-      89,
-      101
+      75,
+      85
     ],
     [
-      90,
-      102
-    ],
-    [
-      94,
-      106
-    ],
-    [
-      123,
-      124
-    ],
-    [
-      137,
-      138
+      95,
+      96
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      4,
+      7,
       "t"
     ],
     [
-      6,
+      9,
       "t"
     ],
     [
-      35,
-      "r"
-    ],
-    [
-      60,
+      30,
       "l"
     ],
     [
-      96,
-      "l"
+      39,
+      "r"
     ],
     [
-      107,
+      49,
       "r"
+    ],
+    [
+      93,
+      "b"
     ]
   ],
-  "tries": 9,
+  "tries": 2,
   "facts": [
     [
-      "onCount",
-      "seat",
+      "nextCount",
+      "crate",
+      4
+    ],
+    [
+      "roomCount",
+      6,
       0
     ],
     [
-      "doorCount",
+      "touch",
       null,
-      2
+      1
     ]
   ],
-  "hard": 12,
-  "hardest": 8,
-  "steps": 48,
+  "hard": 6,
+  "hardest": 9,
+  "steps": 27,
   "extra": true
 }

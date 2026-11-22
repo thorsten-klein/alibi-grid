@@ -1,42 +1,42 @@
 {
   "size": 6,
-  "rooms": "000111000111222333222333444433444433",
-  "objects": "......e....b.....fa...babe..b.......",
+  "rooms": "000111000111022222022222333444333444",
+  "objects": ".fd.a..b..c.....fc..b..d......bbac..",
   "roomNames": [
-    "Armory",
+    "Kitchen",
+    "Stables",
+    "Courtyard",
     "Tower",
-    "Dungeon",
-    "Gatehouse",
-    "Stables"
+    "Great Hall"
   ],
   "people": [
-    "Ada the alchemist",
-    "Birgit the bard",
-    "Celia the cupbearer",
-    "Dora the dancer",
-    "Ena the envoy",
-    "Victor the verger"
+    "Vince the vintner",
+    "Astrid the archer",
+    "Birgit the baker",
+    "Cora the cupbearer",
+    "Dexter the dancer",
+    "Elsa the embroiderer"
   ],
-  "victim": 5,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "next",
-      "cot"
-    ],
-    [
       1,
-      "alone"
+      "door"
     ],
     [
       2,
-      "next",
-      "bench"
+      "notRoom",
+      0
     ],
     [
       3,
-      "on",
+      "next",
       "cot"
+    ],
+    [
+      3,
+      "col",
+      3
     ],
     [
       4,
@@ -44,17 +44,17 @@
     ],
     [
       5,
-      "next",
-      "swords"
+      "same",
+      4
     ]
   ],
   "solution": [
-    5,
+    0,
     8,
-    12,
-    22,
-    27,
-    31
+    13,
+    21,
+    28,
+    35
   ],
   "doors": [
     [
@@ -62,54 +62,58 @@
       9
     ],
     [
-      7,
-      13
-    ],
-    [
-      11,
-      17
-    ],
-    [
-      20,
-      21
+      18,
+      19
     ],
     [
       18,
       24
     ],
     [
-      21,
-      27
+      11,
+      17
+    ],
+    [
+      19,
+      25
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      32,
+      33
     ]
   ],
   "windows": [
     [
-      3,
+      1,
       "t"
     ],
     [
-      4,
-      "t"
+      30,
+      "l"
     ],
     [
-      11,
-      "r"
+      31,
+      "b"
     ],
     [
-      29,
-      "r"
+      34,
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
   "rules": [
     "ranks"
   ],
   "court": [
-    3
+    4
   ],
-  "rank": "ckcnkc",
-  "hard": 1,
-  "hardest": 4,
-  "steps": 15,
+  "rank": "ckcckn",
   "extra": true
 }

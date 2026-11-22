@@ -1,186 +1,166 @@
 {
-  "size": 12,
-  "rooms": "000001111222000001111222000001111222333331111222333334444444333334444444333334444444555556666777555556666777888886666777888886666777888886666777",
-  "objects": ".a...f...eb.cd....e..d.f.....a..bcc..c...bf..........d..d.........b.......af.ad....bc....e.f..d.f...f.........ac..dd..d....d........abe..bacab.b",
+  "size": 10,
+  "rooms": "0000111111000011111100001111112222333333222233333322223333334455566677445556667744555666774455566677",
+  "objects": ".da....f..aad...a..d.........f.e..c.fb.....f....db......bf......fb.....faf..ecb...fadb.....e.d.d.e.c",
   "roomNames": [
-    "Fireside Lounge",
     "Bar",
-    "Sauna",
-    "Ski Room",
+    "Fireside Lounge",
+    "Boot Room",
     "Kitchen",
-    "Games Room",
-    "Suite",
-    "Terrace",
-    "Spa"
+    "Sauna",
+    "Spa",
+    "Ski Room",
+    "Terrace"
   ],
   "people": [
-    "Astrid the avalanche guard",
-    "Bella the bartender",
-    "Clara the climber",
-    "Della the doctor",
-    "Edgar the explorer",
-    "Flora the fisher",
-    "Grace the guide",
-    "Hugo the hiker",
-    "Isla the instructor",
-    "Viola the vet",
-    "Jade the jogger",
-    "Klaus the kayaker"
+    "Alma the avalanche guard",
+    "Bruno the baker",
+    "Celia the cook",
+    "Dmitri the doctor",
+    "Ena the engineer",
+    "Vince the vlogger",
+    "Frank the fisher",
+    "Greta the glacier expert",
+    "Hilda the hiker",
+    "Isla the ice climber"
   ],
-  "victim": 9,
+  "victim": 5,
   "clues": [
     [
       0,
       "next",
-      "skis"
+      "fire"
     ],
     [
       1,
-      "next",
-      "sofa"
-    ],
-    [
-      2,
-      "same",
+      "row",
       1
     ],
     [
+      1,
+      "col",
+      4
+    ],
+    [
       2,
-      "on",
-      "chair"
+      "col",
+      7
     ],
     [
       3,
-      "same",
-      2
+      "next",
+      "tree"
     ],
     [
       3,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
       "next",
       "wood"
     ],
     [
-      4,
-      "next",
-      "skis"
-    ],
-    [
-      4,
-      "same",
-      5
-    ],
-    [
-      5,
-      "notRoom",
-      5
-    ],
-    [
       6,
-      "door"
+      "next",
+      "wood"
     ],
     [
       7,
-      "next",
-      "tree"
+      "on",
+      "chair"
     ],
     [
       8,
-      "alone"
-    ],
-    [
-      10,
       "next",
       "sofa"
     ],
     [
-      10,
-      "col",
-      11
+      8,
+      "row",
+      8
     ],
     [
-      11,
+      9,
       "next",
-      "fire"
-    ],
-    [
-      11,
-      "next",
-      "tree"
+      "skis"
     ]
   ],
   "solution": [
-    0,
-    20,
-    29,
-    43,
-    49,
-    64,
-    82,
-    90,
-    98,
-    117,
-    131,
-    135
+    9,
+    14,
+    27,
+    30,
+    45,
+    53,
+    61,
+    72,
+    86,
+    98
   ],
   "doors": [
     [
-      4,
-      5
+      3,
+      4
     ],
     [
-      27,
-      39
+      20,
+      30
     ],
     [
-      44,
-      45
+      26,
+      36
     ],
     [
-      40,
-      41
+      43,
+      44
     ],
     [
-      41,
-      53
+      50,
+      60
     ],
     [
-      47,
-      59
+      52,
+      62
     ],
     [
-      76,
-      77
+      54,
+      64
     ],
     [
-      72,
-      84
+      56,
+      66
     ],
     [
-      79,
-      91
+      58,
+      68
     ],
     [
-      82,
-      94
+      71,
+      72
     ],
     [
-      88,
-      89
+      64,
+      65
     ],
     [
-      97,
-      109
-    ],
-    [
-      92,
-      93
-    ],
-    [
-      124,
-      125
+      87,
+      88
     ]
   ],
   "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
     [
       2,
       "t"
@@ -190,41 +170,17 @@
       "t"
     ],
     [
-      8,
-      "t"
-    ],
-    [
-      10,
-      "t"
-    ],
-    [
-      84,
+      50,
       "l"
     ],
     [
-      132,
-      "b"
-    ],
-    [
-      133,
-      "b"
+      89,
+      "r"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "onCount",
-      "chair",
-      1
-    ],
-    [
-      "roomCount",
-      8,
-      1
-    ]
-  ],
-  "hard": 9,
-  "hardest": 9,
-  "steps": 36,
+  "tries": 1,
+  "hard": 4,
+  "hardest": 6,
+  "steps": 25,
   "extra": true
 }

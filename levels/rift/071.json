@@ -1,62 +1,66 @@
 {
   "size": 5,
-  "rooms": "0001100011220002233322333",
-  "objects": "...bf....d...............",
+  "rooms": "0000000000122331223312233",
+  "objects": "..........f...e..aa..d...",
   "roomNames": [
     "Sea of Ages",
+    "Burial Chamber",
     "Shrine",
-    "Hide Tent",
-    "Saloon"
+    "Throne Room"
   ],
   "people": [
     "Astrid the astronomer",
-    "Bea the bard",
-    "Cora the chronicler",
-    "Daisy the dreamer",
-    "Vince the visionary"
+    "Basil the bard",
+    "Viola the visionary",
+    "Cedric the clockmaker",
+    "Della the dreamer"
   ],
-  "victim": 4,
+  "victim": 2,
   "clues": [
     [
       0,
-      "col",
+      "row",
       0
     ],
     [
       1,
-      "notRoom",
-      2
-    ],
-    [
-      2,
-      "alone"
+      "col",
+      1
     ],
     [
       3,
-      "row",
-      3
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "window"
     ]
   ],
   "solution": [
     0,
-    7,
-    11,
-    18,
-    24
+    6,
+    13,
+    19,
+    22
   ],
   "doors": [
     [
-      16,
-      17
+      10,
+      11
+    ],
+    [
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      15,
-      "l"
+      14,
+      "r"
     ],
     [
-      20,
+      15,
       "l"
     ],
     [
@@ -64,28 +68,16 @@
       "b"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "roomCount",
-      2,
-      1
-    ],
-    [
-      "edge",
-      null,
-      2
-    ]
-  ],
+  "tries": 1,
   "rules": [
     "trades",
     "sea"
   ],
-  "trade": "4.3.3",
-  "tags": "........3...........3....",
+  "trade": "..121",
+  "tags": ".............1.....2..1.0",
   "sea": 0,
-  "hard": 3,
-  "hardest": 3,
-  "steps": 13,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
   "extra": true
 }

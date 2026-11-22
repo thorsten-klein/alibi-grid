@@ -1,57 +1,60 @@
 {
   "size": 5,
   "rooms": "0001100011223332233322333",
-  "objects": ".b.e.ea.....cf..e...a...b",
+  "objects": ".............ec.....b.dd.",
   "roomNames": [
-    "Statue Hall",
-    "Sun Court",
-    "Boat Pit",
-    "Scribe Room"
+    "Treasury",
+    "Burial Chamber",
+    "Granary",
+    "Shrine"
   ],
   "people": [
-    "Viola the vintner",
-    "Albert the astrologer",
-    "Bea the brewer",
-    "Cedric the chanter",
-    "Dmitri the dancer"
+    "Albert the architect",
+    "Birgit the brewer",
+    "Victor the vintner",
+    "Cora the chanter",
+    "Dora the diviner"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
+      0,
+      "alone"
+    ],
+    [
       1,
-      "on",
-      "stool"
+      "door"
     ],
     [
       2,
-      "alone"
+      "door"
     ],
     [
       3,
       "next",
-      "jar"
+      "rubble"
     ],
     [
       4,
-      "on",
+      "next",
       "couch"
     ]
   ],
   "solution": [
-    2,
-    6,
-    10,
+    4,
+    5,
+    12,
     18,
-    24
+    21
   ],
   "doors": [
     [
-      7,
-      8
+      2,
+      3
     ],
     [
-      6,
-      11
+      5,
+      10
     ],
     [
       7,
@@ -62,31 +65,31 @@
       13
     ],
     [
-      21,
-      22
+      11,
+      12
     ]
   ],
   "windows": [
     [
-      4,
-      "r"
+      3,
+      "t"
     ],
     [
-      14,
-      "r"
+      15,
+      "l"
     ],
     [
-      24,
-      "r"
+      23,
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 13,
   "rules": [
     "glyphs"
   ],
-  "tags": "........C.L.......CC.....",
-  "hard": 0,
-  "hardest": 2,
-  "steps": 12,
+  "tags": "....LLL.....C........L...",
   "extra": true
 }

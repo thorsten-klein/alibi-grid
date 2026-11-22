@@ -1,103 +1,104 @@
 {
   "size": 5,
-  "rooms": "0011100111002223322233222",
-  "objects": ".a.abed...dc..b...c..b..b",
+  "rooms": "0011100111222332223322233",
+  "objects": "....daa....a.a......f..e.",
   "roomNames": [
-    "Barber",
     "Sheriff Office",
     "Livery",
-    "Bank"
+    "Jail",
+    "Church"
   ],
   "people": [
-    "Arthur the attorney",
-    "Birgit the blacksmith",
-    "Cedric the cattle driver",
-    "Daisy the dancer",
-    "Viola the vaquero"
+    "Arthur the auctioneer",
+    "Vivian the vet",
+    "Basil the blacksmith",
+    "Carl the cattle driver",
+    "Della the deputy"
   ],
-  "victim": 4,
+  "victim": 1,
   "clues": [
     [
       0,
-      "bandit"
-    ],
-    [
-      1,
       "door"
     ],
     [
       1,
-      "withBandit"
+      "on",
+      "chair"
     ],
     [
       2,
-      "alone"
+      "bandit"
     ],
     [
       3,
-      "door"
+      "next",
+      "chair"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "next",
+      "piano"
     ]
   ],
   "solution": [
-    3,
-    7,
-    14,
-    16,
-    20
+    1,
+    5,
+    12,
+    18,
+    24
   ],
   "doors": [
     [
+      1,
+      2
+    ],
+    [
       6,
-      7
-    ],
-    [
-      11,
-      12
-    ],
-    [
-      11,
-      16
+      11
     ],
     [
       7,
       12
     ],
     [
-      16,
-      17
+      8,
+      13
+    ],
+    [
+      12,
+      13
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
+      2,
+      "t"
     ],
     [
-      19,
+      3,
+      "t"
+    ],
+    [
+      9,
       "r"
-    ],
-    [
-      24,
-      "b"
     ]
   ],
-  "tries": 3,
-  "facts": [
-    [
-      "nextCount",
-      "chair",
-      0
-    ]
-  ],
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
   "rules": [
     "bandits"
   ],
   "bandits": 1,
   "lawful": [
-    3
+    0
   ],
-  "hard": 3,
-  "hardest": 6,
-  "steps": 17,
   "extra": true
 }

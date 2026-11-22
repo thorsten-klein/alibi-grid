@@ -1,0 +1,213 @@
+{
+  "size": 11,
+  "rooms": "0000011122200000111222000001112220000011122233334455555333344555553333445555533334466666777744666667777446666677774466666",
+  "objects": ".e........a..a..........dc..c........b........b.bb.b.b.b...c..f.d..f......a..e..b.......cf..baaa..b...cac.fca.dce..fae.e.",
+  "roomNames": [
+    "Armory",
+    "Kitchen",
+    "Stables",
+    "Gatehouse",
+    "Courtyard",
+    "Tower",
+    "Throne Room",
+    "Dungeon"
+  ],
+  "people": [
+    "Ada the alchemist",
+    "Bea the baker",
+    "Cedric the cupbearer",
+    "Dexter the dancer",
+    "Elias the envoy",
+    "Flora the falconer",
+    "Grace the groom",
+    "Hugo the herbalist",
+    "Victor the verger",
+    "Ines the illuminator",
+    "Jonas the jester"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "room",
+      2
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
+      2,
+      "next",
+      "barrel"
+    ],
+    [
+      3,
+      "next",
+      "candles"
+    ],
+    [
+      4,
+      "next",
+      "cot"
+    ],
+    [
+      5,
+      "next",
+      "cot"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      6,
+      "same",
+      7
+    ],
+    [
+      7,
+      "next",
+      "swords"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "barrel"
+    ],
+    [
+      9,
+      "next",
+      "barrel"
+    ],
+    [
+      10,
+      "on",
+      "bench"
+    ],
+    [
+      10,
+      "next",
+      "swords"
+    ]
+  ],
+  "solution": [
+    7,
+    20,
+    26,
+    35,
+    54,
+    60,
+    69,
+    78,
+    96,
+    99,
+    116
+  ],
+  "doors": [
+    [
+      26,
+      27
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      37,
+      48
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      78,
+      89
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      104,
+      105
+    ],
+    [
+      91,
+      92
+    ],
+    [
+      75,
+      86
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      21,
+      "r"
+    ],
+    [
+      22,
+      "l"
+    ],
+    [
+      65,
+      "r"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      117,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    0,
+    5
+  ],
+  "rank": "kcknnckkccc",
+  "hard": 11,
+  "hardest": 8,
+  "steps": 30,
+  "extra": true
+}

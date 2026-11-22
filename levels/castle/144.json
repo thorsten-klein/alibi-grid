@@ -1,30 +1,28 @@
 {
-  "size": 10,
-  "rooms": "0000011111000001111100000222223333322222333332222244444455554444445555666677775566667777556666777755",
-  "objects": "..c...bef..b...be.acb..dd.....ab....d.e.....ad.ec.ae...........a..............fd....c......bfa......",
+  "size": 9,
+  "rooms": "000111222000111222000111222000111222000111222334445555334445555334446666334446666",
+  "objects": "a.cc....b..fb......afc.........c.cdf..da.adbc.....bc......fbbf..e.f....e...b..e..",
   "roomNames": [
-    "Kitchen",
-    "Courtyard",
-    "Solar",
     "Gatehouse",
-    "Throne Room",
-    "Great Hall",
+    "Courtyard",
     "Armory",
-    "Dungeon"
+    "Great Hall",
+    "Dungeon",
+    "Smithy",
+    "Solar"
   ],
   "people": [
-    "Ada the alchemist",
-    "Bruno the bard",
-    "Cora the chronicler",
-    "Dmitri the doorkeeper",
+    "Ada the archer",
+    "Bella the bard",
+    "Cedric the cupbearer",
+    "Dora the doorkeeper",
     "Edgar the embroiderer",
-    "Frank the farrier",
-    "Gideon the groom",
-    "Viola the vintner",
-    "Hugo the herbalist",
-    "Ines the illuminator"
+    "Viola the verger",
+    "Flora the falconer",
+    "Greta the glassmaker",
+    "Hazel the herbalist"
   ],
-  "victim": 7,
+  "victim": 5,
   "clues": [
     [
       0,
@@ -33,22 +31,18 @@
     ],
     [
       0,
-      "next",
-      "urn"
+      "same",
+      3
     ],
     [
       1,
-      "on",
-      "cot"
-    ],
-    [
-      1,
-      "alone"
+      "col",
+      6
     ],
     [
       2,
-      "same",
-      3
+      "next",
+      "barrel"
     ],
     [
       3,
@@ -57,12 +51,12 @@
     ],
     [
       4,
-      "next",
-      "bench"
+      "door"
     ],
     [
-      5,
-      "door"
+      6,
+      "on",
+      "cot"
     ],
     [
       6,
@@ -70,140 +64,118 @@
       6
     ],
     [
-      6,
-      "col",
-      7
+      7,
+      "next",
+      "swords"
     ],
     [
       8,
-      "next",
-      "urn"
-    ],
-    [
-      9,
-      "alone"
+      "on",
+      "cot"
     ]
   ],
   "solution": [
-    9,
-    11,
-    28,
-    35,
-    43,
-    56,
-    67,
+    1,
+    15,
+    22,
+    29,
+    36,
+    53,
+    59,
     70,
-    82,
-    94
+    75
   ],
   "doors": [
     [
-      14,
-      15
+      2,
+      3
     ],
     [
-      24,
-      25
+      36,
+      45
     ],
     [
-      24,
-      34
+      38,
+      47
     ],
     [
-      15,
-      25
+      5,
+      6
     ],
     [
-      34,
-      35
-    ],
-    [
-      45,
-      55
-    ],
-    [
-      47,
-      57
+      39,
+      48
     ],
     [
       41,
-      51
+      50
     ],
     [
-      55,
-      56
+      43,
+      52
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      67,
+      68
     ],
     [
       62,
-      72
-    ],
-    [
-      65,
-      75
-    ],
-    [
-      66,
-      76
-    ],
-    [
-      83,
-      84
+      71
     ]
   ],
   "windows": [
     [
       0,
+      "t"
+    ],
+    [
+      0,
       "l"
     ],
     [
-      19,
-      "r"
+      6,
+      "t"
     ],
     [
-      40,
+      72,
       "l"
     ],
     [
-      49,
-      "r"
-    ],
-    [
-      95,
-      "b"
-    ],
-    [
-      96,
+      77,
       "b"
     ]
   ],
-  "tries": 7,
+  "tries": 1,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 24,
   "facts": [
     [
-      "nextCount",
-      "cot",
-      0
-    ],
-    [
-      "windowCount",
-      null,
-      0
-    ],
-    [
-      "nextCount",
-      "swords",
+      "roomCount",
+      6,
       1
+    ],
+    [
+      "roomCount",
+      5,
+      2
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    3,
-    7
+    4,
+    5
   ],
-  "rank": "kckcncckck",
-  "hard": 5,
-  "hardest": 6,
-  "steps": 38,
+  "rank": "ccckknkck",
   "extra": true
 }

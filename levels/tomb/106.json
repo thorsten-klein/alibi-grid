@@ -1,52 +1,53 @@
 {
   "size": 7,
-  "rooms": "0000111000011122221112222111333344433334443333444",
-  "objects": "a.bdaa...d......ae.........e...c..e.b..b..e.a....",
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": ".......bb.b....b.e.e...ba.f.f.c.b...bd...e..d....",
   "roomNames": [
     "Boat Pit",
-    "Statue Hall",
-    "Well Shaft",
     "Scribe Room",
+    "Granary",
+    "Burial Chamber",
     "Shrine"
   ],
   "people": [
-    "Vera the vintner",
-    "Ada the astrologer",
-    "Bruno the boat builder",
-    "Clara the chanter",
+    "Ada the architect",
+    "Basil the brewer",
+    "Vince the vizier",
+    "Celia the chanter",
     "Dora the diviner",
     "Edith the envoy",
-    "Fiona the fanbearer"
+    "Frank the fanbearer"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
+      0,
+      "next",
+      "couch"
+    ],
+    [
+      0,
+      "row",
+      0
+    ],
+    [
       1,
+      "alone"
+    ],
+    [
+      3,
       "next",
       "stool"
     ],
     [
-      2,
-      "alone"
-    ],
-    [
-      3,
-      "next",
-      "rubble"
-    ],
-    [
-      3,
-      "alone"
-    ],
-    [
       4,
       "next",
-      "rubble"
+      "urn"
     ],
     [
       5,
-      "on",
-      "couch"
+      "next",
+      "rubble"
     ],
     [
       6,
@@ -54,51 +55,51 @@
     ]
   ],
   "solution": [
-    2,
-    7,
-    18,
-    24,
-    33,
-    36,
+    0,
+    10,
+    16,
+    25,
+    29,
+    40,
     48
   ],
   "doors": [
     [
-      3,
-      4
+      2,
+      3
     ],
     [
-      7,
-      14
+      23,
+      24
     ],
     [
-      24,
-      25
+      21,
+      28
     ],
     [
-      25,
-      32
+      12,
+      19
     ],
     [
-      22,
-      29
+      27,
+      34
     ],
     [
-      38,
-      39
+      37,
+      38
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
+      13,
+      "r"
     ],
     [
       14,
       "l"
     ],
     [
-      42,
+      28,
       "l"
     ],
     [
@@ -106,20 +107,13 @@
       "r"
     ]
   ],
-  "tries": 16,
-  "facts": [
-    [
-      "nextCount",
-      "couch",
-      0
-    ]
-  ],
+  "tries": 2,
   "rules": [
     "glyphs"
   ],
-  "tags": "........L........................C.......C.....CC",
-  "hard": 1,
+  "tags": "C........................L..............C........",
+  "hard": 2,
   "hardest": 3,
-  "steps": 28,
+  "steps": 20,
   "extra": true
 }

@@ -1,117 +1,114 @@
 {
   "size": 6,
-  "rooms": "001111001111001111223344223344223344",
-  "objects": "da.........c....f.f.b.b.c...de......",
+  "rooms": "000000111111222233222233444433444433",
+  "objects": "........a.ada.........d.ac...b...f..",
   "roomNames": [
-    "Ski Room",
-    "Suite",
+    "Terrace",
+    "Sauna",
     "Fireside Lounge",
-    "Games Room",
-    "Bar"
+    "Spa",
+    "Kitchen"
   ],
   "people": [
     "Arthur the avalanche guard",
-    "Bruno the bartender",
+    "Bruno the baker",
     "Cora the climber",
-    "Dexter the doctor",
-    "Edgar the engineer",
-    "Vivian the vet"
+    "Vince the vet",
+    "Della the doctor",
+    "Edgar the engineer"
   ],
-  "victim": 5,
+  "victim": 3,
   "clues": [
     [
       0,
-      "door"
+      "window"
     ],
     [
       1,
-      "next",
-      "skis"
+      "door"
     ],
     [
       2,
-      "same",
-      1
+      "door"
     ],
     [
       2,
-      "next",
-      "skis"
-    ],
-    [
-      2,
-      "row",
-      2
-    ],
-    [
-      3,
-      "alone"
+      "col",
+      3
     ],
     [
       4,
       "next",
-      "skis"
+      "sofa"
     ],
     [
       5,
-      "window"
+      "next",
+      "skis"
     ]
   ],
   "solution": [
-    2,
-    10,
-    17,
-    21,
-    25,
-    30
+    5,
+    6,
+    15,
+    20,
+    28,
+    31
   ],
   "doors": [
     [
-      1,
-      2
+      0,
+      6
     ],
     [
-      13,
-      19
+      8,
+      14
+    ],
+    [
+      11,
+      17
     ],
     [
       15,
-      21
+      16
     ],
     [
-      16,
-      22
+      18,
+      24
     ],
     [
-      31,
-      32
-    ],
-    [
-      27,
-      28
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      12,
+      5,
+      "r"
+    ],
+    [
+      6,
       "l"
     ],
     [
-      30,
-      "l"
+      11,
+      "r"
     ],
     [
-      31,
-      "b"
-    ],
-    [
-      35,
-      "b"
+      29,
+      "r"
     ]
   ],
   "tries": 0,
-  "hard": 3,
-  "hardest": 4,
-  "steps": 17,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
   "extra": true
 }

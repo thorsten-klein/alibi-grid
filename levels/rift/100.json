@@ -1,48 +1,49 @@
 {
   "size": 7,
-  "rooms": "0001111000111122233332223333222244422224442222444",
-  "objects": "...dd.bc..e......ef.......f......ad..............",
+  "rooms": "0000000111122211112223333222333322244442224444222",
+  "objects": "..a...bdc.....b.......c.b.....aa....e.a....b.....",
   "roomNames": [
-    "Hide Tent",
     "Captain Cabin",
+    "Fort",
     "Sea of Ages",
-    "Great Hall",
-    "Bank"
+    "Jail",
+    "Fire Pit"
   ],
   "people": [
-    "Albert the astronomer",
-    "Bella the bookbinder",
-    "Cora the chronicler",
-    "Daisy the drifter",
-    "Elias the engineer",
-    "Fiona the falconer",
-    "Vera the visionary"
+    "Alma the astronomer",
+    "Basil the bookbinder",
+    "Carl the chronicler",
+    "Della the dreamer",
+    "Elias the explorer",
+    "Felix the fortune teller",
+    "Vivian the visionary"
   ],
   "victim": 6,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "log"
     ],
     [
       1,
-      "next",
-      "barrel"
+      "row",
+      1
     ],
     [
       2,
-      "row",
-      2
+      "col",
+      4
     ],
     [
       3,
       "next",
-      "boulder"
+      "statue"
     ],
     [
       4,
-      "col",
-      2
+      "row",
+      4
     ],
     [
       5,
@@ -51,43 +52,43 @@
     ]
   ],
   "solution": [
-    0,
-    11,
-    15,
-    24,
-    30,
-    40,
-    48
+    5,
+    10,
+    18,
+    21,
+    34,
+    37,
+    43
   ],
   "doors": [
     [
-      9,
-      10
+      2,
+      9
     ],
     [
-      11,
-      18
+      16,
+      23
     ],
     [
-      27,
-      34
+      30,
+      37
     ]
   ],
   "windows": [
     [
-      0,
+      3,
       "t"
     ],
     [
-      6,
-      "t"
+      42,
+      "b"
     ],
     [
-      41,
-      "r"
+      43,
+      "b"
     ],
     [
-      48,
+      45,
       "b"
     ]
   ],
@@ -97,12 +98,12 @@
     "sea"
   ],
   "court": [
-    0
+    1
   ],
-  "rank": "kcckccc",
+  "rank": "kncckcc",
   "sea": 2,
-  "hard": 4,
+  "hard": 3,
   "hardest": 5,
-  "steps": 17,
+  "steps": 16,
   "extra": true
 }

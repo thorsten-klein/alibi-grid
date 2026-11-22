@@ -1,144 +1,132 @@
 {
-  "size": 8,
-  "rooms": "0000111100001111000022220000222233444555334445553344455533444555",
-  "objects": ".d...d.e....dcc.....be......b.eb...d..bcd.b..f........a.dac...a.",
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": ".c.....cf..ae.........f..e........b.b.ebe..eb.ca.",
   "roomNames": [
-    "Med Bay",
     "Cargo Bay",
     "Comms",
-    "Crew Quarters",
-    "Gym",
-    "Lab"
+    "Lab",
+    "Airlock",
+    "Hydroponics"
   ],
   "people": [
-    "Albert the astronaut",
-    "Basil the botanist",
-    "Celia the chemist",
-    "Dmitri the doctor",
-    "Edith the electrician",
-    "Victor the volunteer",
-    "Frank the flight officer",
-    "Gwen the gunner"
+    "Arthur the analyst",
+    "Bea the botanist",
+    "Carl the captain",
+    "Dmitri the driller",
+    "Elsa the electrician",
+    "Vince the visitor",
+    "Frank the flight officer"
   ],
   "victim": 5,
   "clues": [
     [
       0,
-      "next",
-      "scope"
-    ],
-    [
-      0,
       "same",
-      3
+      2
     ],
     [
       1,
-      "col",
-      1
+      "next",
+      "plant"
     ],
     [
       2,
       "next",
-      "pod"
+      "tank"
     ],
     [
       3,
-      "row",
-      3
-    ],
-    [
-      4,
-      "door"
-    ],
-    [
-      5,
       "next",
       "tank"
     ],
     [
-      6,
-      "window"
+      3,
+      "col",
+      2
     ],
     [
-      7,
+      4,
       "next",
-      "seat"
+      "pod"
+    ],
+    [
+      6,
+      "next",
+      "pod"
+    ],
+    [
+      6,
+      "alone"
     ]
   ],
   "solution": [
-    2,
-    9,
+    0,
+    13,
+    15,
     23,
-    27,
-    36,
-    46,
-    48,
-    61
+    33,
+    39,
+    45
   ],
   "doors": [
     [
-      3,
-      4
+      9,
+      10
     ],
     [
-      19,
-      20
+      23,
+      24
     ],
     [
-      24,
-      32
-    ],
-    [
-      27,
-      35
+      21,
+      28
     ],
     [
       12,
-      20
+      19
     ],
     [
-      28,
-      36
+      24,
+      31
     ],
     [
-      29,
-      37
+      27,
+      34
     ],
     [
-      57,
-      58
-    ],
-    [
-      52,
-      53
+      45,
+      46
     ]
   ],
   "windows": [
     [
-      4,
+      6,
       "t"
     ],
     [
-      7,
+      27,
       "r"
     ],
     [
-      48,
+      35,
       "l"
     ],
     [
-      58,
+      47,
       "b"
-    ],
-    [
-      63,
-      "r"
     ]
   ],
-  "tries": 0,
-  "hard": 3,
-  "hardest": 6,
-  "steps": 16,
+  "tries": 2,
+  "facts": [
+    [
+      "nextCount",
+      "pod",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 5,
+  "steps": 20,
   "extra": true
 }

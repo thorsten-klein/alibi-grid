@@ -1,127 +1,91 @@
 {
-  "size": 6,
-  "rooms": "000011000011223333223333223444223444",
-  "objects": "a..c..f..e..fc.e.....a..........a...",
+  "size": 5,
+  "rooms": "0011100111222113331133311",
+  "objects": ".....a.........be....b...",
   "roomNames": [
-    "Bank",
-    "Saloon",
-    "Captain Cabin",
-    "Burial Chamber",
-    "Shrine"
+    "Hide Tent",
+    "Sea of Ages",
+    "Great Hall",
+    "Saloon"
   ],
   "people": [
-    "Albert the archivist",
-    "Bella the bard",
-    "Cora the chronicler",
-    "Viola the voyager",
-    "Della the dreamer",
-    "Edith the explorer"
+    "Arthur the archivist",
+    "Bella the bookbinder",
+    "Cora the clockmaker",
+    "Vera the voyager",
+    "Dmitri the drifter"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "alone"
+      "row",
+      0
     ],
     [
       1,
-      "next",
-      "boulder"
-    ],
-    [
-      1,
-      "bandit"
+      "col",
+      2
     ],
     [
       2,
-      "door"
-    ],
-    [
-      4,
-      "row",
+      "col",
       4
     ],
     [
-      5,
-      "bandit"
+      4,
+      "col",
+      1
     ]
   ],
   "solution": [
-    5,
-    8,
-    16,
-    21,
-    24,
-    31
+    3,
+    7,
+    14,
+    15,
+    21
   ],
   "doors": [
     [
-      9,
+      5,
       10
     ],
     [
-      6,
-      12
-    ],
-    [
-      9,
-      15
-    ],
-    [
-      10,
-      16
-    ],
-    [
-      13,
-      14
-    ],
-    [
-      22,
-      28
+      12,
+      17
     ]
   ],
   "windows": [
     [
-      12,
+      1,
+      "t"
+    ],
+    [
+      10,
       "l"
     ],
     [
-      23,
-      "r"
-    ],
-    [
-      33,
-      "b"
-    ],
-    [
-      35,
-      "r"
+      20,
+      "l"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
   "facts": [
     [
-      "edge",
+      "emptyRooms",
       null,
-      3
-    ],
-    [
-      "roomCount",
-      3,
       2
     ]
   ],
   "rules": [
-    "bandits",
-    "glyphs"
+    "trades",
+    "sea"
   ],
-  "tags": ".....L..L.L.............C.C....C..L.",
-  "bandits": 2,
-  "lawful": [
-    3
-  ],
-  "hard": 5,
-  "hardest": 6,
-  "steps": 18,
+  "trade": "2.24.",
+  "tags": "...........4.............",
+  "sea": 1,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
   "extra": true
 }

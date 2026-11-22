@@ -1,125 +1,108 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100022220002222333344433334443333444",
-  "objects": "...........ca...a...b.f..a..c..acb.......ae.f..a.",
+  "size": 6,
+  "rooms": "001111001111002222002222333344333344",
+  "objects": "...cab...bdb..a...e...af........d.b.",
   "roomNames": [
-    "Corridor",
-    "Dining Car",
+    "Bar Car",
+    "Observation Car",
     "Lounge Car",
-    "Guard's Van",
-    "Observation Car"
+    "Sleeper B",
+    "Galley"
   ],
   "people": [
-    "Arthur the attendant",
-    "Bruno the banker",
-    "Clara the conductor",
-    "Dora the dentist",
-    "Vera the vendor",
-    "Edgar the engineer",
-    "Freya the fiddler"
+    "Vivian the vendor",
+    "Ada the accordionist",
+    "Basil the bookseller",
+    "Cedric the conductor",
+    "Dmitri the dentist",
+    "Ena the envoy"
   ],
-  "victim": 4,
+  "victim": 0,
   "clues": [
-    [
-      0,
-      "next",
-      "suitcase"
-    ],
     [
       1,
       "alone"
     ],
     [
       2,
-      "col",
-      3
-    ],
-    [
-      2,
-      "same",
-      3
+      "on",
+      "seat"
     ],
     [
       3,
       "next",
-      "bunk"
+      "lamp"
     ],
     [
       4,
-      "next",
-      "seat"
+      "same",
+      5
     ],
     [
       5,
-      "next",
+      "on",
       "bunk"
-    ],
-    [
-      6,
-      "next",
-      "wine"
     ]
   ],
   "solution": [
-    4,
-    7,
-    17,
-    27,
-    30,
-    40,
-    43
+    0,
+    9,
+    14,
+    19,
+    29,
+    34
   ],
   "doors": [
     [
-      9,
-      10
+      1,
+      2
     ],
     [
-      23,
+      13,
+      14
+    ],
+    [
+      18,
       24
     ],
     [
-      23,
-      30
+      8,
+      14
     ],
     [
-      12,
-      19
+      20,
+      26
     ],
     [
-      24,
-      31
+      22,
+      28
     ],
     [
-      26,
-      33
-    ],
-    [
-      31,
-      32
+      27,
+      28
     ]
   ],
   "windows": [
-    [
-      0,
-      "l"
-    ],
     [
       1,
       "t"
     ],
     [
-      44,
-      "b"
+      5,
+      "r"
     ],
     [
-      45,
+      6,
+      "l"
+    ],
+    [
+      30,
       "b"
     ]
   ],
-  "tries": 2,
-  "hard": 4,
-  "hardest": 6,
-  "steps": 21,
+  "tries": 7,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 22,
   "extra": true
 }

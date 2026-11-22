@@ -1,192 +1,158 @@
 {
-  "size": 11,
-  "rooms": "0000112223300001122233000011222330000112223344445555555444455555554444444444466664444444666644444446666444444466664444444",
-  "objects": "........ac..d.......badf.cdefb..aa.e..d.b.......e....db....f.b.a.............e.................................dbc.......",
+  "size": 9,
+  "rooms": "001111122001111122001111122001111122001111122331144455331144455331144455331144455",
+  "objects": "cd.....ac.........a......f..a................b...e..c.b........ec...........e..b.",
   "roomNames": [
     "Dock",
-    "Cove",
-    "Frigate",
-    "Brig",
     "Open Sea",
+    "Frigate",
+    "Sloop",
     "Fort",
     "Tavern"
   ],
   "people": [
-    "Albert the admiral",
-    "Bella the barkeep",
-    "Celia the captain",
-    "Daisy the deckhand",
-    "Elsa the engineer",
-    "Vivian the vintner",
-    "Frank the fiddler",
-    "Greta the gold digger",
-    "Hugo the harpooner",
-    "Ivy the island guide",
-    "Jonas the jailbird"
+    "Astrid the admiral",
+    "Basil the barkeep",
+    "Cora the captain",
+    "Dexter the diver",
+    "Ena the engineer",
+    "Fiona the first mate",
+    "Grace the gold digger",
+    "Victor the voyager",
+    "Hilda the harpooner"
   ],
-  "victim": 5,
+  "victim": 7,
   "clues": [
     [
       0,
-      "same",
+      "row",
+      0
+    ],
+    [
+      0,
+      "col",
       2
     ],
     [
       1,
-      "next",
-      "anchor"
-    ],
-    [
-      1,
-      "alone"
+      "col",
+      3
     ],
     [
       2,
-      "next",
-      "hammock"
+      "row",
+      2
+    ],
+    [
+      2,
+      "alone"
     ],
     [
       3,
-      "same",
-      0
+      "row",
+      3
     ],
     [
       3,
-      "next",
-      "cannon"
-    ],
-    [
-      3,
-      "next",
-      "hammock"
+      "col",
+      6
     ],
     [
       4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
       "next",
       "map"
     ],
     [
       6,
-      "alone"
+      "next",
+      "anchor"
     ],
     [
       7,
-      "row",
-      7
-    ],
-    [
-      7,
-      "alone"
+      "next",
+      "hammock"
     ],
     [
       8,
       "next",
-      "map"
-    ],
-    [
-      9,
-      "same",
-      8
-    ],
-    [
-      9,
-      "row",
-      9
-    ],
-    [
-      10,
-      "col",
-      4
-    ]
-  ],
-  "solution": [
-    7,
-    14,
-    30,
-    39,
-    49,
-    64,
-    68,
-    87,
-    88,
-    100,
-    114
-  ],
-  "doors": [
-    [
-      25,
-      26
-    ],
-    [
-      38,
-      39
-    ],
-    [
-      37,
-      48
+      "hammock"
     ],
     [
       8,
-      9
-    ],
+      "row",
+      8
+    ]
+  ],
+  "solution": [
+    2,
+    12,
+    22,
+    33,
+    36,
+    50,
+    55,
+    70,
+    80
+  ],
+  "doors": [
     [
-      39,
-      50
+      37,
+      46
     ],
     [
       43,
-      54
+      52
+    ],
+    [
+      51,
+      52
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
       8,
       "t"
     ],
     [
-      10,
-      "r"
-    ],
-    [
-      21,
-      "r"
-    ],
-    [
-      22,
+      9,
       "l"
     ],
     [
-      32,
+      17,
       "r"
     ],
     [
+      18,
+      "l"
+    ],
+    [
       54,
-      "r"
+      "l"
     ]
   ],
   "tries": 2,
   "facts": [
     [
-      "nextCount",
-      "hammock",
-      2
-    ],
-    [
-      "windowCount",
-      null,
+      "onCount",
+      "stool",
       0
     ]
   ],
   "rules": [
     "sea"
   ],
-  "sea": 4,
-  "hard": 5,
-  "hardest": 4,
-  "steps": 31,
+  "sea": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 22,
   "extra": true
 }

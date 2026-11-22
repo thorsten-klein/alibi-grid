@@ -1,38 +1,39 @@
 {
   "size": 7,
-  "rooms": "0001111000111100000000000000222334422233442223344",
-  "objects": "....d.a..........................b...a.bb........",
+  "rooms": "0001122000112211111221111122331144433114443311444",
+  "objects": "e.......e...db.............aab....cf.......a.....",
   "roomNames": [
-    "Sea of Ages",
-    "Fort",
-    "Saloon",
     "Captain Cabin",
-    "Fire Pit"
+    "Sea of Ages",
+    "Great Hall",
+    "Throne Room",
+    "Fort"
   ],
   "people": [
-    "Ada the archivist",
-    "Bea the bard",
-    "Carl the clockmaker",
-    "Daisy the drifter",
-    "Ena the engineer",
-    "Vera the voyager",
-    "Frank the falconer"
+    "Alma the astronomer",
+    "Bella the bookbinder",
+    "Vera the visionary",
+    "Clara the clockmaker",
+    "Daisy the dreamer",
+    "Edgar the explorer",
+    "Fiona the fortune teller"
   ],
-  "victim": 5,
+  "victim": 2,
   "clues": [
     [
       0,
-      "col",
-      0
-    ],
-    [
-      1,
       "notRoom",
       0
     ],
     [
-      2,
-      "alone"
+      0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "on",
+      "log"
     ],
     [
       3,
@@ -40,76 +41,58 @@
       3
     ],
     [
-      3,
-      "col",
-      5
+      4,
+      "on",
+      "log"
     ],
     [
-      4,
-      "row",
-      4
+      5,
+      "col",
+      3
     ],
     [
       6,
       "next",
-      "log"
+      "clock"
     ]
   ],
   "solution": [
-    0,
-    10,
-    20,
-    26,
+    4,
+    13,
+    19,
+    23,
     29,
-    37,
-    46
+    38,
+    42
   ],
   "doors": [
     [
-      37,
-      38
-    ],
-    [
-      32,
-      33
+      27,
+      34
     ]
   ],
   "windows": [
     [
-      5,
+      0,
       "t"
     ],
     [
-      34,
+      20,
       "r"
     ],
     [
-      45,
-      "b"
+      35,
+      "l"
     ],
     [
       48,
       "b"
     ]
   ],
-  "tries": 7,
-  "facts": [
-    [
-      "furniture",
-      null,
-      1
-    ],
-    [
-      "corner",
-      null,
-      4
-    ],
-    [
-      "edge",
-      null,
-      3
-    ]
-  ],
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 15,
   "rules": [
     "ranks",
     "sea"
@@ -117,10 +100,7 @@
   "court": [
     2
   ],
-  "rank": "cckckkc",
-  "sea": 0,
-  "hard": 5,
-  "hardest": 3,
-  "steps": 24,
+  "rank": "kkkccck",
+  "sea": 1,
   "extra": true
 }

@@ -1,59 +1,66 @@
 {
   "size": 6,
-  "rooms": "000011222211222211333444333444333444",
-  "objects": ".c.baa.a.....ade.a.b......c.aff.....",
+  "rooms": "000011000011223311223311224444224444",
+  "objects": "..b.b..b...c.d..d.......a..f........",
   "roomNames": [
     "Treasury",
-    "Hall of Pillars",
-    "Workshop",
     "Boat Pit",
+    "Sun Court",
+    "Antechamber",
     "Well Shaft"
   ],
   "people": [
-    "Viola the vizier",
-    "Arthur the architect",
-    "Bea the boat builder",
-    "Celia the chanter",
-    "Dora the diviner",
-    "Ena the embalmer"
+    "Alma the astrologer",
+    "Bruno the brewer",
+    "Clara the chanter",
+    "Dmitri the dancer",
+    "Ena the envoy",
+    "Vivian the vizier"
   ],
-  "victim": 0,
+  "victim": 5,
   "clues": [
     [
+      0,
+      "door"
+    ],
+    [
       1,
-      "on",
-      "stool"
+      "next",
+      "couch"
+    ],
+    [
+      1,
+      "col",
+      0
     ],
     [
       2,
       "next",
-      "stool"
-    ],
-    [
-      2,
-      "door"
+      "urn"
     ],
     [
       3,
-      "window"
+      "next",
+      "statue"
     ],
     [
       4,
       "next",
-      "stool"
+      "jar"
     ],
     [
       5,
-      "door"
+      "col",
+      4
     ]
   ],
   "solution": [
-    5,
-    7,
-    16,
-    18,
-    27,
-    32
+    3,
+    6,
+    17,
+    19,
+    26,
+    34
   ],
   "doors": [
     [
@@ -61,62 +68,59 @@
       4
     ],
     [
-      2,
-      8
+      6,
+      12
+    ],
+    [
+      8,
+      14
     ],
     [
       15,
       16
     ],
     [
-      17,
-      23
+      23,
+      29
     ],
     [
-      12,
-      18
+      13,
+      14
     ],
     [
-      15,
-      21
+      31,
+      32
     ],
     [
-      32,
-      33
+      21,
+      27
     ]
   ],
   "windows": [
     [
-      0,
+      12,
       "l"
-    ],
-    [
-      1,
-      "t"
     ],
     [
       18,
       "l"
     ],
     [
-      35,
+      30,
+      "b"
+    ],
+    [
+      33,
       "b"
     ]
   ],
-  "tries": 9,
-  "facts": [
-    [
-      "windowCount",
-      null,
-      1
-    ]
-  ],
+  "tries": 2,
   "rules": [
     "glyphs"
   ],
-  "tags": "........CL......................C...",
-  "hard": 5,
+  "tags": "...C..C.............................",
+  "hard": 1,
   "hardest": 4,
-  "steps": 22,
+  "steps": 16,
   "extra": true
 }

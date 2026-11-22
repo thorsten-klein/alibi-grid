@@ -1,123 +1,113 @@
 {
-  "size": 7,
-  "rooms": "0011222001122200112220011222333344433334443333444",
-  "objects": "....f.....ff..c..c...........be..aa.e..bad.......",
+  "size": 6,
+  "rooms": "000011000011222111222111333444333444",
+  "objects": "..........b..afc..c.d.c.bbc.ab.d...e",
   "roomNames": [
-    "Terrace",
-    "Sauna",
     "Ski Room",
+    "Dining Hall",
     "Suite",
-    "Lobby"
+    "Sauna",
+    "Boot Room"
   ],
   "people": [
-    "Albert the athlete",
-    "Bella the baker",
-    "Cora the cook",
-    "Dora the driver",
-    "Edith the explorer",
-    "Victor the vlogger",
-    "Fiona the forester"
+    "Ada the athlete",
+    "Basil the bartender",
+    "Clara the cook",
+    "Vera the vlogger",
+    "Daisy the doctor",
+    "Ena the engineer"
   ],
-  "victim": 5,
+  "victim": 3,
   "clues": [
     [
       0,
-      "same",
-      2
+      "door"
     ],
     [
       1,
-      "row",
-      1
+      "alone"
     ],
     [
       2,
-      "col",
-      4
+      "next",
+      "skis"
     ],
     [
       3,
-      "alone"
+      "next",
+      "skis"
+    ],
+    [
+      4,
+      "on",
+      "sofa"
     ],
     [
       4,
       "next",
-      "sofa"
+      "fire"
     ],
     [
       5,
-      "next",
-      "tree"
-    ],
-    [
-      6,
       "next",
       "fire"
     ]
   ],
   "solution": [
-    5,
-    8,
-    18,
-    24,
-    28,
-    37,
-    48
+    4,
+    9,
+    12,
+    23,
+    25,
+    32
   ],
   "doors": [
     [
-      15,
-      16
+      3,
+      4
     ],
     [
-      21,
-      28
+      6,
+      12
     ],
     [
-      10,
-      11
+      14,
+      15
     ],
     [
-      24,
-      31
+      23,
+      29
     ],
     [
-      25,
-      32
+      20,
+      26
     ],
     [
-      31,
-      32
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      4,
-      "t"
+      12,
+      "l"
     ],
     [
-      6,
-      "t"
+      29,
+      "r"
     ],
     [
-      42,
+      34,
       "b"
     ],
     [
-      48,
+      35,
       "b"
     ]
   ],
-  "tries": 0,
-  "facts": [
-    [
-      "nextCount",
-      "skis",
-      1
-    ]
-  ],
-  "hard": 5,
-  "hardest": 5,
-  "steps": 21,
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
   "extra": true
 }

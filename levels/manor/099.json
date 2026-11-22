@@ -1,24 +1,23 @@
 {
-  "size": 7,
-  "rooms": "0000111000011122222222222222333444433344443334444",
-  "objects": "f.a..d..f......f...d..ee.........eab...b.fe.da...",
+  "size": 6,
+  "rooms": "000011000011223344223344223344223344",
+  "objects": "b..f....d..a.ddf..a.a...d...........",
   "roomNames": [
+    "Hall",
+    "Kitchen",
     "Library",
-    "Chapel",
-    "Pantry",
-    "Conservatory",
-    "Cellar"
+    "Dining Room",
+    "Pantry"
   ],
   "people": [
-    "Arthur the author",
-    "Bella the banker",
-    "Victor the valet",
-    "Clara the cook",
-    "Dexter the dealer",
-    "Edgar the editor",
-    "Freya the florist"
+    "Arthur the architect",
+    "Viola the vicar",
+    "Basil the butler",
+    "Clara the colonel",
+    "Dmitri the doctor",
+    "Ena the editor"
   ],
-  "victim": 2,
+  "victim": 1,
   "clues": [
     [
       0,
@@ -26,88 +25,92 @@
       "clock"
     ],
     [
-      1,
-      "next",
-      "piano"
-    ],
-    [
-      3,
-      "window"
-    ],
-    [
-      4,
+      2,
       "door"
     ],
     [
-      5,
-      "same",
-      6
-    ],
-    [
-      6,
+      3,
       "on",
       "chair"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "alone"
     ]
   ],
   "solution": [
-    1,
-    12,
-    14,
-    27,
-    30,
-    39,
-    45
+    2,
+    7,
+    17,
+    18,
+    28,
+    33
   ],
   "doors": [
     [
-      10,
-      11
+      3,
+      4
     ],
     [
-      7,
+      6,
+      12
+    ],
+    [
+      8,
       14
     ],
     [
-      13,
-      20
+      11,
+      17
     ],
     [
-      23,
-      30
+      25,
+      26
     ],
     [
-      24,
-      31
-    ],
-    [
-      30,
-      31
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      5,
+      3,
       "t"
     ],
     [
-      27,
+      5,
       "r"
     ],
     [
-      41,
+      17,
       "r"
     ],
     [
-      48,
-      "b"
+      18,
+      "l"
     ]
   ],
-  "tries": 3,
+  "tries": 5,
   "facts": [
     [
+      "edge",
+      null,
+      4
+    ],
+    [
       "roomCount",
-      1,
+      2,
       1
+    ],
+    [
+      "nextCount",
+      "sofa",
+      0
     ]
   ],
   "hard": 2,

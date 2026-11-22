@@ -1,25 +1,30 @@
 {
   "size": 7,
-  "rooms": "0001111000111100022220002222333444433344443334444",
-  "objects": "f.....f....e..f...a......b...c..a.e.f.a....bd....",
+  "rooms": "0001111000111100011112223333222333322244442224444",
+  "objects": ".....f.df.bf....a....ac...........bc....f.b..bc..",
   "roomNames": [
-    "Foyer",
+    "Prop Store",
+    "Balcony",
+    "Green Room",
     "Wings",
-    "Costume Room",
-    "Box Office",
-    "Orchestra Pit"
+    "Foyer"
   ],
   "people": [
     "Albert the author",
-    "Bella the bass player",
-    "Cora the choreographer",
-    "Dmitri the dancer",
-    "Edith the electrician",
-    "Vivian the violinist",
-    "Flora the fan"
+    "Birgit the baritone",
+    "Carl the choreographer",
+    "Viola the ventriloquist",
+    "Dexter the dancer",
+    "Edith the extra",
+    "Felix the flautist"
   ],
-  "victim": 5,
+  "victim": 3,
   "clues": [
+    [
+      0,
+      "next",
+      "sofa"
+    ],
     [
       0,
       "row",
@@ -27,41 +32,37 @@
     ],
     [
       1,
-      "door"
-    ],
-    [
-      1,
-      "alone"
-    ],
-    [
-      2,
       "next",
       "light"
     ],
     [
-      3,
+      2,
       "next",
-      "seat"
+      "mirror"
     ],
     [
       4,
+      "on",
+      "sofa"
+    ],
+    [
+      5,
       "next",
       "piano"
     ],
     [
       6,
-      "row",
-      6
+      "window"
     ]
   ],
   "solution": [
-    2,
-    10,
-    15,
+    3,
+    12,
+    14,
     25,
-    28,
-    40,
-    48
+    34,
+    36,
+    44
   ],
   "doors": [
     [
@@ -69,59 +70,47 @@
       10
     ],
     [
-      16,
-      17
+      15,
+      22
     ],
     [
-      21,
-      28
+      17,
+      24
     ],
     [
-      10,
-      17
-    ],
-    [
-      24,
-      31
+      23,
+      24
     ],
     [
       37,
       38
+    ],
+    [
+      32,
+      39
     ]
   ],
   "windows": [
     [
-      6,
+      5,
       "t"
     ],
     [
+      35,
+      "l"
+    ],
+    [
       42,
-      "b"
+      "l"
     ],
     [
-      46,
-      "b"
-    ],
-    [
-      47,
+      44,
       "b"
     ]
   ],
-  "tries": 4,
-  "facts": [
-    [
-      "edge",
-      null,
-      3
-    ],
-    [
-      "nextCount",
-      "light",
-      1
-    ]
-  ],
-  "hard": 5,
-  "hardest": 4,
-  "steps": 23,
+  "tries": 0,
+  "hard": 0,
+  "hardest": 1,
+  "steps": 16,
   "extra": true
 }

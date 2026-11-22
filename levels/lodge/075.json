@@ -1,114 +1,100 @@
 {
-  "size": 6,
-  "rooms": "000000111111222233222233444433444433",
-  "objects": "........a.ada.........d.ac...b...f..",
+  "size": 5,
+  "rooms": "0011100111222332223322233",
+  "objects": ".a..afe......ba.aed.e...a",
   "roomNames": [
-    "Terrace",
-    "Sauna",
-    "Fireside Lounge",
+    "Games Room",
+    "Dining Hall",
     "Spa",
-    "Kitchen"
+    "Lobby"
   ],
   "people": [
-    "Arthur the avalanche guard",
-    "Bruno the baker",
-    "Cora the climber",
-    "Vince the vet",
-    "Della the doctor",
-    "Edgar the engineer"
+    "Alma the avalanche guard",
+    "Vince the vlogger",
+    "Birgit the bartender",
+    "Cora the cook",
+    "Dexter the doctor"
   ],
-  "victim": 3,
+  "victim": 1,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
-      "door"
+      "on",
+      "chair"
     ],
     [
       2,
-      "door"
+      "next",
+      "chair"
     ],
     [
       2,
-      "col",
+      "same",
       3
     ],
     [
-      4,
+      3,
       "next",
-      "sofa"
+      "tree"
     ],
     [
-      5,
-      "next",
-      "skis"
+      4,
+      "alone"
     ]
   ],
   "solution": [
-    5,
-    6,
+    4,
+    7,
+    11,
     15,
-    20,
-    28,
-    31
+    23
   ],
   "doors": [
     [
-      0,
-      6
+      1,
+      2
     ],
     [
-      8,
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      9,
       14
     ],
     [
-      11,
-      17
-    ],
-    [
-      15,
-      16
-    ],
-    [
-      18,
-      24
-    ],
-    [
-      33,
-      34
+      12,
+      13
     ]
   ],
   "windows": [
     [
-      5,
-      "r"
+      1,
+      "t"
     ],
     [
-      6,
+      5,
       "l"
     ],
     [
-      11,
-      "r"
-    ],
-    [
-      29,
-      "r"
+      10,
+      "l"
     ]
   ],
-  "tries": 0,
+  "tries": 4,
   "facts": [
     [
-      "doorCount",
-      null,
-      2
+      "onCount",
+      "sofa",
+      0
     ]
   ],
-  "hard": 1,
-  "hardest": 3,
-  "steps": 15,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
   "extra": true
 }

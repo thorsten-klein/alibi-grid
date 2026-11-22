@@ -1,125 +1,126 @@
 {
   "size": 6,
-  "rooms": "000122000122000122000122333344333344",
-  "objects": ".........f.....b....f....bb....a.e..",
+  "rooms": "000000000000111111223344223344223344",
+  "objects": "a.b......a....c....e..a.ca.c...b....",
   "roomNames": [
-    "Burial Chamber",
-    "Cave",
-    "Hide Tent",
-    "Fort",
-    "Fire Pit"
+    "Saloon",
+    "Bank",
+    "Jail",
+    "Shrine",
+    "Cave"
   ],
   "people": [
     "Ada the archivist",
-    "Birgit the bard",
-    "Cedric the chronicler",
-    "Dmitri the dreamer",
-    "Vivian the visionary",
-    "Elsa the engineer"
+    "Viola the voyager",
+    "Bella the bookbinder",
+    "Clara the clockmaker",
+    "Dmitri the drifter",
+    "Ena the explorer"
   ],
-  "victim": 4,
+  "victim": 1,
   "clues": [
     [
       0,
-      "row",
-      0
+      "next",
+      "log"
     ],
     [
       1,
-      "bandit"
+      "col",
+      4
     ],
     [
       2,
-      "next",
-      "clock"
+      "door"
     ],
     [
       3,
       "door"
     ],
     [
-      4,
-      "door"
+      3,
+      "bandit"
     ],
     [
       4,
-      "withBandit"
+      "alone"
     ],
     [
       5,
-      "window"
+      "next",
+      "statue"
     ]
   ],
   "solution": [
-    5,
-    7,
-    15,
-    22,
-    26,
-    30
+    1,
+    10,
+    12,
+    20,
+    29,
+    33
   ],
   "doors": [
     [
-      14,
-      15
+      6,
+      12
     ],
     [
-      20,
-      26
+      12,
+      18
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      19,
+      20
     ],
     [
       21,
       22
-    ],
-    [
-      21,
-      27
-    ],
-    [
-      23,
-      29
-    ],
-    [
-      27,
-      28
     ]
   ],
   "windows": [
     [
-      2,
+      0,
       "t"
     ],
     [
-      17,
+      29,
       "r"
     ],
     [
       30,
-      "l"
+      "b"
     ],
     [
-      32,
+      34,
       "b"
     ]
   ],
-  "tries": 4,
+  "tries": 1,
   "facts": [
     [
       "nextCount",
-      "boulder",
-      0
+      "statue",
+      1
     ]
   ],
   "rules": [
     "bandits",
     "glyphs"
   ],
-  "tags": "..C.L......C....C.............C.....",
+  "tags": ".............C......C.......C...CC..",
   "bandits": 2,
   "lawful": [
-    2
+    1
   ],
-  "hard": 4,
+  "hard": 5,
   "hardest": 4,
   "steps": 19,
   "extra": true

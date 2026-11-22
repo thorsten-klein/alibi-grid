@@ -1,58 +1,40 @@
 {
-  "size": 9,
-  "rooms": "000111111000111111000112222000112222333444555333444555333444555666666555666666555",
-  "objects": "c..f...b.f....e.b..ad...c...ca.bb.a.f......b.b...d......a....e.........cc.d.b.bd.",
+  "size": 8,
+  "rooms": "0000111100001111000011112222333322223333444444444444444455555555",
+  "objects": "...df.c...f.......b.....d................f.e.a...bcb.bfdaf......",
   "roomNames": [
-    "Crew Quarters",
-    "Comms",
-    "Med Bay",
-    "Bridge",
+    "Observatory",
     "Airlock",
-    "Hydroponics",
-    "Lab"
+    "Gym",
+    "Crew Quarters",
+    "Med Bay",
+    "Hydroponics"
   ],
   "people": [
-    "Ada the astronaut",
-    "Bella the botanist",
-    "Cora the captain",
-    "Dexter the doctor",
-    "Edith the electrician",
+    "Vivian the visitor",
+    "Ada the analyst",
+    "Basil the botanist",
+    "Clara the captain",
+    "Dmitri the doctor",
+    "Edith the engineer",
     "Freya the farmer",
-    "Grace the gunner",
-    "Vince the visitor",
-    "Hana the hacker"
+    "Grace the gunner"
   ],
-  "victim": 7,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "next",
-      "plant"
-    ],
-    [
-      0,
-      "same",
-      1
-    ],
-    [
       1,
+      "next",
+      "console"
+    ],
+    [
+      2,
       "next",
       "pod"
     ],
     [
       2,
-      "next",
-      "console"
-    ],
-    [
-      3,
-      "same",
-      2
-    ],
-    [
-      3,
-      "next",
-      "seat"
+      "door"
     ],
     [
       3,
@@ -65,7 +47,7 @@
     [
       5,
       "next",
-      "pod"
+      "scope"
     ],
     [
       5,
@@ -75,96 +57,85 @@
     [
       6,
       "on",
-      "seat"
+      "pod"
     ],
     [
-      8,
-      "on",
-      "pod"
+      7,
+      "window"
     ]
   ],
   "solution": [
-    5,
-    15,
-    25,
-    35,
-    39,
-    46,
-    56,
-    63,
-    76
+    0,
+    14,
+    19,
+    28,
+    33,
+    47,
+    53,
+    58
   ],
   "doors": [
     [
-      20,
-      21
+      19,
+      20
     ],
     [
-      28,
-      37
+      16,
+      24
     ],
     [
-      14,
-      23
+      23,
+      31
     ],
     [
-      30,
-      39
+      27,
+      28
     ],
     [
-      32,
-      41
-    ],
-    [
-      35,
-      44
-    ],
-    [
-      47,
-      48
-    ],
-    [
-      55,
-      64
-    ],
-    [
-      41,
+      34,
       42
     ],
     [
-      58,
-      67
+      36,
+      44
     ],
     [
-      77,
-      78
+      48,
+      56
     ]
   ],
   "windows": [
     [
-      8,
-      "t"
+      7,
+      "r"
     ],
     [
-      36,
+      32,
       "l"
     ],
     [
-      44,
-      "r"
+      40,
+      "l"
     ],
     [
-      75,
+      58,
       "b"
     ],
     [
-      80,
-      "r"
+      59,
+      "b"
     ]
   ],
-  "tries": 0,
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "scope",
+      1
+    ]
+  ],
   "hard": 5,
   "hardest": 5,
-  "steps": 24,
+  "steps": 25,
   "extra": true
 }

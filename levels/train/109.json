@@ -1,68 +1,73 @@
 {
   "size": 7,
   "rooms": "0001111000111100022220002222333344433334443333444",
-  "objects": "..ca...b..a...aa...ad....f............c..f.......",
+  "objects": "...........ca...a...b.f..a..c..acb.......ae.f..a.",
   "roomNames": [
-    "Sleeper B",
-    "Observation Car",
-    "Galley",
-    "Baggage Car",
-    "Lounge Car"
+    "Corridor",
+    "Dining Car",
+    "Lounge Car",
+    "Guard's Van",
+    "Observation Car"
   ],
   "people": [
-    "Astrid the accordionist",
-    "Bea the banker",
-    "Carl the conductor",
-    "Daisy the dentist",
-    "Vera the violinist",
-    "Edith the envoy",
-    "Felix the firefighter"
+    "Arthur the attendant",
+    "Bruno the banker",
+    "Clara the conductor",
+    "Dora the dentist",
+    "Vera the vendor",
+    "Edgar the engineer",
+    "Freya the fiddler"
   ],
   "victim": 4,
   "clues": [
     [
       0,
       "next",
-      "seat"
+      "suitcase"
     ],
     [
       1,
-      "same",
-      0
-    ],
-    [
-      2,
-      "notRoom",
-      0
-    ],
-    [
-      3,
       "alone"
     ],
     [
+      2,
+      "col",
+      3
+    ],
+    [
+      2,
+      "same",
+      3
+    ],
+    [
+      3,
+      "next",
+      "bunk"
+    ],
+    [
       4,
-      "row",
-      4
+      "next",
+      "seat"
     ],
     [
       5,
       "next",
-      "wine"
+      "bunk"
     ],
     [
       6,
-      "col",
-      0
+      "next",
+      "wine"
     ]
   ],
   "solution": [
     4,
-    13,
+    7,
     17,
-    23,
-    29,
+    27,
+    30,
     40,
-    42
+    43
   ],
   "doors": [
     [
@@ -70,16 +75,16 @@
       10
     ],
     [
-      16,
-      17
+      23,
+      24
     ],
     [
       23,
       30
     ],
     [
-      11,
-      18
+      12,
+      19
     ],
     [
       24,
@@ -90,48 +95,31 @@
       33
     ],
     [
-      45,
-      46
+      31,
+      32
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
-    ],
-    [
-      5,
-      "t"
-    ],
-    [
-      14,
+      0,
       "l"
     ],
     [
-      48,
-      "r"
-    ]
-  ],
-  "tries": 6,
-  "facts": [
-    [
-      "roomCount",
       1,
-      2
+      "t"
     ],
     [
-      "corner",
-      null,
-      4
+      44,
+      "b"
     ],
     [
-      "doorCount",
-      null,
-      2
+      45,
+      "b"
     ]
   ],
-  "hard": 5,
-  "hardest": 7,
+  "tries": 2,
+  "hard": 4,
+  "hardest": 6,
   "steps": 21,
   "extra": true
 }

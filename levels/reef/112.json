@@ -1,30 +1,29 @@
 {
-  "size": 8,
-  "rooms": "0011112200111122001111220011112211133444111334441113344411133444",
-  "objects": ".........a.....aa..................f...a....a.ce...f..d....ecf..",
+  "size": 7,
+  "rooms": "0001122000112200011223333333333333344443334444333",
+  "objects": ".b...c..f...ea............................f......",
   "roomNames": [
-    "Dock",
-    "Open Sea",
+    "Tavern",
+    "Market",
     "Sloop",
-    "Frigate",
-    "Market"
+    "Open Sea",
+    "Longboat"
   ],
   "people": [
-    "Arthur the admiral",
-    "Birgit the boatswain",
-    "Cora the cook",
-    "Vivian the vintner",
-    "Dmitri the deckhand",
-    "Edgar the engineer",
-    "Felix the first mate",
-    "Gus the gunner"
+    "Alma the admiral",
+    "Birgit the barkeep",
+    "Celia the cook",
+    "Dora the deckhand",
+    "Edgar the explorer",
+    "Vince the vintner",
+    "Fiona the fiddler"
   ],
-  "victim": 3,
+  "victim": 5,
   "clues": [
     [
       0,
-      "col",
-      4
+      "on",
+      "hammock"
     ],
     [
       1,
@@ -33,86 +32,82 @@
     ],
     [
       2,
-      "row",
-      2
+      "alone"
+    ],
+    [
+      3,
+      "notRoom",
+      1
+    ],
+    [
+      3,
+      "alone"
     ],
     [
       4,
-      "next",
-      "anchor"
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
     ],
     [
       5,
       "next",
-      "stool"
-    ],
-    [
-      6,
-      "next",
       "cannon"
     ],
     [
-      7,
-      "same",
-      4
+      6,
+      "col",
+      3
     ]
   ],
   "solution": [
-    4,
-    9,
+    1,
+    13,
     18,
-    24,
-    38,
-    43,
-    53,
-    63
+    23,
+    33,
+    35,
+    45
   ],
   "doors": [
     [
-      31,
-      39
+      16,
+      17
     ],
     [
-      44,
-      45
+      11,
+      12
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
-      0,
-      "l"
-    ],
-    [
       6,
       "t"
     ],
     [
-      7,
-      "t"
+      14,
+      "l"
     ],
     [
-      63,
+      42,
+      "b"
+    ],
+    [
+      43,
       "b"
     ]
   ],
-  "tries": 1,
-  "facts": [
-    [
-      "edge",
-      null,
-      3
-    ]
-  ],
+  "tries": 2,
   "rules": [
     "sea"
   ],
-  "sea": 1,
-  "hard": 7,
-  "hardest": 6,
-  "steps": 20,
+  "sea": 3,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 17,
   "extra": true
 }

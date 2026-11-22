@@ -1,133 +1,129 @@
 {
   "size": 6,
-  "rooms": "001111001111002222332222334444334444",
-  "objects": "..d..db......d....ae....a.......f..a",
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "..cbac..........f.......d....a.d....",
   "roomNames": [
-    "Fort",
+    "Jail",
+    "Cave",
+    "Burial Chamber",
     "Bank",
-    "Shrine",
-    "Throne Room",
-    "Captain Cabin"
+    "Hide Tent"
   ],
   "people": [
     "Ada the astronomer",
     "Bruno the bookbinder",
-    "Cedric the clockmaker",
-    "Vivian the voyager",
-    "Daisy the dreamer",
-    "Edgar the engineer"
+    "Cedric the chronicler",
+    "Vera the voyager",
+    "Dmitri the drifter",
+    "Elsa the engineer"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "barrel"
+      "bandit"
     ],
     [
       1,
       "col",
-      2
+      1
     ],
     [
       2,
-      "bandit"
-    ],
-    [
-      3,
-      "door"
-    ],
-    [
-      3,
       "row",
+      2
+    ],
+    [
+      3,
+      "col",
       3
     ],
     [
       4,
-      "next",
-      "boulder"
+      "alone"
     ],
     [
       5,
       "next",
-      "chair"
+      "barrel"
     ]
   ],
   "solution": [
-    3,
-    8,
-    16,
-    23,
-    25,
+    4,
+    7,
+    14,
+    21,
+    29,
     30
   ],
   "doors": [
     [
-      1,
-      2
+      3,
+      4
     ],
     [
-      13,
-      14
+      9,
+      15
     ],
     [
-      12,
-      18
+      21,
+      22
     ],
     [
-      11,
-      17
+      22,
+      28
     ],
     [
-      19,
-      20
+      18,
+      24
     ],
     [
-      23,
-      29
-    ],
-    [
-      31,
-      32
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      4,
-      "t"
-    ],
-    [
-      5,
-      "t"
-    ],
-    [
-      18,
+      0,
       "l"
     ],
     [
-      31,
-      "b"
+      11,
+      "r"
+    ],
+    [
+      17,
+      "r"
+    ],
+    [
+      35,
+      "r"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "furniture",
-      null,
+      "nextCount",
+      "log",
       0
+    ],
+    [
+      "corner",
+      null,
+      4
     ]
   ],
   "rules": [
     "bandits",
     "glyphs"
   ],
-  "tags": "...............L....C..C............",
+  "tags": ".......L....L........C..............",
   "bandits": 2,
   "lawful": [
-    1
+    4
   ],
-  "hard": 0,
-  "hardest": 2,
-  "steps": 16,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 19,
   "extra": true
 }

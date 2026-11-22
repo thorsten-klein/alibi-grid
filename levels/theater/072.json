@@ -1,30 +1,36 @@
 {
   "size": 5,
-  "rooms": "0001100011000223332233322",
-  "objects": ".aa.d...b.....c.........a",
+  "rooms": "0011100111001112233322333",
+  "objects": ".f...db.....fa..fa.e.d.a.",
   "roomNames": [
+    "Foyer",
     "Wings",
-    "Orchestra Pit",
     "Stage",
-    "Balcony"
+    "Box Office"
   ],
   "people": [
-    "Ada the agent",
-    "Birgit the baritone",
+    "Astrid the agent",
+    "Birgit the bass player",
     "Vince the violinist",
-    "Cedric the critic",
-    "Della the dancer"
+    "Celia the critic",
+    "Dmitri the dancer"
   ],
   "victim": 2,
   "clues": [
     [
       0,
-      "window"
+      "notRoom",
+      3
     ],
     [
       1,
-      "next",
+      "on",
       "sofa"
+    ],
+    [
+      2,
+      "next",
+      "seat"
     ],
     [
       3,
@@ -32,64 +38,59 @@
     ],
     [
       4,
-      "notRoom",
-      2
-    ],
-    [
-      4,
-      "door"
-    ],
-    [
-      4,
-      "alone"
+      "next",
+      "mirror"
     ]
   ],
   "solution": [
-    0,
-    9,
-    11,
+    2,
+    6,
+    14,
     18,
-    22
+    20
   ],
   "doors": [
     [
-      2,
-      3
-    ],
-    [
-      12,
-      13
+      6,
+      7
     ],
     [
       10,
       15
     ],
     [
-      9,
-      14
+      12,
+      17
     ],
     [
-      22,
-      23
+      16,
+      17
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      0,
+      1,
       "t"
     ],
     [
-      23,
-      "b"
+      4,
+      "r"
+    ],
+    [
+      9,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 1,
+  "facts": [
+    [
+      "onCount",
+      "seat",
+      0
+    ]
+  ],
   "hard": 1,
-  "hardest": 3,
+  "hardest": 4,
   "steps": 14,
   "extra": true
 }

@@ -1,118 +1,108 @@
 {
   "size": 6,
-  "rooms": "001111001111002222002222334444334444",
-  "objects": ".facfa..b..caf.a....bed......a..b...",
+  "rooms": "000111000111222333222333444333444333",
+  "objects": ".b...a.b...d....bcc...ed...fe.......",
   "roomNames": [
-    "Shrine",
-    "Hall of Pillars",
+    "Granary",
+    "Workshop",
     "Antechamber",
-    "Well Shaft",
-    "Granary"
+    "Shrine",
+    "Scribe Room"
   ],
   "people": [
-    "Arthur the astrologer",
-    "Birgit the boat builder",
-    "Vivian the vizier",
-    "Clara the carpenter",
-    "Daisy the dancer",
-    "Elsa the envoy"
+    "Ada the architect",
+    "Bea the boat builder",
+    "Clara the chanter",
+    "Dexter the diviner",
+    "Elsa the embalmer",
+    "Victor the vizier"
   ],
-  "victim": 2,
+  "victim": 5,
   "clues": [
     [
       0,
-      "next",
-      "jar"
-    ],
-    [
-      0,
-      "alone"
+      "on",
+      "stool"
     ],
     [
       1,
-      "alone"
+      "next",
+      "couch"
+    ],
+    [
+      2,
+      "next",
+      "urn"
     ],
     [
       3,
       "next",
-      "statue"
+      "jar"
     ],
     [
       4,
-      "next",
-      "stool"
-    ],
-    [
-      5,
-      "door"
+      "alone"
     ]
   ],
   "solution": [
-    0,
-    9,
-    14,
-    23,
-    28,
-    31
+    5,
+    8,
+    12,
+    21,
+    25,
+    34
   ],
   "doors": [
     [
-      1,
-      2
+      2,
+      3
     ],
     [
-      19,
-      20
-    ],
-    [
-      18,
-      24
+      7,
+      13
     ],
     [
       10,
       16
     ],
     [
+      14,
+      15
+    ],
+    [
       20,
       26
     ],
     [
-      31,
-      32
+      32,
+      33
     ]
   ],
   "windows": [
     [
-      1,
+      4,
       "t"
     ],
     [
-      24,
+      18,
       "l"
     ],
     [
-      31,
+      33,
       "b"
     ],
     [
       35,
-      "b"
+      "r"
     ]
   ],
-  "tries": 5,
-  "facts": [
-    [
-      "nextCount",
-      "couch",
-      2
-    ]
-  ],
+  "tries": 2,
   "rules": [
     "glyphs"
   ],
-  "tags": "L........L....C...L............L....",
-  "hard": 3,
-  "hardest": 5,
-  "steps": 19,
+  "tags": "L...........L.L..........L.......L..",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
   "extra": true
 }

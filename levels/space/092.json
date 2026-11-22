@@ -1,71 +1,78 @@
 {
   "size": 6,
-  "rooms": "000111000111000111222233444433444433",
-  "objects": "...a......a....e.ab..f.f.b......e...",
+  "rooms": "000011222211222211334444334444334444",
+  "objects": "...e...a.a.....ae...f..e.......aaeb.",
   "roomNames": [
-    "Hydroponics",
     "Bridge",
-    "Observatory",
-    "Gym",
-    "Med Bay"
+    "Cargo Bay",
+    "Mess Hall",
+    "Airlock",
+    "Engine Room"
   ],
   "people": [
-    "Albert the astronaut",
-    "Viola the volunteer",
-    "Basil the botanist",
+    "Alma the astronaut",
+    "Vivian the visitor",
+    "Birgit the biologist",
     "Clara the chemist",
-    "Della the driller",
-    "Elias the engineer"
+    "Daisy the driller",
+    "Edgar the electrician"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      0,
-      "alone"
+      "door"
     ],
     [
       1,
-      "notRoom",
+      "row",
       1
     ],
     [
       2,
-      "door"
+      "next",
+      "seat"
     ],
     [
       3,
-      "door"
-    ],
-    [
-      3,
-      "alone"
+      "notRoom",
+      0
     ],
     [
       4,
-      "alone"
+      "next",
+      "plant"
     ],
     [
       5,
-      "next",
-      "plant"
+      "on",
+      "pod"
     ]
   ],
   "solution": [
-    5,
-    6,
+    1,
+    9,
     14,
-    19,
-    28,
-    33
+    18,
+    29,
+    34
   ],
   "doors": [
     [
-      14,
-      15
+      3,
+      4
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      16,
+      22
     ],
     [
       13,
@@ -76,43 +83,43 @@
       21
     ],
     [
-      16,
-      22
-    ],
-    [
-      21,
-      22
-    ],
-    [
       19,
-      25
-    ],
-    [
-      33,
-      34
+      20
     ]
   ],
   "windows": [
     [
-      5,
-      "t"
+      11,
+      "r"
+    ],
+    [
+      12,
+      "l"
     ],
     [
       17,
       "r"
     ],
     [
-      18,
-      "l"
-    ],
-    [
-      31,
+      30,
       "b"
     ]
   ],
-  "tries": 9,
-  "hard": 4,
-  "hardest": 4,
-  "steps": 24,
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 18,
   "extra": true
 }

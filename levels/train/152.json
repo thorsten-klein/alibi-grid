@@ -1,43 +1,41 @@
 {
-  "size": 11,
-  "rooms": "0000011111100000111111000002222220000022222233333222222333334444443333344444455555666666555556666665555577777755555777777",
-  "objects": "f..d.....a....f....e...b.....e..d..a...dba.d.....a.aa.c.a.b.......e....a.a.a.bd......cccd...b.bbbb...........aa...eb..dbb",
+  "size": 9,
+  "rooms": "000111111000111111000222211000222211333224444333224444333224444555556666555556666",
+  "objects": ".ccb...a.ed.e.f.ea.a...d.ed.d.d..b.....b.cf..d..b...........a...ed.ca.b....d.....",
   "roomNames": [
     "Dining Car",
-    "Sleeper B",
-    "Observation Car",
     "Lounge Car",
-    "Mail Car",
-    "Corridor",
+    "Sleeper B",
     "Baggage Car",
-    "Galley"
+    "Corridor",
+    "Galley",
+    "Mail Car"
   ],
   "people": [
-    "Ada the accordionist",
-    "Bea the banker",
-    "Vivian the violinist",
-    "Clara the courier",
+    "Albert the attendant",
+    "Bruno the bookseller",
+    "Celia the conductor",
     "Daisy the diplomat",
-    "Ena the envoy",
+    "Viola the vendor",
+    "Edith the envoy",
     "Frank the firefighter",
-    "Greta the governor",
-    "Henrik the hatter",
-    "Ivo the importer",
-    "Jutta the journalist"
+    "Gideon the governor",
+    "Hazel the hairdresser"
   ],
-  "victim": 2,
+  "victim": 4,
   "clues": [
     [
       0,
-      "door"
+      "next",
+      "bunk"
     ],
     [
       1,
-      "same",
-      0
+      "next",
+      "wine"
     ],
     [
-      1,
+      2,
       "next",
       "lamp"
     ],
@@ -45,131 +43,90 @@
       2,
       "next",
       "seat"
-    ],
-    [
-      2,
-      "row",
-      2
     ],
     [
       3,
       "next",
-      "seat"
-    ],
-    [
-      4,
-      "alone"
+      "lamp"
     ],
     [
       5,
-      "col",
-      8
-    ],
-    [
-      6,
-      "same",
+      "row",
       5
     ],
     [
-      6,
-      "next",
-      "seat"
-    ],
-    [
-      7,
-      "next",
-      "bunk"
-    ],
-    [
-      7,
+      5,
       "alone"
+    ],
+    [
+      6,
+      "door"
+    ],
+    [
+      7,
+      "on",
+      "seat"
     ],
     [
       8,
-      "on",
-      "bunk"
-    ],
-    [
-      9,
-      "next",
-      "bunk"
-    ],
-    [
-      9,
-      "next",
-      "seat"
-    ],
-    [
-      9,
-      "alone"
-    ],
-    [
-      10,
-      "next",
-      "lamp"
+      "window"
     ]
   ],
   "solution": [
-    5,
+    4,
+    15,
     18,
-    24,
     34,
-    44,
-    63,
-    76,
-    83,
-    92,
-    108,
-    113
+    37,
+    48,
+    56,
+    68,
+    80
   ],
   "doors": [
     [
-      4,
-      5
+      11,
+      12
     ],
     [
-      37,
+      29,
+      30
+    ],
+    [
+      29,
       38
     ],
     [
-      37,
-      48
+      12,
+      21
     ],
     [
-      18,
-      29
+      35,
+      44
     ],
     [
-      48,
-      49
+      56,
+      57
     ],
     [
-      54,
-      65
+      32,
+      41
     ],
     [
-      70,
-      71
+      58,
+      67
     ],
     [
-      68,
-      79
+      55,
+      64
     ],
     [
-      71,
-      82
+      61,
+      70
     ],
     [
-      81,
-      82
-    ],
-    [
-      114,
-      115
-    ],
-    [
-      93,
-      104
+      67,
+      68
     ]
   ],
   "windows": [
@@ -178,40 +135,37 @@
       "t"
     ],
     [
-      9,
+      7,
       "t"
     ],
     [
-      88,
-      "l"
+      74,
+      "b"
     ],
     [
-      98,
+      80,
       "r"
     ],
     [
-      113,
-      "b"
-    ],
-    [
-      114,
-      "b"
-    ],
-    [
-      117,
+      80,
       "b"
     ]
   ],
-  "tries": 11,
+  "tries": 6,
   "facts": [
     [
-      "nextCount",
-      "suitcase",
-      0
+      "doorCount",
+      null,
+      2
+    ],
+    [
+      "roomCount",
+      3,
+      2
     ]
   ],
-  "hard": 3,
-  "hardest": 7,
-  "steps": 38,
+  "hard": 7,
+  "hardest": 6,
+  "steps": 29,
   "extra": true
 }

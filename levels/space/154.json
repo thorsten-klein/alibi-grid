@@ -1,81 +1,56 @@
 {
-  "size": 12,
-  "rooms": "000001111111000001111111000002222222333332222222333332222222444556666666444556666666444556666666444557777888444557777888444557777888444557777888",
-  "objects": ".a...c.d.b.......e..fc.a.b...b....d..f...d..c.d........b...b.b......c..............cc...b.e.c..f....a..aabfef.f.....fa.....a..e...b......a..e.da",
+  "size": 9,
+  "rooms": "000011111000011111000011111222233333222233333222244455222244455666644455666644455",
+  "objects": "f..b...a.....ae...d..d..adae..............eca...fec....b..c..f......b........f...",
   "roomNames": [
-    "Crew Quarters",
-    "Hydroponics",
+    "Bridge",
     "Lab",
-    "Gym",
-    "Comms",
-    "Engine Room",
-    "Airlock",
+    "Cargo Bay",
+    "Med Bay",
     "Mess Hall",
-    "Med Bay"
+    "Observatory",
+    "Engine Room"
   ],
   "people": [
-    "Albert the analyst",
-    "Basil the biologist",
-    "Clara the captain",
-    "Dmitri the doctor",
-    "Elias the electrician",
-    "Fiona the flight officer",
-    "Greta the geologist",
-    "Victor the visitor",
-    "Hilda the hull technician",
-    "Ivy the intern",
-    "Juno the janitor",
-    "Klaus the keeper"
+    "Alma the analyst",
+    "Bea the biologist",
+    "Cora the captain",
+    "Della the driller",
+    "Elsa the electrician",
+    "Felix the farmer",
+    "Gus the gunner",
+    "Victor the volunteer",
+    "Hugo the hacker"
   ],
   "victim": 7,
   "clues": [
     [
       0,
       "next",
-      "seat"
+      "pod"
     ],
     [
       1,
-      "same",
-      0
-    ],
-    [
-      1,
-      "next",
-      "scope"
+      "window"
     ],
     [
       2,
       "next",
-      "pod"
-    ],
-    [
-      3,
-      "next",
-      "tank"
-    ],
-    [
-      3,
-      "col",
-      2
-    ],
-    [
-      3,
-      "alone"
-    ],
-    [
-      4,
-      "next",
       "scope"
     ],
     [
-      5,
-      "alone"
+      3,
+      "next",
+      "plant"
     ],
     [
-      6,
-      "room",
-      4
+      4,
+      "same",
+      6
+    ],
+    [
+      5,
+      "door"
     ],
     [
       6,
@@ -84,151 +59,105 @@
     ],
     [
       7,
-      "next",
+      "on",
       "pod"
     ],
     [
       8,
       "next",
-      "seat"
-    ],
-    [
-      8,
-      "next",
       "tank"
-    ],
-    [
-      9,
-      "next",
-      "tank"
-    ],
-    [
-      9,
-      "next",
-      "pod"
-    ],
-    [
-      10,
-      "next",
-      "plant"
-    ],
-    [
-      11,
-      "door"
     ]
   ],
   "solution": [
-    11,
-    19,
+    2,
+    17,
     24,
-    38,
-    53,
-    66,
-    73,
-    87,
-    105,
-    118,
-    128,
-    136
+    28,
+    39,
+    52,
+    54,
+    68,
+    76
   ],
   "doors": [
     [
-      16,
-      17
+      3,
+      4
     ],
     [
-      28,
+      20,
       29
     ],
     [
-      28,
-      40
+      22,
+      31
     ],
     [
-      23,
-      35
-    ],
-    [
-      40,
-      41
-    ],
-    [
-      59,
-      71
+      30,
+      31
     ],
     [
       48,
-      60
+      49
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      41,
+      50
+    ],
+    [
+      43,
+      52
     ],
     [
       51,
-      63
+      52
     ],
     [
-      74,
-      75
-    ],
-    [
-      64,
-      65
-    ],
-    [
-      136,
-      137
-    ],
-    [
-      90,
-      102
-    ],
-    [
-      95,
-      107
-    ],
-    [
-      116,
-      117
+      66,
+      67
     ]
   ],
   "windows": [
     [
-      4,
-      "t"
+      17,
+      "r"
     ],
     [
-      5,
-      "t"
-    ],
-    [
-      48,
+      45,
       "l"
     ],
     [
-      137,
-      "b"
-    ],
-    [
-      139,
-      "b"
-    ],
-    [
-      142,
-      "b"
-    ],
-    [
-      143,
+      62,
       "r"
+    ],
+    [
+      72,
+      "l"
+    ],
+    [
+      75,
+      "b"
     ]
   ],
-  "tries": 3,
+  "tries": 7,
   "facts": [
     [
       "nextCount",
       "scope",
-      2
+      1
+    ],
+    [
+      "onCount",
+      "seat",
+      1
     ]
   ],
-  "hard": 11,
-  "hardest": 8,
-  "steps": 34,
+  "hard": 8,
+  "hardest": 6,
+  "steps": 29,
   "extra": true
 }

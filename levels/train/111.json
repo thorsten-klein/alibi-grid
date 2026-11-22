@@ -1,48 +1,51 @@
 {
-  "size": 8,
-  "rooms": "0000111100001111000011112233444422334444223355552233555522335555",
-  "objects": "abc..a..e.......a..f....d.e....b..e....b......c.....bff......b..",
+  "size": 7,
+  "rooms": "0001111000111100022220002222333344433334443333444",
+  "objects": "f....dbb.cda...b....b.ac..c...f..b...........ce..",
   "roomNames": [
-    "Guard's Van",
-    "Observation Car",
-    "Lounge Car",
-    "Sleeper B",
+    "Baggage Car",
+    "Sleeper C",
     "Dining Car",
-    "Corridor"
+    "Sleeper A",
+    "Sleeper B"
   ],
   "people": [
-    "Alma the attendant",
-    "Bruno the banker",
-    "Clara the courier",
-    "Della the diplomat",
-    "Edgar the engineer",
-    "Fiona the firefighter",
-    "Greta the guard",
-    "Vince the violinist"
+    "Victor the violinist",
+    "Albert the attendant",
+    "Bea the banker",
+    "Celia the conductor",
+    "Dexter the diplomat",
+    "Ena the envoy",
+    "Freya the firefighter"
   ],
-  "victim": 7,
+  "victim": 0,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "suitcase"
     ],
     [
       1,
-      "alone"
+      "on",
+      "seat"
     ],
     [
       2,
       "door"
     ],
     [
+      2,
+      "alone"
+    ],
+    [
       3,
-      "row",
-      3
+      "door"
     ],
     [
       4,
       "next",
-      "crate"
+      "bunk"
     ],
     [
       5,
@@ -50,97 +53,75 @@
       "bunk"
     ],
     [
+      5,
+      "col",
+      5
+    ],
+    [
       6,
-      "row",
-      6
+      "alone"
     ]
   ],
   "solution": [
-    6,
-    10,
-    23,
-    29,
-    32,
-    44,
-    51,
-    57
+    2,
+    11,
+    17,
+    21,
+    34,
+    40,
+    43
   ],
   "doors": [
     [
-      11,
-      12
+      9,
+      10
     ],
     [
-      17,
-      25
+      16,
+      17
     ],
     [
-      18,
-      26
+      21,
+      28
     ],
     [
-      23,
+      10,
+      17
+    ],
+    [
+      24,
       31
     ],
     [
-      49,
-      50
+      26,
+      33
     ],
     [
-      35,
-      36
-    ],
-    [
-      43,
-      44
-    ],
-    [
-      39,
-      47
+      45,
+      46
     ]
   ],
   "windows": [
     [
-      4,
+      1,
       "t"
     ],
     [
-      6,
-      "t"
-    ],
-    [
-      24,
-      "l"
-    ],
-    [
-      47,
+      13,
       "r"
     ],
     [
-      60,
+      45,
+      "b"
+    ],
+    [
+      47,
       "b"
     ]
   ],
-  "tries": 0,
-  "facts": [
-    [
-      "nextCount",
-      "wine",
-      0
-    ],
-    [
-      "windowCount",
-      null,
-      1
-    ],
-    [
-      "roomCount",
-      2,
-      2
-    ]
-  ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 21,
+  "tries": 2,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 18,
   "extra": true
 }

@@ -1,129 +1,118 @@
 {
   "size": 6,
-  "rooms": "000000000000112222112222334444334444",
-  "objects": "...dd..........b.....a..a..e...a..e.",
+  "rooms": "000111000111222333222333224444224444",
+  "objects": "..d..c.bf..c.b..e.......bfa..e.b....",
   "roomNames": [
-    "Well Shaft",
     "Shrine",
+    "Statue Hall",
+    "Burial Chamber",
     "Workshop",
-    "Antechamber",
     "Hall of Pillars"
   ],
   "people": [
-    "Vince the vizier",
-    "Albert the astrologer",
-    "Bea the brewer",
-    "Celia the chanter",
-    "Dexter the dancer",
-    "Edith the envoy"
+    "Albert the architect",
+    "Bruno the boat builder",
+    "Viola the vintner",
+    "Cora the chanter",
+    "Dmitri the diviner",
+    "Elsa the embalmer"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
       0,
-      "next",
-      "statue"
+      "alone"
     ],
     [
       1,
-      "notRoom",
-      1
+      "door"
     ],
     [
       2,
-      "door"
+      "window"
     ],
     [
       3,
       "next",
-      "stool"
-    ],
-    [
-      3,
-      "door"
+      "rubble"
     ],
     [
       4,
-      "col",
-      4
+      "on",
+      "stool"
     ],
     [
       5,
-      "same",
-      4
+      "on",
+      "couch"
     ]
   ],
   "solution": [
-    5,
-    7,
-    12,
-    20,
-    28,
-    33
+    0,
+    9,
+    17,
+    22,
+    26,
+    31
   ],
   "doors": [
+    [
+      2,
+      3
+    ],
     [
       6,
       12
     ],
     [
-      8,
-      14
+      9,
+      15
     ],
     [
-      19,
-      20
-    ],
-    [
-      19,
-      25
-    ],
-    [
-      21,
-      27
+      20,
+      21
     ],
     [
       25,
       26
+    ],
+    [
+      21,
+      27
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
+      17,
+      "r"
     ],
     [
-      6,
-      "l"
+      23,
+      "r"
     ],
     [
-      30,
+      34,
       "b"
     ],
     [
-      31,
-      "b"
+      35,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 1,
   "facts": [
     [
-      "onCount",
+      "nextCount",
       "couch",
       0
-    ],
-    [
-      "doorCount",
-      null,
-      2
     ]
   ],
   "rules": [
     "glyphs"
   ],
-  "tags": ".....C...L.C..............L.C....C..",
-  "hard": 0,
-  "hardest": 2,
-  "steps": 17,
+  "tags": "............L.........C.............",
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
   "extra": true
 }

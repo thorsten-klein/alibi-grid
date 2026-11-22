@@ -1,56 +1,59 @@
 {
-  "size": 12,
-  "rooms": "000111112222000111112222000111112222000333332222000333332222444443335555444443335555444443335555666677778888666677778888666677778888666677778888",
-  "objects": "...d...........cf.f.......bf....ed.e........adaf...a.....b....b..ca.......cb..a....a.d.............f..a.....a.........ae.......a.ba.....f...b...",
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001113333000111333344555566664455556666445555666644777766664477776666",
+  "objects": ".....cbca.e..b.e..e....a.f.b.b.....ed...c.a.f.faf.f.f.....b..a......f...........a.a...a.....a.a.b.a.",
   "roomNames": [
-    "Spa",
-    "Boot Room",
-    "Kitchen",
-    "Games Room",
-    "Bar",
     "Suite",
-    "Fireside Lounge",
+    "Ski Room",
+    "Dining Hall",
+    "Boot Room",
+    "Games Room",
     "Terrace",
-    "Lobby"
+    "Spa",
+    "Kitchen"
   ],
   "people": [
-    "Astrid the avalanche guard",
-    "Birgit the bartender",
-    "Celia the climber",
-    "Dora the doctor",
-    "Elsa the explorer",
+    "Arthur the avalanche guard",
+    "Bruno the bartender",
+    "Cedric the climber",
+    "Dmitri the driver",
+    "Vivian the vet",
+    "Elsa the engineer",
     "Felix the forester",
-    "Victor the vlogger",
-    "Greta the glacier expert",
-    "Henrik the hotelier",
-    "Ivo the ice climber",
-    "Jasper the jogger",
-    "Kira the knitter"
+    "Grace the glacier expert",
+    "Hugo the hotelier",
+    "Isla the instructor"
   ],
-  "victim": 6,
+  "victim": 4,
   "clues": [
     [
       0,
-      "alone"
+      "next",
+      "skis"
+    ],
+    [
+      0,
+      "window"
     ],
     [
       1,
-      "row",
-      1
-    ],
-    [
-      1,
-      "same",
-      4
+      "next",
+      "tree"
     ],
     [
       2,
-      "next",
-      "wood"
+      "col",
+      9
     ],
     [
       3,
-      "door"
+      "room",
+      3
+    ],
+    [
+      3,
+      "next",
+      "wood"
     ],
     [
       4,
@@ -58,165 +61,145 @@
     ],
     [
       5,
-      "next",
-      "sofa"
+      "row",
+      5
     ],
     [
       6,
-      "next",
-      "fire"
-    ],
-    [
-      7,
       "row",
-      7
+      6
+    ],
+    [
+      6,
+      "col",
+      4
     ],
     [
       7,
-      "col",
-      8
+      "alone"
     ],
     [
       8,
-      "door"
-    ],
-    [
-      9,
       "next",
       "chair"
     ],
     [
-      10,
-      "row",
-      10
-    ],
-    [
-      11,
-      "same",
-      8
-    ],
-    [
-      11,
-      "col",
-      11
+      9,
+      "window"
     ]
   ],
   "solution": [
-    9,
-    12,
-    30,
-    40,
-    50,
-    63,
-    73,
-    92,
-    106,
-    115,
-    125,
-    143
+    6,
+    11,
+    29,
+    38,
+    42,
+    55,
+    64,
+    77,
+    83,
+    90
   ],
   "doors": [
     [
-      14,
-      15
+      12,
+      13
     ],
     [
-      50,
+      41,
       51
     ],
     [
-      50,
+      42,
+      52
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      27,
+      37
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      61,
       62
     ],
     [
-      7,
-      8
+      81,
+      82
     ],
     [
-      28,
-      40
+      65,
+      66
     ],
     [
-      55,
-      56
+      72,
+      82
     ],
     [
-      56,
-      68
-    ],
-    [
-      52,
-      64
-    ],
-    [
-      67,
-      68
-    ],
-    [
-      91,
-      103
-    ],
-    [
-      87,
-      99
-    ],
-    [
-      88,
-      100
-    ],
-    [
-      94,
-      106
-    ],
-    [
-      123,
-      124
-    ],
-    [
-      103,
-      104
+      95,
+      96
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      10,
+      6,
       "t"
     ],
     [
-      47,
-      "r"
-    ],
-    [
-      84,
+      40,
       "l"
     ],
     [
-      108,
+      70,
       "l"
     ],
     [
-      120,
-      "l"
+      90,
+      "b"
     ],
     [
-      134,
+      94,
+      "b"
+    ],
+    [
+      95,
       "b"
     ]
   ],
-  "tries": 15,
+  "tries": 3,
   "facts": [
     [
-      "emptyRooms",
-      null,
+      "roomCount",
+      6,
       1
+    ],
+    [
+      "roomCount",
+      1,
+      0
+    ],
+    [
+      "edge",
+      null,
+      3
     ]
   ],
-  "hard": 6,
-  "hardest": 5,
-  "steps": 37,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 28,
   "extra": true
 }

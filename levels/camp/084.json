@@ -1,23 +1,23 @@
 {
   "size": 6,
-  "rooms": "001111001111002222002222334444334444",
-  "objects": "....a....b.....e.e.e..a.f..ee.ae.a..",
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "..f..a.f.a.b...e.......b...b.....c..",
   "roomNames": [
-    "River Bank",
-    "Hide Tent",
-    "Cave",
+    "Elder Hut",
     "Lookout Rock",
-    "Berry Grove"
+    "Fire Pit",
+    "Hunting Ground",
+    "River Bank"
   ],
   "people": [
+    "Ada the artist",
+    "Basil the beekeeper",
     "Vera the visionary",
-    "Astrid the acrobat",
-    "Bella the builder",
-    "Clara the carver",
-    "Dmitri the dancer",
-    "Elsa the elk tamer"
+    "Cora the carrier",
+    "Della the drummer",
+    "Ena the elder"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
       0,
@@ -26,88 +26,90 @@
     ],
     [
       1,
-      "next",
+      "on",
       "leaves"
     ],
     [
-      2,
-      "next",
-      "log"
-    ],
-    [
       3,
-      "alone"
-    ],
-    [
-      4,
       "door"
     ],
     [
+      4,
+      "alone"
+    ],
+    [
       5,
-      "on",
-      "log"
+      "next",
+      "boulder"
     ]
   ],
   "solution": [
-    5,
-    8,
-    16,
+    3,
+    11,
+    13,
     18,
-    25,
-    33
+    28,
+    32
   ],
   "doors": [
     [
-      7,
-      8
+      9,
+      10
     ],
     [
-      19,
-      20
+      8,
+      14
     ],
     [
-      19,
-      25
+      15,
+      16
     ],
     [
-      11,
-      17
+      22,
+      28
     ],
     [
-      23,
-      29
+      18,
+      24
     ],
     [
-      31,
-      32
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      1,
+      4,
       "t"
     ],
     [
-      6,
+      5,
+      "t"
+    ],
+    [
+      18,
       "l"
     ],
     [
-      24,
-      "l"
-    ],
-    [
-      31,
-      "b"
+      23,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 0,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
   "rules": [
     "trades"
   ],
-  "trade": "334..4",
-  "tags": "2..2.3..3.......4............2....32",
-  "hard": 8,
+  "trade": ".40...",
+  "tags": "........2.2..02...................2.",
+  "hard": 5,
   "hardest": 4,
-  "steps": 24,
+  "steps": 19,
   "extra": true
 }

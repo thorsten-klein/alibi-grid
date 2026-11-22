@@ -1,130 +1,119 @@
 {
   "size": 6,
-  "rooms": "000111000111000222000222333444333444",
-  "objects": "........ac.bbc.....b.f.......ba....a",
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "d..d..eac.........a..ca..d.bb..feb..",
   "roomNames": [
-    "Telegraph Office",
+    "Bank",
     "Sheriff Office",
-    "Livery",
-    "Jail",
-    "Hotel"
+    "Hotel",
+    "Mine",
+    "Jail"
   ],
   "people": [
-    "Albert the auctioneer",
-    "Vera the vet",
-    "Bella the banker",
-    "Carl the cattle driver",
-    "Dexter the deputy",
-    "Elsa the engineer"
+    "Vince the vet",
+    "Albert the attorney",
+    "Bruno the banker",
+    "Clara the cattle driver",
+    "Dora the deputy",
+    "Edith the engineer"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
     [
       0,
       "next",
-      "barrel"
+      "cactus"
     ],
     [
       1,
-      "next",
-      "chair"
+      "col",
+      3
     ],
     [
       2,
-      "door"
-    ],
-    [
-      2,
-      "bandit"
+      "window"
     ],
     [
       3,
-      "bandit"
+      "next",
+      "cactus"
     ],
     [
       4,
-      "door"
+      "next",
+      "piano"
     ],
     [
       5,
-      "on",
-      "chair"
+      "bandit"
     ]
   ],
   "solution": [
-    3,
-    7,
-    16,
-    18,
+    4,
+    9,
+    12,
+    19,
     26,
     35
   ],
   "doors": [
     [
-      8,
-      9
-    ],
-    [
       14,
       15
     ],
     [
-      20,
-      26
+      12,
+      18
     ],
     [
-      10,
-      16
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
+      19,
+      20
     ],
     [
       21,
-      27
-    ],
-    [
-      32,
-      33
+      22
     ]
   ],
   "windows": [
     [
-      4,
+      1,
       "t"
     ],
     [
-      6,
+      12,
       "l"
     ],
     [
       30,
-      "l"
-    ],
-    [
-      31,
       "b"
-    ]
-  ],
-  "tries": 1,
-  "facts": [
-    [
-      "nextCount",
-      "bed",
-      2
     ],
     [
-      "corner",
-      null,
-      4
+      30,
+      "l"
     ]
   ],
+  "tries": 0,
   "rules": [
     "bandits"
   ],
   "bandits": 2,
   "lawful": [
-    3
+    1
   ],
-  "hard": 4,
-  "hardest": 6,
-  "steps": 18,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 15,
   "extra": true
 }

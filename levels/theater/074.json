@@ -1,61 +1,72 @@
 {
   "size": 5,
-  "rooms": "0001100011000112223322233",
-  "objects": "cbe.....e....a....fc....b",
+  "rooms": "0001100011000223332233322",
+  "objects": ".aa.d...b.....c.........a",
   "roomNames": [
-    "Box Office",
     "Wings",
-    "Prop Store",
-    "Lighting Booth"
+    "Orchestra Pit",
+    "Stage",
+    "Balcony"
   ],
   "people": [
-    "Albert the agent",
-    "Vivian the violinist",
-    "Basil the baritone",
-    "Celia the choreographer",
-    "Daisy the director"
+    "Ada the agent",
+    "Birgit the baritone",
+    "Vince the violinist",
+    "Cedric the critic",
+    "Della the dancer"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
-      "row",
-      0
+      "window"
     ],
     [
-      2,
-      "alone"
+      1,
+      "next",
+      "sofa"
     ],
     [
       3,
-      "col",
-      0
+      "alone"
     ],
     [
       4,
-      "row",
-      4
+      "notRoom",
+      2
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
     ]
   ],
   "solution": [
-    3,
+    0,
     9,
-    12,
-    15,
-    21
+    11,
+    18,
+    22
   ],
   "doors": [
     [
-      7,
-      8
+      2,
+      3
     ],
     [
-      11,
-      16
+      12,
+      13
     ],
     [
-      14,
-      19
+      10,
+      15
+    ],
+    [
+      9,
+      14
     ],
     [
       22,
@@ -64,33 +75,21 @@
   ],
   "windows": [
     [
-      4,
-      "r"
+      0,
+      "l"
     ],
     [
-      20,
+      0,
+      "t"
+    ],
+    [
+      23,
       "b"
-    ],
-    [
-      24,
-      "r"
     ]
   ],
-  "tries": 3,
-  "facts": [
-    [
-      "touch",
-      null,
-      2
-    ],
-    [
-      "furniture",
-      null,
-      0
-    ]
-  ],
+  "tries": 2,
   "hard": 1,
   "hardest": 3,
-  "steps": 15,
+  "steps": 14,
   "extra": true
 }

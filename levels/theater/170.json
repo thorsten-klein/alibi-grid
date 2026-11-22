@@ -1,0 +1,207 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122223333444555533334445555333344455553333444555566666777755666667777556666677775566666777755",
+  "objects": "......e..b.....a.c.b.a..aadc........d.e...d....b.dcb..a..b......e..e.b............f.e..da.....c..a.d.........f....c...d..",
+  "roomNames": [
+    "Stage",
+    "Lighting Booth",
+    "Balcony",
+    "Bar",
+    "Foyer",
+    "Orchestra Pit",
+    "Box Office",
+    "Costume Room"
+  ],
+  "people": [
+    "Astrid the agent",
+    "Birgit the bass player",
+    "Vince the ventriloquist",
+    "Carl the choreographer",
+    "Della the dancer",
+    "Edith the electrician",
+    "Freya the fan",
+    "Gideon the guitarist",
+    "Hugo the hairdresser",
+    "Ivy the illusionist",
+    "Jasper the jester"
+  ],
+  "victim": 2,
+  "clues": [
+    [
+      0,
+      "col",
+      1
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "next",
+      "sofa"
+    ],
+    [
+      2,
+      "door"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
+      10
+    ],
+    [
+      5,
+      "next",
+      "piano"
+    ],
+    [
+      6,
+      "same",
+      5
+    ],
+    [
+      7,
+      "col",
+      3
+    ],
+    [
+      8,
+      "row",
+      8
+    ],
+    [
+      8,
+      "col",
+      4
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "row",
+      9
+    ],
+    [
+      10,
+      "window"
+    ]
+  ],
+  "solution": [
+    1,
+    18,
+    30,
+    33,
+    53,
+    61,
+    71,
+    80,
+    92,
+    101,
+    120
+  ],
+  "doors": [
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      33
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      28,
+      39
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      67,
+      78
+    ],
+    [
+      72,
+      73
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      118,
+      119
+    ],
+    [
+      81,
+      82
+    ]
+  ],
+  "windows": [
+    [
+      4,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "r"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      120,
+      "b"
+    ],
+    [
+      120,
+      "r"
+    ]
+  ],
+  "tries": 1,
+  "facts": [
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 30,
+  "extra": true
+}

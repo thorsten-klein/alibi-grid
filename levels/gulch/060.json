@@ -1,94 +1,99 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "...a........e.f.cab...f..",
+  "rooms": "0011100111001112233322333",
+  "objects": "....f..f..a..a.b....f....",
   "roomNames": [
-    "Church",
-    "Mine",
-    "Telegraph Office",
-    "General Store"
+    "Livery",
+    "General Store",
+    "Saloon",
+    "Sheriff Office"
   ],
   "people": [
-    "Albert the attorney",
-    "Bella the blacksmith",
-    "Celia the cattle driver",
-    "Dexter the dancer",
-    "Vince the vet"
+    "Ada the attorney",
+    "Bea the banker",
+    "Cedric the cook",
+    "Vivian the vaquero",
+    "Dexter the dancer"
   ],
-  "victim": 4,
+  "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "chair"
+      "same",
+      2
     ],
     [
       1,
-      "alone"
+      "next",
+      "horse"
     ],
     [
       2,
-      "next",
-      "piano"
+      "door"
     ],
     [
       3,
-      "bandit"
+      "row",
+      3
+    ],
+    [
+      3,
+      "col",
+      2
     ],
     [
       4,
-      "door"
+      "bandit"
     ]
   ],
   "solution": [
-    2,
-    5,
+    0,
+    9,
     11,
-    19,
+    17,
     23
   ],
   "doors": [
     [
-      6,
-      7
-    ],
-    [
-      6,
-      11
-    ],
-    [
-      7,
+      11,
       12
     ],
     [
-      8,
-      13
+      11,
+      16
     ],
     [
-      22,
-      23
+      13,
+      18
+    ],
+    [
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      1,
+      2,
       "t"
     ],
     [
-      3,
-      "t"
+      10,
+      "l"
     ],
     [
-      4,
+      24,
       "r"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
   "facts": [
     [
-      "nextCount",
-      "barrel",
-      1
+      "windowCount",
+      null,
+      0
     ]
   ],
   "rules": [
@@ -96,10 +101,7 @@
   ],
   "bandits": 1,
   "lawful": [
-    2
+    0
   ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 15,
   "extra": true
 }

@@ -1,84 +1,75 @@
 {
   "size": 6,
-  "rooms": "000111000111223333223333224444224444",
-  "objects": "....c...b.............c...fa......f.",
+  "rooms": "000111000111222333222333224444224444",
+  "objects": "....b........a..bfdba..dce...e..bc.b",
   "roomNames": [
-    "Church",
-    "Mine",
-    "Saloon",
-    "Jail",
-    "Corral"
+    "Livery",
+    "Corral",
+    "Hotel",
+    "Bank",
+    "Mine"
   ],
   "people": [
-    "Albert the auctioneer",
-    "Vivian the vet",
-    "Bea the banker",
-    "Carl the cattle driver",
-    "Daisy the dancer",
-    "Elias the engineer"
+    "Astrid the attorney",
+    "Bella the blacksmith",
+    "Cora the cook",
+    "Dexter the dancer",
+    "Victor the vet",
+    "Elsa the engineer"
   ],
-  "victim": 1,
+  "victim": 4,
   "clues": [
     [
       0,
-      "door"
+      "window"
+    ],
+    [
+      1,
+      "bandit"
     ],
     [
       2,
-      "same",
-      3
+      "alone"
     ],
     [
       3,
       "next",
-      "barrel"
+      "piano"
     ],
     [
       3,
-      "door"
-    ],
-    [
-      4,
-      "row",
-      4
-    ],
-    [
-      4,
-      "bandit"
+      "alone"
     ],
     [
       5,
-      "alone"
+      "on",
+      "bed"
     ]
   ],
   "solution": [
     2,
     6,
     16,
-    21,
-    29,
-    31
+    19,
+    27,
+    35
   ],
   "doors": [
     [
-      2,
-      3
-    ],
-    [
-      7,
-      13
-    ],
-    [
       8,
-      14
+      9
+    ],
+    [
+      6,
+      12
     ],
     [
       9,
       15
     ],
     [
-      19,
-      20
+      14,
+      15
     ],
     [
       25,
@@ -91,33 +82,33 @@
   ],
   "windows": [
     [
-      3,
+      2,
       "t"
     ],
     [
       5,
-      "r"
+      "t"
     ],
     [
       11,
       "r"
     ],
     [
-      34,
+      30,
       "b"
     ]
   ],
-  "tries": 3,
+  "tries": 2,
   "facts": [
     [
-      "nextCount",
-      "bed",
-      1
+      "roomCount",
+      1,
+      0
     ],
     [
       "nextCount",
-      "barrel",
-      2
+      "bed",
+      0
     ]
   ],
   "rules": [
@@ -125,10 +116,10 @@
   ],
   "bandits": 2,
   "lawful": [
-    2
+    4
   ],
   "hard": 3,
-  "hardest": 4,
-  "steps": 19,
+  "hardest": 5,
+  "steps": 17,
   "extra": true
 }

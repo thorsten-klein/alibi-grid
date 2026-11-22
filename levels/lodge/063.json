@@ -1,21 +1,21 @@
 {
   "size": 5,
-  "rooms": "0001100011000112222233333",
-  "objects": "...bc.....f.b..fc..b...c.",
+  "rooms": "0011100111001112223322233",
+  "objects": ".aea.b.......aad..ba..e..",
   "roomNames": [
     "Fireside Lounge",
-    "Games Room",
-    "Dining Hall",
-    "Boot Room"
+    "Sauna",
+    "Suite",
+    "Ski Room"
   ],
   "people": [
-    "Arthur the avalanche guard",
-    "Bruno the baker",
-    "Victor the vlogger",
-    "Cora the climber",
-    "Dexter the doctor"
+    "Alma the athlete",
+    "Victor the vet",
+    "Bella the bartender",
+    "Celia the climber",
+    "Dexter the driver"
   ],
-  "victim": 2,
+  "victim": 1,
   "clues": [
     [
       0,
@@ -24,67 +24,70 @@
     [
       1,
       "next",
-      "sofa"
+      "tree"
+    ],
+    [
+      2,
+      "on",
+      "chair"
     ],
     [
       3,
-      "next",
-      "skis"
+      "on",
+      "sofa"
     ],
     [
       4,
-      "window"
+      "next",
+      "fire"
     ]
   ],
   "solution": [
     1,
-    8,
+    7,
     14,
-    17,
+    18,
     20
   ],
   "doors": [
     [
-      7,
-      8
+      11,
+      12
     ],
     [
       10,
       15
     ],
     [
+      12,
+      17
+    ],
+    [
       13,
       18
     ],
     [
-      19,
-      24
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      2,
-      "t"
+      4,
+      "r"
     ],
     [
-      3,
-      "t"
+      5,
+      "l"
     ],
     [
       20,
       "b"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "nextCount",
-      "wood",
-      0
-    ]
-  ],
-  "hard": 5,
-  "hardest": 4,
-  "steps": 19,
+  "tries": 1,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
   "extra": true
 }

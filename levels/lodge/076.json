@@ -1,28 +1,30 @@
 {
-  "size": 6,
-  "rooms": "000111000111222333222333444333444333",
-  "objects": ".c..a.......c......b......f...f...e.",
+  "size": 5,
+  "rooms": "0011100111001112223322233",
+  "objects": "....e......d.c.....a..fa.",
   "roomNames": [
-    "Kitchen",
+    "Suite",
     "Fireside Lounge",
-    "Boot Room",
-    "Bar",
-    "Terrace"
+    "Games Room",
+    "Sauna"
   ],
   "people": [
-    "Astrid the athlete",
-    "Vera the vlogger",
+    "Viola the vlogger",
+    "Albert the athlete",
     "Bea the bartender",
-    "Celia the cook",
-    "Dora the driver",
-    "Elias the engineer"
+    "Carl the climber",
+    "Dora the driver"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
     [
       0,
-      "next",
-      "chair"
+      "row",
+      0
+    ],
+    [
+      1,
+      "alone"
     ],
     [
       2,
@@ -30,92 +32,67 @@
     ],
     [
       3,
-      "row",
-      3
-    ],
-    [
-      3,
-      "col",
-      4
-    ],
-    [
-      4,
-      "col",
+      "notRoom",
       0
     ],
     [
-      5,
-      "next",
-      "wood"
+      4,
+      "window"
     ]
   ],
   "solution": [
+    2,
     5,
-    9,
     14,
-    22,
-    24,
-    31
+    16,
+    23
   ],
   "doors": [
     [
-      8,
-      9
-    ],
-    [
-      8,
-      14
+      11,
+      12
     ],
     [
       10,
-      16
+      15
     ],
     [
-      20,
-      21
+      12,
+      17
     ],
     [
-      19,
-      25
+      14,
+      19
     ],
     [
-      26,
-      27
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      0,
+      20,
       "l"
     ],
     [
-      23,
-      "r"
-    ],
-    [
-      34,
+      22,
       "b"
     ],
     [
-      35,
-      "r"
+      23,
+      "b"
     ]
   ],
-  "tries": 0,
+  "tries": 4,
   "facts": [
     [
-      "edge",
-      null,
-      3
-    ],
-    [
-      "roomCount",
-      0,
+      "nextCount",
+      "fire",
       0
     ]
   ],
-  "hard": 0,
-  "hardest": 2,
-  "steps": 16,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
   "extra": true
 }

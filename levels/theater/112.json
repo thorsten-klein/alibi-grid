@@ -1,152 +1,136 @@
 {
-  "size": 8,
-  "rooms": "0011122200111222001112223311122233444222334445553344455533444555",
-  "objects": "....eb...a.c...a...a.......bccac.a....bb.f..c.....b.a.e.c.d.....",
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "b..a..bb.ba...e.a.ab..a........c.b.c....f.....d..",
   "roomNames": [
-    "Dressing Room",
     "Box Office",
-    "Bar",
-    "Balcony",
     "Prop Store",
-    "Foyer"
+    "Green Room",
+    "Orchestra Pit",
+    "Dressing Room"
   ],
   "people": [
-    "Alma the author",
+    "Arthur the author",
     "Bea the baritone",
     "Cedric the choreographer",
-    "Della the director",
-    "Elsa the electrician",
-    "Felix the fan",
-    "Viola the violinist",
-    "Grace the ghost writer"
+    "Dexter the dancer",
+    "Edgar the electrician",
+    "Vivian the violinist",
+    "Felix the flautist"
   ],
-  "victim": 6,
+  "victim": 5,
   "clues": [
     [
       0,
-      "next",
-      "rack"
-    ],
-    [
-      1,
       "on",
-      "seat"
-    ],
-    [
-      2,
-      "same",
-      4
-    ],
-    [
-      3,
-      "next",
       "sofa"
     ],
     [
-      4,
-      "next",
-      "piano"
+      0,
+      "same",
+      2
     ],
     [
-      4,
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "seat"
+    ],
+    [
+      3,
       "door"
     ],
     [
-      5,
+      4,
+      "on",
+      "sofa"
+    ],
+    [
+      6,
       "next",
-      "light"
+      "piano"
     ],
     [
       6,
       "row",
       6
-    ],
-    [
-      7,
-      "next",
-      "seat"
     ]
   ],
   "solution": [
-    3,
-    15,
-    22,
-    26,
-    37,
-    40,
-    49,
-    60
+    6,
+    9,
+    17,
+    25,
+    33,
+    36,
+    42
   ],
   "doors": [
     [
-      17,
-      18
+      16,
+      17
+    ],
+    [
+      16,
+      23
     ],
     [
       17,
+      24
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      24,
       25
     ],
     [
-      28,
-      29
-    ],
-    [
-      25,
-      26
-    ],
-    [
-      28,
-      36
-    ],
-    [
-      36,
+      30,
       37
     ],
     [
-      38,
+      45,
       46
-    ],
-    [
-      41,
-      42
-    ],
-    [
-      52,
-      53
     ]
   ],
   "windows": [
     [
-      23,
+      3,
+      "t"
+    ],
+    [
+      6,
       "r"
     ],
     [
-      47,
+      20,
       "r"
     ],
     [
       48,
-      "l"
-    ],
-    [
-      56,
-      "l"
-    ],
-    [
-      61,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 3,
   "facts": [
     [
-      "roomCount",
-      3,
+      "doorCount",
+      null,
       2
+    ],
+    [
+      "roomCount",
+      2,
+      0
     ]
   ],
-  "hard": 8,
-  "hardest": 6,
-  "steps": 22,
+  "hard": 3,
+  "hardest": 4,
+  "steps": 21,
   "extra": true
 }

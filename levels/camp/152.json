@@ -1,60 +1,68 @@
 {
-  "size": 11,
-  "rooms": "0000111111100001111111000011111112222333444422223334444222233344442222333444455566677777555666777775556667777755566677777",
-  "objects": "d..f...a...baa....a..a...a.c...d.a.ba.......fc.b.....a....f.f.........b......b.......b.b.da.e...a..ee..f......a..a..d.a..",
+  "size": 9,
+  "rooms": "000001122000001122333441122333441122333441122333445555666445555666445555666445555",
+  "objects": ".......b.cbd..c.f...a.ba.c...c.bd.....c.....d.da....a.........b.....b....bb.....a",
   "roomNames": [
-    "Lookout Rock",
-    "Painted Wall",
-    "Cave",
+    "Berry Grove",
     "Bone Yard",
+    "Elder Hut",
     "Spring",
     "Hunting Ground",
-    "Elder Hut",
-    "Fire Pit"
+    "Lookout Rock",
+    "Flint Pit"
   ],
   "people": [
-    "Ada the artist",
-    "Basil the builder",
-    "Carl the carrier",
+    "Arthur the acrobat",
+    "Bella the builder",
+    "Clara the carver",
     "Daisy the drummer",
     "Edgar the elk tamer",
-    "Vince the valley guide",
-    "Felix the flute player",
-    "Gwen the grinder",
-    "Hazel the hide tanner",
-    "Ivy the idol carver",
-    "Jasper the jumper"
+    "Flora the firekeeper",
+    "Gideon the grinder",
+    "Vera the visionary",
+    "Hilda the hide tanner"
   ],
-  "victim": 5,
+  "victim": 7,
   "clues": [
     [
       0,
-      "row",
-      0
+      "next",
+      "fire"
     ],
     [
       1,
-      "next",
-      "log"
+      "same",
+      0
+    ],
+    [
+      2,
+      "notRoom",
+      1
     ],
     [
       2,
       "next",
-      "log"
-    ],
-    [
-      2,
-      "alone"
+      "boulder"
     ],
     [
       3,
+      "notRoom",
+      0
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      4,
+      "room",
+      4
+    ],
+    [
+      4,
       "row",
-      3
-    ],
-    [
-      4,
-      "next",
-      "log"
+      4
     ],
     [
       4,
@@ -62,163 +70,117 @@
     ],
     [
       5,
-      "next",
-      "leaves"
-    ],
-    [
-      5,
-      "next",
-      "bones"
+      "row",
+      5
     ],
     [
       6,
       "door"
     ],
     [
-      6,
-      "alone"
-    ],
-    [
       7,
-      "door"
-    ],
-    [
-      7,
-      "alone"
+      "window"
     ],
     [
       8,
-      "next",
-      "tree"
-    ],
-    [
-      8,
-      "next",
-      "fire"
-    ],
-    [
-      9,
-      "next",
-      "fire"
-    ],
-    [
-      10,
       "next",
       "log"
     ]
   ],
   "solution": [
-    7,
-    19,
-    23,
-    38,
-    54,
-    59,
-    68,
-    80,
-    88,
-    105,
-    119
+    2,
+    13,
+    26,
+    33,
+    39,
+    50,
+    55,
+    63,
+    79
   ],
   "doors": [
     [
-      3,
-      4
+      4,
+      5
     ],
     [
-      24,
-      35
+      10,
+      19
     ],
     [
-      27,
-      38
+      12,
+      21
     ],
     [
-      32,
-      43
+      6,
+      7
     ],
     [
-      69,
-      70
+      22,
+      23
     ],
     [
-      68,
-      79
+      42,
+      51
     ],
     [
-      69,
-      80
+      43,
+      52
     ],
     [
-      61,
-      62
+      20,
+      21
     ],
     [
-      71,
-      82
+      46,
+      55
     ],
     [
-      72,
-      83
+      67,
+      68
     ],
     [
       74,
-      85
-    ],
-    [
-      101,
-      102
-    ],
-    [
-      115,
-      116
+      75
     ]
   ],
   "windows": [
     [
-      1,
+      0,
       "t"
     ],
     [
-      3,
-      "t"
-    ],
-    [
-      5,
-      "t"
-    ],
-    [
-      32,
-      "r"
-    ],
-    [
-      110,
+      63,
       "l"
     ],
     [
-      111,
+      75,
       "b"
     ],
     [
-      112,
+      78,
       "b"
+    ],
+    [
+      80,
+      "r"
     ]
   ],
-  "tries": 12,
+  "tries": 9,
   "facts": [
     [
-      "roomCount",
-      7,
-      2
+      "touch",
+      null,
+      1
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": ".01...32...",
-  "tags": ".1...0.............0..21...............1..2.........................3...........2....................................4...",
-  "hard": 6,
-  "hardest": 8,
-  "steps": 37,
+  "trade": "3.20203.2",
+  "tags": "...0.................4......4.....................0....3....4...0.4..4........0..",
+  "hard": 5,
+  "hardest": 6,
+  "steps": 25,
   "extra": true
 }

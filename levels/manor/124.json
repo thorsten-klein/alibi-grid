@@ -1,125 +1,113 @@
 {
   "size": 8,
-  "rooms": "0001111100011111000222220002222200022222333445553334455533344555",
-  "objects": "a......be...cab............ad..a....b...c...fbfbd....ebd.....fa.",
+  "rooms": "0000111100001111000011112222333322223333444444445555555555555555",
+  "objects": "..aa.......a...fae.........b...bd.dc..d...b.............e......f",
   "roomNames": [
-    "Chapel",
-    "Study",
+    "Cellar",
+    "Billiard Room",
     "Dining Room",
-    "Library",
-    "Kitchen",
-    "Cellar"
+    "Conservatory",
+    "Study",
+    "Hall"
   ],
   "people": [
-    "Albert the author",
-    "Birgit the banker",
-    "Clara the colonel",
-    "Daisy the doctor",
-    "Elsa the editor",
-    "Viola the valet",
-    "Fiona the footman",
-    "Greta the gardener"
+    "Ada the architect",
+    "Birgit the butler",
+    "Cora the cook",
+    "Dexter the doctor",
+    "Ena the editor",
+    "Freya the footman",
+    "Victor the valet",
+    "Gideon the guest"
   ],
-  "victim": 5,
+  "victim": 6,
   "clues": [
     [
       0,
-      "window"
+      "same",
+      2
     ],
     [
       1,
-      "on",
-      "sofa"
-    ],
-    [
-      2,
       "next",
       "chair"
     ],
     [
+      2,
+      "row",
+      2
+    ],
+    [
+      2,
+      "col",
+      5
+    ],
+    [
       3,
-      "next",
-      "piano"
+      "alone"
     ],
     [
       4,
-      "row",
-      4
+      "next",
+      "piano"
     ],
     [
       5,
       "door"
     ],
     [
-      6,
+      7,
       "next",
       "clock"
-    ],
-    [
-      7,
-      "next",
-      "piano"
-    ],
-    [
-      7,
-      "alone"
     ]
   ],
   "solution": [
-    1,
-    14,
-    23,
-    29,
-    34,
-    43,
-    52,
-    56
+    4,
+    8,
+    21,
+    31,
+    33,
+    42,
+    51,
+    62
   ],
   "doors": [
     [
-      10,
-      11
+      11,
+      12
     ],
     [
-      18,
-      19
+      16,
+      24
     ],
     [
-      33,
-      41
+      22,
+      30
     ],
     [
-      12,
-      20
+      35,
+      36
+    ],
+    [
+      35,
+      43
     ],
     [
       36,
       44
     ],
     [
-      37,
-      45
-    ],
-    [
       42,
-      43
-    ],
-    [
-      44,
-      45
+      50
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      7,
+      "r"
     ],
     [
-      8,
-      "l"
-    ],
-    [
-      32,
+      40,
       "l"
     ],
     [
@@ -127,25 +115,29 @@
       "l"
     ],
     [
-      59,
+      60,
+      "b"
+    ],
+    [
+      63,
       "b"
     ]
   ],
-  "tries": 14,
+  "tries": 0,
   "facts": [
     [
-      "alone",
-      null,
-      2
+      "nextCount",
+      "sofa",
+      0
     ],
     [
-      "nextCount",
-      "chair",
-      3
+      "furniture",
+      null,
+      2
     ]
   ],
   "hard": 4,
-  "hardest": 6,
+  "hardest": 5,
   "steps": 25,
   "extra": true
 }

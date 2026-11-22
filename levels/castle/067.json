@@ -1,53 +1,61 @@
 {
   "size": 5,
-  "rooms": "0001100011000112233322333",
-  "objects": ".......b.d.f..db..d...aa.",
+  "rooms": "0011100111001112223322233",
+  "objects": ".....ba.......b...b..bb.f",
   "roomNames": [
+    "Throne Room",
     "Dungeon",
-    "Tower",
-    "Kitchen",
-    "Stables"
+    "Stables",
+    "Armory"
   ],
   "people": [
-    "Arthur the alchemist",
-    "Bella the baker",
-    "Carl the chronicler",
-    "Della the dancer",
-    "Victor the vintner"
+    "Ada the archer",
+    "Birgit the bard",
+    "Vivian the verger",
+    "Clara the chronicler",
+    "Dexter the dancer"
   ],
-  "victim": 4,
+  "victim": 2,
   "clues": [
     [
       0,
-      "same",
-      2
+      "alone"
     ],
     [
       1,
       "next",
-      "candles"
+      "cot"
     ],
     [
       2,
-      "next",
-      "urn"
+      "notRoom",
+      0
+    ],
+    [
+      2,
+      "door"
     ],
     [
       3,
-      "window"
+      "door"
+    ],
+    [
+      4,
+      "on",
+      "cot"
     ]
   ],
   "solution": [
-    1,
-    8,
-    10,
-    19,
-    22
+    0,
+    9,
+    12,
+    18,
+    21
   ],
   "doors": [
     [
-      12,
-      13
+      1,
+      2
     ],
     [
       11,
@@ -62,8 +70,8 @@
       19
     ],
     [
-      21,
-      22
+      17,
+      18
     ]
   ],
   "windows": [
@@ -76,7 +84,7 @@
       "r"
     ],
     [
-      21,
+      20,
       "b"
     ]
   ],
@@ -85,18 +93,18 @@
     [
       "edge",
       null,
-      4
+      3
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    1
+    2
   ],
-  "rank": "cnkkc",
-  "hard": 4,
-  "hardest": 4,
+  "rank": "ccckn",
+  "hard": 2,
+  "hardest": 3,
   "steps": 15,
   "extra": true
 }

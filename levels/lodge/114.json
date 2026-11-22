@@ -1,31 +1,29 @@
 {
-  "size": 8,
-  "rooms": "0011122200111222001112220011122233344555333445553334455533344555",
-  "objects": "c.....f...bff...........f..b.e...a.....db.b.....e......ab...e...",
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "...e....c....c.........a..............ca...cfbd..",
   "roomNames": [
-    "Dining Hall",
-    "Sauna",
-    "Games Room",
     "Ski Room",
-    "Bar",
-    "Fireside Lounge"
+    "Fireside Lounge",
+    "Suite",
+    "Dining Hall",
+    "Terrace"
   ],
   "people": [
-    "Alma the avalanche guard",
+    "Ada the avalanche guard",
     "Bella the baker",
-    "Clara the climber",
-    "Della the driver",
-    "Edith the explorer",
-    "Frank the fisher",
-    "Vince the vet",
-    "Gideon the glacier expert"
+    "Carl the cook",
+    "Viola the vet",
+    "Dmitri the driver",
+    "Elsa the explorer",
+    "Felix the fisher"
   ],
-  "victim": 6,
+  "victim": 3,
   "clues": [
     [
       0,
-      "col",
-      3
+      "row",
+      0
     ],
     [
       1,
@@ -33,119 +31,98 @@
     ],
     [
       2,
-      "row",
-      2
-    ],
-    [
-      3,
-      "notRoom",
-      0
+      "window"
     ],
     [
       3,
       "door"
     ],
     [
-      3,
+      4,
+      "next",
+      "skis"
+    ],
+    [
+      5,
+      "next",
+      "skis"
+    ],
+    [
+      5,
       "alone"
     ],
     [
-      4,
+      6,
+      "same",
+      4
+    ],
+    [
+      6,
       "next",
       "fire"
     ],
     [
-      5,
-      "next",
-      "tree"
-    ],
-    [
-      5,
-      "row",
-      5
-    ],
-    [
-      7,
-      "same",
+      6,
+      "col",
       5
     ]
   ],
   "solution": [
-    3,
-    9,
+    0,
+    11,
     20,
+    23,
     31,
-    38,
-    40,
-    53,
-    58
+    36,
+    47
   ],
   "doors": [
     [
-      1,
-      2
+      9,
+      10
     ],
     [
-      25,
-      33
+      23,
+      24
+    ],
+    [
+      22,
+      29
     ],
     [
       12,
-      13
+      19
     ],
     [
-      26,
-      34
+      25,
+      32
     ],
     [
-      28,
-      36
-    ],
-    [
-      31,
-      39
-    ],
-    [
-      50,
-      51
-    ],
-    [
-      60,
-      61
+      37,
+      38
     ]
   ],
   "windows": [
     [
-      24,
-      "l"
-    ],
-    [
-      47,
+      13,
       "r"
     ],
     [
-      56,
-      "l"
+      20,
+      "r"
     ],
     [
-      57,
-      "b"
+      34,
+      "r"
     ],
     [
-      59,
+      43,
       "b"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "doorCount",
-      null,
-      1
-    ]
-  ],
-  "hard": 6,
-  "hardest": 4,
-  "steps": 22,
+  "tries": 5,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 20,
   "extra": true
 }

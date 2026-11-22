@@ -1,236 +1,192 @@
 {
-  "size": 12,
-  "rooms": "001111222222001111222222001111222222001111222222001111333344005555333344005555333344005555333344666667777888666667777888666667777888666667777888",
-  "objects": "....bbbfb.e.f..........f.efcf...f..............b..df..f..b..d...a...f..c.....ef.....ef.....ae.f..a.ee..a.......f......b..............e...b....ce",
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222000011122233333344443333334444555555666655555566667777777777",
+  "objects": "......dd..........b.....f........d..ea.....b..bb...fe.b.......efbe.c.....cf...cf.......ed.f.f.b...a.",
   "roomNames": [
-    "Kitchen",
-    "Gallery",
-    "Study",
-    "Library",
-    "Ballroom",
     "Pantry",
-    "Hall",
-    "Cellar",
-    "Chapel"
+    "Dining Room",
+    "Kitchen",
+    "Billiard Room",
+    "Study",
+    "Chapel",
+    "Ballroom",
+    "Library"
   ],
   "people": [
-    "Ada the author",
-    "Bruno the banker",
-    "Clara the cook",
+    "Astrid the author",
+    "Viola the valet",
+    "Bruno the butler",
+    "Cora the colonel",
     "Dora the doctor",
-    "Elsa the editor",
+    "Edith the editor",
     "Flora the footman",
-    "Gideon the gardener",
-    "Vivian the valet",
-    "Hugo the heir",
-    "Ivo the inspector",
-    "Jonas the judge",
-    "Kira the keeper"
+    "Gwen the gardener",
+    "Hilda the heir",
+    "Ivy the inspector"
   ],
-  "victim": 7,
+  "victim": 1,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      0,
-      "alone"
+      "next",
+      "piano"
     ],
     [
       1,
-      "same",
-      3
-    ],
-    [
-      2,
       "next",
-      "clock"
+      "sofa"
     ],
     [
       2,
       "col",
-      9
+      1
     ],
     [
       3,
-      "col",
-      8
-    ],
-    [
-      4,
-      "room",
-      0
-    ],
-    [
-      5,
       "on",
       "chair"
     ],
     [
-      6,
+      4,
+      "same",
+      2
+    ],
+    [
+      4,
+      "window"
+    ],
+    [
+      5,
       "next",
-      "clock"
+      "sofa"
+    ],
+    [
+      5,
+      "same",
+      6
     ],
     [
       6,
-      "col",
-      10
+      "next",
+      "clock"
     ],
     [
       7,
-      "next",
-      "clock"
+      "door"
     ],
     [
       8,
-      "next",
-      "plant"
+      "row",
+      8
+    ],
+    [
+      9,
+      "on",
+      "chair"
     ],
     [
       9,
       "alone"
-    ],
-    [
-      10,
-      "row",
-      10
-    ],
-    [
-      10,
-      "col",
-      0
-    ],
-    [
-      11,
-      "same",
-      10
     ]
   ],
   "solution": [
     5,
     19,
-    33,
-    44,
-    49,
+    21,
+    37,
+    40,
+    53,
     64,
+    76,
     82,
-    95,
-    98,
-    114,
-    120,
-    135
+    98
   ],
   "doors": [
     [
-      1,
-      2
+      3,
+      4
     ],
     [
-      61,
-      62
+      43,
+      53
     ],
     [
-      84,
-      96
+      6,
+      7
     ],
     [
-      41,
-      42
-    ],
-    [
-      53,
+      44,
       54
     ],
     [
-      53,
-      65
-    ],
-    [
-      45,
-      57
-    ],
-    [
       46,
-      58
+      56
     ],
     [
-      69,
-      70
+      47,
+      57
     ],
     [
       65,
       66
     ],
     [
-      91,
-      103
+      63,
+      73
     ],
     [
-      93,
-      105
+      68,
+      78
     ],
     [
-      94,
-      106
+      75,
+      76
     ],
     [
-      88,
-      100
+      85,
+      95
     ],
     [
-      89,
-      101
-    ],
-    [
-      112,
-      113
-    ],
-    [
-      140,
-      141
+      86,
+      96
     ]
   ],
   "windows": [
     [
-      5,
+      3,
       "t"
     ],
     [
-      23,
+      8,
+      "t"
+    ],
+    [
+      29,
       "r"
     ],
     [
-      119,
-      "r"
+      40,
+      "l"
     ],
     [
-      131,
-      "r"
+      50,
+      "l"
     ],
     [
-      136,
+      95,
       "b"
-    ],
-    [
-      141,
-      "b"
-    ],
-    [
-      143,
-      "r"
     ]
   ],
-  "tries": 5,
+  "tries": 1,
   "facts": [
     [
-      "nextCount",
-      "sofa",
-      0
+      "alone",
+      null,
+      4
     ]
   ],
-  "hard": 7,
-  "hardest": 6,
-  "steps": 34,
+  "hard": 8,
+  "hardest": 9,
+  "steps": 31,
   "extra": true
 }

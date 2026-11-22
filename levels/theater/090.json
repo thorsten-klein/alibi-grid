@@ -1,128 +1,116 @@
 {
   "size": 6,
-  "rooms": "001111001111002222002222333344333344",
-  "objects": "b.......cbd.e.ae...c.......ba....eaa",
+  "rooms": "001122001122001122000333444333444333",
+  "objects": ".b...........d.......b.....a.b..e..a",
   "roomNames": [
-    "Wings",
+    "Green Room",
+    "Foyer",
     "Bar",
-    "Dressing Room",
     "Lighting Booth",
-    "Costume Room"
+    "Wings"
   ],
   "people": [
-    "Albert the author",
+    "Astrid the agent",
     "Basil the bass player",
-    "Viola the ventriloquist",
-    "Cora the choreographer",
+    "Clara the critic",
+    "Viola the violinist",
     "Dmitri the director",
-    "Ena the electrician"
+    "Ena the extra"
   ],
-  "victim": 2,
+  "victim": 3,
   "clues": [
     [
       0,
-      "next",
+      "on",
       "sofa"
     ],
     [
-      1,
-      "next",
-      "sofa"
-    ],
-    [
-      1,
-      "next",
-      "rack"
-    ],
-    [
-      3,
-      "door"
-    ],
-    [
-      4,
+      0,
       "alone"
     ],
     [
-      5,
-      "on",
-      "seat"
-    ],
-    [
-      5,
-      "door"
-    ]
-  ],
-  "solution": [
-    3,
-    6,
-    17,
-    20,
-    25,
-    34
-  ],
-  "doors": [
-    [
       1,
+      "room",
       2
     ],
     [
-      19,
-      20
+      2,
+      "door"
     ],
     [
-      19,
-      25
+      3,
+      "col",
+      4
     ],
     [
-      10,
-      16
+      4,
+      "next",
+      "sofa"
+    ],
+    [
+      5,
+      "alone"
+    ]
+  ],
+  "solution": [
+    1,
+    11,
+    14,
+    22,
+    27,
+    30
+  ],
+  "doors": [
+    [
+      13,
+      14
+    ],
+    [
+      20,
+      21
     ],
     [
       20,
       26
     ],
     [
-      23,
-      29
+      9,
+      10
     ],
     [
-      33,
-      34
+      15,
+      21
+    ],
+    [
+      17,
+      23
+    ],
+    [
+      32,
+      33
     ]
   ],
   "windows": [
-    [
-      2,
-      "t"
-    ],
     [
       3,
       "t"
     ],
     [
-      11,
+      6,
+      "l"
+    ],
+    [
+      23,
       "r"
     ],
     [
-      30,
-      "l"
+      31,
+      "b"
     ]
   ],
-  "tries": 4,
-  "facts": [
-    [
-      "nextCount",
-      "seat",
-      1
-    ],
-    [
-      "alone",
-      null,
-      4
-    ]
-  ],
-  "hard": 3,
+  "tries": 1,
+  "hard": 1,
   "hardest": 3,
-  "steps": 18,
+  "steps": 13,
   "extra": true
 }

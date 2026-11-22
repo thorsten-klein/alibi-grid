@@ -1,43 +1,41 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100011112223333222333322244442224444",
-  "objects": "..d.af..b.e.fa..ad..ac.........bc....e...........",
+  "size": 6,
+  "rooms": "001122001122001122001122333344333344",
+  "objects": "ce.c.............b.a...a.b..b..eb..d",
   "roomNames": [
-    "Tower",
-    "Courtyard",
-    "Dungeon",
-    "Gatehouse",
-    "Stables"
+    "Solar",
+    "Armory",
+    "Chapel",
+    "Great Hall",
+    "Gatehouse"
   ],
   "people": [
-    "Astrid the alchemist",
-    "Viola the verger",
-    "Birgit the baker",
-    "Carl the cupbearer",
-    "Della the dancer",
-    "Elias the embroiderer",
-    "Freya the farrier"
+    "Ada the archer",
+    "Bea the bard",
+    "Vince the vintner",
+    "Clara the chronicler",
+    "Dora the doorkeeper",
+    "Edgar the envoy"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
+      "window"
+    ],
+    [
+      1,
       "next",
-      "candles"
+      "barrel"
     ],
     [
       2,
       "next",
-      "candles"
+      "bench"
     ],
     [
       3,
-      "door"
-    ],
-    [
-      4,
-      "next",
-      "barrel"
+      "alone"
     ],
     [
       4,
@@ -45,76 +43,79 @@
     ],
     [
       5,
-      "alone"
-    ],
-    [
-      6,
-      "window"
+      "next",
+      "swords"
     ]
   ],
   "solution": [
-    1,
-    7,
+    4,
+    9,
+    17,
     18,
-    27,
-    31,
-    40,
-    44
+    25,
+    32
   ],
   "doors": [
     [
-      16,
-      17
+      19,
+      20
     ],
     [
-      14,
-      21
+      19,
+      25
+    ],
+    [
+      21,
+      22
     ],
     [
       20,
-      27
+      26
     ],
     [
-      30,
-      31
+      22,
+      28
     ],
     [
-      37,
-      38
-    ],
-    [
-      34,
-      41
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      13,
-      "r"
+      4,
+      "t"
     ],
     [
-      14,
+      30,
       "l"
     ],
     [
-      27,
-      "r"
+      30,
+      "b"
     ],
     [
-      44,
+      31,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
+  "facts": [
+    [
+      "windowCount",
+      null,
+      1
+    ]
+  ],
   "rules": [
     "ranks"
   ],
   "court": [
-    0
+    1
   ],
-  "rank": "kkccccc",
-  "hard": 0,
-  "hardest": 2,
-  "steps": 14,
+  "rank": "cncccc",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 18,
   "extra": true
 }

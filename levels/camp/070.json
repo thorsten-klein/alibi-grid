@@ -1,57 +1,52 @@
 {
   "size": 5,
-  "rooms": "0011100111001112223322233",
-  "objects": "......c...e.b..aa.bd.d...",
+  "rooms": "0001100011000112233322333",
+  "objects": "bd..df...a.c.....f......c",
   "roomNames": [
+    "Spring",
+    "Hide Tent",
     "Painted Wall",
-    "Elder Hut",
-    "Berry Grove",
-    "Flint Pit"
+    "Lookout Rock"
   ],
   "people": [
-    "Vince the visionary",
-    "Alma the artist",
-    "Birgit the beekeeper",
-    "Cora the carrier",
-    "Dora the dancer"
+    "Ada the artist",
+    "Basil the beekeeper",
+    "Cedric the carrier",
+    "Della the drummer",
+    "Vince the visionary"
   ],
-  "victim": 0,
+  "victim": 4,
   "clues": [
+    [
+      0,
+      "window"
+    ],
     [
       1,
       "next",
-      "leaves"
+      "fire"
     ],
     [
       2,
-      "next",
-      "tree"
-    ],
-    [
-      3,
       "door"
     ],
     [
       3,
-      "alone"
-    ],
-    [
-      4,
       "next",
-      "fire"
+      "boulder"
     ]
   ],
   "solution": [
-    3,
-    7,
-    11,
-    15,
-    24
+    0,
+    6,
+    13,
+    19,
+    22
   ],
   "doors": [
     [
-      1,
-      2
+      2,
+      3
     ],
     [
       10,
@@ -62,43 +57,43 @@
       17
     ],
     [
-      14,
-      19
+      13,
+      18
     ],
     [
-      17,
-      18
+      16,
+      17
     ]
   ],
   "windows": [
     [
-      4,
-      "r"
+      0,
+      "t"
     ],
     [
-      10,
+      1,
+      "t"
+    ],
+    [
+      15,
       "l"
-    ],
-    [
-      21,
-      "b"
     ]
   ],
   "tries": 2,
   "facts": [
     [
-      "roomCount",
-      0,
+      "touch",
+      null,
       1
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": "....2",
-  "tags": "....................3...2",
-  "hard": 3,
+  "trade": "2..23",
+  "tags": ".......4...............2.",
+  "hard": 1,
   "hardest": 3,
-  "steps": 17,
+  "steps": 13,
   "extra": true
 }

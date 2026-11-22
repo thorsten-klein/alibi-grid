@@ -1,38 +1,50 @@
 {
   "size": 5,
-  "rooms": "0011100111001112233322333",
-  "objects": "a.e...d..ad......c.....a.",
+  "rooms": "0001100011000112223322233",
+  "objects": ".bc.....b....a.a.........",
   "roomNames": [
-    "Hall",
+    "Cellar",
+    "Billiard Room",
     "Chapel",
-    "Conservatory",
-    "Library"
+    "Kitchen"
   ],
   "people": [
     "Ada the architect",
-    "Vera the valet",
-    "Basil the butler",
-    "Cora the cook",
-    "Daisy the doctor"
+    "Basil the banker",
+    "Vince the valet",
+    "Clara the colonel",
+    "Dmitri the doctor"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "sofa"
     ],
     [
-      2,
+      0,
       "alone"
     ],
     [
-      3,
-      "door"
+      1,
+      "next",
+      "sofa"
     ],
     [
-      4,
-      "next",
-      "chair"
+      2,
+      "col",
+      0
+    ],
+    [
+      3,
+      "notRoom",
+      3
+    ],
+    [
+      3,
+      "row",
+      3
     ],
     [
       4,
@@ -40,28 +52,28 @@
     ]
   ],
   "solution": [
-    4,
-    8,
-    11,
-    15,
-    22
+    3,
+    6,
+    10,
+    17,
+    24
   ],
   "doors": [
     [
-      6,
-      7
+      7,
+      8
     ],
     [
-      10,
-      15
+      11,
+      16
     ],
     [
       13,
       18
     ],
     [
-      21,
-      22
+      22,
+      23
     ]
   ],
   "windows": [
@@ -74,20 +86,20 @@
       "t"
     ],
     [
-      10,
+      20,
       "l"
     ]
   ],
   "tries": 1,
   "facts": [
     [
-      "corner",
+      "furniture",
       null,
-      4
+      0
     ]
   ],
-  "hard": 3,
+  "hard": 2,
   "hardest": 4,
-  "steps": 14,
+  "steps": 15,
   "extra": true
 }

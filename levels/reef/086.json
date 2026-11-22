@@ -1,27 +1,27 @@
 {
   "size": 6,
   "rooms": "000000000000000000112233112233112233",
-  "objects": "...................b......babe....c.",
+  "objects": "......................dfbf.b..babd..",
   "roomNames": [
     "Open Sea",
-    "Sloop",
-    "Longboat",
-    "Sea Cave"
+    "Sea Cave",
+    "Tavern",
+    "Cove"
   ],
   "people": [
-    "Ada the admiral",
-    "Bruno the barkeep",
-    "Clara the cook",
-    "Daisy the deckhand",
-    "Viola the voyager",
-    "Edgar the explorer"
+    "Albert the admiral",
+    "Bea the boatswain",
+    "Cedric the captain",
+    "Daisy the diver",
+    "Victor the vintner",
+    "Edgar the engineer"
   ],
   "victim": 4,
   "clues": [
     [
       0,
       "col",
-      1
+      3
     ],
     [
       1,
@@ -29,47 +29,42 @@
       1
     ],
     [
+      1,
+      "col",
+      5
+    ],
+    [
       2,
       "row",
       2
     ],
     [
-      2,
-      "col",
-      4
-    ],
-    [
       3,
-      "row",
-      3
-    ],
-    [
-      4,
-      "next",
-      "hammock"
+      "notRoom",
+      0
     ],
     [
       5,
-      "room",
-      1
+      "next",
+      "hammock"
     ]
   ],
   "solution": [
-    1,
+    3,
     11,
     16,
     20,
-    27,
-    30
+    24,
+    31
   ],
   "doors": [
     [
-      31,
-      32
+      25,
+      26
     ],
     [
-      21,
-      22
+      27,
+      28
     ]
   ],
   "windows": [
@@ -78,8 +73,8 @@
       "r"
     ],
     [
-      24,
-      "l"
+      30,
+      "b"
     ],
     [
       31,
@@ -90,20 +85,20 @@
       "b"
     ]
   ],
-  "tries": 2,
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
   "facts": [
     [
-      "touch",
-      null,
-      1
+      "nextCount",
+      "cannon",
+      2
     ]
   ],
   "rules": [
     "sea"
   ],
   "sea": 0,
-  "hard": 3,
-  "hardest": 3,
-  "steps": 14,
   "extra": true
 }

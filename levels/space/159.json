@@ -1,0 +1,203 @@
+{
+  "size": 10,
+  "rooms": "0011122333001112233300111223330011122333444442222244444222225555666777555566677755556667775555666777",
+  "objects": "...........e..dfc.f..ebf..e..fe......a.e...aa.b..c.be..........b...f.f....bd....fd..d.c..e....a.....",
+  "roomNames": [
+    "Med Bay",
+    "Hydroponics",
+    "Bridge",
+    "Crew Quarters",
+    "Gym",
+    "Engine Room",
+    "Airlock",
+    "Comms"
+  ],
+  "people": [
+    "Astrid the astronaut",
+    "Basil the biologist",
+    "Cora the chemist",
+    "Dexter the driller",
+    "Elias the engineer",
+    "Felix the flight officer",
+    "Grace the gunner",
+    "Hilda the hull technician",
+    "Vince the visitor",
+    "Ivy the intern"
+  ],
+  "victim": 8,
+  "clues": [
+    [
+      0,
+      "next",
+      "tank"
+    ],
+    [
+      1,
+      "next",
+      "pod"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
+      "next",
+      "plant"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "next",
+      "pod"
+    ],
+    [
+      4,
+      "door"
+    ],
+    [
+      4,
+      "alone"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "on",
+      "pod"
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "on",
+      "pod"
+    ],
+    [
+      7,
+      "next",
+      "scope"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      9,
+      "next",
+      "plant"
+    ]
+  ],
+  "solution": [
+    5,
+    12,
+    20,
+    38,
+    41,
+    56,
+    63,
+    74,
+    87,
+    99
+  ],
+  "doors": [
+    [
+      1,
+      2
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      36,
+      37
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      56,
+      66
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      96,
+      97
+    ]
+  ],
+  "windows": [
+    [
+      7,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      10,
+      "l"
+    ],
+    [
+      39,
+      "r"
+    ],
+    [
+      60,
+      "l"
+    ],
+    [
+      79,
+      "r"
+    ]
+  ],
+  "tries": 9,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
+  "hard": 6,
+  "hardest": 6,
+  "steps": 33,
+  "extra": true
+}

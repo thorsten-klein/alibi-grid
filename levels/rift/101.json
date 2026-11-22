@@ -1,24 +1,24 @@
 {
   "size": 7,
-  "rooms": "0000000111122211112223333222333322244442224444222",
-  "objects": "af.cb...a.....e.b....c........a.....c............",
+  "rooms": "0000111000011122221112222111333311133331114444444",
+  "objects": "f..c....b.a...........b.c....f.a....c.....e.....f",
   "roomNames": [
-    "Shrine",
-    "Fort",
-    "Sea of Ages",
     "Saloon",
-    "Bank"
+    "Sea of Ages",
+    "Fire Pit",
+    "Cave",
+    "Burial Chamber"
   ],
   "people": [
-    "Astrid the astronomer",
-    "Vera the voyager",
-    "Birgit the bard",
-    "Cedric the clockmaker",
-    "Dora the dreamer",
-    "Elsa the engineer",
-    "Frank the falconer"
+    "Ada the astronomer",
+    "Basil the bookbinder",
+    "Cedric the chronicler",
+    "Dmitri the dreamer",
+    "Vivian the voyager",
+    "Elias the explorer",
+    "Freya the fortune teller"
   ],
-  "victim": 1,
+  "victim": 4,
   "clues": [
     [
       0,
@@ -26,17 +26,21 @@
       "statue"
     ],
     [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "row",
+      1
+    ],
+    [
       2,
-      "on",
+      "next",
       "log"
     ],
     [
       3,
-      "row",
-      3
-    ],
-    [
-      4,
       "col",
       6
     ],
@@ -47,62 +51,63 @@
     ],
     [
       6,
-      "window"
+      "next",
+      "clock"
     ]
   ],
   "solution": [
-    4,
-    10,
-    16,
-    26,
-    34,
+    2,
+    11,
+    15,
+    27,
+    31,
     35,
-    43
+    47
   ],
   "doors": [
     [
-      2,
-      9
+      10,
+      17
     ],
     [
-      14,
-      21
+      21,
+      28
     ],
     [
-      29,
-      36
+      36,
+      43
     ]
   ],
   "windows": [
     [
-      2,
-      "t"
-    ],
-    [
-      21,
+      42,
       "l"
-    ],
-    [
-      43,
-      "b"
     ],
     [
       44,
       "b"
+    ],
+    [
+      46,
+      "b"
+    ],
+    [
+      48,
+      "r"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "rules": [
     "ranks",
     "sea"
   ],
   "court": [
-    4
+    2
   ],
-  "rank": "cckccnn",
-  "sea": 2,
-  "hard": 2,
-  "hardest": 4,
-  "steps": 18,
+  "rank": "cckcckk",
+  "sea": 1,
+  "hard": 4,
+  "hardest": 5,
+  "steps": 17,
   "extra": true
 }

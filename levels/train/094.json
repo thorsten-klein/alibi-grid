@@ -1,93 +1,90 @@
 {
-  "size": 7,
-  "rooms": "0012222001222200133330013333001144400114440011444",
-  "objects": "b.aa....da....eb..bc........da.b..............e..",
+  "size": 6,
+  "rooms": "001111001111001222001222333444333444",
+  "objects": ".....ba...e......fdc....df..........",
   "roomNames": [
-    "Mail Car",
-    "Sleeper B",
+    "Corridor",
+    "Baggage Car",
     "Bar Car",
-    "Observation Car",
-    "Corridor"
+    "Lounge Car",
+    "Sleeper C"
   ],
   "people": [
-    "Ada the accordionist",
-    "Vivian the violinist",
-    "Bella the bookseller",
-    "Cora the courier",
-    "Della the dentist",
-    "Edgar the envoy",
-    "Freya the fiddler"
+    "Vivian the vendor",
+    "Alma the attendant",
+    "Bella the banker",
+    "Cedric the conductor",
+    "Dora the diplomat",
+    "Edith the envoy"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "row",
-      0
+      1,
+      "next",
+      "lamp"
     ],
     [
-      0,
-      "col",
-      6
+      1,
+      "row",
+      1
     ],
     [
       2,
       "next",
-      "suitcase"
-    ],
-    [
-      3,
-      "next",
       "seat"
     ],
     [
-      4,
+      2,
       "next",
-      "bunk"
+      "crate"
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      4,
+      "notRoom",
+      2
     ],
     [
       5,
-      "col",
-      3
-    ],
-    [
-      6,
-      "same",
-      3
+      "next",
+      "wine"
     ]
   ],
   "solution": [
-    6,
+    2,
+    11,
     12,
-    18,
-    22,
-    30,
-    38,
-    42
+    21,
+    28,
+    31
   ],
   "doors": [
     [
-      43,
-      44
+      7,
+      8
     ],
     [
-      9,
-      10
+      19,
+      25
     ],
     [
-      16,
-      17
+      20,
+      21
     ],
     [
-      45,
-      46
+      20,
+      26
     ],
     [
-      13,
-      20
+      21,
+      27
     ],
     [
-      26,
+      32,
       33
     ]
   ],
@@ -97,33 +94,33 @@
       "t"
     ],
     [
-      7,
+      4,
+      "t"
+    ],
+    [
+      18,
       "l"
     ],
     [
-      43,
-      "b"
-    ],
-    [
-      45,
+      30,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 2,
   "facts": [
     [
-      "windowCount",
-      null,
-      0
+      "roomCount",
+      1,
+      2
     ],
     [
-      "corner",
-      null,
-      2
+      "roomCount",
+      3,
+      1
     ]
   ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 22,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 16,
   "extra": true
 }

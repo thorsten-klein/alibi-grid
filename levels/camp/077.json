@@ -1,112 +1,97 @@
 {
-  "size": 6,
-  "rooms": "000000000111000111223333223444223444",
-  "objects": ".....d..a.......d..fa.e.d..f.b...f.b",
+  "size": 5,
+  "rooms": "0001100011222112223322233",
+  "objects": ".a.ba......a...ab.......f",
   "roomNames": [
-    "Spring",
-    "Hide Tent",
+    "Hunting Ground",
     "Flint Pit",
     "Cave",
-    "Berry Grove"
+    "Elder Hut"
   ],
   "people": [
-    "Astrid the acrobat",
-    "Victor the visionary",
+    "Arthur the artist",
     "Bea the builder",
-    "Cora the carver",
-    "Della the drummer",
-    "Elsa the elk tamer"
+    "Cedric the carver",
+    "Vivian the visionary",
+    "Daisy the drummer"
   ],
-  "victim": 1,
+  "victim": 3,
   "clues": [
     [
       0,
-      "window"
+      "on",
+      "leaves"
     ],
     [
       1,
-      "next",
-      "fire"
+      "alone"
     ],
     [
       2,
-      "door"
+      "same",
+      0
     ],
     [
       3,
       "next",
-      "tree"
+      "log"
     ],
     [
       4,
-      "next",
-      "bones"
-    ],
-    [
-      5,
       "door"
     ]
   ],
   "solution": [
-    0,
-    10,
-    15,
-    23,
-    25,
-    32
+    3,
+    5,
+    14,
+    16,
+    22
   ],
   "doors": [
     [
-      14,
-      15
+      2,
+      3
+    ],
+    [
+      5,
+      10
     ],
     [
       12,
+      13
+    ],
+    [
+      13,
       18
     ],
     [
-      14,
-      20
-    ],
-    [
-      16,
-      22
-    ],
-    [
-      31,
-      32
-    ],
-    [
-      21,
-      27
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      0,
+      15,
       "l"
     ],
     [
-      30,
+      20,
       "b"
     ],
     [
-      30,
-      "l"
-    ],
-    [
-      33,
+      23,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
   "rules": [
     "trades"
   ],
-  "trade": ".31.0.",
-  "tags": "..........3....1..0......0..........",
-  "hard": 2,
-  "hardest": 4,
-  "steps": 15,
+  "trade": "2.3.2",
+  "tags": "..3...................2..",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 12,
   "extra": true
 }

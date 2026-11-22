@@ -1,114 +1,96 @@
 {
-  "size": 6,
-  "rooms": "000000000000111222111222333444333444",
-  "objects": "a..b.d..f.....d..cd...........ac...c",
+  "size": 5,
+  "rooms": "0001100011000112223322233",
+  "objects": ".b.aa..db..fb..........c.",
   "roomNames": [
-    "Throne Room",
-    "Courtyard",
+    "Gatehouse",
     "Great Hall",
-    "Smithy",
-    "Stables"
+    "Kitchen",
+    "Dungeon"
   ],
   "people": [
-    "Arthur the archer",
-    "Vera the vintner",
-    "Bea the baker",
-    "Carl the cupbearer",
-    "Dora the doorkeeper",
-    "Ena the envoy"
+    "Vince the vintner",
+    "Alma the archer",
+    "Bella the bard",
+    "Cora the cupbearer",
+    "Daisy the doorkeeper"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "next",
-      "urn"
-    ],
-    [
       1,
-      "door"
+      "on",
+      "cot"
     ],
     [
       2,
-      "alone"
-    ],
-    [
-      3,
       "door"
     ],
     [
-      4,
-      "next",
-      "barrel"
+      3,
+      "alone"
     ],
     [
-      5,
-      "next",
-      "barrel"
+      4,
+      "window"
     ]
   ],
   "solution": [
-    2,
-    10,
-    13,
-    21,
-    29,
-    30
+    1,
+    8,
+    12,
+    19,
+    20
   ],
   "doors": [
     [
-      8,
-      14
+      12,
+      13
     ],
     [
-      10,
-      16
+      12,
+      17
     ],
     [
-      20,
-      21
+      13,
+      18
     ],
     [
-      18,
-      24
-    ],
-    [
-      22,
-      28
-    ],
-    [
-      26,
-      27
+      17,
+      18
     ]
   ],
   "windows": [
     [
       4,
-      "t"
-    ],
-    [
-      29,
       "r"
     ],
     [
-      31,
-      "b"
+      5,
+      "l"
     ],
     [
-      34,
+      20,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      0
+    ]
+  ],
   "rules": [
     "ranks"
   ],
   "court": [
-    4
+    3
   ],
-  "rank": "cckknk",
-  "hard": 2,
-  "hardest": 5,
-  "steps": 12,
+  "rank": "ccckk",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 16,
   "extra": true
 }

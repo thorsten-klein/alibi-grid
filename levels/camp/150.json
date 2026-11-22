@@ -1,168 +1,124 @@
 {
-  "size": 11,
-  "rooms": "0000111222200001112222000011122220000111222233333344444333333444443333334444455556667777555566677775555666777755556667777",
-  "objects": "e..a.fe......f..bdd...e.ada.ab...bc.b...f..f....ab....f.fac..fa......ed..ba.......c..aa.......cf..f.caf...d.bbb..e...d...",
+  "size": 9,
+  "rooms": "000001111000001111222223333222223333222223333444455666444455666444455666444455666",
+  "objects": "b...bbfb..a......cae...a...e...ac.f......ca.e....b.a.c.e....ba.ebd..a......aa....",
   "roomNames": [
+    "Lookout Rock",
+    "Cave",
     "Spring",
     "Elder Hut",
-    "Lookout Rock",
-    "Bone Yard",
-    "Painted Wall",
-    "Hunting Ground",
-    "Hide Tent",
-    "Berry Grove"
+    "Flint Pit",
+    "River Bank",
+    "Hunting Ground"
   ],
   "people": [
-    "Ada the acrobat",
-    "Birgit the builder",
-    "Carl the carrier",
-    "Della the dancer",
-    "Victor the visionary",
+    "Albert the acrobat",
+    "Basil the builder",
+    "Carl the carver",
+    "Daisy the dancer",
+    "Vivian the visionary",
     "Edgar the elk tamer",
-    "Fiona the firekeeper",
-    "Grace the grinder",
-    "Hugo the hide tanner",
-    "Ivy the ice cutter",
-    "Jade the joker"
+    "Frank the firekeeper",
+    "Gwen the guard",
+    "Hazel the hornblower"
   ],
   "victim": 4,
   "clues": [
     [
       0,
-      "same",
-      3
+      "on",
+      "leaves"
     ],
     [
       1,
-      "on",
-      "leaves"
+      "next",
+      "bones"
     ],
     [
       2,
       "next",
-      "leaves"
+      "boulder"
     ],
     [
       3,
       "next",
-      "bones"
-    ],
-    [
-      5,
-      "next",
       "log"
     ],
     [
       5,
-      "next",
-      "fire"
-    ],
-    [
-      6,
-      "on",
-      "leaves"
-    ],
-    [
-      6,
-      "next",
-      "log"
-    ],
-    [
-      7,
-      "same",
-      10
-    ],
-    [
-      8,
-      "same",
-      7
-    ],
-    [
-      8,
-      "notRoom",
-      0
-    ],
-    [
-      8,
-      "next",
-      "bones"
-    ],
-    [
-      9,
       "next",
       "boulder"
     ],
     [
-      10,
+      6,
       "next",
-      "tree"
-    ]
-  ],
-  "solution": [
-    10,
-    16,
-    30,
-    42,
-    44,
-    59,
-    73,
-    78,
-    91,
-    105,
-    112
-  ],
-  "doors": [
-    [
-      36,
-      37
-    ],
-    [
-      36,
-      47
+      "boulder"
     ],
     [
       6,
-      7
+      "window"
     ],
     [
-      38,
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "next",
+      "fire"
+    ]
+  ],
+  "solution": [
+    0,
+    15,
+    23,
+    30,
+    37,
+    52,
+    62,
+    67,
+    74
+  ],
+  "doors": [
+    [
+      4,
+      5
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      36,
+      45
+    ],
+    [
+      40,
       49
     ],
     [
-      39,
+      41,
       50
     ],
     [
-      43,
-      54
+      44,
+      53
     ],
     [
-      49,
-      50
+      75,
+      76
     ],
     [
-      69,
-      80
-    ],
-    [
-      71,
-      82
-    ],
-    [
-      72,
-      83
-    ],
-    [
-      76,
-      87
-    ],
-    [
-      113,
-      114
-    ],
-    [
-      116,
-      117
+      50,
+      51
     ]
   ],
   "windows": [
@@ -171,38 +127,42 @@
       "t"
     ],
     [
-      10,
-      "t"
-    ],
-    [
-      21,
-      "r"
-    ],
-    [
-      22,
+      9,
       "l"
     ],
     [
-      76,
+      62,
       "r"
     ],
     [
-      115,
+      73,
       "b"
     ],
     [
-      118,
+      80,
       "b"
     ]
   ],
   "tries": 8,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ],
+    [
+      "roomCount",
+      6,
+      2
+    ]
+  ],
   "rules": [
     "trades"
   ],
-  "trade": "33...44..21",
-  "tags": "..........3..........2.1........0............0....1........4......1.2....................................2......1........",
-  "hard": 3,
-  "hardest": 3,
-  "steps": 33,
+  "trade": "....124..",
+  "tags": "................3...44.......4......................2..................3.........",
+  "hard": 7,
+  "hardest": 6,
+  "steps": 27,
   "extra": true
 }

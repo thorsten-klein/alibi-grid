@@ -1,219 +1,178 @@
 {
-  "size": 12,
-  "rooms": "000011122222000011122222000011133333000011133333000011133333444444455555444444455555444444455555666777755555666777788888666777788888666777788888",
-  "objects": "...ea.d...eb.............d.....d....bb.aa.f....b.....b......b.....ad..aa.d.......da.aafb.a.ab.f....e..a.ec.f..f...a..f..e..ba.ba.b...e..b....bfe",
+  "size": 10,
+  "rooms": "0000111222000011122200001112220000111222333344444433334444445556667777555666777755566677775556667777",
+  "objects": "..cee.a.d........e.....fde....a...bd....d..fa.b........a....e.ac..a...f....d.............d..b...d...",
   "roomNames": [
-    "Antechamber",
     "Granary",
-    "Hall of Pillars",
-    "Statue Hall",
+    "Treasury",
+    "Antechamber",
+    "Boat Pit",
     "Shrine",
-    "Workshop",
-    "Sun Court",
-    "Burial Chamber",
+    "Hall of Pillars",
+    "Scribe Room",
     "Well Shaft"
   ],
   "people": [
-    "Albert the astrologer",
-    "Basil the boat builder",
-    "Cedric the chanter",
-    "Daisy the dancer",
-    "Elias the embalmer",
-    "Freya the fanbearer",
-    "Gus the guard",
-    "Hana the harpist",
-    "Isla the inspector",
-    "Jade the juggler",
-    "Konrad the kohl maker",
-    "Vince the vintner"
+    "Albert the architect",
+    "Birgit the boat builder",
+    "Cedric the carpenter",
+    "Daisy the diviner",
+    "Edgar the embalmer",
+    "Flora the fisher",
+    "Viola the vizier",
+    "Greta the guard",
+    "Hilda the harpist",
+    "Ivo the inspector"
   ],
-  "victim": 11,
+  "victim": 6,
   "clues": [
     [
       0,
+      "next",
+      "urn"
+    ],
+    [
+      0,
+      "window"
+    ],
+    [
+      0,
       "same",
-      1
+      3
     ],
     [
       1,
-      "door"
+      "next",
+      "urn"
     ],
     [
       2,
-      "next",
-      "statue"
-    ],
-    [
-      3,
-      "next",
-      "statue"
-    ],
-    [
-      3,
-      "col",
-      7
-    ],
-    [
-      4,
-      "door"
-    ],
-    [
-      4,
       "alone"
     ],
     [
-      5,
-      "row",
+      3,
+      "door"
+    ],
+    [
+      4,
+      "same",
       5
     ],
     [
       5,
-      "same",
-      6
+      "on",
+      "stool"
     ],
     [
       6,
-      "col",
-      5
-    ],
-    [
-      7,
-      "on",
-      "couch"
-    ],
-    [
-      7,
       "next",
-      "jar"
+      "stool"
+    ],
+    [
+      7,
+      "col",
+      8
     ],
     [
       8,
-      "door"
+      "row",
+      8
     ],
     [
       9,
       "window"
-    ],
-    [
-      10,
-      "next",
-      "rubble"
-    ],
-    [
-      11,
-      "next",
-      "couch"
     ]
   ],
   "solution": [
-    9,
-    22,
-    32,
-    43,
-    49,
-    62,
-    77,
-    87,
-    100,
-    108,
-    131,
-    138
+    1,
+    12,
+    29,
+    33,
+    46,
+    55,
+    67,
+    78,
+    84,
+    90
   ],
   "doors": [
     [
-      27,
-      28
+      23,
+      24
     ],
     [
-      49,
-      61
+      33,
+      43
     ],
     [
-      18,
-      19
+      36,
+      37
     ],
     [
-      54,
-      55
+      36,
+      46
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      50,
+      60
     ],
     [
       53,
+      63
+    ],
+    [
+      55,
       65
     ],
     [
-      22,
-      34
+      56,
+      66
     ],
     [
-      58,
-      70
-    ],
-    [
-      66,
-      67
+      92,
+      93
     ],
     [
       85,
-      97
-    ],
-    [
-      88,
-      100
-    ],
-    [
-      102,
-      103
-    ],
-    [
-      105,
-      117
-    ],
-    [
-      110,
-      111
-    ],
-    [
-      126,
-      127
+      86
     ]
   ],
   "windows": [
     [
-      7,
+      0,
       "t"
     ],
     [
-      10,
+      1,
       "t"
     ],
     [
-      11,
+      19,
       "r"
     ],
     [
-      47,
+      49,
       "r"
     ],
     [
-      108,
+      90,
       "l"
     ],
     [
-      134,
-      "b"
-    ],
-    [
-      137,
+      91,
       "b"
     ]
   ],
-  "tries": 8,
+  "tries": 2,
   "facts": [
-    [
-      "onCount",
-      "stool",
-      0
-    ],
     [
       "onCount",
       "couch",
@@ -223,9 +182,9 @@
   "rules": [
     "glyphs"
   ],
-  "tags": ".....C........................C............C....LL........L...CL.............................L...C.................C............................",
-  "hard": 11,
-  "hardest": 9,
-  "steps": 43,
+  "tags": ".C..........................L....C......................................L........L..L...............",
+  "hard": 7,
+  "hardest": 6,
+  "steps": 27,
   "extra": true
 }

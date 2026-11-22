@@ -1,0 +1,216 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111333300001113333000011133334444445555544444455555446666777774466667777744666677777",
+  "objects": "e.b..dd.a...ba.d..b.f..e...c.ae.caf.....a.c.dc.....d..d..d...d....e..aafd......fd..a..b....a......dd..f.f....b.a.e....ba.",
+  "roomNames": [
+    "Boat Pit",
+    "Hall of Pillars",
+    "Sun Court",
+    "Burial Chamber",
+    "Granary",
+    "Well Shaft",
+    "Shrine",
+    "Workshop"
+  ],
+  "people": [
+    "Albert the astrologer",
+    "Vera the vizier",
+    "Birgit the brewer",
+    "Celia the carpenter",
+    "Dora the diviner",
+    "Edgar the embalmer",
+    "Felix the fanbearer",
+    "Gideon the guard",
+    "Hilda the harpist",
+    "Igor the inspector",
+    "Jade the jeweller"
+  ],
+  "victim": 1,
+  "clues": [
+    [
+      0,
+      "next",
+      "jar"
+    ],
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "next",
+      "rubble"
+    ],
+    [
+      2,
+      "next",
+      "stool"
+    ],
+    [
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
+      "col",
+      5
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "on",
+      "stool"
+    ],
+    [
+      6,
+      "next",
+      "statue"
+    ],
+    [
+      7,
+      "next",
+      "couch"
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
+      "same",
+      9
+    ],
+    [
+      9,
+      "door"
+    ],
+    [
+      10,
+      "same",
+      6
+    ],
+    [
+      10,
+      "on",
+      "stool"
+    ]
+  ],
+  "solution": [
+    9,
+    11,
+    24,
+    37,
+    49,
+    65,
+    69,
+    85,
+    95,
+    105,
+    111
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      55,
+      66
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      60,
+      71
+    ],
+    [
+      61,
+      72
+    ],
+    [
+      32,
+      43
+    ],
+    [
+      65,
+      76
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      82,
+      93
+    ],
+    [
+      87,
+      98
+    ],
+    [
+      104,
+      105
+    ]
+  ],
+  "windows": [
+    [
+      0,
+      "l"
+    ],
+    [
+      7,
+      "t"
+    ],
+    [
+      55,
+      "l"
+    ],
+    [
+      76,
+      "r"
+    ],
+    [
+      77,
+      "l"
+    ],
+    [
+      87,
+      "r"
+    ],
+    [
+      109,
+      "r"
+    ]
+  ],
+  "tries": 22,
+  "facts": [
+    [
+      "corner",
+      null,
+      2
+    ]
+  ],
+  "rules": [
+    "glyphs"
+  ],
+  "tags": "....C..L................C......C.................................................C.............C.......C.................",
+  "hard": 8,
+  "hardest": 6,
+  "steps": 49,
+  "extra": true
+}

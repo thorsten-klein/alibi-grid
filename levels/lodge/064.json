@@ -1,36 +1,35 @@
 {
   "size": 5,
-  "rooms": "0011100111001112222233333",
-  "objects": "....fac....b...f.....b..f",
+  "rooms": "0011100111222332223322233",
+  "objects": "af...a........ebb........",
   "roomNames": [
-    "Boot Room",
-    "Terrace",
-    "Dining Hall",
-    "Fireside Lounge"
+    "Bar",
+    "Sauna",
+    "Games Room",
+    "Suite"
   ],
   "people": [
-    "Vivian the vet",
-    "Ada the avalanche guard",
-    "Bella the baker",
-    "Clara the climber",
-    "Della the doctor"
+    "Alma the athlete",
+    "Basil the baker",
+    "Cedric the climber",
+    "Viola the vet",
+    "Dora the doctor"
   ],
-  "victim": 0,
+  "victim": 3,
   "clues": [
     [
+      0,
+      "alone"
+    ],
+    [
       1,
-      "notRoom",
-      2
+      "next",
+      "chair"
     ],
     [
       2,
       "next",
-      "skis"
-    ],
-    [
-      3,
-      "col",
-      4
+      "tree"
     ],
     [
       4,
@@ -38,11 +37,11 @@
     ]
   ],
   "solution": [
-    0,
-    7,
-    11,
-    19,
-    23
+    4,
+    6,
+    13,
+    15,
+    22
   ],
   "doors": [
     [
@@ -50,33 +49,37 @@
       2
     ],
     [
-      11,
-      16
+      6,
+      11
     ],
     [
-      12,
-      17
+      7,
+      12
     ],
     [
-      18,
-      23
+      8,
+      13
+    ],
+    [
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      9,
-      "r"
+      1,
+      "t"
     ],
     [
-      10,
-      "l"
+      4,
+      "t"
     ],
     [
-      23,
+      22,
       "b"
     ]
   ],
-  "tries": 2,
+  "tries": 1,
   "facts": [
     [
       "edge",
@@ -85,7 +88,7 @@
     ]
   ],
   "hard": 3,
-  "hardest": 3,
-  "steps": 15,
+  "hardest": 4,
+  "steps": 16,
   "extra": true
 }

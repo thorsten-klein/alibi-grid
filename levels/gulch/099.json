@@ -1,34 +1,32 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100011112223333222333322244442224444",
-  "objects": "a...b.....c.bd........ccde..d..a.....eb..f.......",
+  "size": 6,
+  "rooms": "000000000000112222112222113344113344",
+  "objects": "b......a...da............b.d...a..d.",
   "roomNames": [
-    "Corral",
-    "Saloon",
-    "Bank",
+    "General Store",
     "Mine",
-    "Telegraph Office"
+    "Corral",
+    "Livery",
+    "Sheriff Office"
   ],
   "people": [
-    "Alma the auctioneer",
-    "Bruno the blacksmith",
-    "Vivian the vet",
-    "Carl the cattle driver",
-    "Dexter the deputy",
-    "Elsa the engineer",
-    "Frank the farrier"
+    "Albert the attorney",
+    "Basil the banker",
+    "Cedric the cook",
+    "Viola the vet",
+    "Daisy the dancer",
+    "Edgar the editor"
   ],
-  "victim": 2,
+  "victim": 3,
   "clues": [
     [
       0,
-      "on",
-      "bed"
+      "window"
     ],
     [
       1,
       "col",
-      2
+      3
     ],
     [
       2,
@@ -37,86 +35,89 @@
     ],
     [
       3,
-      "door"
+      "col",
+      5
     ],
     [
       4,
-      "bandit"
+      "door"
     ],
     [
       5,
-      "next",
-      "cactus"
-    ],
-    [
-      6,
-      "next",
-      "bed"
+      "bandit"
     ]
   ],
   "solution": [
-    4,
+    1,
     9,
-    15,
-    27,
-    33,
-    35,
-    45
+    16,
+    23,
+    26,
+    30
   ],
   "doors": [
     [
-      16,
+      7,
+      13
+    ],
+    [
+      11,
       17
     ],
     [
-      14,
-      21
+      13,
+      14
     ],
     [
-      20,
+      25,
+      26
+    ],
+    [
+      21,
       27
     ],
     [
-      30,
-      31
+      22,
+      28
     ],
     [
-      37,
-      38
-    ],
-    [
-      32,
-      39
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      3,
+      0,
       "t"
     ],
     [
-      4,
+      1,
       "t"
     ],
     [
-      46,
-      "b"
+      6,
+      "l"
     ],
     [
-      48,
+      33,
       "b"
     ]
   ],
-  "tries": 3,
+  "tries": 4,
   "facts": [
     [
-      "roomCount",
-      0,
+      "furniture",
+      null,
+      0
+    ],
+    [
+      "alone",
+      null,
       2
     ],
     [
-      "nextCount",
-      "cactus",
+      "roomCount",
+      3,
       1
     ]
   ],
@@ -125,10 +126,10 @@
   ],
   "bandits": 2,
   "lawful": [
-    4
+    0
   ],
-  "hard": 1,
-  "hardest": 3,
-  "steps": 13,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 22,
   "extra": true
 }

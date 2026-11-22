@@ -1,44 +1,49 @@
 {
   "size": 7,
-  "rooms": "0000111000011122223332222333444433344444444444444",
-  "objects": ".......de.e.....a..d...f...a......c..............",
+  "rooms": "0000111000011111111111111111223344422334442233444",
+  "objects": ".ea.......b.................e.a.a...........a.a..",
   "roomNames": [
-    "Longboat",
-    "Fort",
     "Cove",
-    "Dock",
-    "Open Sea"
+    "Open Sea",
+    "Lighthouse",
+    "Market",
+    "Fort"
   ],
   "people": [
-    "Ada the armorer",
-    "Bruno the barkeep",
-    "Cedric the captain",
-    "Victor the voyager",
-    "Daisy the diver",
-    "Elsa the engineer",
-    "Felix the first mate"
+    "Ada the admiral",
+    "Vince the vintner",
+    "Basil the boatswain",
+    "Clara the captain",
+    "Dora the diver",
+    "Edith the explorer",
+    "Fiona the fiddler"
   ],
-  "victim": 3,
+  "victim": 1,
   "clues": [
     [
       0,
-      "row",
-      0
+      "next",
+      "stool"
     ],
     [
       1,
       "col",
-      5
+      2
     ],
     [
       2,
-      "col",
-      1
+      "row",
+      2
     ],
     [
       3,
+      "col",
+      0
+    ],
+    [
+      4,
       "next",
-      "cannon"
+      "stool"
     ],
     [
       4,
@@ -47,44 +52,35 @@
     ],
     [
       5,
+      "door"
+    ],
+    [
+      5,
       "alone"
     ],
     [
       6,
-      "row",
-      6
-    ],
-    [
-      6,
-      "col",
-      2
+      "same",
+      4
     ]
   ],
   "solution": [
-    4,
-    12,
-    15,
-    24,
-    28,
-    41,
-    44
+    3,
+    9,
+    18,
+    21,
+    33,
+    36,
+    48
   ],
   "doors": [
     [
-      10,
-      11
+      36,
+      37
     ],
     [
-      8,
-      15
-    ],
-    [
-      11,
-      18
-    ],
-    [
-      17,
-      18
+      38,
+      39
     ]
   ],
   "windows": [
@@ -93,22 +89,22 @@
       "l"
     ],
     [
-      3,
-      "t"
-    ],
-    [
-      6,
-      "t"
-    ],
-    [
-      14,
+      35,
       "l"
+    ],
+    [
+      42,
+      "b"
+    ],
+    [
+      46,
+      "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "windowCount",
+      "furniture",
       null,
       0
     ]
@@ -116,9 +112,9 @@
   "rules": [
     "sea"
   ],
-  "sea": 4,
-  "hard": 2,
-  "hardest": 5,
-  "steps": 17,
+  "sea": 1,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 18,
   "extra": true
 }

@@ -1,52 +1,52 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "....c.f.....b...c...f.d..",
+  "rooms": "0011100111001112233322333",
+  "objects": "..c.f...........ec....f..",
   "roomNames": [
-    "Bar Car",
     "Mail Car",
-    "Baggage Car",
-    "Sleeper A"
+    "Sleeper C",
+    "Sleeper B",
+    "Baggage Car"
   ],
   "people": [
-    "Alma the attendant",
-    "Bruno the bookseller",
+    "Ada the attendant",
+    "Vivian the violinist",
+    "Bruno the banker",
     "Cedric the courier",
-    "Vivian the vendor",
-    "Della the dentist"
+    "Dora the dentist"
   ],
-  "victim": 3,
+  "victim": 1,
   "clues": [
     [
       0,
-      "next",
-      "wine"
+      "row",
+      0
     ],
     [
       1,
-      "notRoom",
-      3
+      "next",
+      "suitcase"
     ],
     [
       2,
-      "door"
+      "col",
+      3
     ],
     [
       3,
-      "next",
-      "wine"
+      "alone"
     ],
     [
       4,
-      "alone"
+      "door"
     ]
   ],
   "solution": [
-    1,
-    8,
-    12,
-    15,
-    24
+    0,
+    7,
+    13,
+    19,
+    21
   ],
   "doors": [
     [
@@ -54,46 +54,35 @@
       2
     ],
     [
-      5,
-      10
+      11,
+      16
     ],
     [
-      7,
-      12
+      12,
+      17
     ],
     [
-      9,
-      14
-    ],
-    [
-      17,
-      18
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      9,
+      1,
+      "t"
+    ],
+    [
+      3,
+      "t"
+    ],
+    [
+      24,
       "r"
-    ],
-    [
-      20,
-      "l"
-    ],
-    [
-      21,
-      "b"
     ]
   ],
   "tries": 1,
-  "facts": [
-    [
-      "windowCount",
-      null,
-      0
-    ]
-  ],
-  "hard": 6,
-  "hardest": 4,
-  "steps": 19,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 12,
   "extra": true
 }

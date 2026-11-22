@@ -1,87 +1,83 @@
 {
   "size": 6,
-  "rooms": "000011000011222233222233444433444433",
-  "objects": "fe..fab..b...fa.........bf.da.acf.a.",
+  "rooms": "000111000111000111223344223344223344",
+  "objects": ".f...ecd.b.....a....f.............bf",
   "roomNames": [
+    "Box Office",
     "Stage",
-    "Foyer",
-    "Dressing Room",
     "Bar",
-    "Costume Room"
+    "Foyer",
+    "Balcony"
   ],
   "people": [
-    "Viola the violinist",
     "Alma the agent",
-    "Bruno the baritone",
-    "Celia the critic",
-    "Della the director",
-    "Edgar the extra"
+    "Victor the ventriloquist",
+    "Birgit the bass player",
+    "Celia the choreographer",
+    "Della the dancer",
+    "Edgar the electrician"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
       "next",
-      "sofa"
+      "rack"
     ],
     [
       2,
-      "next",
-      "light"
+      "door"
     ],
     [
       3,
-      "next",
-      "light"
-    ],
-    [
-      3,
-      "row",
-      3
+      "alone"
     ],
     [
       4,
-      "on",
-      "seat"
+      "next",
+      "light"
+    ],
+    [
+      4,
+      "window"
     ],
     [
       5,
-      "row",
-      5
+      "window"
     ]
   ],
   "solution": [
-    3,
+    4,
     8,
-    12,
-    19,
-    28,
-    35
+    13,
+    18,
+    29,
+    33
   ],
   "doors": [
     [
-      9,
-      10
+      2,
+      3
     ],
     [
-      8,
-      14
+      13,
+      19
     ],
     [
-      10,
-      16
+      14,
+      20
     ],
     [
-      21,
-      22
+      15,
+      21
     ],
     [
-      20,
-      26
+      17,
+      23
+    ],
+    [
+      31,
+      32
     ],
     [
       33,
@@ -90,25 +86,25 @@
   ],
   "windows": [
     [
-      3,
+      4,
       "t"
     ],
     [
-      11,
+      17,
       "r"
     ],
     [
-      18,
-      "l"
+      29,
+      "r"
     ],
     [
-      31,
+      33,
       "b"
     ]
   ],
   "tries": 0,
-  "hard": 0,
-  "hardest": 2,
+  "hard": 1,
+  "hardest": 4,
   "steps": 14,
   "extra": true
 }

@@ -1,122 +1,113 @@
 {
-  "size": 8,
-  "rooms": "0000111100001111222222222222222222233444222334442223344422233444",
-  "objects": "....e.d....f.b.......................d.e....a.b......e.e......a.",
+  "size": 7,
+  "rooms": "0001111000111100011111111222111122233334443333444",
+  "objects": ".ef.....c.......e...............a..cba.a.....f...",
   "roomNames": [
-    "Frigate",
-    "Sea Cave",
+    "Market",
     "Open Sea",
+    "Sloop",
     "Longboat",
-    "Market"
+    "Tavern"
   ],
   "people": [
     "Ada the armorer",
-    "Bea the boatswain",
-    "Cedric the cook",
+    "Bruno the boatswain",
+    "Carl the cook",
     "Dmitri the deckhand",
-    "Elsa the engineer",
-    "Frank the fiddler",
-    "Grace the gunner",
-    "Vera the voyager"
+    "Edith the explorer",
+    "Vince the voyager",
+    "Frank the first mate"
   ],
-  "victim": 7,
+  "victim": 5,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
-      "same",
+      "row",
       0
     ],
     [
+      0,
+      "col",
+      6
+    ],
+    [
+      1,
+      "next",
+      "anchor"
+    ],
+    [
       2,
-      "row",
-      2
+      "alone"
     ],
     [
       3,
       "col",
-      7
+      1
     ],
     [
       4,
-      "same",
-      6
+      "next",
+      "stool"
+    ],
+    [
+      4,
+      "row",
+      4
     ],
     [
       5,
-      "on",
-      "hammock"
+      "door"
     ],
     [
       6,
       "next",
       "stool"
-    ],
-    [
-      6,
-      "row",
-      6
     ]
   ],
   "solution": [
-    0,
-    10,
-    17,
-    31,
-    35,
-    46,
-    52,
-    61
+    6,
+    7,
+    18,
+    22,
+    33,
+    38,
+    44
   ],
   "doors": [
     [
-      11,
-      12
+      32,
+      39
     ],
     [
-      36,
-      37
+      38,
+      39
     ]
   ],
   "windows": [
     [
       0,
+      "l"
+    ],
+    [
+      1,
       "t"
     ],
     [
-      5,
-      "t"
-    ],
-    [
-      7,
+      41,
       "r"
     ],
     [
-      47,
-      "r"
-    ],
-    [
-      55,
+      48,
       "r"
     ]
   ],
-  "tries": 0,
-  "facts": [
-    [
-      "nextCount",
-      "cannon",
-      1
-    ]
-  ],
+  "tries": 2,
   "rules": [
     "sea"
   ],
-  "sea": 2,
-  "hard": 4,
-  "hardest": 6,
-  "steps": 21,
+  "sea": 1,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 19,
   "extra": true
 }

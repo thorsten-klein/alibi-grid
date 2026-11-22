@@ -1,28 +1,27 @@
 {
   "size": 6,
-  "rooms": "000000000000111100222200333444333444",
-  "objects": "..................f.c...e...a.b.....",
+  "rooms": "001122001122001122000033000033000033",
+  "objects": "...ae...bb......c...........c.....bf",
   "roomNames": [
     "Open Sea",
-    "Sloop",
-    "Lighthouse",
-    "Sea Cave",
-    "Frigate"
+    "Cove",
+    "Brig",
+    "Fort"
   ],
   "people": [
     "Astrid the admiral",
-    "Birgit the boatswain",
-    "Celia the captain",
-    "Dora the deckhand",
-    "Victor the voyager",
-    "Elias the explorer"
+    "Basil the barkeep",
+    "Celia the cook",
+    "Della the deckhand",
+    "Edith the explorer",
+    "Viola the voyager"
   ],
-  "victim": 4,
+  "victim": 5,
   "clues": [
     [
       0,
-      "col",
-      4
+      "next",
+      "stool"
     ],
     [
       1,
@@ -31,82 +30,62 @@
     ],
     [
       2,
-      "door"
+      "next",
+      "hammock"
     ],
     [
       3,
-      "row",
-      3
+      "door"
     ],
     [
-      5,
-      "on",
-      "hammock"
+      4,
+      "col",
+      1
     ]
   ],
   "solution": [
-    4,
-    7,
+    2,
+    6,
     15,
     23,
-    26,
-    30
+    25,
+    34
   ],
   "doors": [
     [
-      15,
-      21
+      9,
+      10
     ],
     [
-      19,
-      25
-    ],
-    [
-      21,
-      27
-    ],
-    [
-      26,
-      27
+      17,
+      23
     ]
   ],
   "windows": [
     [
-      18,
-      "l"
-    ],
-    [
-      24,
-      "l"
-    ],
-    [
-      31,
-      "b"
-    ],
-    [
-      35,
+      5,
       "r"
-    ]
-  ],
-  "tries": 1,
-  "facts": [
-    [
-      "touch",
-      null,
-      0
     ],
     [
-      "doorCount",
-      null,
-      2
+      11,
+      "r"
+    ],
+    [
+      29,
+      "r"
+    ],
+    [
+      34,
+      "b"
     ]
   ],
+  "tries": 0,
   "rules": [
     "sea"
   ],
   "sea": 0,
   "hard": 0,
-  "hardest": 2,
+  "hardest": 1,
   "steps": 13,
   "extra": true
 }

@@ -1,85 +1,76 @@
 {
-  "size": 12,
-  "rooms": "000000001111000000001111222333001111222333001111222333444444222333444444555566667788555566667788555566667788555566667788555566667788555566667788",
-  "objects": "fdb....b....d.a.....fe.e.........f...b..d.bb.c.....da.....c........bd.a.f..b...e.f....e...aa......fdbc....b....cb.b.....e..c......bcd..b...d...f",
+  "size": 10,
+  "rooms": "0001112222000111222200011122220001112222333344444433334444443333555666333355566677775556667777555666",
+  "objects": "b..ee....................e...b.e...f.a.....d..d.b....fd....c..bead...e...b.d.d.b.d.eaac.c..bf.e.a...",
   "roomNames": [
-    "Telegraph Office",
-    "Mine",
-    "Church",
-    "Saloon",
-    "Barber",
-    "Corral",
-    "Jail",
     "Hotel",
-    "General Store"
+    "Sheriff Office",
+    "Telegraph Office",
+    "Saloon",
+    "Bank",
+    "Jail",
+    "Barber",
+    "Livery"
   ],
   "people": [
-    "Ada the attorney",
-    "Victor the vet",
-    "Bea the banker",
-    "Celia the cook",
-    "Dmitri the deputy",
-    "Elias the editor",
-    "Felix the farmer",
-    "Gus the gunsmith",
-    "Hugo the homesteader",
-    "Igor the inventor",
-    "Juno the jailer",
-    "Kitty the knife thrower"
+    "Alma the attorney",
+    "Vera the vaquero",
+    "Bruno the banker",
+    "Cedric the cattle driver",
+    "Dexter the dancer",
+    "Edith the engineer",
+    "Fiona the farrier",
+    "Gus the gambler",
+    "Hana the hatmaker",
+    "Ivo the inventor"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "window"
+      "row",
+      0
     ],
     [
       1,
-      "next",
-      "bed"
+      "col",
+      7
     ],
     [
       2,
-      "next",
-      "horse"
-    ],
-    [
-      2,
-      "alone"
+      "row",
+      2
     ],
     [
       3,
+      "same",
+      2
+    ],
+    [
+      3,
+      "door"
+    ],
+    [
+      3,
+      "bandit"
+    ],
+    [
+      4,
       "next",
       "cactus"
     ],
     [
       4,
-      "window"
-    ],
-    [
-      4,
       "alone"
     ],
     [
       5,
-      "notRoom",
-      8
-    ],
-    [
-      5,
-      "alone"
-    ],
-    [
-      5,
-      "bandit"
-    ],
-    [
-      6,
       "alone"
     ],
     [
       6,
-      "bandit"
+      "next",
+      "cactus"
     ],
     [
       7,
@@ -88,158 +79,123 @@
     ],
     [
       8,
-      "notRoom",
-      6
-    ],
-    [
-      8,
-      "door"
-    ],
-    [
-      9,
       "on",
-      "bed"
+      "chair"
     ],
     [
       9,
-      "alone"
-    ],
-    [
-      10,
       "next",
-      "barrel"
+      "piano"
     ],
     [
-      11,
-      "same",
-      7
-    ],
-    [
-      11,
+      9,
       "next",
-      "barrel"
-    ],
-    [
-      11,
-      "window"
+      "horse"
     ]
   ],
   "solution": [
-    4,
-    19,
+    8,
+    17,
+    20,
     32,
-    41,
-    59,
-    60,
-    82,
+    44,
+    51,
+    66,
+    79,
     85,
-    105,
-    114,
-    122,
-    135
+    93
   ],
   "doors": [
     [
-      43,
+      22,
+      23
+    ],
+    [
+      32,
+      42
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      33,
+      43
+    ],
+    [
+      34,
       44
     ],
     [
-      14,
-      26
+      39,
+      49
     ],
     [
-      29,
-      30
+      53,
+      54
     ],
     [
-      43,
-      55
-    ],
-    [
-      45,
-      57
-    ],
-    [
-      50,
-      51
-    ],
-    [
-      62,
+      73,
       74
     ],
     [
-      65,
-      66
-    ],
-    [
-      63,
-      75
-    ],
-    [
-      64,
-      76
-    ],
-    [
-      66,
-      78
-    ],
-    [
-      68,
-      80
-    ],
-    [
-      71,
+      73,
       83
     ],
     [
-      75,
-      76
+      55,
+      65
     ],
     [
-      79,
-      80
+      58,
+      68
     ],
     [
-      105,
-      106
+      76,
+      77
+    ],
+    [
+      83,
+      84
     ]
   ],
   "windows": [
     [
       0,
-      "l"
-    ],
-    [
-      4,
       "t"
     ],
     [
-      59,
+      9,
       "r"
     ],
     [
-      84,
-      "l"
-    ],
-    [
-      107,
+      49,
       "r"
     ],
     [
-      135,
+      69,
+      "r"
+    ],
+    [
+      98,
       "b"
     ],
     [
-      143,
+      99,
       "r"
     ]
   ],
-  "tries": 26,
+  "tries": 15,
   "facts": [
     [
+      "furniture",
+      null,
+      2
+    ],
+    [
       "nextCount",
-      "bed",
-      1
+      "piano",
+      3
     ]
   ],
   "rules": [
@@ -247,11 +203,11 @@
   ],
   "bandits": 3,
   "lawful": [
-    0,
-    6
+    2,
+    3
   ],
-  "hard": 10,
-  "hardest": 8,
-  "steps": 57,
+  "hard": 6,
+  "hardest": 7,
+  "steps": 36,
   "extra": true
 }

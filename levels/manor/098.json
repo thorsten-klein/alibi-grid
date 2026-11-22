@@ -1,117 +1,119 @@
 {
-  "size": 7,
-  "rooms": "0000122000012200001223333122333312244441224444122",
-  "objects": "....a.d..d...cc.abc...a...b.e...ab.b........ebd..",
+  "size": 6,
+  "rooms": "000111000111222111222111334444334444",
+  "objects": "..ac.d..cd......bf..f.db.....b......",
   "roomNames": [
-    "Cellar",
-    "Dining Room",
     "Gallery",
+    "Hall",
+    "Billiard Room",
     "Conservatory",
-    "Pantry"
+    "Ballroom"
   ],
   "people": [
-    "Victor the vicar",
-    "Alma the author",
-    "Birgit the butler",
-    "Cedric the cook",
-    "Daisy the doctor",
-    "Edith the envoy",
-    "Fiona the florist"
+    "Astrid the author",
+    "Bruno the banker",
+    "Clara the cook",
+    "Dmitri the doctor",
+    "Viola the vicar",
+    "Elias the envoy"
   ],
-  "victim": 0,
+  "victim": 4,
   "clues": [
     [
       0,
+      "on",
+      "chair"
+    ],
+    [
+      1,
       "next",
       "piano"
     ],
     [
-      1,
-      "same",
+      2,
+      "row",
       2
     ],
     [
-      2,
-      "next",
-      "chair"
-    ],
-    [
       3,
-      "next",
-      "chair"
+      "door"
     ],
     [
       4,
-      "next",
+      "on",
       "sofa"
     ],
     [
       5,
-      "next",
-      "piano"
-    ],
-    [
-      6,
-      "on",
-      "sofa"
+      "window"
     ]
   ],
   "solution": [
-    5,
-    7,
-    15,
-    23,
-    34,
-    39,
-    45
+    2,
+    10,
+    13,
+    18,
+    29,
+    33
   ],
   "doors": [
     [
-      3,
-      4
+      2,
+      3
     ],
     [
-      17,
+      6,
+      12
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      18,
       24
     ],
     [
-      4,
-      5
+      20,
+      26
     ],
     [
-      24,
-      25
-    ],
-    [
-      45,
-      46
-    ],
-    [
-      29,
-      36
+      31,
+      32
     ]
   ],
   "windows": [
     [
-      0,
+      2,
       "t"
     ],
     [
-      7,
+      12,
       "l"
     ],
     [
-      42,
-      "l"
+      31,
+      "b"
     ],
     [
-      48,
+      33,
       "b"
     ]
   ],
   "tries": 3,
-  "hard": 7,
-  "hardest": 5,
-  "steps": 18,
+  "facts": [
+    [
+      "touch",
+      null,
+      1
+    ]
+  ],
+  "hard": 1,
+  "hardest": 3,
+  "steps": 16,
   "extra": true
 }

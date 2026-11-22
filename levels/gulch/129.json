@@ -1,179 +1,158 @@
 {
-  "size": 9,
-  "rooms": "000111122000111122000111122000111122333445555333445555333446666333446666333446666",
-  "objects": ".b...........c.a...c.a......f...........b..........a.b.....fa.........cdeacf.....",
+  "size": 8,
+  "rooms": "0000000011122222111222223334444433344444333444443335555533355555",
+  "objects": "bf.eb..eb........d.....a...b.....d...d...a.....c.c..e..b........",
   "roomNames": [
     "Sheriff Office",
-    "Hotel",
-    "Jail",
-    "Church",
-    "Livery",
     "General Store",
+    "Church",
+    "Bank",
+    "Corral",
     "Barber"
   ],
   "people": [
-    "Alma the attorney",
+    "Albert the auctioneer",
     "Basil the banker",
-    "Cora the cook",
-    "Dora the deputy",
-    "Edgar the editor",
-    "Felix the farmer",
-    "Grace the gambler",
-    "Vince the vet",
-    "Henrik the homesteader"
+    "Cedric the cook",
+    "Della the deputy",
+    "Elias the engineer",
+    "Freya the farrier",
+    "Viola the vaquero",
+    "Gideon the gunsmith"
   ],
-  "victim": 7,
+  "victim": 6,
   "clues": [
     [
       0,
       "next",
-      "bed"
+      "horse"
     ],
     [
-      1,
+      0,
       "next",
-      "barrel"
+      "piano"
     ],
     [
       1,
-      "col",
-      3
+      "window"
     ],
     [
       2,
-      "same",
-      1
+      "withBandit"
     ],
     [
       3,
-      "door"
-    ],
-    [
-      3,
-      "alone"
+      "next",
+      "cactus"
     ],
     [
       4,
-      "notRoom",
-      2
-    ],
-    [
-      5,
-      "room",
-      4
-    ],
-    [
-      5,
       "next",
       "bed"
     ],
     [
-      6,
-      "bandit"
+      5,
+      "door"
     ],
     [
       7,
       "next",
       "piano"
-    ],
-    [
-      8,
-      "window"
     ]
   ],
   "solution": [
     2,
-    12,
-    23,
+    15,
+    22,
+    25,
     35,
-    43,
-    49,
-    55,
-    63,
-    78
+    45,
+    48,
+    60
   ],
   "doors": [
     [
-      29,
-      30
+      1,
+      9
     ],
     [
-      27,
-      36
+      5,
+      13
     ],
     [
-      15,
-      16
+      10,
+      11
     ],
     [
-      31,
-      40
+      16,
+      24
     ],
     [
-      33,
-      42
+      20,
+      28
     ],
     [
-      35,
-      44
-    ],
-    [
-      47,
-      48
-    ],
-    [
-      40,
-      41
+      26,
+      27
     ],
     [
       58,
       59
     ],
     [
-      53,
-      62
+      45,
+      53
     ]
   ],
   "windows": [
     [
-      3,
-      "t"
-    ],
-    [
-      36,
+      0,
       "l"
     ],
     [
-      62,
+      15,
       "r"
     ],
     [
-      78,
+      47,
+      "r"
+    ],
+    [
+      57,
       "b"
     ],
     [
-      80,
+      61,
       "b"
     ]
   ],
-  "tries": 5,
+  "tries": 4,
   "facts": [
     [
       "roomCount",
-      6,
+      2,
+      2
+    ],
+    [
+      "roomCount",
+      4,
+      2
+    ],
+    [
+      "doorCount",
+      null,
       1
     ]
   ],
   "rules": [
     "bandits"
   ],
-  "bandits": 3,
+  "bandits": 2,
   "lawful": [
-    2,
-    5
+    3
   ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 26,
+  "hard": 6,
+  "hardest": 5,
+  "steps": 23,
   "extra": true
 }

@@ -1,126 +1,112 @@
 {
   "size": 6,
-  "rooms": "000011000011223311223311224444224444",
-  "objects": "..b.b..b...c.d..d.......a..f........",
+  "rooms": "001122001122001122000033444433444433",
+  "objects": ".be.e...aa...c.............c.....b..",
   "roomNames": [
-    "Treasury",
+    "Statue Hall",
+    "Shrine",
     "Boat Pit",
-    "Sun Court",
-    "Antechamber",
-    "Well Shaft"
+    "Well Shaft",
+    "Scribe Room"
   ],
   "people": [
-    "Alma the astrologer",
-    "Bruno the brewer",
-    "Clara the chanter",
-    "Dmitri the dancer",
-    "Ena the envoy",
-    "Vivian the vizier"
+    "Arthur the astrologer",
+    "Bea the brewer",
+    "Cedric the chanter",
+    "Victor the vintner",
+    "Della the dancer",
+    "Ena the envoy"
   ],
-  "victim": 5,
+  "victim": 3,
   "clues": [
     [
       0,
-      "door"
-    ],
-    [
-      1,
       "next",
       "couch"
     ],
     [
       1,
-      "col",
-      0
+      "on",
+      "stool"
     ],
     [
       2,
-      "next",
-      "urn"
+      "col",
+      2
     ],
     [
       3,
-      "next",
-      "statue"
+      "row",
+      3
     ],
     [
       4,
-      "next",
-      "jar"
+      "alone"
     ],
     [
       5,
-      "col",
-      4
+      "window"
     ]
   ],
   "solution": [
-    3,
-    6,
-    17,
-    19,
-    26,
-    34
+    0,
+    9,
+    14,
+    22,
+    25,
+    35
   ],
   "doors": [
+    [
+      7,
+      8
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      18,
+      24
+    ],
     [
       3,
       4
     ],
     [
-      6,
-      12
+      17,
+      23
     ],
     [
-      8,
-      14
-    ],
-    [
-      15,
-      16
-    ],
-    [
-      23,
-      29
-    ],
-    [
-      13,
-      14
-    ],
-    [
-      31,
-      32
-    ],
-    [
-      21,
-      27
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      12,
-      "l"
+      3,
+      "t"
     ],
     [
-      18,
-      "l"
+      11,
+      "r"
     ],
     [
-      30,
-      "b"
+      23,
+      "r"
     ],
     [
-      33,
-      "b"
+      35,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 1,
   "rules": [
     "glyphs"
   ],
-  "tags": "...C..C.............................",
-  "hard": 1,
-  "hardest": 4,
-  "steps": 16,
+  "tags": "...C..........C..L....C..L....C....C",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
   "extra": true
 }

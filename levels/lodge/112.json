@@ -1,143 +1,119 @@
 {
-  "size": 8,
-  "rooms": "0000112200001122000011220000112233444555334445553344455533444555",
-  "objects": "b.....b...b.bcca....a.e.d...ac...b...b...b.........cbb.af.d....c",
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "....b.ab...fd...d.b...f.............a....ae...a..",
   "roomNames": [
+    "Sauna",
+    "Games Room",
     "Boot Room",
-    "Terrace",
-    "Spa",
-    "Kitchen",
     "Bar",
-    "Suite"
+    "Dining Hall"
   ],
   "people": [
-    "Albert the avalanche guard",
-    "Birgit the baker",
-    "Clara the cook",
-    "Vince the vet",
+    "Albert the athlete",
+    "Bruno the baker",
+    "Cedric the cook",
+    "Viola the vet",
     "Daisy the doctor",
-    "Elsa the engineer",
-    "Frank the fisher",
-    "Grace the guide"
+    "Elias the engineer",
+    "Frank the fisher"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
       "on",
-      "sofa"
-    ],
-    [
-      2,
-      "next",
       "chair"
     ],
     [
-      3,
-      "next",
-      "tree"
-    ],
-    [
-      4,
-      "on",
-      "sofa"
-    ],
-    [
-      4,
+      1,
       "door"
     ],
     [
-      5,
-      "next",
-      "sofa"
-    ],
-    [
-      6,
-      "col",
+      2,
+      "same",
       1
     ],
     [
-      7,
-      "alone"
-    ]
-  ],
-  "solution": [
-    2,
-    12,
-    23,
-    30,
-    37,
-    40,
-    49,
-    59
-  ],
-  "doors": [
-    [
       3,
+      "door"
+    ],
+    [
+      4,
+      "col",
       4
     ],
     [
-      25,
-      33
+      5,
+      "on",
+      "chair"
     ],
     [
-      27,
-      35
+      6,
+      "same",
+      5
+    ]
+  ],
+  "solution": [
+    6,
+    9,
+    14,
+    26,
+    32,
+    36,
+    45
+  ],
+  "doors": [
+    [
+      9,
+      10
     ],
     [
-      21,
-      22
+      16,
+      23
     ],
     [
-      28,
-      36
+      17,
+      24
     ],
     [
-      29,
-      37
+      19,
+      26
     ],
     [
       31,
-      39
+      32
     ],
     [
-      57,
-      58
+      29,
+      36
     ],
     [
-      44,
-      45
+      45,
+      46
     ]
   ],
   "windows": [
     [
-      2,
+      0,
       "t"
     ],
     [
-      39,
+      13,
       "r"
     ],
     [
-      56,
-      "b"
+      34,
+      "r"
     ],
     [
-      56,
-      "l"
-    ],
-    [
-      62,
+      42,
       "b"
     ]
   ],
-  "tries": 1,
-  "hard": 0,
-  "hardest": 2,
-  "steps": 17,
+  "tries": 4,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 20,
   "extra": true
 }

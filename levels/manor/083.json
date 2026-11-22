@@ -1,29 +1,24 @@
 {
   "size": 6,
-  "rooms": "000000111111222233222233444433444433",
-  "objects": ".b.f....e...e.......a...f..b......e.",
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "........f.d........b..bbdd..d..e....",
   "roomNames": [
-    "Gallery",
-    "Conservatory",
-    "Dining Room",
+    "Ballroom",
+    "Hall",
     "Kitchen",
-    "Chapel"
+    "Library",
+    "Cellar"
   ],
   "people": [
-    "Alma the architect",
-    "Bruno the banker",
-    "Carl the cook",
-    "Della the dealer",
-    "Vince the valet",
-    "Elias the editor"
+    "Vivian the vicar",
+    "Albert the author",
+    "Basil the butler",
+    "Carl the colonel",
+    "Della the doctor",
+    "Ena the envoy"
   ],
-  "victim": 4,
+  "victim": 0,
   "clues": [
-    [
-      0,
-      "next",
-      "sofa"
-    ],
     [
       0,
       "next",
@@ -31,7 +26,8 @@
     ],
     [
       1,
-      "alone"
+      "next",
+      "piano"
     ],
     [
       2,
@@ -39,43 +35,52 @@
     ],
     [
       3,
-      "next",
-      "chair"
+      "on",
+      "sofa"
+    ],
+    [
+      4,
+      "same",
+      3
     ],
     [
       5,
       "next",
-      "sofa"
+      "plant"
     ]
   ],
   "solution": [
     2,
-    6,
-    17,
-    19,
-    28,
-    33
+    9,
+    13,
+    22,
+    29,
+    30
   ],
   "doors": [
     [
-      0,
-      6
+      14,
+      15
     ],
     [
-      6,
-      12
+      13,
+      19
     ],
     [
-      11,
-      17
+      14,
+      20
     ],
     [
-      21,
+      15,
+      21
+    ],
+    [
+      16,
       22
     ],
     [
-      21,
-      27
+      25,
+      26
     ],
     [
       33,
@@ -84,15 +89,15 @@
   ],
   "windows": [
     [
-      0,
-      "l"
-    ],
-    [
-      11,
+      17,
       "r"
     ],
     [
-      30,
+      33,
+      "b"
+    ],
+    [
+      34,
       "b"
     ],
     [
@@ -101,8 +106,8 @@
     ]
   ],
   "tries": 0,
-  "hard": 1,
-  "hardest": 4,
+  "hard": 0,
+  "hardest": 2,
   "steps": 13,
   "extra": true
 }

@@ -1,52 +1,36 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100022220002222333344433334443333444",
-  "objects": "b.........bcd.b...b.ebe........dd....a...bcb..a.d",
+  "size": 6,
+  "rooms": "001122001122001122333333444433444433",
+  "objects": "...a......a.d...c.d...fbfddec...ba..",
   "roomNames": [
-    "Bridge",
+    "Mess Hall",
+    "Med Bay",
     "Engine Room",
-    "Observatory",
-    "Cargo Bay",
-    "Lab"
+    "Gym",
+    "Cargo Bay"
   ],
   "people": [
-    "Astrid the analyst",
-    "Bruno the botanist",
-    "Carl the chemist",
+    "Albert the analyst",
+    "Vince the volunteer",
+    "Birgit the botanist",
+    "Clara the chemist",
     "Dmitri the doctor",
-    "Ena the electrician",
-    "Freya the flight officer",
-    "Vivian the visitor"
+    "Edith the engineer"
   ],
-  "victim": 6,
+  "victim": 1,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      0,
-      "same",
-      1
-    ],
-    [
-      1,
-      "next",
-      "console"
+      "alone"
     ],
     [
       2,
-      "next",
-      "pod"
-    ],
-    [
-      2,
-      "next",
-      "plant"
+      "door"
     ],
     [
       3,
-      "alone"
+      "next",
+      "tank"
     ],
     [
       4,
@@ -55,87 +39,72 @@
     ],
     [
       5,
-      "next",
-      "console"
-    ],
-    [
-      6,
-      "on",
-      "pod"
+      "same",
+      3
     ]
   ],
   "solution": [
-    4,
-    10,
-    19,
-    23,
-    34,
-    35,
-    43
+    2,
+    6,
+    13,
+    21,
+    29,
+    34
   ],
   "doors": [
     [
-      2,
-      3
-    ],
-    [
-      16,
-      17
-    ],
-    [
-      22,
-      29
+      13,
+      14
     ],
     [
       13,
-      20
+      19
     ],
     [
-      24,
-      31
+      3,
+      4
     ],
     [
-      26,
-      33
+      15,
+      21
     ],
     [
-      31,
-      32
+      16,
+      22
+    ],
+    [
+      33,
+      34
     ]
   ],
   "windows": [
-    [
-      1,
-      "t"
-    ],
     [
       4,
       "t"
     ],
     [
-      28,
+      6,
       "l"
     ],
     [
-      44,
+      35,
       "b"
-    ]
-  ],
-  "tries": 0,
-  "facts": [
-    [
-      "nextCount",
-      "plant",
-      2
     ],
     [
-      "nextCount",
-      "seat",
-      0
+      35,
+      "r"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "touch",
+      null,
+      2
     ]
   ],
   "hard": 4,
   "hardest": 5,
-  "steps": 21,
+  "steps": 19,
   "extra": true
 }

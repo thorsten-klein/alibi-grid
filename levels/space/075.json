@@ -1,50 +1,47 @@
 {
-  "size": 6,
-  "rooms": "000111000111000111222233444433444433",
-  "objects": "..a..d........e.....eac...ef...b..f.",
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": "..c.ece.c.b...a..de....b.",
   "roomNames": [
-    "Crew Quarters",
-    "Cargo Bay",
-    "Mess Hall",
-    "Med Bay",
-    "Bridge"
+    "Gym",
+    "Lab",
+    "Hydroponics",
+    "Med Bay"
   ],
   "people": [
-    "Albert the analyst",
-    "Bella the biologist",
-    "Vince the volunteer",
-    "Cedric the chemist",
-    "Dora the doctor",
-    "Ena the electrician"
+    "Arthur the astronaut",
+    "Bea the biologist",
+    "Celia the chemist",
+    "Dexter the doctor",
+    "Victor the visitor"
   ],
-  "victim": 2,
+  "victim": 4,
   "clues": [
     [
       0,
-      "alone"
+      "door"
     ],
     [
       1,
-      "row",
-      1
+      "next",
+      "plant"
     ],
     [
-      2,
-      "col",
-      4
-    ],
-    [
-      3,
+      1,
       "next",
       "console"
     ],
     [
-      4,
-      "same",
-      5
+      2,
+      "next",
+      "plant"
     ],
     [
-      5,
+      3,
+      "alone"
+    ],
+    [
+      4,
       "next",
       "pod"
     ]
@@ -52,39 +49,26 @@
   "solution": [
     1,
     9,
-    16,
-    23,
-    24,
-    32
+    13,
+    15,
+    22
   ],
   "doors": [
     [
-      2,
-      3
+      1,
+      2
     ],
     [
-      13,
-      19
+      6,
+      11
     ],
     [
-      15,
-      21
+      9,
+      14
     ],
     [
-      17,
-      23
-    ],
-    [
-      21,
-      22
-    ],
-    [
-      20,
-      26
-    ],
-    [
-      27,
-      28
+      11,
+      12
     ]
   ],
   "windows": [
@@ -93,38 +77,24 @@
       "t"
     ],
     [
-      17,
+      4,
       "r"
     ],
     [
-      18,
-      "l"
-    ],
-    [
-      31,
+      20,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 15,
   "facts": [
     [
-      "onCount",
-      "seat",
-      0
-    ],
-    [
-      "windowCount",
+      "touch",
       null,
-      0
-    ],
-    [
-      "nextCount",
-      "scope",
       0
     ]
   ],
-  "hard": 2,
-  "hardest": 3,
-  "steps": 16,
   "extra": true
 }

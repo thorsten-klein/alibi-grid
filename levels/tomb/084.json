@@ -1,33 +1,36 @@
 {
   "size": 6,
-  "rooms": "001111001111000222000222333444333444",
-  "objects": "..e...a....b.d..f.....bab.da.f.aa...",
+  "rooms": "001122001122001122001122334444334444",
+  "objects": "..d.f......c.........a.....eb.c....e",
   "roomNames": [
-    "Sun Court",
-    "Hall of Pillars",
+    "Shrine",
+    "Scribe Room",
+    "Granary",
     "Antechamber",
-    "Burial Chamber",
-    "Granary"
+    "Boat Pit"
   ],
   "people": [
-    "Vivian the vizier",
-    "Albert the architect",
-    "Bea the brewer",
-    "Celia the chanter",
-    "Dmitri the dancer",
-    "Edgar the embalmer"
+    "Astrid the astrologer",
+    "Basil the boat builder",
+    "Viola the vizier",
+    "Celia the carpenter",
+    "Della the diviner",
+    "Elsa the embalmer"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
+    [
+      0,
+      "alone"
+    ],
     [
       1,
       "next",
-      "rubble"
+      "statue"
     ],
     [
-      2,
-      "next",
-      "jar"
+      1,
+      "alone"
     ],
     [
       3,
@@ -35,85 +38,81 @@
     ],
     [
       4,
-      "on",
-      "couch"
+      "row",
+      4
     ],
     [
       5,
-      "alone"
+      "next",
+      "rubble"
     ]
   ],
   "solution": [
-    5,
+    1,
     8,
-    15,
-    19,
+    16,
+    23,
     24,
-    34
+    33
   ],
   "doors": [
     [
-      1,
-      2
-    ],
-    [
-      20,
-      21
+      7,
+      8
     ],
     [
       19,
       25
     ],
     [
-      10,
-      16
+      3,
+      4
+    ],
+    [
+      21,
+      27
     ],
     [
       23,
       29
     ],
     [
-      26,
-      27
+      25,
+      26
     ]
   ],
   "windows": [
     [
       0,
-      "t"
+      "l"
     ],
     [
-      1,
-      "t"
-    ],
-    [
-      4,
-      "t"
+      18,
+      "l"
     ],
     [
       30,
       "b"
-    ]
-  ],
-  "tries": 3,
-  "facts": [
-    [
-      "nextCount",
-      "jar",
-      1
     ],
     [
-      "nextCount",
-      "stool",
-      0
+      35,
+      "b"
+    ]
+  ],
+  "tries": 2,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
     ]
   ],
   "rules": [
     "glyphs"
   ],
-  "tags": "...............L..................L.",
-  "hard": 0,
-  "hardest": 2,
+  "tags": "C.......L...C...C.....L.LL.....L.L..",
+  "hard": 4,
+  "hardest": 4,
   "steps": 17,
   "extra": true
 }

@@ -1,109 +1,102 @@
 {
   "size": 5,
-  "rooms": "0011100111001112223322233",
-  "objects": "ba.f.d.bb.e...b.aa.....a.",
+  "rooms": "0001100011223332233322333",
+  "objects": "......a...f.b...c..d.b...",
   "roomNames": [
-    "Stables",
+    "Courtyard",
     "Solar",
-    "Smithy",
-    "Armory"
+    "Tower",
+    "Dungeon"
   ],
   "people": [
-    "Ada the alchemist",
+    "Alma the archer",
     "Birgit the baker",
-    "Viola the verger",
     "Cora the chronicler",
-    "Daisy the dancer"
+    "Vera the vintner",
+    "Dmitri the dancer"
   ],
-  "victim": 2,
+  "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "cot"
-    ],
-    [
-      0,
-      "alone"
+      "door"
     ],
     [
       1,
-      "door"
+      "row",
+      1
     ],
     [
       2,
-      "col",
-      4
-    ],
-    [
-      3,
-      "door"
+      "next",
+      "candles"
     ],
     [
       4,
-      "alone"
+      "on",
+      "cot"
     ]
   ],
   "solution": [
-    1,
-    7,
+    2,
+    8,
     14,
-    18,
-    20
+    15,
+    21
   ],
   "doors": [
     [
-      6,
-      7
+      2,
+      3
     ],
     [
-      11,
-      16
+      5,
+      10
     ],
     [
-      12,
+      7,
+      12
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      16,
       17
-    ],
-    [
-      14,
-      19
-    ],
-    [
-      17,
-      18
     ]
   ],
   "windows": [
+    [
+      0,
+      "l"
+    ],
     [
       10,
       "l"
     ],
     [
-      19,
+      14,
       "r"
-    ],
-    [
-      23,
-      "b"
     ]
   ],
-  "tries": 3,
+  "tries": 2,
   "facts": [
     [
-      "nextCount",
-      "cot",
-      1
+      "alone",
+      null,
+      3
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    3
+    0
   ],
-  "rank": "kckkk",
-  "hard": 4,
+  "rank": "nkccc",
+  "hard": 1,
   "hardest": 4,
-  "steps": 16,
+  "steps": 12,
   "extra": true
 }

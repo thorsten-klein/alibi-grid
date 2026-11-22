@@ -1,70 +1,65 @@
 {
   "size": 5,
   "rooms": "0011100111222332223322233",
-  "objects": "...b..............e...f..",
+  "objects": "a.bb...c...e.c...f..c.dc.",
   "roomNames": [
-    "Boat Pit",
-    "Shrine",
-    "Workshop",
-    "Well Shaft"
+    "Well Shaft",
+    "Sun Court",
+    "Antechamber",
+    "Granary"
   ],
   "people": [
-    "Ada the architect",
-    "Basil the brewer",
-    "Viola the vizier",
-    "Carl the carpenter",
-    "Dexter the diviner"
+    "Astrid the astrologer",
+    "Bruno the brewer",
+    "Cedric the chanter",
+    "Dexter the diviner",
+    "Vivian the vizier"
   ],
-  "victim": 2,
+  "victim": 4,
   "clues": [
     [
       0,
       "next",
-      "couch"
+      "urn"
     ],
     [
       1,
       "door"
     ],
     [
-      3,
-      "row",
-      3
-    ],
-    [
-      4,
+      2,
       "next",
       "rubble"
     ],
     [
-      4,
-      "row",
-      4
+      3,
+      "col",
+      3
     ]
   ],
   "solution": [
     2,
     6,
-    14,
-    15,
-    23
+    10,
+    18,
+    24
   ],
   "doors": [
     [
-      1,
-      2
+      6,
+      7
     ],
     [
-      6,
-      11
+      5,
+      10
     ],
     [
       7,
       12
     ],
     [
-      8,
-      13
+      9,
+      14
     ],
     [
       12,
@@ -73,7 +68,7 @@
   ],
   "windows": [
     [
-      0,
+      1,
       "t"
     ],
     [
@@ -81,17 +76,24 @@
       "t"
     ],
     [
-      20,
-      "l"
+      4,
+      "r"
     ]
   ],
-  "tries": 4,
+  "tries": 3,
+  "facts": [
+    [
+      "onCount",
+      "couch",
+      1
+    ]
+  ],
   "rules": [
     "glyphs"
   ],
-  "tags": "L.......C........C.....C.",
-  "hard": 0,
-  "hardest": 2,
-  "steps": 14,
+  "tags": ".L........L.......C.....C",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 16,
   "extra": true
 }

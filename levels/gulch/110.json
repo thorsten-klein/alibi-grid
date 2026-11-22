@@ -1,28 +1,29 @@
 {
   "size": 7,
-  "rooms": "0001111000111100011112223333222333322244442224444",
-  "objects": "..e..cdea.a..b.................d.c.b.....a.bcdc.e",
+  "rooms": "0001111000111100011112222222222222233333334444444",
+  "objects": "....beb.......dfaf....b.a....f...b.c.....bc....a.",
   "roomNames": [
-    "Mine",
+    "Bank",
+    "Saloon",
+    "Corral",
     "Livery",
-    "Telegraph Office",
-    "General Store",
-    "Jail"
+    "Sheriff Office"
   ],
   "people": [
-    "Vince the vaquero",
-    "Alma the auctioneer",
-    "Basil the blacksmith",
-    "Clara the cook",
-    "Daisy the deputy",
-    "Elsa the editor",
+    "Alma the attorney",
+    "Vera the vet",
+    "Basil the banker",
+    "Cora the cattle driver",
+    "Daisy the dancer",
+    "Edgar the editor",
     "Freya the farmer"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
       0,
-      "withBandit"
+      "col",
+      1
     ],
     [
       1,
@@ -30,41 +31,42 @@
       "piano"
     ],
     [
-      1,
-      "door"
-    ],
-    [
       2,
-      "door"
+      "bandit"
     ],
     [
       3,
-      "col",
-      1
+      "on",
+      "chair"
     ],
     [
       4,
-      "next",
-      "barrel"
+      "same",
+      3
     ],
     [
       5,
-      "door"
+      "notRoom",
+      0
+    ],
+    [
+      5,
+      "alone"
     ],
     [
       6,
-      "same",
-      5
+      "next",
+      "chair"
     ]
   ],
   "solution": [
-    0,
-    9,
-    18,
-    22,
-    34,
-    38,
-    47
+    1,
+    12,
+    20,
+    24,
+    28,
+    37,
+    46
   ],
   "doors": [
     [
@@ -76,46 +78,50 @@
       21
     ],
     [
-      18,
-      25
+      19,
+      26
     ],
     [
-      30,
-      31
-    ],
-    [
-      37,
+      31,
       38
     ],
     [
-      33,
-      40
+      39,
+      46
     ]
   ],
   "windows": [
     [
-      6,
+      0,
       "t"
     ],
     [
-      34,
-      "r"
+      2,
+      "t"
     ],
     [
       41,
       "r"
     ],
     [
-      48,
+      42,
       "b"
     ]
   ],
-  "tries": 20,
+  "tries": 2,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 21,
   "facts": [
     [
-      "emptyRooms",
+      "doorCount",
       null,
-      0
+      1
+    ],
+    [
+      "furniture",
+      null,
+      1
     ]
   ],
   "rules": [
@@ -125,8 +131,5 @@
   "lawful": [
     2
   ],
-  "hard": 8,
-  "hardest": 4,
-  "steps": 38,
   "extra": true
 }

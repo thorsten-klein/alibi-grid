@@ -1,128 +1,127 @@
 {
   "size": 6,
-  "rooms": "000112000112333112333112444222444222",
-  "objects": ".f....c............de........f.d..e.",
+  "rooms": "000011000011223333223333223444223444",
+  "objects": "a..c..f..e..fc.e.....a..........a...",
   "roomNames": [
-    "Hide Tent",
-    "Great Hall",
-    "Cave",
-    "Fire Pit",
-    "Fort"
+    "Bank",
+    "Saloon",
+    "Captain Cabin",
+    "Burial Chamber",
+    "Shrine"
   ],
   "people": [
-    "Alma the archivist",
-    "Basil the bookbinder",
-    "Clara the clockmaker",
+    "Albert the archivist",
+    "Bella the bard",
+    "Cora the chronicler",
     "Viola the voyager",
-    "Dexter the dreamer",
-    "Elsa the engineer"
+    "Della the dreamer",
+    "Edith the explorer"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      1,
-      "row",
-      1
-    ],
-    [
-      2,
       "alone"
     ],
     [
-      3,
-      "col",
-      4
-    ],
-    [
-      4,
+      1,
       "next",
-      "barrel"
+      "boulder"
     ],
     [
-      4,
+      1,
       "bandit"
     ],
     [
+      2,
+      "door"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
       5,
-      "next",
-      "clock"
+      "bandit"
     ]
   ],
   "solution": [
-    0,
-    9,
-    14,
-    22,
-    25,
-    35
+    5,
+    8,
+    16,
+    21,
+    24,
+    31
   ],
   "doors": [
     [
-      2,
-      3
+      9,
+      10
     ],
     [
       6,
       12
     ],
     [
-      10,
-      11
-    ],
-    [
-      14,
+      9,
       15
     ],
     [
-      26,
-      27
+      10,
+      16
     ],
     [
-      20,
-      26
+      13,
+      14
+    ],
+    [
+      22,
+      28
     ]
   ],
   "windows": [
     [
-      0,
+      12,
       "l"
     ],
     [
-      5,
-      "t"
+      23,
+      "r"
     ],
     [
-      6,
-      "l"
-    ],
-    [
-      34,
+      33,
       "b"
+    ],
+    [
+      35,
+      "r"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "nextCount",
-      "statue",
-      1
+      "edge",
+      null,
+      3
+    ],
+    [
+      "roomCount",
+      3,
+      2
     ]
   ],
   "rules": [
     "bandits",
     "glyphs"
   ],
-  "tags": ".........C............C..L..........",
+  "tags": ".....L..L.L.............C.C....C..L.",
   "bandits": 2,
   "lawful": [
     3
   ],
-  "hard": 0,
-  "hardest": 2,
-  "steps": 17,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 18,
   "extra": true
 }

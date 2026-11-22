@@ -1,130 +1,114 @@
 {
   "size": 7,
-  "rooms": "0001122000112200011223331122333114433311443331144",
-  "objects": ".e..fc.fd.c.a..df.eb..cb.........cf...bcb.e.b.d..",
+  "rooms": "0001111000111100011112223333222333322222224444444",
+  "objects": "a..cb...b.f.........cdf.b..a.ba.b......e.eb......",
   "roomNames": [
-    "Solar",
-    "Tower",
-    "Chapel",
+    "Armory",
+    "Kitchen",
+    "Great Hall",
     "Smithy",
-    "Great Hall"
+    "Courtyard"
   ],
   "people": [
-    "Astrid the alchemist",
-    "Vivian the verger",
-    "Bella the bard",
-    "Celia the cupbearer",
-    "Dmitri the dancer",
-    "Ena the envoy",
-    "Freya the falconer"
+    "Ada the alchemist",
+    "Bella the baker",
+    "Vince the verger",
+    "Cora the cupbearer",
+    "Daisy the dancer",
+    "Ena the embroiderer",
+    "Fiona the farrier"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
       "next",
-      "urn"
+      "bench"
     ],
     [
       1,
-      "col",
-      2
-    ],
-    [
-      2,
       "next",
-      "candles"
+      "urn"
     ],
     [
       3,
-      "next",
-      "swords"
+      "same",
+      5
     ],
     [
       4,
-      "alone"
+      "next",
+      "bench"
     ],
     [
       5,
       "next",
-      "urn"
+      "swords"
     ],
     [
       6,
-      "next",
-      "cot"
+      "door"
     ]
   ],
   "solution": [
-    3,
-    9,
+    1,
+    11,
     14,
-    25,
-    29,
-    41,
+    23,
+    34,
+    38,
     47
   ],
   "doors": [
     [
-      16,
-      17
+      2,
+      3
     ],
     [
       15,
       22
     ],
     [
-      4,
-      5
+      18,
+      25
     ],
     [
-      30,
-      31
+      23,
+      24
     ],
     [
-      32,
-      33
-    ],
-    [
-      26,
-      33
+      40,
+      47
     ]
   ],
   "windows": [
     [
-      4,
-      "t"
+      0,
+      "l"
     ],
     [
-      5,
+      1,
       "t"
     ],
     [
       42,
-      "b"
+      "l"
     ],
     [
       45,
       "b"
     ]
   ],
-  "tries": 3,
-  "facts": [
-    [
-      "emptyRooms",
-      null,
-      1
-    ]
-  ],
+  "tries": 0,
   "rules": [
     "ranks"
   ],
   "court": [
-    1
+    3
   ],
-  "rank": "nccnkck",
-  "hard": 2,
-  "hardest": 4,
-  "steps": 16,
+  "rank": "ckkkncc",
+  "hard": 3,
+  "hardest": 5,
+  "steps": 19,
   "extra": true
 }

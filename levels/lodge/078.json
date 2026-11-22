@@ -1,108 +1,115 @@
 {
   "size": 6,
-  "rooms": "000111000111222222222222334444334444",
-  "objects": "...b.e.a.ca..f................c..baf",
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "fa...cd........eaf........b.add...cf",
   "roomNames": [
-    "Suite",
-    "Sauna",
-    "Fireside Lounge",
+    "Ski Room",
     "Spa",
-    "Ski Room"
+    "Games Room",
+    "Kitchen",
+    "Terrace"
   ],
   "people": [
-    "Alma the avalanche guard",
+    "Vivian the vlogger",
+    "Arthur the avalanche guard",
     "Birgit the baker",
-    "Cedric the cook",
-    "Viola the vlogger",
-    "Dmitri the driver",
-    "Elias the engineer"
+    "Clara the climber",
+    "Della the driver",
+    "Edith the engineer"
   ],
-  "victim": 3,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "next",
-      "chair"
-    ],
-    [
-      1,
-      "on",
-      "chair"
-    ],
-    [
       1,
       "next",
-      "skis"
+      "chair"
     ],
     [
       2,
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "next",
+      "fire"
+    ],
+    [
+      3,
       "door"
     ],
     [
       4,
-      "alone"
+      "next",
+      "fire"
     ],
     [
       5,
-      "next",
-      "sofa"
+      "door"
     ]
   ],
   "solution": [
-    1,
-    10,
-    17,
-    21,
+    4,
+    7,
+    14,
+    23,
     24,
-    32
+    33
   ],
   "doors": [
     [
-      2,
-      3
+      13,
+      14
     ],
     [
-      6,
-      12
+      13,
+      19
     ],
     [
-      11,
-      17
+      15,
+      21
     ],
     [
-      19,
-      25
+      17,
+      23
     ],
     [
-      20,
-      26
+      31,
+      32
     ],
     [
-      25,
-      26
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      6,
-      "l"
+      0,
+      "t"
     ],
     [
-      23,
+      5,
+      "t"
+    ],
+    [
+      29,
       "r"
     ],
     [
       30,
       "l"
-    ],
+    ]
+  ],
+  "facts": [
     [
-      34,
-      "b"
+      "furniture",
+      null,
+      0
     ]
   ],
   "tries": 0,
-  "hard": 1,
+  "hard": 4,
   "hardest": 4,
-  "steps": 16,
+  "steps": 15,
   "extra": true
 }

@@ -1,96 +1,94 @@
 {
   "size": 6,
-  "rooms": "000011000011223333223333224444224444",
-  "objects": ".a.b.c...b..c..c.....e.............c",
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "e..fa..d....b.c.....b......d..f.fc..",
   "roomNames": [
-    "Courtyard",
+    "Gatehouse",
+    "Kitchen",
     "Smithy",
-    "Armory",
-    "Tower",
-    "Chapel"
+    "Stables",
+    "Throne Room"
   ],
   "people": [
-    "Alma the archer",
-    "Bea the baker",
-    "Carl the chronicler",
-    "Daisy the dancer",
-    "Edgar the envoy",
-    "Viola the vintner"
+    "Astrid the archer",
+    "Bruno the bard",
+    "Victor the vintner",
+    "Cedric the chronicler",
+    "Dora the dancer",
+    "Elias the envoy"
   ],
-  "victim": 5,
+  "victim": 2,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "swords"
     ],
     [
       1,
-      "alone"
-    ],
-    [
-      2,
       "next",
-      "barrel"
-    ],
-    [
-      2,
-      "alone"
+      "urn"
     ],
     [
       3,
-      "alone"
+      "on",
+      "cot"
     ],
     [
       4,
       "next",
-      "barrel"
+      "urn"
     ],
     [
       5,
-      "window"
+      "alone"
     ]
   ],
   "solution": [
-    4,
-    6,
-    13,
+    1,
+    9,
+    17,
     20,
-    29,
-    33
+    24,
+    34
   ],
   "doors": [
     [
-      3,
-      4
-    ],
-    [
-      7,
-      13
-    ],
-    [
       8,
-      14
+      9
     ],
     [
-      10,
-      16
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
     ],
     [
       19,
       20
     ],
     [
-      31,
-      32
-    ],
-    [
-      23,
-      29
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      4,
+      2,
+      "t"
+    ],
+    [
+      5,
       "t"
     ],
     [
@@ -98,31 +96,32 @@
       "b"
     ],
     [
-      32,
-      "b"
-    ],
-    [
-      33,
+      31,
       "b"
     ]
   ],
-  "tries": 2,
+  "tries": 1,
   "facts": [
     [
-      "corner",
+      "furniture",
       null,
-      5
+      1
+    ],
+    [
+      "doorCount",
+      null,
+      2
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    3
+    1
   ],
-  "rank": "ccckkc",
-  "hard": 4,
-  "hardest": 5,
-  "steps": 16,
+  "rank": "cnkkcc",
+  "hard": 3,
+  "hardest": 4,
+  "steps": 17,
   "extra": true
 }

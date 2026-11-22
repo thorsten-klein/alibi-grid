@@ -1,63 +1,59 @@
 {
-  "size": 12,
-  "rooms": "000011112222000011112222000011112222000011112222333311112222333344444555333344444555333344444555666677778888666677778888666677778888666677778888",
-  "objects": "...b..a...f.e.....b...a.a...f..a...f.......b......e...d.....b.c.f.......fab....bdc....ce....c.f....e..........b....bba.a....e........b..e.......",
+  "size": 10,
+  "rooms": "0000111122000011112200001111220000333322000033332244445556664444555666444455566677775556667777555666",
+  "objects": "c....c.........e.....a...bf.b..db....dc..ba.ed............a.........f........ff.....f..d.eb....b...d",
   "roomNames": [
-    "Hunting Ground",
+    "Elder Hut",
     "Lookout Rock",
     "Fire Pit",
-    "Flint Pit",
-    "River Bank",
-    "Berry Grove",
     "Painted Wall",
-    "Elder Hut",
-    "Bone Yard"
+    "Hide Tent",
+    "Cave",
+    "River Bank",
+    "Flint Pit"
   ],
   "people": [
-    "Arthur the artist",
-    "Bruno the beekeeper",
-    "Celia the carrier",
-    "Daisy the dancer",
-    "Ena the elk tamer",
+    "Ada the acrobat",
+    "Bea the builder",
+    "Cora the carrier",
+    "Viola the valley guide",
+    "Della the drummer",
+    "Edith the elk tamer",
     "Freya the firekeeper",
-    "Greta the grinder",
-    "Vivian the valley guide",
-    "Hana the hide tanner",
-    "Ines the ice cutter",
-    "Jonas the joker",
-    "Kira the keeper"
+    "Gwen the grinder",
+    "Hazel the hide tanner",
+    "Isla the idol carver"
   ],
-  "victim": 7,
+  "victim": 3,
   "clues": [
     [
       0,
-      "room",
-      0
+      "next",
+      "boulder"
     ],
     [
       0,
+      "window"
+    ],
+    [
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
       "next",
       "leaves"
     ],
     [
-      1,
-      "same",
-      4
-    ],
-    [
-      2,
-      "same",
-      3
-    ],
-    [
       3,
-      "row",
-      3
+      "next",
+      "fire"
     ],
     [
-      3,
-      "col",
-      9
+      4,
+      "next",
+      "fire"
     ],
     [
       4,
@@ -65,174 +61,148 @@
     ],
     [
       5,
-      "alone"
+      "row",
+      5
     ],
     [
       6,
-      "on",
-      "leaves"
+      "same",
+      5
+    ],
+    [
+      6,
+      "row",
+      6
+    ],
+    [
+      6,
+      "col",
+      4
     ],
     [
       7,
+      "notRoom",
+      7
+    ],
+    [
+      7,
+      "alone"
+    ],
+    [
+      8,
       "door"
     ],
     [
       8,
-      "row",
-      8
-    ],
-    [
-      9,
-      "same",
-      8
+      "col",
+      1
     ],
     [
       9,
       "next",
-      "leaves"
-    ],
-    [
-      10,
-      "same",
-      9
-    ],
-    [
-      11,
-      "row",
-      11
-    ],
-    [
-      11,
-      "col",
-      11
+      "fire"
     ]
   ],
   "solution": [
-    2,
-    17,
-    32,
-    45,
-    52,
-    70,
-    79,
-    90,
-    96,
-    109,
-    123,
-    143
+    6,
+    12,
+    29,
+    30,
+    47,
+    55,
+    64,
+    73,
+    81,
+    98
   ],
   "doors": [
     [
-      3,
-      4
+      23,
+      24
+    ],
+    [
+      33,
+      34
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      24,
+      34
     ],
     [
       37,
-      49
+      38
     ],
     [
-      19,
-      20
+      48,
+      58
     ],
     [
-      51,
-      52
+      46,
+      56
     ],
     [
-      54,
-      66
+      47,
+      57
     ],
     [
-      56,
-      68
+      53,
+      54
     ],
     [
-      57,
-      69
-    ],
-    [
-      87,
-      88
-    ],
-    [
-      85,
-      97
-    ],
-    [
-      80,
+      71,
       81
     ],
     [
-      90,
-      102
+      66,
+      67
     ],
     [
-      92,
-      104
-    ],
-    [
-      95,
-      107
-    ],
-    [
-      111,
-      112
-    ],
-    [
-      103,
-      104
+      93,
+      94
     ]
   ],
   "windows": [
     [
-      7,
+      5,
       "t"
     ],
     [
-      10,
+      6,
       "t"
     ],
     [
-      12,
-      "l"
-    ],
-    [
-      24,
-      "l"
-    ],
-    [
-      71,
+      39,
       "r"
     ],
     [
-      108,
+      60,
       "l"
     ],
     [
-      134,
+      89,
+      "r"
+    ],
+    [
+      93,
       "b"
     ]
   ],
-  "tries": 5,
-  "facts": [
-    [
-      "nextCount",
-      "bones",
-      0
-    ],
-    [
-      "nextCount",
-      "fire",
-      1
-    ]
-  ],
+  "tries": 1,
   "rules": [
     "trades"
   ],
-  "trade": "342..2.130.1",
-  "tags": "..3..1.....4....1.........3..3..2....................3.....4.0........2..........................3.......4.....3.4....................0........1",
-  "hard": 9,
-  "hardest": 7,
-  "steps": 39,
+  "trade": "..34......",
+  "tags": "..............2..0......1.....4.....................3...........................4...................",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 23,
   "extra": true
 }

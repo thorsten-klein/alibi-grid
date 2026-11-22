@@ -1,253 +1,185 @@
 {
-  "size": 12,
-  "rooms": "000001112222000001112222333331112222333331112222333331114444555666664444555666664444555666667777555666667777555888887777555888887777555888887777",
-  "objects": "....eb..e..fa.....cda...db.ae.e..ded.d..d..aaf.b....abe........a....a.a....bc..ab..ba...ae.........a......b...b..a.bc.a.af.....bb....fbe..c...b.",
+  "size": 9,
+  "rooms": "000112222000112222000113333000113333444555666444555666444555666444555666444555666",
+  "objects": ".....d..d.d.....a...b....a........b.b....b.f.....d...b......bb...a.a.....eb..c..d",
   "roomNames": [
-    "Prop Store",
-    "Balcony",
     "Orchestra Pit",
-    "Costume Room",
-    "Bar",
-    "Stage",
-    "Wings",
     "Lighting Booth",
-    "Box Office"
+    "Box Office",
+    "Bar",
+    "Costume Room",
+    "Wings",
+    "Stage"
   ],
   "people": [
-    "Albert the author",
-    "Bella the bass player",
-    "Carl the critic",
-    "Vivian the violinist",
-    "Dora the director",
-    "Ena the electrician",
+    "Astrid the author",
+    "Birgit the baritone",
+    "Celia the choreographer",
+    "Dmitri the dancer",
+    "Edgar the electrician",
     "Flora the fan",
-    "Gideon the ghost writer",
-    "Hugo the hairdresser",
-    "Ines the impresario",
-    "Juno the jester",
-    "Kitty the kettle drummer"
+    "Vince the ventriloquist",
+    "Grace the guitarist",
+    "Hilda the harpist"
   ],
-  "victim": 3,
+  "victim": 6,
   "clues": [
     [
       0,
-      "on",
-      "sofa"
+      "next",
+      "mirror"
     ],
     [
       1,
-      "next",
-      "rack"
+      "door"
     ],
     [
       2,
+      "same",
+      0
+    ],
+    [
+      3,
       "next",
       "sofa"
     ],
     [
-      2,
-      "next",
-      "seat"
+      3,
+      "alone"
     ],
     [
-      3,
-      "next",
-      "light"
-    ],
-    [
-      3,
+      4,
       "door"
     ],
     [
       4,
-      "notRoom",
-      7
-    ],
-    [
-      5,
-      "next",
-      "piano"
-    ],
-    [
-      5,
-      "next",
-      "seat"
-    ],
-    [
-      6,
-      "on",
-      "seat"
-    ],
-    [
-      6,
-      "same",
-      8
-    ],
-    [
-      7,
-      "col",
-      9
-    ],
-    [
-      8,
       "row",
-      8
+      4
     ],
     [
-      9,
-      "next",
-      "light"
+      5,
+      "notRoom",
+      1
     ],
     [
-      9,
+      5,
+      "door"
+    ],
+    [
+      5,
+      "alone"
+    ],
+    [
+      6,
       "next",
       "sofa"
     ],
     [
-      10,
-      "next",
-      "rack"
-    ],
-    [
-      10,
-      "alone"
-    ],
-    [
-      11,
+      7,
       "same",
-      9
+      4
     ],
     [
-      11,
+      7,
       "next",
-      "seat"
+      "piano"
+    ],
+    [
+      8,
+      "next",
+      "mirror"
     ]
   ],
   "solution": [
-    5,
-    22,
-    26,
-    44,
-    59,
-    64,
-    79,
-    93,
-    102,
-    109,
-    123,
-    132
+    1,
+    13,
+    18,
+    33,
+    39,
+    47,
+    62,
+    68,
+    79
   ],
   "doors": [
     [
-      16,
-      17
+      20,
+      21
     ],
     [
-      16,
-      28
+      27,
+      36
+    ],
+    [
+      13,
+      14
     ],
     [
       31,
       32
     ],
     [
-      52,
-      53
+      30,
+      39
     ],
     [
-      55,
-      56
+      14,
+      23
     ],
     [
-      54,
-      66
+      32,
+      41
     ],
     [
-      44,
-      56
+      35,
+      44
     ],
     [
-      50,
-      62
+      47,
+      48
     ],
     [
-      52,
-      64
-    ],
-    [
-      79,
-      80
-    ],
-    [
-      82,
-      94
-    ],
-    [
-      86,
-      87
-    ],
-    [
-      122,
-      123
-    ],
-    [
-      91,
-      92
-    ],
-    [
-      99,
-      111
-    ],
-    [
-      139,
-      140
+      77,
+      78
     ]
   ],
   "windows": [
     [
-      4,
-      "t"
-    ],
-    [
-      6,
-      "t"
-    ],
-    [
-      7,
-      "t"
-    ],
-    [
-      8,
-      "t"
-    ],
-    [
-      83,
+      44,
       "r"
     ],
     [
-      131,
-      "r"
-    ],
-    [
-      134,
+      72,
       "b"
+    ],
+    [
+      74,
+      "b"
+    ],
+    [
+      76,
+      "b"
+    ],
+    [
+      80,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 25,
   "facts": [
     [
-      "roomCount",
-      1,
+      "emptyRooms",
+      null,
       1
     ],
     [
-      "nextCount",
-      "piano",
-      1
+      "edge",
+      null,
+      4
     ]
   ],
-  "hard": 8,
-  "hardest": 8,
-  "steps": 26,
+  "hard": 5,
+  "hardest": 6,
+  "steps": 44,
   "extra": true
 }

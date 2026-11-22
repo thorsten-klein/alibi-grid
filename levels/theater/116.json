@@ -1,159 +1,127 @@
 {
-  "size": 8,
-  "rooms": "0001122200011222000112220003333344433333444333334445555544455555",
-  "objects": "e....bafc...c....c.ba...a..b..d.a.b....a....db.........b....a.a.",
+  "size": 7,
+  "rooms": "0001111000111100022220002222333444433344443334444",
+  "objects": "f.....f....e..f...a......b...c..a.e.f.a....bd....",
   "roomNames": [
-    "Bar",
-    "Dressing Room",
+    "Foyer",
     "Wings",
-    "Green Room",
-    "Stage",
+    "Costume Room",
+    "Box Office",
     "Orchestra Pit"
   ],
   "people": [
-    "Ada the author",
-    "Vince the violinist",
+    "Albert the author",
     "Bella the bass player",
-    "Celia the critic",
-    "Daisy the dancer",
-    "Elias the electrician",
-    "Fiona the flautist",
-    "Gideon the ghost writer"
+    "Cora the choreographer",
+    "Dmitri the dancer",
+    "Edith the electrician",
+    "Vivian the violinist",
+    "Flora the fan"
   ],
-  "victim": 1,
+  "victim": 5,
   "clues": [
     [
       0,
-      "door"
-    ],
-    [
-      0,
-      "alone"
+      "row",
+      0
     ],
     [
       1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
+    ],
+    [
+      2,
       "next",
       "light"
     ],
     [
-      2,
-      "door"
-    ],
-    [
       3,
       "next",
-      "sofa"
-    ],
-    [
-      4,
-      "on",
       "seat"
     ],
     [
       4,
-      "same",
-      5
-    ],
-    [
-      5,
-      "notRoom",
-      5
-    ],
-    [
-      6,
-      "door"
-    ],
-    [
-      6,
-      "same",
-      7
-    ],
-    [
-      7,
       "next",
-      "seat"
+      "piano"
+    ],
+    [
+      6,
+      "row",
+      6
     ]
   ],
   "solution": [
     2,
+    10,
     15,
-    21,
+    25,
     28,
-    32,
-    41,
-    54,
-    59
+    40,
+    48
   ],
   "doors": [
     [
-      2,
-      3
+      9,
+      10
     ],
     [
-      26,
-      27
-    ],
-    [
-      25,
-      33
-    ],
-    [
-      20,
-      21
-    ],
-    [
-      19,
-      27
+      16,
+      17
     ],
     [
       21,
-      29
+      28
     ],
     [
-      42,
-      43
+      10,
+      17
     ],
     [
-      46,
-      54
+      24,
+      31
     ],
     [
-      50,
-      51
+      37,
+      38
     ]
   ],
   "windows": [
     [
-      0,
-      "l"
+      6,
+      "t"
     ],
     [
-      8,
-      "l"
-    ],
-    [
-      16,
-      "l"
-    ],
-    [
-      58,
+      42,
       "b"
     ],
     [
-      60,
+      46,
+      "b"
+    ],
+    [
+      47,
       "b"
     ]
   ],
-  "tries": 7,
+  "tries": 4,
   "facts": [
     [
+      "edge",
+      null,
+      3
+    ],
+    [
       "nextCount",
-      "piano",
-      0
+      "light",
+      1
     ]
   ],
-  "hard": 8,
-  "hardest": 5,
-  "steps": 32,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 23,
   "extra": true
 }

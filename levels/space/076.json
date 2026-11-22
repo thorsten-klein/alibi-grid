@@ -1,108 +1,89 @@
 {
-  "size": 6,
-  "rooms": "001122001122001122334422334422334422",
-  "objects": "..a.....e....c......b.....a....a....",
+  "size": 5,
+  "rooms": "0000000000111112223322233",
+  "objects": ".f....eaf.......c..bb.a.b",
   "roomNames": [
-    "Gym",
+    "Engine Room",
     "Airlock",
-    "Observatory",
-    "Cargo Bay",
-    "Bridge"
+    "Bridge",
+    "Lab"
   ],
   "people": [
-    "Alma the analyst",
-    "Bella the biologist",
-    "Cora the chemist",
-    "Dora the driller",
-    "Elias the electrician",
-    "Vivian the visitor"
+    "Astrid the astronaut",
+    "Birgit the biologist",
+    "Clara the captain",
+    "Della the doctor",
+    "Vera the visitor"
   ],
-  "victim": 5,
+  "victim": 4,
   "clues": [
     [
       0,
-      "on",
-      "seat"
+      "window"
     ],
     [
       1,
       "next",
-      "console"
+      "plant"
     ],
     [
       2,
-      "window"
+      "alone"
     ],
     [
       3,
-      "next",
-      "pod"
-    ],
-    [
-      4,
-      "row",
-      4
-    ],
-    [
-      4,
-      "alone"
+      "door"
     ]
   ],
   "solution": [
-    2,
-    7,
+    4,
+    5,
+    13,
     17,
-    21,
-    24,
-    34
+    21
   ],
   "doors": [
     [
-      13,
-      14
+      5,
+      10
     ],
     [
-      13,
+      12,
+      17
+    ],
+    [
+      14,
       19
     ],
     [
-      3,
-      4
-    ],
-    [
-      15,
-      21
-    ],
-    [
-      27,
-      28
-    ],
-    [
-      19,
-      20
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      0,
+      2,
       "t"
     ],
     [
-      5,
+      4,
       "t"
     ],
     [
-      17,
+      14,
       "r"
-    ],
-    [
-      30,
-      "b"
     ]
   ],
-  "tries": 0,
-  "hard": 1,
-  "hardest": 3,
+  "tries": 3,
+  "facts": [
+    [
+      "nextCount",
+      "seat",
+      2
+    ]
+  ],
+  "hard": 4,
+  "hardest": 4,
   "steps": 17,
   "extra": true
 }

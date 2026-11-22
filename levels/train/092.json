@@ -1,92 +1,94 @@
 {
   "size": 6,
-  "rooms": "000000000000122334122334122334122334",
-  "objects": "...b...ab...d.......a.ea....a.af.ba.",
+  "rooms": "000011000011222011222011334444334444",
+  "objects": "..e...a..b..d....bb...d.d........cb.",
   "roomNames": [
-    "Observation Car",
-    "Mail Car",
+    "Dining Car",
     "Sleeper A",
-    "Bar Car",
-    "Guard's Van"
+    "Sleeper C",
+    "Corridor",
+    "Mail Car"
   ],
   "people": [
-    "Viola the vendor",
-    "Albert the accordionist",
-    "Bea the banker",
-    "Cedric the courier",
-    "Dora the diplomat",
-    "Ena the envoy"
+    "Arthur the accordionist",
+    "Vince the vendor",
+    "Bea the bookseller",
+    "Clara the courier",
+    "Dmitri the diplomat",
+    "Elias the engineer"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
       0,
-      "next",
-      "seat"
+      "alone"
     ],
     [
       1,
-      "door"
+      "next",
+      "bunk"
     ],
     [
       2,
       "next",
-      "seat"
+      "crate"
     ],
     [
       2,
-      "door"
+      "next",
+      "bunk"
     ],
     [
       3,
-      "alone"
+      "door"
     ],
     [
       4,
       "next",
-      "lamp"
+      "suitcase"
     ],
     [
       5,
-      "window"
+      "next",
+      "crate"
     ]
   ],
   "solution": [
     1,
-    9,
-    17,
+    11,
+    16,
     20,
-    28,
+    27,
     30
   ],
   "doors": [
     [
-      6,
-      12
+      21,
+      22
     ],
     [
-      7,
-      13
-    ],
-    [
-      9,
+      14,
       15
     ],
     [
-      11,
-      17
+      21,
+      27
     ],
     [
-      24,
-      25
+      22,
+      28
     ],
     [
-      32,
-      33
+      18,
+      24
     ],
     [
-      34,
-      35
+      20,
+      26
+    ],
+    [
+      25,
+      26
     ]
   ],
   "windows": [
@@ -95,33 +97,28 @@
       "t"
     ],
     [
-      17,
-      "r"
+      5,
+      "t"
+    ],
+    [
+      18,
+      "l"
     ],
     [
       30,
       "b"
-    ],
-    [
-      30,
-      "l"
     ]
   ],
-  "tries": 7,
+  "tries": 2,
   "facts": [
     [
-      "nextCount",
-      "bunk",
-      1
-    ],
-    [
-      "touch",
+      "edge",
       null,
-      0
+      3
     ]
   ],
-  "hard": 3,
-  "hardest": 3,
-  "steps": 22,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
   "extra": true
 }

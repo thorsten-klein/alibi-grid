@@ -1,28 +1,26 @@
 {
-  "size": 9,
-  "rooms": "000011222000011222000011222000011222333445555333445555333445555333666666333666666",
-  "objects": "d.a.f....bf.a..ac....bfe.....cb...a....cee..d..b.a.a..........f.d.........cad....",
+  "size": 8,
+  "rooms": "0001112200011122000111220003333300033333444555554445555544444444",
+  "objects": ".......a...a.a.e......a..........f..d...f....dcf.b.........b....",
   "roomNames": [
+    "Lobby",
     "Sauna",
-    "Fireside Lounge",
-    "Bar",
-    "Spa",
-    "Terrace",
-    "Kitchen",
-    "Suite"
+    "Suite",
+    "Boot Room",
+    "Dining Hall",
+    "Games Room"
   ],
   "people": [
-    "Vivian the vlogger",
     "Albert the avalanche guard",
-    "Birgit the bartender",
-    "Cora the climber",
-    "Dora the driver",
-    "Edgar the explorer",
-    "Flora the forester",
-    "Gus the guide",
-    "Hana the hotelier"
+    "Vera the vet",
+    "Birgit the baker",
+    "Clara the climber",
+    "Dexter the driver",
+    "Elsa the engineer",
+    "Frank the fisher",
+    "Greta the guide"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
       0,
@@ -31,13 +29,8 @@
     ],
     [
       1,
-      "next",
-      "tree"
-    ],
-    [
-      2,
-      "next",
-      "skis"
+      "row",
+      1
     ],
     [
       2,
@@ -45,133 +38,124 @@
       "chair"
     ],
     [
-      3,
+      2,
+      "door"
+    ],
+    [
+      2,
       "alone"
+    ],
+    [
+      3,
+      "col",
+      7
     ],
     [
       4,
       "next",
-      "sofa"
+      "wood"
+    ],
+    [
+      4,
+      "door"
     ],
     [
       5,
       "next",
-      "sofa"
-    ],
-    [
-      5,
-      "row",
-      5
+      "wood"
     ],
     [
       6,
-      "next",
-      "chair"
+      "room",
+      5
     ],
     [
       7,
-      "next",
-      "chair"
-    ],
-    [
-      8,
       "same",
-      7
+      5
     ]
   ],
   "solution": [
     6,
-    14,
-    25,
-    27,
-    38,
-    46,
-    58,
-    66,
-    80
+    8,
+    21,
+    31,
+    34,
+    41,
+    51,
+    60
   ],
   "doors": [
     [
-      12,
-      13
+      10,
+      11
     ],
     [
-      27,
-      36
+      26,
+      27
     ],
     [
-      30,
-      39
+      34,
+      42
     ],
     [
-      14,
-      15
+      21,
+      22
     ],
     [
-      31,
-      40
+      21,
+      29
     ],
     [
-      32,
-      41
+      22,
+      30
     ],
     [
-      35,
-      44
+      38,
+      46
     ],
     [
-      47,
-      48
-    ],
-    [
-      65,
-      66
-    ],
-    [
-      58,
-      59
-    ],
-    [
-      58,
-      67
-    ],
-    [
-      60,
-      69
+      55,
+      63
     ]
   ],
   "windows": [
     [
-      3,
+      2,
       "t"
     ],
     [
-      17,
+      23,
       "r"
     ],
     [
-      26,
-      "r"
+      24,
+      "l"
     ],
     [
-      71,
-      "r"
+      48,
+      "l"
     ],
     [
-      77,
+      62,
       "b"
     ]
   ],
   "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 22,
   "facts": [
     [
       "onCount",
       "sofa",
       0
+    ],
+    [
+      "windowCount",
+      null,
+      0
     ]
   ],
-  "hard": 7,
-  "hardest": 6,
-  "steps": 24,
   "extra": true
 }

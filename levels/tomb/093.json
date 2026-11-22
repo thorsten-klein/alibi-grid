@@ -1,91 +1,85 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100011112223333222333322244442224444",
-  "objects": ".....b......beb......ac...a.......efe.d..fa......",
+  "size": 6,
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "a.f..cdcb..fa...........c..da.......",
   "roomNames": [
     "Scribe Room",
+    "Statue Hall",
+    "Antechamber",
     "Sun Court",
-    "Granary",
-    "Well Shaft",
     "Shrine"
   ],
   "people": [
-    "Alma the architect",
+    "Ada the astrologer",
+    "Bella the brewer",
+    "Cora the carpenter",
     "Vince the vintner",
-    "Birgit the brewer",
-    "Cora the chanter",
-    "Daisy the diviner",
-    "Elias the embalmer",
-    "Frank the fanbearer"
+    "Dora the dancer",
+    "Edith the embalmer"
   ],
-  "victim": 1,
+  "victim": 3,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      2,
       "next",
-      "rubble"
+      "statue"
     ],
     [
-      2,
-      "window"
-    ],
-    [
-      3,
-      "on",
-      "stool"
-    ],
-    [
-      4,
-      "same",
-      3
-    ],
-    [
-      5,
+      1,
       "door"
     ],
     [
-      6,
+      2,
+      "col",
+      2
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
       "next",
-      "rubble"
+      "stool"
+    ],
+    [
+      5,
+      "alone"
     ]
   ],
   "solution": [
     0,
-    9,
-    20,
-    26,
-    31,
-    39,
-    43
+    10,
+    14,
+    21,
+    29,
+    31
   ],
   "doors": [
     [
-      16,
-      17
+      9,
+      10
     ],
     [
-      16,
-      23
+      6,
+      12
     ],
     [
-      17,
-      24
+      15,
+      16
     ],
     [
-      30,
-      31
+      22,
+      28
     ],
     [
-      37,
-      38
+      19,
+      25
     ],
     [
-      32,
-      39
+      33,
+      34
     ]
   ],
   "windows": [
@@ -94,24 +88,36 @@
       "l"
     ],
     [
-      13,
-      "r"
+      3,
+      "t"
     ],
     [
-      20,
-      "r"
+      12,
+      "l"
     ],
     [
-      45,
+      34,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 5,
+  "facts": [
+    [
+      "nextCount",
+      "stool",
+      1
+    ],
+    [
+      "nextCount",
+      "statue",
+      1
+    ]
+  ],
   "rules": [
     "glyphs"
   ],
-  "tags": "......L.C......................C...........L.....",
-  "hard": 2,
+  "tags": "..............C....L.........L.L....",
+  "hard": 4,
   "hardest": 3,
   "steps": 21,
   "extra": true

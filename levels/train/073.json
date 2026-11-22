@@ -1,63 +1,61 @@
 {
   "size": 5,
-  "rooms": "0001100011222112223322233",
-  "objects": "..a..bc...aa..f..a.....a.",
+  "rooms": "0011100111001112223322233",
+  "objects": ".a.......b..d..d....b....",
   "roomNames": [
+    "Bar Car",
     "Mail Car",
     "Corridor",
-    "Galley",
     "Guard's Van"
   ],
   "people": [
-    "Astrid the attendant",
-    "Bruno the bookseller",
-    "Cora the conductor",
-    "Vince the vendor",
-    "Dmitri the dentist"
+    "Ada the accordionist",
+    "Birgit the bookseller",
+    "Celia the courier",
+    "Dexter the diplomat",
+    "Victor the vendor"
   ],
-  "victim": 3,
+  "victim": 4,
   "clues": [
     [
       0,
-      "alone"
+      "same",
+      2
     ],
     [
       1,
-      "door"
-    ],
-    [
-      1,
-      "alone"
+      "next",
+      "seat"
     ],
     [
       2,
-      "door"
+      "next",
+      "bunk"
     ],
     [
-      4,
-      "next",
-      "seat"
+      3,
+      "door"
     ]
   ],
   "solution": [
-    0,
-    8,
-    12,
-    16,
-    24
+    3,
+    6,
+    14,
+    17,
+    20
   ],
   "doors": [
     [
-      7,
-      8
+      1,
+      2
     ],
     [
-      6,
-      11
+      10,
+      15
     ],
     [
       12,
-      13
+      17
     ],
     [
       14,
@@ -70,38 +68,28 @@
   ],
   "windows": [
     [
-      2,
-      "t"
-    ],
-    [
-      10,
-      "l"
-    ],
-    [
-      24,
+      9,
       "r"
+    ],
+    [
+      22,
+      "b"
+    ],
+    [
+      23,
+      "b"
     ]
   ],
-  "tries": 13,
+  "tries": 3,
   "facts": [
     [
       "nextCount",
-      "wine",
-      0
-    ],
-    [
-      "edge",
-      null,
-      2
-    ],
-    [
-      "nextCount",
-      "seat",
-      3
+      "crate",
+      1
     ]
   ],
-  "hard": 4,
-  "hardest": 4,
-  "steps": 26,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
   "extra": true
 }

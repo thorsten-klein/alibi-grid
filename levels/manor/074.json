@@ -1,56 +1,57 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "..df..badd..e.aba........",
+  "rooms": "0001100011223332233322333",
+  "objects": "...e....c.d.e.....bd.b.a.",
   "roomNames": [
+    "Study",
     "Billiard Room",
-    "Conservatory",
-    "Kitchen",
-    "Cellar"
+    "Library",
+    "Conservatory"
   ],
   "people": [
-    "Arthur the architect",
-    "Basil the butler",
-    "Celia the cook",
-    "Daisy the doctor",
-    "Vera the valet"
+    "Ada the architect",
+    "Victor the valet",
+    "Bruno the butler",
+    "Celia the colonel",
+    "Della the doctor"
   ],
-  "victim": 4,
+  "victim": 1,
   "clues": [
     [
       0,
-      "alone"
+      "col",
+      1
     ],
     [
       1,
-      "next",
-      "sofa"
-    ],
-    [
-      2,
       "door"
     ],
     [
-      3,
-      "row",
-      3
+      2,
+      "next",
+      "plant"
     ],
     [
       3,
       "alone"
+    ],
+    [
+      4,
+      "same",
+      2
     ]
   ],
   "solution": [
-    4,
-    5,
-    11,
-    18,
-    22
+    1,
+    7,
+    13,
+    15,
+    24
   ],
   "doors": [
     [
-      1,
-      2
+      7,
+      8
     ],
     [
       6,
@@ -61,38 +62,38 @@
       12
     ],
     [
-      8,
-      13
+      9,
+      14
     ],
     [
-      17,
-      18
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      0,
+      3,
       "t"
     ],
     [
-      9,
-      "r"
+      4,
+      "t"
     ],
     [
-      24,
-      "b"
+      20,
+      "l"
     ]
   ],
-  "tries": 4,
+  "tries": 2,
   "facts": [
     [
-      "furniture",
-      null,
+      "onCount",
+      "sofa",
       0
     ]
   ],
-  "hard": 5,
+  "hard": 2,
   "hardest": 3,
-  "steps": 20,
+  "steps": 16,
   "extra": true
 }

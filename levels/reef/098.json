@@ -1,29 +1,28 @@
 {
   "size": 7,
-  "rooms": "0000000000000011110001111000223344422334442233444",
-  "objects": "...............e..............f......bb.d....d.b.",
+  "rooms": "0001111000111100011112221111222111133344443334444",
+  "objects": ".......e........e..................c.fb.b...bbcf.",
   "roomNames": [
+    "Galleon",
     "Open Sea",
-    "Sea Cave",
-    "Fort",
-    "Sloop",
-    "Galleon"
+    "Market",
+    "Frigate",
+    "Fort"
   ],
   "people": [
-    "Albert the admiral",
-    "Bea the boatswain",
-    "Celia the captain",
-    "Dora the diver",
-    "Edgar the explorer",
-    "Vera the voyager",
-    "Felix the first mate"
+    "Ada the armorer",
+    "Bella the boatswain",
+    "Carl the captain",
+    "Daisy the deckhand",
+    "Ena the explorer",
+    "Freya the fiddler",
+    "Vince the vintner"
   ],
-  "victim": 5,
+  "victim": 6,
   "clues": [
     [
       0,
-      "col",
-      4
+      "alone"
     ],
     [
       1,
@@ -31,13 +30,19 @@
       1
     ],
     [
-      2,
-      "row",
-      2
+      1,
+      "col",
+      5
     ],
     [
       2,
-      "alone"
+      "next",
+      "map"
+    ],
+    [
+      2,
+      "col",
+      1
     ],
     [
       3,
@@ -49,62 +54,53 @@
       0
     ],
     [
-      4,
-      "col",
-      6
-    ],
-    [
       5,
-      "row",
-      5
+      "window"
     ],
     [
       6,
-      "window"
+      "next",
+      "anchor"
     ]
   ],
   "solution": [
     4,
-    10,
-    19,
+    12,
+    15,
     23,
-    34,
-    36,
-    42
+    28,
+    41,
+    45
   ],
   "doors": [
     [
-      21,
-      28
-    ],
-    [
-      23,
-      30
+      16,
+      23
     ],
     [
       29,
-      30
+      36
     ],
     [
-      45,
-      46
+      37,
+      38
     ]
   ],
   "windows": [
     [
-      14,
-      "l"
+      2,
+      "t"
     ],
     [
-      42,
+      41,
+      "r"
+    ],
+    [
+      44,
       "b"
     ],
     [
       46,
-      "b"
-    ],
-    [
-      48,
       "b"
     ]
   ],
@@ -112,9 +108,9 @@
   "rules": [
     "sea"
   ],
-  "sea": 0,
-  "hard": 0,
-  "hardest": 2,
+  "sea": 1,
+  "hard": 1,
+  "hardest": 3,
   "steps": 17,
   "extra": true
 }

@@ -1,57 +1,55 @@
 {
   "size": 5,
-  "rooms": "0001100011223332233322333",
-  "objects": "......b..de.a.a...c.b.de.",
+  "rooms": "0001100011222332223322233",
+  "objects": "f...b..a.....a....cadec.a",
   "roomNames": [
-    "Baggage Car",
-    "Dining Car",
-    "Observation Car",
-    "Sleeper C"
+    "Bar Car",
+    "Galley",
+    "Lounge Car",
+    "Guard's Van"
   ],
   "people": [
-    "Vera the violinist",
-    "Arthur the attendant",
-    "Basil the banker",
-    "Celia the conductor",
-    "Dexter the diplomat"
+    "Ada the accordionist",
+    "Basil the bookseller",
+    "Viola the violinist",
+    "Clara the conductor",
+    "Della the diplomat"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
+      0,
+      "alone"
+    ],
+    [
       1,
-      "on",
-      "bunk"
+      "door"
     ],
     [
       2,
-      "next",
-      "suitcase"
+      "door"
     ],
     [
       3,
-      "row",
-      3
+      "window"
     ],
     [
       4,
-      "alone"
+      "next",
+      "suitcase"
     ]
   ],
   "solution": [
-    2,
-    6,
-    13,
-    19,
-    20
+    1,
+    9,
+    12,
+    15,
+    23
   ],
   "doors": [
     [
-      2,
-      3
-    ],
-    [
-      5,
-      10
+      7,
+      8
     ],
     [
       7,
@@ -62,27 +60,27 @@
       14
     ],
     [
-      21,
-      22
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      1,
+      3,
       "t"
     ],
     [
-      9,
-      "r"
+      15,
+      "l"
     ],
     [
-      20,
+      22,
       "b"
     ]
   ],
-  "tries": 1,
-  "hard": 2,
-  "hardest": 4,
-  "steps": 14,
+  "tries": 0,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 12,
   "extra": true
 }

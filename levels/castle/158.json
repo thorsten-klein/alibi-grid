@@ -1,48 +1,45 @@
 {
-  "size": 12,
-  "rooms": "000001112222000001112222000001112222333331112222333331112222333331112222444556666777444556666777444556666777444556666777444558888777444558888777",
-  "objects": "a..fc......e........e...b.c..f.ca...c.....fba...............b........c.......ca...f.bf..ab..f..dfc....b.....dbb.....cd....b...ba......aa.....e..",
+  "size": 10,
+  "rooms": "0011112222001111222200111122220011112222333344445533334444556666444455666644445566667777776666777777",
+  "objects": ".a.....a..cbd.c.....ef.b.a.ed.a...b....c.e.f..d......e.......e..f.a....ccc....deed.....d...d......f.",
   "roomNames": [
     "Smithy",
-    "Dungeon",
-    "Courtyard",
+    "Stables",
     "Tower",
     "Kitchen",
-    "Solar",
-    "Stables",
-    "Throne Room",
+    "Courtyard",
+    "Great Hall",
+    "Chapel",
     "Gatehouse"
   ],
   "people": [
-    "Alma the alchemist",
-    "Vera the verger",
+    "Astrid the alchemist",
+    "Vera the vintner",
     "Bruno the bard",
-    "Carl the chronicler",
-    "Dexter the doorkeeper",
-    "Edith the embroiderer",
-    "Freya the farrier",
-    "Grace the groom",
-    "Hana the herald",
-    "Ivy the illuminator",
-    "Jade the jester",
-    "Kitty the kennel keeper"
+    "Cora the cupbearer",
+    "Dora the doorkeeper",
+    "Ena the envoy",
+    "Frank the farrier",
+    "Grace the glassmaker",
+    "Hugo the herald",
+    "Isla the illuminator"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "same",
-      3
-    ],
-    [
-      1,
-      "next",
-      "swords"
+      "row",
+      0
     ],
     [
       2,
       "next",
-      "urn"
+      "swords"
+    ],
+    [
+      3,
+      "next",
+      "cot"
     ],
     [
       3,
@@ -50,182 +47,161 @@
     ],
     [
       4,
-      "next",
-      "barrel"
-    ],
-    [
-      5,
-      "room",
-      3
-    ],
-    [
-      5,
       "door"
+    ],
+    [
+      5,
+      "alone"
     ],
     [
       6,
       "next",
-      "cot"
+      "urn"
     ],
     [
-      7,
-      "on",
+      6,
+      "next",
       "bench"
     ],
     [
       7,
-      "alone"
+      "same",
+      6
     ],
     [
       8,
-      "next",
-      "barrel"
-    ],
-    [
-      9,
       "next",
       "candles"
     ],
     [
-      10,
-      "next",
-      "cot"
-    ],
-    [
-      10,
-      "row",
-      10
-    ],
-    [
-      11,
-      "door"
+      9,
+      "window"
     ]
   ],
   "solution": [
-    7,
-    23,
-    30,
-    41,
-    57,
-    63,
-    72,
-    88,
-    98,
-    118,
-    121,
-    140
+    4,
+    19,
+    26,
+    33,
+    48,
+    51,
+    65,
+    77,
+    82,
+    90
   ],
   "doors": [
     [
-      16,
-      17
+      11,
+      12
     ],
     [
-      26,
-      38
-    ],
-    [
-      19,
-      20
-    ],
-    [
-      40,
+      31,
       41
     ],
     [
-      65,
-      77
+      15,
+      16
     ],
     [
-      68,
-      80
+      33,
+      43
     ],
     [
-      70,
-      82
+      34,
+      44
     ],
     [
-      62,
+      37,
+      47
+    ],
+    [
+      38,
+      48
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      52,
+      62
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      73,
       74
     ],
     [
-      63,
-      75
+      75,
+      85
     ],
     [
-      134,
-      135
+      78,
+      88
     ],
     [
-      112,
-      113
-    ],
-    [
-      136,
-      137
-    ],
-    [
-      92,
-      93
-    ],
-    [
-      116,
-      128
-    ],
-    [
-      140,
-      141
+      83,
+      84
     ]
   ],
   "windows": [
     [
-      8,
+      1,
       "t"
     ],
     [
-      11,
+      39,
       "r"
     ],
     [
-      59,
+      69,
       "r"
     ],
     [
-      95,
-      "r"
+      90,
+      "b"
     ],
     [
-      96,
-      "l"
+      93,
+      "b"
     ],
     [
-      119,
-      "r"
-    ],
-    [
-      138,
+      94,
       "b"
     ]
   ],
-  "tries": 7,
+  "tries": 2,
   "facts": [
     [
       "roomCount",
-      6,
-      0
+      2,
+      2
+    ],
+    [
+      "alone",
+      null,
+      2
+    ],
+    [
+      "nextCount",
+      "candles",
+      2
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    1,
     2,
-    5
+    4
   ],
-  "rank": "nnnnnkcnkckc",
-  "hard": 10,
-  "hardest": 10,
-  "steps": 35,
+  "rank": "cnkccckkck",
+  "hard": 8,
+  "hardest": 7,
+  "steps": 28,
   "extra": true
 }

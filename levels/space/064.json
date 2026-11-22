@@ -1,87 +1,100 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": ".....cf...e.....a.b.afce.",
+  "rooms": "0000011111111112233322333",
+  "objects": ".......a.a.........fd.af.",
   "roomNames": [
-    "Bridge",
-    "Lab",
-    "Observatory",
-    "Cargo Bay"
+    "Airlock",
+    "Crew Quarters",
+    "Med Bay",
+    "Bridge"
   ],
   "people": [
-    "Viola the visitor",
-    "Albert the analyst",
-    "Bea the botanist",
-    "Clara the captain",
-    "Della the driller"
+    "Alma the astronaut",
+    "Victor the volunteer",
+    "Bella the biologist",
+    "Cora the chemist",
+    "Dmitri the doctor"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
+      0,
+      "room",
+      0
+    ],
+    [
       1,
-      "door"
+      "on",
+      "seat"
     ],
     [
       2,
-      "same",
-      3
+      "door"
     ],
     [
       3,
-      "next",
-      "tank"
+      "alone"
     ],
     [
       4,
-      "window"
+      "next",
+      "tank"
     ]
   ],
   "solution": [
     3,
-    9,
-    12,
+    7,
+    10,
     16,
-    20
+    24
   ],
   "doors": [
     [
-      6,
+      2,
       7
     ],
     [
-      6,
-      11
+      10,
+      15
     ],
     [
-      7,
-      12
+      12,
+      17
     ],
     [
-      9,
-      14
-    ],
-    [
-      17,
-      18
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      20,
-      "b"
+      1,
+      "t"
     ],
     [
-      23,
-      "b"
+      4,
+      "t"
     ],
     [
-      24,
+      14,
       "r"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "hard": 2,
-  "hardest": 3,
-  "steps": 12,
+  "hardest": 4,
+  "steps": 15,
+  "facts": [
+    [
+      "furniture",
+      null,
+      1
+    ],
+    [
+      "nextCount",
+      "scope",
+      0
+    ]
+  ],
   "extra": true
 }

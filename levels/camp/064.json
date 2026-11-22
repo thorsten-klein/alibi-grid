@@ -1,74 +1,79 @@
 {
   "size": 5,
-  "rooms": "0000011111111112223322233",
-  "objects": "c..bcb..d....a......ab...",
+  "rooms": "0011100111221112233322333",
+  "objects": ".........f.f.....be..a.b.",
   "roomNames": [
-    "Hunting Ground",
+    "Cave",
     "Spring",
-    "River Bank",
-    "Bone Yard"
+    "Berry Grove",
+    "Fire Pit"
   ],
   "people": [
-    "Ada the artist",
-    "Vince the visionary",
-    "Bea the builder",
-    "Cora the carrier",
+    "Astrid the artist",
+    "Viola the valley guide",
+    "Birgit the beekeeper",
+    "Celia the carver",
     "Dora the dancer"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "alone"
+      "door"
     ],
     [
       1,
-      "on",
-      "leaves"
+      "next",
+      "bones"
     ],
     [
       2,
       "next",
-      "fire"
+      "bones"
     ],
     [
       3,
-      "alone"
+      "next",
+      "log"
     ],
     [
       4,
       "next",
-      "log"
+      "leaves"
     ]
   ],
   "solution": [
     2,
-    5,
-    13,
-    19,
-    21
+    8,
+    10,
+    16,
+    24
   ],
   "doors": [
     [
-      0,
-      5
+      1,
+      2
     ],
     [
-      12,
-      17
+      5,
+      10
+    ],
+    [
+      11,
+      12
     ],
     [
       14,
       19
     ],
     [
-      17,
-      18
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      4,
+      0,
       "t"
     ],
     [
@@ -76,18 +81,18 @@
       "r"
     ],
     [
-      20,
+      22,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "hard": 1,
+  "hardest": 4,
+  "steps": 12,
   "rules": [
     "trades"
   ],
-  "trade": "34.0.",
-  "tags": "...................0.....",
-  "hard": 0,
-  "hardest": 2,
-  "steps": 12,
+  "trade": "..13.",
+  "tags": "....1.....1..............",
   "extra": true
 }

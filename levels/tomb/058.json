@@ -1,47 +1,34 @@
 {
   "size": 5,
-  "rooms": "0011100111001112233322333",
-  "objects": "..ee..b...............b..",
+  "rooms": "0001100011000112222233333",
+  "objects": "..c.e.....b.c.d...e.....f",
   "roomNames": [
-    "Workshop",
-    "Burial Chamber",
-    "Boat Pit",
-    "Scribe Room"
+    "Hall of Pillars",
+    "Well Shaft",
+    "Antechamber",
+    "Burial Chamber"
   ],
   "people": [
-    "Alma the astrologer",
-    "Vivian the vizier",
-    "Birgit the brewer",
-    "Clara the chanter",
-    "Daisy the diviner"
+    "Vera the vizier",
+    "Astrid the astrologer",
+    "Bella the brewer",
+    "Clara the carpenter",
+    "Dexter the diviner"
   ],
-  "victim": 1,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "row",
-      0
-    ],
-    [
-      0,
-      "alone"
-    ],
-    [
       1,
-      "next",
-      "rubble"
+      "door"
     ],
     [
       2,
-      "door"
+      "next",
+      "statue"
     ],
     [
       3,
       "alone"
-    ],
-    [
-      4,
-      "door"
     ],
     [
       4,
@@ -57,26 +44,26 @@
   ],
   "doors": [
     [
-      11,
-      12
+      7,
+      8
     ],
     [
-      11,
-      16
+      12,
+      17
     ],
     [
       13,
       18
     ],
     [
-      21,
-      22
+      19,
+      24
     ]
   ],
   "windows": [
     [
-      9,
-      "r"
+      5,
+      "l"
     ],
     [
       15,
@@ -88,12 +75,24 @@
     ]
   ],
   "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "couch",
+      0
+    ],
+    [
+      "furniture",
+      null,
+      0
+    ]
+  ],
   "rules": [
     "glyphs"
   ],
-  "tags": "LL.....C....LC...........",
-  "hard": 0,
-  "hardest": 2,
-  "steps": 11,
+  "tags": ".......C.....L.........L.",
+  "hard": 4,
+  "hardest": 4,
+  "steps": 18,
   "extra": true
 }

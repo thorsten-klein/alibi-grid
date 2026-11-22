@@ -1,100 +1,95 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": ".a..afe......ba.aed.e...a",
+  "rooms": "0011100111001112233322333",
+  "objects": ".f....c..d..d....bf.....f",
   "roomNames": [
+    "Kitchen",
     "Games Room",
-    "Dining Hall",
-    "Spa",
+    "Boot Room",
     "Lobby"
   ],
   "people": [
-    "Alma the avalanche guard",
-    "Vince the vlogger",
-    "Birgit the bartender",
-    "Cora the cook",
+    "Albert the athlete",
+    "Bea the bartender",
+    "Vince the vet",
+    "Cedric the cook",
     "Dexter the doctor"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
-      "on",
-      "chair"
-    ],
-    [
-      2,
       "next",
-      "chair"
+      "wood"
     ],
     [
-      2,
-      "same",
-      3
+      1,
+      "col",
+      2
     ],
     [
       3,
       "next",
-      "tree"
+      "wood"
+    ],
+    [
+      3,
+      "door"
     ],
     [
       4,
-      "alone"
+      "door"
     ]
   ],
   "solution": [
-    4,
+    0,
     7,
-    11,
-    15,
-    23
+    13,
+    19,
+    21
   ],
   "doors": [
     [
-      1,
-      2
-    ],
-    [
-      5,
-      10
-    ],
-    [
-      7,
+      11,
       12
     ],
     [
-      9,
-      14
+      11,
+      16
     ],
     [
-      12,
-      13
+      14,
+      19
+    ],
+    [
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      14,
+      "r"
     ],
     [
-      5,
-      "l"
+      19,
+      "r"
     ],
     [
-      10,
-      "l"
+      24,
+      "b"
     ]
   ],
-  "tries": 4,
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
   "facts": [
     [
-      "onCount",
-      "sofa",
+      "emptyRooms",
+      null,
       0
     ]
   ],
-  "hard": 4,
-  "hardest": 4,
-  "steps": 19,
   "extra": true
 }

@@ -1,38 +1,37 @@
 {
   "size": 6,
-  "rooms": "001111001111001111222233444433444433",
-  "objects": "e...c..eb.......b.bbed..bb...c..d...",
+  "rooms": "000011000011223311223311224444224444",
+  "objects": "......d.d.....dd...........d.f.b.b..",
   "roomNames": [
-    "Dungeon",
-    "Armory",
     "Tower",
-    "Courtyard",
-    "Chapel"
+    "Stables",
+    "Armory",
+    "Solar",
+    "Dungeon"
   ],
   "people": [
-    "Ada the archer",
-    "Bea the bard",
-    "Carl the chronicler",
-    "Daisy the doorkeeper",
-    "Elsa the envoy",
-    "Victor the vintner"
+    "Alma the archer",
+    "Bella the bard",
+    "Celia the chronicler",
+    "Dora the dancer",
+    "Vera the verger",
+    "Edgar the envoy"
   ],
-  "victim": 5,
+  "victim": 4,
   "clues": [
     [
       0,
-      "row",
-      0
+      "col",
+      4
     ],
     [
       1,
-      "next",
-      "barrel"
+      "door"
     ],
     [
       2,
-      "same",
-      1
+      "row",
+      2
     ],
     [
       3,
@@ -40,45 +39,54 @@
     ],
     [
       4,
-      "door"
+      "next",
+      "candles"
+    ],
+    [
+      5,
+      "window"
     ]
   ],
   "solution": [
-    2,
-    10,
+    4,
+    7,
     17,
     18,
-    27,
-    31
+    26,
+    33
   ],
   "doors": [
     [
-      1,
-      2
+      9,
+      10
     ],
     [
-      12,
-      18
+      7,
+      13
     ],
     [
-      14,
-      20
+      9,
+      15
     ],
     [
-      17,
-      23
+      15,
+      16
     ],
     [
-      21,
-      22
+      22,
+      28
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      31,
+      32
     ],
     [
       21,
       27
-    ],
-    [
-      27,
-      28
     ]
   ],
   "windows": [
@@ -87,28 +95,23 @@
       "t"
     ],
     [
-      5,
+      23,
       "r"
     ],
     [
-      18,
-      "l"
+      30,
+      "b"
     ],
     [
-      35,
-      "r"
+      33,
+      "b"
     ]
   ],
   "tries": 1,
   "facts": [
     [
-      "doorCount",
-      null,
-      4
-    ],
-    [
-      "touch",
-      null,
+      "roomCount",
+      0,
       1
     ]
   ],
@@ -118,9 +121,9 @@
   "court": [
     1
   ],
-  "rank": "knkccc",
-  "hard": 3,
+  "rank": "nknccc",
+  "hard": 2,
   "hardest": 3,
-  "steps": 15,
+  "steps": 16,
   "extra": true
 }

@@ -1,46 +1,47 @@
 {
   "size": 5,
-  "rooms": "0011100111001112233322333",
-  "objects": ".......f..........a...ad.",
+  "rooms": "0011100111222332223322233",
+  "objects": "ca......d.aec......ae.e..",
   "roomNames": [
-    "Green Room",
-    "Box Office",
-    "Lighting Booth",
-    "Orchestra Pit"
+    "Orchestra Pit",
+    "Stage",
+    "Wings",
+    "Green Room"
   ],
   "people": [
-    "Astrid the author",
-    "Bea the bass player",
-    "Vera the violinist",
-    "Cora the choreographer",
-    "Dmitri the director"
+    "Astrid the agent",
+    "Vivian the violinist",
+    "Birgit the bass player",
+    "Carl the critic",
+    "Dexter the dancer"
   ],
-  "victim": 2,
+  "victim": 1,
   "clues": [
     [
       0,
-      "alone"
-    ],
-    [
-      1,
-      "next",
-      "light"
-    ],
-    [
-      3,
       "window"
     ],
     [
-      4,
+      2,
       "door"
+    ],
+    [
+      3,
+      "next",
+      "piano"
+    ],
+    [
+      4,
+      "same",
+      2
     ]
   ],
   "solution": [
-    1,
-    8,
-    14,
-    15,
-    22
+    3,
+    9,
+    10,
+    17,
+    21
   ],
   "doors": [
     [
@@ -48,47 +49,46 @@
       7
     ],
     [
-      11,
-      16
+      5,
+      10
     ],
     [
-      12,
-      17
+      7,
+      12
     ],
     [
-      21,
-      22
+      8,
+      13
+    ],
+    [
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      15,
-      "l"
+      3,
+      "t"
     ],
     [
-      19,
-      "r"
-    ],
-    [
-      21,
+      24,
       "b"
+    ],
+    [
+      24,
+      "r"
     ]
   ],
-  "tries": 3,
+  "tries": 2,
   "facts": [
     [
-      "edge",
+      "corner",
       null,
-      4
-    ],
-    [
-      "furniture",
-      null,
-      1
+      2
     ]
   ],
-  "hard": 5,
-  "hardest": 4,
-  "steps": 18,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 15,
   "extra": true
 }

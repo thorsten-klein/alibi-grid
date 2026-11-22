@@ -1,54 +1,44 @@
 {
   "size": 5,
-  "rooms": "0011100111001112223322233",
-  "objects": ".....ba.......b...b..bb.f",
+  "rooms": "0011100111222332223322233",
+  "objects": "b..bb....bb.e...c..c..cc.",
   "roomNames": [
-    "Throne Room",
-    "Dungeon",
-    "Stables",
-    "Armory"
+    "Smithy",
+    "Tower",
+    "Chapel",
+    "Great Hall"
   ],
   "people": [
     "Ada the archer",
-    "Birgit the bard",
-    "Vivian the verger",
-    "Clara the chronicler",
-    "Dexter the dancer"
+    "Bea the baker",
+    "Carl the chronicler",
+    "Vera the verger",
+    "Della the dancer"
   ],
-  "victim": 2,
+  "victim": 3,
   "clues": [
     [
       0,
-      "alone"
+      "door"
     ],
     [
       1,
-      "next",
-      "cot"
+      "alone"
     ],
     [
       2,
-      "notRoom",
-      0
-    ],
-    [
-      2,
-      "door"
-    ],
-    [
-      3,
-      "door"
+      "row",
+      2
     ],
     [
       4,
-      "on",
-      "cot"
+      "alone"
     ]
   ],
   "solution": [
-    0,
-    9,
-    12,
+    2,
+    5,
+    14,
     18,
     21
   ],
@@ -58,53 +48,58 @@
       2
     ],
     [
-      11,
-      16
+      5,
+      10
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
     ],
     [
       12,
-      17
-    ],
-    [
-      14,
-      19
-    ],
-    [
-      17,
-      18
+      13
     ]
   ],
   "windows": [
     [
-      1,
+      4,
       "t"
     ],
     [
-      19,
-      "r"
+      20,
+      "l"
     ],
     [
-      20,
+      24,
       "b"
     ]
   ],
   "tries": 1,
   "facts": [
     [
-      "edge",
-      null,
+      "nextCount",
+      "barrel",
       3
+    ],
+    [
+      "onCount",
+      "cot",
+      0
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    2
+    0
   ],
-  "rank": "ccckn",
-  "hard": 2,
-  "hardest": 3,
-  "steps": 15,
+  "rank": "ckckc",
+  "hard": 4,
+  "hardest": 5,
+  "steps": 19,
   "extra": true
 }

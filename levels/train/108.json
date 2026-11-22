@@ -1,119 +1,131 @@
 {
   "size": 7,
-  "rooms": "0001111000111100022220002222333344433334443333444",
-  "objects": ".f..dc....bcc.fd.b.b..b.bdb..e..aa..f....f...b..e",
+  "rooms": "0000111000011100001112223333222333322244442224444",
+  "objects": "e..c..b.a....abe..........ebfaa.db.a.ca....e...d.",
   "roomNames": [
-    "Sleeper C",
-    "Bar Car",
+    "Guard's Van",
+    "Galley",
+    "Corridor",
     "Observation Car",
-    "Dining Car",
-    "Corridor"
+    "Sleeper B"
   ],
   "people": [
-    "Ada the attendant",
-    "Viola the violinist",
-    "Birgit the banker",
-    "Cora the courier",
-    "Della the dentist",
-    "Edgar the envoy",
-    "Frank the fiddler"
+    "Albert the attendant",
+    "Bella the bookseller",
+    "Vivian the violinist",
+    "Celia the courier",
+    "Dora the diplomat",
+    "Ena the engineer",
+    "Felix the firefighter"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
-      "col",
-      2
+      "next",
+      "bunk"
     ],
     [
-      2,
+      1,
+      "next",
+      "lamp"
+    ],
+    [
+      3,
+      "window"
+    ],
+    [
+      4,
       "same",
       3
     ],
     [
-      3,
-      "on",
-      "bunk"
-    ],
-    [
-      3,
-      "next",
-      "crate"
-    ],
-    [
       4,
-      "row",
-      4
+      "door"
     ],
     [
       5,
-      "alone"
+      "next",
+      "seat"
+    ],
+    [
+      5,
+      "next",
+      "suitcase"
     ],
     [
       6,
-      "window"
+      "next",
+      "suitcase"
     ]
   ],
   "solution": [
-    2,
-    8,
-    20,
-    26,
+    5,
+    7,
+    18,
+    27,
     31,
-    39,
-    42
+    36,
+    44
   ],
   "doors": [
     [
-      9,
-      10
-    ],
-    [
-      23,
-      24
-    ],
-    [
-      22,
-      29
-    ],
-    [
-      11,
+      17,
       18
     ],
     [
-      24,
+      14,
+      21
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      30,
       31
     ],
     [
-      25,
-      32
+      37,
+      38
     ],
     [
-      45,
-      46
+      34,
+      41
     ]
   ],
   "windows": [
     [
-      28,
+      7,
       "l"
     ],
     [
-      42,
-      "l"
-    ],
-    [
-      44,
-      "b"
-    ],
-    [
-      48,
+      20,
       "r"
+    ],
+    [
+      27,
+      "r"
+    ],
+    [
+      35,
+      "l"
     ]
   ],
-  "tries": 6,
-  "hard": 4,
-  "hardest": 5,
+  "tries": 2,
+  "facts": [
+    [
+      "onCount",
+      "bunk",
+      1
+    ]
+  ],
+  "hard": 2,
+  "hardest": 4,
   "steps": 19,
   "extra": true
 }

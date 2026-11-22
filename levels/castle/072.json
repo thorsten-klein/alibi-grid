@@ -1,26 +1,30 @@
 {
   "size": 5,
-  "rooms": "0001100011000112223322233",
-  "objects": ".b.aa..db..fb..........c.",
+  "rooms": "0011100111001112223322233",
+  "objects": "b.e...a..d.....ba..c...a.",
   "roomNames": [
-    "Gatehouse",
-    "Great Hall",
-    "Kitchen",
-    "Dungeon"
+    "Courtyard",
+    "Dungeon",
+    "Solar",
+    "Great Hall"
   ],
   "people": [
-    "Vince the vintner",
-    "Alma the archer",
-    "Bella the bard",
-    "Cora the cupbearer",
+    "Ada the archer",
+    "Vivian the vintner",
+    "Bruno the bard",
+    "Celia the cupbearer",
     "Daisy the doorkeeper"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
+      0,
+      "door"
+    ],
+    [
       1,
-      "on",
-      "cot"
+      "next",
+      "candles"
     ],
     [
       2,
@@ -28,69 +32,75 @@
     ],
     [
       3,
-      "alone"
+      "on",
+      "cot"
     ],
     [
       4,
-      "window"
+      "next",
+      "bench"
     ]
   ],
   "solution": [
     1,
     8,
     12,
-    19,
-    20
+    15,
+    24
   ],
   "doors": [
     [
-      12,
-      13
+      1,
+      2
+    ],
+    [
+      10,
+      15
     ],
     [
       12,
       17
     ],
     [
-      13,
-      18
+      14,
+      19
     ],
     [
-      17,
-      18
+      22,
+      23
     ]
   ],
   "windows": [
-    [
-      4,
-      "r"
-    ],
     [
       5,
       "l"
     ],
     [
       20,
+      "l"
+    ],
+    [
+      21,
       "b"
     ]
   ],
-  "tries": 3,
+  "tries": 1,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 12,
   "facts": [
     [
-      "touch",
-      null,
-      0
+      "roomCount",
+      2,
+      1
     ]
   ],
   "rules": [
     "ranks"
   ],
   "court": [
-    3
+    1
   ],
-  "rank": "ccckk",
-  "hard": 3,
-  "hardest": 3,
-  "steps": 16,
+  "rank": "cnkkc",
   "extra": true
 }

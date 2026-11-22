@@ -1,135 +1,116 @@
 {
-  "size": 7,
-  "rooms": "0011222001122200112220011222333333333333334444444",
-  "objects": "..f....a....cca..f..........d...ef.f..........b..",
+  "size": 6,
+  "rooms": "001111001111002222002222333444333444",
+  "objects": "b.....daa...........e.e...........d.",
   "roomNames": [
-    "Spring",
-    "Cave",
     "Lookout Rock",
-    "Elder Hut",
+    "Fire Pit",
+    "Cave",
+    "Spring",
     "Bone Yard"
   ],
   "people": [
-    "Alma the acrobat",
-    "Bella the builder",
-    "Carl the carrier",
-    "Daisy the dancer",
-    "Vince the valley guide",
-    "Edgar the elder",
-    "Flora the flute player"
+    "Vince the visionary",
+    "Astrid the artist",
+    "Bea the beekeeper",
+    "Clara the carver",
+    "Dora the dancer",
+    "Ena the elder"
   ],
-  "victim": 4,
+  "victim": 0,
   "clues": [
-    [
-      0,
-      "alone"
-    ],
     [
       1,
       "next",
-      "bones"
-    ],
-    [
-      1,
-      "row",
-      1
+      "log"
     ],
     [
       2,
-      "row",
-      2
+      "next",
+      "tree"
     ],
     [
       3,
       "window"
     ],
     [
+      3,
+      "alone"
+    ],
+    [
       4,
-      "door"
+      "same",
+      5
     ],
     [
       5,
-      "next",
-      "tree"
-    ],
-    [
-      6,
-      "alone"
+      "door"
     ]
   ],
   "solution": [
-    1,
-    10,
-    19,
-    27,
-    30,
-    39,
-    42
+    5,
+    9,
+    16,
+    18,
+    25,
+    32
   ],
   "doors": [
     [
-      22,
-      23
+      1,
+      2
     ],
     [
-      22,
-      29
+      13,
+      14
     ],
     [
-      24,
-      25
+      18,
+      24
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      20,
+      26
     ],
     [
       23,
-      30
+      29
     ],
     [
-      26,
+      32,
       33
-    ],
-    [
-      37,
-      44
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
-      0,
+      18,
       "l"
     ],
     [
-      14,
-      "l"
-    ],
-    [
-      27,
+      29,
       "r"
-    ]
-  ],
-  "tries": 0,
-  "facts": [
-    [
-      "doorCount",
-      null,
-      1
     ],
     [
-      "windowCount",
-      null,
-      1
+      31,
+      "b"
+    ],
+    [
+      35,
+      "b"
     ]
   ],
+  "tries": 6,
   "rules": [
     "trades"
   ],
-  "trade": "3321...",
-  "tags": ".3......0..................1.2.................33",
-  "hard": 8,
-  "hardest": 5,
-  "steps": 24,
+  "trade": ".00011",
+  "tags": "................0.........2.....1...",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 21,
   "extra": true
 }

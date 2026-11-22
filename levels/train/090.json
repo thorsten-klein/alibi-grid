@@ -1,120 +1,119 @@
 {
   "size": 6,
-  "rooms": "000111000111222111222333444333444333",
-  "objects": "...cebb.c....ec......d....a...fd.c.a",
+  "rooms": "001122001122001122333344333344333344",
+  "objects": "b..bbb.d....c..f..f..ab.a...........",
   "roomNames": [
-    "Sleeper B",
-    "Bar Car",
-    "Sleeper A",
-    "Observation Car",
-    "Sleeper C"
+    "Lounge Car",
+    "Galley",
+    "Baggage Car",
+    "Guard's Van",
+    "Sleeper B"
   ],
   "people": [
+    "Ada the accordionist",
     "Vivian the violinist",
-    "Arthur the attendant",
-    "Bea the bookseller",
-    "Celia the courier",
-    "Dmitri the dentist",
-    "Elsa the engineer"
+    "Bella the banker",
+    "Carl the conductor",
+    "Dora the dentist",
+    "Edgar the envoy"
   ],
-  "victim": 0,
+  "victim": 1,
   "clues": [
     [
+      0,
+      "alone"
+    ],
+    [
       1,
-      "on",
-      "bunk"
+      "window"
     ],
     [
       2,
-      "alone"
+      "door"
     ],
     [
       3,
       "next",
-      "suitcase"
+      "wine"
     ],
     [
       4,
-      "notRoom",
-      0
+      "col",
+      3
     ],
     [
       5,
-      "on",
+      "next",
       "seat"
     ]
   ],
   "solution": [
-    1,
-    6,
-    15,
-    20,
-    28,
-    35
+    2,
+    11,
+    16,
+    19,
+    27,
+    30
   ],
   "doors": [
     [
-      2,
-      3
+      13,
+      14
     ],
     [
-      7,
-      13
+      13,
+      19
     ],
     [
-      14,
-      15
+      15,
+      16
     ],
     [
       15,
       21
     ],
     [
-      20,
-      21
+      17,
+      23
     ],
     [
-      18,
-      24
-    ],
-    [
-      32,
-      33
+      33,
+      34
     ]
   ],
   "windows": [
     [
       0,
-      "t"
+      "l"
     ],
     [
       11,
       "r"
     ],
     [
-      12,
-      "l"
+      31,
+      "b"
     ],
     [
-      29,
-      "r"
+      33,
+      "b"
     ]
   ],
-  "tries": 6,
+  "tries": 1,
+  "hard": 3,
+  "hardest": 3,
+  "steps": 19,
   "facts": [
     [
       "nextCount",
-      "lamp",
+      "crate",
       0
     ],
     [
-      "touch",
-      null,
+      "roomCount",
+      2,
       2
     ]
   ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 19,
   "extra": true
 }

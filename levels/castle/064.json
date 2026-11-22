@@ -1,81 +1,82 @@
 {
   "size": 5,
-  "rooms": "0001100011000112233322333",
-  "objects": "b...df....ce.a....b.a...a",
+  "rooms": "0011100111222332223322233",
+  "objects": "b.a....cabca.....d.c.e...",
   "roomNames": [
     "Chapel",
-    "Gatehouse",
-    "Courtyard",
-    "Throne Room"
+    "Solar",
+    "Smithy",
+    "Armory"
   ],
   "people": [
-    "Arthur the alchemist",
-    "Bea the baker",
-    "Carl the cupbearer",
     "Vera the vintner",
-    "Dexter the doorkeeper"
+    "Ada the archer",
+    "Basil the baker",
+    "Cora the cupbearer",
+    "Dexter the dancer"
   ],
-  "victim": 3,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "door"
-    ],
-    [
       1,
-      "next",
-      "bench"
+      "on",
+      "cot"
     ],
     [
       2,
       "door"
+    ],
+    [
+      3,
+      "next",
+      "barrel"
     ],
     [
       4,
-      "on",
-      "bench"
+      "same",
+      3
     ]
   ],
   "solution": [
-    2,
-    8,
-    14,
-    16,
-    20
+    3,
+    9,
+    11,
+    15,
+    22
   ],
   "doors": [
     [
-      2,
-      3
+      6,
+      7
     ],
     [
-      10,
-      15
+      6,
+      11
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      8,
+      13
     ],
     [
       12,
-      17
-    ],
-    [
-      14,
-      19
-    ],
-    [
-      16,
-      17
+      13
     ]
   ],
   "windows": [
     [
-      10,
-      "l"
-    ],
-    [
-      15,
-      "l"
+      3,
+      "t"
     ],
     [
       22,
+      "b"
+    ],
+    [
+      23,
       "b"
     ]
   ],
@@ -86,9 +87,9 @@
   "court": [
     1
   ],
-  "rank": "knnkc",
-  "hard": 3,
+  "rank": "nkccc",
+  "hard": 2,
   "hardest": 4,
-  "steps": 13,
+  "steps": 15,
   "extra": true
 }

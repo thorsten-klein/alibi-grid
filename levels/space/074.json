@@ -1,108 +1,99 @@
 {
   "size": 5,
-  "rooms": "0001100011223332233322333",
-  "objects": "..b..ba..d..a..d.a.d.a...",
+  "rooms": "0001100011222112223322233",
+  "objects": "b.f.....bade...........d.",
   "roomNames": [
+    "Gym",
     "Bridge",
-    "Med Bay",
-    "Comms",
-    "Engine Room"
+    "Cargo Bay",
+    "Observatory"
   ],
   "people": [
-    "Alma the analyst",
-    "Bea the biologist",
-    "Cedric the captain",
+    "Albert the astronaut",
+    "Bea the botanist",
+    "Carl the captain",
     "Dora the doctor",
-    "Victor the volunteer"
+    "Victor the visitor"
   ],
   "victim": 4,
   "clues": [
     [
       0,
-      "alone"
+      "next",
+      "pod"
     ],
     [
       1,
       "next",
-      "scope"
+      "pod"
+    ],
+    [
+      1,
+      "door"
     ],
     [
       2,
       "door"
     ],
     [
-      2,
-      "alone"
-    ],
-    [
       3,
-      "on",
-      "seat"
+      "next",
+      "plant"
     ]
   ],
   "solution": [
-    0,
-    8,
-    11,
-    17,
-    24
+    3,
+    5,
+    14,
+    16,
+    22
   ],
   "doors": [
     [
-      2,
-      3
+      7,
+      8
     ],
     [
       5,
       10
     ],
     [
-      7,
-      12
+      12,
+      13
     ],
     [
-      9,
-      14
+      14,
+      19
     ],
     [
-      11,
-      12
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      20,
-      "b"
+      4,
+      "r"
     ],
     [
       22,
       "b"
     ],
     [
-      23,
+      24,
       "b"
     ]
   ],
-  "tries": 6,
+  "tries": 2,
   "facts": [
     [
-      "onCount",
-      "pod",
-      0
-    ],
-    [
-      "edge",
+      "touch",
       null,
-      2
-    ],
-    [
-      "roomCount",
-      3,
-      2
+      1
     ]
   ],
-  "hard": 4,
+  "hard": 2,
   "hardest": 3,
-  "steps": 20,
+  "steps": 13,
   "extra": true
 }

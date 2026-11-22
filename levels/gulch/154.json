@@ -1,231 +1,181 @@
 {
-  "size": 12,
-  "rooms": "000011222222000011222222000011222222000011222222000011333333000011333333444445556666444445556666444445557777888885557777888885557777888885557777",
-  "objects": "..b..dba.bb...b..b..b...cfa..b.d..c..aa.....b.....b.......a..........f...cb............c.b..b.c.fa...f..e............ac.....d.....a.edf.e.....a.",
+  "size": 10,
+  "rooms": "0000112222000011222200001122220000113333444411333344441133335555566677555556667755555666775555566677",
+  "objects": "....ee........fe..................e.b.b....f....b...cb...b.a.c..cfeb.d...ef...c..f.bea.....bb..e....",
   "roomNames": [
-    "Bank",
-    "Jail",
-    "Telegraph Office",
-    "General Store",
     "Church",
+    "Jail",
+    "Hotel",
+    "Telegraph Office",
+    "Barber",
+    "General Store",
     "Corral",
-    "Saloon",
-    "Livery",
-    "Hotel"
+    "Sheriff Office"
   ],
   "people": [
-    "Astrid the attorney",
+    "Ada the attorney",
     "Birgit the blacksmith",
-    "Cedric the cattle driver",
-    "Victor the vaquero",
-    "Della the dancer",
-    "Elias the engineer",
-    "Felix the farrier",
-    "Greta the gunsmith",
-    "Hazel the hatmaker",
-    "Ines the inventor",
-    "Jade the judge",
-    "Kira the keg maker"
+    "Cora the cook",
+    "Della the deputy",
+    "Ena the engineer",
+    "Frank the farmer",
+    "Gus the gambler",
+    "Henrik the hatmaker",
+    "Ivo the inventor",
+    "Vivian the vet"
   ],
-  "victim": 3,
+  "victim": 9,
   "clues": [
     [
       0,
+      "row",
+      0
+    ],
+    [
+      1,
+      "door"
+    ],
+    [
+      1,
+      "withBandit"
+    ],
+    [
+      2,
+      "bandit"
+    ],
+    [
+      3,
       "on",
       "bed"
     ],
     [
-      0,
-      "next",
-      "chair"
-    ],
-    [
-      1,
-      "next",
-      "bed"
-    ],
-    [
-      2,
-      "alone"
-    ],
-    [
-      3,
-      "next",
-      "chair"
-    ],
-    [
       4,
-      "door"
-    ],
-    [
-      5,
-      "same",
-      4
-    ],
-    [
-      5,
       "next",
       "horse"
     ],
     [
-      6,
-      "next",
-      "bed"
+      4,
+      "alone"
     ],
     [
-      6,
-      "door"
-    ],
-    [
-      6,
-      "bandit"
-    ],
-    [
-      7,
-      "bandit"
-    ],
-    [
-      8,
+      5,
       "on",
       "chair"
     ],
     [
-      9,
+      6,
       "next",
       "cactus"
     ],
     [
-      9,
-      "same",
-      10
+      7,
+      "next",
+      "chair"
     ],
     [
-      10,
+      8,
       "next",
       "horse"
-    ],
-    [
-      11,
-      "window"
     ]
   ],
   "solution": [
-    6,
-    15,
-    29,
+    7,
+    13,
+    21,
     36,
+    42,
     59,
-    70,
+    68,
+    75,
     80,
-    91,
-    97,
-    112,
-    122,
-    141
+    94
   ],
   "doors": [
     [
+      13,
+      14
+    ],
+    [
+      31,
+      41
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      55,
+      56
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      54,
+      64
+    ],
+    [
+      55,
+      65
+    ],
+    [
       27,
-      28
+      37
     ],
     [
-      60,
-      72
-    ],
-    [
-      17,
-      18
-    ],
-    [
-      65,
+      56,
       66
     ],
     [
+      58,
+      68
+    ],
+    [
+      52,
+      62
+    ],
+    [
       64,
-      76
+      65
     ],
     [
-      65,
-      77
-    ],
-    [
-      47,
-      59
-    ],
-    [
-      67,
-      79
-    ],
-    [
-      71,
-      83
-    ],
-    [
-      88,
-      89
-    ],
-    [
-      96,
-      108
-    ],
-    [
-      79,
-      80
-    ],
-    [
-      115,
-      116
-    ],
-    [
-      136,
-      137
-    ],
-    [
-      92,
-      104
+      87,
+      88
     ]
   ],
   "windows": [
     [
-      5,
+      1,
       "t"
     ],
     [
-      83,
+      69,
       "r"
     ],
     [
-      96,
-      "l"
-    ],
-    [
-      132,
+      90,
       "b"
     ],
     [
-      133,
+      92,
       "b"
     ],
     [
-      138,
+      94,
       "b"
     ],
     [
-      141,
+      98,
       "b"
     ]
   ],
-  "tries": 5,
+  "tries": 2,
   "facts": [
     [
-      "nextCount",
-      "horse",
-      3
-    ],
-    [
       "roomCount",
-      3,
-      2
+      1,
+      0
     ]
   ],
   "rules": [
@@ -233,11 +183,11 @@
   ],
   "bandits": 3,
   "lawful": [
-    0,
-    1
+    2,
+    5
   ],
   "hard": 8,
-  "hardest": 10,
-  "steps": 33,
+  "hardest": 8,
+  "steps": 24,
   "extra": true
 }

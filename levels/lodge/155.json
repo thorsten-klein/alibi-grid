@@ -1,77 +1,78 @@
 {
-  "size": 12,
-  "rooms": "001112222333001112222333001112222333001112222333001114444333001114444333444444555555444444555555667777888888667777888888667777888888667777888888",
-  "objects": "....b...b.e........fb...bb.........adfcaa...e.e.a..e..b.....b...ae.ac...dad.......aa........d...d.fb.c...a.....a.......a...b......ba.aa.a.....a.",
+  "size": 10,
+  "rooms": "0000001111000000111122220011112222001111223334455522333445552233344555223334466677777446667777744666",
+  "objects": "....b...afc..a..a.....a.a.....ef..c...ed..f.b.......f..b....e..a.f.eead...a.........dd..d......b....",
   "roomNames": [
-    "Lobby",
     "Kitchen",
-    "Ski Room",
-    "Spa",
-    "Bar",
-    "Sauna",
     "Terrace",
+    "Ski Room",
+    "Suite",
+    "Lobby",
+    "Bar",
     "Fireside Lounge",
-    "Suite"
+    "Boot Room"
   ],
   "people": [
-    "Albert the avalanche guard",
-    "Bella the bartender",
-    "Celia the climber",
-    "Dora the doctor",
-    "Edith the explorer",
+    "Astrid the athlete",
+    "Bea the bartender",
+    "Carl the climber",
+    "Della the driver",
+    "Victor the vlogger",
+    "Ena the explorer",
     "Fiona the fisher",
-    "Gideon the guide",
-    "Hilda the hotelier",
-    "Viola the vet",
-    "Igor the ice climber",
-    "Jutta the journalist",
-    "Kai the knitter"
+    "Greta the glacier expert",
+    "Henrik the hiker",
+    "Isla the ice climber"
   ],
-  "victim": 8,
+  "victim": 4,
   "clues": [
     [
       0,
-      "window"
-    ],
-    [
-      0,
-      "alone"
-    ],
-    [
-      1,
       "next",
       "sofa"
     ],
     [
+      0,
+      "same",
+      1
+    ],
+    [
       1,
-      "alone"
+      "next",
+      "skis"
     ],
     [
       2,
-      "room",
-      2
-    ],
-    [
-      3,
       "next",
       "chair"
     ],
     [
       3,
-      "col",
-      11
+      "next",
+      "wood"
     ],
     [
       4,
-      "door"
+      "next",
+      "tree"
     ],
     [
       5,
-      "row",
-      5
+      "next",
+      "sofa"
     ],
     [
       6,
+      "on",
+      "chair"
+    ],
+    [
+      7,
+      "next",
+      "wood"
+    ],
+    [
+      7,
       "next",
       "fire"
     ],
@@ -81,150 +82,113 @@
     ],
     [
       8,
-      "next",
-      "wood"
-    ],
-    [
-      9,
-      "notRoom",
-      5
+      "door"
     ],
     [
       9,
       "next",
       "fire"
-    ],
-    [
-      10,
-      "col",
-      7
-    ],
-    [
-      10,
-      "alone"
-    ],
-    [
-      11,
-      "next",
-      "chair"
-    ],
-    [
-      11,
-      "window"
     ]
   ],
   "solution": [
-    2,
-    13,
-    30,
-    47,
-    57,
-    70,
-    80,
-    88,
-    99,
-    108,
-    127,
-    137
+    3,
+    11,
+    26,
+    32,
+    40,
+    54,
+    69,
+    75,
+    87,
+    98
   ],
   "doors": [
     [
-      49,
-      50
+      5,
+      6
     ],
     [
-      60,
-      72
+      13,
+      23
     ],
     [
-      16,
-      17
+      34,
+      44
     ],
     [
-      62,
-      74
+      35,
+      45
     ],
     [
-      32,
-      33
+      36,
+      46
     ],
     [
-      42,
-      54
+      37,
+      47
     ],
     [
-      56,
-      57
+      33,
+      43
     ],
     [
-      69,
-      81
+      70,
+      80
     ],
     [
-      77,
-      78
+      54,
+      55
     ],
     [
-      85,
-      97
+      74,
+      84
+    ],
+    [
+      46,
+      47
     ],
     [
       86,
-      98
+      87
     ],
     [
-      90,
-      102
+      84,
+      85
     ],
     [
-      133,
-      134
-    ],
-    [
-      113,
-      114
+      67,
+      77
     ]
   ],
   "windows": [
     [
-      2,
-      "t"
-    ],
-    [
-      96,
+      20,
       "l"
     ],
     [
-      119,
+      50,
+      "l"
+    ],
+    [
+      69,
       "r"
     ],
     [
-      132,
+      80,
       "l"
     ],
     [
-      133,
+      91,
       "b"
     ],
     [
-      137,
-      "b"
-    ],
-    [
-      143,
+      99,
       "b"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "edge",
-      null,
-      4
-    ]
-  ],
-  "hard": 4,
+  "tries": 0,
+  "hard": 9,
   "hardest": 8,
-  "steps": 27,
+  "steps": 28,
   "extra": true
 }

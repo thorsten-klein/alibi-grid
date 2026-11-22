@@ -1,57 +1,51 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "..d........f......c..bd..",
+  "rooms": "0011100111222222222233333",
+  "objects": "..a....c........babb..a.e",
   "roomNames": [
-    "Corridor",
+    "Baggage Car",
     "Mail Car",
-    "Bar Car",
+    "Observation Car",
     "Dining Car"
   ],
   "people": [
-    "Albert the accordionist",
-    "Birgit the bookseller",
-    "Carl the conductor",
-    "Dmitri the dentist",
-    "Vera the vendor"
+    "Albert the attendant",
+    "Bella the bookseller",
+    "Cora the conductor",
+    "Vera the violinist",
+    "Dmitri the dentist"
   ],
-  "victim": 4,
+  "victim": 3,
   "clues": [
     [
       0,
+      "window"
+    ],
+    [
+      1,
       "alone"
     ],
     [
-      1,
-      "notRoom",
-      3
-    ],
-    [
-      1,
-      "notRoom",
-      0
-    ],
-    [
-      1,
-      "door"
-    ],
-    [
       2,
-      "notRoom",
-      0
+      "door"
     ],
     [
       3,
       "next",
-      "crate"
+      "seat"
+    ],
+    [
+      4,
+      "on",
+      "seat"
     ]
   ],
   "solution": [
-    1,
-    8,
-    14,
-    17,
-    20
+    4,
+    5,
+    11,
+    18,
+    22
   ],
   "doors": [
     [
@@ -59,51 +53,35 @@
       7
     ],
     [
-      5,
-      10
+      6,
+      11
     ],
     [
       7,
       12
     ],
     [
-      8,
-      13
-    ],
-    [
-      22,
-      23
+      19,
+      24
     ]
   ],
   "windows": [
-    [
-      2,
-      "t"
-    ],
     [
       4,
       "t"
     ],
     [
-      24,
-      "r"
-    ]
-  ],
-  "tries": 8,
-  "facts": [
-    [
-      "doorCount",
-      null,
-      1
+      20,
+      "b"
     ],
     [
-      "touch",
-      null,
-      0
+      20,
+      "l"
     ]
   ],
-  "hard": 3,
+  "tries": 2,
+  "hard": 1,
   "hardest": 4,
-  "steps": 18,
+  "steps": 14,
   "extra": true
 }

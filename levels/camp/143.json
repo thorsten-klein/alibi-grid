@@ -1,202 +1,179 @@
 {
-  "size": 10,
-  "rooms": "0000112233000011223300001122331111112233111111223344555555554455555555446666777744666677774466667777",
-  "objects": ".bba...b..........c.a.ffadf...c.......c..b..bc......a.ac..c....a.........ccc.b.ad...aff...a..faa...c",
+  "size": 9,
+  "rooms": "000011111000011111000022222333322222333322222333344555333344555666644555666644555",
+  "objects": "c....e.c..c.a.ab....ec....f.cb......acfa.....edea..b.....f........bb.e..e.c..ea..",
   "roomNames": [
+    "Spring",
     "Berry Grove",
-    "Cave",
-    "Hunting Ground",
-    "Elder Hut",
-    "River Bank",
     "Hide Tent",
-    "Painted Wall",
-    "Spring"
+    "Bone Yard",
+    "Fire Pit",
+    "Cave",
+    "Elder Hut"
   ],
   "people": [
     "Alma the artist",
-    "Bella the builder",
-    "Cora the carver",
-    "Della the drummer",
-    "Elsa the elder",
-    "Fiona the firekeeper",
-    "Gus the grinder",
-    "Hilda the hide tanner",
-    "Vince the valley guide",
-    "Igor the ice cutter"
+    "Basil the beekeeper",
+    "Celia the carver",
+    "Daisy the dancer",
+    "Edith the elk tamer",
+    "Freya the firekeeper",
+    "Gideon the grinder",
+    "Hazel the hide tanner",
+    "Vivian the visionary"
   ],
   "victim": 8,
   "clues": [
     [
       0,
-      "window"
+      "next",
+      "tree"
     ],
     [
       0,
-      "same",
-      2
+      "door"
     ],
     [
       1,
-      "next",
-      "bones"
-    ],
-    [
-      2,
-      "on",
-      "log"
-    ],
-    [
-      3,
       "alone"
     ],
     [
-      4,
-      "next",
-      "leaves"
+      2,
+      "same",
+      4
     ],
     [
-      5,
+      3,
+      "next",
+      "log"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      4,
       "col",
       7
     ],
     [
       5,
-      "same",
-      6
+      "door"
     ],
     [
       6,
-      "next",
-      "boulder"
+      "door"
     ],
     [
       7,
-      "alone"
-    ],
-    [
-      8,
       "next",
-      "boulder"
+      "leaves"
     ],
     [
-      8,
-      "next",
-      "bones"
-    ],
-    [
-      9,
-      "on",
-      "log"
+      7,
+      "door"
     ]
   ],
   "solution": [
-    1,
-    16,
-    20,
-    39,
-    42,
-    57,
+    4,
+    9,
+    24,
+    30,
+    43,
+    53,
+    59,
     65,
-    78,
-    83,
-    94
+    73
   ],
   "doors": [
     [
-      23,
-      33
+      3,
+      4
     ],
     [
-      5,
-      6
+      21,
+      22
+    ],
+    [
+      18,
+      27
+    ],
+    [
+      13,
+      22
+    ],
+    [
+      30,
+      31
     ],
     [
       41,
-      51
+      50
     ],
     [
-      45,
-      55
+      44,
+      53
     ],
     [
-      17,
-      18
-    ],
-    [
-      46,
-      56
-    ],
-    [
-      48,
+      57,
       58
     ],
     [
-      61,
-      62
+      56,
+      65
     ],
     [
-      91,
-      92
-    ],
-    [
-      63,
-      73
+      59,
+      60
     ],
     [
       66,
-      76
-    ],
-    [
-      95,
-      96
+      67
     ]
   ],
   "windows": [
     [
-      1,
+      0,
       "t"
     ],
     [
-      3,
+      6,
       "t"
     ],
     [
-      4,
-      "t"
-    ],
-    [
-      49,
+      17,
       "r"
     ],
     [
-      89,
-      "r"
+      36,
+      "l"
     ],
     [
-      94,
+      74,
       "b"
     ]
   ],
-  "tries": 10,
+  "tries": 2,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 21,
   "facts": [
     [
       "roomCount",
-      0,
-      2
+      1,
+      1
     ],
     [
-      "furniture",
-      null,
-      3
+      "onCount",
+      "log",
+      0
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": "22.0.1.4..",
-  "tags": ".....3..........2..2.2......4....0.....0..........3.........31.........0......4..........2.......22.",
-  "hard": 10,
-  "hardest": 7,
-  "steps": 41,
+  "trade": "4..03.4.3",
+  "tags": "....4...........1..1.............4.........3...........0...43..3......0..........",
   "extra": true
 }

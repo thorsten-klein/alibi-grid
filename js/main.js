@@ -445,23 +445,42 @@ function renderMaker(fromCase = false) {
   }
 }
 
-// Difficulty filter for the extra cases: -1 shows all, else an index into DIFFICULTY.
+// Filters for the extra cases: one difficulty and one board size.
+// -1 shows all. Difficulty: an index into DIFFICULTY. Size: the board size.
+const sizesOf = items => [...new Set(items.map(([lv]) => lv.size))].sort((a, b) => a - b);
 const extraPick = () => getSetting('extraFilter', -1);
-const shownExtra = lv => extraPick() < 0 || difficultyIndex(lv.tries) === extraPick();
+// A size this campaign does not have shows all.
+const sizePick = items => {
+  const s = getSetting('extraSize', -1);
+  return sizesOf(items).includes(s) ? s : -1;
+};
+const fitsDifficulty = (lv, d = extraPick()) => d < 0 || difficultyIndex(lv.tries) === d;
+const fitsSize = (lv, s) => s < 0 || lv.size === s;
+const shownExtra = (lv, items) => fitsDifficulty(lv) && fitsSize(lv, sizePick(items));
 function extraFilter(items) {
-  const count = d => items.filter(([lv]) => difficultyIndex(lv.tries) === d).length;
-  const button = (d, label) => el(`button.chip.filter${extraPick() === d ? '.on' : ''}`, {
-    type: 'button', 'aria-pressed': String(extraPick() === d),
+  const size = sizePick(items);
+  const button = (on, label, pick) => el(`button.chip.filter${on ? '.on' : ''}`, {
+    type: 'button', 'aria-pressed': String(on),
     onclick: () => {
-      setSetting('extraFilter', d);
+      pick();
       const y = window.scrollY;
       void route();
       window.scrollTo(0, y);
     },
   }, label);
-  return el('div.extra-filter', { role: 'group', 'aria-label': 'Show extra cases of one difficulty' },
-    button(-1, `All (${items.length})`),
-    DIFFICULTY.map((d, k) => button(k, `${d.name} (${count(k)})`)));
+  // Each count keeps the other filter.
+  const bySize = items.filter(([lv]) => fitsSize(lv, size));
+  const byDifficulty = items.filter(([lv]) => fitsDifficulty(lv));
+  const level = (d, label) => button(extraPick() === d, `${label} (${bySize.filter(([lv]) => fitsDifficulty(lv, d)).length})`,
+    () => setSetting('extraFilter', d));
+  const sized = (s, label) => button(size === s, `${label} (${byDifficulty.filter(([lv]) => fitsSize(lv, s)).length})`,
+    () => setSetting('extraSize', s));
+  return [
+    el('div.extra-filter', { role: 'group', 'aria-label': 'Show extra cases of one difficulty' },
+      level(-1, 'All'), DIFFICULTY.map((d, k) => level(k, d.name))),
+    el('div.size-filter', { role: 'group', 'aria-label': 'Show extra cases of one board size' },
+      sized(-1, 'All sizes'), sizesOf(items).map(s => sized(s, `${s} × ${s}`))),
+  ];
 }
 
 // The special rules of a campaign as a list. '' without rules
@@ -506,9 +525,9 @@ function renderCampaign(theme) {
         el('h2', {}, groupTitle(g)),
         el('span.case-group-info', {},
           `${items.filter(([lv]) => isClosed(loadLevel(levelKey(theme.id, lv)))).length} / ${items.length} solved`)),
-      // Extra cases have every difficulty: buttons show only one.
+      // Extra cases have every difficulty and size: buttons show only one.
       g === 'extra' ? extraFilter(items) : '',
-      el('ol.cases', {}, items.filter(([lv]) => g !== 'extra' || shownExtra(lv)).map(([lv, i]) => {
+      el('ol.cases', {}, items.filter(([lv]) => g !== 'extra' || shownExtra(lv, items)).map(([lv, i]) => {
         const state = loadLevel(levelKey(theme.id, lv));
         const status = caseStatus(state);
         // A box in the corner closes (or opens) a case by hand. It sits next to the

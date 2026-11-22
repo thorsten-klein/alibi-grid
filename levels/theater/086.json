@@ -1,119 +1,114 @@
 {
   "size": 6,
-  "rooms": "000111000111000222000222334444334444",
-  "objects": ".ad.f.dfa....b..e.a.a.f.....c.b.fe.f",
+  "rooms": "000011000011222233222233444433444433",
+  "objects": "fe..fab..b...fa.........bf.da.acf.a.",
   "roomNames": [
-    "Wings",
-    "Costume Room",
+    "Stage",
+    "Foyer",
+    "Dressing Room",
     "Bar",
-    "Green Room",
-    "Dressing Room"
+    "Costume Room"
   ],
   "people": [
-    "Arthur the agent",
-    "Basil the baritone",
-    "Cora the choreographer",
+    "Viola the violinist",
+    "Alma the agent",
+    "Bruno the baritone",
+    "Celia the critic",
     "Della the director",
-    "Vince the ventriloquist",
-    "Ena the electrician"
+    "Edgar the extra"
   ],
-  "victim": 4,
+  "victim": 0,
   "clues": [
     [
       0,
-      "same",
-      3
+      "window"
     ],
     [
       1,
-      "door"
-    ],
-    [
-      2,
-      "on",
+      "next",
       "sofa"
     ],
     [
+      2,
+      "next",
+      "light"
+    ],
+    [
       3,
-      "door"
+      "next",
+      "light"
+    ],
+    [
+      3,
+      "row",
+      3
+    ],
+    [
+      4,
+      "on",
+      "seat"
     ],
     [
       5,
-      "next",
-      "rack"
+      "row",
+      5
     ]
   ],
   "solution": [
-    0,
-    9,
-    13,
-    20,
-    29,
-    34
+    3,
+    8,
+    12,
+    19,
+    28,
+    35
   ],
   "doors": [
     [
+      9,
+      10
+    ],
+    [
       8,
-      9
+      14
     ],
     [
-      14,
-      15
+      10,
+      16
     ],
     [
-      19,
-      25
+      21,
+      22
     ],
     [
       20,
       26
     ],
     [
-      9,
-      15
-    ],
-    [
-      21,
-      27
-    ],
-    [
-      25,
-      26
+      33,
+      34
     ]
   ],
   "windows": [
     [
-      2,
+      3,
       "t"
     ],
     [
-      12,
-      "l"
-    ],
-    [
-      17,
+      11,
       "r"
     ],
     [
-      33,
+      18,
+      "l"
+    ],
+    [
+      31,
       "b"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "roomCount",
-      2,
-      0
-    ],
-    [
-      "alone",
-      null,
-      1
-    ]
-  ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 15,
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 14,
   "extra": true
 }

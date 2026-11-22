@@ -1,115 +1,94 @@
 {
-  "size": 6,
-  "rooms": "000000000000111222111222333444333444",
-  "objects": ".b...ab.ba...bca...bb...cb..a.c.....",
+  "size": 5,
+  "rooms": "0011100111001112233322333",
+  "objects": ".......f..........a...ad.",
   "roomNames": [
-    "Foyer",
-    "Bar",
-    "Stage",
-    "Orchestra Pit",
-    "Costume Room"
+    "Green Room",
+    "Box Office",
+    "Lighting Booth",
+    "Orchestra Pit"
   ],
   "people": [
-    "Astrid the agent",
-    "Basil the baritone",
-    "Carl the choreographer",
-    "Della the director",
-    "Edith the extra",
-    "Vera the violinist"
+    "Astrid the author",
+    "Bea the bass player",
+    "Vera the violinist",
+    "Cora the choreographer",
+    "Dmitri the director"
   ],
-  "victim": 5,
+  "victim": 2,
   "clues": [
     [
       0,
-      "same",
-      1
+      "alone"
     ],
     [
       1,
-      "on",
-      "sofa"
-    ],
-    [
-      2,
-      "window"
+      "next",
+      "light"
     ],
     [
       3,
+      "window"
+    ],
+    [
+      4,
       "door"
-    ],
-    [
-      4,
-      "on",
-      "sofa"
-    ],
-    [
-      4,
-      "next",
-      "piano"
     ]
   ],
   "solution": [
-    4,
-    6,
-    17,
-    21,
-    25,
-    32
+    1,
+    8,
+    14,
+    15,
+    22
   ],
   "doors": [
     [
-      8,
-      14
+      6,
+      7
     ],
     [
-      10,
+      11,
       16
     ],
     [
-      20,
-      21
+      12,
+      17
     ],
     [
-      18,
-      24
-    ],
-    [
-      23,
-      29
-    ],
-    [
-      26,
-      27
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      0,
-      "t"
-    ],
-    [
-      0,
+      15,
       "l"
     ],
     [
-      17,
+      19,
       "r"
     ],
     [
-      31,
+      21,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
   "facts": [
     [
-      "roomCount",
-      2,
-      2
+      "edge",
+      null,
+      4
+    ],
+    [
+      "furniture",
+      null,
+      1
     ]
   ],
-  "hard": 2,
-  "hardest": 5,
-  "steps": 17,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 18,
   "extra": true
 }

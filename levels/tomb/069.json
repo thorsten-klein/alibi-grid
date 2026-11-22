@@ -1,76 +1,73 @@
 {
   "size": 5,
-  "rooms": "0011100111001112223322233",
-  "objects": "..b.cb..d.......a........",
+  "rooms": "0001100011223332233322333",
+  "objects": "...b..fc.b.e......e......",
   "roomNames": [
-    "Sun Court",
-    "Antechamber",
-    "Statue Hall",
+    "Shrine",
+    "Workshop",
+    "Granary",
     "Well Shaft"
   ],
   "people": [
-    "Ada the astrologer",
-    "Bella the boat builder",
-    "Cora the carpenter",
-    "Della the dancer",
-    "Viola the vintner"
+    "Astrid the astrologer",
+    "Bruno the boat builder",
+    "Carl the carpenter",
+    "Dora the dancer",
+    "Viola the vizier"
   ],
   "victim": 4,
   "clues": [
-    [
-      0,
-      "door"
-    ],
     [
       0,
       "window"
     ],
     [
       1,
-      "alone"
+      "next",
+      "jar"
     ],
     [
       2,
-      "next",
-      "couch"
+      "door"
     ],
     [
       3,
-      "door"
+      "next",
+      "rubble"
     ]
   ],
   "solution": [
-    1,
-    7,
-    10,
-    18,
-    24
+    2,
+    5,
+    14,
+    16,
+    23
   ],
   "doors": [
     [
-      1,
-      2
+      2,
+      3
     ],
     [
-      11,
-      16
+      5,
+      10
     ],
     [
-      12,
-      17
+      7,
+      12
     ],
     [
-      14,
-      19
+      9,
+      14
     ],
     [
-      17,
-      18
+      21,
+      22
     ]
   ],
   "windows": [
     [
-      1,
+      0,
       "t"
     ],
     [
@@ -79,28 +76,23 @@
     ],
     [
       20,
-      "l"
+      "b"
     ]
   ],
+  "tries": 2,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 13,
   "facts": [
     [
       "edge",
       null,
-      3
-    ],
-    [
-      "emptyRooms",
-      null,
-      1
+      4
     ]
   ],
   "rules": [
     "glyphs"
   ],
-  "tags": ".C.....L.CC.C.....C.....C",
-  "tries": 4,
-  "hard": 4,
-  "hardest": 4,
-  "steps": 20,
+  "tags": "..C.LC......LL..L......C.",
   "extra": true
 }

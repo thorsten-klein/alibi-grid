@@ -1,99 +1,92 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "a.bb...c...e.c...f..c.dc.",
+  "rooms": "0001100011222332223322233",
+  "objects": "...a.....b...be..a.....b.",
   "roomNames": [
-    "Well Shaft",
-    "Sun Court",
+    "Scribe Room",
     "Antechamber",
-    "Granary"
+    "Boat Pit",
+    "Well Shaft"
   ],
   "people": [
-    "Astrid the astrologer",
-    "Bruno the brewer",
-    "Cedric the chanter",
-    "Dexter the diviner",
-    "Vivian the vizier"
+    "Arthur the architect",
+    "Bella the boat builder",
+    "Cora the chanter",
+    "Daisy the diviner",
+    "Vince the vizier"
   ],
   "victim": 4,
   "clues": [
     [
       0,
-      "next",
-      "urn"
+      "window"
     ],
     [
       1,
-      "door"
+      "on",
+      "couch"
     ],
     [
       2,
       "next",
-      "rubble"
+      "stool"
     ],
     [
       3,
-      "col",
-      3
+      "alone"
+    ],
+    [
+      4,
+      "row",
+      4
     ]
   ],
   "solution": [
-    2,
-    6,
-    10,
+    0,
+    9,
+    12,
     18,
-    24
+    21
   ],
   "doors": [
     [
+      2,
+      3
+    ],
+    [
       6,
-      7
-    ],
-    [
-      5,
-      10
-    ],
-    [
-      7,
-      12
+      11
     ],
     [
       9,
       14
     ],
     [
-      12,
-      13
+      22,
+      23
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      0,
+      "l"
     ],
     [
-      3,
-      "t"
-    ],
-    [
-      4,
+      14,
       "r"
-    ]
-  ],
-  "tries": 3,
-  "facts": [
+    ],
     [
-      "onCount",
-      "couch",
-      1
+      20,
+      "l"
     ]
   ],
+  "tries": 2,
   "rules": [
     "glyphs"
   ],
-  "tags": ".L........L.......C.....C",
-  "hard": 2,
+  "tags": "..........LC....L....C...",
+  "hard": 1,
   "hardest": 4,
-  "steps": 16,
+  "steps": 17,
   "extra": true
 }

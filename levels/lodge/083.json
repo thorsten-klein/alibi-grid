@@ -1,90 +1,90 @@
 {
   "size": 6,
-  "rooms": "000000000000112233112233114433114433",
-  "objects": "..bbab.d.fde.d.b.d..a.e..fa.f...bff.",
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "da.........c....f.f.b.b.c...de......",
   "roomNames": [
     "Ski Room",
+    "Suite",
+    "Fireside Lounge",
     "Games Room",
-    "Terrace",
-    "Dining Hall",
-    "Spa"
+    "Bar"
   ],
   "people": [
-    "Ada the avalanche guard",
-    "Bruno the baker",
-    "Cedric the climber",
-    "Della the doctor",
+    "Arthur the avalanche guard",
+    "Bruno the bartender",
+    "Cora the climber",
+    "Dexter the doctor",
     "Edgar the engineer",
-    "Viola the vet"
+    "Vivian the vet"
   ],
   "victim": 5,
   "clues": [
     [
       0,
-      "next",
-      "fire"
+      "door"
     ],
     [
       1,
-      "door"
+      "next",
+      "skis"
+    ],
+    [
+      2,
+      "same",
+      1
     ],
     [
       2,
       "next",
-      "tree"
+      "skis"
+    ],
+    [
+      2,
+      "row",
+      2
     ],
     [
       3,
-      "on",
-      "chair"
+      "alone"
     ],
     [
       4,
       "next",
-      "wood"
+      "skis"
     ],
     [
       5,
-      "next",
-      "wood"
+      "window"
     ]
   ],
   "solution": [
-    1,
-    6,
-    16,
-    20,
-    27,
-    35
+    2,
+    10,
+    17,
+    21,
+    25,
+    30
   ],
   "doors": [
     [
-      6,
-      12
+      1,
+      2
     ],
     [
-      8,
-      14
+      13,
+      19
     ],
     [
-      10,
-      16
+      15,
+      21
     ],
     [
-      19,
-      20
+      16,
+      22
     ],
     [
       31,
       32
-    ],
-    [
-      21,
-      22
-    ],
-    [
-      21,
-      27
     ],
     [
       27,
@@ -93,32 +93,25 @@
   ],
   "windows": [
     [
-      3,
-      "t"
-    ],
-    [
-      24,
+      12,
       "l"
     ],
     [
-      29,
-      "r"
+      30,
+      "l"
     ],
     [
       31,
       "b"
-    ]
-  ],
-  "tries": 2,
-  "facts": [
+    ],
     [
-      "corner",
-      null,
-      5
+      35,
+      "b"
     ]
   ],
-  "hard": 4,
+  "tries": 0,
+  "hard": 3,
   "hardest": 4,
-  "steps": 16,
+  "steps": 17,
   "extra": true
 }

@@ -1,39 +1,40 @@
 {
   "size": 5,
-  "rooms": "0011100111001112223322233",
-  "objects": "..d..c....a.d.c......d...",
+  "rooms": "0001100011222112223322233",
+  "objects": "fd..a.a.c.......d......b.",
   "roomNames": [
-    "Granary",
+    "Hall of Pillars",
     "Shrine",
-    "Workshop",
-    "Well Shaft"
+    "Treasury",
+    "Workshop"
   ],
   "people": [
-    "Astrid the astrologer",
-    "Vince the vizier",
+    "Alma the astrologer",
     "Basil the boat builder",
-    "Clara the chanter",
-    "Della the dancer"
+    "Carl the chanter",
+    "Della the dancer",
+    "Vince the vizier"
   ],
-  "victim": 1,
+  "victim": 4,
   "clues": [
     [
       0,
-      "alone"
-    ],
-    [
-      1,
       "next",
       "statue"
     ],
     [
-      2,
+      1,
       "next",
-      "urn"
+      "stool"
+    ],
+    [
+      2,
+      "row",
+      2
     ],
     [
       3,
-      "window"
+      "door"
     ],
     [
       4,
@@ -42,55 +43,62 @@
     ]
   ],
   "solution": [
-    1,
-    7,
-    13,
-    19,
-    20
+    2,
+    9,
+    10,
+    18,
+    21
   ],
   "doors": [
     [
-      11,
+      7,
+      8
+    ],
+    [
+      7,
       12
     ],
     [
-      10,
-      15
-    ],
-    [
       12,
-      17
+      13
     ],
     [
-      13,
+      14,
+      19
+    ],
+    [
+      17,
       18
-    ],
-    [
-      22,
-      23
     ]
   ],
   "windows": [
     [
       0,
+      "t"
+    ],
+    [
+      10,
       "l"
     ],
     [
-      19,
-      "r"
-    ],
-    [
       20,
-      "b"
+      "l"
     ]
   ],
-  "tries": 4,
+  "tries": 2,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 17,
+  "facts": [
+    [
+      "roomCount",
+      3,
+      1
+    ]
+  ],
   "rules": [
     "glyphs"
   ],
-  "tags": ".L.....C.......LC.LLL....",
-  "hard": 2,
-  "hardest": 3,
-  "steps": 14,
+  "tags": "..........C......LL..C...",
   "extra": true
 }

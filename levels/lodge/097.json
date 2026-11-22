@@ -1,121 +1,119 @@
 {
-  "size": 7,
-  "rooms": "0000111000011100001112222333222233344443334444333",
-  "objects": "...bcd.................b.a.d....e......aee.a.....",
+  "size": 6,
+  "rooms": "001111001111002222002222333444333444",
+  "objects": "b.cdc.d..c..........d...a.....a.d...",
   "roomNames": [
-    "Lobby",
     "Suite",
-    "Fireside Lounge",
-    "Ski Room",
-    "Kitchen"
+    "Lobby",
+    "Boot Room",
+    "Spa",
+    "Dining Hall"
   ],
   "people": [
-    "Astrid the athlete",
-    "Bea the bartender",
-    "Carl the climber",
-    "Viola the vlogger",
-    "Daisy the doctor",
-    "Elsa the explorer",
-    "Frank the fisher"
+    "Astrid the avalanche guard",
+    "Birgit the baker",
+    "Victor the vet",
+    "Celia the climber",
+    "Daisy the driver",
+    "Elias the engineer"
   ],
-  "victim": 3,
+  "victim": 2,
   "clues": [
     [
       0,
+      "on",
+      "sofa"
+    ],
+    [
+      1,
+      "same",
+      0
+    ],
+    [
+      3,
       "next",
       "fire"
     ],
     [
-      1,
-      "next",
-      "skis"
-    ],
-    [
-      2,
+      4,
       "alone"
     ],
     [
-      4,
+      5,
       "window"
-    ],
-    [
-      5,
-      "notRoom",
-      0
-    ],
-    [
-      5,
-      "door"
-    ],
-    [
-      6,
-      "next",
-      "tree"
     ]
   ],
   "solution": [
-    6,
-    11,
+    0,
+    7,
     16,
-    22,
-    28,
-    38,
-    47
+    21,
+    26,
+    35
   ],
   "doors": [
     [
-      17,
-      18
+      1,
+      2
     ],
     [
-      14,
-      21
+      13,
+      14
     ],
     [
-      18,
+      19,
       25
     ],
     [
-      31,
-      32
+      11,
+      17
     ],
     [
-      31,
-      38
+      20,
+      26
     ],
     [
-      45,
-      46
+      22,
+      28
+    ],
+    [
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      6,
-      "t"
-    ],
-    [
-      20,
+      23,
       "r"
     ],
     [
-      28,
-      "l"
+      32,
+      "b"
     ],
     [
-      44,
+      34,
       "b"
+    ],
+    [
+      35,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 4,
   "facts": [
     [
-      "nextCount",
-      "sofa",
-      1
+      "corner",
+      null,
+      3
+    ],
+    [
+      "touch",
+      null,
+      2
     ]
   ],
-  "hard": 3,
-  "hardest": 5,
-  "steps": 19,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 21,
   "extra": true
 }

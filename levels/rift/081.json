@@ -1,123 +1,118 @@
 {
   "size": 6,
-  "rooms": "001111001111002222002222333444333444",
-  "objects": "........fbada.e.........a.....bb...a",
+  "rooms": "001122001122001122001122333344333344",
+  "objects": ".....b.........b...b.....b...bf..bad",
   "roomNames": [
-    "Throne Room",
-    "Captain Cabin",
-    "Shrine",
-    "Bank",
-    "Burial Chamber"
+    "Saloon",
+    "Fort",
+    "Burial Chamber",
+    "Cave",
+    "Jail"
   ],
   "people": [
-    "Ada the archivist",
-    "Bea the bookbinder",
-    "Carl the chronicler",
-    "Dmitri the drifter",
-    "Victor the visionary",
-    "Elsa the explorer"
+    "Astrid the archivist",
+    "Basil the bard",
+    "Vivian the visionary",
+    "Cedric the clockmaker",
+    "Daisy the drifter",
+    "Ena the engineer"
   ],
-  "victim": 4,
+  "victim": 2,
   "clues": [
     [
       0,
-      "alone"
+      "room",
+      1
     ],
     [
       1,
-      "next",
-      "clock"
+      "window"
     ],
     [
       2,
-      "bandit"
+      "next",
+      "log"
     ],
     [
       3,
-      "col",
-      4
+      "row",
+      3
     ],
     [
       4,
-      "door"
+      "next",
+      "barrel"
     ],
     [
       5,
       "next",
-      "chair"
+      "log"
+    ],
+    [
+      5,
+      "bandit"
     ]
   ],
   "solution": [
-    1,
-    9,
-    17,
+    3,
+    6,
+    13,
     22,
-    26,
-    30
+    29,
+    32
   ],
   "doors": [
     [
-      7,
-      8
+      1,
+      2
     ],
     [
-      13,
-      14
+      19,
+      25
     ],
     [
-      18,
-      24
+      15,
+      16
     ],
     [
-      8,
-      14
-    ],
-    [
-      20,
-      26
+      21,
+      27
     ],
     [
       23,
       29
     ],
     [
-      32,
-      33
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      23,
+      2,
+      "t"
+    ],
+    [
+      6,
+      "l"
+    ],
+    [
+      29,
       "r"
     ],
     [
-      24,
-      "l"
-    ],
-    [
-      30,
-      "l"
-    ],
-    [
-      32,
+      31,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
+  "hard": 1,
+  "hardest": 3,
+  "steps": 14,
   "facts": [
     [
-      "doorCount",
-      null,
-      1
-    ],
-    [
-      "roomCount",
-      4,
-      0
-    ],
-    [
-      "nextCount",
-      "log",
+      "onCount",
+      "chair",
       0
     ]
   ],
@@ -125,13 +120,10 @@
     "bandits",
     "glyphs"
   ],
-  "tags": ".L..............LC..C.....C.........",
+  "tags": "...LL.C.....C.........LC............",
   "bandits": 2,
   "lawful": [
-    1
+    2
   ],
-  "hard": 3,
-  "hardest": 4,
-  "steps": 19,
   "extra": true
 }

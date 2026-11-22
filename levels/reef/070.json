@@ -1,58 +1,57 @@
 {
   "size": 5,
-  "rooms": "0011100000000002223322233",
-  "objects": "....a..............b...a.",
+  "rooms": "0001100011000220002233333",
+  "objects": "....e.............aff...f",
   "roomNames": [
     "Open Sea",
-    "Dock",
     "Market",
-    "Longboat"
+    "Fort",
+    "Galleon"
   ],
   "people": [
-    "Alma the armorer",
-    "Bruno the boatswain",
-    "Carl the cook",
-    "Vince the vintner",
-    "Della the diver"
+    "Alma the admiral",
+    "Bea the boatswain",
+    "Vivian the voyager",
+    "Clara the cook",
+    "Dmitri the deckhand"
   ],
-  "victim": 3,
+  "victim": 2,
   "clues": [
     [
       0,
-      "on",
-      "stool"
+      "col",
+      0
     ],
     [
       1,
-      "col",
-      3
+      "row",
+      1
     ],
     [
-      2,
-      "row",
-      2
+      3,
+      "door"
     ],
     [
       4,
-      "window"
-    ],
-    [
-      4,
-      "row",
-      4
+      "next",
+      "cannon"
     ]
   ],
   "solution": [
-    4,
-    8,
-    10,
-    16,
-    22
+    0,
+    7,
+    14,
+    18,
+    21
   ],
   "doors": [
     [
-      17,
-      18
+      8,
+      13
+    ],
+    [
+      18,
+      23
     ]
   ],
   "windows": [
@@ -61,28 +60,21 @@
       "t"
     ],
     [
-      15,
-      "l"
+      4,
+      "r"
     ],
     [
-      22,
-      "b"
+      24,
+      "r"
     ]
   ],
-  "tries": 1,
-  "facts": [
-    [
-      "touch",
-      null,
-      1
-    ]
-  ],
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 13,
   "rules": [
     "sea"
   ],
   "sea": 0,
-  "hard": 0,
-  "hardest": 1,
-  "steps": 12,
   "extra": true
 }

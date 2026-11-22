@@ -1,21 +1,21 @@
 {
   "size": 5,
-  "rooms": "0001100011000112233322333",
-  "objects": "e..a..a.....b....a.d..e..",
+  "rooms": "0011100111222332223322233",
+  "objects": "a......ea...c.......d.c.c",
   "roomNames": [
-    "Box Office",
-    "Bar",
+    "Orchestra Pit",
+    "Stage",
     "Costume Room",
-    "Green Room"
+    "Bar"
   ],
   "people": [
-    "Arthur the author",
-    "Basil the bass player",
     "Victor the ventriloquist",
-    "Clara the choreographer",
-    "Dora the director"
+    "Astrid the author",
+    "Birgit the baritone",
+    "Carl the choreographer",
+    "Dmitri the director"
   ],
-  "victim": 2,
+  "victim": 0,
   "clues": [
     [
       0,
@@ -24,81 +24,70 @@
     ],
     [
       1,
-      "notRoom",
-      2
+      "window"
+    ],
+    [
+      2,
+      "same",
+      3
     ],
     [
       3,
-      "alone"
+      "next",
+      "mirror"
     ],
     [
       4,
       "next",
-      "rack"
-    ],
-    [
-      4,
-      "alone"
+      "piano"
     ]
   ],
   "solution": [
-    1,
+    2,
     9,
-    12,
+    11,
     15,
     23
   ],
   "doors": [
     [
-      2,
-      3
+      6,
+      7
     ],
     [
-      11,
-      16
+      5,
+      10
     ],
     [
-      12,
-      17
+      7,
+      12
     ],
     [
-      14,
-      19
+      9,
+      14
     ],
     [
-      21,
-      22
+      22,
+      23
     ]
   ],
   "windows": [
     [
       0,
-      "l"
-    ],
-    [
-      0,
       "t"
     ],
     [
-      2,
+      3,
       "t"
-    ]
-  ],
-  "tries": 1,
-  "facts": [
-    [
-      "doorCount",
-      null,
-      1
     ],
     [
-      "onCount",
-      "sofa",
-      1
+      9,
+      "r"
     ]
   ],
-  "hard": 2,
-  "hardest": 5,
-  "steps": 14,
+  "tries": 0,
+  "hard": 0,
+  "hardest": 2,
+  "steps": 11,
   "extra": true
 }

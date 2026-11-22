@@ -1,55 +1,52 @@
 {
-  "size": 10,
-  "rooms": "0001112222000111222200011122220001112222000111222233445566773344556677334455667733445566773344556677",
-  "objects": ".....ad..ddb.b..e.......b.aa.b.f....c.eba...b.da.c..e...bbb..f..c.......e..f....aca.c..e..ba..c....a",
+  "size": 9,
+  "rooms": "000111111000111111000112222000112222333334444333334444333334444555556666555556666",
+  "objects": ".a.ea..b.......e.e.aad...a..ee.b..b..cbf......f...e..c....b..aaf.b.........e.....",
   "roomNames": [
-    "Kitchen",
-    "Conservatory",
-    "Chapel",
-    "Dining Room",
     "Library",
-    "Study",
-    "Cellar",
-    "Billiard Room"
+    "Ballroom",
+    "Chapel",
+    "Gallery",
+    "Dining Room",
+    "Kitchen",
+    "Cellar"
   ],
   "people": [
-    "Astrid the architect",
-    "Birgit the banker",
-    "Cora the colonel",
-    "Daisy the dealer",
-    "Vera the vicar",
-    "Elsa the envoy",
-    "Flora the footman",
+    "Astrid the author",
+    "Vince the valet",
+    "Bella the banker",
+    "Carl the colonel",
+    "Della the doctor",
+    "Elias the envoy",
+    "Felix the florist",
     "Greta the gardener",
-    "Hilda the heir",
-    "Igor the illustrator"
+    "Hugo the heir"
   ],
-  "victim": 4,
+  "victim": 1,
   "clues": [
     [
       0,
+      "window"
+    ],
+    [
+      1,
       "next",
-      "piano"
-    ],
-    [
-      1,
-      "on",
       "sofa"
-    ],
-    [
-      1,
-      "same",
-      3
     ],
     [
       2,
       "next",
-      "sofa"
+      "chair"
     ],
     [
       3,
+      "same",
+      2
+    ],
+    [
+      4,
       "next",
-      "chair"
+      "clock"
     ],
     [
       4,
@@ -58,136 +55,110 @@
     [
       5,
       "next",
-      "shelf"
+      "clock"
     ],
     [
-      5,
-      "row",
+      6,
+      "same",
       5
     ],
     [
       6,
-      "next",
-      "sofa"
+      "col",
+      0
     ],
     [
       7,
-      "alone"
+      "on",
+      "sofa"
     ],
     [
       8,
-      "same",
-      6
-    ],
-    [
-      8,
-      "next",
-      "plant"
-    ],
-    [
-      9,
-      "next",
-      "chair"
+      "col",
+      1
     ]
   ],
   "solution": [
     8,
-    11,
-    25,
-    30,
-    43,
+    16,
+    24,
+    32,
+    40,
+    48,
     54,
-    67,
-    79,
-    86,
-    92
+    65,
+    73
   ],
   "doors": [
     [
-      12,
-      13
+      11,
+      12
     ],
     [
-      40,
-      50
+      28,
+      37
     ],
     [
-      42,
-      52
+      16,
+      25
     ],
     [
-      5,
-      6
+      31,
+      40
     ],
     [
-      43,
-      53
-    ],
-    [
-      44,
-      54
-    ],
-    [
-      47,
-      57
+      35,
+      44
     ],
     [
       49,
-      59
+      50
     ],
     [
-      71,
-      72
+      55,
+      64
     ],
     [
-      73,
-      74
+      60,
+      69
     ],
     [
-      95,
-      96
-    ],
-    [
-      57,
-      58
+      67,
+      68
     ]
   ],
   "windows": [
     [
-      3,
+      8,
       "t"
     ],
     [
-      4,
-      "t"
-    ],
-    [
-      29,
-      "r"
-    ],
-    [
-      30,
+      9,
       "l"
     ],
     [
-      39,
-      "r"
+      75,
+      "b"
     ],
     [
-      69,
-      "r"
+      76,
+      "b"
+    ],
+    [
+      79,
+      "b"
     ]
   ],
-  "tries": 9,
+  "tries": 1,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 22,
   "facts": [
     [
-      "touch",
+      "alone",
       null,
       0
     ]
   ],
-  "hard": 4,
-  "hardest": 6,
-  "steps": 34,
   "extra": true
 }

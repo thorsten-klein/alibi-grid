@@ -1,40 +1,31 @@
 {
   "size": 5,
-  "rooms": "0011100111222332223322233",
-  "objects": "f.....b......bb..f.e...f.",
+  "rooms": "0000000000111112223322233",
+  "objects": "..a...d...aca.b..b...b..b",
   "roomNames": [
-    "Games Room",
-    "Fireside Lounge",
-    "Dining Hall",
-    "Suite"
+    "Suite",
+    "Boot Room",
+    "Bar",
+    "Fireside Lounge"
   ],
   "people": [
-    "Ada the avalanche guard",
-    "Bea the baker",
-    "Cedric the climber",
-    "Dmitri the driver",
-    "Viola the vet"
+    "Arthur the avalanche guard",
+    "Victor the vlogger",
+    "Bea the bartender",
+    "Carl the cook",
+    "Dora the driver"
   ],
-  "victim": 4,
+  "victim": 1,
   "clues": [
     [
       0,
       "next",
-      "wood"
-    ],
-    [
-      0,
-      "door"
-    ],
-    [
-      1,
-      "row",
-      1
+      "chair"
     ],
     [
       2,
       "on",
-      "sofa"
+      "chair"
     ],
     [
       2,
@@ -42,32 +33,34 @@
     ],
     [
       3,
-      "alone"
+      "notRoom",
+      0
+    ],
+    [
+      4,
+      "on",
+      "sofa"
     ]
   ],
   "solution": [
-    1,
-    7,
-    13,
+    3,
+    9,
+    12,
     15,
-    24
+    21
   ],
   "doors": [
     [
-      1,
-      2
+      6,
+      11
     ],
     [
-      5,
-      10
+      12,
+      17
     ],
     [
-      7,
-      12
-    ],
-    [
-      8,
-      13
+      13,
+      18
     ],
     [
       17,
@@ -76,21 +69,28 @@
   ],
   "windows": [
     [
-      14,
-      "r"
+      5,
+      "l"
     ],
     [
-      21,
-      "b"
+      19,
+      "r"
     ],
     [
       24,
       "r"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "hard": 1,
-  "hardest": 4,
-  "steps": 11,
+  "hardest": 3,
+  "steps": 14,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      2
+    ]
+  ],
   "extra": true
 }

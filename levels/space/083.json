@@ -1,23 +1,23 @@
 {
   "size": 6,
-  "rooms": "001111001111002233002233002244002244",
-  "objects": "........bbeaa.ae...aba..d..cb.ab...e",
+  "rooms": "011222011222033222033444033444033444",
+  "objects": "cba.aca.fe.....f...b....f..e...dafc.",
   "roomNames": [
-    "Hydroponics",
-    "Gym",
-    "Med Bay",
     "Airlock",
-    "Crew Quarters"
+    "Gym",
+    "Crew Quarters",
+    "Hydroponics",
+    "Engine Room"
   ],
   "people": [
-    "Astrid the astronaut",
-    "Bruno the botanist",
-    "Vera the visitor",
+    "Arthur the analyst",
+    "Victor the visitor",
+    "Bruno the biologist",
     "Celia the captain",
-    "Dora the driller",
-    "Edgar the electrician"
+    "Della the driller",
+    "Elias the engineer"
   ],
-  "victim": 2,
+  "victim": 1,
   "clues": [
     [
       0,
@@ -25,105 +25,91 @@
       "pod"
     ],
     [
-      1,
-      "next",
-      "seat"
-    ],
-    [
       2,
       "door"
     ],
     [
       3,
-      "alone"
+      "next",
+      "plant"
     ],
     [
       4,
       "next",
-      "console"
+      "scope"
     ],
     [
       5,
       "next",
-      "plant"
+      "tank"
     ]
   ],
   "solution": [
-    3,
-    6,
-    13,
-    23,
-    26,
-    34
+    2,
+    11,
+    16,
+    21,
+    25,
+    30
   ],
   "doors": [
     [
-      7,
-      8
+      0,
+      1
     ],
     [
-      13,
-      14
+      12,
+      13
+    ],
+    [
+      8,
+      9
     ],
     [
       8,
       14
     ],
     [
-      11,
-      17
+      14,
+      15
     ],
     [
-      21,
+      16,
       22
     ],
     [
-      27,
-      28
-    ],
-    [
-      22,
-      28
+      20,
+      21
     ]
   ],
   "windows": [
+    [
+      0,
+      "t"
+    ],
+    [
+      0,
+      "l"
+    ],
     [
       5,
       "r"
     ],
     [
-      18,
-      "l"
-    ],
-    [
-      29,
+      35,
       "r"
-    ],
-    [
-      34,
-      "b"
     ]
   ],
-  "tries": 3,
+  "tries": 1,
   "facts": [
     [
-      "emptyRooms",
-      null,
-      0
-    ],
-    [
       "nextCount",
-      "scope",
-      0
-    ],
-    [
-      "nextCount",
-      "pod",
-      3
+      "plant",
+      1
     ]
   ],
   "hard": 5,
   "hardest": 4,
-  "steps": 18,
+  "steps": 17,
   "extra": true
 }

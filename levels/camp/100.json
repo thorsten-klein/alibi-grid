@@ -1,67 +1,56 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100022220002222333344433334443333444",
-  "objects": "b....................c..ca...f...ff........fbc.cf",
+  "size": 6,
+  "rooms": "000011000011222211222233444433444433",
+  "objects": "a.....a..d.e..a.a......dba....a.....",
   "roomNames": [
-    "River Bank",
-    "Fire Pit",
-    "Lookout Rock",
     "Bone Yard",
-    "Hunting Ground"
+    "Fire Pit",
+    "River Bank",
+    "Hide Tent",
+    "Painted Wall"
   ],
   "people": [
-    "Alma the acrobat",
-    "Bella the beekeeper",
+    "Astrid the artist",
+    "Basil the builder",
     "Cora the carver",
-    "Della the drummer",
-    "Elias the elk tamer",
-    "Frank the firekeeper",
-    "Victor the valley guide"
+    "Dora the dancer",
+    "Edith the elk tamer",
+    "Vince the valley guide"
   ],
-  "victim": 6,
+  "victim": 5,
   "clues": [
     [
       0,
-      "window"
+      "row",
+      0
     ],
     [
       1,
-      "same",
-      2
+      "on",
+      "log"
     ],
     [
       2,
-      "next",
-      "boulder"
+      "same",
+      3
     ],
     [
       3,
-      "next",
-      "boulder"
-    ],
-    [
-      4,
       "door"
     ],
     [
-      5,
+      4,
       "next",
-      "bones"
-    ],
-    [
-      6,
-      "next",
-      "boulder"
+      "fire"
     ]
   ],
   "solution": [
+    1,
     6,
-    9,
     14,
-    22,
-    31,
-    40,
-    46
+    21,
+    29,
+    34
   ],
   "doors": [
     [
@@ -69,68 +58,63 @@
       10
     ],
     [
-      23,
-      24
+      9,
+      15
     ],
     [
-      22,
-      29
+      15,
+      16
     ],
     [
-      11,
-      18
+      16,
+      22
     ],
     [
-      24,
-      31
+      21,
+      22
     ],
     [
-      27,
+      19,
+      25
+    ],
+    [
+      33,
       34
-    ],
-    [
-      31,
-      32
     ]
   ],
   "windows": [
     [
-      6,
+      0,
+      "t"
+    ],
+    [
+      11,
       "r"
     ],
     [
-      14,
-      "l"
+      29,
+      "r"
     ],
     [
-      42,
-      "l"
-    ],
-    [
-      45,
+      35,
       "b"
     ]
   ],
-  "tries": 3,
+  "tries": 9,
   "facts": [
     [
-      "edge",
-      null,
-      3
-    ],
-    [
-      "furniture",
-      null,
-      0
+      "onCount",
+      "log",
+      2
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": ".03..33",
-  "tags": "...0.....03...3........0................3........",
-  "hard": 6,
-  "hardest": 5,
-  "steps": 21,
+  "trade": ".0..31",
+  "tags": "..10......1..0...............3......",
+  "hard": 3,
+  "hardest": 3,
+  "steps": 28,
   "extra": true
 }

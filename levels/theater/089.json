@@ -1,44 +1,47 @@
 {
   "size": 6,
-  "rooms": "001111001111002222002222333344333344",
-  "objects": "....e...........ae........b..e...b..",
+  "rooms": "000111000111222111222111333444333444",
+  "objects": ".ea.........d....aa.....b.a......ab.",
   "roomNames": [
-    "Prop Store",
-    "Dressing Room",
-    "Orchestra Pit",
     "Balcony",
+    "Lighting Booth",
+    "Bar",
+    "Box Office",
     "Stage"
   ],
   "people": [
     "Ada the agent",
-    "Bella the bass player",
-    "Celia the critic",
-    "Vince the violinist",
-    "Dmitri the dancer",
+    "Bruno the bass player",
+    "Viola the violinist",
+    "Cedric the critic",
+    "Della the dancer",
     "Elias the extra"
   ],
-  "victim": 3,
+  "victim": 2,
   "clues": [
     [
       0,
-      "alone"
+      "on",
+      "seat"
     ],
     [
       1,
-      "door"
-    ],
-    [
-      1,
-      "alone"
-    ],
-    [
-      2,
       "next",
       "rack"
     ],
     [
       2,
       "door"
+    ],
+    [
+      3,
+      "next",
+      "seat"
+    ],
+    [
+      4,
+      "notRoom",
+      3
     ],
     [
       4,
@@ -48,80 +51,71 @@
     [
       5,
       "next",
-      "rack"
+      "sofa"
     ]
   ],
   "solution": [
-    0,
-    8,
-    16,
-    21,
-    25,
-    35
+    2,
+    7,
+    15,
+    23,
+    28,
+    30
   ],
   "doors": [
     [
+      2,
+      3
+    ],
+    [
       7,
-      8
+      13
     ],
     [
-      19,
-      20
-    ],
-    [
-      19,
-      25
-    ],
-    [
-      10,
-      16
-    ],
-    [
-      20,
-      26
+      14,
+      15
     ],
     [
       23,
       29
     ],
     [
-      27,
-      28
+      19,
+      25
+    ],
+    [
+      26,
+      27
     ]
   ],
   "windows": [
     [
-      1,
-      "t"
+      5,
+      "r"
     ],
     [
-      11,
-      "r"
+      6,
+      "l"
     ],
     [
       18,
       "l"
     ],
     [
-      30,
-      "l"
+      29,
+      "r"
     ]
   ],
-  "tries": 3,
+  "tries": 1,
   "facts": [
     [
-      "roomCount",
-      3,
-      1
-    ],
-    [
-      "onCount",
-      "seat",
-      1
+      "edge",
+      null,
+      3
     ]
   ],
   "hard": 6,
-  "hardest": 6,
-  "steps": 22,
+  "hardest": 4,
+  "steps": 19,
   "extra": true
 }

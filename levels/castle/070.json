@@ -1,46 +1,48 @@
 {
   "size": 5,
   "rooms": "0011100111001112223322233",
-  "objects": ".ca...a.e..ba....a..aa.c.",
+  "objects": "......ff...e...dc.e.e.e..",
   "roomNames": [
-    "Stables",
-    "Courtyard",
+    "Solar",
+    "Dungeon",
     "Tower",
     "Gatehouse"
   ],
   "people": [
-    "Vera the verger",
-    "Arthur the alchemist",
-    "Basil the bard",
-    "Clara the cupbearer",
-    "Della the dancer"
+    "Victor the vintner",
+    "Ada the archer",
+    "Bruno the bard",
+    "Cedric the chronicler",
+    "Dexter the dancer"
   ],
   "victim": 0,
   "clues": [
     [
       1,
-      "window"
+      "alone"
     ],
     [
       2,
-      "door"
+      "next",
+      "swords"
     ],
     [
       3,
-      "door"
+      "next",
+      "barrel"
     ],
     [
       4,
-      "on",
-      "bench"
+      "next",
+      "swords"
     ]
   ],
   "solution": [
-    3,
+    1,
     9,
-    11,
+    10,
     17,
-    20
+    23
   ],
   "doors": [
     [
@@ -60,41 +62,34 @@
       18
     ],
     [
-      22,
-      23
+      17,
+      18
     ]
   ],
   "windows": [
     [
-      4,
-      "t"
-    ],
-    [
-      9,
+      14,
       "r"
     ],
     [
-      19,
-      "r"
-    ]
-  ],
-  "tries": 2,
-  "facts": [
+      20,
+      "b"
+    ],
     [
-      "roomCount",
-      2,
-      2
+      20,
+      "l"
     ]
   ],
+  "tries": 1,
   "rules": [
     "ranks"
   ],
   "court": [
-    2
+    0
   ],
-  "rank": "ccckk",
-  "hard": 5,
-  "hardest": 5,
-  "steps": 15,
+  "rank": "kkkcc",
+  "hard": 2,
+  "hardest": 4,
+  "steps": 11,
   "extra": true
 }

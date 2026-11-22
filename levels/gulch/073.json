@@ -1,60 +1,60 @@
 {
   "size": 5,
   "rooms": "0001100011223332233322333",
-  "objects": "f..e..bb...da.....a......",
+  "objects": ".b..d.e...b..c.c.d..b....",
   "roomNames": [
-    "Barber",
     "General Store",
-    "Hotel",
-    "Bank"
+    "Mine",
+    "Jail",
+    "Livery"
   ],
   "people": [
-    "Albert the auctioneer",
-    "Birgit the blacksmith",
-    "Cora the cook",
-    "Victor the vet",
-    "Dmitri the dancer"
+    "Astrid the auctioneer",
+    "Bea the blacksmith",
+    "Carl the cattle driver",
+    "Vivian the vaquero",
+    "Dexter the deputy"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "bed"
+      "notRoom",
+      2
     ],
     [
       0,
-      "door"
+      "alone"
     ],
     [
       1,
-      "door"
+      "next",
+      "cactus"
     ],
     [
-      2,
+      1,
       "alone"
     ],
     [
       2,
-      "bandit"
+      "door"
     ],
     [
       4,
-      "row",
-      4
+      "bandit"
     ]
   ],
   "solution": [
-    2,
+    0,
     9,
-    13,
-    15,
+    12,
+    18,
     21
   ],
   "doors": [
     [
-      2,
-      3
+      7,
+      8
     ],
     [
       5,
@@ -65,44 +65,39 @@
       12
     ],
     [
-      9,
-      14
+      8,
+      13
     ],
     [
-      16,
-      17
+      11,
+      12
     ]
   ],
   "windows": [
     [
-      4,
+      2,
+      "t"
+    ],
+    [
+      14,
       "r"
     ],
     [
       20,
       "l"
-    ],
-    [
-      24,
-      "b"
     ]
   ],
-  "tries": 7,
+  "tries": 4,
   "facts": [
     [
-      "edge",
-      null,
-      4
-    ],
-    [
-      "touch",
-      null,
-      1
-    ],
-    [
-      "alone",
-      null,
+      "nextCount",
+      "cactus",
       3
+    ],
+    [
+      "onCount",
+      "bed",
+      0
     ]
   ],
   "rules": [
@@ -110,10 +105,10 @@
   ],
   "bandits": 1,
   "lawful": [
-    1
+    3
   ],
-  "hard": 3,
+  "hard": 2,
   "hardest": 4,
-  "steps": 19,
+  "steps": 17,
   "extra": true
 }

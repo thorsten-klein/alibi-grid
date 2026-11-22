@@ -1,80 +1,75 @@
 {
-  "size": 11,
-  "rooms": "0001112222200011122222000111222220001112222233333344444333333444443333334444455555544444555555666667777776666677777766666",
-  "objects": "..f............e.......a.a.....f..b...eca....b......a.c..bb...f..d....a.........a.........c...dba.ea.ca.a...........ff...",
+  "size": 9,
+  "rooms": "000000000111111000111111000222233444222233444555533444555533444555566666555566666",
+  "objects": ".e......fb.c..c..e...e..e.c..b.......b...e.......a.a..cf....f.e............e.....",
   "roomNames": [
-    "Berry Grove",
-    "Painted Wall",
-    "River Bank",
-    "Flint Pit",
     "Lookout Rock",
+    "Hide Tent",
     "Cave",
-    "Spring",
-    "Bone Yard"
+    "Berry Grove",
+    "Fire Pit",
+    "River Bank",
+    "Flint Pit"
   ],
   "people": [
-    "Albert the artist",
-    "Birgit the beekeeper",
-    "Cora the carrier",
-    "Vince the valley guide",
-    "Dexter the drummer",
-    "Elias the elder",
-    "Felix the flute player",
-    "Gus the guard",
-    "Hazel the hornblower",
-    "Ivy the ice cutter",
-    "Jutta the joker"
+    "Astrid the artist",
+    "Vera the valley guide",
+    "Bella the builder",
+    "Carl the carrier",
+    "Dexter the dancer",
+    "Elias the elk tamer",
+    "Frank the flute player",
+    "Gwen the grinder",
+    "Hana the hornblower"
   ],
-  "victim": 3,
+  "victim": 1,
   "clues": [
     [
       0,
-      "col",
-      7
-    ],
-    [
-      0,
-      "same",
-      1
-    ],
-    [
-      1,
-      "row",
+      "notRoom",
       1
     ],
     [
       2,
-      "next",
-      "log"
+      "alone"
     ],
     [
       3,
-      "on",
-      "leaves"
+      "next",
+      "tree"
+    ],
+    [
+      3,
+      "door"
     ],
     [
       4,
-      "next",
-      "leaves"
+      "notRoom",
+      1
     ],
     [
       5,
-      "next",
-      "fire"
+      "door"
+    ],
+    [
+      5,
+      "col",
+      3
     ],
     [
       6,
-      "on",
-      "log"
+      "next",
+      "bones"
     ],
     [
       7,
-      "door"
+      "room",
+      6
     ],
     [
       7,
       "col",
-      5
+      7
     ],
     [
       8,
@@ -82,128 +77,110 @@
       8
     ],
     [
-      9,
-      "next",
-      "log"
-    ],
-    [
-      9,
-      "same",
-      10
-    ],
-    [
-      10,
-      "window"
+      8,
+      "col",
+      0
     ]
   ],
   "solution": [
-    7,
-    17,
-    24,
-    34,
-    47,
-    64,
+    4,
+    15,
+    19,
+    32,
+    44,
+    48,
+    56,
     70,
-    82,
-    88,
-    107,
-    120
+    72
   ],
   "doors": [
     [
-      35,
-      36
+      0,
+      9
     ],
     [
-      35,
-      46
+      25,
+      34
     ],
     [
-      5,
-      6
+      20,
+      29
+    ],
+    [
+      23,
+      32
+    ],
+    [
+      39,
+      40
     ],
     [
       37,
-      48
+      46
     ],
     [
-      42,
-      53
+      59,
+      60
     ],
     [
-      49,
-      50
+      48,
+      49
     ],
     [
-      66,
-      77
+      59,
+      68
     ],
     [
-      82,
-      83
+      62,
+      71
     ],
     [
-      87,
-      98
-    ],
-    [
-      93,
-      94
-    ],
-    [
-      93,
-      104
-    ],
-    [
-      115,
-      116
+      75,
+      76
     ]
   ],
   "windows": [
     [
-      21,
-      "r"
+      0,
+      "t"
     ],
     [
-      32,
-      "r"
+      7,
+      "t"
     ],
     [
-      44,
+      9,
       "l"
     ],
     [
-      77,
+      36,
       "l"
     ],
     [
-      109,
-      "r"
-    ],
-    [
-      113,
-      "b"
-    ],
-    [
-      120,
+      78,
       "b"
     ]
   ],
-  "tries": 3,
+  "tries": 7,
   "facts": [
     [
+      "emptyRooms",
+      null,
+      1
+    ],
+    [
       "nextCount",
-      "boulder",
+      "log",
       0
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": ".3.1...4..3",
-  "tags": "0..........................2................4...........4...........4......................1.............3.....43......33",
-  "hard": 8,
-  "hardest": 9,
-  "steps": 26,
+  "trade": "1.203.313",
+  "tags": "....1..1.....2.........0...20...0.1.....................3.........2...1.3........",
+  "hard": 5,
+  "hardest": 4,
+  "steps": 29,
   "extra": true
 }

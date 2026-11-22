@@ -1,181 +1,138 @@
 {
-  "size": 10,
-  "rooms": "0011112222001111222200111122220011112222333334445533333444553333344455666664445566666777776666677777",
-  "objects": "..ac.d...adf......eba.d.b.....be.b.cd.f......efc...cf............deb..b.f....c..dcd....bebb...a..ebb",
+  "size": 9,
+  "rooms": "001111111001111111001111111001111111222221111222221111334445555334445555334445555",
+  "objects": "ba.................a.......b.........ae.d.....d.a.....f.b.......b.a....eb.......b",
   "roomNames": [
-    "Fire Pit",
-    "Saloon",
     "Cave",
-    "Shrine",
+    "Sea of Ages",
+    "Fire Pit",
     "Captain Cabin",
-    "Burial Chamber",
-    "Fort",
-    "Great Hall"
+    "Saloon",
+    "Burial Chamber"
   ],
   "people": [
     "Arthur the astronomer",
-    "Birgit the bard",
+    "Bea the bard",
     "Cedric the clockmaker",
-    "Dora the dreamer",
-    "Edith the explorer",
-    "Felix the fortune teller",
+    "Della the dreamer",
+    "Edgar the engineer",
+    "Frank the fortune teller",
     "Gideon the guardian",
-    "Hilda the historian",
-    "Vera the voyager",
-    "Isla the inventor"
+    "Vince the voyager",
+    "Hazel the historian"
   ],
-  "victim": 8,
+  "victim": 7,
   "clues": [
     [
       0,
-      "on",
-      "chair"
+      "col",
+      4
     ],
     [
-      1,
-      "same",
-      0
-    ],
-    [
-      2,
-      "same",
-      1
-    ],
-    [
-      3,
-      "on",
-      "log"
-    ],
-    [
-      4,
-      "door"
-    ],
-    [
-      5,
-      "door"
-    ],
-    [
-      5,
+      0,
       "alone"
     ],
     [
-      6,
-      "next",
-      "clock"
+      1,
+      "row",
+      1
     ],
     [
-      6,
+      1,
+      "col",
+      2
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      2,
+      "alone"
+    ],
+    [
+      3,
       "row",
+      3
+    ],
+    [
+      4,
+      "next",
+      "chair"
+    ],
+    [
+      4,
+      "next",
+      "barrel"
+    ],
+    [
+      5,
+      "col",
       6
     ],
     [
-      7,
+      6,
       "next",
-      "clock"
+      "boulder"
     ],
     [
       8,
       "next",
-      "chair"
-    ],
-    [
-      9,
-      "alone"
+      "log"
     ]
   ],
   "solution": [
-    9,
-    16,
-    28,
-    33,
-    40,
-    57,
+    4,
+    11,
+    18,
+    34,
+    39,
+    51,
     62,
-    71,
-    84,
-    95
+    68,
+    73
   ],
   "doors": [
     [
-      11,
-      12
+      27,
+      36
     ],
     [
-      30,
-      40
+      45,
+      54
     ],
     [
-      15,
-      16
-    ],
-    [
-      32,
-      42
-    ],
-    [
-      35,
-      45
-    ],
-    [
-      37,
-      47
-    ],
-    [
-      38,
-      48
-    ],
-    [
-      44,
-      45
-    ],
-    [
-      60,
-      70
-    ],
-    [
-      57,
+      49,
       58
     ],
     [
-      74,
-      75
+      55,
+      56
     ],
     [
       76,
-      86
-    ],
-    [
-      78,
-      88
-    ],
-    [
-      84,
-      85
+      77
     ]
   ],
   "windows": [
     [
-      6,
-      "t"
-    ],
-    [
-      30,
+      18,
       "l"
     ],
     [
-      59,
+      63,
+      "l"
+    ],
+    [
+      71,
       "r"
     ],
     [
-      93,
-      "b"
+      80,
+      "r"
     ],
     [
-      96,
-      "b"
-    ],
-    [
-      99,
+      80,
       "b"
     ]
   ],
@@ -183,23 +140,18 @@
   "facts": [
     [
       "nextCount",
-      "statue",
-      2
+      "clock",
+      0
     ]
   ],
   "rules": [
-    "ranks",
-    "trades"
+    "glyphs",
+    "sea"
   ],
-  "court": [
-    1,
-    6
-  ],
-  "rank": "cckncccnnc",
-  "trade": ".4..1.433.",
-  "tags": "................4......3.2.............................................3..2.........3...............",
-  "hard": 10,
-  "hardest": 7,
-  "steps": 31,
+  "tags": "..........................................................L.........C.L..L.......",
+  "sea": 1,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 23,
   "extra": true
 }

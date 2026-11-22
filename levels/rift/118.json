@@ -1,53 +1,45 @@
 {
   "size": 8,
-  "rooms": "0000111100001111222211112222333322223333444455554444555544445555",
-  "objects": ".a.........f.de...c.e..c.....d.........d......c..db.e....b..f..b",
+  "rooms": "0001111100011111000222220002222233322222333444443334444433355555",
+  "objects": "....ae......b....e.dbbbef...f..a...fa....ac...b..f........b..a..",
   "roomNames": [
-    "Cave",
-    "Saloon",
-    "Fire Pit",
-    "Great Hall",
     "Hide Tent",
-    "Throne Room"
+    "Throne Room",
+    "Fort",
+    "Cave",
+    "Great Hall",
+    "Shrine"
   ],
   "people": [
-    "Astrid the archivist",
-    "Birgit the bard",
-    "Cedric the chronicler",
-    "Dora the dreamer",
+    "Albert the archivist",
+    "Bea the bard",
     "Vince the visionary",
-    "Ena the engineer",
-    "Flora the falconer",
-    "Gus the guardian"
+    "Cora the chronicler",
+    "Dmitri the dreamer",
+    "Elias the engineer",
+    "Frank the fortune teller",
+    "Grace the gladiator"
   ],
-  "victim": 4,
+  "victim": 2,
   "clues": [
     [
       0,
-      "row",
-      0
-    ],
-    [
-      1,
-      "alone"
-    ],
-    [
-      1,
       "bandit"
     ],
     [
-      2,
+      1,
       "next",
-      "statue"
-    ],
-    [
-      2,
-      "door"
+      "log"
     ],
     [
       3,
-      "col",
-      6
+      "next",
+      "log"
+    ],
+    [
+      3,
+      "next",
+      "chair"
     ],
     [
       4,
@@ -55,110 +47,115 @@
     ],
     [
       5,
-      "next",
-      "boulder"
+      "on",
+      "chair"
     ],
     [
-      6,
-      "row",
+      5,
+      "same",
       6
     ],
     [
+      6,
+      "next",
+      "statue"
+    ],
+    [
       7,
-      "door"
+      "on",
+      "chair"
     ]
   ],
   "solution": [
     7,
-    8,
-    17,
+    11,
+    20,
     30,
-    34,
-    44,
-    53,
-    59
+    32,
+    41,
+    50,
+    61
   ],
   "doors": [
     [
-      11,
-      12
+      2,
+      3
     ],
     [
-      9,
-      17
+      26,
+      27
     ],
     [
-      19,
-      20
+      24,
+      32
     ],
     [
-      20,
-      28
-    ],
-    [
-      27,
-      28
+      15,
+      23
     ],
     [
       34,
-      42
+      35
     ],
     [
-      37,
-      45
+      38,
+      46
     ],
     [
-      59,
-      60
+      42,
+      43
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      51,
+      59
     ]
   ],
   "windows": [
     [
-      0,
+      3,
       "t"
     ],
     [
-      0,
+      6,
+      "t"
+    ],
+    [
+      48,
       "l"
     ],
     [
-      23,
-      "r"
+      56,
+      "l"
     ],
     [
-      31,
-      "r"
-    ],
-    [
-      58,
+      60,
       "b"
     ]
   ],
-  "tries": 6,
+  "tries": 0,
   "facts": [
     [
-      "roomCount",
-      2,
-      2
-    ],
-    [
       "nextCount",
-      "log",
-      0
+      "clock",
+      3
     ]
   ],
   "rules": [
     "trades",
     "bandits"
   ],
-  "trade": "..4..11.",
-  "tags": ".....1..........0...................1.......1...0..0.1..........",
+  "trade": "4342..43",
+  "tags": "...........3....2..........................0......4.............",
   "bandits": 2,
   "lawful": [
-    1
+    2
   ],
-  "hard": 8,
-  "hardest": 5,
-  "steps": 26,
+  "hard": 6,
+  "hardest": 4,
+  "steps": 22,
   "extra": true
 }

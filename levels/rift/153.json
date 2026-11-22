@@ -1,206 +1,193 @@
 {
-  "size": 11,
-  "rooms": "0000000000000000000000000000000001110000000011100022222111000222221110002222233344445555333444455553334444555533344445555",
-  "objects": ".............................................bd...f....a.........a......bf.bae....c..b..b...b....b.....c.....b.ba.a..fa..",
+  "size": 10,
+  "rooms": "0000111122000011112200001111220000111122333344455533334445556666444555666644455566667777776666777777",
+  "objects": ".e.....bb...a.b.ba..f..ea......b....f.f.b..ffad.fb............c....f.....be......dab.ed..bf.........",
   "roomNames": [
-    "Sea of Ages",
+    "Burial Chamber",
     "Captain Cabin",
     "Great Hall",
-    "Burial Chamber",
-    "Shrine",
-    "Throne Room"
+    "Bank",
+    "Hide Tent",
+    "Saloon",
+    "Fort",
+    "Cave"
   ],
   "people": [
-    "Albert the archivist",
-    "Basil the bard",
-    "Carl the clockmaker",
-    "Dmitri the dreamer",
-    "Elsa the explorer",
-    "Vera the voyager",
-    "Freya the fortune teller",
-    "Greta the guardian",
-    "Hugo the historian",
-    "Ivo the illusionist",
-    "Jonas the juggler"
+    "Alma the astronomer",
+    "Basil the bookbinder",
+    "Celia the clockmaker",
+    "Della the drifter",
+    "Elias the explorer",
+    "Victor the voyager",
+    "Fiona the falconer",
+    "Gus the gladiator",
+    "Hazel the historian",
+    "Isla the illusionist"
   ],
   "victim": 5,
   "clues": [
     [
       0,
-      "row",
-      0
+      "window"
     ],
     [
       1,
-      "notRoom",
+      "row",
       1
     ],
     [
-      1,
-      "col",
-      2
-    ],
-    [
-      1,
-      "bandit"
-    ],
-    [
       2,
-      "room",
-      0
-    ],
-    [
-      2,
-      "col",
+      "same",
       0
     ],
     [
       3,
-      "col",
-      7
-    ],
-    [
-      3,
-      "bandit"
-    ],
-    [
-      4,
       "next",
       "chair"
     ],
     [
+      4,
+      "door"
+    ],
+    [
       5,
+      "next",
+      "barrel"
+    ],
+    [
+      6,
       "next",
       "clock"
     ],
     [
-      6,
-      "alone"
-    ],
-    [
       7,
       "next",
-      "statue"
+      "boulder"
     ],
     [
       8,
-      "next",
+      "on",
       "log"
     ],
     [
       9,
       "next",
-      "chair"
-    ],
-    [
-      9,
-      "alone"
-    ],
-    [
-      10,
-      "next",
-      "chair"
-    ],
-    [
-      10,
-      "withBandit"
+      "barrel"
     ]
   ],
   "solution": [
-    9,
+    0,
     13,
     22,
-    40,
-    54,
-    61,
-    71,
-    81,
+    34,
+    47,
+    56,
+    68,
+    75,
     89,
-    107,
-    113
+    91
   ],
   "doors": [
     [
-      67,
-      78
+      23,
+      24
     ],
     [
-      72,
-      83
+      31,
+      41
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      34,
+      44
+    ],
+    [
+      37,
+      47
+    ],
+    [
+      39,
+      49
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      63,
+      64
     ],
     [
       76,
+      86
+    ],
+    [
+      77,
       87
     ],
     [
-      79,
-      80
-    ],
-    [
-      94,
-      95
+      83,
+      84
     ]
   ],
   "windows": [
     [
-      65,
-      "r"
-    ],
-    [
-      87,
-      "r"
-    ],
-    [
-      88,
+      0,
       "l"
     ],
     [
-      109,
+      2,
+      "t"
+    ],
+    [
+      9,
       "r"
     ],
     [
-      110,
+      29,
+      "r"
+    ],
+    [
+      93,
       "b"
     ],
     [
-      118,
-      "b"
-    ],
-    [
-      119,
+      97,
       "b"
     ]
   ],
-  "tries": 10,
+  "tries": 2,
   "facts": [
     [
-      "corner",
-      null,
-      4
-    ],
-    [
-      "touch",
-      null,
-      0
-    ],
-    [
-      "onCount",
-      "log",
+      "roomCount",
+      2,
       0
     ]
   ],
   "rules": [
-    "bandits",
-    "sea"
+    "ranks",
+    "trades"
   ],
-  "sea": 0,
-  "bandits": 3,
-  "lawful": [
-    3,
-    5
+  "court": [
+    1,
+    7
   ],
-  "hard": 8,
-  "hardest": 9,
-  "steps": 33,
+  "rank": "cckkckccnc",
+  "trade": "3033..1..4",
+  "tags": "3........................................13...............0.........1...4......2...........4........",
+  "hard": 9,
+  "hardest": 8,
+  "steps": 24,
   "extra": true
 }

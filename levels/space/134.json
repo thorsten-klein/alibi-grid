@@ -1,143 +1,114 @@
 {
-  "size": 9,
-  "rooms": "000111122000111122000111122000111122333344444333344444333344444555566666555566666",
-  "objects": ".c.bab..c......d....abe..................c....c...cb...a..a.a.b..f.ebffbdcea...ea",
+  "size": 8,
+  "rooms": "0001122200011222000112220001122233344555333445553334455533344555",
+  "objects": "...f..d...ba.....df.....c.....db..c..........f........e.........",
   "roomNames": [
     "Med Bay",
-    "Cargo Bay",
     "Observatory",
     "Comms",
-    "Hydroponics",
-    "Crew Quarters",
-    "Bridge"
+    "Bridge",
+    "Airlock",
+    "Mess Hall"
   ],
   "people": [
-    "Albert the analyst",
-    "Birgit the biologist",
-    "Carl the chemist",
-    "Vivian the visitor",
-    "Dexter the driller",
-    "Elias the electrician",
-    "Flora the flight officer",
-    "Gideon the gunner",
-    "Hugo the hacker"
+    "Arthur the astronaut",
+    "Bea the biologist",
+    "Carl the captain",
+    "Vera the visitor",
+    "Dmitri the doctor",
+    "Elias the engineer",
+    "Felix the farmer",
+    "Gideon the geologist"
   ],
   "victim": 3,
   "clues": [
     [
       0,
-      "next",
-      "scope"
+      "same",
+      1
     ],
     [
       1,
-      "alone"
-    ],
-    [
-      2,
       "on",
       "seat"
     ],
     [
-      3,
+      2,
       "door"
     ],
     [
       3,
-      "row",
-      3
+      "on",
+      "pod"
     ],
     [
       4,
-      "next",
-      "console"
-    ],
-    [
-      4,
-      "door"
+      "alone"
     ],
     [
       5,
-      "next",
-      "console"
+      "row",
+      5
+    ],
+    [
+      5,
+      "col",
+      1
     ],
     [
       6,
-      "next",
-      "console"
-    ],
-    [
-      6,
-      "next",
-      "seat"
+      "col",
+      0
     ],
     [
       7,
-      "next",
-      "tank"
-    ],
-    [
-      8,
-      "next",
-      "plant"
+      "row",
+      7
     ]
   ],
   "solution": [
-    6,
-    16,
-    20,
-    30,
-    40,
-    45,
-    59,
-    64,
-    80
+    4,
+    11,
+    21,
+    31,
+    38,
+    41,
+    48,
+    58
   ],
   "doors": [
     [
-      11,
-      12
+      18,
+      19
     ],
     [
-      27,
+      24,
+      32
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      28,
       36
     ],
     [
-      33,
-      34
-    ],
-    [
       30,
-      39
-    ],
-    [
-      32,
-      41
+      38
     ],
     [
       34,
-      43
-    ],
-    [
-      39,
-      40
-    ],
-    [
-      56,
-      65
+      35
     ],
     [
       60,
-      69
-    ],
-    [
-      66,
-      67
+      61
     ]
   ],
   "windows": [
     [
-      0,
+      1,
       "t"
     ],
     [
@@ -145,33 +116,21 @@
       "t"
     ],
     [
-      17,
+      4,
+      "t"
+    ],
+    [
+      39,
       "r"
     ],
     [
-      53,
+      63,
       "r"
-    ],
-    [
-      54,
-      "l"
     ]
   ],
-  "tries": 7,
-  "facts": [
-    [
-      "corner",
-      null,
-      4
-    ],
-    [
-      "roomCount",
-      5,
-      1
-    ]
-  ],
-  "hard": 5,
-  "hardest": 6,
-  "steps": 31,
+  "tries": 2,
+  "hard": 4,
+  "hardest": 4,
+  "steps": 19,
   "extra": true
 }

@@ -1,70 +1,66 @@
 {
   "size": 7,
   "rooms": "0001111000111100011112223333222333322244442224444",
-  "objects": "ba.b.....b....bb..dd...c.a.....bba..a..f.......c.",
+  "objects": ".....b......beb......ac...a.......efe.d..fa......",
   "roomNames": [
-    "Well Shaft",
     "Scribe Room",
-    "Statue Hall",
-    "Workshop",
-    "Antechamber"
+    "Sun Court",
+    "Granary",
+    "Well Shaft",
+    "Shrine"
   ],
   "people": [
-    "Albert the astrologer",
+    "Alma the architect",
     "Vince the vintner",
-    "Bella the boat builder",
-    "Celia the chanter",
-    "Dora the dancer",
+    "Birgit the brewer",
+    "Cora the chanter",
+    "Daisy the diviner",
     "Elias the embalmer",
-    "Flora the fisher"
+    "Frank the fanbearer"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "row",
-      0
-    ],
-    [
-      0,
-      "col",
-      5
-    ],
-    [
-      2,
-      "alone"
-    ],
-    [
-      3,
-      "door"
-    ],
-    [
-      4,
       "window"
     ],
     [
-      5,
+      2,
       "next",
+      "rubble"
+    ],
+    [
+      2,
+      "window"
+    ],
+    [
+      3,
+      "on",
       "stool"
     ],
     [
-      6,
-      "next",
-      "urn"
+      4,
+      "same",
+      3
+    ],
+    [
+      5,
+      "door"
     ],
     [
       6,
-      "alone"
+      "next",
+      "rubble"
     ]
   ],
   "solution": [
-    5,
-    13,
-    15,
-    24,
-    28,
-    37,
-    46
+    0,
+    9,
+    20,
+    26,
+    31,
+    39,
+    43
   ],
   "doors": [
     [
@@ -72,63 +68,51 @@
       17
     ],
     [
-      14,
-      21
+      16,
+      23
     ],
     [
-      18,
-      25
-    ],
-    [
-      23,
+      17,
       24
     ],
     [
-      44,
-      45
+      30,
+      31
     ],
     [
-      31,
+      37,
       38
+    ],
+    [
+      32,
+      39
     ]
   ],
   "windows": [
     [
-      7,
+      0,
       "l"
     ],
     [
-      28,
-      "l"
+      13,
+      "r"
     ],
     [
-      42,
-      "l"
+      20,
+      "r"
     ],
     [
-      43,
+      45,
       "b"
     ]
   ],
-  "tries": 6,
-  "facts": [
-    [
-      "nextCount",
-      "couch",
-      1
-    ],
-    [
-      "furniture",
-      null,
-      1
-    ]
-  ],
+  "tries": 1,
   "rules": [
     "glyphs"
   ],
-  "tags": ".............C.............................L....C",
-  "hard": 1,
-  "hardest": 4,
+  "tags": "......L.C......................C...........L.....",
+  "hard": 2,
+  "hardest": 3,
   "steps": 21,
   "extra": true
 }

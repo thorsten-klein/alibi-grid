@@ -1,52 +1,41 @@
 {
   "size": 6,
-  "rooms": "001111001111002222002222333333444444",
-  "objects": "a...dc..caa.....e..d.e.e.b...bdc....",
+  "rooms": "001111001111001111223344223344223344",
+  "objects": "...e.fdad..b........f.d...c.b.......",
   "roomNames": [
+    "Kitchen",
+    "Billiard Room",
     "Ballroom",
-    "Gallery",
     "Conservatory",
-    "Pantry",
-    "Library"
+    "Cellar"
   ],
   "people": [
-    "Ada the architect",
-    "Basil the butler",
-    "Carl the cook",
-    "Victor the valet",
-    "Daisy the dealer",
+    "Ada the author",
+    "Birgit the banker",
+    "Celia the cook",
+    "Daisy the doctor",
+    "Vivian the vicar",
     "Edith the editor"
   ],
-  "victim": 3,
+  "victim": 4,
   "clues": [
     [
       0,
       "next",
-      "piano"
+      "clock"
     ],
     [
       1,
       "next",
-      "chair"
+      "piano"
     ],
     [
       2,
-      "col",
-      2
-    ],
-    [
-      3,
-      "next",
-      "plant"
+      "window"
     ],
     [
       3,
       "door"
-    ],
-    [
-      4,
-      "on",
-      "sofa"
     ],
     [
       5,
@@ -54,12 +43,12 @@
     ]
   ],
   "solution": [
-    3,
-    6,
-    14,
-    22,
-    25,
-    35
+    4,
+    9,
+    17,
+    19,
+    24,
+    32
   ],
   "doors": [
     [
@@ -67,47 +56,54 @@
       8
     ],
     [
+      13,
+      19
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      22
+    ],
+    [
       19,
       20
     ],
     [
-      18,
-      24
-    ],
-    [
-      9,
-      15
-    ],
-    [
-      22,
-      28
-    ],
-    [
-      28,
+      33,
       34
     ]
   ],
   "windows": [
     [
-      2,
-      "t"
+      12,
+      "l"
     ],
     [
-      5,
-      "t"
+      17,
+      "r"
     ],
     [
-      30,
+      31,
       "b"
     ],
     [
-      30,
-      "l"
+      35,
+      "b"
     ]
   ],
-  "tries": 5,
-  "hard": 2,
-  "hardest": 3,
-  "steps": 18,
+  "tries": 1,
+  "facts": [
+    [
+      "nextCount",
+      "plant",
+      2
+    ]
+  ],
+  "hard": 5,
+  "hardest": 5,
+  "steps": 20,
   "extra": true
 }

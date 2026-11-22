@@ -1,48 +1,53 @@
 {
-  "size": 12,
-  "rooms": "000111222233000111222233000111222233000111222233000111222233445555666633445555666633445555666633447777666633447777888888447777888888447777888888",
-  "objects": "e.c..dc....e..c....a.....ae.b.....a...a...e...b...cd....a.ba.cf...f..de.......bff...a...e...cca.b.bb........c....cbb.ec.bd....a.d.b....aea...f.a",
+  "size": 10,
+  "rooms": "0001122222000112222200011333330001133333000113333344444555554444455555444446666677777666667777766666",
+  "objects": "..b.d.ec...fc......b.b.b.....a.e......a...c..b.ae..f......b.....ba.....ac.....b...a..........db.ecd.",
   "roomNames": [
-    "Hide Tent",
-    "Shrine",
-    "Great Hall",
-    "Bank",
     "Fire Pit",
+    "Shrine",
+    "Bank",
+    "Jail",
     "Burial Chamber",
     "Throne Room",
-    "Captain Cabin",
-    "Fort"
+    "Hide Tent",
+    "Captain Cabin"
   ],
   "people": [
-    "Arthur the astronomer",
-    "Basil the bookbinder",
-    "Carl the chronicler",
-    "Dora the drifter",
-    "Vince the voyager",
-    "Elsa the engineer",
-    "Flora the fortune teller",
-    "Grace the guardian",
-    "Henrik the historian",
-    "Isla the inventor",
-    "Jonas the juggler",
-    "Kai the kite maker"
+    "Viola the visionary",
+    "Astrid the astronomer",
+    "Bella the bookbinder",
+    "Cora the clockmaker",
+    "Della the drifter",
+    "Edith the explorer",
+    "Frank the falconer",
+    "Greta the gladiator",
+    "Hugo the herald",
+    "Ines the inventor"
   ],
-  "victim": 4,
+  "victim": 0,
   "clues": [
     [
       0,
       "next",
-      "statue"
+      "clock"
+    ],
+    [
+      0,
+      "next",
+      "log"
     ],
     [
       1,
       "next",
-      "chair"
+      "barrel"
     ],
     [
-      2,
-      "on",
-      "chair"
+      1,
+      "door"
+    ],
+    [
+      1,
+      "alone"
     ],
     [
       2,
@@ -51,179 +56,156 @@
     ],
     [
       3,
-      "same",
-      1
+      "col",
+      6
     ],
     [
       4,
-      "door"
+      "next",
+      "boulder"
     ],
     [
       5,
-      "alone"
+      "next",
+      "chair"
     ],
     [
       6,
       "next",
-      "barrel"
+      "log"
     ],
     [
       7,
-      "same",
-      2
+      "next",
+      "statue"
+    ],
+    [
+      7,
+      "alone"
     ],
     [
       8,
-      "on",
-      "log"
+      "alone"
     ],
     [
       9,
-      "next",
-      "log"
-    ],
-    [
-      10,
-      "door"
-    ],
-    [
-      11,
-      "window"
+      "alone"
     ]
   ],
   "solution": [
     1,
+    14,
     20,
-    34,
-    43,
-    48,
-    64,
-    81,
-    95,
-    98,
-    111,
-    125,
-    138
+    36,
+    47,
+    55,
+    68,
+    73,
+    89,
+    92
   ],
   "doors": [
     [
-      50,
-      51
+      2,
+      3
     ],
     [
-      48,
-      60
+      40,
+      50
     ],
     [
-      50,
-      62
+      14,
+      15
     ],
     [
-      5,
-      6
+      44,
+      45
     ],
     [
-      53,
-      65
+      43,
+      53
     ],
     [
-      57,
-      58
+      16,
+      26
     ],
     [
-      57,
-      69
+      45,
+      55
     ],
     [
-      81,
-      82
+      54,
+      55
     ],
     [
-      107,
-      119
+      74,
+      75
     ],
     [
-      85,
-      86
+      74,
+      84
     ],
     [
-      121,
-      122
+      66,
+      76
     ],
     [
-      89,
-      90
-    ],
-    [
-      87,
-      99
-    ],
-    [
-      101,
-      102
-    ],
-    [
-      102,
-      114
-    ],
-    [
-      125,
-      126
+      94,
+      95
     ]
   ],
   "windows": [
     [
       0,
-      "l"
-    ],
-    [
-      10,
       "t"
     ],
     [
-      59,
+      4,
+      "t"
+    ],
+    [
+      39,
       "r"
     ],
     [
-      96,
-      "l"
-    ],
-    [
-      131,
+      69,
       "r"
     ],
     [
-      135,
+      90,
       "b"
     ],
     [
-      138,
+      91,
       "b"
     ]
   ],
-  "tries": 4,
+  "tries": 12,
   "facts": [
     [
-      "roomCount",
-      0,
-      2
+      "nextCount",
+      "statue",
+      1
+    ],
+    [
+      "onCount",
+      "chair",
+      1
     ]
   ],
   "rules": [
     "ranks",
-    "glyphs",
     "trades"
   ],
   "court": [
-    2,
-    6,
-    7
+    1,
+    3
   ],
-  "rank": "cncnccnckknc",
-  "trade": "..034.42.101",
-  "tags": ".C.....43........1......C....2.3...........3L.........3..2..3...L........L..1....43.......C....2.....0....L...31....1........0............L.....",
+  "rank": "ckcnncccck",
+  "trade": "...0.34.41",
+  "tags": ".....0..............................0...............3333....1.......4..........3.3.....0.4.1...3....",
   "hard": 7,
-  "hardest": 10,
-  "steps": 31,
+  "hardest": 6,
+  "steps": 41,
   "extra": true
 }

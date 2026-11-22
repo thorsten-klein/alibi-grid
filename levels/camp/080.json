@@ -1,115 +1,94 @@
 {
-  "size": 6,
-  "rooms": "000011000011222211222211333344333344",
-  "objects": "..f..a.f.a.b...e.......b...b.....c..",
+  "size": 5,
+  "rooms": "0011100111223332233322333",
+  "objects": ".....dfd...b...a.........",
   "roomNames": [
+    "Spring",
     "Elder Hut",
     "Lookout Rock",
-    "Fire Pit",
-    "Hunting Ground",
-    "River Bank"
+    "Hunting Ground"
   ],
   "people": [
     "Ada the artist",
-    "Basil the beekeeper",
-    "Vera the visionary",
-    "Cora the carrier",
-    "Della the drummer",
-    "Ena the elder"
+    "Bea the beekeeper",
+    "Clara the carver",
+    "Daisy the drummer",
+    "Vivian the valley guide"
   ],
-  "victim": 2,
+  "victim": 4,
   "clues": [
     [
       0,
       "next",
-      "log"
+      "fire"
     ],
     [
       1,
-      "on",
-      "leaves"
+      "door"
+    ],
+    [
+      2,
+      "alone"
     ],
     [
       3,
       "door"
-    ],
-    [
-      4,
-      "alone"
-    ],
-    [
-      5,
-      "next",
-      "boulder"
     ]
   ],
   "solution": [
-    3,
+    0,
+    8,
     11,
-    13,
-    18,
-    28,
-    32
+    17,
+    24
   ],
   "doors": [
     [
-      9,
+      1,
+      2
+    ],
+    [
+      5,
       10
     ],
     [
       8,
-      14
+      13
     ],
     [
-      15,
-      16
-    ],
-    [
-      22,
-      28
-    ],
-    [
-      18,
-      24
-    ],
-    [
-      33,
-      34
+      16,
+      17
     ]
   ],
   "windows": [
     [
-      4,
+      3,
       "t"
     ],
     [
       5,
-      "t"
-    ],
-    [
-      18,
       "l"
     ],
     [
-      23,
-      "r"
+      24,
+      "b"
     ]
   ],
-  "tries": 0,
+  "tries": 4,
   "facts": [
     [
-      "roomCount",
-      3,
-      1
+      "edge",
+      null,
+      2
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": ".40...",
-  "tags": "........2.2..02...................2.",
-  "hard": 5,
+  "trade": "..012",
+  "tags": ".........2.......1.2..1.2",
+  "hard": 3,
   "hardest": 4,
-  "steps": 19,
+  "steps": 17,
   "extra": true
 }

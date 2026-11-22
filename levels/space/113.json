@@ -1,147 +1,121 @@
 {
-  "size": 8,
-  "rooms": "0011122200111222001112223333344433333444333334445555544455555444",
-  "objects": ".....f.d.f..b..c........b.........f...a..d..e......b...a....ccf.",
+  "size": 7,
+  "rooms": "0001111000111100011112222333222233344443334444333",
+  "objects": "bf...ea.f.bb...f...........ab.a..bcd..e.a.ba.....",
   "roomNames": [
-    "Hydroponics",
-    "Cargo Bay",
     "Med Bay",
-    "Airlock",
-    "Observatory",
-    "Bridge"
+    "Hydroponics",
+    "Bridge",
+    "Gym",
+    "Cargo Bay"
   ],
   "people": [
-    "Albert the analyst",
-    "Bruno the biologist",
-    "Vince the volunteer",
-    "Cedric the chemist",
-    "Della the doctor",
-    "Ena the engineer",
-    "Felix the farmer",
-    "Gideon the gunner"
+    "Arthur the analyst",
+    "Basil the botanist",
+    "Vivian the visitor",
+    "Cedric the captain",
+    "Dora the doctor",
+    "Elias the electrician",
+    "Frank the farmer"
   ],
   "victim": 2,
   "clues": [
     [
       0,
-      "col",
-      0
-    ],
-    [
-      0,
-      "alone"
+      "next",
+      "plant"
     ],
     [
       1,
-      "row",
-      1
-    ],
-    [
-      2,
-      "door"
-    ],
-    [
-      3,
-      "col",
-      3
-    ],
-    [
-      4,
-      "next",
-      "seat"
-    ],
-    [
-      4,
-      "col",
-      5
-    ],
-    [
-      5,
-      "next",
-      "seat"
-    ],
-    [
-      6,
       "next",
       "tank"
     ],
     [
-      7,
+      3,
+      "same",
+      4
+    ],
+    [
+      4,
       "window"
+    ],
+    [
+      5,
+      "door"
+    ],
+    [
+      6,
+      "next",
+      "plant"
+    ],
+    [
+      6,
+      "alone"
     ]
   ],
   "solution": [
-    0,
-    10,
-    20,
-    27,
-    37,
-    47,
-    54,
-    57
+    6,
+    9,
+    19,
+    22,
+    28,
+    39,
+    45
   ],
   "doors": [
     [
-      17,
-      18
+      2,
+      3
+    ],
+    [
+      16,
+      23
     ],
     [
       17,
+      24
+    ],
+    [
+      18,
       25
     ],
     [
-      20,
-      21
+      31,
+      32
     ],
     [
-      20,
-      28
+      30,
+      37
     ],
     [
-      23,
-      31
-    ],
-    [
-      28,
-      29
-    ],
-    [
-      41,
-      49
-    ],
-    [
-      60,
-      61
+      38,
+      39
     ]
   ],
   "windows": [
     [
-      8,
+      6,
+      "r"
+    ],
+    [
+      28,
       "l"
     ],
     [
-      32,
+      42,
       "l"
     ],
     [
-      56,
-      "b"
-    ],
-    [
-      57,
-      "b"
-    ],
-    [
-      62,
+      45,
       "b"
     ]
   ],
-  "tries": 0,
+  "tries": 3,
   "facts": [
     [
-      "furniture",
+      "doorCount",
       null,
-      0
+      1
     ]
   ],
   "hard": 5,

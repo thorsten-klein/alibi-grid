@@ -1,119 +1,120 @@
 {
   "size": 6,
-  "rooms": "001122001122003333003333004444004444",
-  "objects": "......befd.bd....bc.a.d.a.d.....de..",
+  "rooms": "000111000111000111223344223344223344",
+  "objects": ".f.e.de...b.e..cb..ca.daec........aa",
   "roomNames": [
+    "Boot Room",
     "Dining Hall",
-    "Spa",
-    "Bar",
-    "Sauna",
-    "Boot Room"
+    "Fireside Lounge",
+    "Lobby",
+    "Terrace"
   ],
   "people": [
-    "Astrid the avalanche guard",
-    "Vivian the vlogger",
-    "Basil the baker",
-    "Clara the cook",
-    "Dora the driver",
-    "Elias the engineer"
+    "Ada the avalanche guard",
+    "Vera the vlogger",
+    "Bella the baker",
+    "Carl the climber",
+    "Della the doctor",
+    "Edith the engineer"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "alone"
+      "next",
+      "wood"
+    ],
+    [
+      1,
+      "next",
+      "tree"
     ],
     [
       2,
       "next",
-      "chair"
-    ],
-    [
-      2,
-      "same",
-      3
+      "sofa"
     ],
     [
       3,
-      "door"
+      "next",
+      "chair"
     ],
     [
       4,
       "next",
-      "chair"
+      "fire"
     ],
     [
       5,
-      "next",
-      "tree"
+      "alone"
     ]
   ],
   "solution": [
-    5,
-    6,
-    14,
+    2,
+    7,
+    17,
     21,
-    25,
-    34
+    28,
+    30
   ],
   "doors": [
     [
-      7,
-      8
+      2,
+      3
+    ],
+    [
+      12,
+      18
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      17,
+      23
     ],
     [
       19,
       20
     ],
     [
-      25,
-      26
-    ],
-    [
-      9,
-      10
-    ],
-    [
-      9,
-      15
-    ],
-    [
-      10,
-      16
-    ],
-    [
       21,
-      27
+      22
     ]
   ],
   "windows": [
     [
-      2,
+      3,
       "t"
     ],
     [
       5,
-      "r"
+      "t"
     ],
     [
-      24,
-      "l"
+      17,
+      "r"
     ],
     [
       29,
       "r"
     ]
   ],
-  "tries": 4,
+  "tries": 1,
   "facts": [
     [
-      "windowCount",
-      null,
+      "nextCount",
+      "fire",
       1
     ]
   ],
-  "hard": 7,
+  "hard": 6,
   "hardest": 4,
-  "steps": 24,
+  "steps": 21,
   "extra": true
 }

@@ -1,124 +1,120 @@
 {
   "size": 6,
-  "rooms": "011222011222011333011333444433444433",
-  "objects": "...f..b.d..c.f....b...be..bbcd..e.e.",
+  "rooms": "001111001111002222332244332244332244",
+  "objects": "..........b..........bbd.a...fe.a..b",
   "roomNames": [
-    "Workshop",
-    "Statue Hall",
+    "Sun Court",
+    "Burial Chamber",
     "Treasury",
-    "Boat Pit",
-    "Well Shaft"
+    "Workshop",
+    "Shrine"
   ],
   "people": [
     "Astrid the astrologer",
-    "Basil the brewer",
-    "Cedric the carpenter",
+    "Bruno the boat builder",
+    "Cedric the chanter",
+    "Vince the vizier",
     "Della the diviner",
-    "Vince the vintner",
-    "Edith the envoy"
+    "Ena the embalmer"
   ],
-  "victim": 4,
+  "victim": 3,
   "clues": [
     [
       0,
-      "window"
+      "col",
+      1
     ],
     [
       1,
-      "next",
-      "jar"
+      "same",
+      0
     ],
     [
       2,
       "next",
-      "statue"
-    ],
-    [
-      3,
-      "on",
       "couch"
     ],
     [
-      5,
+      3,
+      "door"
+    ],
+    [
+      4,
       "next",
-      "rubble"
+      "stool"
+    ],
+    [
+      5,
+      "on",
+      "couch"
     ]
   ],
   "solution": [
-    5,
-    9,
-    14,
+    1,
+    6,
+    15,
     22,
-    24,
-    31
+    26,
+    35
   ],
   "doors": [
     [
+      7,
+      8
+    ],
+    [
+      13,
+      14
+    ],
+    [
       12,
-      13
+      18
     ],
     [
-      18,
-      24
+      9,
+      15
     ],
     [
-      2,
-      3
-    ],
-    [
-      20,
-      21
-    ],
-    [
-      20,
+      25,
       26
     ],
     [
-      10,
-      16
-    ],
-    [
-      21,
-      27
+      16,
+      22
     ]
   ],
   "windows": [
     [
-      5,
-      "r"
+      4,
+      "t"
     ],
     [
       18,
       "l"
     ],
     [
-      30,
-      "b"
+      23,
+      "r"
     ],
     [
-      34,
-      "b"
+      24,
+      "l"
     ]
   ],
-  "tries": 11,
+  "tries": 2,
+  "hard": 3,
+  "hardest": 5,
+  "steps": 18,
   "facts": [
     [
-      "touch",
-      null,
-      1
-    ],
-    [
-      "nextCount",
-      "rubble",
+      "roomCount",
+      4,
       2
     ]
   ],
   "rules": [
     "glyphs"
   ],
-  "tags": ".....C...C......C...................",
-  "hard": 6,
-  "hardest": 4,
-  "steps": 29,
+  "tags": "L..CC....C...L....C.................",
   "extra": true
 }

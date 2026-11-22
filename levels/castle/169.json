@@ -1,0 +1,210 @@
+{
+  "size": 11,
+  "rooms": "0000111222200001112222000011122220000111222233334444444333344444443333444444433335555666777755556667777555566677775555666",
+  "objects": "b.a....a.bd.e.......a...e...d.bd...a.a.afc..........b..fa.e...b...e......f.b.......ec.....bc.f.......f...ac.ef..a..ba...b",
+  "roomNames": [
+    "Great Hall",
+    "Courtyard",
+    "Throne Room",
+    "Dungeon",
+    "Chapel",
+    "Solar",
+    "Stables",
+    "Armory"
+  ],
+  "people": [
+    "Alma the archer",
+    "Birgit the baker",
+    "Cedric the chronicler",
+    "Daisy the dancer",
+    "Edith the envoy",
+    "Vivian the vintner",
+    "Frank the falconer",
+    "Gideon the glassmaker",
+    "Henrik the herald",
+    "Ivy the illuminator",
+    "Jade the juggler"
+  ],
+  "victim": 5,
+  "clues": [
+    [
+      0,
+      "alone"
+    ],
+    [
+      1,
+      "col",
+      3
+    ],
+    [
+      2,
+      "row",
+      2
+    ],
+    [
+      3,
+      "next",
+      "candles"
+    ],
+    [
+      4,
+      "row",
+      4
+    ],
+    [
+      5,
+      "col",
+      8
+    ],
+    [
+      6,
+      "alone"
+    ],
+    [
+      7,
+      "door"
+    ],
+    [
+      8,
+      "next",
+      "urn"
+    ],
+    [
+      9,
+      "notRoom",
+      6
+    ],
+    [
+      9,
+      "next",
+      "urn"
+    ],
+    [
+      9,
+      "alone"
+    ],
+    [
+      10,
+      "next",
+      "barrel"
+    ],
+    [
+      10,
+      "next",
+      "bench"
+    ]
+  ],
+  "solution": [
+    5,
+    14,
+    22,
+    42,
+    50,
+    63,
+    68,
+    81,
+    98,
+    100,
+    117
+  ],
+  "doors": [
+    [
+      3,
+      4
+    ],
+    [
+      36,
+      47
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      38,
+      49
+    ],
+    [
+      40,
+      51
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      78,
+      89
+    ],
+    [
+      72,
+      83
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      91,
+      92
+    ]
+  ],
+  "windows": [
+    [
+      1,
+      "t"
+    ],
+    [
+      8,
+      "t"
+    ],
+    [
+      9,
+      "t"
+    ],
+    [
+      54,
+      "r"
+    ],
+    [
+      88,
+      "l"
+    ],
+    [
+      99,
+      "l"
+    ],
+    [
+      120,
+      "b"
+    ]
+  ],
+  "tries": 3,
+  "facts": [
+    [
+      "doorCount",
+      null,
+      1
+    ]
+  ],
+  "rules": [
+    "ranks"
+  ],
+  "court": [
+    3,
+    5
+  ],
+  "rank": "ckcckcnkckk",
+  "hard": 7,
+  "hardest": 8,
+  "steps": 25,
+  "extra": true
+}

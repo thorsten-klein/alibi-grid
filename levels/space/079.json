@@ -1,115 +1,130 @@
 {
   "size": 6,
-  "rooms": "000000000000111111223344223344223344",
-  "objects": ".........a..d..b.dd.........b...ba..",
+  "rooms": "000111000111000111222233444433444433",
+  "objects": "..a..d........e.....eac...ef...b..f.",
   "roomNames": [
     "Crew Quarters",
+    "Cargo Bay",
     "Mess Hall",
-    "Hydroponics",
-    "Observatory",
-    "Cargo Bay"
+    "Med Bay",
+    "Bridge"
   ],
   "people": [
     "Albert the analyst",
-    "Vivian the volunteer",
     "Bella the biologist",
-    "Celia the captain",
-    "Della the doctor",
-    "Edith the electrician"
+    "Vince the volunteer",
+    "Cedric the chemist",
+    "Dora the doctor",
+    "Ena the electrician"
   ],
-  "victim": 1,
+  "victim": 2,
   "clues": [
     [
       0,
-      "window"
+      "alone"
     ],
     [
       1,
-      "on",
-      "seat"
+      "row",
+      1
     ],
     [
       2,
-      "door"
+      "col",
+      4
     ],
     [
       3,
       "next",
-      "pod"
+      "console"
     ],
     [
       4,
-      "next",
-      "scope"
+      "same",
+      5
     ],
     [
       5,
-      "on",
+      "next",
       "pod"
     ]
   ],
   "solution": [
-    5,
+    1,
     9,
-    13,
-    22,
+    16,
+    23,
     24,
     32
   ],
   "doors": [
     [
-      9,
-      15
+      2,
+      3
     ],
     [
       13,
       19
     ],
     [
-      14,
-      20
+      15,
+      21
     ],
     [
       17,
       23
     ],
     [
-      19,
-      20
-    ],
-    [
       21,
       22
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      5,
-      "r"
+      0,
+      "t"
     ],
     [
       17,
       "r"
     ],
     [
-      29,
-      "r"
+      18,
+      "l"
     ],
     [
-      34,
+      31,
       "b"
     ]
   ],
-  "tries": 1,
+  "tries": 0,
   "facts": [
     [
-      "touch",
+      "onCount",
+      "seat",
+      0
+    ],
+    [
+      "windowCount",
       null,
+      0
+    ],
+    [
+      "nextCount",
+      "scope",
       0
     ]
   ],
-  "hard": 1,
-  "hardest": 4,
-  "steps": 15,
+  "hard": 2,
+  "hardest": 3,
+  "steps": 16,
   "extra": true
 }

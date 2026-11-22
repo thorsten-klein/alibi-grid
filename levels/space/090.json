@@ -1,37 +1,37 @@
 {
   "size": 6,
-  "rooms": "000111000111000111223344223344223344",
-  "objects": ".bf.e..ab.b..b.be..e.....fb.aaf...f.",
+  "rooms": "000011000011222211222211333344333344",
+  "objects": "....e....e..af...afa....ca.e...ccab.",
   "roomNames": [
-    "Med Bay",
-    "Cargo Bay",
-    "Lab",
     "Gym",
-    "Bridge"
+    "Airlock",
+    "Cargo Bay",
+    "Engine Room",
+    "Comms"
   ],
   "people": [
-    "Albert the analyst",
+    "Vera the volunteer",
+    "Alma the analyst",
     "Birgit the botanist",
-    "Cora the captain",
-    "Dora the doctor",
-    "Viola the volunteer",
-    "Elias the engineer"
+    "Clara the captain",
+    "Dmitri the doctor",
+    "Edgar the electrician"
   ],
-  "victim": 4,
+  "victim": 0,
   "clues": [
     [
-      0,
-      "window"
+      1,
+      "row",
+      1
     ],
     [
       1,
-      "on",
-      "pod"
+      "col",
+      1
     ],
     [
       2,
-      "next",
-      "pod"
+      "alone"
     ],
     [
       3,
@@ -39,86 +39,87 @@
       "seat"
     ],
     [
-      5,
+      4,
       "door"
+    ],
+    [
+      5,
+      "next",
+      "console"
     ]
   ],
   "solution": [
-    3,
-    8,
-    12,
-    22,
-    29,
-    31
+    0,
+    7,
+    17,
+    20,
+    28,
+    33
   ],
   "doors": [
     [
-      14,
-      15
+      3,
+      4
     ],
     [
-      12,
-      18
+      8,
+      14
     ],
     [
-      14,
-      20
-    ],
-    [
-      15,
-      21
-    ],
-    [
-      16,
+      21,
       22
     ],
     [
-      31,
-      32
+      23,
+      29
     ],
     [
-      33,
-      34
+      19,
+      25
+    ],
+    [
+      27,
+      28
     ]
   ],
   "windows": [
     [
-      3,
+      2,
       "t"
     ],
     [
-      5,
-      "t"
-    ],
-    [
-      24,
+      6,
       "l"
     ],
     [
-      33,
+      30,
+      "b"
+    ],
+    [
+      31,
       "b"
     ]
   ],
-  "tries": 8,
+  "tries": 2,
+  "hard": 5,
+  "hardest": 5,
+  "steps": 20,
   "facts": [
     [
-      "doorCount",
+      "nextCount",
+      "seat",
+      1
+    ],
+    [
+      "corner",
       null,
       3
     ],
     [
-      "nextCount",
-      "pod",
-      1
-    ],
-    [
-      "touch",
+      "furniture",
       null,
-      1
+      2
     ]
   ],
-  "hard": 9,
-  "hardest": 5,
-  "steps": 25,
   "extra": true
 }

@@ -1,55 +1,60 @@
 {
   "size": 5,
-  "rooms": "0011100111223332233322333",
-  "objects": ".....dfd...b...a.........",
+  "rooms": "0011100111002223322233222",
+  "objects": ".c....d.bd......aa..e.a.a",
   "roomNames": [
-    "Spring",
-    "Elder Hut",
     "Lookout Rock",
-    "Hunting Ground"
+    "Bone Yard",
+    "Hide Tent",
+    "Flint Pit"
   ],
   "people": [
-    "Ada the artist",
-    "Bea the beekeeper",
-    "Clara the carver",
-    "Daisy the drummer",
-    "Vivian the valley guide"
+    "Alma the acrobat",
+    "Bruno the builder",
+    "Vince the visionary",
+    "Cora the carver",
+    "Dmitri the drummer"
   ],
-  "victim": 4,
+  "victim": 2,
   "clues": [
     [
       0,
       "next",
-      "fire"
+      "boulder"
     ],
     [
       1,
       "door"
     ],
     [
-      2,
-      "alone"
+      3,
+      "next",
+      "log"
     ],
     [
-      3,
-      "door"
+      4,
+      "alone"
     ]
   ],
   "solution": [
     0,
-    8,
-    11,
-    17,
-    24
+    7,
+    14,
+    18,
+    21
   ],
   "doors": [
     [
-      1,
-      2
+      6,
+      7
     ],
     [
-      5,
-      10
+      11,
+      12
+    ],
+    [
+      10,
+      15
     ],
     [
       8,
@@ -62,33 +67,33 @@
   ],
   "windows": [
     [
-      3,
+      2,
       "t"
     ],
     [
-      5,
-      "l"
+      9,
+      "r"
     ],
     [
       24,
       "b"
     ]
   ],
-  "tries": 4,
+  "tries": 3,
   "facts": [
     [
-      "edge",
-      null,
+      "nextCount",
+      "log",
       2
     ]
   ],
   "rules": [
     "trades"
   ],
-  "trade": "..012",
-  "tags": ".........2.......1.2..1.2",
-  "hard": 3,
-  "hardest": 4,
-  "steps": 17,
+  "trade": ".0.20",
+  "tags": "...0.........2.4.......0.",
+  "hard": 0,
+  "hardest": 2,
+  "steps": 13,
   "extra": true
 }

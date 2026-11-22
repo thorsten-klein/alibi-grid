@@ -1,200 +1,163 @@
 {
-  "size": 10,
-  "rooms": "0011122233001112223300111222330011122233445555666644555566664455556666445555666677777777777777777777",
-  "objects": "b..df.....ef.........e.a..b......ca...f.c..f.f..a.a...ea.b.f..f....d.b..a.a.......c..e....b.aebc...e",
+  "size": 9,
+  "rooms": "000001111000001111000001111222223333222223333445556666445556666445556666445556666",
+  "objects": "b.b.bb...b.....d....d.bf....bc...ca.d....b....a...............a.d...f..f.b.....f.",
   "roomNames": [
-    "Foyer",
-    "Box Office",
     "Lighting Booth",
-    "Wings",
-    "Orchestra Pit",
+    "Prop Store",
+    "Costume Room",
+    "Stage",
     "Green Room",
     "Balcony",
-    "Dressing Room"
+    "Wings"
   ],
   "people": [
-    "Vera the violinist",
-    "Alma the author",
-    "Birgit the baritone",
-    "Celia the critic",
+    "Arthur the agent",
+    "Birgit the bass player",
+    "Victor the ventriloquist",
+    "Cedric the critic",
     "Della the director",
-    "Edith the extra",
-    "Fiona the fan",
+    "Elias the extra",
+    "Felix the flautist",
     "Gus the guitarist",
-    "Hugo the harpist",
-    "Igor the illusionist"
+    "Henrik the hairdresser"
   ],
-  "victim": 0,
+  "victim": 2,
   "clues": [
     [
       0,
-      "next",
-      "mirror"
+      "on",
+      "sofa"
     ],
     [
       1,
-      "alone"
+      "next",
+      "light"
     ],
     [
       2,
-      "on",
-      "seat"
+      "door"
     ],
     [
       3,
-      "next",
-      "rack"
+      "door"
     ],
     [
       3,
+      "row",
+      3
+    ],
+    [
+      4,
       "alone"
     ],
     [
-      4,
-      "next",
-      "sofa"
-    ],
-    [
-      4,
+      5,
       "same",
-      6
-    ],
-    [
-      5,
-      "on",
-      "seat"
-    ],
-    [
-      5,
-      "alone"
+      7
     ],
     [
       6,
-      "next",
-      "mirror"
+      "row",
+      6
+    ],
+    [
+      6,
+      "same",
+      8
     ],
     [
       7,
       "next",
-      "seat"
-    ],
-    [
-      7,
-      "alone"
+      "light"
     ],
     [
       8,
-      "next",
+      "on",
       "sofa"
-    ],
-    [
-      9,
-      "next",
-      "rack"
     ]
   ],
   "solution": [
     2,
-    19,
-    23,
-    31,
-    47,
-    50,
-    66,
-    75,
-    84,
-    98
+    14,
+    22,
+    35,
+    39,
+    51,
+    54,
+    70,
+    73
   ],
   "doors": [
     [
-      21,
-      22
+      4,
+      5
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      26,
+      35
     ],
     [
       31,
-      41
+      32
     ],
     [
-      24,
-      25
-    ],
-    [
-      33,
-      43
-    ],
-    [
-      27,
-      28
-    ],
-    [
-      35,
-      45
-    ],
-    [
-      36,
+      37,
       46
     ],
     [
-      39,
+      40,
       49
     ],
     [
-      41,
-      42
+      43,
+      52
     ],
     [
-      71,
-      81
+      55,
+      56
     ],
     [
-      45,
-      46
-    ],
-    [
-      73,
-      83
-    ],
-    [
-      77,
-      87
+      76,
+      77
     ]
   ],
   "windows": [
-    [
-      1,
-      "t"
-    ],
     [
       3,
       "t"
     ],
     [
-      69,
-      "r"
-    ],
-    [
-      80,
+      18,
       "l"
     ],
     [
-      90,
+      36,
       "l"
     ],
     [
-      99,
-      "r"
+      72,
+      "l"
+    ],
+    [
+      72,
+      "b"
     ]
   ],
-  "tries": 22,
+  "tries": 2,
+  "hard": 5,
+  "hardest": 4,
+  "steps": 24,
   "facts": [
     [
-      "onCount",
-      "sofa",
-      0
+      "doorCount",
+      null,
+      2
     ]
   ],
-  "hard": 4,
-  "hardest": 6,
-  "steps": 44,
   "extra": true
 }

@@ -1,42 +1,37 @@
 {
-  "size": 7,
-  "rooms": "0001111000111100022220002222333444433344443334444",
-  "objects": "d..b.....efd....b..c.........a......b.....a.add..",
+  "size": 6,
+  "rooms": "001122001122003333003333004444004444",
+  "objects": "......befd.bd....bc.a.d.a.d.....de..",
   "roomNames": [
-    "Fireside Lounge",
-    "Spa",
-    "Suite",
     "Dining Hall",
-    "Bar"
+    "Spa",
+    "Bar",
+    "Sauna",
+    "Boot Room"
   ],
   "people": [
-    "Ada the athlete",
-    "Viola the vlogger",
-    "Bea the bartender",
-    "Cedric the climber",
+    "Astrid the avalanche guard",
+    "Vivian the vlogger",
+    "Basil the baker",
+    "Clara the cook",
     "Dora the driver",
-    "Edith the explorer",
-    "Frank the forester"
+    "Elias the engineer"
   ],
   "victim": 1,
   "clues": [
     [
       0,
-      "col",
-      6
-    ],
-    [
-      1,
-      "next",
-      "tree"
-    ],
-    [
-      2,
-      "door"
-    ],
-    [
-      2,
       "alone"
+    ],
+    [
+      2,
+      "next",
+      "chair"
+    ],
+    [
+      2,
+      "same",
+      3
     ],
     [
       3,
@@ -44,88 +39,81 @@
     ],
     [
       4,
-      "notRoom",
-      1
+      "next",
+      "chair"
     ],
     [
       5,
       "next",
-      "fire"
-    ],
-    [
-      6,
-      "on",
-      "chair"
+      "tree"
     ]
   ],
   "solution": [
+    5,
     6,
-    8,
-    17,
-    23,
-    33,
-    39,
-    42
+    14,
+    21,
+    25,
+    34
   ],
   "doors": [
     [
-      2,
-      3
+      7,
+      8
     ],
     [
-      23,
-      24
+      19,
+      20
     ],
     [
-      22,
-      29
+      25,
+      26
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      15
     ],
     [
       10,
-      17
+      16
     ],
     [
-      27,
-      34
-    ],
-    [
-      44,
-      45
+      21,
+      27
     ]
   ],
   "windows": [
     [
-      4,
+      2,
       "t"
     ],
     [
-      20,
+      5,
       "r"
     ],
     [
-      27,
-      "r"
+      24,
+      "l"
     ],
     [
-      46,
-      "b"
+      29,
+      "r"
     ]
   ],
-  "tries": 2,
+  "tries": 4,
   "facts": [
     [
-      "nextCount",
-      "sofa",
+      "windowCount",
+      null,
       1
-    ],
-    [
-      "nextCount",
-      "skis",
-      0
     ]
   ],
-  "hard": 2,
-  "hardest": 5,
-  "steps": 19,
+  "hard": 7,
+  "hardest": 4,
+  "steps": 24,
   "extra": true
 }

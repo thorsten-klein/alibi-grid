@@ -1,108 +1,123 @@
 {
   "size": 6,
-  "rooms": "000011000011222211222211333344333344",
-  "objects": ".....a.d.c.d.......b...ab....b.f...b",
+  "rooms": "000111000111000111223344223344223344",
+  "objects": "..a..a........b.b.......d...a.ca.ac.",
   "roomNames": [
-    "Dining Room",
+    "Ballroom",
     "Cellar",
-    "Library",
+    "Billiard Room",
     "Gallery",
-    "Kitchen"
+    "Study"
   ],
   "people": [
-    "Albert the author",
-    "Bea the banker",
-    "Cora the colonel",
-    "Dexter the doctor",
-    "Elsa the editor",
-    "Victor the valet"
+    "Arthur the architect",
+    "Bruno the butler",
+    "Cedric the cook",
+    "Viola the vicar",
+    "Dora the dealer",
+    "Edith the editor"
   ],
-  "victim": 5,
+  "victim": 3,
   "clues": [
     [
       0,
+      "row",
+      0
+    ],
+    [
+      1,
       "col",
-      2
-    ],
-    [
-      1,
-      "next",
-      "piano"
-    ],
-    [
-      1,
-      "door"
+      1
     ],
     [
       2,
-      "next",
-      "chair"
+      "on",
+      "sofa"
+    ],
+    [
+      2,
+      "door"
     ],
     [
       3,
-      "window"
+      "door"
     ],
     [
       4,
       "next",
-      "sofa"
+      "chair"
+    ],
+    [
+      5,
+      "alone"
     ]
   ],
   "solution": [
-    2,
-    10,
-    17,
-    18,
-    25,
+    0,
+    7,
+    14,
+    22,
+    29,
     33
   ],
   "doors": [
     [
-      9,
-      10
+      2,
+      3
     ],
     [
-      6,
-      12
+      12,
+      18
+    ],
+    [
+      14,
+      20
     ],
     [
       15,
-      16
+      21
     ],
     [
-      22,
-      28
+      17,
+      23
     ],
     [
-      19,
-      25
+      31,
+      32
     ],
     [
-      27,
-      28
+      21,
+      22
     ]
   ],
   "windows": [
     [
+      1,
+      "t"
+    ],
+    [
+      2,
+      "t"
+    ],
+    [
       6,
       "l"
     ],
     [
-      11,
-      "r"
-    ],
-    [
       18,
       "l"
-    ],
-    [
-      30,
-      "b"
     ]
   ],
   "tries": 0,
-  "hard": 3,
-  "hardest": 4,
-  "steps": 13,
+  "facts": [
+    [
+      "roomCount",
+      2,
+      0
+    ]
+  ],
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
   "extra": true
 }

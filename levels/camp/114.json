@@ -1,46 +1,36 @@
 {
-  "size": 8,
-  "rooms": "0001111100011111000222330002223300022233444455554444555544445555",
-  "objects": "ca.ddb....fa.bf....a...cb.a..b..f.bb..d...b..bea.a.bef.ec......e",
+  "size": 7,
+  "rooms": "0000111000011122221112222111333111133344443334444",
+  "objects": "fe..fb.b.a..c......b....fb.bd......a.......ea....",
   "roomNames": [
-    "Elder Hut",
     "Fire Pit",
-    "Hide Tent",
-    "Hunting Ground",
-    "Spring",
-    "Cave"
+    "Flint Pit",
+    "River Bank",
+    "Cave",
+    "Hide Tent"
   ],
   "people": [
-    "Alma the artist",
-    "Vivian the valley guide",
-    "Basil the beekeeper",
-    "Cedric the carver",
-    "Della the drummer",
-    "Edgar the elk tamer",
-    "Felix the flute player",
-    "Grace the guard"
+    "Astrid the artist",
+    "Birgit the builder",
+    "Clara the carrier",
+    "Dexter the drummer",
+    "Viola the visionary",
+    "Edith the elk tamer",
+    "Fiona the firekeeper"
   ],
-  "victim": 1,
+  "victim": 4,
   "clues": [
     [
       0,
-      "on",
-      "leaves"
-    ],
-    [
-      0,
-      "next",
-      "fire"
+      "window"
     ],
     [
       1,
-      "next",
-      "leaves"
+      "door"
     ],
     [
       2,
-      "next",
-      "bones"
+      "alone"
     ],
     [
       3,
@@ -54,102 +44,86 @@
     ],
     [
       5,
-      "same",
-      6
+      "door"
     ],
     [
       6,
-      "on",
-      "log"
-    ],
-    [
-      7,
       "next",
       "tree"
     ]
   ],
   "solution": [
-    5,
-    12,
-    18,
-    27,
-    39,
-    40,
-    49,
-    62
+    6,
+    11,
+    14,
+    26,
+    29,
+    38,
+    44
   ],
   "doors": [
     [
-      2,
-      3
+      10,
+      11
     ],
     [
-      26,
-      27
+      9,
+      16
     ],
     [
-      34,
-      42
+      24,
+      31
     ],
     [
-      12,
-      20
+      30,
+      31
     ],
     [
-      15,
-      23
+      31,
+      38
     ],
     [
-      29,
-      30
-    ],
-    [
-      35,
-      43
+      21,
+      28
     ],
     [
       37,
-      45
-    ],
-    [
-      39,
-      47
-    ],
-    [
-      43,
-      44
+      38
     ]
   ],
   "windows": [
     [
-      2,
+      6,
       "t"
     ],
     [
-      15,
+      21,
+      "l"
+    ],
+    [
+      27,
       "r"
     ],
     [
-      16,
+      35,
       "l"
-    ],
-    [
-      32,
-      "l"
-    ],
-    [
-      61,
-      "b"
     ]
   ],
   "tries": 3,
+  "facts": [
+    [
+      "roomCount",
+      1,
+      3
+    ]
+  ],
   "rules": [
     "trades"
   ],
-  "trade": ".00.0..0",
-  "tags": "........12..0...1......................0.0....................0.",
-  "hard": 4,
-  "hardest": 4,
-  "steps": 21,
+  "trade": ".0...2.",
+  "tags": "...........0....0.....................2........10",
+  "hard": 2,
+  "hardest": 3,
+  "steps": 15,
   "extra": true
 }

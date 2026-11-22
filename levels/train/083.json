@@ -1,37 +1,41 @@
 {
   "size": 6,
-  "rooms": "001122001122001122333344333344333344",
-  "objects": "b...d...e....ed.c.fa............f...",
+  "rooms": "000111000111000111222333222333444444",
+  "objects": "c....d.e..a.a....f.d.......c.ebcada.",
   "roomNames": [
-    "Lounge Car",
-    "Sleeper B",
-    "Bar Car",
+    "Guard's Van",
     "Baggage Car",
-    "Sleeper C"
+    "Galley",
+    "Bar Car",
+    "Observation Car"
   ],
   "people": [
-    "Ada the attendant",
+    "Arthur the accordionist",
     "Birgit the bookseller",
     "Clara the courier",
-    "Vivian the violinist",
-    "Dmitri the diplomat",
-    "Edith the envoy"
+    "Dexter the diplomat",
+    "Vince the vendor",
+    "Edgar the engineer"
   ],
-  "victim": 3,
+  "victim": 4,
   "clues": [
     [
       0,
-      "window"
+      "same",
+      2
     ],
     [
       1,
-      "next",
-      "crate"
+      "door"
+    ],
+    [
+      1,
+      "alone"
     ],
     [
       2,
-      "same",
-      0
+      "next",
+      "wine"
     ],
     [
       3,
@@ -39,51 +43,52 @@
     ],
     [
       4,
-      "next",
-      "wine"
+      "col",
+      1
     ],
     [
       5,
-      "alone"
+      "next",
+      "seat"
     ]
   ],
   "solution": [
-    2,
-    10,
-    15,
-    19,
-    24,
+    3,
+    8,
+    16,
+    18,
+    25,
     35
   ],
   "doors": [
     [
-      13,
-      14
+      8,
+      9
     ],
     [
-      13,
-      19
+      12,
+      18
     ],
     [
-      3,
-      4
+      17,
+      23
     ],
     [
-      14,
-      20
+      20,
+      21
     ],
     [
-      16,
-      22
+      25,
+      31
     ],
     [
-      21,
-      22
+      27,
+      33
     ]
   ],
   "windows": [
     [
-      2,
+      4,
       "t"
     ],
     [
@@ -91,29 +96,17 @@
       "t"
     ],
     [
+      29,
+      "r"
+    ],
+    [
       30,
-      "b"
-    ],
-    [
-      31,
-      "b"
+      "l"
     ]
   ],
-  "tries": 2,
-  "facts": [
-    [
-      "nextCount",
-      "wine",
-      2
-    ],
-    [
-      "doorCount",
-      null,
-      1
-    ]
-  ],
-  "hard": 0,
-  "hardest": 2,
-  "steps": 16,
+  "tries": 0,
+  "hard": 2,
+  "hardest": 4,
+  "steps": 14,
   "extra": true
 }
